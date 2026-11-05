@@ -1,0 +1,1608 @@
+{
+ "pages": 1887,
+ "notes_hidden": 5619,
+ "docs_links": 0,
+ "footers_folded": 12,
+ "samples": [
+  [
+   "app/login/index.html",
+   "New here? Sign up · Forgotten your password?"
+  ],
+  [
+   "app/login/index.html@next=%2Fcheck%2F.html",
+   "New here? Sign up · Forgotten your password?"
+  ],
+  [
+   "app/login/index.html@next=%2Fcode%2F.html",
+   "New here? Sign up · Forgotten your password?"
+  ],
+  [
+   "app/login/index.html@next=%2Fdashboard%2F.html",
+   "New here? Sign up · Forgotten your password?"
+  ],
+  [
+   "authorities/index.html",
+   "Machine-readable resource catalogue · Agent reading guide"
+  ],
+  [
+   "chat/index.html",
+   "Tap Agent at the bottom right to start. Limits: 10 questions an hour per visitor."
+  ],
+  [
+   "docs/ghf_wiki/ot_agentroles/latest/html/en/index.html",
+   "Agent roles — Great House Farm programme"
+  ],
+  [
+   "docs/ghf_wiki/ot_editingprotocol/latest/html/en/index.html",
+   "Machine-readable summary"
+  ],
+  [
+   "fcg/accountability/index.html",
+   "lead: This index describes conduct and its measurable effect."
+  ],
+  [
+   "fcg/case/bp-properties-bp-pension-trust-forensic-institutional-review.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "fcg/case/bpvsbuckler-archive-research-leads.html",
+   "What this page is about → Read the Docs"
+  ],
+  [
+   "fcg/case/cardiff-city-council-forensic-institutional-review.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "fcg/case/claim-repeated-attempts-to-make-mary-williams-occupancy-of-parcel-a-appear-permissive.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "fcg/case/court-of-appeal-forensic-institutional-review.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "fcg/case/institutional-review-coverage-register.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "fcg/case/llandough-community-council-forensic-institutional-review.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "fcg/case/records-access-chronology.html",
+   "Machine-readable research index: AI Agent & Machine-Readable Index — canonical links, identifiers and public retrieval e"
+  ],
+  [
+   "fcg/case/scrutiny-and-accountability.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "fcg/case/suspected-fraud-concealment.html",
+   "lead: This section sets out the family’s case that fraud and concealment cost it its home and land, and the evidence"
+  ],
+  [
+   "fcg/case/three-part-parcel-a-forensic-scope-title-assessment.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "fcg/case/three-parts-of-parcel-a-divergent-chronologies.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "glossary/index.html",
+   "New here? Every legal, land and records word on Cedwyn, in one line each. Each one links on, all the way to the record i"
+  ],
+  [
+   "nomenclature/c/cedwyn-estate/index.html",
+   "What this page is about → Read the Docs"
+  ],
+  [
+   "parcels/site-areas/index.html",
+   "Machine-readable and downloadable catalogue documentation."
+  ],
+  [
+   "projects/archive/index.html",
+   "Agent roles — Great House Farm programme"
+  ],
+  [
+   "projects/archive/site-2026-10-21/workstreams/evidence-recovery/index.html",
+   "Agent roles — Great House Farm programme page · 2026-10-04"
+  ],
+  [
+   "projects/lcc-meeting-follow-through/index.html",
+   "lead: This page tracks the Council’s publication obligations and follow-through on outstanding correspondence."
+  ],
+  [
+   "projects/sop-trigger-event/index.html",
+   "Machine-readable: sop-branches.json (nodes, edges, deadline rules)."
+  ],
+  [
+   "records/index.html",
+   "Machine-readable resource catalogue · Agent reading guide"
+  ],
+  [
+   "research/1877-agreement/index.html",
+   "AI AGENT ENTRY POINT · 1877 transaction and quarry arrangement"
+  ],
+  [
+   "research/anomalies-register/bpvsbuckler-archive-research-leads/index.html",
+   "What this page is about → Read the Docs"
+  ],
+  [
+   "research/anomalies-register/llandough-penarth-cydfin-ty-mawr-manorial-evidence/index.html",
+   "lead: This page records newly verified internet and catalogue evidence relevant to the pre-1877 history, manorial co"
+  ],
+  [
+   "research/bp-properties-v-buckler/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/bute-estate/index.html",
+   "AI AGENT ENTRY POINT · Bute landownership"
+  ],
+  [
+   "research/claim-repeated-attempts-to-make-mary-williams-occupancy-of-parcel-a-appear-permissive/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/editing-protocol/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/bp-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/cadw-welsh-government-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/cps-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0001-cwm-cedwyn-llandough-boundary-1392/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0002-herbert-vaughan-cydwin-lease-1547/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0003-bute-records-cedfin-ty-mawr/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0004-ty-mawr-map-1824/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0005-historical-map-labelled-1841/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0006-bute-thomas-agreement-1877/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0007-bute-trustees-receipts-payments-1877/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0008-reported-1877-lease-john-williams/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0009-family-tree-planting-parcel-a/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0010-llandough-farmyard-theft-geese-1891/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0011-marconi-lavernock-wireless-cutting-1897/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0012-bute-will-press-reports-1900/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0013-bute-conveyance-1905/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0014-bute-tenancy-john-williams-1916/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0015-bute-corbett-drain-agreement-1924/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0016-1928-last-rent-receipt-quarrying/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0017-glamorgan-archives-dsa-12-5400-name-trap/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0018-cogan-pill-letter-spearhead-spur/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0019-bute-wgr-conveyance-plan-1938/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0020-western-ground-rents-rental-books/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0021-western-mail-1938-cowbridge-farm-sale/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0022-press-1938-bute-wgr-sale-completion/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0023-1939-wgr-john-williams-tenancy-plan/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0024-bute-mountjoy-estate-maps-d1777/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0025-frederick-buckler-unwritten-tenancy-1949/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0026-family-title-papers-removed-blanket-box/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0027-bute-manor-disposals-db-m-22/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0028-bruce-sutherland-penarth-petty-sessions/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0029-local-land-charges-dcvg-c-7/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0030-cardiff-county-court-registers-aca/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0031-1954-buckler-tenancy-attempt/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0032-1955-order-14-possession-order/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0033-mary-williams-previous-statement-applications/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0034-writ-possession-execution-return-1955/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0035-western-mail-1958-leckwith-common-hearing/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0036-western-mail-1958-gcc-acquisition-notice/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0037-western-mail-1958-crichel-down/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0038-hansard-1958-leckwith-common-no-petition/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0039-wgr-tenancy-offers-1959-1965/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0040-1961-wgr-brick-tile-deed/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0041-cardiff-county-court-possession-order-1962/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0042-llandough-school-conveyance-1965/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0043-wgr-bp-pension-trust-conveyance/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0044-vg41-village-green-registration-1970/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0045-1971-abstract-title-bp-pension/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0046-1972-outline-planning-permission-ownership-certificate/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0047-thomas-rcahmw-survey-floor-plan/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0048-telegraph-open-day-ancient-house/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0049-mary-williams-plea-ownership-pleadings/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0050-1974-bp-licence-letters/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0051-grievous-loss-letter-western-mail/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0052-bp-pension-trust-bp-properties-conveyance/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0053-branwen-buckler-pregnant-kitchen-photo/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0054-ggat-wales-west-roman-villa-letters/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0055-neath-guardian-historical-society-1980/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0056-neath-guardian-17-april-1980-roman-villa-remains-a/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0057-hansard-rowlands-western-ground-rents-bp/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0058-ggat-warning-letter-1982/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0059-wa231076-form-a13-first-registration/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0060-hmlr-notification-after-mary-williams-death/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0061-buckler-1983-diary-daniel-thomas-receipts/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0062-buckler-1983-diary-handwritten-sums/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0063-hmlr-wa240304-item-11-form-1c/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0064-hmlr-wa240304-item-5-letters/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0065-wa240304-farmhouse-first-registration-file/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0066-hmlr-wa240304-item-10-register-1983/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0067-mary-doreen-williams-death-index/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0068-burnt-relics-years-of-digs/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0069-hmlr-wa240304-item-7-d23-1983/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0070-hmlr-wa240304-item-4-correspondence-1983/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0071-wa231076-1983-84-registration-activity/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0072-south-wales-echo-1983-conservation/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0073-family-solicitors-litigation-file-1984-87/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0074-high-court-trial-judgment-1986/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0075-south-wales-echo-1986-high-court-judgment/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0076-house-of-lords-petition-leave-papers/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0077-east-vale-local-plan-retain-buildings/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0078-1987-title-amalgamation-application-plan/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0079-south-wales-echo-1987-may/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0080-bp-properties-v-buckler-judgment/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0081-cadw-letter-minister-spot-listing/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0082-identity-persons-1988-eviction-footage/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0083-itv-wales-report-eviction-injunction/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0084-photograph-great-house-farm-ruins-with-the-church/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0085-glamorgan-village-book-demolition-page/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0086-newspaper-photo-police-outside-farmhouse/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0087-south-wales-echo-search-extracts/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0088-south-wales-echo-buckler-dispute-1988/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0089-chainsaw-farmer-vows-fight-on/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0090-south-wales-echo-bailiffs-medical-attention/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0091-vale-planning-committee-1988-89-dcvg/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0092-echo-alun-michael-lord-chancellor/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0093-estates-gazette-1988-bp-welsh-sales/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0094-cadw-barn-survey-photo-1988/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0095-cadw-farmhouse-survey-photo-1988/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0096-cadw-1988-inspection-photographs-listing/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0097-echo-angry-scenes-farmer-evicted/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0098-south-wales-echo-forced-entry-1988/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0099-south-wales-echo-bp-summons-1988/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0100-south-wales-echo-history-fight-1988/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0101-echo-extract-hospital-assault-charges/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0102-billys-unhappy-family-echo-1988/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0103-echo-history-fight-save-farm/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0104-south-wales-echo-extract-1988/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0105-western-mail-final-eviction-hearing-1988/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0106-tears-flow-farmhouse-razed-1988/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0107-south-wales-echo-1988-councillor-protest/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0108-south-wales-echo-bp-demolition-anger/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0109-south-wales-echo-bail-extract-1988/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0110-south-wales-echo-eviction-extract/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0111-echo-readers-letter-bulldozed-report/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0112-echo-farm-to-a-bus/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0113-glamorgan-gwent-archaeological-trust-comments-and/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0114-planning-report-89-01396-out-outline-permission/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0115-charge-against-evicted-farmer-dropped/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0116-echo-bail-change-evicted-farmer/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0117-south-wales-echo-1989-vale-legal-action/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0118-smr-record-card-1989-building-destroyed/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0119-south-wales-echo-march-1989-extract/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0120-echo-evicted-farmer-pleads-guilty/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0121-echo-farmer-freed-fight-on/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0122-echr-application-14464-88-inadmissibility/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0123-outline-planning-application-form-d-bp-properties/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0124-outline-planning-permission-89-01396-out-residenti/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0125-handwritten-planning-officer-s-report-on-outline-a/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0126-ggat-archaeological-assessment-great-house-1990/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0127-planning-application-form-d-for-approval-of-reserv/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0128-ggat-letter-reserved-matters-approval/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0129-approved-planning-drawings-ref-92-00671-res-screen/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0130-glamorgan-village-book-presentation-page/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0131-glamorgan-gwent-archaeological-trust-letters-on-ar/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0132-cotswold-archaeology-condition-18-discharge/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0133-planning-drawings-ideal-homes-wales-llandough-farm/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0134-cotswold-archaeological-trust-letter-to-national-m/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0135-site-layout-setting-out-drawing-for-20-plot-housin/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0136-forest-of-cardiff-woodland-transfer-1994/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0137-oath-of-allegiance-sion-buckler-2002/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0138-museum-wales-spearhead-record/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0139-forest-cardiff-goldsworthy-transfer-excision/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0140-museum-wales-rowel-spur-record/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0141-royal-signals-association-membership-card/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0142-vale-ward-representations-complaint-route/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0143-rcahmw-price-list-rc26-0375/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0144-hmlr-holding-letter-paper-files/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0145-land-registry-archive-image-2026/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0146-tna-mdr-llandough-manor-return/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0147-hmlr-letter-ty-mawr-registration-history/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0148-hmlr-foi-f260213-response/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0149-hmlr-stage-one-complaint-decision/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0150-hmlr-stage-two-complaint-acknowledgement/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0151-moj-central-correspondence-reply-to130237/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0152-heneb-her-foi-position-reply/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0153-hmlr-stage-two-complaint-decision/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0154-rcahmw-licence-fees-rc26-0205/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0155-glamorgan-archives-email-june-2026/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0156-cadw-atisn-27021-response-letter/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0157-llandough-community-council-correspondence-2026/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0158-hmlr-n610cgv-letter-wa231076/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0159-south-wales-police-foi-719-26/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0160-dcms-foi2026-06174-response/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0161-hmlr-schedule-first-registration-documents/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0162-ico-letter-ic-546505-w6p0/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0163-moj-foi-260805002-response/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0164-dcms-internal-review-response-ir2026-06711/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0165-branwen-buckler-1988-removal-testimony/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0166-wa735527-title-plan-september-2026/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0167-wa231076-title-plan-2026/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0168-wa513690-title-plan-september-2026/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0169-wa735527-title-register-september-2026/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0170-wa231076-title-register-september-2026/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0171-wa513690-title-register-september-2026/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0172-glamorgan-archives-photography-order-form/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0173-moj-foi-internal-review-extension/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0174-npcc-foi-3156-2026-response/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0175-heneb-her-schedule-records-response/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0176-llandough-council-reply-quoted-september/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0177-llandough-council-foi-section-12-refusal/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0178-wales-office-foi-26foi-103-response/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0179-heneb-1983-warehouse-fire-enquiry/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0180-heneb-her-classification-complaint/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0181-llandough-council-reply-transfer-clerk/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0182-heneb-her-preservation-notice-email/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0183-npcc-internal-reviews-3157-3176/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0184-rcahmw-reply-rc26-0375-ty-mawr/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0185-rcahmw-order-form-rc26-0375/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0186-south-wales-police-foi-response/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0187-wales-office-internal-review-acknowledgement/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0188-glamorgan-archives-bute-10-catalogue/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0189-hmcts-extension-email-260904007/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0190-museum-wales-foi-2026-036-reply/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0191-npcc-foi-search-disclosure-response/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0192-mod-foi-internal-review-09190/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0193-llandough-council-section-12-refusal/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0194-butterley-brick-product-brochure-annotated-stonele/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0195-cedwyn-cwm-cedwyn-reference-index/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0196-external-finishes-schedule-for-20-dwellings-great/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0197-ideal-homes-sales-brochure-for-hunters-green-housi/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0198-nant-cedwyn-brook-place-name/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0199-photograph-tree-planting-at-great-house-farm-date/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0200-cwm-cedwyn-place-name-note/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0201-planning-officer-s-report-on-outline-application-f/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0202-glamorgan-village-book-front-cover/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0203-glamorgan-village-book-back-cover/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0204-glamorgan-village-book-library-page/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0205-glamorgan-village-book-llandough-page/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0206-glamorgan-village-book-llandough-archaeology/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0207-unidentified-scan-media-74/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0208-unidentified-scan-media-76/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0209-unidentified-scan-media-81/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0210-ynys-cedwyn-place-name-note/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0211-db-e-1-plan-19-cedfin-ty-mawr-1824/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0212-llandough-poor-rate-books-1870s/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0213-clyde-street-roath-lease-6-nov-1877/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0214-llandough-community-council-minutes-1987/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0216-1965-contract-condition-f-conveyance-25-december-1938/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0217-forest-of-cardiff-accounts-2006-sale-of-land-leckwith-road/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0218-cwm-cydfin-sssi-0524-citation-and-boundary/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0219-bute-coppice-woods-sale-1902-cwm-cydfin-wood/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0220-leckwith-woods-wgr-gift-1940-1942/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0221-nrw-sssi-0524-notification-file/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0222-dbdt121-3-wgr-coles-leckwith-tenancy-1944/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0223-1881-census-name-variant/index.html",
+   "What this page is about → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0224-1881-census-llandough-rg11-5288/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0225-trade-directories-1868-1901-john-williams-great-house/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0226-south-wales-star-1892-john-williams-great-house-farm/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0227-cardiff-times-1904-john-williams-tenancy-since-1855/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0228-llandough-farm-rees-family-1841-1910/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0229-western-mail-1959-mary-butler-great-house-farm/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0230-western-mail-1936-llandough-bride-buckler-williams/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0231-london-gazette-land-registry-notices-llandough-1960-1972/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0232-commons-registration-glamorgan-act-1983/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0233-dbdt129-3-wgr-thomas-llandough-farm-tenancy-1940/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0234-ynysawdre-coal-co-thomas-williams-agreement-award-1878/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0235-hansard-1962-leasehold-bill-llandough-estate/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0236-water-undertakings-return-1914-bute-spring-llandough/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0237-pending-wellcome-pp-pcb-c-1-47-anti-fluoridation-wales/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0238-williams-of-llandough-farm-1903-1914-unexplained/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0239-tna-bd-28-177-glamorgan-development-plan-inquiry-verbatim-1958/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0240-tna-bd-28-133-hlg-119-maf-112-glamorgan-development-plan-files/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0241-tna-maf-32-1220-39-national-farm-survey-penarth-1941/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0242-western-mail-1957-mrs-m-d-buckler-snippet/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0243-barry-dock-news-1908-court-leet-john-williams-great-house/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0244-welsh-government-atisn-26-0010-disclosure-response-19-oct-2026/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0245-cadw-atisn-27589-response-s14-2-19-oct-2026/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0246-cardiff-times-1864-death-of-amy-williams-great-house-farm/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0247-barry-dock-news-1894-swine-fever-great-house-llandough/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0248-marconi-in-wales-may-1897-contemporary-press/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0249-london-gazette-3-jul-1996-western-ground-rents-bp-group-liquidation/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0250-london-gazette-18-mar-1992-old-barry-road-llandough-stopping-up-order/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0251-companies-house-bp-properties-limited-00699446/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0252-tna-os-35-2503-object-name-book-glamorgan-47-nw/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0253-tna-ir-90-51-58-ir-94-51-58-tithe-redemption-llandough-cogan-leckwith/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0254-tna-maf-11-55-5333-llandough-exchange-of-lands-1879/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0255-witness-statement-branwen-cadw-inspection-1988/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0256-kemp-diary-lavernock-1897-bodleian-ms-marconi-89/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0257-glamorgan-archives-d696-western-ground-rents-records-custodial-history/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0258-glamorgan-archives-aca-2-3-6-cardiff-county-court-survival-map/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0259-leckwith-woods-1955-cardiff-forestry-commission-lease-and-boundary-measure/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0260-lakeside-and-llandough-development-co-00648813/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0261-hansard-1963-western-ground-rents-ministers/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0262-tna-lt-13-3048-western-ground-rents-v-cardiff-lands-tribunal-1967/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0263-commons-registration-1965-publicity-glamorgan-notices-vg41/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0264-tcpa-1971-s54-listing-deposit-local-land-charge/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0265-hmlr-registration-background-compulsory-1975-r29-certificate/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0266-glamorgan-archives-p35-llandough-community-council-minutes-1982-2000/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0267-john-loosemore-co-loosemores-services-01379651/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0268-cadw-13428-lower-farmhouse-rhoose-listed-12-oct-1988/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0269-tna-wa-9-49-land-authority-for-wales-board-1988/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0270-bp-pension-fund-1988-sale-intercontinental-law-llandough-press/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0271-tna-bd-34-114-historic-buildings-council-wales-1988-1989/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0272-cadw-1989-llandough-resurvey-list-13430-13431-13432/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0273-south-wales-echo-23-feb-1990-great-house-farm-homes-bid-village-green/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0274-probate-calendar-1991-william-beverley-buckler/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0275-london-gazette-old-barry-road-llandough-stopping-up-1990-1991-1997/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0276-churchview-close-llandough-ideal-homes-persimmon-1994-1996/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0277-london-gazette-1996-1997-western-ground-rents-creditors-and-final-meetings/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0278-nlw-bute-estate-records-llandough-manor-rentals-1808-1881-r-6-27-45-and-presentmen/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0279-barry-dock-news-16-aug-1889-p-2-apples-taken-from-the-orchard-of-great-house-farm/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0280-llandough-lime-works-and-quarry-1876-1947-daniel-thomas-s-kilns-quarry-workers-kel/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0281-not-our-family-rev-f-e-frank-williams-rector-of-llandough-leckwith-and-cogan-from/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0282-evening-express-27-mar-and-2-apr-1907-air-rifle-meeting-at-great-house-farm-llando/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0283-bute-court-leet-at-llandough-press-reports-1904-1917-john-williams-on-the-1910-gra/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0284-alfred-thomas-lord-pontypridd-son-of-daniel-thomas-of-the-llandough-lime-works-die/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0285-snippets-only-western-mail-1925-1939-naming-great-house-farm-llandough-john-willia/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0286-snippet-only-western-mail-17-nov-1942-p-2-important-sale-of-live-and-dead-farming/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0287-london-gazette-31-oct-1958-p-6652-the-city-of-cardiff-leckwith-common-compulsory-p/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0288-snippets-only-press-on-the-1968-69-takeover-battle-for-western-ground-rents-ltd-en/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0289-snippets-only-bp-pension-trust-in-south-wales-1981-83-sale-of-its-residential-grou/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0290-snippet-only-south-wales-echo-2-jun-1990-p-2-billy-died-suddenly-this-week-he-made/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0291-nlw-bute-catalogue-d153-llandough-33-acres-great-house-farm-limeworks-and-pwllypant-d242-d247-d258/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0292-llandough-lime-works-and-brickworks-industrial-sequence-secondary-and-billups-obituary-1896/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0293-llandough-1994-cemetery-excavation-her-ggat02272s-museum-wales-95-56h-burial-631/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0294-welsh-womens-peace-petition-1923-llandough-nlw-petition-1-92/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0600-whatdotheyknow-ministry-of-justice-bp-vs-buckler-1987/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0601-whatdotheyknow-vale-of-glamorgan-council-2020-01590-hyb/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0602-whatdotheyknow-the-national-archives-great-house-farm-llandough/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0603-whatdotheyknow-ministry-of-defence-1988-dispossession/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0604-whatdotheyknow-npcc-nactso-bp-vs-buckler-1987/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0605-whatdotheyknow-hmcts-bp-properties-v-buckler-1974-records/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ev-0606-whatdotheyknow-llandough-community-council-22-october-2026-meeting/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/excluded-not-our-farm/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/furniture/index.html",
+   "Machine-readable list: furniture.json ."
+  ],
+  [
+   "research/evidence/glamorgan-archives-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/hm-land-registry-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/ico-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/index.html",
+   "What this page is about → Read the Docs"
+  ],
+  [
+   "research/evidence/justice-courts-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/llandough-community-council-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/media-coverage-1850-2026/index.html",
+   "Machine-readable: register.json · register.csv · Access: open, paywalled, catalogue-only. Snapshots: Internet Archive (w"
+  ],
+  [
+   "research/evidence/mps-parliament-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/museum-wales-heneb-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/national-archives-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/national-library-of-wales-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/pending-evidence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/persimmon-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/phso-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/public-services-ombudsman-wales-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/rcahmw-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/senedd-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/south-wales-police-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/vale-of-glamorgan-council-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence/whatdotheyknow-correspondence/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence-library/dbdt123-7-1939-wgr-john-williams-tenancy-agreement-plan/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/evidence-library/ghf-e140-10-july-1986-high-court-trial-and-judgment/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/family-legal-case-control-room/woodland-land-transfer-assessment-1902-2005/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/mary-williams/index.html",
+   "AI AGENT ENTRY POINT · Mary (Nancy) Williams and family evidence"
+  ],
+  [
+   "research/master-change-log-october-2026/index.html",
+   "What this page is about → Read the Docs"
+  ],
+  [
+   "research/new-in-the-catalogue/index.html",
+   "Machine-readable: layer.json (also stored in the catalogue database as the “title-chain” layer)."
+  ],
+  [
+   "research/press-and-archive-leads-october-2026/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/project-management/index.html",
+   "Agent roles — Great House Farm programme"
+  ],
+  [
+   "research/records-access-chronology/disclosure-escalation-map/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/records-access-chronology/foi-reply-register/south-wales-police-email-correspondence-catalogue/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/records-access-chronology/foi-reply-register/vale-of-glamorgan-council-email-correspondence-catalogue/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/records-access-chronology/foi-reply-register/welsh-government-and-cadw-email-correspondence-catalogue-part-3/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/records-access-chronology/index.html",
+   "Machine-readable research index: AI Agent & Machine-Readable Index — canonical links, identifiers and public retrieval e"
+  ],
+  [
+   "research/scrutiny-and-accountability/government-public-authority-involvement/bp-properties-bp-pension-trust-forensic-institutional-review/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/scrutiny-and-accountability/government-public-authority-involvement/cardiff-city-council-forensic-institutional-review/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/scrutiny-and-accountability/government-public-authority-involvement/court-of-appeal-forensic-institutional-review/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/scrutiny-and-accountability/government-public-authority-involvement/institutional-review-coverage-register/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/scrutiny-and-accountability/government-public-authority-involvement/llandough-community-council-forensic-institutional-review/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/scrutiny-and-accountability/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/sign-up-request-edit-access/index.html",
+   "Agent roles — Great House Farm programme: standing instruction for agents reading or editing this wiki, or working the m"
+  ],
+  [
+   "research/start-here/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/testimony/branwen-buckler/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/testimony/david-buckler/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/testimony/frederick-buckler/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/testimony/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/testimony/janet-harris/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/testimony/mary-godfrey/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/testimony/mary-williams/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/testimony/sion-buckler/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/testimony/william-buckler/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/the-two-parcels/three-parts-of-parcel-a-divergent-chronologies/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/three-part-parcel-a-forensic-scope-title-assessment/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/three-parts-of-parcel-a-divergent-chronologies/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/timeline/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "research/timeline/index.html",
+   "AI AGENT ENTRY POINT · Chronological evidence"
+  ],
+  [
+   "research/woodland/index.html",
+   "lead: This page isolates the woodland loss from the wider Parcel A/B reconstruction."
+  ],
+  [
+   "research/woodland-land-transfer-assessment-1902-2005/index.html",
+   "About this page type → Read the Docs"
+  ],
+  [
+   "review/index.html",
+   "Machine-readable resource catalogue · Agent reading guide"
+  ]
+ ]
+}

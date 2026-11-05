@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GraphQL · Cedwyn catalogue</title><style>*{box-sizing:border-box}body{margin:0;font:16px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#14141c;color:#e8e8f0}
+a{color:#9cf}header.cw{padding:14px 16px;border-bottom:2px solid #fca;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+header.cw a.home{color:#fca;font-weight:700;text-decoration:none;font-size:18px}header.cw nav a{color:#cfcfe0;margin-right:12px;font-size:14px}
+main{max-width:60rem;margin:0 auto;padding:16px}input,textarea,select,button{font:inherit;border-radius:8px;border:1px solid #444;background:#1d1d28;color:#e8e8f0;padding:8px 10px}
+button{background:#fca;color:#14141c;border-color:#fca;font-weight:700;cursor:pointer}pre{white-space:pre-wrap;word-break:break-word;background:#1d1d28;padding:10px;border-radius:8px;font-size:13px}
+.muted{color:#9a9ab0;font-size:14px}.card{background:#1d1d28;border:1px solid #2c2c3a;border-radius:10px;padding:10px 12px;margin:8px 0}
+.card h3{margin:0 0 4px;font-size:16px}.snip{font-size:14px;color:#cfcfe0}img.prev{max-width:100%;max-height:320px;border-radius:6px;display:block;margin:6px 0}</style></head><body><header class="cw"><a class="home" href="/">Cedwyn</a><nav><a href="/">Themes</a><a href="/catalogue/">Catalogue</a><a href="/graphql/">GraphQL</a><a href="/wayback/">Archive</a></nav></header><main><h1>GraphQL</h1><p class="muted">One schema over the whole catalogue. It runs in your browser against the shared database (read by range requests, nothing installed). POST is not needed: write a query and run it.</p><textarea id="q" rows="12" style="width:100%">{
+  stats { artifacts blobs edges nodes themes captures }
+  search(q: "tithe", limit: 5) { theme path snippet artifact { id kind title locations { theme path } } }
+}</textarea><p><button id="go">Run</button> <span id="st" class="muted"></span></p><pre id="out"></pre><details><summary class="muted">Schema</summary><pre id="sdl"></pre></details></main><script src="/_cedwyn/cat.js"></script><script>
+var p=new URLSearchParams(location.search);if(p.get('query'))document.getElementById('q').value=p.get('query');
+document.getElementById('sdl').textContent=Cedwyn.sdl;
+function run(){var t=performance.now();document.getElementById('st').textContent='running…';
+Cedwyn.graphql(document.getElementById('q').value,p.get('variables')?JSON.parse(p.get('variables')):{}).then(function(r){
+document.getElementById('out').textContent=JSON.stringify(r,null,1);document.getElementById('st').textContent=Math.round(performance.now()-t)+' ms';
+}).catch(function(e){document.getElementById('out').textContent=String(e);});}
+document.getElementById('go').onclick=run;if(p.get('query'))run();
+</script></body></html>

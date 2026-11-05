@@ -1,0 +1,38 @@
+{
+ "theme": "meeting",
+ "version": "1.0.0",
+ "source": "artifact intake 27 Oct 2026 (GHF-E106-R116-A1) — Sion's Tab agent",
+ "versions": [
+  {
+   "v": "1.0.0",
+   "date": "2026-10-27",
+   "change": "Artifacts entry: GHF-E106-R116-A1 draft minutes"
+  },
+  {
+   "v": "0.2.0",
+   "date": "2026-10-27",
+   "change": "public copy redacted and checked"
+  },
+  {
+   "v": "0.1.0",
+   "date": "2026-10-27",
+   "change": "file received from the family"
+  }
+ ],
+ "github": "https://github.com/unclehowell/cedwyn/commits/main/notices/meeting.json",
+ "notices": [
+  {
+   "id": "artifacts-r116",
+   "label": "Artifacts",
+   "heading": "Artifacts.",
+   "text": "GHF-E106-R116-A1 · Llandough Community Council: draft minutes of the meeting held on 22 October 2026 (DRAFT minutes as circulated, 8 pages; names of members of the public withheld).",
+   "link": {
+    "href": "/research/artifacts/ghf-e106-r116-a1/",
+    "label": "Open the artifact page"
+   },
+   "pages": [
+    "/meeting/"
+   ]
+  }
+ ]
+}

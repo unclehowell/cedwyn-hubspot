@@ -1,0 +1,328 @@
+{
+ "stable_cards": {
+  "Academy": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-academy.jpg",
+  "Hive": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-hive.jpg",
+  "Home": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-home.jpg"
+ },
+ "pages_changed": 8495,
+ "tags_added": 138105,
+ "pages_already_complete": 0,
+ "pillow": true,
+ "font": true,
+ "brand": "Williams-Bucklers, Ty Mawr, Cedwyn",
+ "webapp_cards": {
+  "Home": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-home-e79f07de.jpg",
+  "Academy": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-academy-d1890a7c.jpg",
+  "Counting House": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-counting-house-25683568.jpg",
+  "Case Office": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-case-office-dd4dce8d.jpg",
+  "Arcade": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-arcade-22b8a0a4.jpg",
+  "Argentina": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-argentina-aca4e16a.jpg",
+  "Public Authorities": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-public-authorities-80f05ede.jpg",
+  "Blog": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-blog-c584deb6.jpg",
+  "El Caso": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-el-caso-338eb5af.jpg",
+  "Catalogue": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-catalogue-da33f5c2.jpg",
+  "Ask the Archive": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-ask-the-archive-ffea3efe.jpg",
+  "Chessboard": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-chessboard-4115feac.jpg",
+  "Court Drills": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-court-drills-0fb49f84.jpg",
+  "Grammar House": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-grammar-house-ea9bddc7.jpg",
+  "Digital Estate": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-digital-estate-36480e4a.jpg",
+  "Disclosure Dartboard": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-disclosure-dartboard-f7f0f6a9.jpg",
+  "Directory": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-directory-1c969850.jpg",
+  "Disproven Theories": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-disproven-theories-a43a05c2.jpg",
+  "Evidence Catalogue": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-evidence-catalogue-90b04774.jpg",
+  "Documentary": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-documentary-684e5764.jpg",
+  "E-books": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-e-books-9460fbc6.jpg",
+  "Post Office": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-post-office-ef6a9a8a.jpg",
+  "Estate": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-estate-e9a69003.jpg",
+  "Explore": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-explore-783cff19.jpg",
+  "Family Tree": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-family-tree-09a28e95.jpg",
+  "Farm Album": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-farm-album-c87568b6.jpg",
+  "Farmbook": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-farmbook-10e28c50.jpg",
+  "FCG": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-fcg-ae36b217.jpg",
+  "Glossary": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-glossary-8eaf60c9.jpg",
+  "Graphql": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-graphql-841bd188.jpg",
+  "Guestbook": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-guestbook-9a53465c.jpg",
+  "Infographic": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-infographic-cf3b21e1.jpg",
+  "Kissed Frogs": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-kissed-frogs-ae9dba61.jpg",
+  "Library": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-library-330a2ce1.jpg",
+  "Map Room": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-map-room-edfb4507.jpg",
+  "Council Chamber": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-council-chamber-e5203b8f.jpg",
+  "Network": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-network-25b6016c.jpg",
+  "Garden Gallery": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-garden-gallery-b1aecd16.jpg",
+  "Nomenclature": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-nomenclature-aaca3e60.jpg",
+  "Old Bill": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-old-bill-43829d33.jpg",
+  "Parcels": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-parcels-eefae0b7.jpg",
+  "Patagonia Museum": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-patagonia-museum-acfaaef3.jpg",
+  "Privacy": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-privacy-ce8c7d1a.jpg",
+  "Projects": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-projects-3e33e7d9.jpg",
+  "Q&A": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-q-a-f9c0d9b7.jpg",
+  "Primary Records": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-primary-records-8e07a653.jpg",
+  "Research": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-research-dbf0bf41.jpg",
+  "Independent Review": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-independent-review-a41e819c.jpg",
+  "Self-Assessment": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-self-assessment-cb0f1152.jpg",
+  "Gift Shop": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-gift-shop-9a64b8c9.jpg",
+  "The Story": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-the-story-b7887fea.jpg",
+  "Terrain": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-terrain-56ae8bb7.jpg",
+  "1000 Cuts": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-1000-cuts-7ee94b28.jpg",
+  "Title Chain": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-title-chain-9c21d5ad.jpg",
+  "Values & Standards": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-values-standards-9574a6fe.jpg",
+  "Wales Tour": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-wales-tour-8f4f4b4d.jpg",
+  "Watchtower": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-watchtower-86e3ccbb.jpg",
+  "Wayback": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-wayback-c4b279a9.jpg",
+  "FOI Requests": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-foi-requests-c2957d90.jpg",
+  "What They Don't Say": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-what-they-don-t-say-dcdfcba9.jpg",
+  "Legal Wiki": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-legal-wiki-8cd52255.jpg",
+  "Hive": "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-hive-48b58935.jpg"
+ },
+ "untitled_fallbacks": [],
+ "samples": {
+  "/": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Home",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-home-e79f07de.jpg"
+  ],
+  "academy": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Academy",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-academy-d1890a7c.jpg"
+  ],
+  "accounts": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Counting House",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-counting-house-25683568.jpg"
+  ],
+  "app": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Case Office",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-case-office-dd4dce8d.jpg"
+  ],
+  "arcade": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Arcade",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-arcade-22b8a0a4.jpg"
+  ],
+  "argentina": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Argentina",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-argentina-aca4e16a.jpg"
+  ],
+  "authorities": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Public Authorities",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-public-authorities-80f05ede.jpg"
+  ],
+  "blog": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Blog",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-blog-c584deb6.jpg"
+  ],
+  "caso": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 El Caso",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-el-caso-338eb5af.jpg"
+  ],
+  "catalogue": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Catalogue",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-catalogue-da33f5c2.jpg"
+  ],
+  "chat": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Ask the Archive",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-ask-the-archive-ffea3efe.jpg"
+  ],
+  "chess": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Chessboard",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-chessboard-4115feac.jpg"
+  ],
+  "courtdrills": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Court Drills",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-court-drills-0fb49f84.jpg"
+  ],
+  "csscpsg": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Grammar House",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-grammar-house-ea9bddc7.jpg"
+  ],
+  "cyberspace": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Digital Estate",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-digital-estate-36480e4a.jpg"
+  ],
+  "dartboard": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Disclosure Dartboard",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-disclosure-dartboard-f7f0f6a9.jpg"
+  ],
+  "directory": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Directory",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-directory-1c969850.jpg"
+  ],
+  "disproven": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Disproven Theories",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-disproven-theories-a43a05c2.jpg"
+  ],
+  "docs": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Evidence Catalogue",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-evidence-catalogue-90b04774.jpg"
+  ],
+  "documentary": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Documentary",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-documentary-684e5764.jpg"
+  ],
+  "ebooks": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 E-books",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-e-books-9460fbc6.jpg"
+  ],
+  "email": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Post Office",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-post-office-02273998.jpg"
+  ],
+  "emails": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Post Office",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-post-office-ef6a9a8a.jpg"
+  ],
+  "estate": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Estate",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-estate-e9a69003.jpg"
+  ],
+  "explore": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Explore",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-explore-783cff19.jpg"
+  ],
+  "familytree": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Family Tree",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-family-tree-09a28e95.jpg"
+  ],
+  "fb": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Farm Album",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-farm-album-c87568b6.jpg"
+  ],
+  "fb2": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Farmbook",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-farmbook-10e28c50.jpg"
+  ],
+  "fcg": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 FCG",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-fcg-ae36b217.jpg"
+  ],
+  "glossary": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Glossary",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-glossary-8eaf60c9.jpg"
+  ],
+  "graphql": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Graphql",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-graphql-841bd188.jpg"
+  ],
+  "guestbook": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Guestbook",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-guestbook-9a53465c.jpg"
+  ],
+  "infographic": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Infographic",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-infographic-cf3b21e1.jpg"
+  ],
+  "kissed-frogs": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Kissed Frogs",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-kissed-frogs-ae9dba61.jpg"
+  ],
+  "library": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Library",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-library-330a2ce1.jpg"
+  ],
+  "maps": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Map Room",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-map-room-edfb4507.jpg"
+  ],
+  "meeting": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Council Chamber",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-council-chamber-e5203b8f.jpg"
+  ],
+  "network": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Network",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-network-25b6016c.jpg"
+  ],
+  "nft-art": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Garden Gallery",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-garden-gallery-b1aecd16.jpg"
+  ],
+  "nomenclature": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Nomenclature",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-nomenclature-aaca3e60.jpg"
+  ],
+  "oldbill": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Old Bill",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-old-bill-43829d33.jpg"
+  ],
+  "parcels": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Parcels",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-parcels-eefae0b7.jpg"
+  ],
+  "patagonia": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Patagonia Museum",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-patagonia-museum-acfaaef3.jpg"
+  ],
+  "privacy": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Privacy",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-privacy-ce8c7d1a.jpg"
+  ],
+  "projects": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Projects",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-projects-3e33e7d9.jpg"
+  ],
+  "qa": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Q&A",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-q-a-f9c0d9b7.jpg"
+  ],
+  "records": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Primary Records",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-primary-records-8e07a653.jpg"
+  ],
+  "research": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Research",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-research-dbf0bf41.jpg"
+  ],
+  "review": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Independent Review",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-independent-review-a41e819c.jpg"
+  ],
+  "self-assessment": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Self-Assessment",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-self-assessment-cb0f1152.jpg"
+  ],
+  "shop": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Gift Shop",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-gift-shop-9a64b8c9.jpg"
+  ],
+  "story": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 The Story",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-the-story-b7887fea.jpg"
+  ],
+  "terrain": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Terrain",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-terrain-56ae8bb7.jpg"
+  ],
+  "thousand-cuts": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 1000 Cuts",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-1000-cuts-7ee94b28.jpg"
+  ],
+  "title-chain": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Title Chain",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-title-chain-9c21d5ad.jpg"
+  ],
+  "values": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Values & Standards",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-values-standards-9574a6fe.jpg"
+  ],
+  "wales": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Wales Tour",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-wales-tour-8f4f4b4d.jpg"
+  ],
+  "watchtower": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Watchtower",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-watchtower-86e3ccbb.jpg"
+  ],
+  "wayback": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Wayback",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-wayback-c4b279a9.jpg"
+  ],
+  "wdtk": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 FOI Requests",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-foi-requests-c2957d90.jpg"
+  ],
+  "whattheydontsay": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 What They Don't Say",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-what-they-don-t-say-dcdfcba9.jpg"
+  ],
+  "wiki": [
+   "Williams-Bucklers, Ty Mawr, Cedwyn \u2013 Legal Wiki",
+   "https://cedwyn.bucklerfamily.estate/_cedwyn/og/share-legal-wiki-8cd52255.jpg"
+  ]
+ }
+}

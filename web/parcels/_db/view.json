@@ -1,0 +1,307 @@
+{
+ "v": 1,
+ "app": "parcels",
+ "title": "9 instruments relied on by the corporations and 9 registrations in their names, 1916–2005",
+ "updated": "2026-10-30",
+ "source_note": "Compiled from the Cedwyn infographic data (infographic.bucklerfamily.estate, data v3.3.2, 24 Oct 2026: chains A–C, transfers and events, and the tenancies of 1916 and 1939 from its v2.6 data). Every item is dated and carries its catalogue reference.",
+ "parcels": {
+  "A1": "A1 · north wood",
+  "A2": "A2 · house & yard",
+  "A3": "A3 · the green",
+  "B": "B · the fields",
+  "AB": "A2 + B · merged title"
+ },
+ "kinds": [
+  "Letting, offer or licence relied on",
+  "Court order or judgment relied on",
+  "Registration in a corporation’s name"
+ ],
+ "items": [
+  {
+   "id": "i1916",
+   "x": "1916",
+   "date": "1916",
+   "parcel": "B",
+   "kind": 0,
+   "party": "Bute Estate",
+   "inst": "Bute yearly agricultural tenancy to the Williams family, with plan",
+   "note": "The 1987 Court of Appeal judgment recounts the 1916 tenancy. Our case, prospective, not a finding: the Bute Estate could let only Parcel B.",
+   "refs": [
+    "EV-0014",
+    "BP Properties Ltd v Buckler [1987] EWCA Civ 2"
+   ],
+   "short": "Bute yearly tenancy to the family, with plan (EV-0014)"
+  },
+  {
+   "id": "i1939",
+   "x": "1939-05",
+   "date": "May 1939",
+   "parcel": "B",
+   "kind": 0,
+   "party": "Western Ground Rents Ltd",
+   "inst": "Western Ground Rents tenancy of land at Llandough to the family, with plan",
+   "note": "The tenancy plan shows Parcel B only.",
+   "refs": [
+    "EV-0023"
+   ],
+   "short": "Western Ground Rents tenancy, with plan (EV-0023)"
+  },
+  {
+   "id": "i1949",
+   "x": "1949-02-02",
+   "date": "2 Feb 1949",
+   "parcel": "A1",
+   "kind": 0,
+   "party": "Western Ground Rents Ltd",
+   "inst": "Yearly agricultural tenancy to Frederick Buckler from 2 Feb 1949, on the surrender of John Williams’s letting",
+   "note": "The 1987 judgment records “a new yearly agricultural tenancy commencing at February 2 1949”; the written agreement intended was never made. The infographic places this step on the woodland line (A1).",
+   "refs": [
+    "BP Properties Ltd v Buckler [1987] EWCA Civ 2",
+    "Legal Wiki: Frederick Buckler, the 1949 tenancy"
+   ],
+   "short": "Yearly agricultural tenancy to Frederick Buckler (1987 judgment)"
+  },
+  {
+   "id": "i1955",
+   "x": "1955-07-04",
+   "date": "Jul 1955 (order); 4 Jul 1955 (execution)",
+   "parcel": "B",
+   "kind": 1,
+   "party": "Western Ground Rents Ltd",
+   "inst": "Order 14 possession order, framed for the “whole farm”; executed 4 Jul 1955",
+   "note": "Possession was taken of every part of the farm except the farmhouse and garden. Which Parcel A ground it reached (A1 woodland, A3 green) is not settled by the record.",
+   "refs": [
+    "EV-0032",
+    "EV-0034",
+    "BP Properties Ltd v Buckler [1987] EWCA Civ 2"
+   ],
+   "short": "Order 14 possession order, “whole farm” (EV-0032, EV-0034)"
+  },
+  {
+   "id": "i1959",
+   "x": "1959",
+   "date": "1958/59",
+   "parcel": "A2",
+   "kind": 0,
+   "party": "Western Ground Rents Ltd",
+   "inst": "Offer to let the farmhouse, buildings and garden to Mary Williams (refused)",
+   "note": "The 1987 judgment records that she was “offered a tenancy of the farmhouse and garden by Western Ground Rents but refused to accept it”. The family’s chain places this step on the green (A3). The 1959 offer and reply are not yet held.",
+   "refs": [
+    "BP Properties Ltd v Buckler [1987] EWCA Civ 2",
+    "Legal Wiki: The 1962 Possession Order, the 1959 refusal"
+   ],
+   "short": "Offer to let the farmhouse and garden, refused (1987 judgment)"
+  },
+  {
+   "id": "i1962",
+   "x": "1962-12-11",
+   "date": "11 Dec 1962",
+   "parcel": "A2",
+   "kind": 1,
+   "party": "Western Ground Rents Ltd",
+   "inst": "Cardiff County Court possession order of the farmhouse, buildings and garden",
+   "note": "The Court of Appeal records that nothing was done before 1974 to enforce it. The 1969 conveyance to BP Pension Trust carried the benefit of this order.",
+   "refs": [
+    "EV-0041",
+    "EV-0043",
+    "BP Properties Ltd v Buckler [1987] EWCA Civ 2"
+   ],
+   "short": "County Court possession order, farmhouse and garden (EV-0041)"
+  },
+  {
+   "id": "i1965",
+   "x": "1965-03-02",
+   "date": "2 Mar 1965",
+   "parcel": "A2",
+   "kind": 0,
+   "party": "Western Ground Rents Ltd",
+   "inst": "Offer of a weekly letting of the farmhouse to “Mrs Williams” (not signed)",
+   "note": "The 1987 judgment (para 22) records that in March 1965 Western Ground Rents’ agents “offered Mrs Buckler a tenancy”.",
+   "refs": [
+    "BP Properties Ltd v Buckler [1987] EWCA Civ 2",
+    "Legal Wiki: The 1962 Possession Order, the 1965 offer"
+   ],
+   "short": "Weekly letting offered to “Mrs Williams”, not signed"
+  },
+  {
+   "id": "i1974",
+   "x": "1974-10-31",
+   "date": "31 Oct 1974",
+   "parcel": "A2",
+   "kind": 0,
+   "party": "BP Pension Trust / BP Properties",
+   "inst": "Licence letters offering permission to stay in the farmhouse rent-free (not accepted)",
+   "note": "The letters reached her solicitor on 4 Nov 1974. She did not accept them. The 1987 judgment treated them as a licence, so her possession after them was not counted towards the 12 years.",
+   "refs": [
+    "EV-0080",
+    "BP Properties Ltd v Buckler [1987] EWCA Civ 2",
+    "Legal Wiki: The 1974 licence letters"
+   ],
+   "short": "BP licence letters, rent-free permission, not accepted (EV-0080)"
+  },
+  {
+   "id": "i1987",
+   "x": "1987-07-31",
+   "date": "31 Jul 1987",
+   "parcel": "A2",
+   "kind": 1,
+   "party": "BP Properties Ltd",
+   "inst": "Court of Appeal judgment, BP Properties Ltd v Buckler: possession of the farmhouse and garden",
+   "note": "The appeal was limited to the farmhouse and garden. The judgment records BP’s admission of adverse possession from 1965–67 until 31 Oct 1974 and treats the 1974 letters as a licence.",
+   "refs": [
+    "EV-0080",
+    "BP Properties Ltd v Buckler [1987] EWCA Civ 2"
+   ],
+   "short": "Court of Appeal: 1974 letters treated as a licence (EV-0080)"
+  },
+  {
+   "id": "r1961",
+   "x": "1961-03-29",
+   "date": "29 Mar 1961",
+   "parcel": "A1",
+   "kind": 2,
+   "party": "Cardiff City Corporation (named party)",
+   "title": "WA735527",
+   "inst": "Deed between Western Ground Rents, South Western Brick & Tile and Cardiff City Corporation, recited on the woodland title WA735527",
+   "note": "The deed and plan have not been inspected, so the rights created and the extent are not established. Cardiff City Corporation is a named party, not confirmed as freehold transferee.",
+   "refs": [
+    "EV-0040",
+    "EV-0169",
+    "GHF-E129"
+   ],
+   "short": "1961 deed with Cardiff City Corporation recited on WA735527 (EV-0040)"
+  },
+  {
+   "id": "r1970",
+   "x": "1970-06-16",
+   "date": "16 Jun 1970",
+   "parcel": "A3",
+   "kind": 2,
+   "party": "Glamorgan County Council (registration authority)",
+   "title": "VG41",
+   "inst": "Village-green registration VG41 under the Commons Registration Act 1965",
+   "note": "A commons-register entry, not an HM Land Registry title; registration alone did not vest the green in the authority. Objection periods ran to 31 Jul 1972 by public notice only. The VG41 file and map are outstanding.",
+   "refs": [
+    "EV-0044",
+    "EV-0263"
+   ],
+   "short": "Village green VG41 registered, Glamorgan County Council (EV-0044)"
+  },
+  {
+   "id": "r1982",
+   "x": "1982-11-30",
+   "date": "30 Nov 1982 (application)",
+   "parcel": "B",
+   "kind": 2,
+   "party": "BP Properties Ltd",
+   "title": "WA231076",
+   "inst": "Application to register title WA231076 (the fields) to BP Properties Ltd",
+   "note": "The application date is in HM Land Registry’s file schedule.",
+   "refs": [
+    "EV-0170"
+   ],
+   "short": "WA231076 applied for by BP Properties Ltd (EV-0170)"
+  },
+  {
+   "id": "r1983",
+   "x": "1983-02-23",
+   "date": "23 Feb 1983 (Form 1C application)",
+   "parcel": "A2",
+   "kind": 2,
+   "party": "BP Properties Ltd",
+   "title": "WA240304",
+   "inst": "First registration of the farmhouse, title WA240304, to BP Properties Ltd",
+   "note": "Mary was living in the house and died there on 26 Mar 1983, while the application was being examined. No conveyance from the occupiers and no notice to the occupier is on file. Registered on BP’s paper title (the 1969 conveyance and the 1962 order).",
+   "refs": [
+    "EV-0063",
+    "EV-0066",
+    "EV-0147"
+   ],
+   "short": "WA240304 first registered to BP Properties Ltd (EV-0063, EV-0066)"
+  },
+  {
+   "id": "r1987",
+   "x": "1987-02-02",
+   "date": "2 Feb 1987",
+   "parcel": "AB",
+   "kind": 2,
+   "party": "BP Properties Ltd",
+   "title": "WA240304 → WA231076",
+   "inst": "Amalgamation: WA240304 (the house) merged into WA231076 (the fields) while the appeal was running",
+   "note": "Both titles already stood in BP Properties’ name, so no land changed hands.",
+   "refs": [
+    "EV-0078"
+   ],
+   "short": "WA240304 merged into WA231076, BP Properties Ltd (EV-0078)"
+  },
+  {
+   "id": "r1993w",
+   "x": "1993-12-03",
+   "date": "3 Dec 1993",
+   "parcel": "A1",
+   "kind": 2,
+   "party": "Ideal Homes (Wales) Ltd",
+   "title": "WA735527",
+   "inst": "Woodland title history: BP to Ideal Homes",
+   "note": "Chain as reported in the woodland and land-transfer assessment.",
+   "refs": [
+    "Woodland & Land-Transfer Assessment 1902–2005"
+   ],
+   "short": "WA735527 woodland: BP to Ideal Homes"
+  },
+  {
+   "id": "r1993h",
+   "x": "1993",
+   "date": "1993–94",
+   "parcel": "AB",
+   "kind": 2,
+   "party": "Ideal Homes (Wales) Ltd",
+   "title": "WA231076",
+   "inst": "Sale of the merged title (house and fields) to Ideal Homes for housing",
+   "note": "The 1994 excavation at Great House Farm was carried out on behalf of Ideal Homes Wales, which built Church View Close.",
+   "refs": [
+    "GHF-E148",
+    "EV-0276"
+   ],
+   "short": "WA231076 house and fields sold to Ideal Homes (Wales) Ltd"
+  },
+  {
+   "id": "r1994",
+   "x": "1994-11-10",
+   "date": "10 Nov 1994 (proprietor entry 25 Nov 1994)",
+   "parcel": "A1",
+   "kind": 2,
+   "party": "Forest of Cardiff",
+   "title": "WA735527",
+   "inst": "Transfer of the woodland to Forest of Cardiff under title WA735527",
+   "note": "The current register lists Forest of Cardiff as proprietor from 25 Nov 1994.",
+   "refs": [
+    "EV-0169",
+    "EV-0136",
+    "GHF-E149"
+   ],
+   "short": "WA735527 woodland to Forest of Cardiff (EV-0136, EV-0169)"
+  },
+  {
+   "id": "r2005",
+   "x": "2005",
+   "date": "2005",
+   "parcel": "A1",
+   "kind": 2,
+   "party": "Goldsworthy Homes",
+   "title": "WA735527 (part)",
+   "inst": "Part of the woodland sold to Goldsworthy Homes and taken out of title WA735527",
+   "note": "Forest of Cardiff accounts to 30 Jun 2006: “Sale of Land — Leckwith Road, Llandough £20,000”.",
+   "refs": [
+    "EV-0139",
+    "EV-0217"
+   ],
+   "short": "Part of WA735527 to Goldsworthy Homes (EV-0139)"
+  }
+ ],
+ "colors": [
+  "#f2c94c",
+  "#ff7a59",
+  "#6aa8ff"
+ ]
+}

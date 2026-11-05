@@ -1,0 +1,352 @@
+{
+ "version": "1.0.1",
+ "rule": "Holdings wording (owner rule, 22:25 GMT 30 Oct 2026): public text never states whether the family holds a record; it records which other party should hold the original and what each has disclosed. Build-time pass over the cedwyn copy (themes listed in skip_themes and the archived-capture prefixes are left verbatim), after every page writer in site.py and before the catalogue database is built. Exact phrases only; anything not matched is listed in dist/_cedwyn/reports/holdings-wording.json for an editor. P-104. — Sion's Tab agent 1.0.1: 'family archive image/photograph/copy', family Drive/mailbox lines from the evidence register, and a capital T where the repository name opens a field.",
+ "skip_themes": [
+  "wiki"
+ ],
+ "skip_prefixes": [
+  "wayback/mail/",
+  "wayback/websites/",
+  "email/",
+  "emails/",
+  "_ext/",
+  "db/",
+  "wdtk/",
+  "_blob/",
+  "_cedwyn/"
+ ],
+ "text_ext": [
+  ".html",
+  ".htm",
+  ".json",
+  ".jsonl",
+  ".txt",
+  ".md",
+  ".xml"
+ ],
+ "report_re": "(?i)held by the famil|family[- ]held (?:cop|cutting|print|scan|letter|document|source)|family(?:’|'|&rsquo;|&#8217;)?s? (?:archive|mailbox|google drive)|held privately|our copy:",
+ "rewrites": [
+  {
+   "id": "ev0019-register",
+   "re": "Family-held \\(per this Wiki(?:’|&rsquo;|&#8217;|'|&#39;|&#x27;)s register\\) \\(custodian/source copy: bucklerfamily\\.estate\\); No archive reference given",
+   "replace": "Not yet disclosed by the bodies that should hold it: Vale of Glamorgan Council deed wallet 1756 (2 of at least 10 documents disclosed, FOI 00211027); no copy found in the catalogued Bute papers at Glamorgan Archives; HM Land Registry titles WA3996 and WA7355 not yet copied"
+  },
+  {
+   "id": "repository-name-cap",
+   "re": "The (?:Buckler )?family(?:’|&rsquo;|&#8217;|'|&#39;|&#x27;)?s? (?:evidence )?repository",
+   "replace": "The Cedwyn evidence repository"
+  },
+  {
+   "id": "repository-name",
+   "re": "(?:the Buckler |the |Buckler )family(?:’|&rsquo;|&#8217;|'|&#39;|&#x27;)?s? (?:evidence )?repository",
+   "replace": "the Cedwyn evidence repository"
+  },
+  {
+   "id": "location-archive-email",
+   "re": "Family archive / privately held email and attached",
+   "replace": "Email from the responding archive, with attached"
+  },
+  {
+   "id": "location-archive-corr",
+   "re": "Family archive / privately held correspondence;",
+   "replace": "Correspondence;"
+  },
+  {
+   "id": "location-archive",
+   "re": "Family archive / privately held material",
+   "replace": "Original holder not yet identified"
+  },
+  {
+   "id": "location-archive-web",
+   "re": "Location: family archive and web archive image set",
+   "replace": "Location: web archive image set"
+  },
+  {
+   "id": "archive-copy",
+   "re": "Family archive copy:",
+   "replace": "Archive copy:"
+  },
+  {
+   "id": "retained-archive",
+   "re": " and retained in the family archive",
+   "replace": ""
+  },
+  {
+   "id": "record-and-archive",
+   "re": ", the heritage record and the family archive;",
+   "replace": " and the heritage record;"
+  },
+  {
+   "id": "litigation-file",
+   "re": "Family archive, predecessor solicitors,",
+   "replace": "Predecessor solicitors,"
+  },
+  {
+   "id": "copy-sentence",
+   "re": "\\s*(?:Our copy: a screen capture(?: of a book (?:preview|page))?|Cuttings?|Prints?|Copy(?: also)?|Screenshots?|Screen captures?|A copy|Image|Photographs of the pages) (?:is |are )?held by the family\\.",
+   "replace": ""
+  },
+  {
+   "id": "placeholder-judgment",
+   "re": "Placeholder: copy held by the family; full text to be uploaded",
+   "replace": "Placeholder: full text to be uploaded from the published judgment"
+  },
+  {
+   "id": "placeholder-scan",
+   "re": "Placeholder: (cutting )?held by the family, to be scanned and uploaded",
+   "replace": "Placeholder: \\1to be scanned and uploaded"
+  },
+  {
+   "id": "placeholder-private",
+   "re": "Placeholder: held by the family; not published",
+   "replace": "Placeholder: not published"
+  },
+  {
+   "id": "sar-letters",
+   "re": "are held by the family and not published",
+   "replace": "are not published"
+  },
+  {
+   "id": "ggat-letter",
+   "re": "GGAT letter, October 1982, held by the family",
+   "replace": "GGAT letter, October 1982 (GGAT / Heneb records)"
+  },
+  {
+   "id": "planning-file",
+   "re": "(planning file 89/01396/OUT[^<.;]{0,60}?), held by the family(?:, to be scanned)?",
+   "replace": "\\1 (Vale of Glamorgan Council planning records)"
+  },
+  {
+   "id": "paren-held-semicolon",
+   "re": "\\) held by the family(?=;)",
+   "replace": ")"
+  },
+  {
+   "id": "primary-doc-held",
+   "re": "PRIMARY DOCUMENT HELD by the family,",
+   "replace": "PRIMARY DOCUMENT,"
+  },
+  {
+   "id": "family-held-copy-upload-cap",
+   "re": "The family-held copy has not been separately uploaded",
+   "replace": "No separate copy has been uploaded"
+  },
+  {
+   "id": "family-held-copy-upload",
+   "re": "the family-held copy has not been separately uploaded",
+   "replace": "no separate copy has been uploaded"
+  },
+  {
+   "id": "family-held-any",
+   "re": "\\b[Ff]amily-held ([a-zA-Z])",
+   "replace": "\\1",
+   "cap": true
+  },
+  {
+   "id": "family-copy-mirror",
+   "re": "family copy not mirrored here",
+   "replace": "no copy mirrored here"
+  },
+  {
+   "id": "holder-family-copy",
+   "re": "(Holder:(?:</strong>)?) family copy exists, not yet uploaded;",
+   "replace": "\\1 the court record (Court of Appeal);"
+  },
+  {
+   "id": "family-copy-judgment",
+   "re": "The family copy of the judgment is not yet uploaded",
+   "replace": "A copy of the judgment is not yet uploaded"
+  },
+  {
+   "id": "family-copy-upload",
+   "re": "the family(?:(?:’|&rsquo;|&#8217;|'|&#39;|&#x27;)s)? copy is to be uploaded",
+   "replace": "a copy is to be uploaded"
+  },
+  {
+   "id": "family-copy-not-uploaded",
+   "re": "the family copy not uploaded",
+   "replace": "the court record, not uploaded"
+  },
+  {
+   "id": "family-copy-taken",
+   "re": "Missing: family copy taken 1950–52",
+   "replace": "Missing: farmhouse copy taken 1950–52"
+  },
+  {
+   "id": "family-copy-taken-2",
+   "re": "the family(?:’|&rsquo;|&#8217;|'|&#39;|&#x27;)s copy was taken from the farmhouse in 1950–52",
+   "replace": "the copy kept at the farmhouse was taken in 1950–52"
+  },
+  {
+   "id": "held-privately-by",
+   "re": "Original held privately by the family and not published",
+   "replace": "Original not published"
+  },
+  {
+   "id": "original-held-privately",
+   "re": "original held privately\\)",
+   "replace": "original not published)"
+  },
+  {
+   "id": "held-privately-comma",
+   "re": ", held privately,",
+   "replace": ","
+  },
+  {
+   "id": "held-privately-content",
+   "re": "\\s*\\(held privately; content not published\\)",
+   "replace": " (content not published)"
+  },
+  {
+   "id": "held-privately-paren",
+   "re": "\\s*\\(held privately\\)",
+   "replace": ""
+  },
+  {
+   "id": "privately-held-paren",
+   "re": "\\s*\\(privately held material, not yet on the wiki\\)",
+   "replace": " (not yet on the wiki)"
+  },
+  {
+   "id": "privately-held-family-material",
+   "re": "or privately held family material",
+   "replace": "or private material"
+  },
+  {
+   "id": "drive-image",
+   "re": "(?:The )?image is held in the family(?:’|&rsquo;|&#8217;|'|&#39;|&#x27;)s Google Drive \\(file [^)]*\\)\\.\\s*",
+   "replace": ""
+  },
+  {
+   "id": "drive-cutting-1",
+   "re": "Cutting image held in (?:Buckler )?family(?:’|&rsquo;|&#8217;|'|&#39;|&#x27;)s Google Drive \\([^)]*\\), ",
+   "replace": "Cutting image held in "
+  },
+  {
+   "id": "drive-cutting-2",
+   "re": "Cutting image held in family(?:’|&rsquo;|&#8217;|'|&#39;|&#x27;)s Google Drive, not uploaded to",
+   "replace": "Cutting image not yet uploaded to the"
+  },
+  {
+   "id": "drive-screenshot",
+   "re": "held in (?:the )?family(?:’|&rsquo;|&#8217;|'|&#39;|&#x27;)?s? Google Drive \\([^)]*\\) and (?:the )?datro repository",
+   "replace": "held in the datro repository"
+  },
+  {
+   "id": "web-archive",
+   "re": "held in the family(?:’|&rsquo;|&#8217;|'|&#39;|&#x27;)s web archive(?: and Drive)?",
+   "replace": "held in the site’s web archive"
+  },
+  {
+   "id": "mailbox-received",
+   "re": "Received in the family mailbox",
+   "replace": "Received by email"
+  },
+  {
+   "id": "mailbox-repo",
+   "re": "Family mailbox \\(email from ([^)<]*)\\)",
+   "replace": "Email from \\1"
+  },
+  {
+   "id": "mailbox-semi",
+   "re": "Family mailbox;",
+   "replace": "Email;"
+  },
+  {
+   "id": "mailbox-noattach",
+   "re": "No attachment in the family(?:’|&rsquo;|&#8217;|'|&#39;|&#x27;)s mailbox",
+   "replace": "No attachment came with the email"
+  },
+  {
+   "id": "mailbox-sent",
+   "re": "That email is not in the family mailbox(?:’|&rsquo;|&#8217;|'|&#39;|&#x27;)s sent items",
+   "replace": "That email’s sent copy has not been found"
+  },
+  {
+   "id": "held-family-mailbox",
+   "re": "[Hh]eld in the family mailbox(?=[.;])",
+   "replace": "Original email held by the sender"
+  },
+  {
+   "id": "email-held-mailbox",
+   "re": "\\s*Email held in (?:the )?family mailbox\\.",
+   "replace": ""
+  },
+  {
+   "id": "mailbox-reply-check",
+   "re": "every reply in the family(?:’|&rsquo;|&#8217;|'|&#39;|&#x27;)s mailbox",
+   "replace": "every reply received"
+  },
+  {
+   "id": "mailbox-body",
+   "re": "email body in the family(?:’|&rsquo;|&#8217;|'|&#39;|&#x27;)s mailbox",
+   "replace": "email body received"
+  },
+  {
+   "id": "family-archive-image",
+   "re": "Family archive image held in",
+   "replace": "Image held in"
+  },
+  {
+   "id": "family-archive-image-paren",
+   "re": "\\(family archive image\\)",
+   "replace": "(archive image)"
+  },
+  {
+   "id": "family-archive-article",
+   "re": "\\ba family archive (image|photograph)",
+   "replace": "an archive \\1"
+  },
+  {
+   "id": "family-archive-noun",
+   "re": "\\b[Ff]amily archive (image|photograph|copy)",
+   "replace": "archive \\1",
+   "cap": true
+  },
+  {
+   "id": "slash-family-archive",
+   "re": "/family archive(?=[;,. ])",
+   "replace": ""
+  },
+  {
+   "id": "sources-named-archive",
+   "re": "Sources named: family archive, ",
+   "replace": "Sources named: "
+  },
+  {
+   "id": "reported-archive-holds",
+   "re": "Reported: family archive holds an image",
+   "replace": "Reported: an image"
+  },
+  {
+   "id": "family-drive-and-datro",
+   "re": "held in family Google Drive and datro repository",
+   "replace": "held in the datro repository"
+  },
+  {
+   "id": "family-drive-screens",
+   "re": "family Google Drive screenshots",
+   "replace": "screenshots"
+  },
+  {
+   "id": "family-copy-wiki",
+   "re": "Family copy not yet uploaded to the wiki\\.",
+   "replace": "No copy uploaded to the wiki yet."
+  },
+  {
+   "id": "family-copy-still",
+   "re": "Family copy still to be uploaded\\.",
+   "replace": "Copy still to be uploaded."
+  },
+  {
+   "id": "mailbox-sit",
+   "re": "sit in the family mailbox, not yet mirrored",
+   "replace": "are held by the sender, not yet mirrored"
+  },
+  {
+   "id": "repository-name-start",
+   "re": "(?:^|(?<=>)|(?<=\\\"))the Cedwyn evidence repository",
+   "replace": "The Cedwyn evidence repository"
+  }
+ ]
+}

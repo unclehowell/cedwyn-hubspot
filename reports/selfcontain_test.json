@@ -1,0 +1,11 @@
+{
+ "files_checked": 12341,
+ "subdomain_refs": 0,
+ "external_refs": 0,
+ "by_theme": {},
+ "examples": {},
+ "allowed_tile_templates": [
+  "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+  "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+ ]
+}

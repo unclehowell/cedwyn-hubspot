@@ -1,0 +1,62 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Snapshot · Wayback · Cedwyn</title><meta name="robots" content="noindex">
+<link rel="stylesheet" href="/_cedwyn/vendor/bootstrap-5.3.3.min.css">
+<style>body{background:#f6f5f1}main{max-width:60rem}.snap{overflow-wrap:anywhere;font-size:16px;line-height:1.6}.snap table{display:block;overflow-x:auto;max-width:100%;font-size:14px}.snap td,.snap th{border:1px solid #ddd;padding:4px 6px;vertical-align:top}
+.snap pre{white-space:pre-wrap}.snap h1{font-size:1.5rem}.snap h2{font-size:1.25rem}.snap h3,.snap h4,.snap h5,.snap h6{font-size:1.05rem}.snap li{margin:.15rem 0}
+.snap a{color:#0b57d0}.out a{word-break:break-all}.cw-ver table{font-size:13px}.cw-ver td,.cw-ver th{padding:2px 6px;border-bottom:1px solid #ddd}</style></head>
+<body><main class="container py-3"><p class="small mb-1"><a href="/wayback/">Wayback Vault</a> · Snapshot</p>
+<h1 id="ttl" class="h4 mb-1">Snapshot</h1><p id="addr" class="small text-muted text-break mb-2"></p>
+<article id="box" class="snap card card-body"><p class="text-muted mb-0">Opening the snapshot…</p></article>
+<div id="out" class="out mt-3"></div><p id="cap" class="small text-muted mt-2"></p>
+<div class="cw-ver mt-4"><h2 class="h6" id="versions">Versions</h2><table><thead><tr><th>Version</th><th>Date</th><th>Change</th></tr></thead><tbody>
+<tr><td>v2.1.0</td><td>29 October 2026</td><td>Our copy first, then the live website, then the Internet Archive copy. An address held in the Vault's archived-websites list opens here too (it no longer jumps straight to the copy), so the live link always works.</td></tr>
+<tr><td>v2.0.0</td><td>27 October 2026</td><td>Every outside link opens a Cedwyn snapshot page: the captured copy, then the Internet Archive copy, then the live website.</td></tr>
+<tr><td>v1.1.0</td><td>26 October 2026</td><td>Guest book version links open the repository change.</td></tr>
+<tr><td>v1.0.0</td><td>25 October 2026</td><td>First archive address page.</td></tr></tbody></table>
+<p class="small">Page history: <a href="https://github.com/unclehowell/cedwyn/commits/main/web/_cedwyn/archive/go.html">GitHub</a></p></div></main>
+<script src="/_cedwyn/cat.js"></script><script>
+/* 27 Oct 2026: SNAPSHOT PAGE (v2.0.0). Every outside link on Cedwyn opens here. The page shows our captured copy of that one
+   page (links inside a copy stay only where they open another snapshot), then the live website, then the Internet Archive copy of
+   the address, then the capture date (order of 29 Oct 2026). These two lines are the only links out of Cedwyn; they are built here at run time.
+   The old outside-address notice page is gone and must never return (CONTRIBUTING.md, "Outside links"). - Sion's Tab agent */
+var u=new URLSearchParams(location.search).get('u')||'',box=document.getElementById('box');
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+/* 25 Oct 2026 (sales fix): the shop's checkout hosts (Stripe, Gumroad) open directly: a buy button must reach checkout. Only these hosts. */
+(function(){var x;try{x=new URL(u);}catch(e){return;}var h=x.hostname.toLowerCase();if(x.protocol!=='https:')return;
+if(h==='buy.stripe.com'||h==='checkout.stripe.com'||h==='gumroad.com'||/\.gumroad\.com$/.test(h)){
+document.getElementById('ttl').textContent='Secure checkout';box.innerHTML='<p class="mb-0"><a href="'+x.href.replace(/"/g,'%22')+'">Continue to checkout</a></p>';location.replace(x.href);u='';}})();
+/* 25 Oct 2026: an address that is one of Cedwyn's own themes (a former *.bucklerfamily.estate site or the Legal Wiki) opens the theme */
+(function(){if(!u)return;var H=/*GO_HOSTS*/{},A=/*GO_APEX*/[],x;try{x=new URL(u);}catch(e){return;}var h=x.hostname.toLowerCase().replace(/^www\./,''),p=x.pathname||'/',t=null,i;
+if(/\.translate\.goog$/.test(h))h=h.slice(0,-15).replace(/--/g,'\u0000').replace(/-/g,'.').replace(/\u0000/g,'-').replace(/^www\./,'');
+if(h==='bucklerfamily.estate'){for(i=0;i<A.length;i++)if(p.indexOf(A[i][0])===0||p+'/'===A[i][0]){t='/'+A[i][1]+'/'+p.slice(A[i][0].length).replace(/^\/+/,'');break;}}
+else if(H[h])t='/'+H[h]+p;if(t){location.replace(t+x.search+x.hash);u='';}})();
+/* 26 Oct 2026: the guest book's version links (a commit of Cedwyn's own repository) open that change directly. Only github.com/unclehowell/cedwyn/commit/<sha>. */
+(function(){var x;try{x=new URL(u);}catch(e){return;}var m=/^\/unclehowell\/cedwyn\/commit\/([0-9a-f]{7,40})\/?$/i.exec(x.pathname);if(x.protocol!=='https:'||x.hostname.toLowerCase()!=='github.com'||!m)return;location.replace(x.href);u='';})();
+function fnv(s){var b=new TextEncoder().encode(s),h=0x811c9dc5;for(var i=0;i<b.length;i++){h^=b[i];h=Math.imul(h,0x01000193)>>>0;}return ('0000000'+h.toString(16)).slice(-8);}
+function unz(b64){var bin=atob(b64),a=new Uint8Array(bin.length);for(var i=0;i<bin.length;i++)a[i]=bin.charCodeAt(i);
+ return new Response(new Blob([a]).stream().pipeThrough(new DecompressionStream('gzip'))).text().then(JSON.parse);}
+var IA='https:'+'/'+'/web.archive.org/web/';
+function lines(addr,ia,cap){if(!/^https?:/i.test(addr))return;var href=addr.replace(/"/g,'%22'),iah=IA+(ia?ia:'*')+'/'+href;
+ document.getElementById('out').innerHTML='<p class="mb-1"><strong>Live website:</strong> <a rel="nofollow noopener" href="'+href+'">'+esc(addr)+'</a></p>'+
+ '<p class="mb-1"><strong>Internet Archive copy:</strong> <a rel="nofollow noopener" href="'+iah+'">'+(ia?'Wayback Machine capture of '+esc(ia.slice(6,8)+'/'+ia.slice(4,6)+'/'+ia.slice(0,4)):'Wayback Machine captures of this address')+'</a></p>';
+ document.getElementById('cap').textContent=cap;}
+function host(x){try{return new URL(x).hostname.replace(/^www\./,'');}catch(e){return '';}}
+if(u){var k1=fnv(u),k2=fnv(Cedwyn.normkey(u)),n1=parseInt(k1.slice(-2),16)%16,n2=parseInt(k2.slice(-2),16)%16;
+ var pb=function(n){return fetch('/wayback/snap/b/'+('0'+n).slice(-2)+'.json').then(function(r){return r.ok?r.json():{};}).catch(function(){return {};});};
+ Promise.all([pb(n1),n2===n1?Promise.resolve(null):pb(n2),fetch('/wayback/go/captures.json').then(function(r){return r.json();}).catch(function(){return {};})]).then(function(rs){
+  var b1=rs[0]||{},b2=rs[1]||b1,vault=rs[2]||{},z=b1[k1]||b2[k2];
+  document.getElementById('addr').textContent=u;
+  if(z)return unz(z).then(function(s){document.title=(s.title||host(u))+' · Snapshot · Cedwyn';document.getElementById('ttl').textContent=s.title||host(u);
+   box.innerHTML=s.html||'<p class="mb-0">'+(s.pdf?'This address is a PDF document; it is linked below.':'This page holds no readable text; it is linked below.')+'</p>';
+   lines(u,s.ia,'Captured '+s.t.slice(0,10)+(s.src==='ia'?' from the Internet Archive copy':' from the live page')+'.');});
+  var hit=vault[Cedwyn.normkey(u)];if(hit){document.title=(hit.t||host(u))+' · Snapshot · Cedwyn';document.getElementById('ttl').textContent=hit.t||host(u);
+   box.innerHTML='<p class="mb-1"><a href="'+esc(hit.l)+'"><strong>Open our archived copy of this page</strong></a></p><p class="small text-muted mb-0">Kept in the Wayback Vault'+(hit.c?', captured '+esc(String(hit.c).slice(0,10)):'')+'.</p>';
+   lines(u,'','Our copy is in the Wayback Vault; the live website and the Internet Archive are linked here.');return;}
+  var hl=host(u).toLowerCase();if(/(^|\.)bucklerfamily\.estate$/.test(hl)){var pth='';try{pth=new URL(u).pathname;}catch(e){}
+   var tk=(pth.split('/').filter(Boolean).pop()||hl.split('.')[0]).replace(/\.[a-z0-9]*$/i,'').replace(/[-_]+/g,' ');
+   location.replace(/^(wayback-(html|img|pdf|video|text)|internetarchive)\./.test(hl)&&(pth==='/'||!pth)?'/wayback/':'/catalogue/?q='+encodeURIComponent(tk));return;}
+  document.getElementById('ttl').textContent=host(u)||'Snapshot';
+  box.innerHTML='<p class="mb-0">Snapshot not yet captured. The Internet Archive copy and the live website are linked below.</p>';
+  lines(u,'','Address recorded on Cedwyn; a dated copy will appear here once captured.');
+ });}
+else{document.getElementById('ttl').textContent='Wayback Vault';box.innerHTML='<p class="mb-0"><a href="/wayback/">Open the Wayback Vault</a></p>';}
+</script></body></html>

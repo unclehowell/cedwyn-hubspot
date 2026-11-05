@@ -1,0 +1,550 @@
+{
+  "schema": "cedwyn_page_areas/v1",
+  "generated_for": "visitor-facing page area grouping; build/source themes remain intact for backward compatibility",
+  "area_count": 37,
+  "source_theme_count": 45,
+  "mapping_note": "The slot number is a serendipity index only, not the historic tithe-apportionment plot number. A specific plot number must be added only after the EV-0215 parcel schedule has been checked row by row. This mapping does not assert ownership, boundaries, geography, or legal equivalence.",
+  "merge_rules": [
+    {
+      "from": [
+        "wiki",
+        "records",
+        "nomenclature"
+      ],
+      "to": "wiki",
+      "label": "Legal Wiki, evidence catalogue and source-aware nomenclature register; dictionary/glossary separate"
+    },
+    {
+      "from": [
+        "nft-art",
+        "cyberspace",
+        "terrain"
+      ],
+      "to": "arcade",
+      "label": "Single page area with three toggles"
+    },
+    {
+      "from": [
+        "fb",
+        "fb2"
+      ],
+      "to": "fb",
+      "label": "Farm Album and Today view"
+    },
+    {
+      "from": [
+        "email",
+        "emails"
+      ],
+      "to": "email",
+      "label": "Post Office and calendar"
+    },
+    {
+      "from": [
+        "story",
+        "documentary"
+      ],
+      "to": "story",
+      "label": "Story and documentary"
+    },
+    {
+      "from": [
+        "authorities",
+        "meeting"
+      ],
+      "to": "authorities",
+      "label": "Public Authorities and Council Chamber"
+    }
+  ],
+  "areas": [
+    {
+      "id": "wiki",
+      "title": "Legal Wiki & Evidence",
+      "source_themes": [
+        "wiki",
+        "records",
+        "nomenclature"
+      ],
+      "path": "/wiki/",
+      "description": "Legal Wiki, evidence catalogue and searchable nomenclature register: source-linked names with dates, provenance, evidence status and limitations; dictionary/glossary remains a separate reference view.",
+      "serendipity_slot": 1,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "docs",
+      "title": "Docs · Evidence Catalogue",
+      "source_themes": [
+        "docs"
+      ],
+      "path": "/docs/",
+      "description": "Machine-readable and downloadable catalogue documentation.",
+      "serendipity_slot": 2,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "wayback",
+      "title": "Wayback Vault",
+      "source_themes": [
+        "wayback"
+      ],
+      "path": "/wayback/",
+      "description": "Archived source copies.",
+      "serendipity_slot": 3,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "maps",
+      "title": "Map Room",
+      "source_themes": [
+        "maps"
+      ],
+      "path": "/maps/",
+      "description": "Maps and spatial reference.",
+      "serendipity_slot": 4,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "infographic",
+      "title": "The Land Changing Hands",
+      "source_themes": [
+        "infographic"
+      ],
+      "path": "/infographic/",
+      "description": "Title-chain and land-transfer visualisations.",
+      "serendipity_slot": 5,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "ebooks",
+      "title": "E-book Shelf",
+      "source_themes": [
+        "ebooks"
+      ],
+      "path": "/ebooks/",
+      "description": "Published casebooks and editions.",
+      "serendipity_slot": 6,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "story",
+      "title": "The Story & Documentary",
+      "source_themes": [
+        "story",
+        "documentary"
+      ],
+      "path": "/story/",
+      "description": "Narrative and documentary material.",
+      "serendipity_slot": 7,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "thousand-cuts",
+      "title": "1000 Cuts",
+      "source_themes": [
+        "thousand-cuts"
+      ],
+      "path": "/thousand-cuts/",
+      "description": "Dated chronology layer.",
+      "serendipity_slot": 8,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "fb",
+      "title": "Farm Album",
+      "source_themes": [
+        "fb",
+        "fb2"
+      ],
+      "path": "/fb/",
+      "description": "The farm album and its present-day view.",
+      "serendipity_slot": 9,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "arcade",
+      "title": "Arcade",
+      "source_themes": [
+        "nft-art",
+        "cyberspace",
+        "terrain"
+      ],
+      "path": "/arcade/",
+      "description": "Three toggles: digital garden/gallery, cyber games, and the 3D estate.",
+      "serendipity_slot": 10,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "chess",
+      "title": "Chessboard",
+      "source_themes": [
+        "chess"
+      ],
+      "path": "/chess/",
+      "description": "Chess.",
+      "serendipity_slot": 11,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "csscpsg",
+      "title": "Grammar House",
+      "source_themes": [
+        "csscpsg"
+      ],
+      "path": "/csscpsg/",
+      "description": "CSSCPSGP language and logic reference.",
+      "serendipity_slot": 12,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "courtdrills",
+      "title": "Court Drills",
+      "source_themes": [
+        "courtdrills"
+      ],
+      "path": "/courtdrills/",
+      "description": "Procedural issues and court records.",
+      "serendipity_slot": 13,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "fcg",
+      "title": "FCG · Security Clearance",
+      "source_themes": [
+        "fcg"
+      ],
+      "path": "/fcg/",
+      "description": "FCG records.",
+      "serendipity_slot": 14,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "oldbill",
+      "title": "Old Bill · Who Gained, Who Lost",
+      "source_themes": [
+        "oldbill"
+      ],
+      "path": "/oldbill/",
+      "description": "Interest and outcome accounting.",
+      "serendipity_slot": 15,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "accounts",
+      "title": "Counting House",
+      "source_themes": [
+        "accounts"
+      ],
+      "path": "/accounts/",
+      "description": "Financial/accounting materials.",
+      "serendipity_slot": 16,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "authorities",
+      "title": "Public Authorities & Council Chamber",
+      "source_themes": [
+        "authorities",
+        "meeting"
+      ],
+      "path": "/authorities/",
+      "description": "Authority register and dated council meeting material.",
+      "serendipity_slot": 17,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "wdtk",
+      "title": "FOI Requests",
+      "source_themes": [
+        "wdtk"
+      ],
+      "path": "/wdtk/",
+      "description": "FOI/EIR request records.",
+      "serendipity_slot": 18,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "review",
+      "title": "Independent Review",
+      "source_themes": [
+        "review"
+      ],
+      "path": "/review/",
+      "description": "Review register.",
+      "serendipity_slot": 19,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "research",
+      "title": "Research Library",
+      "source_themes": [
+        "research"
+      ],
+      "path": "/research/",
+      "description": "Evidence pages and analytical work.",
+      "serendipity_slot": 20,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "qa",
+      "title": "Q&A Hall",
+      "source_themes": [
+        "qa"
+      ],
+      "path": "/qa/",
+      "description": "Questions, answers, and institutional responses.",
+      "serendipity_slot": 21,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "projects",
+      "title": "Project Office",
+      "source_themes": [
+        "projects"
+      ],
+      "path": "/projects/",
+      "description": "Project record and plans.",
+      "serendipity_slot": 22,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "app",
+      "title": "Case Office",
+      "source_themes": [
+        "app"
+      ],
+      "path": "/app/",
+      "description": "Case management front end.",
+      "serendipity_slot": 23,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "chat",
+      "title": "Ask the Archive",
+      "source_themes": [
+        "chat"
+      ],
+      "path": "/chat/",
+      "description": "Agent-facing archive question interface.",
+      "serendipity_slot": 24,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "watchtower",
+      "title": "Watchtower",
+      "source_themes": [
+        "watchtower"
+      ],
+      "path": "/watchtower/",
+      "description": "Monitoring and status.",
+      "serendipity_slot": 25,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "email",
+      "title": "Post Office & Calendar",
+      "source_themes": [
+        "email",
+        "emails"
+      ],
+      "path": "/email/",
+      "description": "Correspondence and calendar.",
+      "serendipity_slot": 26,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "dartboard",
+      "title": "Disclosure Dartboard",
+      "source_themes": [
+        "dartboard"
+      ],
+      "path": "/dartboard/",
+      "description": "Disclosure and escalation routes.",
+      "serendipity_slot": 27,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "estate",
+      "title": "Cedwyn Estate",
+      "source_themes": [
+        "estate"
+      ],
+      "path": "/estate/",
+      "description": "Estate hub.",
+      "serendipity_slot": 28,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "directory",
+      "title": "Cedwyn Directory",
+      "source_themes": [
+        "directory"
+      ],
+      "path": "/directory/",
+      "description": "Page and resource directory.",
+      "serendipity_slot": 29,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "patagonia",
+      "title": "Great House Farm II · Patagonia",
+      "source_themes": [
+        "patagonia"
+      ],
+      "path": "/patagonia/",
+      "description": "Proposed counterpart estate and museum.",
+      "serendipity_slot": 30,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "wales",
+      "title": "Virtual Tour · Wales",
+      "source_themes": [
+        "wales"
+      ],
+      "path": "/wales/",
+      "description": "Llandough tour.",
+      "serendipity_slot": 31,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "shop",
+      "title": "Gift Shop & Marketplace",
+      "source_themes": [
+        "shop"
+      ],
+      "path": "/shop/",
+      "description": "Marketplace.",
+      "serendipity_slot": 32,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "familytree",
+      "title": "Family Tree",
+      "source_themes": [
+        "familytree"
+      ],
+      "path": "/familytree/",
+      "description": "People and relationship records.",
+      "serendipity_slot": 33,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "kissed-frogs",
+      "title": "Kissed Frogs",
+      "source_themes": [
+        "kissed-frogs"
+      ],
+      "path": "/kissed-frogs/",
+      "description": "Checked leads that are out of scope or disproven.",
+      "serendipity_slot": 34,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "whattheydontsay",
+      "title": "What They Don't Say",
+      "source_themes": [
+        "whattheydontsay"
+      ],
+      "path": "/whattheydontsay/",
+      "description": "Questions, deadlines and missing answers.",
+      "serendipity_slot": 35,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "blog",
+      "title": "Blog",
+      "source_themes": [
+        "blog"
+      ],
+      "path": "/blog/",
+      "description": "Dated research posts.",
+      "serendipity_slot": 36,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    },
+    {
+      "id": "hubspot",
+      "title": "HubSpot · Task Control",
+      "source_themes": [
+        "hubspot"
+      ],
+      "path": "/hubspot/",
+      "description": "Read-only task-status dashboard. Displays the last full native HubSpot task census and refreshes the latest published Cedwyn task-index mirror through the existing Cloudflare Agent Bridge.",
+      "serendipity_slot": 37,
+      "parcel_record": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+      "tithe_parcel_number": null,
+      "parcel_mapping_status": "historic_plot_number_pending_verification"
+    }
+  ]
+}

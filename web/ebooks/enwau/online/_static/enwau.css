@@ -1,0 +1,7 @@
+html,body{background:#fff;color:#1c1c22}
+.unsub{font-size:.88em;font-style:italic;opacity:.85}
+table.reg{font-size:12.5px;width:100% !important;table-layout:fixed}table.reg td,table.reg th{vertical-align:top;overflow-wrap:break-word;padding:4px 5px}
+@media print{table.reg{font-size:8.6pt}}
+@media screen and (max-width:700px){table.reg{font-size:13px}table.reg colgroup,table.reg thead{display:none}table.reg tr{display:block;border-bottom:1px solid rgba(128,128,128,.4);padding:6px 0}table.reg td{display:block;border:0;padding:1px 4px;width:auto!important}}
+.next-step a{display:inline-block;margin-top:.6em;padding:12px 18px;border-radius:10px;font-weight:700;text-decoration:none;background:#4A1942;color:#fff}
+.lang-cy,.lang-es{opacity:.9}

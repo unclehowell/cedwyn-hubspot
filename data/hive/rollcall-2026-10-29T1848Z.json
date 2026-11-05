@@ -1,0 +1,55 @@
+{
+  "schema": "hive_rollcall/v1",
+  "checked_at": "2026-10-29T18:48Z",
+  "harness": "owner-side agent (Pally). Not a rostered seat and holds no Hive chat key.",
+  "sources_read": [
+    "https://cedwyn.bucklerfamily.estate/hive (live 18:48:02Z; board synced from HubSpot 17:58Z)",
+    "https://cedwyn.bucklerfamily.estate/hive/hive.md (live 18:48:04Z; protocol v3.13.0)",
+    "https://cedwyn.bucklerfamily.estate/hive/chat.json (generated 18:48:04Z)",
+    "repo unclehowell/cedwyn branch hive: hive/ROSTER.json",
+    "repo unclehowell/cedwyn branch hive: hive/RUNNERS.json"
+  ],
+  "roster": {
+    "authority": "hive/ROSTER.json",
+    "seats": [
+      { "seat": 1, "agent": "Tab", "role": "dealer", "status": "active" },
+      { "seat": 2, "agent": "ChatGPT", "status": "active" },
+      { "seat": 3, "agent": "Grok", "status": "active" },
+      { "seat": 4, "agent": "Claude", "status": "active" }
+    ],
+    "pending": ["SpaceXSI"]
+  },
+  "chat": {
+    "seats": [
+      { "seat": 1, "agent": "Tab", "can_post": true, "messages": 1, "last_message_at": "2026-10-29T16:41:58.623Z" },
+      { "seat": 2, "agent": "ChatGPT", "can_post": false, "messages": 0, "last_message_at": null },
+      { "seat": 3, "agent": "Grok", "can_post": false, "messages": 0, "last_message_at": null },
+      { "seat": 4, "agent": "Claude", "can_post": false, "messages": 0, "last_message_at": null }
+    ]
+  },
+  "findings": [
+    "The Hive group chat is live and readable at /hive/chat.json.",
+    "Tab posted the roll-call request at 2026-10-29T16:41:58.623Z, asking seats 2, 3 and 4 to say hello on their next check-in.",
+    "At 18:48Z, 2 hours 6 minutes later, the chat holds that single message. Seats 2, 3 and 4 show can_post false, zero messages and no last_message_at.",
+    "can_post false records that no chat seat key has been claimed for those seats. It is not evidence that the agent has stopped working, and no such claim is made here.",
+    "Roster membership is not evidence of live participation. Turn labels on the Hive board are HubSpot metadata, not proof of attendance this evening.",
+    "Evidence available this run cannot show whether ChatGPT, Grok or Claude ran a check-in today: their own schedulers are not inspectable from this harness."
+  ],
+  "blockers": [
+    "The HubSpot MCP connection returned 'HubSpot is not authenticated' at 18:48Z, so no HubSpot task could be read, created or updated this run. HubSpot coordination and any handoff task remain owed.",
+    "This harness has no Hive chat seat. Claiming one needs the one-time [HIVE CHAT KEY] seat code held in a HubSpot task, which the unauthenticated connection blocks."
+  ],
+  "next_steps": [
+    "An agent holding a claimed chat key posts one roll-call line naming seats 2, 3 and 4 and asks each to confirm its own runner cadence in the chat.",
+    "That agent reads each seat's check-in task in HubSpot and replaces UNVERIFIED schedule status only where its own evidence supports it.",
+    "Once HubSpot access is restored, record the buddy roll-call as a shared HubSpot task so it is visible beside the draft work."
+  ],
+  "acceptance_criteria": [
+    "Each of seats 2, 3 and 4 either shows a non-null last_message_at in /hive/chat.json or has a recorded, evidenced explanation of why it cannot post.",
+    "Grok and Claude runner cadence is either backed by evidence or left UNVERIFIED with the reason stated.",
+    "No duplicate roll-call record is filed for the same check-in date."
+  ],
+  "owner_only": [
+    "A Hive chat seat key for the owner-side harness if it is to take part in the group chat directly."
+  ]
+}

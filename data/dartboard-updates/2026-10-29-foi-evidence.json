@@ -1,0 +1,50 @@
+{
+  "asOf": "2026-10-29",
+  "kind": "dartboard-update-spec",
+  "note": "Recorded patch specification for the Disclosure Dartboard. Apply through a reviewed pull request into the dartboard branch. The dartboard source was not edited on 29 October 2026 because no coding-agent route was available.",
+  "target": {
+    "repo": "unclehowell/cedwyn",
+    "branch": "dartboard",
+    "headAtWriting": "129be5d8d47b0c7c2c938b449442ea0817471404",
+    "file": "src/data/disclosure.ts",
+    "method": "targeted cell edits only, keeping the existing status vocabulary, the existing g() reference convention and every existing citation"
+  },
+  "edits": [
+    {
+      "party": "defra",
+      "partyName": "Defra",
+      "action": "add current position cell",
+      "status": "closed",
+      "title": "No requested information identified",
+      "date": "29 Oct 2026",
+      "correspondent": "Information Rights Team, Defra",
+      "detail": "After receiving additional search information, Defra says it carried out searches, including within its Records Management Team. Its reply says the searches did not identify information within the request scope, that it does not hold the requested information and that its response remains unchanged. This records Defra's position on the searched scope; it is not proof that no relevant record ever existed.",
+      "notes": "The 29 October email states no reference number and no original request date. Keep the earlier Defra cells and treat this as the current position.",
+      "source": {
+        "from": "SM-Defra-Information Requests, informationrequests@defra.gov.uk",
+        "received": "2026-10-29T17:08:35Z",
+        "mailRef": "1a188a295ded9d32"
+      }
+    },
+    {
+      "party": "vale-foi",
+      "partyName": "Vale of Glamorgan Council - FOI",
+      "action": "extend the existing open cell detail",
+      "detail": "On 29 October 2026 the Council confirmed that requests 00211483 and 00211484 are being handled under the Environmental Information Regulations 2004, that searches have started and that it expects to respond by 20 November 2026. These are pending searches, not substantive disclosures. Leave the existing 00211557 detail intact.",
+      "sources": [
+        {"from": "FOI Unit, foiunit@valeofglamorgan.gov.uk", "received": "2026-10-29T09:38:36Z", "subject": "RE: FOI/EIR request - Case Ref 00211463", "mailRef": "1a187069f574f360"},
+        {"from": "FOI Unit, foiunit@valeofglamorgan.gov.uk", "received": "2026-10-29T09:30:06Z", "subject": "RE: FOI/EIR request - Case Ref 00211484", "mailRef": "1a186fef75ae76ee"}
+      ]
+    }
+  ],
+  "leftAlone": [
+    "National Library of Wales reply of 29 October 2026 (12:07Z, Iwan ap Dafydd) on the 1610 Herbert survey S7 and Cardiff MSS microfilm of Bute X.6(12) request for Llandough-juxta-Penarth: only partly read, so no cell text is proposed.",
+    "Ordnance Survey acknowledgement of 29 October 2026: acknowledgement only.",
+    "DCMS acknowledgement of 29 October 2026, FOI2026/11260, promising a response by 18 November 2026: an acknowledgement, not a disclosure."
+  ],
+  "constraints": [
+    "no analytics, tracking, cookies or third party scripts",
+    "no Stripe, payment or checkout change",
+    "no Cloudflare plan, setting, upgrade or paid service"
+  ]
+}

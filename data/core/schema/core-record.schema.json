@@ -1,0 +1,364 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://cedwyn.bucklerfamily.estate/_cedwyn/core/core-record.schema.json",
+ "title": "Cedwyn core record",
+ "version": "0.2.1",
+ "description": "One record in the Cedwyn central catalogue (data/core/records/*.json). Public text: neutral third person; provenance names the source document only.",
+ "type": "object",
+ "required": [
+  "id",
+  "kind",
+  "title",
+  "public"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^(EV|MR|CC|KF|RET|PL|PE|EVT|AR|TS|OBS)-[A-Z0-9-]+$"
+  },
+  "kind": {
+   "enum": [
+    "evidence",
+    "artifact",
+    "place",
+    "person_or_body",
+    "event",
+    "screening_lead",
+    "missing_record",
+    "observation",
+    "testimony",
+    "catalogue_candidate"
+   ]
+  },
+  "slug": {
+   "type": "string",
+   "pattern": "^[a-z0-9-]+$"
+  },
+  "title": {
+   "type": "string",
+   "minLength": 3,
+   "maxLength": 200
+  },
+  "aliases": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "date": {
+   "type": "object",
+   "properties": {
+    "display": {
+     "type": "string"
+    },
+    "sort": {
+     "type": [
+      "integer",
+      "string",
+      "null"
+     ]
+    },
+    "precision": {
+     "type": "string"
+    }
+   }
+  },
+  "place_text": {
+   "type": "string"
+  },
+  "description": {
+   "type": "string"
+  },
+  "transcript": {
+   "type": "string"
+  },
+  "transcript_status": {
+   "type": "string"
+  },
+  "interpretation": {
+   "type": "string"
+  },
+  "provenance": {
+   "type": "object",
+   "properties": {
+    "holder": {
+     "type": "string"
+    },
+    "reference": {
+     "type": "string"
+    },
+    "date": {
+     "type": "string"
+    },
+    "obtained": {
+     "type": "string"
+    },
+    "independent_origin_id": {
+     "type": "string"
+    }
+   },
+   "additionalProperties": false
+  },
+  "grade": {
+   "type": [
+    "integer",
+    "null"
+   ],
+   "minimum": 0,
+   "maximum": 5
+  },
+  "scope": {
+   "type": "object",
+   "required": [
+    "disposition"
+   ],
+   "properties": {
+    "disposition": {
+     "enum": [
+      "in_scope",
+      "not_this_property",
+      "separate_property",
+      "out_of_scope",
+      "name_correction",
+      "dating_correction",
+      "assertion_only",
+      "context_only",
+      "catalogue_only",
+      "lead_only",
+      "hypothesis",
+      "on_hold",
+      "outside_title_question",
+      "precedent",
+      "secondary_copy",
+      "unexplained"
+     ]
+    },
+    "label": {
+     "type": "string"
+    },
+    "reason": {
+     "type": "string"
+    },
+    "distinct_from": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "tags": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "places": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "evidence": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "detail": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "heading"
+    ],
+    "properties": {
+     "heading": {
+      "type": "string"
+     },
+     "text": {
+      "type": "string"
+     },
+     "items": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "form": {
+      "enum": [
+       "section",
+       "term"
+      ]
+     },
+     "runs": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "text"
+       ],
+       "properties": {
+        "text": {
+         "type": "string"
+        },
+        "href": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "sources": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string"
+     },
+     "href": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "pattern": "^/"
+     }
+    }
+   }
+  },
+  "related": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "links": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "rel",
+     "to"
+    ],
+    "properties": {
+     "rel": {
+      "type": "string"
+     },
+     "to": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "page": {
+   "type": "string",
+   "pattern": "^/"
+  },
+  "origin": {
+   "type": "string"
+  },
+  "reworded": {
+   "type": "boolean"
+  },
+  "public": {
+   "type": "boolean"
+  },
+  "updated": {
+   "type": "string"
+  },
+  "rev": {
+   "type": "integer"
+  },
+  "notes": {
+   "type": "array",
+   "description": "Short paragraphs as runs of text, some linked (root-relative or relative links only).",
+   "items": {
+    "type": "object",
+    "required": [
+     "runs"
+    ],
+    "properties": {
+     "class": {
+      "enum": [
+       "kf-origin",
+       "kf-note"
+      ]
+     },
+     "runs": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "text"
+       ],
+       "properties": {
+        "text": {
+         "type": "string"
+        },
+        "href": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "event": {
+   "type": "string",
+   "description": "The single dated event a recreation depicts."
+  },
+  "version": {
+   "type": "string",
+   "description": "Record version, shown with the catalogue number."
+  },
+  "media": {
+   "type": "object",
+   "description": "Asset paths for generated recreations: photo, hologram, alt, label."
+  },
+  "made": {
+   "type": "object",
+   "description": "How a generated asset was made: model, date, hologram_method, prompt."
+  },
+  "excluded": {
+   "type": "array",
+   "description": "What a recreation does not show; visible uncertainty."
+  },
+  "description_cited": {
+   "type": "array",
+   "description": "Description paragraphs with citations, A2UI RichParas shape."
+  },
+  "interpretation_cited": {
+   "type": "array",
+   "description": "Interpretation paragraphs with citations, A2UI RichParas shape."
+  },
+  "changes": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "note"
+    ],
+    "properties": {
+     "rev": {
+      "type": "string"
+     },
+     "date": {
+      "type": "string"
+     },
+     "note": {
+      "type": "string"
+     }
+    },
+    "additionalProperties": false
+   }
+  }
+ },
+ "additionalProperties": false
+}

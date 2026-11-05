@@ -1,0 +1,2938 @@
+{
+ "slug": "title-chain",
+ "title": "The Title Chain and the Twelve-Year Pairs",
+ "subtitle": "Who held the paper and who held the land at Cedwyn / Tŷ Mawr (Llandough and Leckwith), 1841–1987, each step tied to its catalogue entry",
+ "version": "1.1.0",
+ "built": "2026-10-30",
+ "ref_theme": "research",
+ "note": "Ingredients and citations, not conclusions. Pattern charts are for discussion; dates come from the cited records; nothing here is a finding of any court.",
+ "court_first": [
+  "Court of Appeal, 31 Jul 1987 (EV-0080): the court found Mary and Frederick Buckler in adverse possession of the farmhouse from 2 Feb 1955.",
+  "The court held that the 11 Dec 1962 possession order could be enforced for 12 years, to Dec 1974, and kept the paper title alive until then.",
+  "The court held that the two letters of 31 Oct 1974 made Mary a licensee, because she did not reject them in writing; on that basis it treated twelve years of adverse possession as never completed and treated BP as owner.",
+  "The court called the one-sided licence point \"a new one\" and noted the risk of an owner keeping title alive \"for very many years until it suits him to evict\".",
+  "Mary Williams’s assertion that the family owned the farmhouse outright was never tried: her documents were not produced, and BP Pension Trust’s 1974 action, in which she pleaded ownership, was never relisted. BP Properties’ position on the register rests on first registration as proprietor in 1982/83; whether her case was before HM Land Registry then is not shown in the records held."
+ ],
+ "catalogue_new": [
+  {
+   "ev": "EV-0607",
+   "title": "Twelve-year rainbow chart: dated pairs on one timeline, 1877–1987 (analysis, 25 Oct 2026)",
+   "date": "25 October 2026",
+   "sort": "2026-10-25",
+   "type": "analysis chart",
+   "label": "RESEARCH ARTIFACT — ANALYSIS OF CATALOGUED RECORDS",
+   "status": "PUBLISHED — pattern chart for discussion; not a finding of any court.",
+   "files": [
+    "twelve-year-rainbow.png",
+    "twelve-year-rainbow.pdf"
+   ],
+   "refs": [
+    "EV-0080",
+    "EV-0006",
+    "EV-0008",
+    "EV-0022",
+    "EV-0023",
+    "EV-0025",
+    "EV-0041",
+    "EV-0050"
+   ],
+   "path": "/evidence/ev-0607-twelve-year-rainbow-chart-2026/",
+   "summary": "Shows each dated pair on one 1870–1990 timeline with its exact gap: 1926→1938 12y 11m 24d; 1939→1952 13y 4m 22d; 1949→1961 12y 1m 27d; 1962→1974 11y 10m 20d; 1974→1986 11y 8m 24d.",
+   "limits": "A gap of about twelve years is not itself evidence of intent. Across 34 dated events, 12-year gaps occur about as often as 11- and 13-year gaps (17, 12 and 15 pairs)."
+  },
+  {
+   "ev": "EV-0608",
+   "title": "Twelve-year pairs stacked from a common start, with 26 numbered event notes (analysis, 25 Oct 2026)",
+   "date": "25 October 2026",
+   "sort": "2026-10-25",
+   "type": "analysis chart",
+   "label": "RESEARCH ARTIFACT — ANALYSIS OF CATALOGUED RECORDS",
+   "status": "PUBLISHED — pattern chart for discussion; not a finding of any court.",
+   "files": [
+    "twelve-year-stack.png",
+    "twelve-year-stack.pdf"
+   ],
+   "refs": [
+    "EV-0080",
+    "EV-0013",
+    "EV-0014",
+    "EV-0016",
+    "EV-0022",
+    "EV-0023",
+    "EV-0037",
+    "EV-0039",
+    "EV-0040",
+    "EV-0041",
+    "EV-0044",
+    "EV-0045",
+    "EV-0216"
+   ],
+   "path": "/evidence/ev-0608-twelve-year-stacked-chart-2026/",
+   "summary": "Fifteen pairs sorted by closeness to 12 years. Four land within about two months of 12: 11 Dec 1962 → 31 Oct 1974 (11y 10m 20d), Dec 1926 → 25 Dec 1938 (≈12y 0m), Jun 1963 → 23 May 1975 (≈11y 11m), 1916 → 1928 (year only).",
+   "limits": "About half of the takings on file have no twelve-year lead-in (Leckwith Woods 1940–42, Leckwith Common 1958, Cogan Pill 1958, 1955, 1962, 1969). Ranges are shown where a month or day is not known."
+  },
+  {
+   "ev": "EV-0609",
+   "title": "Parcel-by-parcel table: 21 takings of Cedwyn / Tŷ Mawr land, with the event before each and its gap (analysis, 25 Oct 2026)",
+   "date": "25 October 2026",
+   "sort": "2026-10-25",
+   "type": "analysis table",
+   "label": "RESEARCH ARTIFACT — ANALYSIS OF CATALOGUED RECORDS",
+   "status": "PUBLISHED — ingredients only.",
+   "files": [
+    "parcel-pattern.pdf"
+   ],
+   "refs": [
+    "EV-0013",
+    "EV-0014",
+    "EV-0022",
+    "EV-0023",
+    "EV-0025",
+    "EV-0035",
+    "EV-0038",
+    "EV-0040",
+    "EV-0041",
+    "EV-0042",
+    "EV-0043",
+    "EV-0044",
+    "EV-0050",
+    "EV-0147",
+    "EV-0216",
+    "EV-0220"
+   ],
+   "path": "/evidence/ev-0609-parcel-by-parcel-pattern-table-2026/",
+   "summary": "Lays out, side by side, what each taking was, who acted, the stated reason and whether the family’s position was answered on the record (it was answered in part in 1958 and in full only at the 1986–87 trial).",
+   "limits": "The table states no conclusion about a common plan. War Agricultural Executive and Air Ministry rows record that no taking of this farm has been found on file."
+  },
+  {
+   "ev": "EV-0610",
+   "title": "Llandough quarry and lime works plant catalogued for sale, 10 November 1925 (Glamorgan Archives DSA/12/4888)",
+   "date": "10 November 1925",
+   "sort": "1925-11-10",
+   "type": "sale catalogue",
+   "label": "ARCHIVE CATALOGUE ENTRY — DOCUMENT NOT YET SEEN",
+   "status": "PENDING — view free at Glamorgan Archives.",
+   "files": [],
+   "refs": [
+    "EV-0006",
+    "EV-0016",
+    "EV-0280",
+    "EV-0615"
+   ],
+   "path": "/evidence/ev-0610-llandough-quarry-plant-sale-1925/",
+   "summary": "Quarrying plant at Llandough was offered for sale in November 1925 — the quarry leaving. 6 Nov 1877 (the reported Bute–Thomas deal, EV-0006) to 10 Nov 1925 is 48 years 0 months 4 days, four times twelve.",
+   "limits": "Which land the plant stood on, and whether it ended any lease of the house parcel, is not shown by the catalogue entry. If 1877 was a fixed-term quarry lease, the term ending would explain the 48 years."
+  },
+  {
+   "ev": "EV-0611",
+   "title": "Llandough Rectory sold at auction, 7 October 1926; plan marks adjoining land \"part of the Bute Estate\" (Glamorgan Archives DSA/12/5085)",
+   "date": "7 October 1926 (boundary letter 26 July 1926)",
+   "sort": "1926-10-07",
+   "type": "sale particulars and plan",
+   "label": "ARCHIVE CATALOGUE ENTRY — DOCUMENT NOT YET SEEN",
+   "status": "PENDING — view free at Glamorgan Archives.",
+   "files": [],
+   "refs": [
+    "EV-0022",
+    "EV-0316"
+   ],
+   "path": "/evidence/ev-0611-llandough-rectory-sale-1926/",
+   "summary": "In 1926 the land next to the Rectory was marked on a sale plan as part of the Bute Estate. 7 Oct 1926 → 25 Dec 1938 is 12y 2m 18d.",
+   "limits": "The plan has not been matched to Great House Farm fields."
+  },
+  {
+   "ev": "EV-0612",
+   "title": "Bute lets land near Lewis Road, Llandough, to Penarth Urban District Council, December 1926 (Glamorgan Archives DBDT123/6)",
+   "date": "December 1926",
+   "sort": "1926-12-01",
+   "type": "letting",
+   "label": "ARCHIVE CATALOGUE ENTRY — DOCUMENT NOT YET SEEN",
+   "status": "PENDING — view free at Glamorgan Archives.",
+   "files": [],
+   "refs": [
+    "EV-0023",
+    "EV-0022"
+   ],
+   "path": "/evidence/ev-0612-bute-letting-lewis-road-penarth-udc-1926/",
+   "summary": "The catalogue records a letting by \"the Marquis of Bute\" of land near Lewis Road to a public body in Dec 1926. Dec 1926 → 25 Dec 1938 is about 12 years 0 months.",
+   "limits": "The parcel is not yet matched to farm fields."
+  },
+  {
+   "ev": "EV-0613",
+   "title": "Bute Glamorgan manorial records: court books to 1937, extinguishment of manorial incidents 1929–40, Ministry of Agriculture correspondence 1938, steward for the \"Glamorgan manors of Mountjoy Ltd\" 1937 (Glamorgan Archives DB/M/1–21)",
+   "date": "1926–1940",
+   "sort": "1926-01-01",
+   "type": "manorial records",
+   "label": "ARCHIVE CATALOGUE ENTRIES — DOCUMENTS NOT YET SEEN",
+   "status": "PENDING — view free at Glamorgan Archives.",
+   "files": [],
+   "refs": [
+    "EV-0027",
+    "EV-0146",
+    "EV-0278",
+    "EV-0616"
+   ],
+   "path": "/evidence/ev-0613-bute-glamorgan-manorial-records-1926-1940/",
+   "summary": "Bute’s manorial titles in Glamorgan were being wound down after 1 Jan 1926, when the Law of Property Act 1922 turned copyhold into freehold (EV-0616); in 1938, the year of the sale to Western Ground Rents (deed not examined), Bute’s estate was corresponding with the Ministry about extinguishing manorial incidents.",
+   "limits": "No record yet shows that any part of Great House Farm was copyhold of Llandough manor after 1900."
+  },
+  {
+   "ev": "EV-0614",
+   "title": "Mountjoy Ltd in the Bute estate catalogue: \"In 1926, the remaining Bute property was incorporated under a private family company called Mountjoy Ltd\" (TNA Discovery, GB 0214 DB administrative history)",
+   "date": "1926 per the catalogue (company formed May 1922, EV-0624); 1938 sale",
+   "sort": "1926-06-01",
+   "type": "catalogue administrative history",
+   "label": "ARCHIVE CATALOGUE TEXT",
+   "status": "READ (catalogue text); company records not yet seen.",
+   "files": [],
+   "refs": [
+    "EV-0022",
+    "EV-0024",
+    "EV-0080",
+    "EV-0012",
+    "EV-0624"
+   ],
+   "path": "/evidence/ev-0614-mountjoy-ltd-1926-tna-catalogue/",
+   "summary": "Names Mountjoy Ltd as the Bute family company from 1926 and records that in 1938 Mountjoy sold its leasehold interests. Mountjoy Ltd is named as the seller to Western Ground Rents in 1938 in press reports (EV-0022); the 1938 deed has not been examined.",
+   "limits": "Press of May 1922 shows the company was formed in 1922 (EV-0624), so 1926 reads as the year further property was brought in. The 1987 judgment does not mention Mountjoy; it goes from \"the Marquis\" (1916) to WGR (1938). No Llandough-juxta-Penarth instrument in the DBDT catalogue names Mountjoy."
+  },
+  {
+   "ev": "EV-0615",
+   "title": "London Gazette, 29 October 1926, p.7040: release of the liquidator of Lewis & Pritchard Ltd, quarry firm (\"surplus plant at Llandough\" sold Aug 1925)",
+   "date": "29 October 1926",
+   "sort": "1926-10-29",
+   "type": "gazette notice",
+   "label": "PUBLISHED RECORD",
+   "status": "READ (gazette text).",
+   "files": [],
+   "refs": [
+    "EV-0610",
+    "EV-0280"
+   ],
+   "path": "/evidence/ev-0615-london-gazette-1926-lewis-pritchard-liquidator/",
+   "summary": "The quarry firm working at Llandough was wound up by 1926.",
+   "limits": "Whose land the firm worked, and on what terms, is not stated."
+  },
+  {
+   "ev": "EV-0616",
+   "title": "Law of Property Act 1922, ss.128 and 138: all copyhold enfranchised into freehold from 1 January 1926; manorial incidents to be extinguished within ten years",
+   "date": "1 January 1926",
+   "sort": "1926-01-01",
+   "type": "statute",
+   "label": "LAW — ENACTED TEXT",
+   "status": "READ.",
+   "files": [],
+   "refs": [
+    "EV-0613",
+    "EV-0146"
+   ],
+   "path": "/evidence/ev-0616-law-of-property-act-1922-copyhold-1926/",
+   "summary": "1 Jan 1926 rebuilt English property law and reached Bute’s manors directly. A copyholder’s land became the holder’s freehold by statute.",
+   "limits": "Whether the family’s holding was ever copyhold is not shown in any record on file."
+  },
+  {
+   "ev": "EV-0617",
+   "title": "The twelve-year rule for land: Real Property Limitation Act 1874 (from 1 January 1879), restated by the Limitation Act 1939 (in force 1 July 1940)",
+   "date": "1 January 1879; 1 July 1940",
+   "sort": "1879-01-01",
+   "type": "statute",
+   "label": "LAW — ENACTED TEXT AND STANDARD SOURCES",
+   "status": "READ.",
+   "files": [],
+   "refs": [
+    "EV-0080",
+    "EV-0023"
+   ],
+   "path": "/evidence/ev-0617-twelve-year-limitation-rule-1879-1940/",
+   "summary": "Twelve years had applied to actions to recover land since 1 Jan 1879; the 1939 Act restated it. So the 18 May 1939 Parcel B letting (EV-0023) was made while a twelve-year rule was already in force. While a written tenancy runs, the tenant’s years do not count against the landlord. A mere visit or assertion does not stop time (1939 Act s.13, quoted in the judgment).",
+   "limits": "The 1940 Act did not introduce the twelve-year period for land; it restated it."
+  },
+  {
+   "ev": "EV-0618",
+   "title": "Press, 1904–05: Cardiff’s Western Sewer Sub-committee completes the conveyance of the pumping-station site and sewer easements from the representatives of Lord Bute (Evening Express 23 Mar 1905; Weekly Mail 11 Jun 1904)",
+   "date": "11 June 1904; 23 March 1905",
+   "sort": "1905-03-23",
+   "type": "press reports",
+   "label": "PUBLISHED RECORD — NEWSPAPER TEXT",
+   "status": "READ (newspaper text). The deed itself is not yet copied.",
+   "files": [],
+   "refs": [
+    "EV-0013"
+   ],
+   "path": "/evidence/ev-0618-cardiff-western-sewer-bute-easements-1904-1905/",
+   "summary": "Cardiff paid £5,362 7s for Bute easements over about 2½ miles of sewer route (1904) and completed the conveyance of the pumping-station site and easements in early 1905. This fits EV-0013 being the Western District outfall sewer easements.",
+   "limits": "Until the 23 Feb 1905 deed is copied, its land and terms are not confirmed; an alternative reading is a Leckwith reservoir main."
+  },
+  {
+   "ev": "EV-0619",
+   "title": "Covenant wording: Western Ground Rents’ Llandough covenant of 5 March 1962 and BP’s covenant of 23 May 1975, side by side",
+   "date": "5 March 1962; 23 May 1975",
+   "sort": "1975-05-23",
+   "type": "covenant comparison",
+   "label": "RECORD COMPARISON — FROM REGISTER ENTRIES AND A RECITED CONVEYANCE",
+   "status": "READ (register view and FOI copy).",
+   "files": [],
+   "refs": [
+    "EV-0042",
+    "EV-0216",
+    "EV-0288",
+    "EV-0620"
+   ],
+   "path": "/evidence/ev-0619-wgr-1962-covenant-and-bp-1975-covenant/",
+   "summary": "The 1975 covenant repeats the 1962 estate wording almost word for word: the benefit of the seller’s land \"within a radius of one hundred yards\"; the same banned uses (\"noisy noxious or offensive trade … public worship … lunatic asylum … public house inn tavern or beer-shop … advertisement\"); and the same proviso that the covenant is not \"evidence of a building scheme\". BP’s 1975 deed was drafted from the Western Ground Rents estate precedent.",
+   "limits": "Shared wording shows continuity of drafting and estate management after BP bought Western Ground Rents in 1969 (EV-0288); it is silent on anyone’s intentions."
+  },
+  {
+   "ev": "EV-0620",
+   "title": "23 May 1975: conveyance of the farmhouse plot and other land, BP Pension Trust to BP Properties; the rest kept as \"Retained Land\"",
+   "date": "23 May 1975",
+   "sort": "1975-05-23",
+   "type": "conveyance (register entry)",
+   "label": "REGISTER ENTRY — DEED NOT HELD",
+   "status": "PENDING — the deed is on the HM Land Registry file.",
+   "files": [],
+   "refs": [
+    "EV-0265",
+    "EV-0043",
+    "EV-0619"
+   ],
+   "path": "/evidence/ev-0620-bp-pension-trust-to-bp-properties-1975/",
+   "summary": "The register records a conveyance inside the BP group six months before the Vale of Glamorgan became a compulsory registration area (1 Dec 1975, EV-0265), so this conveyance triggered no registration.",
+   "limits": "The deed’s plan and recitals have not been read."
+  },
+  {
+   "ev": "EV-0621",
+   "title": "Root of title: the 25 December 1938 conveyance, and why the 31 December 1969 sale fell under the 30-year rule (LPA 1925 s.44(1); LPA 1969 ss.23, 31(2))",
+   "date": "25 December 1938; 31 December 1969",
+   "sort": "1969-12-31",
+   "type": "law and title note",
+   "label": "LAW — ENACTED TEXT, APPLIED TO RECORDS ON FILE",
+   "status": "READ.",
+   "files": [],
+   "refs": [
+    "EV-0216",
+    "EV-0043",
+    "EV-0045",
+    "EV-0022"
+   ],
+   "path": "/evidence/ev-0621-root-of-title-1938-and-the-1969-sale/",
+   "summary": "The cut from a 30-year to a 15-year root applied only to contracts made after 1 Jan 1970, so the 31 Dec 1969 WGR → BP Pension Trust sale needed a root before Dec 1939: in practice the 25 Dec 1938 conveyance (known from recitals; the deed has not been examined), then 31 years 6 days old. In 1965 the school-site contract had to contract out of the 30-year rule to start from the same 1938 deed. BP’s 1969 and 1971 abstracts (EV-0043, EV-0045) should therefore begin with the 1938 deed and show what it conveyed at Llandough.",
+   "limits": "Starting title at a purchase from a great estate was common practice."
+  },
+  {
+   "ev": "EV-0622",
+   "title": "Crichel Down rules and military land: what applies at Llandough, and three unread files (TNA MAF 11/1022, HLG 23/17384, MH 96/291)",
+   "date": "1925–1958",
+   "sort": "1958-11-21",
+   "type": "research leads",
+   "label": "LEADS — FILES NOT YET SEEN",
+   "status": "PENDING — order or view at Kew.",
+   "files": [],
+   "refs": [
+    "EV-0037",
+    "EV-0035",
+    "EV-0038"
+   ],
+   "path": "/evidence/ev-0622-military-and-requisition-leads-crichel-down/",
+   "summary": "The Crichel Down rules cover surplus land a public body bought under compulsion and offer it back to the former freeholder. MAF 11/1022 is dated two days after Mrs M. D. Buckler called the losses \"a Welsh case of Crichel Down\" (EV-0037).",
+   "limits": "No requisition of this farm, and no Air Ministry or airfield taking of it, has been found on file. Where public bodies took land nearby, the party of record was Bute, Mountjoy, WGR or a developer."
+  },
+  {
+   "ev": "EV-0623",
+   "title": "Financial Times full text, June 1983 – September 1986 (885 issues): no item on Llandough, Great House Farm, Tŷ Mawr, BP Properties / BP Pension Trust, Western Ground Rents or the case",
+   "date": "June 1983 – September 1986",
+   "sort": "1986-09-30",
+   "type": "negative search",
+   "label": "SEARCH RECORD — NOTHING FOUND",
+   "status": "DONE — negative.",
+   "files": [],
+   "refs": [
+    "EV-0080"
+   ],
+   "path": "/evidence/ev-0623-financial-times-1983-1986-negative-sweep/",
+   "summary": "The national financial press of the period carried no report of the case or the land.",
+   "limits": "Absence from one newspaper is not evidence about the case itself."
+  },
+  {
+   "ev": "EV-0624",
+   "title": "Mountjoy Ltd formed in May 1922 as the 4th Marquess of Bute’s estate company (£1,000,000; named after his title Viscount Mountjoy); lord of Llandough court leet in 1932",
+   "date": "12–13 May 1922; 7 Oct 1932",
+   "sort": "1922-05-12",
+   "type": "press reports and gazette notices",
+   "label": "PUBLISHED RECORD — NEWSPAPER TEXT (SEARCH-RESULT TEXT, PAGE IMAGES NOT SEEN)",
+   "status": "READ (search-result text).",
+   "files": [],
+   "refs": [
+    "EV-0614",
+    "EV-0022",
+    "EV-0613"
+   ],
+   "path": "/evidence/ev-0624-mountjoy-ltd-formed-1922-bute-estate-company/",
+   "summary": "Mountjoy Ltd was formed in May 1922 with £1,000,000 capital \"to take over Lord Bute’s life interest in all the estates in South Wales and Scotland\" and traded as \"Mountjoy, Limited (Bute Estate, Cardiff)\". In 1932 \"the annual court leet dinner given by Mountjoy Estate, Ltd.\" was held at the Merry Harriers’ Hotel, Llandough. A Mountjoy Limited at Queen Anne’s Gate went into members’ voluntary winding-up in 1955 (same company probable, not proven).",
+   "limits": "A company taking a tenant for life’s \"life interest\" would not by itself hold the fee simple; who conveyed the legal estate in 1938 — Mountjoy, Bute, the settlement trustees or all of them — is a question the 1938 deed will answer."
+  },
+  {
+   "ev": "EV-0625",
+   "title": "The 1938 sale as one transaction: contracts 17 May 1938, Western Ground Rents registered 4–5 July 1938, manors kept back, Mountjoy as mortgagee to 1944",
+   "date": "17 May – 23/25 Dec 1938; 14 Jun 1939",
+   "sort": "1938-05-17",
+   "type": "press reports and archive catalogue",
+   "label": "PUBLISHED RECORD AND CATALOGUE ENTRIES — DEED NOT READ",
+   "status": "READ (search-result text and catalogue entries).",
+   "files": [],
+   "refs": [
+    "EV-0022",
+    "EV-0216",
+    "EV-0027",
+    "EV-0257",
+    "EV-0020",
+    "EV-0024"
+   ],
+   "path": "/evidence/ev-0625-bute-mountjoy-sale-to-wgr-1938-one-transaction/",
+   "summary": "Bute sold \"nearly the whole of the Mountjoy estate\" to a single buyer (press). The manors, the castles and some named lands were kept back, so the manorial title of Llandough stayed with Mountjoy in 1938 (manors disposed of 1950–57, EV-0027). A Cardiff strip was reported transferred to Western Ground Rents with other Bute property the previous December (Western Mail, 14 Jun 1939). In Leckwith the lettings run Bute (1925) → Mountjoy (1934) → WGR (1944). The 25 Dec 1938 conveyance is known from recitals in later documents; the deed has not been examined.",
+   "limits": "No record names a second grantee under the 25 Dec 1938 deed, and none states whether Great House Farm or Parcel B was included. No DBDT Llandough-juxta-Penarth instrument names Mountjoy."
+  },
+  {
+   "ev": "EV-0626",
+   "title": "\"Cydfin Wood, Leckwith, the property of Lord Bute\": Penarth police court reports, Evening Express 7 and 14 January 1903",
+   "date": "7 and 14 January 1903",
+   "sort": "1903-01-14",
+   "type": "press reports",
+   "label": "PUBLISHED RECORD — NEWSPAPER TEXT",
+   "status": "READ (newspaper text).",
+   "files": [],
+   "refs": [
+    "EV-0001",
+    "EV-0012"
+   ],
+   "path": "/evidence/ev-0626-cydfin-wood-leckwith-1903-property-of-lord-bute/",
+   "summary": "The name Cydfin was in use for a wood in Leckwith in 1903, and the press then described it as the property of Lord Bute.",
+   "limits": "A police-court report is not a title document."
+  },
+  {
+   "ev": "EV-0627",
+   "title": "Cardiff Corporation at Cedwyn, 1905–1989: one corporate body for the 1905 and 1961 rights; dealings with Western Ground Rents 1938–47; no Cardiff role found in the 1989 planning file",
+   "date": "1905–1989",
+   "sort": "1961-03-29",
+   "type": "research note",
+   "label": "RECORD SYNTHESIS — FROM REGISTER ENTRIES, PRESS AND PLANNING RECORDS",
+   "status": "READ; deeds not copied.",
+   "files": [],
+   "refs": [
+    "EV-0013",
+    "EV-0618",
+    "EV-0040",
+    "EV-0124",
+    "EV-0220"
+   ],
+   "path": "/evidence/ev-0627-cardiff-corporation-thread-1905-1989/",
+   "summary": "The County Borough of Cardiff that took rights in Feb 1905 became the City corporation in Oct 1905, so the 1905 and 1961 grantee is one body; it appears on the woodland register only as the holder of rights, never as registered proprietor (the registered proprietor of the woodland from 25 Nov 1994 is Forest of Cardiff, a company). The 1989 outline permission was granted by the Vale of Glamorgan Borough Council.",
+   "limits": "Nothing on file shows Cardiff granting, advising or being consulted on the 1989 application; the Vale’s consultation list would settle it."
+  },
+  {
+   "ev": "EV-0628",
+   "title": "Authenticity audit of both title lines: which instrument has been seen, which is known only from a recital, press or catalogue (analysis, 25 Oct 2026)",
+   "date": "25 October 2026",
+   "sort": "2026-10-25",
+   "type": "analysis table",
+   "label": "RESEARCH ARTIFACT — ANALYSIS OF CATALOGUED RECORDS",
+   "status": "PUBLISHED — ingredients only.",
+   "files": [
+    "title-root-audit.pdf"
+   ],
+   "refs": [
+    "EV-0215",
+    "EV-0212",
+    "EV-0211",
+    "EV-0014",
+    "EV-0023",
+    "EV-0216",
+    "EV-0019"
+   ],
+   "path": "/evidence/ev-0628-title-chain-authenticity-audit-2026/",
+   "summary": "Every link in the paper chain from 1922 to 1983 is known only from recitals, press or catalogues; no operative instrument from it is held. The family’s records on file (c.1841 tithe, 1872–76 rate books, 1824 survey, 1916 tenancy, 1939 letting) are rent-book, rate-book and tenancy entries in the name of John Williams; the parcels they cover are not identified, and none names the Tŷ Mawr house parcel. The single most useful document is the 25 Dec 1938 conveyance with its plan. BP Properties became registered proprietor at first registration in 1982/83; whether Mary Williams’s case was before HM Land Registry then is not shown in the records held.",
+   "limits": "Neither side’s root is proved from a document in hand; the family’s 1987 case was possessory, not documentary."
+  }
+ ],
+ "chain": [
+  {
+   "id": "T1",
+   "date": "1877 (6 Nov, reported)",
+   "sort": "1877-11-06",
+   "holder": "Bute (lord of the manor; trustees of the 3rd Marquess)",
+   "act": "An agreement with Daniel Thomas & Son over the house parcel (sale or quarry lease), as the family later recounted; the instrument has not been found",
+   "ev": [
+    "EV-0006",
+    "EV-0007",
+    "EV-0008"
+   ],
+   "status": "reported",
+   "short": "Bute (manorial title)",
+   "refs": [
+    {
+     "ev": "EV-0006",
+     "path": "/evidence/ev-0006-bute-thomas-agreement-1877/"
+    },
+    {
+     "ev": "EV-0007",
+     "path": "/evidence/ev-0007-bute-trustees-receipts-payments-1877/"
+    },
+    {
+     "ev": "EV-0008",
+     "path": "/evidence/ev-0008-reported-1877-lease-john-williams/"
+    }
+   ]
+  },
+  {
+   "id": "T2",
+   "date": "1900",
+   "sort": "1900-10-09",
+   "holder": "Bute (lord of the manor)",
+   "act": "Press reports of the 3rd Marquess’s will: Leckwith-with-Llandough left to Lord Colum Crichton-Stuart",
+   "ev": [
+    "EV-0012"
+   ],
+   "status": "press",
+   "short": "Lord Colum (will, press)",
+   "refs": [
+    {
+     "ev": "EV-0012",
+     "path": "/evidence/ev-0012-bute-will-press-reports-1900/"
+    }
+   ]
+  },
+  {
+   "id": "T3",
+   "date": "23 Feb 1905",
+   "sort": "1905-02-23",
+   "holder": "John, Marquis of Bute → Cardiff Corporation (rights only)",
+   "act": "Conveyance of rights over a strip now in the woodland title, entered on the register; very probably the Western District sewer easements; deed not copied",
+   "ev": [
+    "EV-0013",
+    "EV-0618"
+   ],
+   "status": "register entry; deed not copied",
+   "short": "Cardiff: rights",
+   "refs": [
+    {
+     "ev": "EV-0013",
+     "path": "/evidence/ev-0013-bute-conveyance-1905/"
+    },
+    {
+     "ev": "EV-0618",
+     "path": "/evidence/ev-0618-cardiff-western-sewer-bute-easements-1904-1905/"
+    }
+   ]
+  },
+  {
+   "id": "T4",
+   "date": "Feb 1916",
+   "sort": "1916-02-01",
+   "holder": "\"The Marquis\" (Bute; manorial title)",
+   "act": "The court records a yearly tenancy of \"the whole of the farm\" granted to John Williams",
+   "ev": [
+    "EV-0014",
+    "EV-0080"
+   ],
+   "status": "court record",
+   "short": "Tenancy (court record)",
+   "refs": [
+    {
+     "ev": "EV-0014",
+     "path": "/evidence/ev-0014-bute-tenancy-john-williams-1916/"
+    },
+    {
+     "ev": "EV-0080",
+     "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  },
+  {
+   "id": "T6",
+   "date": "May 1922 (catalogue: 1926)",
+   "sort": "1922-05-12",
+   "holder": "Bute → Mountjoy Ltd (the estate company; manorial title)",
+   "act": "Mountjoy Ltd takes over the 4th Marquess’s life interest in the South Wales estates (press, May 1922); in 1932 it holds the Llandough court leet",
+   "ev": [
+    "EV-0624",
+    "EV-0614"
+   ],
+   "status": "press and catalogue",
+   "short": "Mountjoy Ltd (manorial title)",
+   "refs": [
+    {
+     "ev": "EV-0624",
+     "path": "/evidence/ev-0624-mountjoy-ltd-formed-1922-bute-estate-company/"
+    },
+    {
+     "ev": "EV-0614",
+     "path": "/evidence/ev-0614-mountjoy-ltd-1926-tna-catalogue/"
+    }
+   ]
+  },
+  {
+   "id": "T5",
+   "date": "1 Jan 1926",
+   "sort": "1926-01-01",
+   "holder": "Parliament",
+   "act": "Copyhold becomes freehold; 1925 property Acts in force; 30-year root of title",
+   "ev": [
+    "EV-0616",
+    "EV-0613"
+   ],
+   "status": "law",
+   "short": "Property law 1926",
+   "refs": [
+    {
+     "ev": "EV-0616",
+     "path": "/evidence/ev-0616-law-of-property-act-1922-copyhold-1926/"
+    },
+    {
+     "ev": "EV-0613",
+     "path": "/evidence/ev-0613-bute-glamorgan-manorial-records-1926-1940/"
+    }
+   ]
+  },
+  {
+   "id": "T7",
+   "date": "25 Dec 1938 (completion 23 Dec)",
+   "sort": "1938-12-25",
+   "holder": "Mountjoy Ltd → Western Ground Rents Ltd",
+   "act": "Conveyance recited in later documents (root of title in the 1965 school-site contract); the deed has not been examined. The court describes \"the reversion\" as conveyed in 1938",
+   "ev": [
+    "EV-0022",
+    "EV-0625",
+    "EV-0216",
+    "EV-0621",
+    "EV-0080"
+   ],
+   "status": "court record and recitals; deed not read",
+   "short": "WGR (1938 deed recited)",
+   "refs": [
+    {
+     "ev": "EV-0022",
+     "path": "/evidence/ev-0022-press-1938-bute-wgr-sale-completion/"
+    },
+    {
+     "ev": "EV-0625",
+     "path": "/evidence/ev-0625-bute-mountjoy-sale-to-wgr-1938-one-transaction/"
+    },
+    {
+     "ev": "EV-0216",
+     "path": "/evidence/ev-0216-1965-contract-condition-f-conveyance-25-december-1938/"
+    },
+    {
+     "ev": "EV-0621",
+     "path": "/evidence/ev-0621-root-of-title-1938-and-the-1969-sale/"
+    },
+    {
+     "ev": "EV-0080",
+     "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  },
+  {
+   "id": "T8",
+   "date": "15 Feb 1969",
+   "sort": "1969-02-15",
+   "holder": "British Petroleum → buys Western Ground Rents Ltd",
+   "act": "Agreed cash bid of 17s a share, about £18–19 million, for WGR’s properties to pass to the BP pension fund",
+   "ev": [
+    "EV-0288"
+   ],
+   "status": "press",
+   "short": "BP buys WGR (company)",
+   "refs": [
+    {
+     "ev": "EV-0288",
+     "path": "/evidence/ev-0288-snippets-only-press-on-the-1968-69-takeover-battle-for-western-ground-rents-ltd-en/"
+    }
+   ]
+  },
+  {
+   "id": "T9",
+   "date": "31 Dec 1969",
+   "sort": "1969-12-31",
+   "holder": "Western Ground Rents → BP Pension Trust",
+   "act": "Conveyance recited, with the benefit of the 1962 order; the deed is not held. Last day of the 30-year root rule",
+   "ev": [
+    "EV-0043",
+    "EV-0621",
+    "EV-0080"
+   ],
+   "status": "court record; deed not held",
+   "short": "BP Pension Trust (recited)",
+   "refs": [
+    {
+     "ev": "EV-0043",
+     "path": "/evidence/ev-0043-wgr-bp-pension-trust-conveyance/"
+    },
+    {
+     "ev": "EV-0621",
+     "path": "/evidence/ev-0621-root-of-title-1938-and-the-1969-sale/"
+    },
+    {
+     "ev": "EV-0080",
+     "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  },
+  {
+   "id": "T10",
+   "date": "23 May 1975",
+   "sort": "1975-05-23",
+   "holder": "BP Pension Trust → BP Properties Ltd",
+   "act": "Conveyance entered on the register: farmhouse plot and other land; the rest kept as \"Retained Land\"; six months before compulsory registration",
+   "ev": [
+    "EV-0620",
+    "EV-0619",
+    "EV-0265"
+   ],
+   "status": "register entry",
+   "short": "BP Properties (register entry)",
+   "refs": [
+    {
+     "ev": "EV-0620",
+     "path": "/evidence/ev-0620-bp-pension-trust-to-bp-properties-1975/"
+    },
+    {
+     "ev": "EV-0619",
+     "path": "/evidence/ev-0619-wgr-1962-covenant-and-bp-1975-covenant/"
+    },
+    {
+     "ev": "EV-0265",
+     "path": "/evidence/ev-0265-hmlr-registration-background-compulsory-1975-r29-certificate/"
+    }
+   ]
+  },
+  {
+   "id": "T11",
+   "date": "19 Nov / 30 Nov 1982",
+   "sort": "1982-11-30",
+   "holder": "BP Properties Ltd — registered proprietor",
+   "act": "Conveyance of 19 Nov 1982, then first registration of the woodland title WA231076 (application by Linklaters & Paines, 30 Nov 1982)",
+   "ev": [
+    "EV-0147",
+    "EV-0059",
+    "EV-0045"
+   ],
+   "status": "HM Land Registry letter",
+   "short": "Registered proprietor: woods",
+   "refs": [
+    {
+     "ev": "EV-0147",
+     "path": "/evidence/ev-0147-hmlr-letter-ty-mawr-registration-history/"
+    },
+    {
+     "ev": "EV-0059",
+     "path": "/evidence/ev-0059-wa231076-form-a13-first-registration/"
+    },
+    {
+     "ev": "EV-0045",
+     "path": "/evidence/ev-0045-1971-abstract-title-bp-pension/"
+    }
+   ]
+  },
+  {
+   "id": "T12",
+   "date": "23 Feb 1983",
+   "sort": "1983-02-23",
+   "holder": "BP Properties Ltd — registered proprietor",
+   "act": "First registration of the farmhouse title WA240304 applied for (23 Feb 1983)",
+   "ev": [
+    "EV-0147",
+    "EV-0066",
+    "EV-0065"
+   ],
+   "status": "HM Land Registry letter",
+   "short": "Registered proprietor: house",
+   "refs": [
+    {
+     "ev": "EV-0147",
+     "path": "/evidence/ev-0147-hmlr-letter-ty-mawr-registration-history/"
+    },
+    {
+     "ev": "EV-0066",
+     "path": "/evidence/ev-0066-hmlr-wa240304-item-10-register-1983/"
+    },
+    {
+     "ev": "EV-0065",
+     "path": "/evidence/ev-0065-wa240304-farmhouse-first-registration-file/"
+    }
+   ]
+  },
+  {
+   "id": "T13",
+   "date": "24 Jul 1986 / 31 Jul 1987",
+   "sort": "1987-07-31",
+   "holder": "High Court; Court of Appeal",
+   "act": "Judgment for BP Properties; appeal dismissed. The courts treated BP as owner; BP’s position on the register rests on first registration as proprietor in 1982/83",
+   "ev": [
+    "EV-0080"
+   ],
+   "status": "court record",
+   "short": "Judgment",
+   "refs": [
+    {
+     "ev": "EV-0080",
+     "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  }
+ ],
+ "occupation": [
+  {
+   "id": "W0",
+   "date": "c.1841; 1872–76",
+   "sort": "1841-01-01",
+   "event": "Tithe apportionment (c.1841) and rate books (1872–76): entries in the name of John Williams; the parcels are not identified, and none names the Tŷ Mawr house parcel",
+   "ev": [
+    "EV-0215",
+    "EV-0212"
+   ],
+   "kind": "tenancy",
+   "refs": [
+    {
+     "ev": "EV-0215",
+     "path": "/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+    },
+    {
+     "ev": "EV-0212",
+     "path": "/evidence/ev-0212-llandough-poor-rate-books-1870s/"
+    }
+   ]
+  },
+  {
+   "id": "W1",
+   "date": "6 Nov 1877",
+   "sort": "1877-11-06",
+   "event": "Reported lease of 6 Nov 1877 in the name of John Williams (original not located; the parcel is not identified)",
+   "ev": [
+    "EV-0008"
+   ],
+   "kind": "family",
+   "refs": [
+    {
+     "ev": "EV-0008",
+     "path": "/evidence/ev-0008-reported-1877-lease-john-williams/"
+    }
+   ]
+  },
+  {
+   "id": "W2",
+   "date": "Feb 1916",
+   "sort": "1916-02-01",
+   "event": "The court records John Williams holding \"the whole of the farm\" on a yearly tenancy",
+   "ev": [
+    "EV-0014"
+   ],
+   "kind": "tenancy",
+   "refs": [
+    {
+     "ev": "EV-0014",
+     "path": "/evidence/ev-0014-bute-tenancy-john-williams-1916/"
+    }
+   ]
+  },
+  {
+   "id": "W3",
+   "date": "1928",
+   "sort": "1928-06-01",
+   "event": "Last house-parcel rent, per Mary Williams’s own account; quarrying ends",
+   "ev": [
+    "EV-0016"
+   ],
+   "kind": "family",
+   "refs": [
+    {
+     "ev": "EV-0016",
+     "path": "/evidence/ev-0016-1928-last-rent-receipt-quarrying/"
+    }
+   ]
+  },
+  {
+   "id": "W4",
+   "date": "mid-1930s",
+   "sort": "1935-06-01",
+   "event": "Arrears recorded by the court (\"mid-1930s and in the late 1940s\")",
+   "ev": [
+    "EV-0080"
+   ],
+   "kind": "tenancy",
+   "refs": [
+    {
+     "ev": "EV-0080",
+     "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  },
+  {
+   "id": "W5",
+   "date": "18 May 1939",
+   "sort": "1939-05-18",
+   "event": "Parcel B (5.30 acres by the farmhouse) let monthly at 8s to John Williams, about 72, \"reserving quarrying rights\"",
+   "ev": [
+    "EV-0023"
+   ],
+   "kind": "tenancy",
+   "refs": [
+    {
+     "ev": "EV-0023",
+     "path": "/evidence/ev-0023-1939-wgr-john-williams-tenancy-plan/"
+    }
+   ]
+  },
+  {
+   "id": "W6",
+   "date": "2 Feb 1949",
+   "sort": "1949-02-02",
+   "event": "Tenancy surrendered; unwritten yearly tenancy to Frederick Buckler",
+   "ev": [
+    "EV-0025"
+   ],
+   "kind": "tenancy",
+   "refs": [
+    {
+     "ev": "EV-0025",
+     "path": "/evidence/ev-0025-frederick-buckler-unwritten-tenancy-1949/"
+    }
+   ]
+  },
+  {
+   "id": "W7",
+   "date": "10 Oct 1952",
+   "sort": "1952-10-10",
+   "event": "Agents drop the letting to Frederick Buckler; last rent 1953 under a judgment for arrears",
+   "ev": [
+    "EV-0080",
+    "EV-0030"
+   ],
+   "kind": "tenancy",
+   "refs": [
+    {
+     "ev": "EV-0080",
+     "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    },
+    {
+     "ev": "EV-0030",
+     "path": "/evidence/ev-0030-cardiff-county-court-registers-aca/"
+    }
+   ]
+  },
+  {
+   "id": "W8",
+   "date": "2 Feb 1955",
+   "sort": "1955-02-02",
+   "event": "Notice to quit expires; the court later finds adverse possession of the farmhouse from this day",
+   "ev": [
+    "EV-0080"
+   ],
+   "kind": "possession",
+   "refs": [
+    {
+     "ev": "EV-0080",
+     "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  },
+  {
+   "id": "W9",
+   "date": "4 Jul 1955",
+   "sort": "1955-07-04",
+   "event": "High Court order enforced on all the farm except farmhouse and garden",
+   "ev": [
+    "EV-0080"
+   ],
+   "kind": "taken",
+   "refs": [
+    {
+     "ev": "EV-0080",
+     "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  },
+  {
+   "id": "W10",
+   "date": "19 Nov 1958",
+   "sort": "1958-11-19",
+   "event": "Mrs M. D. Buckler tells the county planning committee the land was \"wrongfully appropriated\"; \"a Welsh case of Crichel Down\"",
+   "ev": [
+    "EV-0037"
+   ],
+   "kind": "family",
+   "refs": [
+    {
+     "ev": "EV-0037",
+     "path": "/evidence/ev-0037-western-mail-1958-crichel-down/"
+    }
+   ]
+  },
+  {
+   "id": "W11",
+   "date": "1959; Mar 1965",
+   "sort": "1959-06-01",
+   "event": "Two tenancy offers for the farmhouse refused; title asserted through her grandfather",
+   "ev": [
+    "EV-0039",
+    "EV-0080"
+   ],
+   "kind": "family",
+   "refs": [
+    {
+     "ev": "EV-0039",
+     "path": "/evidence/ev-0039-wgr-tenancy-offers-1959-1965/"
+    },
+    {
+     "ev": "EV-0080",
+     "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  },
+  {
+   "id": "W12",
+   "date": "11 Dec 1962",
+   "sort": "1962-12-11",
+   "event": "County Court possession order (farmhouse and garden), not enforced for almost 12 years",
+   "ev": [
+    "EV-0041",
+    "EV-0080"
+   ],
+   "kind": "court",
+   "refs": [
+    {
+     "ev": "EV-0041",
+     "path": "/evidence/ev-0041-cardiff-county-court-possession-order-1962/"
+    },
+    {
+     "ev": "EV-0080",
+     "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  },
+  {
+   "id": "W13",
+   "date": "1965–67",
+   "sort": "1966-06-01",
+   "event": "Adverse possession by Mary admitted by BP for these years",
+   "ev": [
+    "EV-0080"
+   ],
+   "kind": "possession",
+   "refs": [
+    {
+     "ev": "EV-0080",
+     "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  },
+  {
+   "id": "W14",
+   "date": "31 Oct 1974",
+   "sort": "1974-10-31",
+   "event": "Two letters grant Mary a rent-free licence; she does not reject them in writing",
+   "ev": [
+    "EV-0050",
+    "EV-0080"
+   ],
+   "kind": "court",
+   "refs": [
+    {
+     "ev": "EV-0050",
+     "path": "/evidence/ev-0050-1974-bp-licence-letters/"
+    },
+    {
+     "ev": "EV-0080",
+     "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  },
+  {
+   "id": "W15",
+   "date": "26 Mar 1983",
+   "sort": "1983-03-26",
+   "event": "Mary Williams dies; Linklaters–HMLR letters follow on 8 Apr 1983",
+   "ev": [
+    "EV-0147"
+   ],
+   "kind": "family",
+   "refs": [
+    {
+     "ev": "EV-0147",
+     "path": "/evidence/ev-0147-hmlr-letter-ty-mawr-registration-history/"
+    }
+   ]
+  },
+  {
+   "id": "W16",
+   "date": "1984–1987",
+   "sort": "1987-07-31",
+   "event": "BP Properties sues the family; the High Court (1986) and Court of Appeal (1987) rule for BP and treat it as owner; Mary Williams’s assertion of ownership was never tried",
+   "ev": [
+    "EV-0080"
+   ],
+   "kind": "court",
+   "refs": [
+    {
+     "ev": "EV-0080",
+     "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  }
+ ],
+ "pairs": [
+  {
+   "label": "1962 → 1974",
+   "start": 16,
+   "end": 22,
+   "gap": "11y 10m 20d",
+   "years": 11.888,
+   "range": null,
+   "actors": "WGR → BP",
+   "dashed": false
+  },
+  {
+   "label": "Dec 1926 → 1938",
+   "start": 6,
+   "end": 8,
+   "gap": "≈12y 0m",
+   "years": 12.025,
+   "range": [
+    11.984,
+    12.066
+   ],
+   "actors": "Bute → WGR",
+   "dashed": false
+  },
+  {
+   "label": "1963 → 1975",
+   "start": 17,
+   "end": 23,
+   "gap": "≈11y 11m",
+   "years": 11.936,
+   "range": [
+    11.896,
+    11.976
+   ],
+   "actors": "WGR → BP",
+   "dashed": false
+  },
+  {
+   "label": "1916 → 1928",
+   "start": 3,
+   "end": 7,
+   "gap": "≈12y (year only)",
+   "years": 12,
+   "range": [
+    11,
+    12.9
+   ],
+   "actors": "Bute",
+   "dashed": true
+  },
+  {
+   "label": "1949 → 1961",
+   "start": 10,
+   "end": 15,
+   "gap": "12y 1m 27d",
+   "years": 12.151,
+   "range": null,
+   "actors": "WGR · Cardiff Corp",
+   "dashed": false
+  },
+  {
+   "label": "1952 → 1965",
+   "start": 11,
+   "end": 18,
+   "gap": "≈12y 5m",
+   "years": 12.43,
+   "range": [
+    12.389,
+    12.471
+   ],
+   "actors": "WGR",
+   "dashed": false
+  },
+  {
+   "label": "1970 → 1982",
+   "start": 20,
+   "end": 24,
+   "gap": "12y 5m 14d",
+   "years": 12.457,
+   "range": null,
+   "actors": "Council → BP",
+   "dashed": false
+  },
+  {
+   "label": "1971 → 1983",
+   "start": 21,
+   "end": 25,
+   "gap": "≈12y (year only)",
+   "years": 11.65,
+   "range": [
+    11.149,
+    12.145
+   ],
+   "actors": "BP",
+   "dashed": true
+  },
+  {
+   "label": "1974 → 1986",
+   "start": 22,
+   "end": 26,
+   "gap": "11y 8m 24d",
+   "years": 11.729,
+   "range": null,
+   "actors": "BP",
+   "dashed": false
+  },
+  {
+   "label": "1958 → 1970",
+   "start": 13,
+   "end": 20,
+   "gap": "11y 6m 28d",
+   "years": 11.573,
+   "range": null,
+   "actors": "Council · WGR",
+   "dashed": false
+  },
+  {
+   "label": "1959 → 1970",
+   "start": 14,
+   "end": 20,
+   "gap": "10y 5m – 11y 5m",
+   "years": 10.96,
+   "range": [
+    10.46,
+    11.46
+   ],
+   "actors": "WGR → Council",
+   "dashed": true
+  },
+  {
+   "label": "1905 → 1916",
+   "start": 2,
+   "end": 3,
+   "gap": "≈11y 0m",
+   "years": 10.977,
+   "range": [
+    10.938,
+    11.015
+   ],
+   "actors": "Bute · Cardiff Corp",
+   "dashed": false
+  },
+  {
+   "label": "1926 → 1938",
+   "start": 5,
+   "end": 8,
+   "gap": "12y 11m 24d",
+   "years": 12.98,
+   "range": null,
+   "actors": "Bute (Mountjoy) → WGR",
+   "dashed": false
+  },
+  {
+   "label": "1939 → 1952",
+   "start": 9,
+   "end": 11,
+   "gap": "13y 4m 22d",
+   "years": 13.399,
+   "range": null,
+   "actors": "WGR",
+   "dashed": false
+  },
+  {
+   "label": "1955 → 1965",
+   "start": 12,
+   "end": 19,
+   "gap": "9y 11m 7d",
+   "years": 9.939,
+   "range": null,
+   "actors": "WGR → Council",
+   "dashed": true
+  }
+ ],
+ "events": [
+  {
+   "n": 1,
+   "short": "Bute–Thomas deal (reported)",
+   "year": "1877",
+   "detail": "Mary Williams's later account dates a Bute agreement (sale or quarry lease of the house parcel) with Daniel Thomas & Son to 6 Nov 1877. The instrument has not been found; the 6 Nov 1877 lease photographed at Glamorgan Archives is a Clyde Street, Roath building lease, not the farm.",
+   "source": "EV-0006, EV-0008 (Mary Williams's account); EV-0213 (the Roath lease)",
+   "flag": "not yet confirmed"
+  },
+  {
+   "n": 2,
+   "short": "Bute–Cardiff Corporation strip deed",
+   "year": "1905",
+   "detail": "23 Feb 1905: Bute conveys rights over a strip of what is now the woodland title to Cardiff County Borough. It is very probably the sewer/pumping-station easement Cardiff paid for; the deed itself is unread.",
+   "source": "WA735527 Charges entry 1 (register view 18 Sep 2026); EV-0013; cycle-038 report",
+   "flag": "purpose inferred"
+  },
+  {
+   "n": 3,
+   "short": "Tenancy to John Williams",
+   "year": "1916",
+   "detail": "Feb 1916: the court records a yearly tenancy of \"the whole of the farm\" to John Williams from \"the Marquis\". It is the first record that puts the family’s occupation on a tenancy footing.",
+   "source": "1987 judgment; EV-0014 (deed not held)",
+   "flag": ""
+  },
+  {
+   "n": 5,
+   "short": "Copyhold ends; Mountjoy formed",
+   "year": "1926",
+   "detail": "1 Jan 1926: Law of Property Act 1922 s.128 turns all copyhold into freehold; the 1925 property Acts come into force. The same year Bute's remaining property is put into Mountjoy Ltd, the company that sold to WGR in 1938 (month of incorporation not yet confirmed). Llandough Rectory, beside \"part of the Bute Estate\", is sold 7 Oct 1926. Press of May 1922 shows Mountjoy Ltd was in fact formed in 1922 (EV-0624); the catalogue’s 1926 reads as the year further property was brought in.",
+   "source": "LPA 1922 ss.128, 138; TNA catalogue GB 0214 DB (F043); Glamorgan Archives DSA/12/5085 (catalogue); EV-0624",
+   "flag": ""
+  },
+  {
+   "n": 6,
+   "short": "Bute lets Lewis Road land",
+   "year": "1926",
+   "detail": "Dec 1926: Bute lets land near Lewis Road, Llandough, to Penarth Urban District Council. Catalogue entry only; the plan has not been matched to farm fields.",
+   "source": "Glamorgan Archives DBDT123/6 (catalogue only)",
+   "flag": "parcel not yet confirmed"
+  },
+  {
+   "n": 4,
+   "short": "Quarry plant sold off",
+   "year": "1925",
+   "detail": "10 Nov 1925: the Llandough quarry / lime works plant is catalogued and sold (Lewis & Pritchard's \"surplus plant at Llandough\" was sold Aug 1925). The quarry leaving is the end point of the 1877 bar.",
+   "source": "Glamorgan Archives DSA/12/4888 (catalogue only); London Gazette 29 Oct 1926 p.7040",
+   "flag": ""
+  },
+  {
+   "n": 7,
+   "short": "Last rent for house parcel",
+   "year": "1928",
+   "detail": "1928 is the year Mary Williams reported as the last rent paid for the house parcel. It rests on her account only; no rent book is on file.",
+   "source": "EV-0016 (Mary Williams's account; not held)",
+   "flag": "not yet confirmed"
+  },
+  {
+   "n": 8,
+   "short": "Reversion conveyed to WGR",
+   "year": "1938",
+   "detail": "25 Dec 1938 (completion reported 23 Dec): a conveyance from Mountjoy Ltd to Western Ground Rents Ltd is recited in later documents; the deed has not been examined, so whether it covered Parcel B is not known. The 1965 school sale uses it as root of title.",
+   "source": "1987 judgment; EV-0022 (press); EV-0216 (Vale FOI 00211027)",
+   "flag": ""
+  },
+  {
+   "n": 9,
+   "short": "Parcel B monthly letting",
+   "year": "1939",
+   "detail": "18 May 1939: WGR lets 5.30 acres (Parcel B) beside Ty-Mawr farmhouse to John Williams, then about 72, monthly at 8s, \"reserving quarrying rights\". While a tenancy runs, the tenant's years do not count against the landlord.",
+   "source": "Glamorgan Archives DBDT/123/7; EV-0023; archive reply ref 2026/4439",
+   "flag": ""
+  },
+  {
+   "n": 10,
+   "short": "Surrender & regrant to F. Buckler",
+   "year": "1949",
+   "detail": "2 Feb 1949: John Williams's tenancy is surrendered after arrears and an unwritten yearly tenancy is granted to Frederick Buckler.",
+   "source": "1987 judgment; EV-0025",
+   "flag": ""
+  },
+  {
+   "n": 11,
+   "short": "WGR drops the letting",
+   "year": "1952",
+   "detail": "10 Oct 1952: WGR's agents write that they \"did not propose to proceed with the letting to Mr Frederick Buckler\". Last rent follows in 1953, under a judgment for arrears.",
+   "source": "1987 judgment",
+   "flag": ""
+  },
+  {
+   "n": 12,
+   "short": "Farm repossessed, not farmhouse",
+   "year": "1955",
+   "detail": "4 Jul 1955: a High Court possession order is enforced on all the farm except the farmhouse and garden (notice to quit expired 2 Feb 1955).",
+   "source": "1987 judgment",
+   "flag": ""
+  },
+  {
+   "n": 13,
+   "short": "\"A Welsh Crichel Down\" complaint",
+   "year": "1958",
+   "detail": "19 Nov 1958: Mrs M. D. Buckler tells Glamorgan County Council's planning committee the land was \"wrongfully appropriated\" by Glamorgan CC, Penarth UDC, Cardiff RDC and WGR. Same year: Leckwith Common inquiry 6 May (she asserted grazing rights) and the Cardiff (Leckwith Common) CPO 1957 confirmed 8 Sep; no petition was lodged.",
+   "source": "EV-0037 (Western Mail 20 Nov 1958 p.7, OCR); EV-0035; EV-0038; TNA BD 11/3775 (unread)",
+   "flag": ""
+  },
+  {
+   "n": 14,
+   "short": "Tenancy offer refused",
+   "year": "1959",
+   "detail": "1959 (month unknown): WGR offers Mary a tenancy of the farmhouse and garden; she refuses and asserts title through her grandfather.",
+   "source": "1987 judgment; EV-0039",
+   "flag": "month unknown"
+  },
+  {
+   "n": 15,
+   "short": "Woodland rights deed",
+   "year": "1961",
+   "detail": "29 Mar 1961: deed between WGR, South Western Brick & Tile Co. and Cardiff City Corporation giving rights over the \"pink\" land now in the woodland title. Rights, not a transfer; the deed is not held.",
+   "source": "WA735527 Charges entry 3; EV-0040",
+   "flag": ""
+  },
+  {
+   "n": 16,
+   "short": "Possession order, farmhouse",
+   "year": "1962",
+   "detail": "11 Dec 1962: Cardiff County Court possession order (farmhouse and garden) and mesne profits, WGR v Frederick and Mary Buckler. An order like this could be enforced for 12 years.",
+   "source": "1987 judgment",
+   "flag": ""
+  },
+  {
+   "n": 17,
+   "short": "Suspended committal order",
+   "year": "1963",
+   "detail": "Jun 1963: suspended committal order over the mesne profits.",
+   "source": "1987 judgment",
+   "flag": "day unknown"
+  },
+  {
+   "n": 18,
+   "short": "Tenancy offered, refused",
+   "year": "1965",
+   "detail": "Mar 1965: a weekly tenancy is offered to \"Mrs Williams\" and refused. BP later admitted Mary was in adverse possession from 1965–67.",
+   "source": "1987 judgment",
+   "flag": "day unknown"
+  },
+  {
+   "n": 19,
+   "short": "School site sold",
+   "year": "1965",
+   "detail": "11 Jun 1965: WGR with Lakeside & Llandough Development Co sells the Llandough primary school site; root of title the 25 Dec 1938 conveyance. Whether the site lay in the fields repossessed in 1955 is not shown on file.",
+   "source": "Vale of Glamorgan FOI 00211027 (EV-0216); F027",
+   "flag": "parcel link not yet confirmed"
+  },
+  {
+   "n": 20,
+   "short": "Village green VG41 entered",
+   "year": "1970",
+   "detail": "16 Jun 1970: VG41 registered under the Commons Registration Act 1965, Glamorgan County Council as registration authority, on what the wiki maps as the south-east ground of Parcel A. Notice was public only; the objection window closed in 1972.",
+   "source": "EV-0044 (wiki date; register sheet unread)",
+   "flag": "sheet unread"
+  },
+  {
+   "n": 21,
+   "short": "Abstract of title for BP",
+   "year": "1971",
+   "detail": "1971: abstract of title prepared for BP Pension Trust (recited only).",
+   "source": "EV-0045",
+   "flag": "year only"
+  },
+  {
+   "n": 22,
+   "short": "Licence letters to Mary",
+   "year": "1974",
+   "detail": "31 Oct 1974: two letters from BP Properties grant Mary a rent-free licence; the warrant is withdrawn before 25 Nov. Leave to enforce the 1962 order had been obtained on 19 Sep 1974 (11y 9m 8d after it), 41 days before the 12 years ran out.",
+   "source": "1987 judgment; reopen-loop ground R4",
+   "flag": ""
+  },
+  {
+   "n": 23,
+   "short": "BP conveys farmhouse plot",
+   "year": "1975",
+   "detail": "23 May 1975: BP Pension Trust conveys the farmhouse plot and other land to BP Properties, keeping the rest as \"Retained Land\"; six months before the Vale became a compulsory registration area.",
+   "source": "WA735527 Charges entries 4–5; reopen-loop ground R10",
+   "flag": ""
+  },
+  {
+   "n": 24,
+   "short": "Woodland first registered",
+   "year": "1982",
+   "detail": "30 Nov 1982: Linklaters & Paines apply for first registration of WA231076 for BP Properties, after a 19 Nov 1982 conveyance. BP Properties is entered as registered proprietor.",
+   "source": "HM Land Registry letter 23 Mar 2026",
+   "flag": ""
+  },
+  {
+   "n": 25,
+   "short": "Farmhouse registration filed",
+   "year": "1983",
+   "detail": "23 Feb 1983: application for WA240304 (farmhouse). Mary Williams dies 26 Mar 1983; Linklaters–HMLR correspondence follows 8 Apr 1983.",
+   "source": "HM Land Registry letter 23 Mar 2026; reopen-loop ground R3",
+   "flag": ""
+  },
+  {
+   "n": 26,
+   "short": "High Court judgment for BP",
+   "year": "1986",
+   "detail": "24 Jul 1986: Hollis J decides for BP Properties; the Court of Appeal dismisses the appeal on 31 Jul 1987.",
+   "source": "1987 judgment",
+   "flag": ""
+  }
+ ],
+ "parcels": [
+  {
+   "n": "1",
+   "parcel": "Strip of what is now the woodland title (sewer / pumping-station rights, inferred)",
+   "date": "23 Feb 1905",
+   "taker": "Cardiff County Borough, from Bute",
+   "reason": "Not stated in the register entry; inferred: Cardiff's sewer works (£5,362 paid)",
+   "before_gap": "None found on the same land. The reported 1877 Bute–Thomas deal is 27 years earlier (Mary Williams's account)",
+   "instrument": "Conveyance of rights (deed unread)",
+   "answered": "No record. The family's tenancy is first recorded in 1916",
+   "sources": "WA735527 Charges 1; EV-0013; cycle-038"
+  },
+  {
+   "n": "2",
+   "parcel": "The whole farm put on a yearly tenancy",
+   "date": "Feb 1916",
+   "taker": "“The Marquis” (Bute estate)",
+   "reason": "None stated; an ordinary letting",
+   "before_gap": "1905 strip deed: ≈11y 0m",
+   "instrument": "Yearly tenancy (deed not held)",
+   "answered": "Accepted by John Williams; no title case on record at the time",
+   "sources": "J; EV-0014"
+  },
+  {
+   "n": "3",
+   "parcel": "Land near Lewis Road, Llandough",
+   "date": "Dec 1926",
+   "taker": "Penarth UDC, by letting from Bute",
+   "reason": "Not stated in the catalogue",
+   "before_gap": "1 Jan 1926 property Acts in force (same year)",
+   "instrument": "Letting",
+   "answered": "No record. Not matched to farm fields",
+   "sources": "Glamorgan Archives DBDT123/6 (catalogue)"
+  },
+  {
+   "n": "4",
+   "parcel": "Reversion of the farm",
+   "date": "25 Dec 1938",
+   "taker": "Western Ground Rents Ltd, from Mountjoy Ltd (for Bute)",
+   "reason": "A sale; no public reason",
+   "before_gap": "1 Jan 1926 / Mountjoy formed 1926: 12y 11m 24d. Dec 1926 Lewis Road letting: ≈12y 0m. Mid-1930s arrears (J)",
+   "instrument": "Conveyance recited in later documents (deed not examined)",
+   "answered": "Not known. Whether the deed recites the occupiers or covers Parcel B cannot be told until it is read",
+   "sources": "J; EV-0022; EV-0216"
+  },
+  {
+   "n": "5",
+   "parcel": "Parcel B, 5.30 acres by the farmhouse",
+   "date": "18 May 1939",
+   "taker": "WGR, letting to John Williams (about 72)",
+   "reason": "Letting “reserving quarrying rights”",
+   "before_gap": "25 Dec 1938 conveyance: 4m 23d. A third-party lease of the land in 1936",
+   "instrument": "Monthly tenancy, 8s",
+   "answered": "The letting was entered into; no objection is on record",
+   "sources": "DBDT/123/7; EV-0023; ref 2026/4439"
+  },
+  {
+   "n": "6",
+   "parcel": "About 109 acres of Leckwith Woods",
+   "date": "1940–Apr 1942",
+   "taker": "Cardiff Corporation, as a gift from WGR",
+   "reason": "Public woodland (secondary source)",
+   "before_gap": "1938 conveyance: 1y 6m – 3y 4m. No 12-year pairing",
+   "instrument": "Gift / conveyance (unread)",
+   "answered": "No family case to this land on record",
+   "sources": "EV-0220 (cardiffparks.org.uk, secondary)"
+  },
+  {
+   "n": "7",
+   "parcel": "The farm tenancy: John Williams out, Frederick Buckler in",
+   "date": "2 Feb 1949",
+   "taker": "WGR (by agreement)",
+   "reason": "Arrears",
+   "before_gap": "Mid-1930s arrears (J): c.12–14 years; exact date unknown",
+   "instrument": "Surrender and unwritten yearly regrant",
+   "answered": "By agreement; title not raised",
+   "sources": "J; EV-0025"
+  },
+  {
+   "n": "8",
+   "parcel": "All the farm except farmhouse and garden (fields; on the family case, woodland and green)",
+   "date": "4 Jul 1955",
+   "taker": "WGR",
+   "reason": "Possession after notice to quit (expired 2 Feb 1955)",
+   "before_gap": "10 Oct 1952 letting dropped: 2y 8m 24d; 1953 last rent under a judgment for arrears",
+   "instrument": "High Court possession order, enforced",
+   "answered": "A court order was made; no title case by the family is recorded before 1959 (J)",
+   "sources": "J"
+  },
+  {
+   "n": "9",
+   "parcel": "Leckwith Common (family asserted grazing rights for 40 animals)",
+   "date": "CPO 1957, confirmed 8 Sep 1958",
+   "taker": "Cardiff City Council",
+   "reason": "A playing field",
+   "before_gap": "Rights-of-common file opens 1952 (≈6y); Commons Act enclosure file 1949–61. No 12-year pairing",
+   "instrument": "Compulsory purchase order, special parliamentary procedure",
+   "answered": "Yes, in part. Mrs Buckler put the grazing case at the 6 May 1958 public inquiry; she said she did not oppose a playing field; no petition was lodged",
+   "sources": "EV-0035; EV-0038; TNA BD 11/3775 (unread); F051"
+  },
+  {
+   "n": "10",
+   "parcel": "Land near Cogan Pill (WGR named in the notice as owner)",
+   "date": "Sep 1958",
+   "taker": "Glamorgan County Council",
+   "reason": "Not legible in our OCR text",
+   "before_gap": "Not found",
+   "instrument": "Acquisition notice",
+   "answered": "No record",
+   "sources": "EV-0036 (Western Mail 24 Sep 1958, OCR)"
+  },
+  {
+   "n": "11",
+   "parcel": "Rights over the “pink” woodland land",
+   "date": "29 Mar 1961",
+   "taker": "WGR, South Western Brick & Tile Co., Cardiff City Corporation",
+   "reason": "Not stated (deed not held)",
+   "before_gap": "2 Feb 1949 surrender and regrant: 12y 1m 27d",
+   "instrument": "Deed of rights (not a transfer)",
+   "answered": "Not known. Mary had asserted title since 1959 (J); whether the deed mentions her is unknown",
+   "sources": "WA735527 Charges 3; EV-0040"
+  },
+  {
+   "n": "12",
+   "parcel": "Farmhouse and garden",
+   "date": "11 Dec 1962",
+   "taker": "WGR v Frederick and Mary Buckler",
+   "reason": "Possession of let property; mesne profits",
+   "before_gap": "2 Feb 1955 notice expiry: 7y 10m 9d. 1959 refused offer: ≈3y",
+   "instrument": "County Court possession order",
+   "answered": "An order was made against them; whether Mary's title case was argued is not in our records",
+   "sources": "J"
+  },
+  {
+   "n": "13",
+   "parcel": "Llandough primary school site",
+   "date": "11 Jun 1965",
+   "taker": "Glamorgan CC (education), from WGR and Lakeside & Llandough Development Co",
+   "reason": "A primary school",
+   "before_gap": "4 Jul 1955 repossession: 9y 11m 7d (only if the site was in those fields, not yet confirmed). Root of title 25 Dec 1938: 26y 5m",
+   "instrument": "Conveyance",
+   "answered": "No record",
+   "sources": "Vale FOI 00211027 (EV-0216); F027"
+  },
+  {
+   "n": "14",
+   "parcel": "WGR's interest, including the benefit of the 1962 order",
+   "date": "31 Dec 1969",
+   "taker": "BP Pension Trust, from WGR",
+   "reason": "A company sale",
+   "before_gap": "11 Dec 1962 order: 7y. No 12-year pairing",
+   "instrument": "Conveyance (deed not held)",
+   "answered": "No record",
+   "sources": "J; EV-0043"
+  },
+  {
+   "n": "15",
+   "parcel": "Village green VG41 (separate ground by Leckwith Road, outside Parcel A: the Parcel A line ends before the green begins)",
+   "date": "16 Jun 1970",
+   "taker": "Glamorgan County Council, as registration authority",
+   "reason": "Registration under the Commons Registration Act 1965",
+   "before_gap": "19 Nov 1958 “Crichel Down” complaint: 11y 6m 28d. 1959 refused offer: 10y 5m – 11y 5m",
+   "instrument": "Register entry; objection window closed 1972",
+   "answered": "Public notice only; no personal notice to Mary on file; register sheet unread",
+   "sources": "EV-0044; EV-0037"
+  },
+  {
+   "n": "16",
+   "parcel": "Farmhouse occupation recast as licence",
+   "date": "31 Oct 1974",
+   "taker": "BP Properties Ltd",
+   "reason": "A rent-free licence; warrant withdrawn",
+   "before_gap": "11 Dec 1962 order (12 years to enforce): 11y 10m 20d; leave to enforce 19 Sep 1974: 11y 9m 8d",
+   "instrument": "Two letters",
+   "answered": "Yes. Argued at trial; the courts held the licence effective (1986–87). The judgment notes the risk of a paper owner keeping title alive this way",
+   "sources": "J; R4"
+  },
+  {
+   "n": "17",
+   "parcel": "Farmhouse plot and other land; rest “Retained Land”",
+   "date": "23 May 1975",
+   "taker": "BP Properties, from BP Pension Trust",
+   "reason": "Internal transfer",
+   "before_gap": "Jun 1963 committal order: ≈11y 11m",
+   "instrument": "Conveyance, six months before compulsory registration",
+   "answered": "No record",
+   "sources": "WA735527 Charges 4–5; R10"
+  },
+  {
+   "n": "18",
+   "parcel": "First registration of the woodland title WA231076",
+   "date": "30 Nov 1982",
+   "taker": "BP Properties (Linklaters & Paines)",
+   "reason": "Registration after a 19 Nov 1982 conveyance",
+   "before_gap": "16 Jun 1970 VG41: 12y 5m 14d",
+   "instrument": "First registration",
+   "answered": "Not known whether the occupier's case was put to HM Land Registry; SAR reply due 28 Oct 2026",
+   "sources": "HMLR letter 23 Mar 2026"
+  },
+  {
+   "n": "19",
+   "parcel": "First registration of the farmhouse WA240304",
+   "date": "23 Feb 1983",
+   "taker": "BP Properties (Linklaters & Paines)",
+   "reason": "Registration",
+   "before_gap": "1971 abstract of title: ≈12y (year only)",
+   "instrument": "First registration application",
+   "answered": "HMLR–Linklaters letters of Apr 1983 exist; their content is unread",
+   "sources": "HMLR letter 23 Mar 2026; R3"
+  },
+  {
+   "n": "20",
+   "parcel": "War Agricultural Executive Committee",
+   "date": "1916; 1939–45",
+   "taker": "War Ag (Glamorgan)",
+   "reason": "Wartime food production",
+   "before_gap": "Not applicable",
+   "instrument": "1916 cultivation survey lists the holding; WWII papers unread",
+   "answered": "No requisition or taking of this farm found on file",
+   "sources": "F-C32-1; F-C32-2; military memo"
+  },
+  {
+   "n": "21",
+   "parcel": "Airfield / Air Ministry",
+   "date": "—",
+   "taker": "Air Ministry",
+   "reason": "—",
+   "before_gap": "—",
+   "instrument": "—",
+   "answered": "No airfield or Air Ministry taking of this land found on file",
+   "sources": "military memo"
+  }
+ ],
+ "money": [
+  {
+   "date": "1877",
+   "sort": "1877-01-01",
+   "item": "Bute trustees’ abstract of receipts and payments, 1877",
+   "amount": null,
+   "party": "Bute trustees",
+   "ev": [
+    "EV-0007"
+   ],
+   "note": "Amount for this land not yet read"
+  },
+  {
+   "date": "11 Jun 1904",
+   "sort": "1904-06-11",
+   "item": "Bute easements for about 2½ miles of Cardiff’s western sewer",
+   "amount": "£5,362 7s",
+   "gbp": 5362.35,
+   "party": "Cardiff Corporation → Bute",
+   "ev": [
+    "EV-0618"
+   ],
+   "note": "Press report; the share for Llandough land is not known"
+  },
+  {
+   "date": "Feb 1916",
+   "sort": "1916-02-01",
+   "item": "Yearly rent for \"the whole of the farm\" (tenancy to John Williams, court record)",
+   "amount": null,
+   "party": "John Williams → Bute estate",
+   "ev": [
+    "EV-0014"
+   ],
+   "note": "Rent not stated in records on file"
+  },
+  {
+   "date": "1928",
+   "sort": "1928-06-01",
+   "item": "Last rent for the house parcel (Mary Williams’s own account)",
+   "amount": null,
+   "party": "Williams family",
+   "ev": [
+    "EV-0016"
+   ],
+   "note": "Rests on Mary Williams’s account; no receipt on file"
+  },
+  {
+   "date": "mid-1930s",
+   "sort": "1935-06-01",
+   "item": "Rent arrears",
+   "amount": null,
+   "party": "John Williams",
+   "ev": [
+    "EV-0080"
+   ],
+   "note": "The court mentions arrears; no figure"
+  },
+  {
+   "date": "23–25 Dec 1938",
+   "sort": "1938-12-25",
+   "item": "Sale price, Mountjoy Ltd → Western Ground Rents (Cardiff ground-rent estate)",
+   "amount": null,
+   "party": "WGR → Mountjoy Ltd",
+   "ev": [
+    "EV-0022"
+   ],
+   "note": "Price for the Llandough land not on file"
+  },
+  {
+   "date": "18 May 1939",
+   "sort": "1939-05-18",
+   "item": "Parcel B monthly rent, 5.30 acres",
+   "amount": "8s a month",
+   "gbp": 0.4,
+   "party": "John Williams → WGR",
+   "ev": [
+    "EV-0023"
+   ],
+   "note": "Typed agreement; plan page held"
+  },
+  {
+   "date": "1940–Apr 1942",
+   "sort": "1941-01-01",
+   "item": "About 109 acres of Leckwith Woods given to Cardiff",
+   "amount": "gift",
+   "gbp": 0,
+   "party": "WGR → Cardiff Corporation",
+   "ev": [
+    "EV-0220"
+   ],
+   "note": "Secondary source"
+  },
+  {
+   "date": "21 Oct 1948",
+   "sort": "1948-10-21",
+   "item": "Wayleave, WGR and the Borough of Barry",
+   "amount": "£1 a year",
+   "gbp": 1,
+   "party": "Barry Borough → WGR",
+   "ev": [
+    "EV-0042"
+   ],
+   "note": "Recited in the 1965 school-site conveyance"
+  },
+  {
+   "date": "2 Feb 1949",
+   "sort": "1949-02-02",
+   "item": "Yearly rent under the unwritten tenancy to Frederick Buckler",
+   "amount": null,
+   "party": "Frederick Buckler → WGR",
+   "ev": [
+    "EV-0025"
+   ],
+   "note": "Not stated"
+  },
+  {
+   "date": "1953",
+   "sort": "1953-06-01",
+   "item": "Last rent paid, under a judgment for arrears",
+   "amount": null,
+   "party": "Frederick Buckler → WGR",
+   "ev": [
+    "EV-0080",
+    "EV-0030"
+   ],
+   "note": "County court registers (EV-0030) not yet read for the figure"
+  },
+  {
+   "date": "1957–58",
+   "sort": "1958-09-08",
+   "item": "Leckwith Common compulsory purchase compensation",
+   "amount": null,
+   "party": "Cardiff City Council",
+   "ev": [
+    "EV-0035",
+    "EV-0038"
+   ],
+   "note": "Compensation not on file"
+  },
+  {
+   "date": "5 Mar 1962",
+   "sort": "1962-03-05",
+   "item": "Legal charge over Llandough land, Lakeside & Llandough Development Co → WGR",
+   "amount": "£75,000",
+   "gbp": 75000,
+   "party": "Lakeside → WGR",
+   "ev": [
+    "EV-0042"
+   ],
+   "note": "Recited in the 1965 conveyance"
+  },
+  {
+   "date": "11 Dec 1962",
+   "sort": "1962-12-11",
+   "item": "Mesne profits ordered with the possession order",
+   "amount": null,
+   "party": "Buckler family → WGR",
+   "ev": [
+    "EV-0041"
+   ],
+   "note": "Amount not on file; suspended committal order followed, Jun 1963"
+  },
+  {
+   "date": "Mar 1965",
+   "sort": "1965-03-01",
+   "item": "Weekly tenancy offered for the farmhouse (refused)",
+   "amount": "£2 a week (secondary)",
+   "gbp": null,
+   "party": "WGR’s agents",
+   "ev": [
+    "EV-0039"
+   ],
+   "note": "Figure is secondary wording"
+  },
+  {
+   "date": "11 Jun 1965",
+   "sort": "1965-06-11",
+   "item": "School site, 3.352 acres (part OS 106)",
+   "amount": "£16,800",
+   "gbp": 16800,
+   "party": "Glamorgan CC → Lakeside (WGR releasing as mortgagee)",
+   "ev": [
+    "EV-0042",
+    "EV-0216"
+   ],
+   "note": "Vale FOI 00211027"
+  },
+  {
+   "date": "15 Feb 1969",
+   "sort": "1969-02-15",
+   "item": "BP bid for Western Ground Rents Ltd, 17s a share",
+   "amount": "about £18–19 million",
+   "gbp": null,
+   "party": "British Petroleum → WGR shareholders",
+   "ev": [
+    "EV-0288"
+   ],
+   "note": "Whole company; press snippets"
+  },
+  {
+   "date": "31 Dec 1969",
+   "sort": "1969-12-31",
+   "item": "Consideration, WGR → BP Pension Trust",
+   "amount": null,
+   "party": "BP Pension Trust → WGR",
+   "ev": [
+    "EV-0043"
+   ],
+   "note": "Deed not held"
+  },
+  {
+   "date": "31 Oct 1974",
+   "sort": "1974-10-31",
+   "item": "Licence to Mary Williams, rent-free",
+   "amount": "£0",
+   "gbp": 0,
+   "party": "BP Properties",
+   "ev": [
+    "EV-0050"
+   ],
+   "note": "Court record"
+  },
+  {
+   "date": "23 May 1975",
+   "sort": "1975-05-23",
+   "item": "Consideration, BP Pension Trust → BP Properties",
+   "amount": null,
+   "party": "BP group",
+   "ev": [
+    "EV-0620"
+   ],
+   "note": "Deed not read"
+  },
+  {
+   "date": "19 Nov 1982",
+   "sort": "1982-11-19",
+   "item": "Consideration, conveyance before first registration",
+   "amount": null,
+   "party": "BP group",
+   "ev": [
+    "EV-0147"
+   ],
+   "note": "On the HM Land Registry file"
+  },
+  {
+   "date": "1986–87",
+   "sort": "1987-07-31",
+   "item": "Costs orders in BP Properties Ltd v Buckler",
+   "amount": null,
+   "party": "—",
+   "ev": [
+    "EV-0080"
+   ],
+   "note": "Costs orders not on file"
+  }
+ ],
+ "rooms": [
+  {
+   "n": 1,
+   "title": "Cedwyn before the paper",
+   "period": "to 1877",
+   "text": "Tŷ Mawr alias Cedfin sat in the old manor lands of Llandough and Leckwith beside the church, its cemetery used from about 370 to 1024 and a cross of the 10th–11th century. The Williams family farmed here and kept faith with the parish around them. This room holds the place names and the oldest records.",
+   "ev": [
+    "EV-0001",
+    "EV-0626",
+    "EV-0146",
+    "EV-0278",
+    "EV-0215"
+   ],
+   "refs": [
+    {
+     "ev": "EV-0001",
+     "path": "/evidence/ev-0001-cwm-cedwyn-llandough-boundary-1392/"
+    },
+    {
+     "ev": "EV-0626",
+     "path": "/evidence/ev-0626-cydfin-wood-leckwith-1903-property-of-lord-bute/"
+    },
+    {
+     "ev": "EV-0146",
+     "path": "/evidence/ev-0146-tna-mdr-llandough-manor-return/"
+    },
+    {
+     "ev": "EV-0278",
+     "path": "/evidence/ev-0278-nlw-bute-estate-records-llandough-manor-rentals-1808-1881-r-6-27-45-and-presentmen/"
+    },
+    {
+     "ev": "EV-0215",
+     "path": "/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "The quarry and the estate",
+   "period": "1877–1905",
+   "text": "In 1877, as the family later recounted, the Bute estate — lords of the manor — made an agreement with Daniel Thomas & Son over the house parcel; lime kilns and quarry work followed. In 1905 Bute conveyed rights over a strip to Cardiff for the western sewer. The first piece of the land had gone to industry.",
+   "ev": [
+    "EV-0006",
+    "EV-0008",
+    "EV-0280",
+    "EV-0013",
+    "EV-0618"
+   ],
+   "refs": [
+    {
+     "ev": "EV-0006",
+     "path": "/evidence/ev-0006-bute-thomas-agreement-1877/"
+    },
+    {
+     "ev": "EV-0008",
+     "path": "/evidence/ev-0008-reported-1877-lease-john-williams/"
+    },
+    {
+     "ev": "EV-0280",
+     "path": "/evidence/ev-0280-llandough-lime-works-and-quarry-1876-1947-daniel-thomas-s-kilns-quarry-workers-kel/"
+    },
+    {
+     "ev": "EV-0013",
+     "path": "/evidence/ev-0013-bute-conveyance-1905/"
+    },
+    {
+     "ev": "EV-0618",
+     "path": "/evidence/ev-0618-cardiff-western-sewer-bute-easements-1904-1905/"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "A tenancy on the whole farm",
+   "period": "1916–1926",
+   "text": "The court records that in February 1916 \"the Marquis\" let \"the whole of the farm\" to John Williams by the year. Bute’s estates had passed into his company Mountjoy Ltd in 1922; the quarry plant was sold in 1925, and on 1 January 1926 the law ended copyhold tenure.",
+   "ev": [
+    "EV-0014",
+    "EV-0624",
+    "EV-0614",
+    "EV-0610",
+    "EV-0615",
+    "EV-0616",
+    "EV-0613"
+   ],
+   "refs": [
+    {
+     "ev": "EV-0014",
+     "path": "/evidence/ev-0014-bute-tenancy-john-williams-1916/"
+    },
+    {
+     "ev": "EV-0624",
+     "path": "/evidence/ev-0624-mountjoy-ltd-formed-1922-bute-estate-company/"
+    },
+    {
+     "ev": "EV-0614",
+     "path": "/evidence/ev-0614-mountjoy-ltd-1926-tna-catalogue/"
+    },
+    {
+     "ev": "EV-0610",
+     "path": "/evidence/ev-0610-llandough-quarry-plant-sale-1925/"
+    },
+    {
+     "ev": "EV-0615",
+     "path": "/evidence/ev-0615-london-gazette-1926-lewis-pritchard-liquidator/"
+    },
+    {
+     "ev": "EV-0616",
+     "path": "/evidence/ev-0616-law-of-property-act-1922-copyhold-1926/"
+    },
+    {
+     "ev": "EV-0613",
+     "path": "/evidence/ev-0613-bute-glamorgan-manorial-records-1926-1940/"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Sold over their heads",
+   "period": "1938–1942",
+   "text": "At Christmas 1938, later documents recite, Mountjoy Ltd conveyed to Western Ground Rents Ltd; the deed itself has not been examined, and the manorial title of Llandough was kept back. Five months later Parcel B, 5.30 acres by the farmhouse, was let to John Williams, then about 72, month by month at 8s, \"reserving quarrying rights\". About 109 acres of Leckwith Woods went to Cardiff as a gift.",
+   "ev": [
+    "EV-0022",
+    "EV-0625",
+    "EV-0216",
+    "EV-0023",
+    "EV-0617",
+    "EV-0220"
+   ],
+   "refs": [
+    {
+     "ev": "EV-0022",
+     "path": "/evidence/ev-0022-press-1938-bute-wgr-sale-completion/"
+    },
+    {
+     "ev": "EV-0625",
+     "path": "/evidence/ev-0625-bute-mountjoy-sale-to-wgr-1938-one-transaction/"
+    },
+    {
+     "ev": "EV-0216",
+     "path": "/evidence/ev-0216-1965-contract-condition-f-conveyance-25-december-1938/"
+    },
+    {
+     "ev": "EV-0023",
+     "path": "/evidence/ev-0023-1939-wgr-john-williams-tenancy-plan/"
+    },
+    {
+     "ev": "EV-0617",
+     "path": "/evidence/ev-0617-twelve-year-limitation-rule-1879-1940/"
+    },
+    {
+     "ev": "EV-0220",
+     "path": "/evidence/ev-0220-leckwith-woods-wgr-gift-1940-1942/"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "The fields go",
+   "period": "1949–1955",
+   "text": "In 1949 the tenancy passed to Frederick Buckler, unwritten. In 1952 the agents dropped the letting; the last rent was paid in 1953. On 4 July 1955 a High Court order was enforced on every field — all but the farmhouse and garden.",
+   "ev": [
+    "EV-0025",
+    "EV-0030",
+    "EV-0080"
+   ],
+   "refs": [
+    {
+     "ev": "EV-0025",
+     "path": "/evidence/ev-0025-frederick-buckler-unwritten-tenancy-1949/"
+    },
+    {
+     "ev": "EV-0030",
+     "path": "/evidence/ev-0030-cardiff-county-court-registers-aca/"
+    },
+    {
+     "ev": "EV-0080",
+     "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "\"A Welsh case of Crichel Down\"",
+   "period": "1957–1961",
+   "text": "In 1958 Leckwith Common was taken for a playing field and Mrs M. D. Buckler stood before the county planning committee and told them the family’s land had been \"wrongfully appropriated\". She refused a tenancy of her own home in 1959. In 1961 rights over the woodland were granted between WGR, a brick company and Cardiff.",
+   "ev": [
+    "EV-0035",
+    "EV-0038",
+    "EV-0037",
+    "EV-0039",
+    "EV-0040",
+    "EV-0622"
+   ],
+   "refs": [
+    {
+     "ev": "EV-0035",
+     "path": "/evidence/ev-0035-western-mail-1958-leckwith-common-hearing/"
+    },
+    {
+     "ev": "EV-0038",
+     "path": "/evidence/ev-0038-hansard-1958-leckwith-common-no-petition/"
+    },
+    {
+     "ev": "EV-0037",
+     "path": "/evidence/ev-0037-western-mail-1958-crichel-down/"
+    },
+    {
+     "ev": "EV-0039",
+     "path": "/evidence/ev-0039-wgr-tenancy-offers-1959-1965/"
+    },
+    {
+     "ev": "EV-0040",
+     "path": "/evidence/ev-0040-1961-wgr-brick-tile-deed/"
+    },
+    {
+     "ev": "EV-0622",
+     "path": "/evidence/ev-0622-military-and-requisition-leads-crichel-down/"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Order, school and green",
+   "period": "1962–1970",
+   "text": "In December 1962 the county court ordered possession of the farmhouse — an order that was then held for almost twelve years. In 1965 a school rose on 3.352 acres sold for £16,800; Mary refused a second tenancy. In 1969 BP bought Western Ground Rents, and in 1970 the green was entered on the register as VG41.",
+   "ev": [
+    "EV-0041",
+    "EV-0042",
+    "EV-0216",
+    "EV-0039",
+    "EV-0288",
+    "EV-0043",
+    "EV-0044",
+    "EV-0621"
+   ],
+   "refs": [
+    {
+     "ev": "EV-0041",
+     "path": "/evidence/ev-0041-cardiff-county-court-possession-order-1962/"
+    },
+    {
+     "ev": "EV-0042",
+     "path": "/evidence/ev-0042-llandough-school-conveyance-1965/"
+    },
+    {
+     "ev": "EV-0216",
+     "path": "/evidence/ev-0216-1965-contract-condition-f-conveyance-25-december-1938/"
+    },
+    {
+     "ev": "EV-0039",
+     "path": "/evidence/ev-0039-wgr-tenancy-offers-1959-1965/"
+    },
+    {
+     "ev": "EV-0288",
+     "path": "/evidence/ev-0288-snippets-only-press-on-the-1968-69-takeover-battle-for-western-ground-rents-ltd-en/"
+    },
+    {
+     "ev": "EV-0043",
+     "path": "/evidence/ev-0043-wgr-bp-pension-trust-conveyance/"
+    },
+    {
+     "ev": "EV-0044",
+     "path": "/evidence/ev-0044-vg41-village-green-registration-1970/"
+    },
+    {
+     "ev": "EV-0621",
+     "path": "/evidence/ev-0621-root-of-title-1938-and-the-1969-sale/"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "title": "Two letters",
+   "period": "1974–1975",
+   "text": "In September 1974 leave was given to enforce the 1962 order, 41 days before its twelve years ran out; on 31 October two letters gave Mary a rent-free licence and the warrant was withdrawn. In May 1975 the farmhouse plot moved inside the BP group, six months before registration became compulsory.",
+   "ev": [
+    "EV-0050",
+    "EV-0620",
+    "EV-0619",
+    "EV-0265"
+   ],
+   "refs": [
+    {
+     "ev": "EV-0050",
+     "path": "/evidence/ev-0050-1974-bp-licence-letters/"
+    },
+    {
+     "ev": "EV-0620",
+     "path": "/evidence/ev-0620-bp-pension-trust-to-bp-properties-1975/"
+    },
+    {
+     "ev": "EV-0619",
+     "path": "/evidence/ev-0619-wgr-1962-covenant-and-bp-1975-covenant/"
+    },
+    {
+     "ev": "EV-0265",
+     "path": "/evidence/ev-0265-hmlr-registration-background-compulsory-1975-r29-certificate/"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "title": "Registered",
+   "period": "1982–1983",
+   "text": "In November 1982 and February 1983 BP Properties applied for first registration of the woodland and the farmhouse and was entered as registered proprietor. Mary Williams died on 26 March 1983. Whether her case was before HM Land Registry is not shown in the records held.",
+   "ev": [
+    "EV-0147",
+    "EV-0045",
+    "EV-0059"
+   ],
+   "refs": [
+    {
+     "ev": "EV-0147",
+     "path": "/evidence/ev-0147-hmlr-letter-ty-mawr-registration-history/"
+    },
+    {
+     "ev": "EV-0045",
+     "path": "/evidence/ev-0045-1971-abstract-title-bp-pension/"
+    },
+    {
+     "ev": "EV-0059",
+     "path": "/evidence/ev-0059-wa231076-form-a13-first-registration/"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "title": "Judgment, and the record since",
+   "period": "1986 to today",
+   "text": "The courts found the family had held the farmhouse adversely from 1955, but held that the 1962 order and the 1974 letters kept the paper title alive, and treated BP as owner. Mary’s assertion of ownership was never tried. The charts in this room set out the dated pairs and the parcels for the visitor to weigh.",
+   "ev": [
+    "EV-0080",
+    "EV-0628",
+    "EV-0607",
+    "EV-0608",
+    "EV-0609",
+    "EV-0623"
+   ],
+   "refs": [
+    {
+     "ev": "EV-0080",
+     "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    },
+    {
+     "ev": "EV-0628",
+     "path": "/evidence/ev-0628-title-chain-authenticity-audit-2026/"
+    },
+    {
+     "ev": "EV-0607",
+     "path": "/evidence/ev-0607-twelve-year-rainbow-chart-2026/"
+    },
+    {
+     "ev": "EV-0608",
+     "path": "/evidence/ev-0608-twelve-year-stacked-chart-2026/"
+    },
+    {
+     "ev": "EV-0609",
+     "path": "/evidence/ev-0609-parcel-by-parcel-pattern-table-2026/"
+    },
+    {
+     "ev": "EV-0623",
+     "path": "/evidence/ev-0623-financial-times-1983-1986-negative-sweep/"
+    }
+   ]
+  }
+ ],
+ "hypotheses": [
+  {
+   "id": "H1-PAPER-SIEGE",
+   "rank": 1,
+   "name": "Sequential parcel capture and permission-framing (‘the Paper Siege’): separate takings, title claims, licences and registrations progressively reduced the Williams family’s standing on paper",
+   "source": "Canonical working model TT-0001, 30 Oct 2026",
+   "status": "Leading working hypothesis; unproven",
+   "explains": "The 1841 occupation footprint; the distinction between the 1939 fields letting and the farmhouse claim; the 1958 ‘Welsh Crichel Down’ complaint; repeated permission framing; the 1974 letters; 1975 transfer; 1982–83 registrations; 1987 amalgamation; and later physical loss of the house.",
+   "limits": "The tithe records occupation, not ownership. Deeds and plans remain incomplete; the original 1939 signature is unauthenticated; the complete first-registration files and proof of notice are not yet established. Intentional coordination, fraud, violence and archaeological concealment are not findings. The court outcome remains the operative legal result.",
+   "model": "/wiki/title-theory/"
+  },
+  {
+   "rank": 2,
+   "name": "A long private property and possession dispute, decided in the courts, followed by demolition and redevelopment, with title-root questions open",
+   "source": "Preliminary forensic audit, 25 Oct 2026"
+  },
+  {
+   "rank": 3,
+   "name": "Planning and developer corner-cutting without a title scheme (1990 ground investigation, 1992 reserved matters, archaeology condition 18)",
+   "source": "Preliminary forensic audit, 25 Oct 2026"
+  },
+  {
+   "rank": 4,
+   "name": "Both of the above",
+   "source": "Preliminary forensic audit, 25 Oct 2026"
+  },
+  {
+   "rank": 5,
+   "name": "A repeated pattern of recasting occupation as permission near twelve-year limits, across successive title holders (the family’s working theory; ingredients in EV-0607 to EV-0609)",
+   "source": "Twelve-year pattern memo, 25 Oct 2026"
+  }
+ ],
+ "peak": [],
+ "cuts": [
+  {
+   "id": "E01",
+   "date": "1877",
+   "event": "Bute–Thomas deal (reported)",
+   "changed": "Mary Williams's later account dates a Bute agreement (sale or quarry lease of the house parcel) with Daniel Thomas & Son to 6 Nov 1877. The instrument has not been found; the 6 Nov 1877 lease photographed at Glamorgan Archives is a Clyde Street, Roath building lease, not the farm.",
+   "label": "EV-0006, EV-0008 (Mary Williams's account); EV-0213 (the Roath lease)",
+   "refs": [
+    {
+     "ev": "EV-0006",
+     "path": "/evidence/ev-0006-bute-thomas-agreement-1877/"
+    },
+    {
+     "ev": "EV-0008",
+     "path": "/evidence/ev-0008-reported-1877-lease-john-williams/"
+    },
+    {
+     "ev": "EV-0213",
+     "path": "/evidence/ev-0213-clyde-street-roath-lease-6-nov-1877/"
+    }
+   ]
+  },
+  {
+   "id": "E02",
+   "date": "1905",
+   "event": "Bute–Cardiff Corporation strip deed",
+   "changed": "23 Feb 1905: Bute conveys rights over a strip of what is now the woodland title to Cardiff County Borough. It is very probably the sewer/pumping-station easement Cardiff paid for; the deed itself is unread.",
+   "label": "WA735527 Charges entry 1 (register view 18 Sep 2026); EV-0013; cycle-038 report",
+   "refs": [
+    {
+     "ev": "EV-0013",
+     "path": "/evidence/ev-0013-bute-conveyance-1905/"
+    }
+   ]
+  },
+  {
+   "id": "E03",
+   "date": "1916",
+   "event": "Tenancy to John Williams",
+   "changed": "Feb 1916: a yearly tenancy of \"the whole of the farm\" to John Williams from \"the Marquis\". This is the first record that puts the family's occupation on a tenancy footing.",
+   "label": "1987 judgment; EV-0014 (deed not held)",
+   "refs": [
+    {
+     "ev": "EV-0014",
+     "path": "/evidence/ev-0014-bute-tenancy-john-williams-1916/"
+    }
+   ]
+  },
+  {
+   "id": "E04",
+   "date": "1925",
+   "event": "Quarry plant sold off",
+   "changed": "10 Nov 1925: the Llandough quarry / lime works plant is catalogued and sold (Lewis & Pritchard's \"surplus plant at Llandough\" was sold Aug 1925). The quarry leaving is the end point of the 1877 bar.",
+   "label": "Glamorgan Archives DSA/12/4888 (catalogue only); London Gazette 29 Oct 1926 p.70",
+   "refs": []
+  },
+  {
+   "id": "E05",
+   "date": "1926",
+   "event": "Copyhold ends; Mountjoy formed",
+   "changed": "1 Jan 1926: Law of Property Act 1922 s.128 turns all copyhold into freehold; the 1925 property Acts come into force. The same year Bute's remaining property is put into Mountjoy Ltd, the company that sold to WGR in 1938 (month of incorporation not yet confirmed). Llandough Rectory, beside \"part of the Bute Estate\", is sold 7 Oct 1926. Press of May 1922 shows Mountjoy Ltd was in fact formed in 1922 (EV-0624); the catalogue’s 1926 reads as the year further property was brought in.",
+   "label": "LPA 1922 ss.128, 138; TNA catalogue GB 0214 DB (F043); Glamorgan Archives DSA/12",
+   "refs": [
+    {
+     "ev": "EV-0624",
+     "path": "/evidence/ev-0624-mountjoy-ltd-formed-1922-bute-estate-company/"
+    }
+   ]
+  },
+  {
+   "id": "E06",
+   "date": "1926",
+   "event": "Bute lets Lewis Road land",
+   "changed": "Dec 1926: Bute lets land near Lewis Road, Llandough, to Penarth Urban District Council. Catalogue entry only; the plan has not been matched to farm fields.",
+   "label": "Glamorgan Archives DBDT123/6 (catalogue only)",
+   "refs": []
+  },
+  {
+   "id": "E07",
+   "date": "1928",
+   "event": "Last rent for house parcel",
+   "changed": "1928 is the year Mary Williams reported as the last rent paid for the house parcel. It rests on her account only; no rent book is on file.",
+   "label": "EV-0016 (Mary Williams's account; not held)",
+   "refs": [
+    {
+     "ev": "EV-0016",
+     "path": "/evidence/ev-0016-1928-last-rent-receipt-quarrying/"
+    }
+   ]
+  },
+  {
+   "id": "E08",
+   "date": "1938",
+   "event": "Reversion conveyed to WGR",
+   "changed": "25 Dec 1938 (completion reported 23 Dec): Mountjoy Ltd, for Bute, conveys the reversion of the farm to Western Ground Rents Ltd. The deed is unread, so whether it covered Parcel B is not known; the 1965 school sale uses it as root of title.",
+   "label": "1987 judgment; EV-0022 (press); EV-0216 (Vale FOI 00211027)",
+   "refs": [
+    {
+     "ev": "EV-0022",
+     "path": "/evidence/ev-0022-press-1938-bute-wgr-sale-completion/"
+    },
+    {
+     "ev": "EV-0216",
+     "path": "/evidence/ev-0216-1965-contract-condition-f-conveyance-25-december-1938/"
+    }
+   ]
+  },
+  {
+   "id": "E09",
+   "date": "1939",
+   "event": "Parcel B monthly letting",
+   "changed": "18 May 1939: WGR lets 5.30 acres (Parcel B) beside Ty-Mawr farmhouse to John Williams, then about 72, monthly at 8s, \"reserving quarrying rights\". While a tenancy runs, the tenant's years do not count against the landlord.",
+   "label": "Glamorgan Archives DBDT/123/7; EV-0023; archive reply ref 2026/4439",
+   "refs": [
+    {
+     "ev": "EV-0023",
+     "path": "/evidence/ev-0023-1939-wgr-john-williams-tenancy-plan/"
+    }
+   ]
+  },
+  {
+   "id": "E10",
+   "date": "1949",
+   "event": "Surrender & regrant to F. Buckler",
+   "changed": "2 Feb 1949: John Williams's tenancy is surrendered after arrears and an unwritten yearly tenancy is granted to Frederick Buckler.",
+   "label": "1987 judgment; EV-0025",
+   "refs": [
+    {
+     "ev": "EV-0025",
+     "path": "/evidence/ev-0025-frederick-buckler-unwritten-tenancy-1949/"
+    }
+   ]
+  },
+  {
+   "id": "E11",
+   "date": "1952",
+   "event": "WGR drops the letting",
+   "changed": "10 Oct 1952: WGR's agents write that they \"did not propose to proceed with the letting to Mr Frederick Buckler\". Last rent follows in 1953, under a judgment for arrears.",
+   "label": "1987 judgment",
+   "refs": []
+  },
+  {
+   "id": "E12",
+   "date": "1955",
+   "event": "Farm repossessed, not farmhouse",
+   "changed": "4 Jul 1955: a High Court possession order is enforced on all the farm except the farmhouse and garden (notice to quit expired 2 Feb 1955).",
+   "label": "1987 judgment",
+   "refs": []
+  },
+  {
+   "id": "E13",
+   "date": "1958",
+   "event": "\"A Welsh Crichel Down\" complaint",
+   "changed": "19 Nov 1958: Mrs M. D. Buckler tells Glamorgan County Council's planning committee the land was \"wrongfully appropriated\" by Glamorgan CC, Penarth UDC, Cardiff RDC and WGR. Same year: Leckwith Common inquiry 6 May (she asserted grazing rights) and the Cardiff (Leckwith Common) CPO 1957 confirmed 8 Sep; no petition was lodged.",
+   "label": "EV-0037 (Western Mail 20 Nov 1958 p.7, OCR); EV-0035; EV-0038; TNA BD 11/3775 (u",
+   "refs": [
+    {
+     "ev": "EV-0035",
+     "path": "/evidence/ev-0035-western-mail-1958-leckwith-common-hearing/"
+    },
+    {
+     "ev": "EV-0037",
+     "path": "/evidence/ev-0037-western-mail-1958-crichel-down/"
+    },
+    {
+     "ev": "EV-0038",
+     "path": "/evidence/ev-0038-hansard-1958-leckwith-common-no-petition/"
+    }
+   ]
+  },
+  {
+   "id": "E14",
+   "date": "1959",
+   "event": "Tenancy offer refused",
+   "changed": "1959 (month unknown): WGR offers Mary a tenancy of the farmhouse and garden; she refuses and asserts title through her grandfather.",
+   "label": "1987 judgment; EV-0039",
+   "refs": [
+    {
+     "ev": "EV-0039",
+     "path": "/evidence/ev-0039-wgr-tenancy-offers-1959-1965/"
+    }
+   ]
+  },
+  {
+   "id": "E15",
+   "date": "1961",
+   "event": "Woodland rights deed",
+   "changed": "29 Mar 1961: deed between WGR, South Western Brick & Tile Co. and Cardiff City Corporation giving rights over the \"pink\" land now in the woodland title. Rights, not a transfer; the deed is not held.",
+   "label": "WA735527 Charges entry 3; EV-0040",
+   "refs": [
+    {
+     "ev": "EV-0040",
+     "path": "/evidence/ev-0040-1961-wgr-brick-tile-deed/"
+    }
+   ]
+  },
+  {
+   "id": "E16",
+   "date": "1962",
+   "event": "Possession order, farmhouse",
+   "changed": "11 Dec 1962: Cardiff County Court possession order (farmhouse and garden) and mesne profits, WGR v Frederick and Mary Buckler. An order like this could be enforced for 12 years.",
+   "label": "1987 judgment",
+   "refs": []
+  },
+  {
+   "id": "E17",
+   "date": "1963",
+   "event": "Suspended committal order",
+   "changed": "Jun 1963: suspended committal order over the mesne profits.",
+   "label": "1987 judgment",
+   "refs": []
+  },
+  {
+   "id": "E18",
+   "date": "1965",
+   "event": "Tenancy offered, refused",
+   "changed": "Mar 1965: a weekly tenancy is offered to \"Mrs Williams\" and refused. BP later admitted Mary was in adverse possession from 1965–67.",
+   "label": "1987 judgment",
+   "refs": []
+  },
+  {
+   "id": "E19",
+   "date": "1965",
+   "event": "School site sold",
+   "changed": "11 Jun 1965: WGR with Lakeside & Llandough Development Co sells the Llandough primary school site; root of title the 25 Dec 1938 conveyance. Whether the site lay in the fields repossessed in 1955 is not shown on file.",
+   "label": "Vale of Glamorgan FOI 00211027 (EV-0216); F027",
+   "refs": [
+    {
+     "ev": "EV-0216",
+     "path": "/evidence/ev-0216-1965-contract-condition-f-conveyance-25-december-1938/"
+    }
+   ]
+  },
+  {
+   "id": "E20",
+   "date": "1970",
+   "event": "Village green VG41 entered",
+   "changed": "16 Jun 1970: VG41 registered under the Commons Registration Act 1965, Glamorgan County Council as registration authority, on what the wiki maps as the south-east ground of Parcel A. Notice was public only; the objection window closed in 1972.",
+   "label": "EV-0044 (wiki date; register sheet unread)",
+   "refs": [
+    {
+     "ev": "EV-0044",
+     "path": "/evidence/ev-0044-vg41-village-green-registration-1970/"
+    }
+   ]
+  },
+  {
+   "id": "E21",
+   "date": "1971",
+   "event": "Abstract of title for BP",
+   "changed": "1971: abstract of title prepared for BP Pension Trust (recited only).",
+   "label": "EV-0045",
+   "refs": [
+    {
+     "ev": "EV-0045",
+     "path": "/evidence/ev-0045-1971-abstract-title-bp-pension/"
+    }
+   ]
+  },
+  {
+   "id": "E22",
+   "date": "1974",
+   "event": "Licence letters to Mary",
+   "changed": "31 Oct 1974: two letters from BP Properties grant Mary a rent-free licence; the warrant is withdrawn before 25 Nov. Leave to enforce the 1962 order had been obtained on 19 Sep 1974 (11y 9m 8d after it), 41 days before the 12 years ran out.",
+   "label": "1987 judgment; reopen-loop ground R4",
+   "refs": []
+  },
+  {
+   "id": "E23",
+   "date": "1975",
+   "event": "BP conveys farmhouse plot",
+   "changed": "23 May 1975: BP Pension Trust conveys the farmhouse plot and other land to BP Properties, keeping the rest as \"Retained Land\"; six months before the Vale became a compulsory registration area.",
+   "label": "WA735527 Charges entries 4–5; reopen-loop ground R10",
+   "refs": []
+  },
+  {
+   "id": "E24",
+   "date": "1982",
+   "event": "Woodland first registered",
+   "changed": "30 Nov 1982: Linklaters & Paines apply for first registration of WA231076 for BP Properties, after a 19 Nov 1982 conveyance.",
+   "label": "HM Land Registry letter 23 Mar 2026",
+   "refs": []
+  },
+  {
+   "id": "E25",
+   "date": "1983",
+   "event": "Farmhouse registration filed",
+   "changed": "23 Feb 1983: application for WA240304 (farmhouse). Mary Williams dies 26 Mar 1983; Linklaters–HMLR correspondence follows 8 Apr 1983.",
+   "label": "HM Land Registry letter 23 Mar 2026; reopen-loop ground R3",
+   "refs": []
+  },
+  {
+   "id": "E26",
+   "date": "1986",
+   "event": "High Court judgment for BP",
+   "changed": "24 Jul 1986: Hollis J decides for BP Properties; the Court of Appeal dismisses the appeal on 31 Jul 1987.",
+   "label": "1987 judgment",
+   "refs": []
+  }
+ ],
+ "exhibits": {
+  "EV-0001": {
+   "title": "Reference to Cwm-Cedwyn in Llandough Boundary Records (1392)",
+   "path": "/evidence/ev-0001-cwm-cedwyn-llandough-boundary-1392/",
+   "img": ""
+  },
+  "EV-0006": {
+   "title": "1877 Bute–Daniel Thomas & Son agreement (sale or quarry lease of house parcel)",
+   "path": "/evidence/ev-0006-bute-thomas-agreement-1877/",
+   "img": ""
+  },
+  "EV-0007": {
+   "title": "Bute trustees’ abstract of receipts and payments, 1877 (Bute X.6(12))",
+   "path": "/evidence/ev-0007-bute-trustees-receipts-payments-1877/",
+   "img": ""
+  },
+  "EV-0008": {
+   "title": "Reported lease of 6 November 1877 to John Williams (original unlocated)",
+   "path": "/evidence/ev-0008-reported-1877-lease-john-williams/",
+   "img": ""
+  },
+  "EV-0012": {
+   "title": "Press reports: Bute’s will left Leckwith-with-Llandough to Colum Crichton-Stuart",
+   "path": "/evidence/ev-0012-bute-will-press-reports-1900/",
+   "img": ""
+  },
+  "EV-0013": {
+   "title": "Bute conveyance of 23 February 1905 referred to on the WA231076 file",
+   "path": "/evidence/ev-0013-bute-conveyance-1905/",
+   "img": ""
+  },
+  "EV-0014": {
+   "title": "Bute yearly agricultural tenancy to John Williams, with plan",
+   "path": "/evidence/ev-0014-bute-tenancy-john-williams-1916/",
+   "img": ""
+  },
+  "EV-0016": {
+   "title": "1928 Last House-Parcel Rent Receipt and End of Quarrying",
+   "path": "/evidence/ev-0016-1928-last-rent-receipt-quarrying/",
+   "img": ""
+  },
+  "EV-0022": {
+   "title": "Press reports of completion of Bute (Mountjoy) sale of Cardiff ground rents to Western Ground Rents",
+   "path": "/evidence/ev-0022-press-1938-bute-wgr-sale-completion/",
+   "img": ""
+  },
+  "EV-0023": {
+   "title": "DBDT123/7 — 1939 agreement, Western Ground Rents to John Williams, with plan",
+   "path": "/evidence/ev-0023-1939-wgr-john-williams-tenancy-plan/",
+   "img": ""
+  },
+  "EV-0025": {
+   "title": "Surrender and re-grant of Frederick Buckler’s yearly tenancy (unwritten; no written record)",
+   "path": "/evidence/ev-0025-frederick-buckler-unwritten-tenancy-1949/",
+   "img": ""
+  },
+  "EV-0030": {
+   "title": "Glamorgan Archives ACA: Cardiff County Court registers (1953 arrears, 1962 possession, 1963 committal)",
+   "path": "/evidence/ev-0030-cardiff-county-court-registers-aca/",
+   "img": ""
+  },
+  "EV-0035": {
+   "title": "Western Mail: “City wants common for play-field” — Leckwith Common inquiry (Mrs Mary Doreen Buckler)",
+   "path": "/evidence/ev-0035-western-mail-1958-leckwith-common-hearing/",
+   "img": ""
+  },
+  "EV-0037": {
+   "title": "Western Mail, 20 Nov 1958: Mrs M. D. Buckler — “a Welsh case of Crichel Down”",
+   "path": "/evidence/ev-0037-western-mail-1958-crichel-down/",
+   "img": ""
+  },
+  "EV-0038": {
+   "title": "Hansard / Commons Journal: no petition presented against Leckwith Common order",
+   "path": "/evidence/ev-0038-hansard-1958-leckwith-common-no-petition/",
+   "img": ""
+  },
+  "EV-0039": {
+   "title": "WGR Tenancy Offers Concerning Remaining House and Garden (1959 and 1965)",
+   "path": "/evidence/ev-0039-wgr-tenancy-offers-1959-1965/",
+   "img": ""
+  },
+  "EV-0040": {
+   "title": "Deed with plan between WGR, South Western Brick & Tile and Cardiff City",
+   "path": "/evidence/ev-0040-1961-wgr-brick-tile-deed/",
+   "img": ""
+  },
+  "EV-0041": {
+   "title": "Cardiff County Court possession order (farmhouse and garden) — not yet held",
+   "path": "/evidence/ev-0041-cardiff-county-court-possession-order-1962/",
+   "img": ""
+  },
+  "EV-0042": {
+   "title": "1965 conveyance of the Llandough school site (Vale FOI 00211027)",
+   "path": "/evidence/ev-0042-llandough-school-conveyance-1965/",
+   "img": ""
+  },
+  "EV-0043": {
+   "title": "Conveyance with plan, WGR to BP Pension Trust (recited as root of BP title)",
+   "path": "/evidence/ev-0043-wgr-bp-pension-trust-conveyance/",
+   "img": ""
+  },
+  "EV-0044": {
+   "title": "VG41 village-green registration: register entry, map and ownership section",
+   "path": "/evidence/ev-0044-vg41-village-green-registration-1970/",
+   "img": ""
+  },
+  "EV-0045": {
+   "title": "Abstract of Title, 1971 (BP Pension Trust) — lodged with the 1982–83 first registrations, per HM Land Registry; contents not held",
+   "path": "/evidence/ev-0045-1971-abstract-title-bp-pension/",
+   "img": ""
+  },
+  "EV-0050": {
+   "title": "Licence letters from BP Pension Trust and BP Properties to Mrs Buckler (Mrs Williams)",
+   "path": "/evidence/ev-0050-1974-bp-licence-letters/",
+   "img": ""
+  },
+  "EV-0059": {
+   "title": "Form A13: documents lodged at first registration, title WA231076 (Item 17)",
+   "path": "/evidence/ev-0059-wa231076-form-a13-first-registration/",
+   "img": ""
+  },
+  "EV-0065": {
+   "title": "HM Land Registry first-registration file WA240304 (farmhouse), Items 4, 5, 7, 9, 10 and 11",
+   "path": "/evidence/ev-0065-wa240304-farmhouse-first-registration-file/",
+   "img": ""
+  },
+  "EV-0066": {
+   "title": "WA240304 file item 10: register / first-registration application, 23 February 1983",
+   "path": "/evidence/ev-0066-hmlr-wa240304-item-10-register-1983/",
+   "img": ""
+  },
+  "EV-0080": {
+   "title": "Court of Appeal judgment: BP Properties Ltd v Buckler [1987] EWCA Civ 2",
+   "path": "/evidence/ev-0080-bp-properties-v-buckler-judgment/",
+   "img": ""
+  },
+  "EV-0146": {
+   "title": "The National Archives Manorial Documents Register: Llandough Manor Return (HMC 9.311)",
+   "path": "/evidence/ev-0146-tna-mdr-llandough-manor-return/",
+   "img": ""
+  },
+  "EV-0147": {
+   "title": "HM Land Registry letter on registration history of Tŷ Mawr Farm",
+   "path": "/evidence/ev-0147-hmlr-letter-ty-mawr-registration-history/",
+   "img": ""
+  },
+  "EV-0212": {
+   "title": "Llandough poor-rate books, 1872–1876: John Williams, farm under Lord Bute (PROVISIONAL)",
+   "path": "/evidence/ev-0212-llandough-poor-rate-books-1870s/",
+   "img": ""
+  },
+  "EV-0215": {
+   "title": "Tithe apportionment, Landough, Cogan and Leckwith: John Williams’s holding (c.1841)",
+   "path": "/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+   "img": ""
+  },
+  "EV-0216": {
+   "title": "1965 contract, condition F: root of title “a Conveyance on sale dated 25th December 1938”",
+   "path": "/evidence/ev-0216-1965-contract-condition-f-conveyance-25-december-1938/",
+   "img": ""
+  },
+  "EV-0220": {
+   "title": "Leckwith Woods: c.109 acres given by Western Ground Rents to Cardiff council (offered 1940, completed April 1942)",
+   "path": "/evidence/ev-0220-leckwith-woods-wgr-gift-1940-1942/",
+   "img": ""
+  },
+  "EV-0265": {
+   "title": "Registration background: compulsory registration of title began in the Vale of Glamorgan on 1 December 1975 (SI 1975/160); the solicitor’s certificate on first registration (LRR 1925 r.29; 1989 text); the HMLR “about to be registered” Gazette notices ran only to about May 1975",
+   "path": "/evidence/ev-0265-hmlr-registration-background-compulsory-1975-r29-certificate/",
+   "img": ""
+  },
+  "EV-0278": {
+   "title": "NLW Bute estate records: Llandough manor rentals 1808–1881 (R 6/27–45) and presentments 1793–1934 (M 17/110–314) (catalogue entries; not seen)",
+   "path": "/evidence/ev-0278-nlw-bute-estate-records-llandough-manor-rentals-1808-1881-r-6-27-45-and-presentmen/",
+   "img": ""
+  },
+  "EV-0280": {
+   "title": "Llandough Lime Works and quarry, 1876–1947: Daniel Thomas’s kilns, quarry workers, Kelly’s 1895 and the OS sheets (contemporary record set)",
+   "path": "/evidence/ev-0280-llandough-lime-works-and-quarry-1876-1947-daniel-thomas-s-kilns-quarry-workers-kel/",
+   "img": ""
+  },
+  "EV-0288": {
+   "title": "SNIPPETS ONLY: press on the 1968–69 takeover battle for Western Ground Rents Ltd, ended by British Petroleum’s agreed bid of 15 Feb 1969 to take WGR’s properties “for their pension fund”",
+   "path": "/evidence/ev-0288-snippets-only-press-on-the-1968-69-takeover-battle-for-western-ground-rents-ltd-en/",
+   "img": ""
+  },
+  "EV-0607": {
+   "title": "Twelve-year rainbow chart: dated pairs on one timeline, 1877–1987 (analysis, 25 Oct 2026)",
+   "path": "/evidence/ev-0607-twelve-year-rainbow-chart-2026/",
+   "img": "/research/evidence/ev-0607-twelve-year-rainbow-chart-2026/twelve-year-rainbow.png"
+  },
+  "EV-0608": {
+   "title": "Twelve-year pairs stacked from a common start, with 26 numbered event notes (analysis, 25 Oct 2026)",
+   "path": "/evidence/ev-0608-twelve-year-stacked-chart-2026/",
+   "img": "/research/evidence/ev-0608-twelve-year-stacked-chart-2026/twelve-year-stack.png"
+  },
+  "EV-0609": {
+   "title": "Parcel-by-parcel table: 21 takings of Cedwyn / Tŷ Mawr land, with the event before each and its gap (analysis, 25 Oct 2026)",
+   "path": "/evidence/ev-0609-parcel-by-parcel-pattern-table-2026/",
+   "img": ""
+  },
+  "EV-0610": {
+   "title": "Llandough quarry and lime works plant catalogued for sale, 10 November 1925 (Glamorgan Archives DSA/12/4888)",
+   "path": "/evidence/ev-0610-llandough-quarry-plant-sale-1925/",
+   "img": ""
+  },
+  "EV-0613": {
+   "title": "Bute Glamorgan manorial records: court books to 1937, extinguishment of manorial incidents 1929–40, Ministry of Agriculture correspondence 1938, steward for the \"Glamorgan manors of Mountjoy Ltd\" 1937 (Glamorgan Archives DB/M/1–21)",
+   "path": "/evidence/ev-0613-bute-glamorgan-manorial-records-1926-1940/",
+   "img": ""
+  },
+  "EV-0614": {
+   "title": "Mountjoy Ltd in the Bute estate catalogue: \"In 1926, the remaining Bute property was incorporated under a private family company called Mountjoy Ltd\" (TNA Discovery, GB 0214 DB administrative history)",
+   "path": "/evidence/ev-0614-mountjoy-ltd-1926-tna-catalogue/",
+   "img": ""
+  },
+  "EV-0615": {
+   "title": "London Gazette, 29 October 1926, p.7040: release of the liquidator of Lewis & Pritchard Ltd, quarry firm (\"surplus plant at Llandough\" sold Aug 1925)",
+   "path": "/evidence/ev-0615-london-gazette-1926-lewis-pritchard-liquidator/",
+   "img": ""
+  },
+  "EV-0616": {
+   "title": "Law of Property Act 1922, ss.128 and 138: all copyhold enfranchised into freehold from 1 January 1926; manorial incidents to be extinguished within ten years",
+   "path": "/evidence/ev-0616-law-of-property-act-1922-copyhold-1926/",
+   "img": ""
+  },
+  "EV-0617": {
+   "title": "The twelve-year rule for land: Real Property Limitation Act 1874 (from 1 January 1879), restated by the Limitation Act 1939 (in force 1 July 1940)",
+   "path": "/evidence/ev-0617-twelve-year-limitation-rule-1879-1940/",
+   "img": ""
+  },
+  "EV-0618": {
+   "title": "Press, 1904–05: Cardiff’s Western Sewer Sub-committee completes the conveyance of the pumping-station site and sewer easements from the representatives of Lord Bute (Evening Express 23 Mar 1905; Weekly Mail 11 Jun 1904)",
+   "path": "/evidence/ev-0618-cardiff-western-sewer-bute-easements-1904-1905/",
+   "img": ""
+  },
+  "EV-0619": {
+   "title": "Covenant wording: Western Ground Rents’ Llandough covenant of 5 March 1962 and BP’s covenant of 23 May 1975, side by side",
+   "path": "/evidence/ev-0619-wgr-1962-covenant-and-bp-1975-covenant/",
+   "img": ""
+  },
+  "EV-0620": {
+   "title": "23 May 1975: conveyance of the farmhouse plot and other land, BP Pension Trust to BP Properties; the rest kept as \"Retained Land\"",
+   "path": "/evidence/ev-0620-bp-pension-trust-to-bp-properties-1975/",
+   "img": ""
+  },
+  "EV-0621": {
+   "title": "Root of title: the 25 December 1938 conveyance, and why the 31 December 1969 sale fell under the 30-year rule (LPA 1925 s.44(1); LPA 1969 ss.23, 31(2))",
+   "path": "/evidence/ev-0621-root-of-title-1938-and-the-1969-sale/",
+   "img": ""
+  },
+  "EV-0622": {
+   "title": "Crichel Down rules and military land: what applies at Llandough, and three unread files (TNA MAF 11/1022, HLG 23/17384, MH 96/291)",
+   "path": "/evidence/ev-0622-military-and-requisition-leads-crichel-down/",
+   "img": ""
+  },
+  "EV-0623": {
+   "title": "Financial Times full text, June 1983 – September 1986 (885 issues): no item on Llandough, Great House Farm, Tŷ Mawr, BP Properties / BP Pension Trust, Western Ground Rents or the case",
+   "path": "/evidence/ev-0623-financial-times-1983-1986-negative-sweep/",
+   "img": ""
+  },
+  "EV-0624": {
+   "title": "Mountjoy Ltd formed in May 1922 as the 4th Marquess of Bute’s estate company (£1,000,000; named after his title Viscount Mountjoy); lord of Llandough court leet in 1932",
+   "path": "/evidence/ev-0624-mountjoy-ltd-formed-1922-bute-estate-company/",
+   "img": ""
+  },
+  "EV-0625": {
+   "title": "The 1938 sale as one transaction: contracts 17 May 1938, Western Ground Rents registered 4–5 July 1938, manors kept back, Mountjoy as mortgagee to 1944",
+   "path": "/evidence/ev-0625-bute-mountjoy-sale-to-wgr-1938-one-transaction/",
+   "img": ""
+  },
+  "EV-0626": {
+   "title": "\"Cydfin Wood, Leckwith, the property of Lord Bute\": Penarth police court reports, Evening Express 7 and 14 January 1903",
+   "path": "/evidence/ev-0626-cydfin-wood-leckwith-1903-property-of-lord-bute/",
+   "img": ""
+  },
+  "EV-0628": {
+   "title": "Authenticity audit of both title lines: which instrument has been seen, which is known only from a recital, press or catalogue (analysis, 25 Oct 2026)",
+   "path": "/evidence/ev-0628-title-chain-authenticity-audit-2026/",
+   "img": ""
+  }
+ },
+ "title_theory_model": "/wiki/title-theory/",
+ "title_theory_data": "/wiki/title-theory/model.json"
+}

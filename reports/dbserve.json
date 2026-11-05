@@ -1,0 +1,119 @@
+{
+ "db_version": "9945c9936f21",
+ "paths_served_from_db": 7348,
+ "blobs": 4776,
+ "files_dropped": {
+  "document": 3301,
+  "image": 1572,
+  "data": 1377,
+  "audio": 84
+ },
+ "bytes_dropped": {
+  "document": 1274591774,
+  "image": 148529010,
+  "data": 36784709,
+  "audio": 14922925
+ },
+ "bytes_dropped_total": 1474828418,
+ "files_kept_as_well": {
+  "image": 877,
+  "data": 96,
+  "document": 12
+ },
+ "kept_why": {
+  "named in page markup": 760,
+  "link/meta tag": 45,
+  "css url()": 27,
+  "download file (.csv opened by a plain link, outside the service worker)": 21,
+  "fetched by script": 13,
+  "fetched by browsers outside a service worker": 15,
+  "webapp database / A2UI surface (read without a service worker)": 14,
+  "page without runtime": 74,
+  "fetched by script (built path)": 16
+ },
+ "kept_examples": [
+  [
+   "/_blob/03f398248225aa98.svg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/077eca10101a81b9.svg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/079ab26f1bf9d91a.svg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/0b3bad02dc4b1fa5.jpg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/0e92dca8fbd2db04.jpg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/0f8a568f08c0ce8c.png",
+   "link/meta tag"
+  ],
+  [
+   "/_blob/128ffd47a3d41c85.svg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/18785294cf08377a.jpg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/201c9de244beae01.jpg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/2032ec19ac6fed80.svg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/2132bc0a5d846374.svg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/328d71e5fad208f8.png",
+   "link/meta tag"
+  ],
+  [
+   "/_blob/3a378de7a5cccc7a.svg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/441330c6c1ef82e4.svg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/461d2466a365edbf.webp",
+   "named in page markup"
+  ],
+  [
+   "/_blob/4ce409d46552a17d.jpg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/5021aab3ee4eed96.svg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/50d69cde28e08e9f.jpg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/51ea9dce8f15d163.svg",
+   "named in page markup"
+  ],
+  [
+   "/_blob/5496de611ebf366b.svg",
+   "named in page markup"
+  ]
+ ],
+ "changed_after_db_build_served_as_files": 0,
+ "changed_examples": [],
+ "indexed_without_file": 29
+}

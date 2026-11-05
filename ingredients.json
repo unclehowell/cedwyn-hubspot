@@ -1,0 +1,2303 @@
+{
+ "rule": "Cedwyn editorial rule (25 Oct 2026): ingredients, not conclusions. Build-time rewording of conclusion sentences in mirrored theme text; cedwyn copy only, the datro sources are untouched. Each entry: theme, file (relative to the theme root), find (exact), replace, why. A find that is not present is reported, never fatal. — Sion's Tab agent",
+ "version": "1.6.2",
+ "rewords": [
+  {
+   "theme": "maps",
+   "file": "index.html",
+   "find": "Our case, told forward: how Tŷ Mawr, the Great House of Llandough, an ancient Welsh home stewarded since 1667, became Church View Close.",
+   "replace": "Told forward in dated steps: Tŷ Mawr, the Great House of Llandough, the Williams family’s home since 1667, and the land that is now Church View Close.",
+   "why": "Stated the outcome as 'our case' in the page description; now states the start and end points and leaves the steps to the reader."
+  },
+  {
+   "theme": "maps",
+   "file": "index.html",
+   "find": "Our case: an ancient Welsh home, Tŷ Mawr, the Great House of Llandough, stewarded by one family since at least 1667, became Church View Close, an estate of twenty houses.",
+   "replace": "The steps: Tŷ Mawr, the Great House of Llandough, the Williams family’s home since 1667, and the land where Church View Close, an estate of twenty houses, now stands.",
+   "why": "Same conclusion in the About panel; reworded to the dated start and end points."
+  },
+  {
+   "theme": "infographic",
+   "file": "index.html",
+   "find": "out comes A + B again as synthetic A3 and B, plus synthetic A1 and A2.",
+   "replace": "out come the later titles, A3 and B, plus A1 and A2, which the family’s reading calls synthetic.",
+   "why": "'synthetic' was stated as fact in the description; now attributed to the family's reading."
+  },
+  {
+   "theme": "infographic",
+   "file": "index.html",
+   "find": "Out comes A + B again, but as synthetic A3 and B, plus two more simple lines, SA1 and SA2, each born from a permissive occupancy ploy 💩.",
+   "replace": "Out come the later titles, A3 and B, plus two more lines, SA1 and SA2. The family’s reading calls them synthetic and ties each to a step that treated the occupation as permissive; follow each line to its records.",
+   "why": "'synthetic' and 'permissive occupancy ploy' stated motive as fact; now attributed, with the reader sent to each line's records."
+  },
+  {
+   "theme": "infographic",
+   "file": "index.html",
+   "find": "occupancy ploy",
+   "replace": "occupancy step",
+   "why": "'ploy' imputes motive; neutral 'step' (applies to the plural too)."
+  },
+  {
+   "theme": "infographic",
+   "file": "index.html",
+   "find": "double ploy",
+   "replace": "double step",
+   "why": "Same, for 1955."
+  },
+  {
+   "theme": "infographic",
+   "file": "index.html",
+   "find": "More ploys",
+   "replace": "More steps",
+   "why": "Same."
+  },
+  {
+   "theme": "infographic",
+   "file": "index.html",
+   "find": "more ploys",
+   "replace": "more steps",
+   "why": "Same."
+  },
+  {
+   "theme": "infographic",
+   "file": "index.html",
+   "find": "then a ploy in",
+   "replace": "then a step in",
+   "why": "Same."
+  },
+  {
+   "theme": "infographic",
+   "file": "index.html",
+   "find": "💩",
+   "replace": "◆",
+   "why": "Mocking icon replaced by a neutral marker (every use in the page, so the key and the map still match)."
+  },
+  {
+   "theme": "oldbill",
+   "file": "index.html",
+   "find": "Team Regime",
+   "replace": "Team Institutions",
+   "why": "'Regime' is a pejorative label for named public bodies and companies; the display label is neutral (data keys unchanged)."
+  },
+  {
+   "theme": "meeting",
+   "file": "index.html",
+   "find": "C6  THE HERITAGE ERASED",
+   "replace": "C6  THE HERITAGE AND THE DEMOLITION",
+   "why": "Heading stated a verdict; now names the subject."
+  },
+  {
+   "theme": "app",
+   "file": "index.html",
+   "find": "seek evidence of how the land was lost",
+   "replace": "set out, with sources, how the land changed hands",
+   "why": "Stated the loss as the finding to be proved; now describes the work."
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "REJECTED permissive occupancy ploy",
+   "replace": "permissive-occupancy step, rejected by the family",
+   "why": "'ploy' imputes motive; the label now states the step and the family's response."
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "clandestine registration",
+   "replace": "registration (source pending)",
+   "why": "'clandestine' states a conclusion the record does not yet support; the label names the event."
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "REJECTED permissive occupancy ploy",
+   "replace": "permissive-occupancy step, rejected by the family",
+   "why": "'ploy' imputes motive; the label now states the step and the family's response."
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "clandestine registration",
+   "replace": "registration (source pending)",
+   "why": "'clandestine' states a conclusion the record does not yet support; the label names the event."
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": " · Root title splits: A / B</summary>",
+   "replace": " · Bute–Thomas arrangement (family account)</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A1"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": " · WGR plan: Parcel B only</summary>",
+   "replace": " · WGR plan: eastern fields</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A4"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": " · Occupancy attempt (family’s case)</summary>",
+   "replace": " · Tenancy surrendered and re-granted</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A5"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": " · Parcel B repossessed</summary>",
+   "replace": " · Possession order enforced</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A6"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": " · Green: occupancy attempt</summary>",
+   "replace": " · Tenancy offer refused</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A5"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": " · Attempt to extinguish fails</summary>",
+   "replace": " · BP action unheard; letters follow</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A9"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": " · WA240304 merged in</summary>",
+   "replace": " · WA240304 amalgamated</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A12"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": " · Parcel A: Williams title</summary>",
+   "replace": " · Provisional Parcel A: status unresolved</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A13"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "1877 · Root title splits: Parcel A / Parcel B</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E6EEFA;color:#0B3D7A;border:1px solid #9DB8E0;vertical-align:1px\"><a href=\"/research/testimony/mary-williams/\" style=\"color:inherit;text-decoration:underline\">TESTIMONY · later statement (c.1974)</a></span></div>",
+   "replace": "1877 · Bute–Daniel Thomas arrangement and a Williams quarry lease, as later described by Mary (Nancy) Williams (c.1974). Parcel A and Parcel B here are provisional analytical polygons until the 1876–78 instruments and plans are overlaid</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E6EEFA;color:#0B3D7A;border:1px solid #9DB8E0;vertical-align:1px\"><a href=\"/research/testimony/mary-williams/\" style=\"color:inherit;text-decoration:underline\">FAMILY TESTIMONY · later statement (c.1974) · grade 5</a></span></div>",
+   "why": "Parcel A/B is a working reconstruction resting on a c.1974 family statement; the 1877 instrument is not located [EV-0006].",
+   "audit_point": "A1"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "It covered Parcel A: the last tenancy of Parcel A, whose occupiers the Williams family had been since 1667.",
+   "replace": "How this “whole farm” letting maps onto the provisional Parcel A / Parcel B polygons awaits the tenancy and its plan (EV-0014). The Williams family acquired Tŷ Mawr in 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988).",
+   "why": "The judgment recites a tenancy of the “whole farm”; assigning it to one provisional parcel is our geometry, not the record. EV-0014 is known only through the 1987 judgment recital.",
+   "audit_point": "A3"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "1916 · Bute → John Williams (the son): yearly tenancy of the “whole farm”</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · judgment</span></div>",
+   "replace": "1916 · Bute → John Williams (the son): yearly tenancy of the “whole farm”</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · judgment recital · grade 2</span></div>",
+   "why": "Label: the 1916 tenancy is a judgment recital (grade 2), not a document read.",
+   "audit_point": "A3"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "1928 · Last rent paid: Parcel A becomes the Williams family’s</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E6EEFA;color:#0B3D7A;border:1px solid #9DB8E0;vertical-align:1px\"><a href=\"/research/testimony/mary-williams/\" style=\"color:inherit;text-decoration:underline\">TESTIMONY · Mary (Nancy) Williams</a></span></div>",
+   "replace": "1928 · Last rent recalled by Mary (Nancy) Williams; she records that her father then “regarded the farm as his own”. The 1987 judgment records rent arrears in the mid-1930s and late 1940s, and a 1953 payment under a county-court judgment (EV-0080, EV-0030). No conveyance to the Williams family is identified</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E6EEFA;color:#0B3D7A;border:1px solid #9DB8E0;vertical-align:1px\"><a href=\"/research/testimony/mary-williams/\" style=\"color:inherit;text-decoration:underline\">FAMILY TESTIMONY · grade 5 · set beside a judgment recital (grade 2)</a></span></div>",
+   "why": "Statement of belief, not a conveyance. Our own 1000 Cuts already sets the 1987 judgment beside it: arrears in the mid-1930s and late 1940s and a 1953 payment under a county-court judgment [EV-0080] [EV-0030].",
+   "audit_point": "A2"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "its plan shows the eastern fields (Parcel B) only.",
+   "replace": "its plan shows the eastern fields only (the provisional Parcel B). The plan fixes the extent of this 1939 letting; what WGR acquired in 1938 is a separate question that the 1938 conveyance and plan (EV-0019) would answer.",
+   "why": "Tenancy extent and root-title extent kept separate.",
+   "audit_point": "A4"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "1939 · WGR → John Williams agreement: plan shows Parcel B only</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · partly held</span></div>",
+   "replace": "1939 · WGR → John Williams agreement: monthly let of meadow or pasture; plan shows the eastern fields</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · partly read · grade 2</span></div>",
+   "why": "Heading and grade.",
+   "audit_point": "A4"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "1949 · First attempt to make occupancy permissive (the family’s case)</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · judgment</span></div>",
+   "replace": "1949 · John Williams’s tenancy surrendered after rent arrears; new yearly tenancy intended for Frederick Buckler, never put in writing</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · judgment recital · grade 2</span></div>",
+   "why": "The judgment describes a surrender and re-grant after arrears; it is not an offer made to Mary and is not forced into a repeated-attempt template.",
+   "audit_point": "A5"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "4 Jul 1955 · Possession of Parcel B, later misread and conflated with Parcel A; the woodland and the green were also seized, shortly after Mary returned from hospital with her leg amputated</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · judgment</span></div>",
+   "replace": "4 Jul 1955 · High Court possession order enforced: “possession was taken in respect of all parts of the farm except the farmhouse and garden”</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · judgment recital · grade 2</span></div>",
+   "why": "Judgment wording first; the woodland/green identification is labelled a working hypothesis.",
+   "audit_point": "A6"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "What most likely happened:",
+   "replace": "Working hypothesis (not a record; the order, warrant, execution return and plan are not yet assembled):",
+   "why": "Interpretation moved into a labelled field.",
+   "audit_point": "A6"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "1958/9 · Green: attempt to make Mary (Nancy) Williams’s occupancy permissive, refused</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · judgment</span></div>",
+   "replace": "1958/9 · WGR offers Mary (Nancy) Williams a tenancy of the farmhouse and garden; she refuses it, and later alternative accommodation</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · judgment recital · grade 2</span></div>",
+   "why": "Actor–action–object: an offer of a tenancy of the farmhouse and garden, refused (judgment); its tie to the green is the family reading.",
+   "audit_point": "A5"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "29 Mar 1961 · Woodland: deed between Western Ground Rents, South Western Brick &amp; Tile and Cardiff City Corporation, about 12 years after the 1949 attempt</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · register read</span></div>",
+   "replace": "29 Mar 1961 · Deed between Western Ground Rents, South Western Brick &amp; Tile and Cardiff City Corporation, recited on the woodland register</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · register recital · grade 2 (deed not read)</span></div>",
+   "why": "The 1961 deed is a register recital; its terms and plan are unread, so no interval pattern is attached to it.",
+   "audit_point": "A7"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "16 Jun 1970 · South-east ground registered as village green VG41 · about 11–12 yrs after the 1958/9 attempt</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#ECEFF1;color:#37474F;border:1px solid #B0BEC5;vertical-align:1px\">REPORTED</span></div>",
+   "replace": "16 Jun 1970 · Village green VG41 registered by Glamorgan County Council</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#ECEFF1;color:#37474F;border:1px solid #B0BEC5;vertical-align:1px\">REPORTED · grade 3 · application, map and ownership section not yet read</span></div>",
+   "why": "A green registration rests on 20 years’ use as of right, not 12 years’ possession; on the certified VG41 map the green is a small roadside wedge [EV-0263]; our own interpretation layer already marks the 1970 reading as weakened (P-02).",
+   "audit_point": "A8"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "An alteration to the Ordnance Survey’s “Ty-mawr” name for the farm in 1971; source pending until the 1971 OS sheet and its revision record are seen.",
+   "replace": "On the Ordnance Survey 1:2500 sheet revised 1969 (published 1971) the name appears as “Ty Mawr Farm”, placed west of where earlier editions printed “Ty-mawr” (OS object name book, <a href=\"/research/evidence/ev-0252-tna-os-35-2503-object-name-book-glamorgan-47-nw/\" style=\"color:#0B57A4;text-decoration:underline\">EV-0252</a>). Why the name moved is an open question.",
+   "why": "The audit treats the 1971 Ordnance Survey name change as source-pending. We hold the OS object name book (EV-0252) and the 1:2500 sheet revised 1969 (published 1971), which prints “Ty Mawr Farm” west of the earlier “Ty-mawr”. The reason for the move stays an open question.",
+   "audit_point": "C-1971"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "1971 · BP house: Ordnance Survey alteration</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#FFF1CC;color:#6B4300;border:1px solid #E5C066;vertical-align:1px\">SOURCE PENDING</span></div>",
+   "replace": "1971 · Ordnance Survey sheet prints “Ty Mawr Farm” in a new position</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#FFF1CC;color:#6B4300;border:1px solid #E5C066;vertical-align:1px\">RECORD · map and name book · grade 1; reason: open question</span></div>",
+   "why": "Label follows the record.",
+   "audit_point": "C-1971"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "1974 · BP house: BP’s attempt to extinguish Mary (Nancy) Williams’s ownership claim fails</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · press</span><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#ECEFF1;color:#37474F;border:1px solid #B0BEC5;vertical-align:1px\">COURT PAPERS · not published here</span></div>",
+   "replace": "1974 · BP Pension Trust’s county-court possession action adjourned part heard and never listed again; leave to enforce the 1962 order obtained, warrant later withdrawn; the licence letters follow (31 Oct)</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · press (grade 4) + judgment recital (grade 2)</span></div>",
+   "why": "The 1974 county-court action was never heard and the warrant was withdrawn (EV-0049, judgment recital); but the Court of Appeal held the 31 Oct 1974 letters made her possession a licence. Both stated, no “fails”.",
+   "audit_point": "A9"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "23 Feb 1983 · BP Properties Ltd applies to register WA240304 (farmhouse and garden) · 8 yrs 4 mths after the 1974 letters</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · HMLR</span></div>",
+   "replace": "23 Feb 1983 · BP Properties Ltd applies to register WA240304 (farmhouse and garden)</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · HMLR schedule · grade 3</span></div>",
+   "why": "Interval labels removed from headings; the gap chart is renamed and carries every candidate interval with the caveat.",
+   "audit_point": "A10"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "Gap chart: the usual 12-year waiting period, line by line",
+   "replace": "Interval table: every candidate interval, line by line",
+   "why": "Gap chart reframed.",
+   "audit_point": "A10"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "Usual 12-year waiting period: each line’s gap, to scale",
+   "replace": "Each line’s interval, to scale. These compare different event types (a surrender and re-grant, a tenancy offer, licence letters; a deed, a green registration, a first registration) under different legal rules; they are not a measured pattern. A green registration rests on 20 years’ use as of right, not 12 years’ possession.",
+   "why": "Gap chart reframed.",
+   "audit_point": "A10"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "Coloured bar = permissive-occupancy step, rejected by the family → registration (source pending), on each line.",
+   "replace": "Coloured bar = the earlier event → the later registration, on each line.",
+   "why": "Gap chart reframed.",
+   "audit_point": "A10"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "2 Feb 1987 · WA240304 merged into WA231076: the house branch joins Parcel B</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · HMLR</span></div>",
+   "replace": "2 Feb 1987 · WA240304 amalgamated into WA231076 while the appeal is pending</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · HMLR schedule · grade 3</span></div>",
+   "why": "Recorded neutrally, with the test that would show whether it mattered.",
+   "audit_point": "A12"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "Amalgamation recorded during the appeal;",
+   "replace": "Amalgamation recorded during the appeal. Whether it changed extent, class of title, parties’ rights or the issues on appeal awaits the application, plan and registrar’s notes;",
+   "why": "Recorded neutrally, with the test that would show whether it mattered.",
+   "audit_point": "A12"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "BP demolished the farmhouse in the early hours of 6 December 1988.",
+   "replace": "The farmhouse was demolished in early December 1988: 6 December in this entry’s sources (<a href=\"/research/evidence/ev-0108-south-wales-echo-bp-demolition-anger/\" style=\"color:#0B57A4;text-decoration:underline\">EV-0108</a>), reported on 7 December (<a href=\"/research/evidence/ev-0106-tears-flow-farmhouse-razed-1988/\" style=\"color:#0B57A4;text-decoration:underline\">EV-0106</a>). The exact day is an open question.",
+   "why": "Demolition day: 6 Dec in this entry’s sources (EV-0108); press reports of 7 Dec (EV-0106). Both shown until the record settles it.",
+   "audit_point": "C-1988"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "2026 · Parcel A: Williams title, not extinguished and not sold</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · judgment + registers</span></div>",
+   "replace": "2026 · Provisional Parcel A: no Williams conveyance identified in the reviewed public file; present legal status unresolved</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">OPEN QUESTION · registers + judgment</span></div>",
+   "why": "No sale deed on file does not prove a negative; the 1987 appeal concerned the farmhouse and garden.",
+   "audit_point": "A13"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "Since 1987 no register has shown the Williams Parcel A title, about 38 years, while the three branch titles have been treated as valid.",
+   "replace": "No register read so far shows a Williams title to the provisional Parcel A; a register cannot prove a negative.",
+   "why": "No sale deed on file does not prove a negative; the 1987 appeal concerned the farmhouse and garden.",
+   "audit_point": "A13"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "<strong>Parcel A:</strong> the Williams line runs on, unregistered.",
+   "replace": "<strong>Provisional Parcel A:</strong> no register shows a Williams title; present legal status unresolved.",
+   "why": "No sale deed on file does not prove a negative; the 1987 appeal concerned the farmhouse and garden.",
+   "audit_point": "A13"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "It never ends: still running past 2026.",
+   "replace": "Its present legal status is unresolved.",
+   "why": "Present-tense legal overreach in the map legend (site deficiency 7).",
+   "audit_point": "A13"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "The Parcel A line continues past 2026.",
+   "replace": "Provisional Parcel A: present legal status unresolved.",
+   "why": "Present-tense legal overreach in the map legend (site deficiency 7).",
+   "audit_point": "A13"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "In the family’s case, three attempts to make Mary (Nancy) Williams’s occupancy permissive each failed: 1949, 1958/9 and 1974. Each was followed by a registration of part of Parcel A in another name:",
+   "replace": "The family’s reading links three events (1949, 1958/9 and 1974) to three later registrations, two of them of ground it places within the provisional Parcel A:",
+   "why": "“Reading the map” reworded so the three-sequence pattern is the family reading, with no “failed” verdicts.",
+   "audit_point": "A10/A18"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "Those three titles have been treated as valid, while no register has shown the Williams Parcel A title since 1987.",
+   "replace": "No register read so far shows a Williams title to the provisional Parcel A.",
+   "why": "“Reading the map” reworded so the three-sequence pattern is the family reading, with no “failed” verdicts.",
+   "audit_point": "A10/A18"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "10 Nov 1994 · Woodland changes hands: transfer to Forest of Cardiff, title WA735527 · change of hands / new proprietor (or further synthetic-parcel creation), not the 1961 deed</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · register read</span></div>",
+   "replace": "10 Nov 1994 · Woodland transferred to Forest of Cardiff, title WA735527; a separate event from the 1961 deed</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · register read · grade 2 (transfer not read)</span></div>",
+   "why": "“Synthetic-parcel creation” is a contested conclusion inside a heading.",
+   "audit_point": "A18"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "2005–06 · Part of WA735527 sold to Goldsworthy Homes: £20,000 · change of hands / new proprietor (or further synthetic-parcel creation)</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · Companies House</span></div>",
+   "replace": "2005–06 · Part of WA735527 sold to Goldsworthy Homes: £20,000</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · accounts + register · grade 1</span></div>",
+   "why": "Same.",
+   "audit_point": "A18"
+  },
+  {
+   "theme": "research",
+   "file": "index.html",
+   "find": "2026 · Where each line stands today</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · registers</span></div>",
+   "replace": "2026 · Where each title stands today</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · registers read · grade 2</span></div>",
+   "why": "“VERIFIED” replaced by what was read (site deficiency 2).",
+   "audit_point": "A13"
+  },
+  {
+   "theme": "research",
+   "file": "scrutiny-and-accountability/procedural-fairness-notice/1983-first-registration-parcel-a-title-basis-alleged-hmlr-mistake/index.html",
+   "find": "Alleged HMLR",
+   "replace": "Open Question of an HMLR",
+   "why": "Banned word in a page title; audit #11: non-disclosure is an open question until both first-registration files are read. Keep the URL.",
+   "audit_point": "A11"
+  },
+  {
+   "theme": "research",
+   "file": "**/index.html",
+   "find": "[PENDING:",
+   "replace": "[record pending:",
+   "why": "Raw citation markup on public pages (site deficiency 9). Better fix: render it as the standard Not yet confirmed label.",
+   "audit_point": "D9"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": " · Root title splits: A / B</summary>",
+   "replace": " · Bute–Thomas arrangement (family account)</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A1"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": " · WGR plan: Parcel B only</summary>",
+   "replace": " · WGR plan: eastern fields</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A4"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": " · Occupancy attempt (family’s case)</summary>",
+   "replace": " · Tenancy surrendered and re-granted</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A5"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": " · Parcel B repossessed</summary>",
+   "replace": " · Possession order enforced</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A6"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": " · Green: occupancy attempt</summary>",
+   "replace": " · Tenancy offer refused</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A5"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": " · Attempt to extinguish fails</summary>",
+   "replace": " · BP action unheard; letters follow</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A9"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": " · WA240304 merged in</summary>",
+   "replace": " · WA240304 amalgamated</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A12"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": " · Parcel A: Williams title</summary>",
+   "replace": " · Provisional Parcel A: status unresolved</summary>",
+   "why": "Collapsed-row heading restated as actor–action–object–date (audit #18).",
+   "audit_point": "A13"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "1877 · Root title splits: Parcel A / Parcel B</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E6EEFA;color:#0B3D7A;border:1px solid #9DB8E0;vertical-align:1px\"><a href=\"/wiki/testimony/mary-williams/\" style=\"color:inherit;text-decoration:underline\">TESTIMONY · later statement (c.1974)</a></span></div>",
+   "replace": "1877 · Bute–Daniel Thomas arrangement and a Williams quarry lease, as later described by Mary (Nancy) Williams (c.1974). Parcel A and Parcel B here are provisional analytical polygons until the 1876–78 instruments and plans are overlaid</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E6EEFA;color:#0B3D7A;border:1px solid #9DB8E0;vertical-align:1px\"><a href=\"/wiki/testimony/mary-williams/\" style=\"color:inherit;text-decoration:underline\">FAMILY TESTIMONY · later statement (c.1974) · grade 5</a></span></div>",
+   "why": "Parcel A/B is a working reconstruction resting on a c.1974 family statement; the 1877 instrument is not located [EV-0006].",
+   "audit_point": "A1"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "It covered Parcel A: the last tenancy of Parcel A, whose occupiers the Williams family had been since 1667.",
+   "replace": "How this “whole farm” letting maps onto the provisional Parcel A / Parcel B polygons awaits the tenancy and its plan (EV-0014). The Williams family acquired Tŷ Mawr in 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988).",
+   "why": "The judgment recites a tenancy of the “whole farm”; assigning it to one provisional parcel is our geometry, not the record. EV-0014 is known only through the 1987 judgment recital.",
+   "audit_point": "A3"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "1916 · Bute → John Williams (the son): yearly tenancy of the “whole farm”</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · judgment</span></div>",
+   "replace": "1916 · Bute → John Williams (the son): yearly tenancy of the “whole farm”</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · judgment recital · grade 2</span></div>",
+   "why": "Label: the 1916 tenancy is a judgment recital (grade 2), not a document read.",
+   "audit_point": "A3"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "1928 · Last rent paid: Parcel A becomes the Williams family’s</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E6EEFA;color:#0B3D7A;border:1px solid #9DB8E0;vertical-align:1px\"><a href=\"/wiki/testimony/mary-williams/\" style=\"color:inherit;text-decoration:underline\">TESTIMONY · Mary (Nancy) Williams</a></span></div>",
+   "replace": "1928 · Last rent recalled by Mary (Nancy) Williams; she records that her father then “regarded the farm as his own”. The 1987 judgment records rent arrears in the mid-1930s and late 1940s, and a 1953 payment under a county-court judgment (EV-0080, EV-0030). No conveyance to the Williams family is identified</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E6EEFA;color:#0B3D7A;border:1px solid #9DB8E0;vertical-align:1px\"><a href=\"/wiki/testimony/mary-williams/\" style=\"color:inherit;text-decoration:underline\">FAMILY TESTIMONY · grade 5 · set beside a judgment recital (grade 2)</a></span></div>",
+   "why": "Statement of belief, not a conveyance. Our own 1000 Cuts already sets the 1987 judgment beside it: arrears in the mid-1930s and late 1940s and a 1953 payment under a county-court judgment [EV-0080] [EV-0030].",
+   "audit_point": "A2"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "its plan shows the eastern fields (Parcel B) only.",
+   "replace": "its plan shows the eastern fields only (the provisional Parcel B). The plan fixes the extent of this 1939 letting; what WGR acquired in 1938 is a separate question that the 1938 conveyance and plan (EV-0019) would answer.",
+   "why": "Tenancy extent and root-title extent kept separate.",
+   "audit_point": "A4"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "1939 · WGR → John Williams agreement: plan shows Parcel B only</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · partly held</span></div>",
+   "replace": "1939 · WGR → John Williams agreement: monthly let of meadow or pasture; plan shows the eastern fields</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · partly read · grade 2</span></div>",
+   "why": "Heading and grade.",
+   "audit_point": "A4"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "1949 · First attempt to make occupancy permissive (the family’s case)</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · judgment</span></div>",
+   "replace": "1949 · John Williams’s tenancy surrendered after rent arrears; new yearly tenancy intended for Frederick Buckler, never put in writing</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · judgment recital · grade 2</span></div>",
+   "why": "The judgment describes a surrender and re-grant after arrears; it is not an offer made to Mary and is not forced into a repeated-attempt template.",
+   "audit_point": "A5"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "4 Jul 1955 · Possession of Parcel B, later misread and conflated with Parcel A; the woodland and the green were also seized, shortly after Mary returned from hospital with her leg amputated</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · judgment</span></div>",
+   "replace": "4 Jul 1955 · High Court possession order enforced: “possession was taken in respect of all parts of the farm except the farmhouse and garden”</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · judgment recital · grade 2</span></div>",
+   "why": "Judgment wording first; the woodland/green identification is labelled a working hypothesis.",
+   "audit_point": "A6"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "What most likely happened:",
+   "replace": "Working hypothesis (not a record; the order, warrant, execution return and plan are not yet assembled):",
+   "why": "Interpretation moved into a labelled field.",
+   "audit_point": "A6"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "1958/9 · Green: attempt to make Mary (Nancy) Williams’s occupancy permissive, refused</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · judgment</span></div>",
+   "replace": "1958/9 · WGR offers Mary (Nancy) Williams a tenancy of the farmhouse and garden; she refuses it, and later alternative accommodation</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · judgment recital · grade 2</span></div>",
+   "why": "Actor–action–object: an offer of a tenancy of the farmhouse and garden, refused (judgment); its tie to the green is the family reading.",
+   "audit_point": "A5"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "29 Mar 1961 · Woodland: deed between Western Ground Rents, South Western Brick &amp; Tile and Cardiff City Corporation, about 12 years after the 1949 attempt</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · register read</span></div>",
+   "replace": "29 Mar 1961 · Deed between Western Ground Rents, South Western Brick &amp; Tile and Cardiff City Corporation, recited on the woodland register</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · register recital · grade 2 (deed not read)</span></div>",
+   "why": "The 1961 deed is a register recital; its terms and plan are unread, so no interval pattern is attached to it.",
+   "audit_point": "A7"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "16 Jun 1970 · South-east ground registered as village green VG41 · about 11–12 yrs after the 1958/9 attempt</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#ECEFF1;color:#37474F;border:1px solid #B0BEC5;vertical-align:1px\">REPORTED</span></div>",
+   "replace": "16 Jun 1970 · Village green VG41 registered by Glamorgan County Council</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#ECEFF1;color:#37474F;border:1px solid #B0BEC5;vertical-align:1px\">REPORTED · grade 3 · application, map and ownership section not yet read</span></div>",
+   "why": "A green registration rests on 20 years’ use as of right, not 12 years’ possession; on the certified VG41 map the green is a small roadside wedge [EV-0263]; our own interpretation layer already marks the 1970 reading as weakened (P-02).",
+   "audit_point": "A8"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "An alteration to the Ordnance Survey’s “Ty-mawr” name for the farm in 1971; source pending until the 1971 OS sheet and its revision record are seen.",
+   "replace": "On the Ordnance Survey 1:2500 sheet revised 1969 (published 1971) the name appears as “Ty Mawr Farm”, placed west of where earlier editions printed “Ty-mawr” (OS object name book, <a href=\"/wiki/evidence/ev-0252-tna-os-35-2503-object-name-book-glamorgan-47-nw/\" style=\"color:#0B57A4;text-decoration:underline\">EV-0252</a>). Why the name moved is an open question.",
+   "why": "The audit treats the 1971 Ordnance Survey name change as source-pending. We hold the OS object name book (EV-0252) and the 1:2500 sheet revised 1969 (published 1971), which prints “Ty Mawr Farm” west of the earlier “Ty-mawr”. The reason for the move stays an open question.",
+   "audit_point": "C-1971"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "1971 · BP house: Ordnance Survey alteration</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#FFF1CC;color:#6B4300;border:1px solid #E5C066;vertical-align:1px\">SOURCE PENDING</span></div>",
+   "replace": "1971 · Ordnance Survey sheet prints “Ty Mawr Farm” in a new position</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#FFF1CC;color:#6B4300;border:1px solid #E5C066;vertical-align:1px\">RECORD · map and name book · grade 1; reason: open question</span></div>",
+   "why": "Label follows the record.",
+   "audit_point": "C-1971"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "1974 · BP house: BP’s attempt to extinguish Mary (Nancy) Williams’s ownership claim fails</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · press</span><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#ECEFF1;color:#37474F;border:1px solid #B0BEC5;vertical-align:1px\">COURT PAPERS · not published here</span></div>",
+   "replace": "1974 · BP Pension Trust’s county-court possession action adjourned part heard and never listed again; leave to enforce the 1962 order obtained, warrant later withdrawn; the licence letters follow (31 Oct)</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · press (grade 4) + judgment recital (grade 2)</span></div>",
+   "why": "The 1974 county-court action was never heard and the warrant was withdrawn (EV-0049, judgment recital); but the Court of Appeal held the 31 Oct 1974 letters made her possession a licence. Both stated, no “fails”.",
+   "audit_point": "A9"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "23 Feb 1983 · BP Properties Ltd applies to register WA240304 (farmhouse and garden) · 8 yrs 4 mths after the 1974 letters</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · HMLR</span></div>",
+   "replace": "23 Feb 1983 · BP Properties Ltd applies to register WA240304 (farmhouse and garden)</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · HMLR schedule · grade 3</span></div>",
+   "why": "Interval labels removed from headings; the gap chart is renamed and carries every candidate interval with the caveat.",
+   "audit_point": "A10"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "Gap chart: the usual 12-year waiting period, line by line",
+   "replace": "Interval table: every candidate interval, line by line",
+   "why": "Gap chart reframed.",
+   "audit_point": "A10"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "Usual 12-year waiting period: each line’s gap, to scale",
+   "replace": "Each line’s interval, to scale. These compare different event types (a surrender and re-grant, a tenancy offer, licence letters; a deed, a green registration, a first registration) under different legal rules; they are not a measured pattern. A green registration rests on 20 years’ use as of right, not 12 years’ possession.",
+   "why": "Gap chart reframed.",
+   "audit_point": "A10"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "Coloured bar = permissive-occupancy step, rejected by the family → registration (source pending), on each line.",
+   "replace": "Coloured bar = the earlier event → the later registration, on each line.",
+   "why": "Gap chart reframed.",
+   "audit_point": "A10"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "2 Feb 1987 · WA240304 merged into WA231076: the house branch joins Parcel B</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · HMLR</span></div>",
+   "replace": "2 Feb 1987 · WA240304 amalgamated into WA231076 while the appeal is pending</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · HMLR schedule · grade 3</span></div>",
+   "why": "Recorded neutrally, with the test that would show whether it mattered.",
+   "audit_point": "A12"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "Amalgamation recorded during the appeal;",
+   "replace": "Amalgamation recorded during the appeal. Whether it changed extent, class of title, parties’ rights or the issues on appeal awaits the application, plan and registrar’s notes;",
+   "why": "Recorded neutrally, with the test that would show whether it mattered.",
+   "audit_point": "A12"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "BP demolished the farmhouse in the early hours of 6 December 1988.",
+   "replace": "The farmhouse was demolished in early December 1988: 6 December in this entry’s sources (<a href=\"/wiki/evidence/ev-0108-south-wales-echo-bp-demolition-anger/\" style=\"color:#0B57A4;text-decoration:underline\">EV-0108</a>), reported on 7 December (<a href=\"/wiki/evidence/ev-0106-tears-flow-farmhouse-razed-1988/\" style=\"color:#0B57A4;text-decoration:underline\">EV-0106</a>). The exact day is an open question.",
+   "why": "Demolition day: 6 Dec in this entry’s sources (EV-0108); press reports of 7 Dec (EV-0106). Both shown until the record settles it.",
+   "audit_point": "C-1988"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "2026 · Parcel A: Williams title, not extinguished and not sold</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · judgment + registers</span></div>",
+   "replace": "2026 · Provisional Parcel A: no Williams conveyance identified in the reviewed public file; present legal status unresolved</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">OPEN QUESTION · registers + judgment</span></div>",
+   "why": "No sale deed on file does not prove a negative; the 1987 appeal concerned the farmhouse and garden.",
+   "audit_point": "A13"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "Since 1987 no register has shown the Williams Parcel A title, about 38 years, while the three branch titles have been treated as valid.",
+   "replace": "No register read so far shows a Williams title to the provisional Parcel A; a register cannot prove a negative.",
+   "why": "No sale deed on file does not prove a negative; the 1987 appeal concerned the farmhouse and garden.",
+   "audit_point": "A13"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "<strong>Parcel A:</strong> the Williams line runs on, unregistered.",
+   "replace": "<strong>Provisional Parcel A:</strong> no register shows a Williams title; present legal status unresolved.",
+   "why": "No sale deed on file does not prove a negative; the 1987 appeal concerned the farmhouse and garden.",
+   "audit_point": "A13"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "It never ends: still running past 2026.",
+   "replace": "Its present legal status is unresolved.",
+   "why": "Present-tense legal overreach in the map legend (site deficiency 7).",
+   "audit_point": "A13"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "The Parcel A line continues past 2026.",
+   "replace": "Provisional Parcel A: present legal status unresolved.",
+   "why": "Present-tense legal overreach in the map legend (site deficiency 7).",
+   "audit_point": "A13"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "In the family’s case, three attempts to make Mary (Nancy) Williams’s occupancy permissive each failed: 1949, 1958/9 and 1974. Each was followed by a registration of part of Parcel A in another name:",
+   "replace": "The family’s reading links three events (1949, 1958/9 and 1974) to three later registrations, two of them of ground it places within the provisional Parcel A:",
+   "why": "“Reading the map” reworded so the three-sequence pattern is the family reading, with no “failed” verdicts.",
+   "audit_point": "A10/A18"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "Those three titles have been treated as valid, while no register has shown the Williams Parcel A title since 1987.",
+   "replace": "No register read so far shows a Williams title to the provisional Parcel A.",
+   "why": "“Reading the map” reworded so the three-sequence pattern is the family reading, with no “failed” verdicts.",
+   "audit_point": "A10/A18"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "10 Nov 1994 · Woodland changes hands: transfer to Forest of Cardiff, title WA735527 · change of hands / new proprietor (or, on the family’s reading, further parcel creation), not the 1961 deed</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · register read</span></div>",
+   "replace": "10 Nov 1994 · Woodland transferred to Forest of Cardiff, title WA735527; a separate event from the 1961 deed</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · register read · grade 2 (transfer not read)</span></div>",
+   "why": "Same (wiki copy already reworded).",
+   "audit_point": "A18"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "2026 · Where each line stands today</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · registers</span></div>",
+   "replace": "2026 · Where each title stands today</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · registers read · grade 2</span></div>",
+   "why": "“VERIFIED” replaced by what was read (site deficiency 2).",
+   "audit_point": "A13"
+  },
+  {
+   "theme": "wiki",
+   "file": "index.html",
+   "find": "2005–06 · Part of WA735527 sold to Goldsworthy Homes: £20,000 · change of hands / new proprietor (or, on the family’s reading, further parcel creation)</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">VERIFIED · Companies House</span></div>",
+   "replace": "2005–06 · Part of WA735527 sold to Goldsworthy Homes: £20,000</div><div style=\"margin:0 0 4px\"><span style=\"display:inline-block;white-space:nowrap;font:700 10px/1.2 Arial,sans-serif;letter-spacing:.04em;padding:2px 6px;margin:0 4px 4px 0;border-radius:9px;background:#E3F2E7;color:#0B5D2A;border:1px solid #9CCBAA;vertical-align:1px\">RECORD · accounts + register · grade 1</span></div>",
+   "why": "Same (wiki copy).",
+   "audit_point": "A18"
+  },
+  {
+   "theme": "wiki",
+   "file": "scrutiny-and-accountability/procedural-fairness-notice/1983-first-registration-parcel-a-title-basis-alleged-hmlr-mistake/index.html",
+   "find": "Alleged HMLR",
+   "replace": "Open Question of an HMLR",
+   "why": "Banned word in a page title; audit #11: non-disclosure is an open question until both first-registration files are read. Keep the URL.",
+   "audit_point": "A11"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/index.html",
+   "find": "[PENDING:",
+   "replace": "[record pending:",
+   "why": "Raw citation markup on public pages (site deficiency 9). Better fix: render it as the standard Not yet confirmed label.",
+   "audit_point": "D9"
+  },
+  {
+   "theme": "wayback",
+   "file": "index.html",
+   "find": "\">Text</a></div>",
+   "replace": "\">Text</a> · <a style=\"color:#ffd27a\" href=\"/wayback/people/\">Public faces</a></div>",
+   "why": "Menu entry, not a reword: adds the Wayback Vault's new Public faces collection (/wayback/people/, read from the catalogue database) to the archive bar. Remove this entry to take the link away.",
+   "audit_point": "public-faces"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/1962-possession-order/\"",
+   "replace": "href=\"/wiki/1962-possession-order/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/1974-licence-letters/\"",
+   "replace": "href=\"/wiki/1974-licence-letters/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/agent-roles/\"",
+   "replace": "href=\"/wiki/agent-roles/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/anomalies-register/\"",
+   "replace": "href=\"/wiki/anomalies-register/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/claim-parcel-a-parcel-b-distinct-histories-1987-amalgamation\"",
+   "replace": "href=\"/wiki/claim-parcel-a-parcel-b-distinct-histories-1987-amalgamation\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/constructive-criticism-counterarguments/\"",
+   "replace": "href=\"/wiki/constructive-criticism-counterarguments/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/evidence-library/ghf-e113-itv-wales-report-great-house-farm-1988/\"",
+   "replace": "href=\"/wiki/evidence-library/ghf-e113-itv-wales-report-great-house-farm-1988/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/evidence-library/ghf-e115-1877-bute-thomas-agreement/\"",
+   "replace": "href=\"/wiki/evidence-library/ghf-e115-1877-bute-thomas-agreement/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/evidence-library/ghf-e122-1949-surrender-and-re-grant-of-frederick-bucklers-tenancy/\"",
+   "replace": "href=\"/wiki/evidence-library/ghf-e122-1949-surrender-and-re-grant-of-frederick-bucklers-tenancy/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/evidence/ev-0252-tna-os-35-2503-object-name-book-glamorgan-47-nw/\"",
+   "replace": "href=\"/wiki/evidence/ev-0252-tna-os-35-2503-object-name-book-glamorgan-47-nw/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/land-registry-titles/\"",
+   "replace": "href=\"/wiki/land-registry-titles/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/mary-williams-statement/\"",
+   "replace": "href=\"/wiki/mary-williams-statement/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/master-change-log-october-2026/\"",
+   "replace": "href=\"/wiki/master-change-log-october-2026/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/missing-records-register/\"",
+   "replace": "href=\"/wiki/missing-records-register/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/project-management/damages/\"",
+   "replace": "href=\"/wiki/project-management/damages/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/project-management/damages/reparations-schedule/\"",
+   "replace": "href=\"/wiki/project-management/damages/reparations-schedule/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/project-management/foi-records-requests-status-forward-plan/\"",
+   "replace": "href=\"/wiki/project-management/foi-records-requests-status-forward-plan/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/project-management/foi-records-requests-status-forward-plan/1986-87-solicitors-files-preservation-disclosure-workstream/\"",
+   "replace": "href=\"/wiki/project-management/foi-records-requests-status-forward-plan/1986-87-solicitors-files-preservation-disclosure-workstream/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/project-management/llandough-community-council-22-october-2026/\"",
+   "replace": "href=\"/wiki/project-management/llandough-community-council-22-october-2026/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/qa/\"",
+   "replace": "href=\"/wiki/qa/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/qa/qa-demolition-redevelopment/\"",
+   "replace": "href=\"/wiki/qa/qa-demolition-redevelopment/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/qa/qa-evidence-records/\"",
+   "replace": "href=\"/wiki/qa/qa-evidence-records/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/qa/qa-family/\"",
+   "replace": "href=\"/wiki/qa/qa-family/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/qa/qa-heritage-archaeology/\"",
+   "replace": "href=\"/wiki/qa/qa-heritage-archaeology/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/qa/qa-history-parcels/\"",
+   "replace": "href=\"/wiki/qa/qa-history-parcels/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/qa/qa-human-rights/\"",
+   "replace": "href=\"/wiki/qa/qa-human-rights/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/qa/qa-legal-ownership/\"",
+   "replace": "href=\"/wiki/qa/qa-legal-ownership/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/qa/qa-open-questions/\"",
+   "replace": "href=\"/wiki/qa/qa-open-questions/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/qa/qa-reparations-remedy/\"",
+   "replace": "href=\"/wiki/qa/qa-reparations-remedy/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/records-access-chronology/foi-reply-register/vale-of-glamorgan-council-email-correspondence-catalogue/\"",
+   "replace": "href=\"/wiki/records-access-chronology/foi-reply-register/vale-of-glamorgan-council-email-correspondence-catalogue/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/restoration-campaign/\"",
+   "replace": "href=\"/wiki/restoration-campaign/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/scrutiny-and-accountability/court-judicial-issues/potential-miscarriage-of-justice-issue-register/\"",
+   "replace": "href=\"/wiki/scrutiny-and-accountability/court-judicial-issues/potential-miscarriage-of-justice-issue-register/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/scrutiny-and-accountability/government-public-authority-involvement/courts-archives-public-authorities/\"",
+   "replace": "href=\"/wiki/scrutiny-and-accountability/government-public-authority-involvement/courts-archives-public-authorities/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/scrutiny-and-accountability/government-public-authority-involvement/forest-of-cardiff-forensic-institutional-review/\"",
+   "replace": "href=\"/wiki/scrutiny-and-accountability/government-public-authority-involvement/forest-of-cardiff-forensic-institutional-review/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/scrutiny-and-accountability/government-public-authority-involvement/hm-land-registry-administrative-decisions/\"",
+   "replace": "href=\"/wiki/scrutiny-and-accountability/government-public-authority-involvement/hm-land-registry-administrative-decisions/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/scrutiny-and-accountability/master-scrutiny-issue-register/\"",
+   "replace": "href=\"/wiki/scrutiny-and-accountability/master-scrutiny-issue-register/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/scrutiny-and-accountability/procedural-fairness-notice/1982-83-registration-opportunity-to-object/\"",
+   "replace": "href=\"/wiki/scrutiny-and-accountability/procedural-fairness-notice/1982-83-registration-opportunity-to-object/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/scrutiny-and-accountability/procedural-fairness-notice/1987-hmlr-amalgamation-during-appeal/\"",
+   "replace": "href=\"/wiki/scrutiny-and-accountability/procedural-fairness-notice/1987-hmlr-amalgamation-during-appeal/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/scrutiny-and-accountability/suspected-fraud-concealment/concealment-missing-records-disclosure/\"",
+   "replace": "href=\"/wiki/scrutiny-and-accountability/suspected-fraud-concealment/concealment-missing-records-disclosure/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/testimony/\"",
+   "replace": "href=\"/wiki/testimony/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/testimony/mary-williams/\"",
+   "replace": "href=\"/wiki/testimony/mary-williams/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "href=\"/research/the-two-parcels/three-parts-of-parcel-a-divergent-chronologies/\"",
+   "replace": "href=\"/wiki/the-two-parcels/three-parts-of-parcel-a-divergent-chronologies/\"",
+   "why": "Link repoint, not a reword: this article is not in the Research Library copy, but the same article is in the wiki theme. The link opened 'Not here'.",
+   "audit_point": "not-here-links"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "Bute Estate Records (1552–1824) Naming Holding as Cedfin/Cydfin/Ken fin Farm or Ty Mawr Farm",
+   "replace": "Bute Estate Records naming the holding Cedfin or Ty Mawr Farm: Tŷ Mawr first named in the 1824 David Stewart survey; earlier leases filed under that heading by the cataloguer are unread and under forensic examination",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "Bute Estate Records (1552–1824) Naming Holding as Cedfin/Cydfin/Ken fin Farm or Ty Mawr Farm",
+   "replace": "Bute Estate Records naming the holding Cedfin or Ty Mawr Farm: Tŷ Mawr first named in the 1824 David Stewart survey; earlier leases filed under that heading by the cataloguer are unread and under forensic examination",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "Bute Estate Records (1552–1824) Naming Holding as Cedfin/Cydfin/Ken fin Farm or Ty Mawr&nbsp;Farm",
+   "replace": "Bute Estate Records naming the holding Cedfin or Ty Mawr Farm: Tŷ Mawr first named in the 1824 David Stewart survey; earlier leases filed under that heading by the cataloguer are unread and under forensic examination",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "Reported: A family research note states Bute Estate records (1552–1824) refer to the holding as &#8220;Cedfin/Cydfin/Ken fin Farm or Ty Mawr Farm&#8221;; Documents not produced.",
+   "replace": "What the records show: Tŷ Mawr is first named in a record in 1824 (David Stewart’s survey, plan 19, EV-0211). The National Library of Wales catalogue files a group of unread Bute leases (D 219) under that name; the heading is the cataloguer’s, not a record of Tŷ Mawr before 1824, and its application is under forensic examination.",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552+unsub",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "Reported: A family research note states Bute Estate records (1552–1824) refer to the holding as &#8220;Cedfin/Cydfin/Ken fin Farm or Ty Mawr Farm&#8221;; Documents not produced.",
+   "replace": "What the records show: Tŷ Mawr is first named in a record in 1824 (David Stewart’s survey, plan 19, EV-0211). The National Library of Wales catalogue files a group of unread Bute leases (D 219) under that name; the heading is the cataloguer’s, not a record of Tŷ Mawr before 1824, and its application is under forensic examination.",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552+unsub",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "GHF-E179 — 1552–1824: Bute records call it Cedfin/Cydfin/Ken fin Farm or Ty Mawr Farm",
+   "replace": "GHF-E179 — Bute catalogue heading: Tŷ Mawr first named in 1824 (Cedfin or Ty Mawr Farm); earlier dates under forensic examination",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "GHF-E179 — 1552–1824: Bute records call it Cedfin/Cydfin/Ken fin Farm or Ty Mawr Farm",
+   "replace": "GHF-E179 — Bute catalogue heading: Tŷ Mawr first named in 1824 (Cedfin or Ty Mawr Farm); earlier dates under forensic examination",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "GHF-E179 — 1552–1824: Bute records call it Cedfin/Cydfin/Ken fin Farm or Ty Mawr&nbsp;Farm",
+   "replace": "GHF-E179 — Bute catalogue heading: Tŷ Mawr first named in 1824 (Cedfin or Ty Mawr Farm); earlier dates under forensic examination",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "GHF-E179 — 1552–1824 Bute name variants",
+   "replace": "GHF-E179 — Bute name variants (first read in 1824)",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211).",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "GHF-E179 — 1552–1824 Bute name variants",
+   "replace": "GHF-E179 — Bute name variants (first read in 1824)",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211).",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "Bute name variants from 1552–1824",
+   "replace": "Bute name variants (Tŷ Mawr first named in 1824; earlier catalogue dates under forensic examination)",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "Bute name variants from 1552–1824",
+   "replace": "Bute name variants (Tŷ Mawr first named in 1824; earlier catalogue dates under forensic examination)",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "Evidence catalogue entry for Bute Estate records (1552–1824) referring to the holding as “Cedfin/Cydfin/Ken fin Farm or Ty Mawr Farm.”",
+   "replace": "Evidence catalogue entry for a Bute estate catalogue heading naming the holding “Cedfin/Cydfin/Ken fin Farm or Ty Mawr Farm.” Tŷ Mawr is first named in a record in 1824 (David Stewart’s survey, plan 19, EV-0211); the earlier leases filed under the heading are unread, under forensic examination, and not records of Tŷ Mawr.",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "Evidence catalogue entry for Bute Estate records (1552–1824) referring to the holding as “Cedfin/Cydfin/Ken fin Farm or Ty Mawr Farm.”",
+   "replace": "Evidence catalogue entry for a Bute estate catalogue heading naming the holding “Cedfin/Cydfin/Ken fin Farm or Ty Mawr Farm.” Tŷ Mawr is first named in a record in 1824 (David Stewart’s survey, plan 19, EV-0211); the earlier leases filed under the heading are unread, under forensic examination, and not records of Tŷ Mawr.",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": ", dating from 1552 to 1824, with references including D219/1, D219/4–5 and D219/8 onward.",
+   "replace": ", filed under one catalogue heading (references including D219/1, D219/4–5 and D219/8 onward). The leases have not been read and their application to Tŷ Mawr is under forensic examination; Tŷ Mawr is first named in a record in 1824 (David Stewart’s survey, plan 19, EV-0211).",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": ", dating from 1552 to 1824, with references including D219/1, D219/4–5 and D219/8 onward.",
+   "replace": ", filed under one catalogue heading (references including D219/1, D219/4–5 and D219/8 onward). The leases have not been read and their application to Tŷ Mawr is under forensic examination; Tŷ Mawr is first named in a record in 1824 (David Stewart’s survey, plan 19, EV-0211).",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": " leases dated 1552–1824, including D219/1, D219/4–5 and D219/8 et seq.",
+   "replace": " leases filed under this heading by the cataloguer (unread; under forensic examination; Tŷ Mawr is first named in 1824), including D219/1, D219/4–5 and D219/8 et seq.",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": " leases dated 1552–1824, including D219/1, D219/4–5 and D219/8 et seq.",
+   "replace": " leases filed under this heading by the cataloguer (unread; under forensic examination; Tŷ Mawr is first named in 1824), including D219/1, D219/4–5 and D219/8 et seq.",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "the route by which the Bute Estate acquired the early-19th-century freehold",
+   "replace": "whether, when and how the Bute Estate came to hold any freehold of the holding (no conveyance to Bute has been found)",
+   "why": "Inflating: presumed a Bute freehold acquisition that no record in the archive shows.",
+   "class": "inflate",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "the route by which the Bute Estate acquired the early-19th-century freehold",
+   "replace": "whether, when and how the Bute Estate came to hold any freehold of the holding (no conveyance to Bute has been found)",
+   "why": "Inflating: presumed a Bute freehold acquisition that no record in the archive shows.",
+   "class": "inflate",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "infographic",
+   "file": "index.html",
+   "find": "EV-0003 · Bute Estate records 1552–1824 naming Cydfin / Ty Mawr Farm (Evidence Register)",
+   "replace": "EV-0003 · Bute estate catalogue heading naming Cydfin / Ty Mawr Farm (under forensic examination); Tŷ Mawr first named 1824 (Evidence Register)",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "infographic",
+   "file": "index.html",
+   "find": "NLW Bute D219 lists “Cydfin Farm or Ty Mawr Farm (107 a.)”, leases 1552–1824.",
+   "replace": "NLW Bute D219 files unread leases under the heading “Cydfin Farm or Ty Mawr Farm (107 a.)”; the heading is the cataloguer’s, its application to Tŷ Mawr is under forensic examination, and Tŷ Mawr is first named in a record in 1824 (EV-0211).",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "story",
+   "file": "assets/index-*.js",
+   "find": "The farm is on written record from 1552.",
+   "replace": "Tŷ Mawr is first named in a record in 1824 (David Stewart’s survey, plan 19). The Bute catalogue heading over earlier leases is the cataloguer’s, not a record of Tŷ Mawr, and is under forensic examination.",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "story",
+   "file": "assets/index-*.js",
+   "find": "Farm (Cydfin or Tŷ Mawr, 107 acres): leases on record 1552–1824",
+   "replace": "Farm (Cydfin or Tŷ Mawr, 107 acres): a Bute catalogue heading over unread leases, under forensic examination; Tŷ Mawr first named 1824",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "story",
+   "file": "assets/index-*.js",
+   "find": "Its catalogue identifies leases of \"Cydfin Farm or Ty Mawr Farm, (107 a.)\", dated 1552–1824.",
+   "replace": "Its catalogue files leases under the heading \"Cydfin Farm or Ty Mawr Farm, (107 a.)\"; the heading is the cataloguer’s, the leases have not been read, their application to Tŷ Mawr is under forensic examination, and Tŷ Mawr is first named in a record in 1824 (the Bute survey by David Stewart, plan 19).",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "story",
+   "file": "assets/index-*.js",
+   "find": "Freehold: BP Pension Trust (Bute → WGR → BP, by deed)",
+   "replace": "Freehold as recited: BP Pension Trust (Bute → WGR 1938 → BP 1969; deeds not produced)",
+   "why": "Inflating: freehold stated as fact where the record is a recital, a manorial lordship or a landowner column.",
+   "class": "inflate",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "story",
+   "file": "assets/index-*.js",
+   "find": "Freehold: Western Ground Rents · tenant: John Williams (1939 plan: fields only)",
+   "replace": "Freehold as recited (1938 conveyance): Western Ground Rents · John Williams lets the fields only (1939 plan)",
+   "why": "Inflating: freehold stated as fact where the record is a recital, a manorial lordship or a landowner column.",
+   "class": "inflate",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "story",
+   "file": "assets/index-*.js",
+   "find": "Freehold: the Bute Estate · tenants: the Williamses",
+   "replace": "Lord of the manor and landowner of record: the Bute Estate · occupiers: the Williamses",
+   "why": "Diminishing: “tenant” where the tithe has “occupier”.",
+   "class": "dimin",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "story",
+   "file": "assets/index-*.js",
+   "find": "Freehold: the Bute Estate · tenant: John Williams",
+   "replace": "Lord of the manor and landowner of record: the Bute Estate · occupier: John Williams",
+   "why": "Diminishing: “tenant” where the tithe has “occupier”.",
+   "class": "dimin",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "story",
+   "file": "assets/index-*.js",
+   "find": "Freehold: the Thomases · tenant: John Williams",
+   "replace": "Freehold (family account): the Thomases · occupier: John Williams",
+   "why": "Diminishing: “tenant” where the tithe has “occupier”.",
+   "class": "dimin",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "story",
+   "file": "assets/index-*.js",
+   "find": "Lordship of the manor (1793) and farm freehold (early 19th century): the Bute Estate · tenants: the Williamses",
+   "replace": "Lordship of the manor (1793): the Bute Estate; no conveyance of the holding to Bute found · occupiers: the Williamses (tithe c.1841)",
+   "why": "Inflating: freehold stated as fact where the record is a recital, a manorial lordship or a landowner column.",
+   "class": "inflate",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "story",
+   "file": "assets/index-*.js",
+   "find": "Freehold and possession: Western Ground Rents (fields taken 4 July 1955)",
+   "replace": "Freehold as recited (1938 conveyance): Western Ground Rents · the fields taken 4 July 1955; the house and garden not taken",
+   "why": "Inflating: freehold stated as fact where the record is a recital, a manorial lordship or a landowner column.",
+   "class": "inflate",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "story",
+   "file": "assets/index-*.js",
+   "find": "Bought Bute's interest in 1938;",
+   "replace": "Took a conveyance from the Bute estate dated 25 December 1938 (known only from later recitals; deed not produced);",
+   "why": "Inflating: freehold stated as fact where the record is a recital, a manorial lordship or a landowner column.",
+   "class": "inflate",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "story",
+   "file": "assets/index-*.js",
+   "find": "Acquired from Western Ground Rents in 1969; registered the land in 1982–83;",
+   "replace": "Took a 1969 conveyance from Western Ground Rents (recited; deed not held); registered proprietor from 1982–83;",
+   "why": "Inflating: freehold stated as fact where the record is a recital, a manorial lordship or a landowner column.",
+   "class": "inflate",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "story",
+   "file": "assets/index-*.js",
+   "find": "Freeholders from the early 19th century; sold the farmhouse parcel to Daniel Thomas in 1877 and their remaining interest to Western Ground Rents in 1938.",
+   "replace": "Lords of the manor from 1793; named as landowner in the 1824 survey and the c.1841 tithe; no Bute conveyance of the holding has been found. An 1877 agreement with Daniel Thomas over the house parcel and a 1938 conveyance to Western Ground Rents are known only from later accounts.",
+   "why": "Inflating: freehold stated as fact where the record is a recital, a manorial lordship or a landowner column.",
+   "class": "inflate",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "story",
+   "file": "assets/index-*.js",
+   "find": "and by Bute from the early 19th. How the farm passed",
+   "replace": "and, in the heritage record’s words, by Bute from the early 19th (Bute is named as landowner in 1824 and c.1841). How the farm passed",
+   "why": "Inflating: freehold stated as fact where the record is a recital, a manorial lordship or a landowner column.",
+   "class": "inflate",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "story",
+   "file": "assets/index-*.js",
+   "find": "The heritage record says Bute acquired the freehold of Great House in the early 19th century.",
+   "replace": "In the heritage record’s words, Bute acquired the freehold of Great House in the early 19th century; the 1824 survey and the c.1841 tithe name Bute as landowner.",
+   "why": "Inflating: freehold stated as fact where the record is a recital, a manorial lordship or a landowner column.",
+   "class": "inflate",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "The family’s records on file (c.1841 tithe, 1872–76 rate books, 1824 survey, 1916 tenancy, 1939 letting) are rent-book, rate-book and tenancy entries in the name of John Williams; the parcels they cover are not identified, and none names the Tŷ Mawr house parcel.",
+   "replace": "The records on file for the Williams family are the c.1841 tithe (John Williams occupier of 36 plots identified by number, including 209 “Courtyard &amp;c” and 255), the 1872–76 rate books, the 1916 tenancy (recited only) and the 1939 letting (the fields). The 1824 survey names a different tenant, John Gedrick. None of these is yet matched plot by plot to the 1987 “Parcel A”, and none names the Tŷ Mawr house parcel.",
+   "why": "Corrected: the tithe does identify plots (by number); the 1824 survey names John Gedrick, not John Williams; a rent book does not identify a parcel.",
+   "class": "dimin",
+   "ev": [
+    "EV-0215",
+    "EV-0211"
+   ],
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "33 owned by the Marquess of Bute (119a 0r 6p;",
+   "replace": "33 with “Bute the Marquess of” in the landowner column (119a 0r 6p;",
+   "why": "Inflating: the tithe’s landowner column is not a title deed; quoted as the column’s wording.",
+   "class": "inflate",
+   "ev": [
+    "EV-0215"
+   ],
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "33 owned by the Marquess of Bute (119a 0r 6p;",
+   "replace": "33 with “Bute the Marquess of” in the landowner column (119a 0r 6p;",
+   "why": "Inflating: the tithe’s landowner column is not a title deed; quoted as the column’s wording.",
+   "class": "inflate",
+   "ev": [
+    "EV-0215"
+   ],
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "Starting title at a purchase from a great estate was common practice.",
+   "replace": "Starting title at a purchase from a large landed estate was common conveyancing practice.",
+   "why": "Inflating: “great estate”.",
+   "class": "inflate",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "maps",
+   "file": "index.html",
+   "find": "a home the family dates to at least 1667,",
+   "replace": "the Williams family’s home since 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988),",
+   "why": "Unsubstantiated: the 1667 date rests on family research; no record in this archive yet.",
+   "class": "unsub",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "nomenclature",
+   "file": "**/*.html",
+   "find": "<p class=\"s prose\">Family research note:",
+   "replace": "<p class=\"s prose unsub\">Family research note:",
+   "why": "Unsubstantiated: wordings reported only by a family research note (documents not held).",
+   "class": "unsub",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "GHF-E179 — 1552–1824: Bute records call it Cedfin/Cydfin/Ken fin Farm or Ty Mawr Farm",
+   "replace": "GHF-E179 — Bute catalogue heading: Tŷ Mawr first named in 1824 (Cedfin or Ty Mawr Farm); earlier dates under forensic examination",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "GHF-E179 — 1552–1824: Bute records call it Cedfin/Cydfin/Ken fin Farm or Ty Mawr Farm",
+   "replace": "GHF-E179 — Bute catalogue heading: Tŷ Mawr first named in 1824 (Cedfin or Ty Mawr Farm); earlier dates under forensic examination",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "<td>1552–1824</td><td>Bute records name the farm Cedfin, Cydfin, Ken fin Farm or Ty Mawr Farm (a research lead; name similarity is not proof of identity).</td>",
+   "replace": "<td>1824</td><td>David Stewart’s survey of the Bute estates names it “Cedfin or Ty Mawr Farm” (plan 19, EV-0211), the first record found that names Tŷ Mawr. A Bute catalogue heading “Cydfin Farm or Ty Mawr Farm” sits over earlier, unread leases; it is the cataloguer’s heading, not a record of Tŷ Mawr before 1824, and is under forensic examination (name similarity is not proof of identity).</td>",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "<td>1552–1824</td><td>Bute records name the farm Cedfin, Cydfin, Ken fin Farm or Ty Mawr Farm (a research lead; name similarity is not proof of identity).</td>",
+   "replace": "<td>1824</td><td>David Stewart’s survey of the Bute estates names it “Cedfin or Ty Mawr Farm” (plan 19, EV-0211), the first record found that names Tŷ Mawr. A Bute catalogue heading “Cydfin Farm or Ty Mawr Farm” sits over earlier, unread leases; it is the cataloguer’s heading, not a record of Tŷ Mawr before 1824, and is under forensic examination (name similarity is not proof of identity).</td>",
+   "why": "1552–1824 is the National Library of Wales catalogue’s span for leases grouped under that name (D 219); the leases have not been read, and the name is first read in a record in 1824 (Bute survey, plan 19, EV-0211). | 1.4.0 (26 Oct 2026, Sion m:1138070f): Bute catalogue dates are not records of Tŷ Mawr before 1824; first named in the 1824 David Stewart survey; application under forensic examination.",
+   "class": "1552",
+   "audit_point": "forensic-wording-26oct"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "c.1841 · Tithe map: Bute owns; John Williams occupies the holding",
+   "replace": "c.1841 · Tithe: John Williams holds the Great House holding, 36 plots; Bute is named only in the tithe’s landowner column, which is not a deed",
+   "why": "Turned a tax column into ownership ('Bute owns') and reduced the family to 'occupies'.",
+   "class": "framing-both",
+   "audit_point": "framing-26oct:M01"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "c.1841 · Tithe map: Bute owns; John Williams occupies the holding",
+   "replace": "c.1841 · Tithe: John Williams holds the Great House holding, 36 plots; Bute is named only in the tithe’s landowner column, which is not a deed",
+   "why": "Turned a tax column into ownership ('Bute owns') and reduced the family to 'occupies'.",
+   "class": "framing-both",
+   "audit_point": "framing-26oct:M01"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "The tithe apportionment for Landough, Cogan and Leckwith lists the Bute estate as owner and John Williams as occupier of the Great House Farm holding.",
+   "replace": "The tithe apportionment for Landough, Cogan and Leckwith lists John Williams as occupier of the Great House Farm holding, 36 plots; its landowner column, the column that names who answered for the tithe, names the Marquess of Bute. A tithe column is not a deed and shows no conveyance to Bute.",
+   "why": "Presented Bute as 'owner' on the strength of a tithe column; the family appears only as 'occupier'.",
+   "class": "framing-both",
+   "audit_point": "framing-26oct:M02"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "The tithe apportionment for Landough, Cogan and Leckwith lists the Bute estate as owner and John Williams as occupier of the Great House Farm holding.",
+   "replace": "The tithe apportionment for Landough, Cogan and Leckwith lists John Williams as occupier of the Great House Farm holding, 36 plots; its landowner column, the column that names who answered for the tithe, names the Marquess of Bute. A tithe column is not a deed and shows no conveyance to Bute.",
+   "why": "Presented Bute as 'owner' on the strength of a tithe column; the family appears only as 'occupier'.",
+   "class": "framing-both",
+   "audit_point": "framing-26oct:M02"
+  },
+  {
+   "theme": "fcg",
+   "file": "**/*.html",
+   "find": "Scope: the Bute Estate of the Marquesses of Bute, historic landowner and landlord.",
+   "replace": "Scope: the Bute Estate of the Marquesses of Bute, lord of the manors of Llandough and Leckwith. Whether it ever held the Tŷ Mawr holding as freehold is what this review tests: no conveyance into Bute’s hands has been found, and the first record of the holding is Bute’s own 1824 survey.",
+   "why": "Unqualified title ('historic landowner and landlord') given before any test of the record.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M04"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "Scope: the Bute Estate of the Marquesses of Bute, historic landowner and landlord.",
+   "replace": "Scope: the Bute Estate of the Marquesses of Bute, lord of the manors of Llandough and Leckwith. Whether it ever held the Tŷ Mawr holding as freehold is what this review tests: no conveyance into Bute’s hands has been found, and the first record of the holding is Bute’s own 1824 survey.",
+   "why": "Unqualified title ('historic landowner and landlord') given before any test of the record.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M04"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "Scope: the Bute Estate of the Marquesses of Bute, historic landowner and landlord.",
+   "replace": "Scope: the Bute Estate of the Marquesses of Bute, lord of the manors of Llandough and Leckwith. Whether it ever held the Tŷ Mawr holding as freehold is what this review tests: no conveyance into Bute’s hands has been found, and the first record of the holding is Bute’s own 1824 survey.",
+   "why": "Unqualified title ('historic landowner and landlord') given before any test of the record.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M04"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.html",
+   "find": "The ownership of the farm: a freehold within the manor, held by the Vaughans until the late 18th century and by Bute from the early 19th.",
+   "replace": "Ownership of the house: no conveyance of it into Bute’s hands has been found. The first record of the holding is Bute’s own estate survey of 1824; the Williams family acquired Tŷ Mawr in 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988).",
+   "why": "Repeats an outside narrative of a Vaughan→Bute freehold as fact; Sion's 11:45 rule.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M05"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.txt",
+   "find": "The ownership of the farm: a freehold within the manor, held by the Vaughans until the late 18th century and by Bute from the early 19th.",
+   "replace": "Ownership of the house: no conveyance of it into Bute’s hands has been found. The first record of the holding is Bute’s own estate survey of 1824; the Williams family acquired Tŷ Mawr in 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988).",
+   "why": "Repeats an outside narrative of a Vaughan→Bute freehold as fact; Sion's 11:45 rule.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M05"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.html",
+   "find": "The ownership of the farm: a freehold within the manor, held by the Vaughans until the late 18th century and by Bute from the early 19th.",
+   "replace": "Ownership of the house: no conveyance of it into Bute’s hands has been found. The first record of the holding is Bute’s own estate survey of 1824; the Williams family acquired Tŷ Mawr in 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988).",
+   "why": "Repeats an outside narrative of a Vaughan→Bute freehold as fact; Sion's 11:45 rule.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M05"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.txt",
+   "find": "The ownership of the farm: a freehold within the manor, held by the Vaughans until the late 18th century and by Bute from the early 19th.",
+   "replace": "Ownership of the house: no conveyance of it into Bute’s hands has been found. The first record of the holding is Bute’s own estate survey of 1824; the Williams family acquired Tŷ Mawr in 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988).",
+   "why": "Repeats an outside narrative of a Vaughan→Bute freehold as fact; Sion's 11:45 rule.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M05"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.html",
+   "find": "How the farm passed from the Vaughans to Bute is not yet documented.",
+   "replace": "No document shows the house passing into Bute’s hands at all.",
+   "why": "Presumes the transfer happened and only its paperwork is missing.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M06"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.txt",
+   "find": "How the farm passed from the Vaughans to Bute is not yet documented.",
+   "replace": "No document shows the house passing into Bute’s hands at all.",
+   "why": "Presumes the transfer happened and only its paperwork is missing.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M06"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.html",
+   "find": "How the farm passed from the Vaughans to Bute is not yet documented.",
+   "replace": "No document shows the house passing into Bute’s hands at all.",
+   "why": "Presumes the transfer happened and only its paperwork is missing.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M06"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.txt",
+   "find": "How the farm passed from the Vaughans to Bute is not yet documented.",
+   "replace": "No document shows the house passing into Bute’s hands at all.",
+   "why": "Presumes the transfer happened and only its paperwork is missing.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M06"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.html",
+   "find": "The missing control point is the instrument that carried the farm freehold from the Vaughan line into Bute's estate.",
+   "replace": "The control point that has never been produced is any instrument putting the house into Bute’s estate; until one is, Bute’s title to the house is untested.",
+   "why": "Presumes a Bute freehold existed.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M07"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.txt",
+   "find": "The missing control point is the instrument that carried the farm freehold from the Vaughan line into Bute's estate.",
+   "replace": "The control point that has never been produced is any instrument putting the house into Bute’s estate; until one is, Bute’s title to the house is untested.",
+   "why": "Presumes a Bute freehold existed.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M07"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.html",
+   "find": "The missing control point is the instrument that carried the farm freehold from the Vaughan line into Bute's estate.",
+   "replace": "The control point that has never been produced is any instrument putting the house into Bute’s estate; until one is, Bute’s title to the house is untested.",
+   "why": "Presumes a Bute freehold existed.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M07"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.txt",
+   "find": "The missing control point is the instrument that carried the farm freehold from the Vaughan line into Bute's estate.",
+   "replace": "The control point that has never been produced is any instrument putting the house into Bute’s estate; until one is, Bute’s title to the house is untested.",
+   "why": "Presumes a Bute freehold existed.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M07"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.html",
+   "find": "The deed that moved the farm freehold from the Vaughan line is the key missing control point.",
+   "replace": "No deed has been produced that moved the house into Bute’s estate; that is the key control point.",
+   "why": "Presumes the deed exists.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M08"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.txt",
+   "find": "The deed that moved the farm freehold from the Vaughan line is the key missing control point.",
+   "replace": "No deed has been produced that moved the house into Bute’s estate; that is the key control point.",
+   "why": "Presumes the deed exists.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M08"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.html",
+   "find": "The deed that moved the farm freehold from the Vaughan line is the key missing control point.",
+   "replace": "No deed has been produced that moved the house into Bute’s estate; that is the key control point.",
+   "why": "Presumes the deed exists.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M08"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.txt",
+   "find": "The deed that moved the farm freehold from the Vaughan line is the key missing control point.",
+   "replace": "No deed has been produced that moved the house into Bute’s estate; that is the key control point.",
+   "why": "Presumes the deed exists.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M08"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.html",
+   "find": "The crucial missing control point is the instrument that transferred the Vaughan farm freehold into Bute's estate.",
+   "replace": "The crucial control point is the instrument that would have put the house into Bute’s estate: none has been produced.",
+   "why": "Presumes the transfer.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M09"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.html",
+   "find": "The crucial missing control point is the instrument that transferred the Vaughan farm freehold into Bute's estate.",
+   "replace": "The crucial control point is the instrument that would have put the house into Bute’s estate: none has been produced.",
+   "why": "Presumes the transfer.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M09"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.html",
+   "find": "The freehold line of the house: the Vaughans, then Bute (by the early 19th century), then Daniel Thomas (1877), then the Williamses (1928).",
+   "replace": "The house’s title as the records stand: Bute’s own 1824 survey is the first record of the holding; an 1877 Bute–Daniel Thomas agreement is recorded in Mary Williams’s statement; the Williams family acquired Tŷ Mawr in 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988) and paid the last rent on the house in 1928 [EV-0016].",
+   "why": "Presented a Vaughan→Bute freehold line as fact and put the Williamses last.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M10"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.txt",
+   "find": "The freehold line of the house: the Vaughans, then Bute (by the early 19th century), then Daniel Thomas (1877), then the Williamses (1928).",
+   "replace": "The house’s title as the records stand: Bute’s own 1824 survey is the first record of the holding; an 1877 Bute–Daniel Thomas agreement is recorded in Mary Williams’s statement; the Williams family acquired Tŷ Mawr in 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988) and paid the last rent on the house in 1928 [EV-0016].",
+   "why": "Presented a Vaughan→Bute freehold line as fact and put the Williamses last.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M10"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.html",
+   "find": "The freehold line of the house: the Vaughans, then Bute (by the early 19th century), then Daniel Thomas (1877), then the Williamses (1928).",
+   "replace": "The house’s title as the records stand: Bute’s own 1824 survey is the first record of the holding; an 1877 Bute–Daniel Thomas agreement is recorded in Mary Williams’s statement; the Williams family acquired Tŷ Mawr in 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988) and paid the last rent on the house in 1928 [EV-0016].",
+   "why": "Presented a Vaughan→Bute freehold line as fact and put the Williamses last.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M10"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.txt",
+   "find": "The freehold line of the house: the Vaughans, then Bute (by the early 19th century), then Daniel Thomas (1877), then the Williamses (1928).",
+   "replace": "The house’s title as the records stand: Bute’s own 1824 survey is the first record of the holding; an 1877 Bute–Daniel Thomas agreement is recorded in Mary Williams’s statement; the Williams family acquired Tŷ Mawr in 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988) and paid the last rent on the house in 1928 [EV-0016].",
+   "why": "Presented a Vaughan→Bute freehold line as fact and put the Williamses last.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M10"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.txt",
+   "find": "In the early C19th the freehold was acquired by the Bute Estate",
+   "replace": "Published histories place the house in the Bute Estate in the early 19th century; no conveyance to Bute has been found, and the first record of the holding is Bute’s own 1824 survey",
+   "why": "Outside narrative repeated as fact.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M11"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.txt",
+   "find": "In the early C19th the freehold was acquired by the Bute Estate",
+   "replace": "Published histories place the house in the Bute Estate in the early 19th century; no conveyance to Bute has been found, and the first record of the holding is Bute’s own 1824 survey",
+   "why": "Outside narrative repeated as fact.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M11"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "In the early C19 the freehold was acquired by the Bute Estate and the manorial courts for Llandough and Leckwith were held in Great House.",
+   "replace": "The manorial courts for Llandough and Leckwith were held in the Great House, the Williams family’s home. The same record places the house in the Bute Estate in the early 19th century; no conveyance to Bute has been found, and the first record of the holding is Bute’s own 1824 survey.",
+   "why": "Led with Bute's acquisition (unbacked) and buried that the manor courts sat in the family's house.",
+   "class": "framing-both",
+   "audit_point": "framing-26oct:M12"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "In the early C19 the freehold was acquired by the Bute Estate and the manorial courts for Llandough and Leckwith were held in Great House.",
+   "replace": "The manorial courts for Llandough and Leckwith were held in the Great House, the Williams family’s home. The same record places the house in the Bute Estate in the early 19th century; no conveyance to Bute has been found, and the first record of the holding is Bute’s own 1824 survey.",
+   "why": "Led with Bute's acquisition (unbacked) and buried that the manor courts sat in the family's house.",
+   "class": "framing-both",
+   "audit_point": "framing-26oct:M12"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.html",
+   "find": "On 30 November 1982 Linklaters & Paines apply to register BP Properties as owner of the land, title WA231076.",
+   "replace": "On 30 November 1982 Linklaters & Paines apply to have BP Properties registered as proprietor of the land, title WA231076.",
+   "why": "'Owner' for BP; Cedwyn rule: BP = registered proprietor.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M13"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.txt",
+   "find": "On 30 November 1982 Linklaters & Paines apply to register BP Properties as owner of the land, title WA231076.",
+   "replace": "On 30 November 1982 Linklaters & Paines apply to have BP Properties registered as proprietor of the land, title WA231076.",
+   "why": "'Owner' for BP; Cedwyn rule: BP = registered proprietor.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M13"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.html",
+   "find": "On 30 November 1982 Linklaters & Paines apply to register BP Properties as owner of the land, title WA231076.",
+   "replace": "On 30 November 1982 Linklaters & Paines apply to have BP Properties registered as proprietor of the land, title WA231076.",
+   "why": "'Owner' for BP; Cedwyn rule: BP = registered proprietor.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M13"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.txt",
+   "find": "On 30 November 1982 Linklaters & Paines apply to register BP Properties as owner of the land, title WA231076.",
+   "replace": "On 30 November 1982 Linklaters & Paines apply to have BP Properties registered as proprietor of the land, title WA231076.",
+   "why": "'Owner' for BP; Cedwyn rule: BP = registered proprietor.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M13"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.txt",
+   "find": "NARRATOR: On 30 November 1982 Linklaters & Paines apply to register BP Properties as owner of the land, title WA231076.",
+   "replace": "NARRATOR: On 30 November 1982 Linklaters & Paines apply to have BP Properties registered as proprietor of the land, title WA231076.",
+   "why": "Same as M13.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M14"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.txt",
+   "find": "NARRATOR: On 30 November 1982 Linklaters & Paines apply to register BP Properties as owner of the land, title WA231076.",
+   "replace": "NARRATOR: On 30 November 1982 Linklaters & Paines apply to have BP Properties registered as proprietor of the land, title WA231076.",
+   "why": "Same as M13.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M14"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.html",
+   "find": "The historical account places the manorial lordship in Bute's hands from 1793 and the Great House farm freehold in the early 19th century.",
+   "replace": "Published histories put the manorial lordship with Bute from 1793. No conveyance of the house to Bute has been found: the first record of the holding is Bute’s own survey of 1824.",
+   "why": "Outside narrative given as 'what we now know'.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M15"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.txt",
+   "find": "The historical account places the manorial lordship in Bute's hands from 1793 and the Great House farm freehold in the early 19th century.",
+   "replace": "Published histories put the manorial lordship with Bute from 1793. No conveyance of the house to Bute has been found: the first record of the holding is Bute’s own survey of 1824.",
+   "why": "Outside narrative given as 'what we now know'.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M15"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.html",
+   "find": "The historical account places the manorial lordship in Bute's hands from 1793 and the Great House farm freehold in the early 19th century.",
+   "replace": "Published histories put the manorial lordship with Bute from 1793. No conveyance of the house to Bute has been found: the first record of the holding is Bute’s own survey of 1824.",
+   "why": "Outside narrative given as 'what we now know'.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M15"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.txt",
+   "find": "The historical account places the manorial lordship in Bute's hands from 1793 and the Great House farm freehold in the early 19th century.",
+   "replace": "Published histories put the manorial lordship with Bute from 1793. No conveyance of the house to Bute has been found: the first record of the holding is Bute’s own survey of 1824.",
+   "why": "Outside narrative given as 'what we now know'.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M15"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.html",
+   "find": "In 1916 Bute owned only Parcel B.",
+   "replace": "In 1916 no record shows Bute holding the house parcel; at most its tenancy could reach Parcel B, and the tenancy’s own plan has never been produced.",
+   "why": "Asserts Bute ownership of Parcel B as known.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M16"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.txt",
+   "find": "In 1916 Bute owned only Parcel B.",
+   "replace": "In 1916 no record shows Bute holding the house parcel; at most its tenancy could reach Parcel B, and the tenancy’s own plan has never been produced.",
+   "why": "Asserts Bute ownership of Parcel B as known.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M16"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.html",
+   "find": "In 1916 Bute owned only Parcel B.",
+   "replace": "In 1916 no record shows Bute holding the house parcel; at most its tenancy could reach Parcel B, and the tenancy’s own plan has never been produced.",
+   "why": "Asserts Bute ownership of Parcel B as known.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M16"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.txt",
+   "find": "In 1916 Bute owned only Parcel B.",
+   "replace": "In 1916 no record shows Bute holding the house parcel; at most its tenancy could reach Parcel B, and the tenancy’s own plan has never been produced.",
+   "why": "Asserts Bute ownership of Parcel B as known.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M16"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.html",
+   "find": "John Williams succeeds his father as occupier of the farm under the Bute Estate.",
+   "replace": "John Williams succeeds his father at the Great House in 1855, the second generation of the Williamses there on the record; the Bute Estate entered him in its books as its tenant.",
+   "why": "Family framed only as occupiers 'under' Bute; continuity and standing omitted.",
+   "class": "framing-downplayed",
+   "audit_point": "framing-26oct:M17"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.txt",
+   "find": "John Williams succeeds his father as occupier of the farm under the Bute Estate.",
+   "replace": "John Williams succeeds his father at the Great House in 1855, the second generation of the Williamses there on the record; the Bute Estate entered him in its books as its tenant.",
+   "why": "Family framed only as occupiers 'under' Bute; continuity and standing omitted.",
+   "class": "framing-downplayed",
+   "audit_point": "framing-26oct:M17"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.txt",
+   "find": "NARRATOR: John Williams succeeds his father as occupier of the farm under the Bute Estate.",
+   "replace": "NARRATOR: John Williams succeeds his father at the Great House in 1855, the second generation of the Williamses there on the record; the Bute Estate entered him in its books as its tenant.",
+   "why": "Same as M17.",
+   "class": "framing-downplayed",
+   "audit_point": "framing-26oct:M18"
+  },
+  {
+   "theme": "chess",
+   "file": "**/*.html",
+   "find": "The record dates Williams occupation of the house to 1667 and shows the Williams as tenants of the Bute Estate by the nineteenth century.",
+   "replace": "The Williams family acquired Tŷ Mawr in 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988). By the nineteenth century the Bute Estate’s own books entered the Williamses as its tenants; no record read shows how the house came into Bute’s hands.",
+   "why": "Attributes 1667 to 'the record' and gives the Bute books' 'tenant' label as fact.",
+   "class": "framing-both",
+   "audit_point": "framing-26oct:M20"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "Root freehold → Parcel B</strong> (far left): Bute → Mountjoy → WGR (1938) → BP (1969);",
+   "replace": "Paper chain asserted for Parcel B</strong> (far left): Bute → Mountjoy → WGR (1938, deed recited only) → BP (1969, recited only);",
+   "why": "'Root freehold' asserts a Bute freehold no conveyance on file shows; the 1938 and 1969 instruments are recited, not produced.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M03"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "Root freehold → Parcel B</strong> (far left): Bute → Mountjoy → WGR (1938) → BP (1969);",
+   "replace": "Paper chain asserted for Parcel B</strong> (far left): Bute → Mountjoy → WGR (1938, deed recited only) → BP (1969, recited only);",
+   "why": "'Root freehold' asserts a Bute freehold no conveyance on file shows; the 1938 and 1969 instruments are recited, not produced.",
+   "class": "framing-overstated",
+   "audit_point": "framing-26oct:M03"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "26 March 1983: Mary Williams, the occupier of the farmhouse, died.",
+   "replace": "26 March 1983: Mary Williams died at the house, still in occupation; she had refused the tenancies offered to her in 1959 and 1965 and asserted title through her grandfather (1959, in the Court of Appeal’s account).",
+   "why": "Reduced Mary Williams to 'the occupier'.",
+   "class": "framing-downplayed",
+   "audit_point": "framing-26oct:M19"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "26 March 1983: Mary Williams, the occupier of the farmhouse, died.",
+   "replace": "26 March 1983: Mary Williams died at the house, still in occupation; she had refused the tenancies offered to her in 1959 and 1965 and asserted title through her grandfather (1959, in the Court of Appeal’s account).",
+   "why": "Reduced Mary Williams to 'the occupier'.",
+   "class": "framing-downplayed",
+   "audit_point": "framing-26oct:M19"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "the family dates its occupation of the house to <a href=\"/research/williams-buckler-family/\" style=\"text-decoration:underline\">1667</a>, and records the family as tenants of the <a href=\"/research/bute-estate/\">Bute Estate</a> by the 19th century.",
+   "replace": "the Williams family acquired the house in <a href=\"/research/williams-buckler-family/\" style=\"text-decoration:underline\">1667</a> (Mary Williams’ statement, 1974 newspapers; ITV News, 1988). By the 19th century the <a href=\"/research/bute-estate/\">Bute Estate</a>’s own books entered the family as its tenants; no record read shows how the house came into Bute’s hands.",
+   "why": "Gave the Bute books' 'tenant' label as the family's own record and 'occupation' for the family's acquisition.",
+   "class": "framing-both",
+   "audit_point": "framing-26oct:M21r"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "lived at <a href=\"/research/great-house-farm/\">Great House Farm (Tŷ Mawr)</a> until after the death of <a href=\"/research/mary-williams/\">Mary (Nancy) Williams</a> in 1983; the house was",
+   "replace": "made their home at <a href=\"/research/great-house-farm/\">Great House Farm (Tŷ Mawr)</a>, the Great House of Llandough, from 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988) until 1988. On the record: John Williams on 36 plots, the whole holding, in the c.1841 tithe; John Williams “for many years a juror” of the manor court that met in the house (1908); and <a href=\"/research/mary-williams/\">Mary (Nancy) Williams</a>, who refused the tenancies offered to her in 1959 and 1965, asserted title through her grandfather, and died at the house in 1983. The house was",
+   "why": "Opening line of the family page gave them only 'lived at … until 1983', with none of their standing.",
+   "class": "framing-downplayed",
+   "audit_point": "framing-26oct:M23r"
+  },
+  {
+   "theme": "research",
+   "file": "**/*.html",
+   "find": "See <a href=\"/research/john-williams/\">John Williams</a>, tenant of the whole farm from 1916.",
+   "replace": "See <a href=\"/research/john-williams/\">John Williams</a> of the Great House, for many years a juror of the manor court; a 1916 Bute yearly tenancy of “the whole of the farm” is recited by the Court of Appeal, its deed and plan never produced.",
+   "why": "Reduced John Williams to 'tenant of the whole farm from 1916'.",
+   "class": "framing-downplayed",
+   "audit_point": "framing-26oct:M24r"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "the family dates its occupation of the house to <a href=\"/wiki/williams-buckler-family/\" style=\"text-decoration:underline\">1667</a>, and records the family as tenants of the <a href=\"/wiki/bute-estate/\">Bute Estate</a> by the 19th century.",
+   "replace": "the Williams family acquired the house in <a href=\"/wiki/williams-buckler-family/\" style=\"text-decoration:underline\">1667</a> (Mary Williams’ statement, 1974 newspapers; ITV News, 1988). By the 19th century the <a href=\"/wiki/bute-estate/\">Bute Estate</a>’s own books entered the family as its tenants; no record read shows how the house came into Bute’s hands.",
+   "why": "Gave the Bute books' 'tenant' label as the family's own record and 'occupation' for the family's acquisition.",
+   "class": "framing-both",
+   "audit_point": "framing-26oct:M21w"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "lived at <a href=\"/wiki/great-house-farm/\">Great House Farm (Tŷ Mawr)</a> until after the death of <a href=\"/wiki/mary-williams/\">Mary (Nancy) Williams</a> in 1983; the house was",
+   "replace": "made their home at <a href=\"/wiki/great-house-farm/\">Great House Farm (Tŷ Mawr)</a>, the Great House of Llandough, from 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988) until 1988. On the record: John Williams on 36 plots, the whole holding, in the c.1841 tithe; John Williams “for many years a juror” of the manor court that met in the house (1908); and <a href=\"/wiki/mary-williams/\">Mary (Nancy) Williams</a>, who refused the tenancies offered to her in 1959 and 1965, asserted title through her grandfather, and died at the house in 1983. The house was",
+   "why": "Opening line of the family page gave them only 'lived at … until 1983', with none of their standing.",
+   "class": "framing-downplayed",
+   "audit_point": "framing-26oct:M23w"
+  },
+  {
+   "theme": "wiki",
+   "file": "**/*.html",
+   "find": "See <a href=\"/wiki/john-williams/\">John Williams</a>, tenant of the whole farm from 1916.",
+   "replace": "See <a href=\"/wiki/john-williams/\">John Williams</a> of the Great House, for many years a juror of the manor court; a 1916 Bute yearly tenancy of “the whole of the farm” is recited by the Court of Appeal, its deed and plan never produced.",
+   "why": "Reduced John Williams to 'tenant of the whole farm from 1916'.",
+   "class": "framing-downplayed",
+   "audit_point": "framing-26oct:M24w"
+  },
+  {
+   "theme": "story",
+   "file": "**/*.html",
+   "find": "Mary's father. Tenant of the house and fields from 1908; paid the last rent on the house in 1928.",
+   "replace": "Mary's father, of the Great House from 1908. Bute's papers entered him as tenant of the house and fields; he paid the last rent on the house in 1928 [EV-0016].",
+   "why": "Cast list reduced John Williams to 'Tenant of the house and fields'.",
+   "class": "framing-downplayed",
+   "audit_point": "framing-26oct:M25"
+  },
+  {
+   "theme": "qa",
+   "file": "**/*.html",
+   "find": "Mary's father. Tenant of the house and fields from 1908; paid the last rent on the house in 1928.",
+   "replace": "Mary's father, of the Great House from 1908. Bute's papers entered him as tenant of the house and fields; he paid the last rent on the house in 1928 [EV-0016].",
+   "why": "Cast list reduced John Williams to 'Tenant of the house and fields'.",
+   "class": "framing-downplayed",
+   "audit_point": "framing-26oct:M25"
+  },
+  {
+   "theme": "accounts",
+   "file": "**/*.html",
+   "find": "the line says GAP",
+   "replace": "the line reads GAP",
+   "why": "Banned word 'says' in Cedwyn's own note (root steer 12:29).",
+   "class": "banned-word",
+   "audit_point": "framing-26oct:A01"
+  },
+  {
+   "theme": "documentary",
+   "file": "**/*.html",
+   "find": "<h2 id=\"cm-p-title\"></h2>",
+   "replace": "<h2 id=\"cm-p-title\">Cedwyn: the documentary</h2>",
+   "why": "Empty heading on /documentary/ (was /movie/ until 27 Oct 2026) (accessibility; root steer 12:25); the player still sets its own title when a door plays.",
+   "class": "a11y",
+   "audit_point": "framing-26oct:A02"
+  },
+  {
+   "theme": "research",
+   "file": "evidence/ev-0645-local-history-book-llandough-penarth-pp64-65/index.html",
+   "find": "<td>Printed local-history book (title, author and publisher to be identified)</td>",
+   "replace": "<td>The Glamorgan Village Book, compiled by the Glamorgan Federation of Women’s Institutes (Newbury: Countryside Books, 1993; ISBN 1-85306-254-5)</td>",
+   "why": "Book identified (29 Oct 2026): The Glamorgan Village Book (Countryside Books, 1993). Marconi at Great House Farm, 1897, documented from it and from The Post (Cardiff), 14 Sep 1995, p.24 (EV-0646).",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  },
+  {
+   "theme": "research",
+   "file": "evidence/ev-0645-local-history-book-llandough-penarth-pp64-65/index.html",
+   "find": "<em>Printed local-history book (title, author and date not shown in the photographs), section",
+   "replace": "<em>The Glamorgan Village Book (Glamorgan Federation of Women’s Institutes; Countryside Books, 1993), section",
+   "why": "Book identified (29 Oct 2026): The Glamorgan Village Book (Countryside Books, 1993). Marconi at Great House Farm, 1897, documented from it and from The Post (Cardiff), 14 Sep 1995, p.24 (EV-0646).",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  },
+  {
+   "theme": "research",
+   "file": "evidence/ev-0645-local-history-book-llandough-penarth-pp64-65/index.html",
+   "find": "The book's title, author, publisher and date are not visible in the photographs.",
+   "replace": "The book is The Glamorgan Village Book (Glamorgan Federation of Women’s Institutes; Countryside Books, Newbury, 1993; ISBN 1-85306-254-5).",
+   "why": "Book identified (29 Oct 2026): The Glamorgan Village Book (Countryside Books, 1993). Marconi at Great House Farm, 1897, documented from it and from The Post (Cardiff), 14 Sep 1995, p.24 (EV-0646).",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  },
+  {
+   "theme": "research",
+   "file": "evidence/ev-0645-local-history-book-llandough-penarth-pp64-65/index.html",
+   "find": "<li>Where the original is held: The printed book (title and library holdings to be identified).",
+   "replace": "<li>Where the original is held: The Glamorgan Village Book (Countryside Books, 1993; ISBN 1-85306-254-5), a published book.",
+   "why": "Book identified (29 Oct 2026): The Glamorgan Village Book (Countryside Books, 1993). Marconi at Great House Farm, 1897, documented from it and from The Post (Cardiff), 14 Sep 1995, p.24 (EV-0646).",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  },
+  {
+   "theme": "research",
+   "file": "evidence/ev-0645-local-history-book-llandough-penarth-pp64-65/index.html",
+   "find": "and Marconi’s stay. It gives",
+   "replace": "and Marconi’s stay at the farm, in a four-poster bed, while he worked on his 1897 wireless telegraphy experiments between Flat Holm and Lavernock Point (see also <a href=\"/research/evidence/ev-0646-the-post-cardiff-1995-09-14-p24-marconi-great-house-farm/\">EV-0646</a>). It gives",
+   "why": "Book identified (29 Oct 2026): The Glamorgan Village Book (Countryside Books, 1993). Marconi at Great House Farm, 1897, documented from it and from The Post (Cardiff), 14 Sep 1995, p.24 (EV-0646).",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  },
+  {
+   "theme": "research",
+   "file": "evidence/ev-0645-local-history-book-llandough-penarth-pp64-65/index.html",
+   "find": "</li></ul></div></article>",
+   "replace": "</li><li>Related record: <a href=\"/research/evidence/ev-0646-the-post-cardiff-1995-09-14-p24-marconi-great-house-farm/\">EV-0646</a> — The Post (Cardiff), 14 Sep 1995, p.24: Marconi and George Kemp at Great House Farm, 10–11 May 1897</li></ul></div></article>",
+   "why": "Book identified (29 Oct 2026): The Glamorgan Village Book (Countryside Books, 1993). Marconi at Great House Farm, 1897, documented from it and from The Post (Cardiff), 14 Sep 1995, p.24 (EV-0646).",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  },
+  {
+   "theme": "research",
+   "file": "evidence/ev-0085-glamorgan-village-book-demolition-page/index.html",
+   "find": "<th>Date of document</th><td>undated</td>",
+   "replace": "<th>Date of document</th><td>1993 (published)</td>",
+   "why": "Book identified (29 Oct 2026): The Glamorgan Village Book (Countryside Books, 1993). Marconi at Great House Farm, 1897, documented from it and from The Post (Cardiff), 14 Sep 1995, p.24 (EV-0646).",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  },
+  {
+   "theme": "research",
+   "file": "evidence/ev-0085-glamorgan-village-book-demolition-page/index.html",
+   "find": "No scan uploaded; No publication details for the book given.",
+   "replace": "Published in The Glamorgan Village Book, compiled by the Glamorgan Federation of Women’s Institutes (Newbury: Countryside Books, 1993; ISBN 1-85306-254-5), “Llandough (Penarth)”, pp. 64–66; full transcript of the entry: <a href=\"/research/evidence/ev-0645-local-history-book-llandough-penarth-pp64-65/\">EV-0645</a>.",
+   "why": "Book identified (29 Oct 2026): The Glamorgan Village Book (Countryside Books, 1993). Marconi at Great House Farm, 1897, documented from it and from The Post (Cardiff), 14 Sep 1995, p.24 (EV-0646).",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  },
+  {
+   "theme": "research",
+   "file": "evidence/ev-0085-glamorgan-village-book-demolition-page/index.html",
+   "find": "No verbatim transcription; Book&#8217;s publication date and author not stated.",
+   "replace": "full transcript of the entry: <a href=\"/research/evidence/ev-0645-local-history-book-llandough-penarth-pp64-65/\">EV-0645</a>.",
+   "why": "Book identified (29 Oct 2026): The Glamorgan Village Book (Countryside Books, 1993). Marconi at Great House Farm, 1897, documented from it and from The Post (Cardiff), 14 Sep 1995, p.24 (EV-0646).",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  },
+  {
+   "theme": "research",
+   "file": "evidence/ev-0085-glamorgan-village-book-demolition-page/index.html",
+   "find": "Secondary corroboration of date and dispute account.",
+   "replace": "Secondary corroboration of date and dispute account. The same entry records Marconi’s stay at Great House Farm: “Marconi too slept here in a four poster bed whilst working with his experiments in wireless telegraphy between the Flat Holm and Lavernock Point.” (see also <a href=\"/research/evidence/ev-0646-the-post-cardiff-1995-09-14-p24-marconi-great-house-farm/\">EV-0646</a>)",
+   "why": "Book identified (29 Oct 2026): The Glamorgan Village Book (Countryside Books, 1993). Marconi at Great House Farm, 1897, documented from it and from The Post (Cardiff), 14 Sep 1995, p.24 (EV-0646).",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  },
+  {
+   "theme": "research",
+   "file": "evidence/index.html",
+   "find": "-penarth-pp64-65/\">EV-0645</a> — Printed local-history book, “",
+   "replace": "-penarth-pp64-65/\">EV-0645</a> — The Glamorgan Village Book (Countryside Books, 1993): “",
+   "why": "Book identified (29 Oct 2026): The Glamorgan Village Book (Countryside Books, 1993). Marconi at Great House Farm, 1897, documented from it and from The Post (Cardiff), 14 Sep 1995, p.24 (EV-0646).",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  },
+  {
+   "theme": "research",
+   "file": "evidence/index.html",
+   "find": "the demolition of 6 December 1988</li></ul></section>",
+   "replace": "the demolition of 6 December 1988</li><li><a href=\"/research/evidence/ev-0646-the-post-cardiff-1995-09-14-p24-marconi-great-house-farm/\">EV-0646</a> — The Post (Cardiff), 14 September 1995, p.24, Bill Barrett, “My Cardiff”: Marconi and George Kemp at Great House Farm on the eve of 11 May 1897</li></ul></section>",
+   "why": "Book identified (29 Oct 2026): The Glamorgan Village Book (Countryside Books, 1993). Marconi at Great House Farm, 1897, documented from it and from The Post (Cardiff), 14 Sep 1995, p.24 (EV-0646).",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  },
+  {
+   "theme": "research",
+   "file": "timeline/index.html",
+   "find": " (The Glamorgan Village Book, Glamorgan Federation of Women’s Institutes, Countryside Books, 1993, “Llandough (Penarth)”, pp. 64–66; ",
+   "replace": " (evidence: ",
+   "why": "Sion 29 Oct 2026 23:16: facts on Cedwyn link to catalogued evidence pages, not inline citations.",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  },
+  {
+   "theme": "research",
+   "file": "timeline/index.html",
+   "find": " (The Post, Cardiff, 14 Sep 1995, p.24, Bill Barrett, “My Cardiff”; ",
+   "replace": " (evidence: ",
+   "why": "Sion 29 Oct 2026 23:16: facts on Cedwyn link to catalogued evidence pages, not inline citations.",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  },
+  {
+   "theme": "research",
+   "file": "timeline/index.html",
+   "find": "apparatus left “at Penarth” (extracts published in G. R. M. Garratt, <em>The Early History of Radio</em>, 1994) (",
+   "replace": "apparatus left “at Penarth” (",
+   "why": "Sion 29 Oct 2026 23:16: facts on Cedwyn link to catalogued evidence pages, not inline citations.",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  },
+  {
+   "theme": "research",
+   "file": "timeline/index.html",
+   "find": "the Kemp diary entry names the published extracts it rests on. Nothing removed.</td><td>The Glamorgan Village Book (Countryside Books, 1993), “Llandough (Penarth)”, EV-0645 / EV-0085; The Post (Cardiff), 14 Sep 1995, p.24, EV-0646</td>",
+   "replace": "the Kemp diary entry is shortened to what the extract records. Nothing removed.</td><td>EV-0645, EV-0085, EV-0646</td>",
+   "why": "Sion 29 Oct 2026 23:16: facts on Cedwyn link to catalogued evidence pages, not inline citations.",
+   "class": "citation",
+   "audit_point": "marconi-1897"
+  }
+ ]
+}

@@ -1,0 +1,414 @@
+{
+ "_note": "Share cards (Open Graph / Twitter) for every Cedwyn page, made at build time by tools/og_cards.py from the Garden Gallery pieces in dist/nft-art/art/. To repoint: change a section's list or 'default' here; a re-rendered piece flows into its card on the next build (the card file name carries the source hash). Pieces chosen 27 Oct 2026 for farm and buildings with few flowers. — Sion's Tab agent",
+ "_note_share": "30 Oct 2026 (Sion, WhatsApp 00:32 GMT): share previews read 'Williams-Bucklers, Ty Mawr, Cedwyn – <webapp>'. 'brand' is og:site_name and the first line of every card; 'webapps' names each webapp by its first path segment (a section not listed takes its theme title). — Sion's Tab agent",
+ "brand": "Williams-Bucklers, Ty Mawr, Cedwyn",
+ "site_name": "Williams-Bucklers, Ty Mawr, Cedwyn",
+ "base": "https://cedwyn.bucklerfamily.estate",
+ "default": "NFA-0021",
+ "home_description": "Cedwyn Estate: Great House Farm (Tŷ Mawr), Llandough, in records, maps, film and e-books, with a Wales guided tour and the Great House II retreat in Patagonia.",
+ "webapps": {
+  "": "Home",
+  "academy": "Academy",
+  "learn": "Academy",
+  "accounts": "Counting House",
+  "app": "Case Office",
+  "arcade": "Arcade",
+  "argentina": "Argentina",
+  "authorities": "Public Authorities",
+  "blog": "Blog",
+  "caso": "El Caso",
+  "catalogue": "Catalogue",
+  "chat": "Ask the Archive",
+  "chess": "Chessboard",
+  "courtdrills": "Court Drills",
+  "csscpsg": "Grammar House",
+  "cyberspace": "Digital Estate",
+  "dartboard": "Disclosure Dartboard",
+  "directory": "Directory",
+  "disproven": "Disproven Theories",
+  "docs": "Evidence Catalogue",
+  "documentary": "Documentary",
+  "movie": "Documentary",
+  "ebooks": "E-books",
+  "email": "Post Office",
+  "emails": "Post Office",
+  "estate": "Estate",
+  "explore": "Explore",
+  "familytree": "Family Tree",
+  "fb": "Farm Album",
+  "fb2": "Farmbook",
+  "fcg": "FCG",
+  "glossary": "Glossary",
+  "guestbook": "Guestbook",
+  "hive": "Hive",
+  "infographic": "Infographic",
+  "kissed-frogs": "Kissed Frogs",
+  "library": "Library",
+  "maps": "Map Room",
+  "meeting": "Council Chamber",
+  "network": "Network",
+  "nft-art": "Garden Gallery",
+  "nomenclature": "Nomenclature",
+  "oldbill": "Old Bill",
+  "parcels": "Parcels",
+  "patagonia": "Patagonia Museum",
+  "projects": "Projects",
+  "qa": "Q&A",
+  "records": "Primary Records",
+  "research": "Research",
+  "review": "Independent Review",
+  "self-assessment": "Self-Assessment",
+  "shop": "Gift Shop",
+  "story": "The Story",
+  "terrain": "Terrain",
+  "thousand-cuts": "1000 Cuts",
+  "title-chain": "Title Chain",
+  "values": "Values & Standards",
+  "wales": "Wales Tour",
+  "watchtower": "Watchtower",
+  "wayback": "Wayback",
+  "wdtk": "FOI Requests",
+  "whattheydontsay": "What They Don't Say",
+  "wiki": "Legal Wiki"
+ },
+ "stable_cards": {
+  "Academy": "academy",
+  "Hive": "hive",
+  "Home": ""
+ },
+ "pool": [
+  "NFA-0021",
+  "NFA-0019",
+  "NFA-0016",
+  "NFA-0020",
+  "NFA-0022",
+  "NFA-0024",
+  "NFA-0029",
+  "NFA-0035",
+  "NFA-0040",
+  "NFA-0042",
+  "NFA-0043",
+  "NFA-0047",
+  "NFA-0049",
+  "NFA-0055",
+  "NFA-0076",
+  "NFA-0094",
+  "NFA-0095",
+  "NFA-0107",
+  "NFA-0114",
+  "NFA-0115",
+  "NFA-0116",
+  "NFA-0126",
+  "NFA-0135",
+  "NFA-0139",
+  "NFA-0140",
+  "NFA-0141",
+  "NFA-0151",
+  "NFA-0154",
+  "NFA-0155",
+  "NFA-0158",
+  "NFA-0030",
+  "NFA-0028",
+  "NFA-0034",
+  "NFA-0106",
+  "NFA-0011"
+ ],
+ "sections": {
+  "": [
+   "NFA-0021"
+  ],
+  "nft-art": [
+   "NFA-0016",
+   "NFA-0019",
+   "NFA-0024"
+  ],
+  "wiki": [
+   "NFA-0094",
+   "NFA-0139",
+   "NFA-0011"
+  ],
+  "research": [
+   "NFA-0107",
+   "NFA-0047",
+   "NFA-0139",
+   "NFA-0011"
+  ],
+  "records": [
+   "NFA-0011",
+   "NFA-0139",
+   "NFA-0107"
+  ],
+  "docs": [
+   "NFA-0139",
+   "NFA-0011",
+   "NFA-0107"
+  ],
+  "maps": [
+   "NFA-0011",
+   "NFA-0107",
+   "NFA-0047"
+  ],
+  "title-chain": [
+   "NFA-0011",
+   "NFA-0047",
+   "NFA-0139"
+  ],
+  "wayback": [
+   "NFA-0139",
+   "NFA-0106",
+   "NFA-0035",
+   "NFA-0141"
+  ],
+  "thousand-cuts": [
+   "NFA-0040",
+   "NFA-0115",
+   "NFA-0154"
+  ],
+  "timeline": [
+   "NFA-0040",
+   "NFA-0154"
+  ],
+  "dartboard": [
+   "NFA-0114",
+   "NFA-0029"
+  ],
+  "whattheydontsay": [
+   "NFA-0029",
+   "NFA-0034"
+  ],
+  "authorities": [
+   "NFA-0034",
+   "NFA-0029"
+  ],
+  "wdtk": [
+   "NFA-0034",
+   "NFA-0029"
+  ],
+  "documentary": [
+   "NFA-0022",
+   "NFA-0155",
+   "NFA-0151"
+  ],
+  "ebooks": [
+   "NFA-0094",
+   "NFA-0116",
+   "NFA-0126"
+  ],
+  "shop": [
+   "NFA-0116",
+   "NFA-0126",
+   "NFA-0094"
+  ],
+  "blog": [
+   "NFA-0095",
+   "NFA-0140",
+   "NFA-0043",
+   "NFA-0049"
+  ],
+  "projects": [
+   "NFA-0019",
+   "NFA-0042",
+   "NFA-0024"
+  ],
+  "story": [
+   "NFA-0022",
+   "NFA-0021",
+   "NFA-0140"
+  ],
+  "wales": [
+   "NFA-0140",
+   "NFA-0095",
+   "NFA-0115"
+  ],
+  "argentina": [
+   "NFA-0030",
+   "NFA-0028",
+   "NFA-0151"
+  ],
+  "patagonia": [
+   "NFA-0030",
+   "NFA-0028",
+   "NFA-0151"
+  ],
+  "fb": [
+   "NFA-0151",
+   "NFA-0155",
+   "NFA-0135"
+  ],
+  "fb2": [
+   "NFA-0135",
+   "NFA-0045",
+   "NFA-0158"
+  ],
+  "academy": [
+   "NFA-0042"
+  ],
+  "library": [
+   "NFA-0042"
+  ]
+ },
+ "skip_dirs": [
+  "_ext",
+  "_cedwyn",
+  "_blob",
+  "db",
+  "wayback/websites",
+  "wayback/mail",
+  "wayback/go"
+ ],
+ "pieces": {
+  "NFA-0011": {
+   "title": "Fields of 1824, Replanted",
+   "alt": "An old estate map repainted as a patchwork of planted fields beside a river"
+  },
+  "NFA-0016": {
+   "title": "Stable Row at Noon",
+   "alt": "Stable Row at Noon: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0019": {
+   "title": "Long Barn, Long Grass",
+   "alt": "Long Barn, Long Grass: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0020": {
+   "title": "Cart Track and Barrel",
+   "alt": "Cart Track and Barrel: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0021": {
+   "title": "Field Road Home",
+   "alt": "Field Road Home: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0022": {
+   "title": "The Last Load",
+   "alt": "The Last Load: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0024": {
+   "title": "Five-Arch Byre",
+   "alt": "Five-Arch Byre: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0028": {
+   "title": "Pasture Before the Pines",
+   "alt": "Pasture Before the Pines: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0029": {
+   "title": "The Barn Door, Evening",
+   "alt": "The Barn Door, Evening: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0030": {
+   "title": "Grazing Under the Oaks",
+   "alt": "Grazing Under the Oaks: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0034": {
+   "title": "Who Waits at the Gate",
+   "alt": "Who Waits at the Gate: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0035": {
+   "title": "Lime-Washed House",
+   "alt": "Lime-Washed House: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0040": {
+   "title": "Bend in the Track",
+   "alt": "Bend in the Track: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0042": {
+   "title": "Open Cart Shed",
+   "alt": "Open Cart Shed: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0043": {
+   "title": "Lane to the Paddock",
+   "alt": "Lane to the Paddock: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0045": {
+   "title": "Tractor at Rest",
+   "alt": "Tractor at Rest: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0047": {
+   "title": "The Valley Fold",
+   "alt": "The Valley Fold: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0049": {
+   "title": "Hayloft Meadow",
+   "alt": "Hayloft Meadow: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0055": {
+   "title": "Barn End and Meadow",
+   "alt": "Barn End and Meadow: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0076": {
+   "title": "The House Over the Hedge",
+   "alt": "The House Over the Hedge: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0094": {
+   "title": "The Long Farmhouse",
+   "alt": "The Long Farmhouse: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0095": {
+   "title": "The Road by the House",
+   "alt": "The Road by the House: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0106": {
+   "title": "The Churchyard Meadow",
+   "alt": "The Churchyard Meadow: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0107": {
+   "title": "From Above",
+   "alt": "From Above: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0114": {
+   "title": "Two Barns Beyond the Meadow",
+   "alt": "Two Barns Beyond the Meadow: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0115": {
+   "title": "The Bend by the Cottages",
+   "alt": "The Bend by the Cottages: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0116": {
+   "title": "The Granary Barn",
+   "alt": "The Granary Barn: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0126": {
+   "title": "The Cottage Gable",
+   "alt": "The Cottage Gable: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0135": {
+   "title": "The Grey Tractor",
+   "alt": "The Grey Tractor: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0139": {
+   "title": "The Old Footings",
+   "alt": "The Old Footings: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0140": {
+   "title": "The Farmhouse Lane",
+   "alt": "The Farmhouse Lane: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0141": {
+   "title": "The Long Cottage",
+   "alt": "The Long Cottage: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0151": {
+   "title": "The Piebald Pony",
+   "alt": "The Piebald Pony: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0154": {
+   "title": "The Road Past the Farm",
+   "alt": "The Road Past the Farm: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0155": {
+   "title": "Horse and Trap",
+   "alt": "Horse and Trap: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  },
+  "NFA-0158": {
+   "title": "The Trailer by the Wall",
+   "alt": "The Trailer by the Wall: a farm scene repainted in gouache with honeysuckle, roses and ivy in warm gold light"
+  }
+ },
+ "section_desc": {
+  "research": "The Research Library: catalogued records, a dated timeline and a register of missing records for Great House Farm (Tŷ Mawr), Llandough.",
+  "wayback": "The Wayback Vault: archived pages, letters and records about Great House Farm (Tŷ Mawr), Llandough, kept as they were found.",
+  "wiki": "The Legal Wiki: the documentary archive of Great House Farm (Tŷ Mawr), Llandough-juxta-Penarth, its land, family and court records.",
+  "docs": "The evidence catalogue for Great House Farm (Tŷ Mawr), Llandough: every document with its date, source and reference.",
+  "maps": "The Map Room: historic maps and plans of Great House Farm (Tŷ Mawr), Llandough, and the land around it.",
+  "story": "The story of Great House Farm (Tŷ Mawr), Llandough, told through dated records.",
+  "projects": "The Project Office: plans and progress for the Cedwyn Estate projects in Wales and Patagonia."
+ }
+}

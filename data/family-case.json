@@ -1,0 +1,879 @@
+{
+ "version": "1.0.0",
+ "note": "Argentina half only: the family's case is openly presented as advocacy. Charges are framed as the family's position, never as court findings. Bute = lord of the manor; BP = registered proprietor; rent entries do not identify a parcel unless they name a parcel. Every item cites Cedwyn evidence pages. The Wales half is unchanged.",
+ "t": {
+  "fc_kicker": {
+   "en": "The family's case",
+   "es": "El caso de la familia"
+  },
+  "fc_label": {
+   "en": "Advocacy. This is the family's position, in the family's voice, not a finding of any court. Every point links to the record it rests on.",
+   "es": "Alegato. Esta es la posición de la familia, con la voz de la familia; no es la decisión de ningún tribunal. Cada punto enlaza con el documento en que se apoya."
+  },
+  "fc_h1": {
+   "en": "Up is down",
+   "es": "El mundo al revés"
+  },
+  "fc_o1": {
+   "en": "The story the world was told is upside down. It goes like this: squatters evicted from a farm that belonged to BP. The family's case is the opposite. The Williams family held, farmed and defended Tŷ Mawr alias Cedfin for generations. They were not squatters on someone else's land. They were the family on their own land, and the land was taken from them piece by piece.",
+   "es": "La historia que le contaron al mundo está al revés. Dice así: desalojan a unos okupas de una granja que era de BP. El caso de la familia es exactamente lo contrario. Los Williams tuvieron, trabajaron y defendieron Tŷ Mawr, alias Cedfin, durante generaciones. No eran okupas en tierra ajena. Eran la familia en su propia tierra, y esa tierra les fue arrebatada pedazo a pedazo."
+  },
+  "fc_o2": {
+   "en": "The other side's title was put on the register in 1982 and 1983. Mary Williams, who lived in the house and held it as hers, was not told. HM Land Registry, so far as any record produced shows, was not told of her claim or of the dispute. Within five weeks of the farmhouse application going in, she was dead. The Registry examined that application after her death.",
+   "es": "El título de la otra parte se inscribió en el registro en 1982 y 1983. A Mary Williams, que vivía en la casa y la tenía por suya, nadie se lo comunicó. Al Registro de la Propiedad de Su Majestad, hasta donde muestran los documentos aportados, nadie le informó de su reclamación ni del litigio. Menos de cinco semanas después de presentada la solicitud sobre la casa, ella había muerto. El Registro examinó esa solicitud después de su muerte."
+  },
+  "fc_o3": {
+   "en": "We call what followed the death of a thousand cuts: a court order here, a deed there, a green registered by notice, a licence nobody asked for, a register entry nobody challenged because nobody was told. No single cut decided who owned the land. Together they turned the owners into “squatters” and the registered proprietor into the “owner”. Up became down.",
+   "es": "Lo que vino después lo llamamos la muerte de mil cortes: una orden judicial aquí, una escritura allá, un prado comunal inscrito por anuncio, una licencia que nadie pidió, una inscripción que nadie impugnó porque a nadie se le avisó. Ningún corte por sí solo decidió de quién era la tierra. Juntos convirtieron a los dueños en «okupas» y al titular registral en «dueño». El mundo quedó al revés."
+  },
+  "fc_toc": {
+   "en": "Below: the thousand cuts, numbered and sourced · why the title story is flipped · what the family asks for.",
+   "es": "Abajo: los mil cortes, numerados y con su fuente · por qué la historia del título está invertida · lo que pide la familia."
+  },
+  "fc_cuts_h": {
+   "en": "The thousand cuts",
+   "es": "Los mil cortes"
+  },
+  "fc_cuts_p": {
+   "en": "Each cut is listed with the record it rests on. Where a cut interprets the record, the page labels it clearly: “our reading” or “the family's case”. Tap a group to open it.",
+   "es": "Cada corte va con el documento en que se apoya. Cuando un corte es nuestra lectura del documento, lo decimos: «sostenemos», «el caso de la familia es». Toque un grupo para abrirlo."
+  },
+  "fc_src": {
+   "en": "Record",
+   "es": "Documento"
+  },
+  "fc_cut": {
+   "en": "1000 Cuts",
+   "es": "Mil Cortes"
+  },
+  "fc_flip_h": {
+   "en": "Why the title story is flipped",
+   "es": "Por qué la historia del título está invertida"
+  },
+  "fc_ask_h": {
+   "en": "What the family asks for",
+   "es": "Lo que pide la familia"
+  },
+  "fc_end": {
+   "en": "This is the family's case. The courts' view is set out, with its sources, on the Wales side and in 1000 Cuts. Public bodies and companies are named by what they did. No private person is accused of anything.",
+   "es": "Este es el caso de la familia. La visión de los tribunales, con sus fuentes, está en la parte de Gales y en Mil Cortes. Los organismos públicos y las empresas aparecen por lo que hicieron. No se acusa de nada a ninguna persona particular."
+  },
+  "fc_wales": {
+   "en": "The courts' view and the full record: Wales",
+   "es": "La visión de los tribunales y el registro completo: Gales"
+  },
+  "fc_back": {
+   "en": "Great House II · Argentina",
+   "es": "Great House II · Argentina"
+  },
+  "fc_link_h": {
+   "en": "The family's case: up is down",
+   "es": "El caso de la familia: el mundo al revés"
+  },
+  "fc_link_p": {
+   "en": "Advocacy in the family's voice: the “squatters” story turned the right way up, and the thousand cuts, numbered and sourced.",
+   "es": "Alegato con la voz de la familia: la historia de los «okupas» puesta del derecho, y los mil cortes, numerados y con su fuente."
+  }
+ },
+ "groups": [
+  {
+   "id": "fc_g1",
+   "title": {
+    "en": "Court mistakes",
+    "es": "Errores de los tribunales"
+   },
+   "items": [
+    {
+     "t": {
+      "en": "The Court of Appeal began from BP's “paper title”. That paper title rests on a 1938 conveyance no court is recorded as having read in full. We still know it only from mentions in later documents. The family's case: the courts accepted a title on its recitals.",
+      "es": "El Tribunal de Apelación partió del «título documental» de BP. Ese título descansa en una escritura de 1938 que ningún tribunal consta haber leído completa. Aún hoy solo la conocemos por menciones en documentos posteriores. El caso de la familia: los tribunales aceptaron un título por lo que otros decían de él."
+     },
+     "ev": [
+      "EV-0080",
+      "EV-0019",
+      "EV-0216"
+     ],
+     "cut": "c02"
+    },
+    {
+     "t": {
+      "en": "The judges noted that Mary's title documents were “never produced”. Her papers had gone from the farmhouse blanket box around 1950–52 (family testimony). We say the loss of her papers was counted against the very people who had lost them.",
+      "es": "Los jueces anotaron que los títulos de Mary «nunca se presentaron». Sus papeles habían desaparecido del arcón de la casa hacia 1950–52 (testimonio familiar). Sostenemos que la pérdida de sus papeles se contó en contra de quienes los habían perdido."
+     },
+     "ev": [
+      "EV-0080",
+      "EV-0026"
+     ],
+     "cut": "c06"
+    },
+    {
+     "t": {
+      "en": "On 3 July 1974 Mary pleaded that BP's claim was barred: the land was hers by possession. The action was adjourned part-heard. In the Court of Appeal's own words it “has never been finally heard”. The one time ownership was put squarely to a court, no court decided it.",
+      "es": "El 3 de julio de 1974 Mary alegó que la acción de BP había prescrito: la tierra era suya por posesión. El juicio se aplazó a medio oír. En palabras del propio Tribunal de Apelación, «nunca se ha llegado a oír del todo». La única vez que la propiedad se planteó de frente ante un tribunal, ningún tribunal la decidió."
+     },
+     "ev": [
+      "EV-0049",
+      "EV-0080"
+     ],
+     "cut": "c18"
+    },
+    {
+     "t": {
+      "en": "No judgment on the record decides who owned the farmhouse as a question of title. The 1986 and 1987 judgments decided possession and limitation. Yet everything afterwards, from the press to Strasbourg, treated ownership as settled.",
+      "es": "Ninguna sentencia del expediente decide quién era el dueño de la casa como cuestión de título. Las sentencias de 1986 y 1987 decidieron sobre la posesión y la prescripción. Aun así, todo lo que vino después, de la prensa a Estrasburgo, dio la propiedad por zanjada."
+     },
+     "ev": [
+      "EV-0074",
+      "EV-0075",
+      "EV-0080"
+     ],
+     "cut": "c30"
+    },
+    {
+     "t": {
+      "en": "Two letters of 31 October 1974 let Mary stay “rent free … for the rest of your life”. She never asked for them and never accepted them in writing. The courts read them as a licence, and from that day her possession was held not to be adverse. We say an unasked-for permission was used to turn an owner into a guest.",
+      "es": "Dos cartas del 31 de octubre de 1974 permitían a Mary quedarse «sin pagar renta … por el resto de su vida». Ella nunca las pidió ni las aceptó por escrito. Los tribunales las leyeron como una licencia, y desde ese día su posesión se consideró no adversa. Sostenemos que un permiso no pedido sirvió para convertir a una dueña en invitada."
+     },
+     "ev": [
+      "EV-0050",
+      "EV-0080"
+     ],
+     "cut": "c20"
+    },
+    {
+     "t": {
+      "en": "Instead of hearing the 1974 ownership plea, the courts revived a 1962 county-court order and used it to stop the twelve-year clock. The order was nearly twelve years old when leave to execute it was given.",
+      "es": "En lugar de oír el alegato de propiedad de 1974, los tribunales resucitaron una orden del juzgado de condado de 1962 y la usaron para detener el reloj de los doce años. La orden tenía casi doce años cuando se autorizó su ejecución."
+     },
+     "ev": [
+      "EV-0041",
+      "EV-0049"
+     ],
+     "cut": "c19"
+    },
+    {
+     "t": {
+      "en": "The 1986 High Court held that Frederick's possession was not as owner, relying on a March 1965 offer of a tenancy that the family had refused. The family's case: a refused offer was turned into evidence against them.",
+      "es": "El Tribunal Superior en 1986 sostuvo que Frederick no poseía como dueño, apoyándose en una oferta de arrendamiento de marzo de 1965 que la familia había rechazado. El caso de la familia: una oferta rechazada se convirtió en prueba contra ellos."
+     },
+     "ev": [
+      "EV-0039",
+      "EV-0080"
+     ],
+     "cut": "c12"
+    },
+    {
+     "t": {
+      "en": "6 December 1988: a judge in Cardiff dismissed the family's application for an injunction to stop BP Properties destroying the house. Cadw had photographed the house in July and was still deciding whether to list it. The farmhouse was demolished the next day.",
+      "es": "6 de diciembre de 1988: un juez de Cardiff desestimó la petición de la familia de un mandamiento que impidiera a BP Properties destruir la casa. Cadw había fotografiado la casa en julio y aún decidía si catalogarla. La casa fue demolida al día siguiente."
+     },
+     "ev": [
+      "EV-0104",
+      "EV-0105",
+      "EV-0096"
+     ],
+     "cut": "c39"
+    }
+   ]
+  },
+  {
+   "id": "fc_g2",
+   "title": {
+    "en": "Procedural unfairness",
+    "es": "Injusticia procesal"
+   },
+   "items": [
+    {
+     "t": {
+      "en": "1949: John Williams's tenancy was surrendered and a new one granted to Frederick Buckler. It was never put in writing. What land it covered rests on later recitals alone.",
+      "es": "1949: se rindió el arrendamiento de John Williams y se concedió uno nuevo a Frederick Buckler. Nunca se puso por escrito. Qué tierra abarcaba depende solo de lo que se recitó después."
+     },
+     "ev": [
+      "EV-0025",
+      "EV-0080"
+     ],
+     "cut": "c05"
+    },
+    {
+     "t": {
+      "en": "1955: Western Ground Rents obtained summary judgment (Order 14) against Frederick alone, for “the whole of the farm”. Mary lived in the house and held it as hers. She was not made a party.",
+      "es": "1955: Western Ground Rents obtuvo una sentencia sumaria (Order 14) solo contra Frederick, por «toda la granja». Mary vivía en la casa y la tenía por suya. No se la hizo parte."
+     },
+     "ev": [
+      "EV-0032",
+      "EV-0080"
+     ],
+     "cut": "c10"
+    },
+    {
+     "t": {
+      "en": "1958: Mary told Glamorgan County Council's planning committee that her family's land had been “wrongfully appropriated”: a Welsh Crichel Down. Her objection went no further; the Leckwith Common order went through by special parliamentary procedure.",
+      "es": "1958: Mary dijo a la comisión de urbanismo del Consejo del Condado de Glamorgan que la tierra de su familia había sido «apropiada indebidamente»: un Crichel Down galés. Su objeción no fue a más; la orden de Leckwith Common salió adelante por procedimiento parlamentario especial."
+     },
+     "ev": [
+      "EV-0035",
+      "EV-0037",
+      "EV-0287"
+     ],
+     "cut": "c11"
+    },
+    {
+     "t": {
+      "en": "1970: the green in front of the house was registered as village green VG41 by Glamorgan County Council. Registrations were publicised by public notice only. We say a family fighting for its home was never told directly.",
+      "es": "1970: el Consejo del Condado de Glamorgan inscribió el prado frente a la casa como prado comunal VG41. Las inscripciones solo se anunciaron por aviso público. Sostenemos que a una familia que luchaba por su casa nunca se le dijo nada directamente."
+     },
+     "ev": [
+      "EV-0044",
+      "EV-0263"
+     ],
+     "cut": "c16"
+    },
+    {
+     "t": {
+      "en": "1972: outline planning permission for about thirteen houses was sought on the land, with an ownership certificate, while Mary lived there and disputed the title.",
+      "es": "1972: se pidió permiso urbanístico previo para unas trece casas en la tierra, con un certificado de propiedad, mientras Mary vivía allí y disputaba el título."
+     },
+     "ev": [
+      "EV-0046"
+     ],
+     "cut": "c17"
+    },
+    {
+     "t": {
+      "en": "23 February 1983: BP Properties applied to register the farmhouse while Mary was alive and living in it. She died on 26 March 1983. The Registry examined the application in April and May, after her death. The family's case is that neither she nor the Registry was ever told of her claim and the dispute; the file items that would show it have not been produced.",
+      "es": "23 de febrero de 1983: BP Properties solicitó inscribir la casa mientras Mary vivía en ella. Murió el 26 de marzo de 1983. El Registro examinó la solicitud en abril y mayo, ya muerta ella. El caso de la familia es que ni a ella ni al Registro se les informó nunca de su reclamación y del litigio; los documentos del expediente que lo mostrarían no se han aportado."
+     },
+     "ev": [
+      "EV-0066",
+      "EV-0067",
+      "EV-0069",
+      "EV-0070"
+     ],
+     "cut": "c25"
+    },
+    {
+     "t": {
+      "en": "1983: a local Act of Parliament validated the Glamorgan common-land registers, the green included.",
+      "es": "1983: una ley local del Parlamento validó los registros de tierras comunales de Glamorgan, prado incluido."
+     },
+     "ev": [
+      "EV-0232"
+     ],
+     "cut": "c28"
+    },
+    {
+     "t": {
+      "en": "2 February 1987: the farmhouse title was merged into the farm title while the appeal was still pending.",
+      "es": "2 de febrero de 1987: el título de la casa se fusionó con el de la granja mientras la apelación seguía pendiente."
+     },
+     "ev": [
+      "EV-0078"
+     ],
+     "cut": "c31"
+    },
+    {
+     "t": {
+      "en": "31 July 1987: leave to appeal to the House of Lords was refused, and a petition followed. The family has still not seen the outcome papers.",
+      "es": "31 de julio de 1987: se denegó el permiso para apelar a la Cámara de los Lores, y siguió una petición. La familia aún no ha visto los papeles del resultado."
+     },
+     "ev": [
+      "EV-0080",
+      "EV-0076"
+     ],
+     "cut": "c33"
+    }
+   ]
+  },
+  {
+   "id": "fc_g3",
+   "title": {
+    "en": "Human-rights failures",
+    "es": "Violaciones de derechos humanos"
+   },
+   "items": [
+    {
+     "t": {
+      "en": "Buckler v United Kingdom, application 14464/88, lodged on 3 May 1988 under Article 6 (fair trial), Article 8 (home), Article 13 (remedy) and Article 1 of Protocol 1 (property). Declared inadmissible on 14 April 1989.",
+      "es": "Buckler contra Reino Unido, demanda 14464/88, presentada el 3 de mayo de 1988 por el artículo 6 (juicio justo), el artículo 8 (domicilio), el artículo 13 (recurso) y el artículo 1 del Protocolo 1 (propiedad). Declarada inadmisible el 14 de abril de 1989."
+     },
+     "ev": [
+      "EV-0122"
+     ],
+     "cut": "c34"
+    },
+    {
+     "t": {
+      "en": "The European Commission of Human Rights found no “possession” to protect, because the British courts had held that the property belonged to another. Strasbourg inherited the error: it treated a registered proprietor as an owner.",
+      "es": "La Comisión Europea de Derechos Humanos no encontró ninguna «posesión» que proteger, porque los tribunales británicos habían declarado que la propiedad era de otro. Estrasburgo heredó el error: trató a un titular registral como dueño."
+     },
+     "ev": [
+      "EV-0122",
+      "EV-0080"
+     ],
+     "cut": "c34"
+    },
+    {
+     "t": {
+      "en": "The Strasbourg case file is reported destroyed under the Court's retention policy. What was before the Commission can no longer be checked.",
+      "es": "Se informa de que el expediente de Estrasburgo fue destruido según la política de conservación del Tribunal. Ya no puede comprobarse qué tuvo delante la Comisión."
+     },
+     "ev": [
+      "EV-0122"
+     ]
+    },
+    {
+     "t": {
+      "en": "Article 8, the home: a family home of generations was emptied by force and razed within days of the eviction.",
+      "es": "Artículo 8, el domicilio: un hogar familiar de generaciones fue vaciado por la fuerza y arrasado a los pocos días del desalojo."
+     },
+     "ev": [
+      "EV-0102",
+      "EV-0106"
+     ],
+     "cut": "c40"
+    },
+    {
+     "t": {
+      "en": "Article 1 of Protocol 1, property: no record of any compensation for the demolition has been found, and no finding against anyone for it.",
+      "es": "Artículo 1 del Protocolo 1, la propiedad: no se ha encontrado constancia de indemnización alguna por la demolición, ni de ninguna resolución contra nadie por ella."
+     },
+     "ev": [
+      "EV-0117",
+      "EV-0118"
+     ]
+    },
+    {
+     "t": {
+      "en": "3 December 1988: the evicted farmer was taken from a hospital bed to face an assault charge. A later allegation of threatening behaviour at his former home was withdrawn by the prosecution.",
+      "es": "3 de diciembre de 1988: al granjero desalojado lo sacaron de una cama de hospital para enfrentarse a una acusación de agresión. Otra acusación posterior, de conducta amenazante en su antigua casa, fue retirada por la fiscalía."
+     },
+     "ev": [
+      "EV-0101",
+      "EV-0115"
+     ],
+     "cut": "c38"
+    }
+   ]
+  },
+  {
+   "id": "fc_g4",
+   "title": {
+    "en": "Land taken parcel by parcel",
+    "es": "La tierra, parcela a parcela"
+   },
+   "items": [
+    {
+     "t": {
+      "en": "25 December 1938: the Bute estate company (Mountjoy) conveyed to Western Ground Rents Ltd, a ground-rent company. Later documents call this deed BP's root of title. The deed itself has never been produced.",
+      "es": "25 de diciembre de 1938: la sociedad de la casa Bute (Mountjoy) traspasó a Western Ground Rents Ltd, una sociedad de rentas de suelo. Documentos posteriores llaman a esta escritura la raíz del título de BP. La escritura nunca se ha presentado."
+     },
+     "ev": [
+      "EV-0019",
+      "EV-0022",
+      "EV-0216"
+     ],
+     "cut": "c02"
+    },
+    {
+     "t": {
+      "en": "May 1939: the plan to Western Ground Rents' agreement with John Williams highlights the fields (Parcel B) only. The house parcel is not on it.",
+      "es": "Mayo de 1939: el plano del acuerdo de Western Ground Rents con John Williams resalta solo los campos (Parcela B). La parcela de la casa no aparece."
+     },
+     "ev": [
+      "EV-0023"
+     ],
+     "cut": "p7"
+    },
+    {
+     "t": {
+      "en": "4 July 1955: Order 14 was enforced. Current working interpretation treats Parcel B, the eastern/right-hand fields, as the order’s intended subject. The phrase “whole farm” is ambiguous against the reported 1928 position and does not by itself prove that Parcel A was included. Parcel A is now analysed as A1 (north woods) and A2 (house and garden); the green south of the house is separate Parcel C. The writ and execution return must establish the land legally covered and physically taken.",
+      "es": "4 de julio de 1955: se ejecutó la Order 14. La interpretación de trabajo actual considera que la parcela B, los campos al este, era el objeto previsto de la orden. La expresión “toda la granja” es ambigua frente a la posición familiar comunicada para 1928 y no demuestra por sí sola que se incluyera la parcela A. La parcela A se analiza ahora como A1 (bosque norte) y A2 (casa y jardín); la zona verde al sur de la casa es la parcela C, separada. La orden, el mandamiento y la diligencia de ejecución deben establecer el alcance jurídico y el terreno ocupado físicamente."
+     },
+     "ev": [
+      "EV-0032",
+      "EV-0034",
+      "EV-0080"
+     ],
+     "cut": "c10"
+    },
+    {
+     "t": {
+      "en": "29 March 1961: a deed between Western Ground Rents, South Western Brick & Tile and Cardiff City affected land now in the woodland title.",
+      "es": "29 de marzo de 1961: una escritura entre Western Ground Rents, South Western Brick & Tile y la ciudad de Cardiff afectó a tierra que hoy está en el título del bosque."
+     },
+     "ev": [
+      "EV-0040"
+     ]
+    },
+    {
+     "t": {
+      "en": "11 December 1962: Cardiff County Court ordered possession of the farmhouse and garden.",
+      "es": "11 de diciembre de 1962: el juzgado de condado de Cardiff ordenó la entrega de la casa y el jardín."
+     },
+     "ev": [
+      "EV-0041",
+      "EV-0030"
+     ],
+     "cut": "c13"
+    },
+    {
+     "t": {
+      "en": "1965: land was conveyed on for a school site; the contract names the 25 December 1938 conveyance as root of title.",
+      "es": "1965: se traspasó tierra para un colegio; el contrato cita la escritura del 25 de diciembre de 1938 como raíz del título."
+     },
+     "ev": [
+      "EV-0216"
+     ]
+    },
+    {
+     "t": {
+      "en": "31 December 1969: Western Ground Rents sold the farm, farmhouse included, to BP Pension Trust, with Mary living in the house.",
+      "es": "31 de diciembre de 1969: Western Ground Rents vendió la granja, casa incluida, a BP Pension Trust, con Mary viviendo en la casa."
+     },
+     "ev": [
+      "EV-0043",
+      "EV-0080"
+     ],
+     "cut": "c15"
+    },
+    {
+     "t": {
+      "en": "16 June 1970: the green became village green VG41.",
+      "es": "16 de junio de 1970: el prado pasó a ser el prado comunal VG41."
+     },
+     "ev": [
+      "EV-0044"
+     ],
+     "cut": "c16"
+    },
+    {
+     "t": {
+      "en": "1974: leave to execute the 1962 order, then the “rent free for life” letters.",
+      "es": "1974: autorización para ejecutar la orden de 1962 y, después, las cartas de «sin renta de por vida»."
+     },
+     "ev": [
+      "EV-0041",
+      "EV-0050"
+     ],
+     "cut": "c19"
+    },
+    {
+     "t": {
+      "en": "23 May 1975: BP Pension Trust conveyed the farmhouse plot to BP Properties, reserving 80-year road and sewer rights “to serve any development”. Mary still lived there.",
+      "es": "23 de mayo de 1975: BP Pension Trust traspasó la parcela de la casa a BP Properties, reservándose derechos de camino y alcantarillado por 80 años «para servir a cualquier urbanización». Mary seguía viviendo allí."
+     },
+     "ev": [
+      "EV-0052"
+     ],
+     "cut": "c22"
+    },
+    {
+     "t": {
+      "en": "November 1982 and February 1983: first registration of the fields (WA231076) and of the farmhouse (WA240304) in BP's name.",
+      "es": "Noviembre de 1982 y febrero de 1983: primera inscripción de los campos (WA231076) y de la casa (WA240304) a nombre de BP."
+     },
+     "ev": [
+      "EV-0059",
+      "EV-0066"
+     ],
+     "cut": "c24"
+    },
+    {
+     "t": {
+      "en": "July 1986: judgment for BP in the High Court in Cardiff.",
+      "es": "Julio de 1986: sentencia a favor de BP en el Tribunal Superior de Cardiff."
+     },
+     "ev": [
+      "EV-0074",
+      "EV-0075"
+     ],
+     "cut": "c30"
+    },
+    {
+     "t": {
+      "en": "31 July 1987: the Court of Appeal dismissed the appeal. Possession in six weeks.",
+      "es": "31 de julio de 1987: el Tribunal de Apelación desestimó la apelación. Entrega en seis semanas."
+     },
+     "ev": [
+      "EV-0080"
+     ],
+     "cut": "c32"
+    },
+    {
+     "t": {
+      "en": "October 1988: BP's pension fund sold about 1,300 acres of Welsh land. The trade press had already reported “BP signal Welsh sales”.",
+      "es": "Octubre de 1988: el fondo de pensiones de BP vendió unos 1.300 acres de tierra galesa. La prensa del sector ya había publicado «BP anuncia ventas en Gales»."
+     },
+     "ev": [
+      "EV-0270",
+      "EV-0093"
+     ],
+     "cut": "c36"
+    },
+    {
+     "t": {
+      "en": "7 December 1988: the farmhouse was demolished. Then came outline permission for houses (1990), and twenty houses were built (1992–94).",
+      "es": "7 de diciembre de 1988: la casa fue demolida. Después llegó el permiso previo para viviendas (1990), y se construyeron veinte casas (1992–94)."
+     },
+     "ev": [
+      "EV-0106",
+      "EV-0124",
+      "EV-0127"
+     ],
+     "cut": "c40"
+    }
+   ]
+  },
+  {
+   "id": "fc_g5",
+   "title": {
+    "en": "Trespass and entry",
+    "es": "Allanamiento y entrada"
+   },
+   "items": [
+    {
+     "t": {
+      "en": "4 July 1955: the possession order was enforced on the land. What authority covered the woodland and the green that went with it has never been shown.",
+      "es": "4 de julio de 1955: la orden de entrega se ejecutó sobre la tierra. Nunca se ha mostrado qué autoridad cubría el bosque y el prado que se fueron con ella."
+     },
+     "ev": [
+      "EV-0034"
+     ],
+     "cut": "c10"
+    },
+    {
+     "t": {
+      "en": "April–May 1988, the first eviction attempt, as the farmer described it to the press: “Then they started smashing the doors with poleaxes. My children were right behind the door when the axe came through.”",
+      "es": "Abril–mayo de 1988, el primer intento de desalojo, tal como el granjero lo contó a la prensa: «Entonces empezaron a destrozar las puertas con hachas. Mis hijos estaban justo detrás de la puerta cuando entró el hacha»."
+     },
+     "ev": [
+      "EV-0089"
+     ],
+     "cut": "c35"
+    },
+    {
+     "t": {
+      "en": "30 November 1988: forced entry at Great House Farm, and the outbuilding roof removed.",
+      "es": "30 de noviembre de 1988: entrada por la fuerza en Great House Farm, y el tejado de las dependencias arrancado."
+     },
+     "ev": [
+      "EV-0098"
+     ],
+     "cut": "c38"
+    },
+    {
+     "t": {
+      "en": "3 December 1988: the residents were put out of their home.",
+      "es": "3 de diciembre de 1988: sacaron a los residentes de su casa."
+     },
+     "ev": [
+      "EV-0102"
+     ],
+     "cut": "c38"
+    },
+    {
+     "t": {
+      "en": "7 December 1988: the 800-year-old farmhouse was razed. The family regards the taking of the house and land as theft of their land.",
+      "es": "7 de diciembre de 1988: arrasaron la casa de 800 años. La familia considera la toma de la casa y de la tierra un robo de su tierra."
+     },
+     "ev": [
+      "EV-0106",
+      "EV-0108",
+      "EV-0111"
+     ],
+     "cut": "c40"
+    },
+    {
+     "t": {
+      "en": "1989: the official monuments record noted the house as “building destroyed by owners”. Vale councillors authorised legal action against BP over the demolition.",
+      "es": "1989: el registro oficial de monumentos anotó la casa como «edificio destruido por los propietarios». Los concejales del Vale autorizaron acciones legales contra BP por la demolición."
+     },
+     "ev": [
+      "EV-0118",
+      "EV-0117"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc_g6",
+   "title": {
+    "en": "The press narrative",
+    "es": "El relato de la prensa"
+   },
+   "items": [
+    {
+     "t": {
+      "en": "29 April 1988: the South Wales Echo told readers that Mary had “fought and lost three previous High Court cases claiming she was the rightful owner”. No court had ever decided that question.",
+      "es": "29 de abril de 1988: el South Wales Echo contó a sus lectores que Mary había «peleado y perdido tres juicios en el Tribunal Superior reclamando ser la legítima dueña». Ningún tribunal había decidido jamás esa cuestión."
+     },
+     "ev": [
+      "EV-0088",
+      "EV-0080"
+     ],
+     "cut": "c35"
+    },
+    {
+     "t": {
+      "en": "The headline was “Chainsaw farmer”. The story became a man at a door, not a title nobody had read.",
+      "es": "El titular fue «el granjero de la motosierra». La noticia pasó a ser un hombre en una puerta, no un título que nadie había leído."
+     },
+     "ev": [
+      "EV-0089"
+     ],
+     "cut": "c35"
+    },
+    {
+     "t": {
+      "en": "BP's spokesman gave the press BP's account. The family's papers had been gone for over thirty years.",
+      "es": "El portavoz de BP dio a la prensa la versión de BP. Los papeles de la familia llevaban más de treinta años desaparecidos."
+     },
+     "ev": [
+      "EV-0089",
+      "EV-0026"
+     ],
+     "cut": "c35"
+    },
+    {
+     "t": {
+      "en": "6 December 1988: the Western Mail named BP Properties as “the owners of the land”, as plain fact.",
+      "es": "6 de diciembre de 1988: el Western Mail llamó a BP Properties «los dueños de la tierra», como un hecho sin más."
+     },
+     "ev": [
+      "EV-0105"
+     ],
+     "cut": "c39"
+    },
+    {
+     "t": {
+      "en": "“Evicted farmer” became the family's name in the headlines that followed.",
+      "es": "«Granjero desalojado» pasó a ser el nombre de la familia en los titulares que siguieron."
+     },
+     "ev": [
+      "EV-0097",
+      "EV-0116"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc_g7",
+   "title": {
+    "en": "Later legal-review narratives",
+    "es": "Los relatos jurídicos posteriores"
+   },
+   "items": [
+    {
+     "t": {
+      "en": "The Court of Appeal wrote that BP had “the paper title” and had been registered proprietor since November 1982. Registration was read as ownership, and every later account copied it.",
+      "es": "El Tribunal de Apelación escribió que BP tenía «el título documental» y era titular registral desde noviembre de 1982. La inscripción se leyó como propiedad, y todos los relatos posteriores lo copiaron."
+     },
+     "ev": [
+      "EV-0080"
+     ],
+     "cut": "c32"
+    },
+    {
+     "t": {
+      "en": "The case lives on in the law reports, (1988) 55 P&CR 337 and [1987] 2 EGLR 168, as an adverse-possession case: the law written for squatters. In the law books the family became the squatters on their own land.",
+      "es": "El caso sigue vivo en los repertorios jurídicos, (1988) 55 P&CR 337 y [1987] 2 EGLR 168, como un caso de usucapión contra el dueño: el derecho escrito para los okupas. En los libros de derecho, la familia pasó a ser okupa en su propia tierra."
+     },
+     "ev": [
+      "EV-0080"
+     ]
+    },
+    {
+     "t": {
+      "en": "Strasbourg's 1989 decision repeated the British courts' view that the property “belonged to another”.",
+      "es": "La decisión de Estrasburgo de 1989 repitió la visión de los tribunales británicos de que la propiedad «era de otro»."
+     },
+     "ev": [
+      "EV-0122"
+     ],
+     "cut": "c34"
+    },
+    {
+     "t": {
+      "en": "2026: the family's complaints that the register is mistaken have gone through HM Land Registry's complaint stages.",
+      "es": "2026: las quejas de la familia de que el registro es erróneo han pasado por las fases de reclamación del Registro de la Propiedad."
+     },
+     "ev": [
+      "EV-0352",
+      "EV-0149"
+     ]
+    }
+   ]
+  }
+ ],
+ "flip": [
+  {
+   "t": {
+    "en": "Bute was lord of the manor. A lordship is a title over the manor, not freehold of the land under it. The Bute court leet and court baron for Llandough were still meeting in the village between 1904 and 1917.",
+    "es": "Bute era señor del señorío. Un señorío es un título sobre el señorío, no el dominio pleno de la tierra que hay debajo. El tribunal señorial de Bute para Llandough aún se reunía en el pueblo entre 1904 y 1917."
+   },
+   "ev": [
+    "EV-0283",
+    "EV-0243",
+    "EV-0278"
+   ]
+  },
+  {
+   "t": {
+    "en": "A rent-book or rental entry for a Williams does not say which parcel was being paid for unless it names the Tŷ Mawr house parcel. None produced so far names it.",
+    "es": "Una anotación en un libro de rentas a nombre de un Williams no dice qué parcela se pagaba, salvo que nombre la parcela de la casa de Tŷ Mawr. Ninguna de las aportadas hasta ahora la nombra."
+   },
+   "ev": [
+    "EV-0278",
+    "EV-0014"
+   ]
+  },
+  {
+   "t": {
+    "en": "The 1939 plan shows the fields only. The house parcel is not on it. The family's case: the house parcel was never part of what was let.",
+    "es": "El plano de 1939 muestra solo los campos. La parcela de la casa no aparece. El caso de la familia: la parcela de la casa nunca formó parte de lo arrendado."
+   },
+   "ev": [
+    "EV-0023"
+   ]
+  },
+  {
+   "t": {
+    "en": "The 1938 deed is known only from mentions in later records. Nobody has shown the deed, its schedule or its plan.",
+    "es": "La escritura de 1938 solo se conoce por menciones en documentos posteriores. Nadie ha mostrado la escritura, su anexo ni su plano."
+   },
+   "ev": [
+    "EV-0019",
+    "EV-0216",
+    "EV-0022"
+   ]
+  },
+  {
+   "t": {
+    "en": "BP was registered proprietor from 1982/83. It was never shown to own by a deed in hand. Registration was not challenged because Mary was not told, and the Registry was not told of her claim and dispute.",
+    "es": "BP fue titular registral desde 1982/83. Nunca se demostró que fuera dueña con una escritura en la mano. La inscripción no se impugnó porque a Mary no se le comunicó, y al Registro no se le informó de su reclamación ni del litigio."
+   },
+   "ev": [
+    "EV-0066",
+    "EV-0059",
+    "EV-0080"
+   ]
+  },
+  {
+   "t": {
+    "en": "The courts treated BP as owner. The family's case is that the courts were never shown the full picture: not the 1938 deed, not the 1939 plan's limits, not the missing family papers, and not a hearing of the 1974 ownership plea.",
+    "es": "Los tribunales trataron a BP como dueña. El caso de la familia es que a los tribunales nunca se les mostró el cuadro completo: ni la escritura de 1938, ni los límites del plano de 1939, ni los papeles familiares desaparecidos, ni una vista del alegato de propiedad de 1974."
+   },
+   "ev": [
+    "EV-0080",
+    "EV-0049",
+    "EV-0026"
+   ]
+  }
+ ],
+ "ask": [
+  {
+   "t": {
+    "en": "Reopen BP Properties Ltd v Buckler, on the records that were never before the courts.",
+    "es": "Que se reabra BP Properties Ltd v Buckler, a la luz de los documentos que nunca tuvieron delante los tribunales."
+   },
+   "ev": [
+    "EV-0080",
+    "EV-0049"
+   ]
+  },
+  {
+   "t": {
+    "en": "Correct the register: titles WA231076 and WA240304 were first registered without Mary being told and without her claim being known to the Registry.",
+    "es": "Que se corrija el registro: los títulos WA231076 y WA240304 se inscribieron por primera vez sin avisar a Mary y sin que el Registro conociera su reclamación."
+   },
+   "ev": [
+    "EV-0352",
+    "EV-0066"
+   ]
+  },
+  {
+   "t": {
+    "en": "Produce the 1938 deed and plan, the 1974 county-court file and the 1983 first-registration files.",
+    "es": "Que se presenten la escritura y el plano de 1938, el expediente del juzgado de condado de 1974 y los expedientes de la primera inscripción de 1983."
+   },
+   "ev": [
+    "EV-0019",
+    "EV-0049",
+    "EV-0065"
+   ]
+  },
+  {
+   "t": {
+    "en": "Recognition: that the Williams family held Tŷ Mawr alias Cedfin as its own, and that the house was destroyed while its listing was still being decided.",
+    "es": "Reconocimiento: que la familia Williams tuvo Tŷ Mawr, alias Cedfin, como propia, y que la casa fue destruida mientras aún se decidía su catalogación."
+   },
+   "ev": [
+    "EV-0096",
+    "EV-0106"
+   ]
+  }
+ ],
+ "ev_paths": {
+  "EV-0014": "/research/evidence/ev-0014-bute-tenancy-john-williams-1916/",
+  "EV-0019": "/research/evidence/ev-0019-bute-wgr-conveyance-plan-1938/",
+  "EV-0022": "/research/evidence/ev-0022-press-1938-bute-wgr-sale-completion/",
+  "EV-0023": "/research/evidence/ev-0023-1939-wgr-john-williams-tenancy-plan/",
+  "EV-0025": "/research/evidence/ev-0025-frederick-buckler-unwritten-tenancy-1949/",
+  "EV-0026": "/research/evidence/ev-0026-family-title-papers-removed-blanket-box/",
+  "EV-0030": "/research/evidence/ev-0030-cardiff-county-court-registers-aca/",
+  "EV-0032": "/research/evidence/ev-0032-1955-order-14-possession-order/",
+  "EV-0034": "/research/evidence/ev-0034-writ-possession-execution-return-1955/",
+  "EV-0035": "/research/evidence/ev-0035-western-mail-1958-leckwith-common-hearing/",
+  "EV-0037": "/research/evidence/ev-0037-western-mail-1958-crichel-down/",
+  "EV-0039": "/research/evidence/ev-0039-wgr-tenancy-offers-1959-1965/",
+  "EV-0040": "/research/evidence/ev-0040-1961-wgr-brick-tile-deed/",
+  "EV-0041": "/research/evidence/ev-0041-cardiff-county-court-possession-order-1962/",
+  "EV-0043": "/research/evidence/ev-0043-wgr-bp-pension-trust-conveyance/",
+  "EV-0044": "/research/evidence/ev-0044-vg41-village-green-registration-1970/",
+  "EV-0046": "/research/evidence/ev-0046-1972-outline-planning-permission-ownership-certificate/",
+  "EV-0049": "/research/evidence/ev-0049-mary-williams-plea-ownership-pleadings/",
+  "EV-0050": "/research/evidence/ev-0050-1974-bp-licence-letters/",
+  "EV-0052": "/research/evidence/ev-0052-bp-pension-trust-bp-properties-conveyance/",
+  "EV-0059": "/research/evidence/ev-0059-wa231076-form-a13-first-registration/",
+  "EV-0065": "/research/evidence/ev-0065-wa240304-farmhouse-first-registration-file/",
+  "EV-0066": "/research/evidence/ev-0066-hmlr-wa240304-item-10-register-1983/",
+  "EV-0067": "/research/evidence/ev-0067-mary-doreen-williams-death-index/",
+  "EV-0069": "/research/evidence/ev-0069-hmlr-wa240304-item-7-d23-1983/",
+  "EV-0070": "/research/evidence/ev-0070-hmlr-wa240304-item-4-correspondence-1983/",
+  "EV-0074": "/research/evidence/ev-0074-high-court-trial-judgment-1986/",
+  "EV-0075": "/research/evidence/ev-0075-south-wales-echo-1986-high-court-judgment/",
+  "EV-0076": "/research/evidence/ev-0076-house-of-lords-petition-leave-papers/",
+  "EV-0078": "/research/evidence/ev-0078-1987-title-amalgamation-application-plan/",
+  "EV-0080": "/research/evidence/ev-0080-bp-properties-v-buckler-judgment/",
+  "EV-0088": "/research/evidence/ev-0088-south-wales-echo-buckler-dispute-1988/",
+  "EV-0089": "/research/evidence/ev-0089-chainsaw-farmer-vows-fight-on/",
+  "EV-0093": "/research/evidence/ev-0093-estates-gazette-1988-bp-welsh-sales/",
+  "EV-0096": "/research/evidence/ev-0096-cadw-1988-inspection-photographs-listing/",
+  "EV-0097": "/research/evidence/ev-0097-echo-angry-scenes-farmer-evicted/",
+  "EV-0098": "/research/evidence/ev-0098-south-wales-echo-forced-entry-1988/",
+  "EV-0101": "/research/evidence/ev-0101-echo-extract-hospital-assault-charges/",
+  "EV-0102": "/research/evidence/ev-0102-billys-unhappy-family-echo-1988/",
+  "EV-0104": "/research/evidence/ev-0104-south-wales-echo-extract-1988/",
+  "EV-0105": "/research/evidence/ev-0105-western-mail-final-eviction-hearing-1988/",
+  "EV-0106": "/research/evidence/ev-0106-tears-flow-farmhouse-razed-1988/",
+  "EV-0108": "/research/evidence/ev-0108-south-wales-echo-bp-demolition-anger/",
+  "EV-0111": "/research/evidence/ev-0111-echo-readers-letter-bulldozed-report/",
+  "EV-0115": "/research/evidence/ev-0115-charge-against-evicted-farmer-dropped/",
+  "EV-0116": "/research/evidence/ev-0116-echo-bail-change-evicted-farmer/",
+  "EV-0117": "/research/evidence/ev-0117-south-wales-echo-1989-vale-legal-action/",
+  "EV-0118": "/research/evidence/ev-0118-smr-record-card-1989-building-destroyed/",
+  "EV-0122": "/research/evidence/ev-0122-echr-application-14464-88-inadmissibility/",
+  "EV-0124": "/research/evidence/ev-0124-outline-planning-permission-89-01396-out-residenti/",
+  "EV-0127": "/research/evidence/ev-0127-planning-application-form-d-for-approval-of-reserv/",
+  "EV-0149": "/research/evidence/ev-0149-hmlr-stage-one-complaint-decision/",
+  "EV-0216": "/research/evidence/ev-0216-1965-contract-condition-f-conveyance-25-december-1938/",
+  "EV-0232": "/research/evidence/ev-0232-commons-registration-glamorgan-act-1983/",
+  "EV-0243": "/research/evidence/ev-0243-barry-dock-news-1908-court-leet-john-williams-great-house/",
+  "EV-0263": "/research/evidence/ev-0263-commons-registration-1965-publicity-glamorgan-notices-vg41/",
+  "EV-0270": "/research/evidence/ev-0270-bp-pension-fund-1988-sale-intercontinental-law-llandough-press/",
+  "EV-0278": "/research/evidence/ev-0278-nlw-bute-estate-records-llandough-manor-rentals-1808-1881-r-6-27-45-and-presentmen/",
+  "EV-0283": "/research/evidence/ev-0283-bute-court-leet-at-llandough-press-reports-1904-1917-john-williams-on-the-1910-gra/",
+  "EV-0287": "/research/evidence/ev-0287-london-gazette-31-oct-1958-p-6652-the-city-of-cardiff-leckwith-common-compulsory-p/",
+  "EV-0352": "/research/evidence/ev-0352-hm-land-registry-subject-stage-two-complaint-title-wa231076-asserted-mistake-in-the-reg/"
+ }
+}

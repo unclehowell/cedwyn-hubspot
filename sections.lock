@@ -1,0 +1,45 @@
+{
+ "note": "Pinned commits of the section snapshot branches the build reads (tools/assemble.py). sections-ci.yml updates an entry when its branch moves. See work/cedwyn-arch/SCOPE.md — Sion's Tab agent",
+ "sections": {
+  "app": {
+   "branch": "section/app",
+   "pinned_utc": "2026-10-26T19:41:29Z",
+   "sha": "00c880d2e4dfae68915b344a0f053c89866e679a"
+  },
+  "chat": {
+   "branch": "section/chat",
+   "pinned_utc": "2026-10-26T19:41:29Z",
+   "sha": "3bf81b91c580f0266e1425bf799377e4120d60a0"
+  },
+  "cyberspace": {
+   "branch": "section/cyberspace",
+   "pinned_utc": "2026-11-01T00:30:00Z",
+   "sha": "a4713e3dfeb39c5aa7cc319b568ef8144538c23e"
+  },
+  "estate": {
+   "branch": "section/estate",
+   "pinned_utc": "2026-10-26T19:41:29Z",
+   "sha": "fd2c87a41b5cbed72ab5a85dd04485dead7532e1"
+  },
+  "fcg": {
+   "branch": "section/fcg",
+   "pinned_utc": "2026-10-26T19:41:29Z",
+   "sha": "579673b1f2874d991bd6501a6500e4296292951d"
+  },
+  "patagonia": {
+   "branch": "section/patagonia",
+   "sha": "bfa8e37c44a45f799c855e80b4f2c44166f5899b",
+   "pinned_utc": "2026-10-31T20:51:31Z"
+  },
+  "research": {
+   "branch": "section/research",
+   "pinned_utc": "2026-10-31T20:08:54Z",
+   "sha": "cee5f9a8197a0809a71623c670ae5e2f65b4b826"
+  },
+  "wiki": {
+   "branch": "section/wiki",
+   "pinned_utc": "2026-10-31T20:09:09Z",
+   "sha": "41901ec7aee47cc9de5f9958cd96a9393f35e451"
+  }
+ }
+}

@@ -1,0 +1,229 @@
+{
+  "schema": "cedwyn_observations/v1",
+  "editorial_rule": "An observation is a derived research record, not an original artifact. It must identify the source artifacts it relies on, distinguish independent origins from repeated recitals or copies, and state limits and tests that could weaken or disconfirm it.",
+  "items": [
+    {
+      "id": "OBS-0001",
+      "slug": "twelve-year-period-recurrence",
+      "seq": 1,
+      "title": "The twelve-year period recurs across the land ownership and possession dispute",
+      "theme": "wiki",
+      "observation_type": "chronological_pattern",
+      "status": "working_observation",
+      "summary": "Twelve years recurs as a legally significant period and as a useful interval to test against the dispute chronology. The recurrence is a pattern for investigation, not a conclusion that every twelve-year interval had the same legal cause or effect.",
+      "analysis": "Separate each proposed interval into its start date, end date, land or parcel concerned, person in possession, asserted legal basis, governing statutory regime, and the event said to start, pause, interrupt or complete the period. Distinguish the statutory rule from dates supplied by judgments, family accounts, registers or later summaries.",
+      "limits": "Repeated references to twelve years do not themselves prove adverse possession, ownership, wrongdoing, or a legally effective interruption. The relevant period and legal rule must be tested claim by claim. Where an earlier order is known only from the 1987 judgment, that is one documentary origin for the recital, not an independently inspected copy of the order.",
+      "test_questions": [
+        "For each proposed twelve-year interval, what is the exact start and end date, and which parcel does it concern?",
+        "Which original record supports each date, and is it independent of a later judgment that repeats it?",
+        "Which statutory rule applied at the time, and what documented event is said to interrupt or alter the period?",
+        "Which intervals fail to reach twelve years, or reach twelve years without the claimed legal consequence?"
+      ],
+      "refs": [
+        {
+          "ev": "EV-0617",
+          "path": "/research/evidence/ev-0617-twelve-year-limitation-rule-1879-1940/",
+          "role": "legal reference",
+          "note": "Legal-research entry; statutory text/application require separate checking."
+        },
+        {
+          "ev": "EV-0080",
+          "path": "/research/evidence/ev-0080-bp-properties-v-buckler-judgment/",
+          "role": "judgment",
+          "note": "Primary source for the Court of Appeal's reasoning and its recitals."
+        },
+        {
+          "ev": "EV-0032",
+          "path": "/research/evidence/ev-0032-1955-order-14-possession-order/",
+          "role": "judgment recital",
+          "note": "current catalogue grade records the 1955 order is known through EV-0080, not as an independently inspected order."
+        },
+        {
+          "ev": "EV-0034",
+          "path": "/research/evidence/ev-0034-writ-possession-execution-return-1955/",
+          "role": "judgment recital",
+          "note": "current catalogue note records the execution is known through EV-0080; the return itself is not held."
+        },
+        {
+          "ev": "EV-0041",
+          "path": "/research/evidence/ev-0041-cardiff-county-court-possession-order-1962/",
+          "role": "judgment recital",
+          "note": "current catalogue grade records the order is known through EV-0080."
+        },
+        {
+          "ev": "EV-0049",
+          "path": "/research/evidence/ev-0049-mary-williams-plea-ownership-pleadings/",
+          "role": "judgment recital",
+          "note": "The current catalogue note records the 1974 county-court file has not been read."
+        }
+      ]
+    },
+    {
+      "id": "OBS-0002",
+      "slug": "permissive-occupancy-framing",
+      "seq": 2,
+      "title": "Repeated treatment of Mary Williams’s occupation as permissive",
+      "theme": "wiki",
+      "observation_type": "documentary_pattern",
+      "status": "working_observation",
+      "summary": "Several catalogue entries concern the legal characterization of Mary Williams’s occupation as permissive, including accounts of earlier proceedings and later registration. The pattern warrants comparing the wording, date, source and independence of each occurrence.",
+      "analysis": "For each occurrence, record who used the characterization, when, in which document or proceeding, what parcel it referred to, and whether the statement is first-hand evidence, a party's case, a court's finding, a registry entry, or a later repetition. Treat the 1987 judgment and items known only through that judgment as one documentary origin for the recited material. Compare that language with any separately held licence correspondence, title-registration file, possession orders and pleadings before drawing conclusions.",
+      "limits": "This observation does not establish that any person deliberately tried to mischaracterize the occupation. Similar wording may arise from one judgment being repeated in later summaries or records. Motive, dishonesty and legal effect require separate evidence; gaps in the record are not proof of concealment.",
+      "test_questions": [
+        "Which records first use the term “permissive”, and what exact wording do they contain?",
+        "Is each occurrence an independent record, or is it a recital copied from EV-0080 or another source?",
+        "Does the text concern the same land parcel and time period in each instance?",
+        "What original document or contrary record would support or weaken this working observation?"
+      ],
+      "related_page": "/wiki/claim-repeated-attempts-to-make-mary-williams-occupancy-of-parcel-a-appear-permissive/",
+      "refs": [
+        {
+          "ev": "EV-0025",
+          "path": "/research/evidence/ev-0025-frederick-buckler-unwritten-tenancy-1949/",
+          "role": "judgment recital",
+          "note": "current catalogue grade records it is known through EV-0080, not independently of that judgment."
+        },
+        {
+          "ev": "EV-0032",
+          "path": "/research/evidence/ev-0032-1955-order-14-possession-order/",
+          "role": "judgment recital",
+          "note": "Underlying 1955 order not independently inspected in this catalogue."
+        },
+        {
+          "ev": "EV-0034",
+          "path": "/research/evidence/ev-0034-writ-possession-execution-return-1955/",
+          "role": "judgment recital",
+          "note": "Execution return itself is not held as recorded in the current catalogue note."
+        },
+        {
+          "ev": "EV-0041",
+          "path": "/research/evidence/ev-0041-cardiff-county-court-possession-order-1962/",
+          "role": "judgment recital",
+          "note": "Underlying order not independently inspected in this catalogue."
+        },
+        {
+          "ev": "EV-0049",
+          "path": "/research/evidence/ev-0049-mary-williams-plea-ownership-pleadings/",
+          "role": "pleadings / judgment recital",
+          "note": "current catalogue note records the 1974 file has not been read."
+        },
+        {
+          "ev": "EV-0050",
+          "path": "/research/evidence/ev-0050-1974-bp-licence-letters/",
+          "role": "licence correspondence reference",
+          "note": "Distinguish the underlying letters from the Court of Appeal's account of them."
+        },
+        {
+          "ev": "EV-0065",
+          "path": "/research/evidence/ev-0065-wa240304-farmhouse-first-registration-file/",
+          "role": "registration file reference",
+          "note": "current catalogue note records the instrument was recited in a register/schedule, not read."
+        },
+        {
+          "ev": "EV-0080",
+          "path": "/research/evidence/ev-0080-bp-properties-v-buckler-judgment/",
+          "role": "judgment",
+          "note": "Track which statements are the court's findings and which are recitals of earlier events."
+        }
+      ]
+    },
+    {
+      "id": "OBS-0003",
+      "slug": "names-spellings-and-dispersed-records",
+      "seq": 3,
+      "title": "Name variants and dispersed records complicate the chronology",
+      "theme": "wiki",
+      "observation_type": "cataloguing_pattern",
+      "status": "working_observation",
+      "summary": "The property and estate appear under multiple names and spellings, while relevant records are spread across different registers, archive catalogues, maps and web themes. That creates a genuine difficulty in linking records and retelling the chronology consistently.",
+      "analysis": "Maintain the exact spelling found in each source, its date, the feature it labels, the archive or register in which it appears, and the reason it has been linked to the Tŷ Mawr / Great House Farm research. Keep uncertain matches visible. The nomenclature index identifies forms including “Cedfin”, “Cydfin”, “Ty Mawr Farm”, “Ty-mawr”, “Great House Farm” and “Cedwyn”; these forms should not automatically be treated as interchangeable in every historical context.",
+      "limits": "Name variation and dispersion explain a cataloguing and chronology problem; they do not by themselves demonstrate deliberate concealment. Similar names can refer to distinct places, and a later catalogue description is not a substitute for the original map, register or deed.",
+      "test_questions": [
+        "Which source uses each form, and what date can actually be assigned to it?",
+        "Does the original record name the same building, holding, estate, field or parish?",
+        "Are two entries independent records, duplicate descriptions, or archive catalogue copies of the same item?",
+        "Which proposed links should remain uncertain until a map or original instrument is examined?"
+      ],
+      "refs": [
+        {
+          "ev": "EV-0211",
+          "path": "/research/evidence/ev-0211-db-e-1-plan-19-cedfin-ty-mawr-1824/",
+          "role": "dated name form",
+          "note": "The current name index quotes “Cedfin or Ty Mawr Farm” from the 1824 survey; original plan review remains necessary."
+        },
+        {
+          "ev": "EV-0252",
+          "path": "/research/evidence/ev-0252-tna-os-35-2503-object-name-book-glamorgan-47-nw/",
+          "role": "Ordnance Survey name record",
+          "note": "Compare the object name book with the relevant OS sheet and its revision/publication details."
+        },
+        {
+          "path": "/nomenclature/c/great-house-farm/",
+          "role": "name index",
+          "note": "Secondary index of recorded variants; follow its source links for the original records."
+        },
+        {
+          "path": "/nomenclature/c/cedwyn-estate/",
+          "role": "estate-name index",
+          "note": "Keeps the wider estate name distinct from individual farm/building names."
+        }
+      ]
+    },
+    {
+      "id": "OBS-0004",
+      "slug": "alfred-thomas-death-1927-and-mary-williams-1928-rent",
+      "seq": 4,
+      "title": "Alfred Thomas’s 1927 death conflicts with Mary Williams’s remembered 1928 rent payment",
+      "theme": "wiki",
+      "observation_type": "chronology_and_title_chain",
+      "status": "working_observation",
+      "summary": "Mary (Nancy) Williams’s c.1974 statement places the last rent payment, about £4 per annum, in 1928 and names “Alfred Thomas the son of Daniel Thomas” as recipient. The Dictionary of Welsh Biography records Alfred Thomas, 1st Baron Pontypridd, as dying unmarried on 14 December 1927. A separate, secondary transcription of a 27 December 1927 newspaper report says an unofficial report had the bulk of his property going to Cardiff Corporation and citizens. The conflict is material, but neither the actual 1928 payee nor any Llandough land passing under Alfred’s estate is established.",
+      "analysis": "Keep the evidence strands separate. First, verify the death and identity through the Dictionary of Welsh Biography and its cited contemporary sources. Second, preserve Mary’s exact statement and her assertion that she saw the receipt, while cataloguing the receipt itself as pending/not located. Third, establish whether the 1928 payment was actually made to an estate, executor, authorised agent, or another person; do not silently rewrite Mary’s wording. Fourth, inspect the original newspaper report, will, grant and estate accounts before interpreting the Cardiff Corporation bequest. The phrase “bulk of his property” does not identify assets or prove that a Llandough parcel was included. The absence of a located transfer to Cardiff Corporation does not prove that no property passed. The 23 February 1905 Bute-to-Cardiff Corporation conveyance is a separate title-chain lead and may explain the Corporation’s later appearance independently of Alfred’s estate. Also compare the 10 November 1925 quarry-plant/tramline sale catalogue (DSA/12/4888), the 1927 obituary wording that the limeworks were carried on by Alfred and then given up, the 1877 Bute–Thomas instrument, and the later Court of Appeal recital of rent arrears/1953 payment. Each source has a different evidential role; no one item resolves the conflict.",
+      "limits": "This is a research observation, not a finding of fraud, concealment, inheritance or ownership. The receipt, 1877 instrument/plan, original 1927 newspaper, will, grant and relevant estate/rent accounts have not been inspected here. The press report is expressly unofficial in the transcription. Do not claim Alfred personally received a payment after his death; do not claim Cardiff Corporation inherited or did not inherit the Great House Farm land without asset-specific proof.",
+      "test_questions": [
+        "Can the original 1928 rent receipt or rent book be located, and what exact date, payee, collecting person, amount and land description does it show?",
+        "What is the exact identity of the Alfred Thomas named by Mary, and is it securely the Alfred who died on 14 December 1927?",
+        "What do the original 1927 newspaper report, Alfred’s will, the grant and estate accounts actually say about beneficiaries and assets?",
+        "Does the 1928 grant/Gazette reference (reported as 8 March 1928; Gazette notice reportedly 30 March 1928, p.2387) verify on inspection?",
+        "Do Cardiff Corporation’s deeds/property registers or 1928 minutes record land or a property interest at Llandough received from Alfred’s estate?",
+        "What does the separate 23 February 1905 Bute-to-Cardiff Corporation conveyance and plan cover, and is it sufficient to explain the Corporation’s later appearance?",
+        "Does the original 1877 Bute–Thomas instrument identify a reverter, rent mechanism, parcel extent or quarrying condition that explains the remembered 1928 change?",
+        "How do the Court of Appeal’s rent-arrears and 1953-payment references map to the actual parcel and tenancy?"
+      ],
+      "related_page": "/wiki/evidence/ev-0284-alfred-thomas-lord-pontypridd-son-of-daniel-thomas-of-the-llandough-lime-works-die/",
+      "refs": [
+        {
+          "ev": "EV-0284",
+          "path": "/research/evidence/ev-0284-alfred-thomas-lord-pontypridd-son-of-daniel-thomas-of-the-llandough-lime-works-die/",
+          "role": "death and secondary estate-report lead",
+          "note": "Death supported by the Dictionary of Welsh Biography; estate report remains an unverified secondary transcription."
+        },
+        {
+          "ev": "EV-0016",
+          "path": "/research/evidence/ev-0016-1928-last-rent-receipt-quarrying/",
+          "role": "missing receipt / family testimony",
+          "note": "Mary's statement says she saw a receipt; the receipt itself is not located."
+        },
+        {
+          "ev": "EV-0006",
+          "path": "/research/evidence/ev-0006-bute-daniel-thomas-1877-agreement/",
+          "role": "reported 1877 instrument",
+          "note": "Instrument and plan remain unlocated; terms and extent require inspection."
+        },
+        {
+          "ev": "EV-0280",
+          "path": "/research/evidence/ev-0280-lime-works/",
+          "role": "quarrying context",
+          "note": "Use only for the wording actually preserved in the catalogue; verify the original obituary/record."
+        },
+        {
+          "ev": "EV-0080",
+          "path": "/research/evidence/ev-0080-bp-properties-v-buckler-judgment/",
+          "role": "later judgment",
+          "note": "Court recital; map rent arrears and 1953 payment to parcel/tenancy and distinguish recitals from independently held records."
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-10-30"
+}

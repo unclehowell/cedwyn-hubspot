@@ -1,0 +1,446 @@
+[
+ {
+  "page": "/research/evidence/cadw-welsh-government-correspondence",
+  "before": 238958,
+  "after": 68595,
+  "chunks": 3
+ },
+ {
+  "page": "/research/evidence/glamorgan-archives-correspondence",
+  "before": 232953,
+  "after": 67067,
+  "chunks": 3
+ },
+ {
+  "page": "/research/evidence/hm-land-registry-correspondence",
+  "before": 231282,
+  "after": 67391,
+  "chunks": 3
+ },
+ {
+  "page": "/research/evidence",
+  "before": 331254,
+  "after": 283241,
+  "chunks": 1
+ },
+ {
+  "page": "/research/evidence/mps-parliament-correspondence",
+  "before": 157859,
+  "after": 70096,
+  "chunks": 2
+ },
+ {
+  "page": "/research/evidence/museum-wales-heneb-correspondence",
+  "before": 233249,
+  "after": 71343,
+  "chunks": 3
+ },
+ {
+  "page": "/research/evidence/national-archives-correspondence",
+  "before": 201788,
+  "after": 73201,
+  "chunks": 2
+ },
+ {
+  "page": "/research/evidence/national-library-of-wales-correspondence",
+  "before": 186299,
+  "after": 68298,
+  "chunks": 2
+ },
+ {
+  "page": "/research/evidence/rcahmw-correspondence",
+  "before": 164336,
+  "after": 67492,
+  "chunks": 2
+ },
+ {
+  "page": "/research/evidence/vale-of-glamorgan-council-correspondence",
+  "before": 320669,
+  "after": 74029,
+  "chunks": 4
+ },
+ {
+  "page": "/research/records-access-chronology/foi-reply-register/vale-of-glamorgan-council-email-correspondence-catalogue",
+  "before": 214027,
+  "after": 67467,
+  "chunks": 3
+ },
+ {
+  "page": "/research/records-access-chronology/foi-reply-register/vale-of-glamorgan-council-email-correspondence-catalogue-part-2",
+  "before": 186882,
+  "after": 84469,
+  "chunks": 2
+ },
+ {
+  "page": "/research/records-access-chronology/foi-reply-register/welsh-government-and-cadw-email-correspondence-catalogue-part-2",
+  "before": 150363,
+  "after": 69983,
+  "chunks": 2
+ },
+ {
+  "page": "/research/records-access-chronology/foi-reply-register/welsh-government-and-cadw-email-correspondence-catalogue-part-3",
+  "before": 150945,
+  "after": 76363,
+  "chunks": 2
+ },
+ {
+  "page": "/research/timeline",
+  "before": 210393,
+  "after": 107448,
+  "chunks": 2
+ },
+ {
+  "page": "/wiki/1877-agreement",
+  "before": 172894,
+  "after": 166925,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/1990-ggat-archaeological-assessment-great-house-farm-llandough-transcription",
+  "before": 158465,
+  "after": 149943,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/ai-agent-index",
+  "before": 157668,
+  "after": 155289,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads",
+  "before": 163224,
+  "after": 161846,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/archaeology",
+  "before": 156342,
+  "after": 152504,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/bp-properties-v-buckler",
+  "before": 163675,
+  "after": 151991,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/evidence/bp-correspondence",
+  "before": 161975,
+  "after": 161742,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/evidence/cadw-welsh-government-correspondence",
+  "before": 326093,
+  "after": 155286,
+  "chunks": 3
+ },
+ {
+  "page": "/wiki/evidence/disclosure-record-email-requests",
+  "before": 219905,
+  "after": 157749,
+  "chunks": 2
+ },
+ {
+  "page": "/wiki/evidence/glamorgan-archives-correspondence",
+  "before": 320076,
+  "after": 154130,
+  "chunks": 3
+ },
+ {
+  "page": "/wiki/evidence/hm-land-registry-correspondence",
+  "before": 318581,
+  "after": 154238,
+  "chunks": 3
+ },
+ {
+  "page": "/wiki/evidence",
+  "before": 368986,
+  "after": 363552,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/evidence/justice-courts-correspondence",
+  "before": 203269,
+  "after": 158041,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/evidence/llandough-community-council-correspondence",
+  "before": 227803,
+  "after": 160153,
+  "chunks": 2
+ },
+ {
+  "page": "/wiki/evidence/mps-parliament-correspondence",
+  "before": 244638,
+  "after": 156809,
+  "chunks": 2
+ },
+ {
+  "page": "/wiki/evidence/museum-wales-heneb-correspondence",
+  "before": 320130,
+  "after": 158544,
+  "chunks": 3
+ },
+ {
+  "page": "/wiki/evidence/national-archives-correspondence",
+  "before": 288606,
+  "after": 159971,
+  "chunks": 2
+ },
+ {
+  "page": "/wiki/evidence/national-library-of-wales-correspondence",
+  "before": 269966,
+  "after": 155273,
+  "chunks": 2
+ },
+ {
+  "page": "/wiki/evidence/rcahmw-correspondence",
+  "before": 251472,
+  "after": 154579,
+  "chunks": 2
+ },
+ {
+  "page": "/wiki/evidence/senedd-correspondence",
+  "before": 208520,
+  "after": 156219,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/evidence/south-wales-police-correspondence",
+  "before": 194688,
+  "after": 158368,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/evidence/vale-of-glamorgan-council-correspondence",
+  "before": 406497,
+  "after": 161192,
+  "chunks": 4
+ },
+ {
+  "page": "/wiki/evidence/whatdotheyknow-correspondence",
+  "before": 185821,
+  "after": 151270,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/evidence-library/new-archival-leads-bute-archive-1793-manor-ty-mawr-plans-1983-registration",
+  "before": 155129,
+  "after": 153701,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/evidence-library/press-archive-transcripts",
+  "before": 183194,
+  "after": 155191,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki",
+  "before": 262772,
+  "after": 162062,
+  "chunks": 2
+ },
+ {
+  "page": "/wiki/main-page",
+  "before": 193959,
+  "after": 172472,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/mary-williams-statement",
+  "before": 161176,
+  "after": 157733,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/media-gallery",
+  "before": 157195,
+  "after": 154692,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/project-management/damages/reparations-schedule",
+  "before": 164801,
+  "after": 159858,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/project-management/foi-records-requests-status-forward-plan",
+  "before": 159535,
+  "after": 156574,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/project-management/llandough-community-council-22-october-2026",
+  "before": 155113,
+  "after": 154974,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/records-access-chronology/foi-reply-register/amgueddfa-cymru-museum-wales-email-correspondence-catalogue",
+  "before": 164579,
+  "after": 151415,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/records-access-chronology/foi-reply-register/ghf-e106-r33-amgueddfa-cymru-reply-further-collections-search-following-8-september-2026-foi",
+  "before": 156018,
+  "after": 153260,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/records-access-chronology/foi-reply-register/hm-land-registry-email-correspondence-catalogue",
+  "before": 218833,
+  "after": 162348,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/records-access-chronology/foi-reply-register",
+  "before": 223205,
+  "after": 149985,
+  "chunks": 2
+ },
+ {
+  "page": "/wiki/records-access-chronology/foi-reply-register/ministry-of-defence-email-correspondence-catalogue",
+  "before": 169976,
+  "after": 151918,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/records-access-chronology/foi-reply-register/south-wales-police-email-correspondence-catalogue",
+  "before": 181234,
+  "after": 156070,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/records-access-chronology/foi-reply-register/south-wales-police-email-correspondence-catalogue-part-2",
+  "before": 176514,
+  "after": 151937,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/records-access-chronology/foi-reply-register/south-wales-police-email-correspondence-catalogue-part-3",
+  "before": 191145,
+  "after": 154505,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/records-access-chronology/foi-reply-register/vale-of-glamorgan-council-email-correspondence-catalogue",
+  "before": 304257,
+  "after": 157648,
+  "chunks": 3
+ },
+ {
+  "page": "/wiki/records-access-chronology/foi-reply-register/vale-of-glamorgan-council-email-correspondence-catalogue-part-2",
+  "before": 272610,
+  "after": 170152,
+  "chunks": 2
+ },
+ {
+  "page": "/wiki/records-access-chronology/foi-reply-register/vale-of-glamorgan-council-email-correspondence-catalogue-part-3",
+  "before": 210952,
+  "after": 155434,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/records-access-chronology/foi-reply-register/welsh-government-and-cadw-email-correspondence-catalogue",
+  "before": 228266,
+  "after": 153558,
+  "chunks": 2
+ },
+ {
+  "page": "/wiki/records-access-chronology/foi-reply-register/welsh-government-and-cadw-email-correspondence-catalogue-part-2",
+  "before": 236185,
+  "after": 155752,
+  "chunks": 2
+ },
+ {
+  "page": "/wiki/records-access-chronology/foi-reply-register/welsh-government-and-cadw-email-correspondence-catalogue-part-3",
+  "before": 238036,
+  "after": 163419,
+  "chunks": 2
+ },
+ {
+  "page": "/wiki/records-access-chronology/source-conflicts-register",
+  "before": 212280,
+  "after": 192510,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/reorg",
+  "before": 195424,
+  "after": 153666,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/scrutiny-and-accountability/case-analysis-connections-patterns-questions",
+  "before": 164560,
+  "after": 151596,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/scrutiny-and-accountability/government-public-authority-involvement/institutional-involvement-roadmap-1877-2026",
+  "before": 171051,
+  "after": 154409,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/scrutiny-and-accountability/government-public-authority-involvement/llandough-community-council-forensic-institutional-review",
+  "before": 173304,
+  "after": 168199,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/scrutiny-and-accountability/government-public-authority-involvement/response-tactics-response-friction-score",
+  "before": 160254,
+  "after": 152344,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/scrutiny-and-accountability/legal-review-fraud-land-human-rights",
+  "before": 206868,
+  "after": 158178,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/scrutiny-and-accountability/master-scrutiny-issue-register",
+  "before": 184306,
+  "after": 161908,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/the-two-parcels/three-parts-of-parcel-a-divergent-chronologies",
+  "before": 221688,
+  "after": 160806,
+  "chunks": 2
+ },
+ {
+  "page": "/wiki/three-part-parcel-a-forensic-scope-title-assessment",
+  "before": 178902,
+  "after": 177940,
+  "chunks": 1
+ },
+ {
+  "page": "/wiki/timeline",
+  "before": 283684,
+  "after": 190010,
+  "chunks": 2
+ },
+ {
+  "page": "/wiki/williams-buckler-family",
+  "before": 166798,
+  "after": 155675,
+  "chunks": 1
+ },
+ {
+  "page": "/projects/archive/site-2026-10-22-pre-programme-dashboard",
+  "before": 331029,
+  "after": 270091,
+  "chunks": 1
+ }
+]

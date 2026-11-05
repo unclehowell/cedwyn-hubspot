@@ -1,0 +1,1218 @@
+{
+ "version": "1.0.1",
+ "generated": "2026-10-31",
+ "note": "Every name the records use for the same thing. Built from the Nomenclature lexicon (/nomenclature/lexicon.json). Only variants with a record, catalogue or secondary source go in the public pop-up; the rest are kept here marked \"not checked\". No dates before 1824 are given for Tŷ Mawr. — Sion's Tab agent",
+ "groups": [
+  {
+   "id": "tymawr",
+   "name": "Tŷ Mawr / Great House",
+   "summary": "Tŷ Mawr (“Great House”): the former manorial house at Llandough near Penarth, demolished in December 1988. First named in the 1824 David Stewart survey of the Bute estates as “Cedfin or Ty Mawr Farm”; the wider estate is known as Cedwyn.",
+   "url": "/nomenclature/c/great-house-farm/",
+   "match": [
+    "Tŷ Mawr",
+    "Ty Mawr Farm",
+    "Ty Mawr",
+    "Ty-mawr",
+    "Great House Farm",
+    "Great House",
+    "Greathouse",
+    "Cedfin",
+    "Cydfin",
+    "Cedwyn",
+    "Cydwin",
+    "Kenfin",
+    "ken fin"
+   ],
+   "variants": [
+    {
+     "variant": "Tŷ Mawr",
+     "canonical": "Tŷ Mawr",
+     "first_record": null,
+     "source_id": null,
+     "status": "name used on Cedwyn",
+     "one_liner": "Welsh for “Great House”: the name Cedwyn uses for the former manorial house at Llandough.",
+     "url": "/nomenclature/c/great-house-farm/",
+     "public": true
+    },
+    {
+     "variant": "Cedfin",
+     "canonical": "Tŷ Mawr",
+     "first_record": "1824",
+     "source_id": "EV-0211",
+     "status": "record",
+     "one_liner": "Spelling in the 1824 David Stewart survey (plan 19: “Cedfin or Ty Mawr Farm”); alias of Tŷ Mawr / Great House.",
+     "url": "/wiki/evidence/ev-0211-db-e-1-plan-19-cedfin-ty-mawr-1824/",
+     "public": true
+    },
+    {
+     "variant": "Ty Mawr Farm",
+     "canonical": "Tŷ Mawr",
+     "first_record": "1824",
+     "source_id": "EV-0211",
+     "status": "record",
+     "one_liner": "Same 1824 survey entry, and HM Land Registry’s wording in its letter of 23 Mar 2026.",
+     "url": "/wiki/evidence/ev-0211-db-e-1-plan-19-cedfin-ty-mawr-1824/",
+     "public": true
+    },
+    {
+     "variant": "Cydfin",
+     "canonical": "Tŷ Mawr",
+     "first_record": null,
+     "source_id": null,
+     "status": "catalogue",
+     "one_liner": "Bute estate catalogue wording (“Cydfin Farm or Ty Mawr Farm”), undated; also in the place name Cwm Cydfin Wood.",
+     "url": "/nomenclature/c/cedwyn-estate/",
+     "public": true
+    },
+    {
+     "variant": "Cedwyn",
+     "canonical": "Tŷ Mawr",
+     "first_record": null,
+     "source_id": null,
+     "status": "name used on Cedwyn",
+     "one_liner": "The name this site uses for the wider historic estate around Tŷ Mawr; the record spellings are Cedfin (1824) and Cydfin.",
+     "url": "/nomenclature/c/cedwyn-estate/",
+     "public": true
+    },
+    {
+     "variant": "Great house",
+     "canonical": "Tŷ Mawr",
+     "first_record": "1868–1901",
+     "source_id": "EV-0225",
+     "status": "record",
+     "one_liner": "Trade-directory wording, 1868–1901: “Williams John, Great house”.",
+     "url": "/wiki/evidence/ev-0225-trade-directories-1868-1901-john-williams-great-house/",
+     "public": true
+    },
+    {
+     "variant": "Greathouse",
+     "canonical": "Tŷ Mawr",
+     "first_record": "1880",
+     "source_id": "EV-0225",
+     "status": "record",
+     "one_liner": "Slater’s directory spelling, 1880.",
+     "url": "/wiki/evidence/ev-0225-trade-directories-1868-1901-john-williams-great-house/",
+     "public": true
+    },
+    {
+     "variant": "Llandough Home Farm",
+     "canonical": "Tŷ Mawr",
+     "first_record": "3 Apr 1881",
+     "source_id": "EV-0224",
+     "status": "record",
+     "one_liner": "Name in the 1881 census (RG11/5288, schedule 9).",
+     "url": "/wiki/evidence/ev-0224-1881-census-llandough-rg11-5288/",
+     "public": true
+    },
+    {
+     "variant": "Ty-mawr",
+     "canonical": "Tŷ Mawr",
+     "first_record": "c.1890s–1900s",
+     "source_id": "EV-0228",
+     "status": "record",
+     "one_liner": "Ordnance Survey 25-inch map spelling, north-west of the church.",
+     "url": "/wiki/evidence/ev-0228-llandough-farm-rees-family-1841-1910/",
+     "public": true
+    },
+    {
+     "variant": "Great House Farm",
+     "canonical": "Tŷ Mawr",
+     "first_record": "c.1945–1955",
+     "source_id": "EV-0155",
+     "status": "record",
+     "one_liner": "The English farm name, in Glamorgan Archives D/D XJF 64/30 and in the Historic Environment Record (GGAT02038s).",
+     "url": "/wiki/evidence/ev-0155-glamorgan-archives-email-june-2026/",
+     "public": true
+    },
+    {
+     "variant": "Ty Mawr",
+     "canonical": "Tŷ Mawr",
+     "first_record": "20 Nov 1958",
+     "source_id": "EV-0037",
+     "status": "record (OCR)",
+     "one_liner": "Newspaper spelling without the circumflex: “Ty Mawr, Penarth Road, Llandough” (Western Mail, 20 Nov 1958).",
+     "url": "/wiki/evidence/ev-0037-western-mail-1958-crichel-down/",
+     "public": true
+    },
+    {
+     "variant": "Ty Mawr (Great House)",
+     "canonical": "Tŷ Mawr",
+     "first_record": "16 Apr 1974",
+     "source_id": "GHF-E090-N03",
+     "status": "record",
+     "one_liner": "Both names side by side, Daily Telegraph, 16 Apr 1974.",
+     "url": "/wiki/evidence-library/press-archive-transcripts/n03-1974-open-day-to-save-ancient-welsh-house/",
+     "public": true
+    },
+    {
+     "variant": "Great House",
+     "canonical": "Tŷ Mawr",
+     "first_record": "16 Apr 1974",
+     "source_id": "GHF-E090-N03",
+     "status": "record",
+     "one_liner": "English translation of Tŷ Mawr, printed beside it in the Daily Telegraph, 16 Apr 1974.",
+     "url": "/wiki/evidence-library/press-archive-transcripts/n03-1974-open-day-to-save-ancient-welsh-house/",
+     "public": true
+    },
+    {
+     "variant": "Kenfin / “ken fin”",
+     "canonical": "Tŷ Mawr",
+     "first_record": null,
+     "source_id": null,
+     "status": "not checked",
+     "one_liner": "Spoken form; no record wording found.",
+     "url": null,
+     "public": false
+    },
+    {
+     "variant": "Cydwin",
+     "canonical": "Tŷ Mawr",
+     "first_record": null,
+     "source_id": "EV-0002",
+     "status": "not checked",
+     "one_liner": "Reported wording; document not held, identity not proved.",
+     "url": null,
+     "public": false
+    },
+    {
+     "variant": "Cedfyn",
+     "canonical": "Tŷ Mawr",
+     "first_record": null,
+     "source_id": null,
+     "status": "not checked",
+     "one_liner": "Search form only.",
+     "url": null,
+     "public": false
+    },
+    {
+     "variant": "Cefin",
+     "canonical": "Tŷ Mawr",
+     "first_record": null,
+     "source_id": null,
+     "status": "not checked",
+     "one_liner": "Search form only.",
+     "url": null,
+     "public": false
+    },
+    {
+     "variant": "Land Doc Home Farm",
+     "canonical": "Tŷ Mawr",
+     "first_record": null,
+     "source_id": "EV-0223",
+     "status": "not checked",
+     "one_liner": "Reported reading of the 1881 census.",
+     "url": null,
+     "public": false
+    },
+    {
+     "variant": "Llandough Church Farm / Church Farm",
+     "canonical": "Tŷ Mawr",
+     "first_record": null,
+     "source_id": "EV-0018",
+     "status": "not checked",
+     "one_liner": "Identity with Tŷ Mawr not proved.",
+     "url": null,
+     "public": false
+    }
+   ]
+  },
+  {
+   "id": "llandough",
+   "name": "Llandough (near Penarth)",
+   "summary": "The parish and village beside Penarth and Cardiff where the farm stood. Not Llandough near Cowbridge.",
+   "url": "/nomenclature/c/llandough/",
+   "match": [
+    "Llandough-juxta-Penarth",
+    "Llandough juxta Penarth",
+    "Landoche",
+    "Llandough"
+   ],
+   "variants": [
+    {
+     "variant": "Landoche-juxta-Cardif",
+     "canonical": "Llandough (near Penarth)",
+     "first_record": "date not stated on the Wiki",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "date not stated on the Wiki: Cardiff Records, manor of Llandough",
+     "url": "/wiki/great-house-farm/name-variations/",
+     "public": true
+    },
+    {
+     "variant": "Llandough [juxta-Penarth]",
+     "canonical": "Llandough (near Penarth)",
+     "first_record": "c.1945–1955",
+     "source_id": "D/D XJF 64/30",
+     "status": "catalogue",
+     "one_liner": "c.1945–1955: Glamorgan Archives catalogue, D/D XJF 64/30 (EV-0155)",
+     "url": "/wiki/evidence/ev-0155-glamorgan-archives-email-june-2026/",
+     "public": true
+    },
+    {
+     "variant": "Penarth Road, Llandough",
+     "canonical": "Llandough (near Penarth)",
+     "first_record": "20 Nov 1958",
+     "source_id": "EV-0037",
+     "status": "not checked",
+     "one_liner": "20 Nov 1958: Western Mail, 20 Nov 1958 (EV-0037)",
+     "url": null,
+     "public": false
+    },
+    {
+     "variant": "Urban District of Penarth",
+     "canonical": "Llandough (near Penarth)",
+     "first_record": "11 Jun 1965",
+     "source_id": "EV-0042",
+     "status": "record",
+     "one_liner": "11 Jun 1965: 1965 conveyance: land “in the Urban District of Penarth in the County of Glamorgan” (EV-0042)",
+     "url": "/wiki/evidence/ev-0042-llandough-school-conveyance-1965/",
+     "public": true
+    },
+    {
+     "variant": "Llandough near Cardiff",
+     "canonical": "Llandough (near Penarth)",
+     "first_record": "16 Apr 1974",
+     "source_id": "GHF-E090-N03",
+     "status": "record",
+     "one_liner": "16 Apr 1974: Daily Telegraph, 16 Apr 1974 (GHF-E090-N03)",
+     "url": "/wiki/evidence-library/press-archive-transcripts/n03-1974-open-day-to-save-ancient-welsh-house/",
+     "public": true
+    },
+    {
+     "variant": "Llandough-juxta-Penarth",
+     "canonical": "Llandough (near Penarth)",
+     "first_record": null,
+     "source_id": null,
+     "status": "wiki label",
+     "one_liner": "The Wiki’s preferred historical locator",
+     "url": "/wiki/great-house-farm/location-name-nomenclature/",
+     "public": true
+    },
+    {
+     "variant": "Llandough near Penarth",
+     "canonical": "Llandough (near Penarth)",
+     "first_record": null,
+     "source_id": null,
+     "status": "wiki label",
+     "one_liner": "Modern descriptive locator",
+     "url": "/wiki/great-house-farm/location-name-nomenclature/",
+     "public": true
+    },
+    {
+     "variant": "CF64",
+     "canonical": "Llandough (near Penarth)",
+     "first_record": "modern",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "modern: Postcode district (Church View Close, CF64 2NN)",
+     "url": "/wiki/great-house-farm/name-variations/",
+     "public": true
+    },
+    {
+     "variant": "Llandochau",
+     "canonical": "Llandough (near Penarth)",
+     "first_record": "2026",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "2026: Welsh name, used in RCAHMW’s search of its records (correspondence on the Wiki)",
+     "url": "/wiki/great-house-farm/location-name-nomenclature/",
+     "public": true
+    }
+   ]
+  },
+  {
+   "id": "woodland",
+   "name": "Cwm Cydfin woodland",
+   "summary": "The woods north of the farmhouse and the wider Leckwith and Llandough woods (Cwm Cydfin).",
+   "url": "/nomenclature/c/woodland/",
+   "match": [
+    "Cwm Cydfin",
+    "Leckwith Woods"
+   ],
+   "variants": [
+    {
+     "variant": "Cwm Cydfin Wood (Leckwith and Llandough)",
+     "canonical": "Cwm Cydfin woodland",
+     "first_record": "29 Nov 1902",
+     "source_id": "EV-0219",
+     "status": "catalogue",
+     "one_liner": "29 Nov 1902: Bute coppice-woods auction, Stephenson & Alexander records, Glamorgan Archives DSA/3/192 and DSA/12/1003 (EV-0219)",
+     "url": "/wiki/evidence/ev-0219-bute-coppice-woods-sale-1902-cwm-cydfin-wood/",
+     "public": true
+    },
+    {
+     "variant": "Leckwith Woods",
+     "canonical": "Cwm Cydfin woodland",
+     "first_record": "1940–1942",
+     "source_id": "EV-0220",
+     "status": "secondary",
+     "one_liner": "1940–1942: Cardiff Parks history page citing Cardiff committee minutes: c.109 acres given by Western Ground Rents, 1940–42 (EV-0220)",
+     "url": "/wiki/evidence/ev-0220-leckwith-woods-wgr-gift-1940-1942/",
+     "public": true
+    },
+    {
+     "variant": "Cwm Cydfin SSSI",
+     "canonical": "Cwm Cydfin woodland",
+     "first_record": "1972",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "1972: Site of Special Scientific Interest 0524, notified 1972 and 9 Dec 1985 (5.5 ha)",
+     "url": "/wiki/family-legal-case-control-room/woodland-land-transfer-assessment-1902-2005/",
+     "public": true
+    },
+    {
+     "variant": "the woodland (title WA735527)",
+     "canonical": "Cwm Cydfin woodland",
+     "first_record": "10 Nov 1994",
+     "source_id": "EV-0136",
+     "status": "catalogue",
+     "one_liner": "10 Nov 1994: Transfer of the woodland to Forest of Cardiff, with plan (EV-0136)",
+     "url": "/wiki/evidence/ev-0136-forest-of-cardiff-woodland-transfer-1994/",
+     "public": true
+    },
+    {
+     "variant": "forest north of the house",
+     "canonical": "Cwm Cydfin woodland",
+     "first_record": null,
+     "source_id": null,
+     "status": "wiki label",
+     "one_liner": "The Wiki’s description of part of Parcel A",
+     "url": "/wiki/the-two-parcels/parcel-a-nomenclature/",
+     "public": true
+    },
+    {
+     "variant": "the woods / the forest",
+     "canonical": "Cwm Cydfin woodland",
+     "first_record": null,
+     "source_id": null,
+     "status": "wiki label",
+     "one_liner": "Common wording in the Wiki and correspondence",
+     "url": "/wiki/family-legal-case-control-room/woodland-land-transfer-assessment-1902-2005/",
+     "public": true
+    }
+   ]
+  },
+  {
+   "id": "bp",
+   "name": "BP companies",
+   "summary": "The BP pension companies named as registered owners after the 1982–83 first registrations, and parties to the 1974 and 1984–87 possession actions. Each name is a separate company.",
+   "url": "/nomenclature/c/bp/",
+   "match": [
+    "BP Properties Ltd",
+    "BP Properties",
+    "BP Pension Trust",
+    "BP Pension Fund"
+   ],
+   "variants": [
+    {
+     "variant": "BP Pension Trust",
+     "canonical": "BP companies",
+     "first_record": "1969 (per HMLR 2026)",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "1969 (per HMLR 2026): HM Land Registry letter, 19 Apr 2026: BP Pension Trust acquired in 1969 (statement, not deed)",
+     "url": "/wiki/land-registry-titles/",
+     "public": true
+    },
+    {
+     "variant": "B P Petroleum Pension Trust",
+     "canonical": "BP companies",
+     "first_record": "16 Apr 1974",
+     "source_id": "GHF-E090-N03",
+     "status": "record",
+     "one_liner": "16 Apr 1974: Daily Telegraph, 16 Apr 1974 (GHF-E090-N03)",
+     "url": "/wiki/evidence-library/press-archive-transcripts/n03-1974-open-day-to-save-ancient-welsh-house/",
+     "public": true
+    },
+    {
+     "variant": "BP Properties Ltd",
+     "canonical": "BP companies",
+     "first_record": "31 Oct 1974",
+     "source_id": "EV-0080",
+     "status": "record",
+     "one_liner": "31 Oct 1974: Plaintiff, BP Properties Ltd v Buckler [1987] EWCA Civ 2; licence letters 31 Oct 1974 (EV-0080)",
+     "url": "/wiki/evidence/ev-0080-bp-properties-v-buckler-judgment/",
+     "public": true
+    },
+    {
+     "variant": "BP pension fund",
+     "canonical": "BP companies",
+     "first_record": "22 May 1980",
+     "source_id": "EV-0057",
+     "status": "record",
+     "one_liner": "22 May 1980: Hansard, HC Deb 22 May 1980: “Western Ground Rents, bought by the BP pension fund” (EV-0057)",
+     "url": "/wiki/evidence/ev-0057-hansard-rowlands-western-ground-rents-bp/",
+     "public": true
+    },
+    {
+     "variant": "BP Trustees",
+     "canonical": "BP companies",
+     "first_record": "31 Jul 1987",
+     "source_id": "EV-0080",
+     "status": "record",
+     "one_liner": "31 Jul 1987: Court of Appeal 1987 recital, as read in the Wiki’s recital audit (EV-0080)",
+     "url": "/wiki/evidence/ev-0080-bp-properties-v-buckler-judgment/",
+     "public": true
+    },
+    {
+     "variant": "BPPT",
+     "canonical": "BP companies",
+     "first_record": null,
+     "source_id": null,
+     "status": "not checked",
+     "one_liner": "Abbreviation for BP Pension Trust",
+     "url": null,
+     "public": false
+    },
+    {
+     "variant": "BP plc",
+     "canonical": "BP companies",
+     "first_record": null,
+     "source_id": null,
+     "status": "not checked",
+     "one_liner": "Modern parent company named as successor in the Wiki’s reparations schedule",
+     "url": null,
+     "public": false
+    },
+    {
+     "variant": "BP Properties Limited (00699446)",
+     "canonical": "BP companies",
+     "first_record": "current",
+     "source_id": "EV-0251",
+     "status": "record",
+     "one_liner": "current: Companies House register, still active (EV-0251)",
+     "url": "/wiki/evidence/ev-0251-companies-house-bp-properties-limited-00699446/",
+     "public": true
+    }
+   ]
+  },
+  {
+   "id": "wgr",
+   "name": "Western Ground Rents",
+   "summary": "The company that bought the Bute (Mountjoy) Cardiff ground rents in 1938 and later passed into the BP pension group.",
+   "url": "/nomenclature/c/wgr/",
+   "match": [
+    "Western Ground Rents Ltd",
+    "Western Ground Rents"
+   ],
+   "variants": [
+    {
+     "variant": "Western Ground Rents",
+     "canonical": "Western Ground Rents",
+     "first_record": "24 Dec 1938",
+     "source_id": "EV-0022",
+     "status": "record",
+     "one_liner": "24 Dec 1938: Press reports of the Bute (Mountjoy) sale completion, Western Mail 24 Dec 1938 p.8 (EV-0022)",
+     "url": "/wiki/evidence/ev-0022-press-1938-bute-wgr-sale-completion/",
+     "public": true
+    },
+    {
+     "variant": "Western Ground Rents (order to cut off water)",
+     "canonical": "Western Ground Rents",
+     "first_record": "20 Nov 1958",
+     "source_id": "EV-0037",
+     "status": "not checked",
+     "one_liner": "20 Nov 1958: Western Mail, 20 Nov 1958: water cut off “by order of Western Ground Rents” (EV-0037)",
+     "url": null,
+     "public": false
+    },
+    {
+     "variant": "Western Ground Rents Ltd",
+     "canonical": "Western Ground Rents",
+     "first_record": "11 Jun 1965",
+     "source_id": "EV-0042",
+     "status": "record",
+     "one_liner": "11 Jun 1965: 1965 conveyance of the Llandough school site (EV-0042)",
+     "url": "/wiki/evidence/ev-0042-llandough-school-conveyance-1965/",
+     "public": true
+    },
+    {
+     "variant": "WESTERN GROUND RENTS LIMITED",
+     "canonical": "Western Ground Rents",
+     "first_record": "3 Jul 1996",
+     "source_id": "EV-0249",
+     "status": "record",
+     "one_liner": "3 Jul 1996: London Gazette, 3 Jul 1996, issue 54455 p.8982 (BP group members’ liquidation; EV-0249)",
+     "url": "/wiki/evidence/ev-0249-london-gazette-3-jul-1996-western-ground-rents-bp-group-liquidation/",
+     "public": true
+    },
+    {
+     "variant": "WGR",
+     "canonical": "Western Ground Rents",
+     "first_record": null,
+     "source_id": null,
+     "status": "wiki label",
+     "one_liner": "Abbreviation used on the Wiki",
+     "url": "/wiki/evidence/ev-0022-press-1938-bute-wgr-sale-completion/",
+     "public": true
+    }
+   ]
+  },
+  {
+   "id": "hmlr",
+   "name": "HM Land Registry",
+   "summary": "The land registry for England and Wales.",
+   "url": "/nomenclature/c/hmlr/",
+   "match": [
+    "HM Land Registry",
+    "HMLR",
+    "Land Registry",
+    "Independent Complaints Reviewer"
+   ],
+   "variants": [
+    {
+     "variant": "HM Land Registry “about to register” notices",
+     "canonical": "HM Land Registry",
+     "first_record": "1960–1972",
+     "source_id": "EV-0231",
+     "status": "record",
+     "one_liner": "1960–1972: London Gazette notices for Llandough land, 1960–1972 (EV-0231)",
+     "url": "/wiki/evidence/ev-0231-london-gazette-land-registry-notices-llandough-1960-1972/",
+     "public": true
+    },
+    {
+     "variant": "HM Land Registry (HMLR)",
+     "canonical": "HM Land Registry",
+     "first_record": "2026",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "2026: Letters of 23 Mar, 19 Apr and 30 Jul 2026 (ref N610CGV)",
+     "url": "/wiki/evidence/hm-land-registry-correspondence/",
+     "public": true
+    },
+    {
+     "variant": "Independent Complaints Reviewer (ICR)",
+     "canonical": "HM Land Registry",
+     "first_record": "2026",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "2026: The Land Registry’s independent complaints reviewer (ICR/090/26)",
+     "url": "/wiki/evidence/hm-land-registry-correspondence/",
+     "public": true
+    }
+   ]
+  },
+  {
+   "id": "welsh-government",
+   "name": "Welsh Office → Welsh Government (and Cadw)",
+   "summary": "The Welsh central government department over the period, and Cadw, its historic environment service.",
+   "url": "/nomenclature/c/welsh-government/",
+   "match": [
+    "Welsh Government",
+    "Welsh Office",
+    "Wales Office",
+    "Cadw"
+   ],
+   "variants": [
+    {
+     "variant": "Welsh Office",
+     "canonical": "Welsh Office → Welsh Government (and Cadw)",
+     "first_record": "1985–1992",
+     "source_id": "EV-0201",
+     "status": "record",
+     "one_liner": "1985–1992: Cadw officers’ 1988 inspection; Welsh Office stopping-up order, Old Barry Road, Llandough, 1992; Welsh Office Circular 1/85 (EV-0201)",
+     "url": "/wiki/evidence/ev-0201-planning-officer-s-report-on-outline-application-f/",
+     "public": true
+    },
+    {
+     "variant": "Cadw",
+     "canonical": "Welsh Office → Welsh Government (and Cadw)",
+     "first_record": "1988",
+     "source_id": "EV-0255",
+     "status": "not checked",
+     "one_liner": "1988: Cadw officers’ inspection of the farmhouse, 1988 (witness statement, EV-0255)",
+     "url": null,
+     "public": false
+    },
+    {
+     "variant": "Wales Office / former Welsh Office",
+     "canonical": "Welsh Office → Welsh Government (and Cadw)",
+     "first_record": "22 Sep 2026",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "22 Sep 2026: 26FOI 103 reply, 22 Sep 2026 (Missing Records Register)",
+     "url": "/wiki/missing-records-register/",
+     "public": true
+    },
+    {
+     "variant": "Welsh Government",
+     "canonical": "Welsh Office → Welsh Government (and Cadw)",
+     "first_record": "19 Oct 2026",
+     "source_id": "EV-0244",
+     "status": "record",
+     "one_liner": "19 Oct 2026: ATISN 26-0010 disclosure response, 19 Oct 2026 (EV-0244)",
+     "url": "/wiki/evidence/ev-0244-welsh-government-atisn-26-0010-disclosure-response-19-oct-2026/",
+     "public": true
+    },
+    {
+     "variant": "dates of the Welsh Office → Welsh Assembly Government → Welsh Government changes",
+     "canonical": "Welsh Office → Welsh Government (and Cadw)",
+     "first_record": null,
+     "source_id": null,
+     "status": "not checked",
+     "one_liner": "—",
+     "url": null,
+     "public": false
+    }
+   ]
+  },
+  {
+   "id": "councils",
+   "name": "Local councils over time",
+   "summary": "The local authorities for Llandough over the years.",
+   "url": "/nomenclature/c/councils/",
+   "match": [
+    "Glamorgan County Council",
+    "Penarth Urban District Council",
+    "Cardiff Rural District Council"
+   ],
+   "variants": [
+    {
+     "variant": "Glamorgan County Council",
+     "canonical": "Local councils over time",
+     "first_record": "24 Sep 1958",
+     "source_id": "EV-0036",
+     "status": "record",
+     "one_liner": "24 Sep 1958: Western Mail legal notice, 24 Sep 1958 (EV-0036)",
+     "url": "/wiki/evidence/ev-0036-western-mail-1958-gcc-acquisition-notice/",
+     "public": true
+    },
+    {
+     "variant": "Penarth Urban and Cardiff Rural Councils",
+     "canonical": "Local councils over time",
+     "first_record": "20 Nov 1958",
+     "source_id": "EV-0037",
+     "status": "not checked",
+     "one_liner": "20 Nov 1958: Western Mail, 20 Nov 1958: “The Glamorgan County Council, Penarth Urban and Cardiff Rural Councils and Western Ground Rents have…",
+     "url": null,
+     "public": false
+    },
+    {
+     "variant": "the former Glamorgan County Council",
+     "canonical": "Local councils over time",
+     "first_record": "16 Apr 1974",
+     "source_id": "GHF-E090-N03",
+     "status": "record",
+     "one_liner": "16 Apr 1974: Daily Telegraph, 16 Apr 1974 (GHF-E090-N03)",
+     "url": "/wiki/evidence-library/press-archive-transcripts/n03-1974-open-day-to-save-ancient-welsh-house/",
+     "public": true
+    },
+    {
+     "variant": "Llandough Community Council (formed 1982)",
+     "canonical": "Local councils over time",
+     "first_record": "1982",
+     "source_id": null,
+     "status": "wiki label",
+     "one_liner": "1982: Woodland & Land-Transfer Assessment: “Llandough Community Council (formed 1982)”",
+     "url": "/wiki/family-legal-case-control-room/woodland-land-transfer-assessment-1902-2005/",
+     "public": true
+    },
+    {
+     "variant": "Llandough Community Council",
+     "canonical": "Local councils over time",
+     "first_record": "23 Feb 1990",
+     "source_id": "EV-0273",
+     "status": "record",
+     "one_liner": "23 Feb 1990: Developer’s 1994 planting plan; South Wales Echo 23 Feb 1990 (EV-0273)",
+     "url": "/wiki/evidence/ev-0273-south-wales-echo-23-feb-1990-great-house-farm-homes-bid-village-green/",
+     "public": true
+    },
+    {
+     "variant": "Vale of Glamorgan Borough Council",
+     "canonical": "Local councils over time",
+     "first_record": "c.1990s",
+     "source_id": "EV-0133",
+     "status": "record",
+     "one_liner": "c.1990s: Borough planning stamp on the developer’s location map (EV-0133) and older references",
+     "url": "/wiki/evidence/ev-0133-planning-drawings-ideal-homes-wales-llandough-farm/",
+     "public": true
+    },
+    {
+     "variant": "Vale of Glamorgan Council",
+     "canonical": "Local councils over time",
+     "first_record": "2026",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "2026: Correspondence 2026",
+     "url": "/wiki/evidence/vale-of-glamorgan-council-correspondence/",
+     "public": true
+    },
+    {
+     "variant": "Penarth Urban District Council",
+     "canonical": "Local councils over time",
+     "first_record": "2026",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "2026: Glamorgan Archives reply: the area “was not covered by Cardiff Rural District Council but rather Penarth Urban District Council”",
+     "url": "/wiki/evidence/glamorgan-archives-correspondence/",
+     "public": true
+    }
+   ]
+  },
+  {
+   "id": "tna",
+   "name": "The National Archives",
+   "summary": "The UK national archive.",
+   "url": "/nomenclature/c/tna/",
+   "match": [
+    "The National Archives",
+    "National Archives",
+    "Public Record Office"
+   ],
+   "variants": [
+    {
+     "variant": "Historical Manuscripts Commission",
+     "canonical": "The National Archives",
+     "first_record": "1959",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "1959: TNA email: manorial records “passed to the custody of the Historical Manuscripts Commission in 1959”",
+     "url": "/wiki/evidence/national-archives-correspondence/",
+     "public": true
+    },
+    {
+     "variant": "Public Record Office (PRO)",
+     "canonical": "The National Archives",
+     "first_record": "2003",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "2003: TNA email: the HMC “amalgamated with the Public Record Office to form The National Archives in 2003”",
+     "url": "/wiki/evidence/national-archives-correspondence/",
+     "public": true
+    },
+    {
+     "variant": "The National Archives (TNA)",
+     "canonical": "The National Archives",
+     "first_record": "2003",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "2003: Same email",
+     "url": "/wiki/evidence/national-archives-correspondence/",
+     "public": true
+    }
+   ]
+  },
+  {
+   "id": "museum-wales",
+   "name": "Amgueddfa Cymru – Museum Wales",
+   "summary": "The national museum that holds accession 63.24 (finds from “Church Farm”, 1858).",
+   "url": "/nomenclature/c/museum-wales/",
+   "match": [
+    "Amgueddfa Cymru",
+    "National Museum of Wales",
+    "Museum Wales"
+   ],
+   "variants": [
+    {
+     "variant": "Amgueddfa Cymru – Museum Wales",
+     "canonical": "Amgueddfa Cymru – Museum Wales",
+     "first_record": "1994–2026",
+     "source_id": "EV-0140",
+     "status": "record",
+     "one_liner": "1994–2026: Collections records 63.24 and FOI 2026-036 replies (EV-0140)",
+     "url": "/wiki/evidence/ev-0140-museum-wales-rowel-spur-record/",
+     "public": true
+    },
+    {
+     "variant": "National Museum of Wales",
+     "canonical": "Amgueddfa Cymru – Museum Wales",
+     "first_record": null,
+     "source_id": null,
+     "status": "record",
+     "one_liner": "Name used in older references on the Wiki",
+     "url": "/wiki/evidence/museum-wales-heneb-correspondence/",
+     "public": true
+    }
+   ]
+  },
+  {
+   "id": "rcahmw",
+   "name": "RCAHMW / Coflein",
+   "summary": "The Royal Commission on the Ancient and Historical Monuments of Wales; Coflein is its online catalogue.",
+   "url": "/nomenclature/c/rcahmw/",
+   "match": [
+    "RCAHMW",
+    "Coflein",
+    "National Monuments Record of Wales",
+    "Royal Commission"
+   ],
+   "variants": [
+    {
+     "variant": "Royal Commission (RCAHMW) National Monuments Record stamp",
+     "canonical": "RCAHMW / Coflein",
+     "first_record": "1974",
+     "source_id": "GHF-E090-N03",
+     "status": "not checked",
+     "one_liner": "1974: Scrapbook page with the 16 Apr 1974 Telegraph cutting (GHF-E090-N03)",
+     "url": null,
+     "public": false
+    },
+    {
+     "variant": "NPRN 20182",
+     "canonical": "RCAHMW / Coflein",
+     "first_record": "current",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "current: RCAHMW site number for Great House Farm",
+     "url": "/wiki/great-house-farm/name-variations/",
+     "public": true
+    },
+    {
+     "variant": "Coflein",
+     "canonical": "RCAHMW / Coflein",
+     "first_record": "current",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "current: RCAHMW’s online database",
+     "url": "/wiki/evidence/rcahmw-correspondence/",
+     "public": true
+    },
+    {
+     "variant": "RCAHMW (ref RC26-0375)",
+     "canonical": "RCAHMW / Coflein",
+     "first_record": "13 Oct 2026",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "13 Oct 2026: RCAHMW reply, 13 Oct 2026",
+     "url": "/wiki/evidence/rcahmw-correspondence/",
+     "public": true
+    }
+   ]
+  },
+  {
+   "id": "heneb",
+   "name": "Heneb (formerly GGAT)",
+   "summary": "The Welsh archaeological trust that holds the Historic Environment Record for the area.",
+   "url": "/nomenclature/c/heneb/",
+   "match": [
+    "Heneb",
+    "Glamorgan-Gwent Archaeological Trust",
+    "GGAT"
+   ],
+   "variants": [
+    {
+     "variant": "Glamorgan-Gwent Archaeological Trust (GGAT)",
+     "canonical": "Heneb (formerly GGAT)",
+     "first_record": "1990",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "1990: GGAT’s archaeological assessment of Great House Farm, 1990 (cited in correspondence with Heneb)",
+     "url": "/wiki/evidence/museum-wales-heneb-correspondence/",
+     "public": true
+    },
+    {
+     "variant": "GGAT02038s",
+     "canonical": "Heneb (formerly GGAT)",
+     "first_record": "current",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "current: HER record number for Great House Farm (kept by Heneb)",
+     "url": "/wiki/great-house-farm/name-variations/",
+     "public": true
+    },
+    {
+     "variant": "Heneb (formerly GGAT)",
+     "canonical": "Heneb (formerly GGAT)",
+     "first_record": "2026",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "2026: Heneb’s own replies, 2026",
+     "url": "/wiki/evidence/museum-wales-heneb-correspondence/",
+     "public": true
+    },
+    {
+     "variant": "date of the GGAT → Heneb change",
+     "canonical": "Heneb (formerly GGAT)",
+     "first_record": null,
+     "source_id": null,
+     "status": "not checked",
+     "one_liner": "—",
+     "url": null,
+     "public": false
+    }
+   ]
+  },
+  {
+   "id": "linklaters",
+   "name": "Linklaters",
+   "summary": "BP’s solicitors on the 1982–83 first registrations.",
+   "url": "/nomenclature/c/linklaters/",
+   "match": [
+    "Linklaters & Paines",
+    "Linklaters"
+   ],
+   "variants": [
+    {
+     "variant": "Linklaters & Paines",
+     "canonical": "Linklaters",
+     "first_record": "1983",
+     "source_id": "EV-0063",
+     "status": "record",
+     "one_liner": "1983: HMLR WA240304 schedule item 11: “Form 1C application form from Linklaters & Paines” (EV-0063)",
+     "url": "/wiki/evidence/ev-0063-hmlr-wa240304-item-11-form-1c/",
+     "public": true
+    },
+    {
+     "variant": "Linklaters",
+     "canonical": "Linklaters",
+     "first_record": "2026",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "2026: Present firm name (correspondence 2026)",
+     "url": "/wiki/scrutiny-and-accountability/government-public-authority-involvement/linklaters-forensic-institutional-review/",
+     "public": true
+    }
+   ]
+  },
+  {
+   "id": "hugh-james",
+   "name": "Loosemores → Hugh James",
+   "summary": "The family’s solicitors in the 1986–87 appeal, and the firm that later took them over.",
+   "url": "/nomenclature/c/hugh-james/",
+   "match": [
+    "Loosemores",
+    "Hugh James"
+   ],
+   "variants": [
+    {
+     "variant": "Loosemores",
+     "canonical": "Loosemores → Hugh James",
+     "first_record": "1987",
+     "source_id": "EV-0080",
+     "status": "record",
+     "one_liner": "1987: Appellant’s solicitors, Court of Appeal 1987 (EV-0080)",
+     "url": "/wiki/evidence/ev-0080-bp-properties-v-buckler-judgment/",
+     "public": true
+    },
+    {
+     "variant": "Hugh James",
+     "canonical": "Loosemores → Hugh James",
+     "first_record": "3 Jul 2023",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "3 Jul 2023: Hugh James announced that Loosemores joined the firm on 3 July 2023",
+     "url": "/wiki/project-management/foi-records-requests-status-forward-plan/1986-87-solicitors-files-preservation-disclosure-workstream/",
+     "public": true
+    },
+    {
+     "variant": "John Loosemore & Co / Loosemores Services (01379651)",
+     "canonical": "Loosemores → Hugh James",
+     "first_record": null,
+     "source_id": "EV-0267",
+     "status": "not checked",
+     "one_liner": "Companies House entry (EV-0267)",
+     "url": null,
+     "public": false
+    }
+   ]
+  },
+  {
+   "id": "dwr-cymru",
+   "name": "Dŵr Cymru / Welsh Water",
+   "summary": "The water company; relevant to the water cut off at the farm.",
+   "url": "/nomenclature/c/dwr-cymru/",
+   "match": [
+    "Dŵr Cymru",
+    "Welsh Water"
+   ],
+   "variants": [
+    {
+     "variant": "Dŵr Cymru",
+     "canonical": "Dŵr Cymru / Welsh Water",
+     "first_record": "2026",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "2026: Correspondence 2026",
+     "url": "/wiki/scrutiny-and-accountability/government-public-authority-involvement/dwr-cymru-welsh-water-forensic-institutional-review/",
+     "public": true
+    },
+    {
+     "variant": "Welsh Water",
+     "canonical": "Dŵr Cymru / Welsh Water",
+     "first_record": "2026",
+     "source_id": null,
+     "status": "record",
+     "one_liner": "2026: Same company, English name",
+     "url": "/wiki/scrutiny-and-accountability/government-public-authority-involvement/dwr-cymru-welsh-water-forensic-institutional-review/",
+     "public": true
+    }
+   ]
+  },
+  {
+   "id": "leckwith",
+   "name": "Leckwith / Lecwydd",
+   "summary": "The settlement whose standard Welsh form is Lecwydd and English form is Leckwith. Historical-form indexes list spellings from c.1179. A personal-name derivation from Helygwydd is proposed; the association with llechwedd (“hillside”) is treated as folk etymology.",
+   "url": "/nomenclature/c/leckwith/",
+   "match": [
+    "Leckwith",
+    "Lecwydd",
+    "Lecwithe",
+    "Leocwtha",
+    "Lequid",
+    "Lecquid",
+    "Leecwith",
+    "Lequyth",
+    "Lecwitthe",
+    "Lekwythe",
+    "Lycuyth",
+    "Pont Lecwith",
+    "Lleckwith",
+    "Llanvihangel Legwydd",
+    "Lleccwydd",
+    "Llechwydd"
+   ],
+   "variants": [
+    {
+     "variant": "Leckwith",
+     "canonical": "Leckwith / Lecwydd",
+     "first_record": "1561",
+     "source_id": "Welsh Place-Name Society",
+     "status": "secondary index",
+     "one_liner": "Historical form listed in the Welsh Place-Name Society Glamorgan database; source locator: CPR 1560–1563, p.145. Underlying document not checked for this entry.",
+     "url": "/nomenclature/c/leckwith/",
+     "public": true
+    },
+    {
+     "variant": "Lecwydd",
+     "canonical": "Leckwith / Lecwydd",
+     "first_record": "1871",
+     "source_id": "Welsh Place-Name Society",
+     "status": "secondary index",
+     "one_liner": "Historical form listed in the Welsh Place-Name Society Glamorgan database; source locator: Seren Cymru, 28 April 1871. Underlying document not checked for this entry.",
+     "url": "/nomenclature/c/leckwith/",
+     "public": true
+    },
+    {
+     "variant": "Leckwith",
+     "canonical": "Leckwith / Lecwydd",
+     "first_record": "c.1179",
+     "source_id": "Welsh Place-Name Society",
+     "status": "secondary index",
+     "one_liner": "Historical form listed by the Welsh Place-Name Society (Cartae I, p.159); underlying record not yet inspected.",
+     "url": "/nomenclature/c/leckwith/",
+     "public": true
+    },
+    {
+     "variant": "Leocwtha",
+     "canonical": "Leckwith / Lecwydd",
+     "first_record": "c.1180",
+     "source_id": "Welsh Place-Name Society",
+     "status": "secondary index",
+     "one_liner": "Historical form listed in the Welsh Place-Name Society Glamorgan database; source locator: LEA, p.29; Cartae I, p.133; EpActs I, p.659. Underlying document not checked for this entry.",
+     "url": "/nomenclature/c/leckwith/",
+     "public": true
+    },
+    {
+     "variant": "Lequid",
+     "canonical": "Leckwith / Lecwydd",
+     "first_record": "1184–1185",
+     "source_id": "Welsh Place-Name Society",
+     "status": "secondary index",
+     "one_liner": "Historical form listed in the Welsh Place-Name Society Glamorgan database; source locator: PipeRS 34, p.6. Underlying document not checked for this entry.",
+     "url": "/nomenclature/c/leckwith/",
+     "public": true
+    },
+    {
+     "variant": "Lecquid",
+     "canonical": "Leckwith / Lecwydd",
+     "first_record": "c.1239",
+     "source_id": "Welsh Place-Name Society",
+     "status": "secondary index",
+     "one_liner": "Historical form listed in the Welsh Place-Name Society Glamorgan database; source locator: AD III, p.115; Cartae II, p.521. Underlying document not checked for this entry.",
+     "url": "/nomenclature/c/leckwith/",
+     "public": true
+    },
+    {
+     "variant": "Leecwith",
+     "canonical": "Leckwith / Lecwydd",
+     "first_record": "1281",
+     "source_id": "Welsh Place-Name Society",
+     "status": "secondary index",
+     "one_liner": "Historical form listed in the Welsh Place-Name Society Glamorgan database; source locator: Cartae III, p.821. Underlying document not checked for this entry.",
+     "url": "/nomenclature/c/leckwith/",
+     "public": true
+    },
+    {
+     "variant": "Lequyth alias Lecwitthe",
+     "canonical": "Leckwith / Lecwydd",
+     "first_record": "1307",
+     "source_id": "Welsh Place-Name Society",
+     "status": "secondary index",
+     "one_liner": "Historical form listed in the Welsh Place-Name Society Glamorgan database; source locator: CIPM IV, no.434, pp.322, 332. Underlying document not checked for this entry.",
+     "url": "/nomenclature/c/leckwith/",
+     "public": true
+    },
+    {
+     "variant": "Lekwythe",
+     "canonical": "Leckwith / Lecwydd",
+     "first_record": "1307",
+     "source_id": "Welsh Place-Name Society",
+     "status": "secondary index",
+     "one_liner": "Historical form listed in the Welsh Place-Name Society Glamorgan database; source locator: CIPM IV, no.434, pp.322, 332. Underlying document not checked for this entry.",
+     "url": "/nomenclature/c/leckwith/",
+     "public": true
+    },
+    {
+     "variant": "Lycuyth",
+     "canonical": "Leckwith / Lecwydd",
+     "first_record": "1450",
+     "source_id": "Welsh Place-Name Society",
+     "status": "secondary index",
+     "one_liner": "Historical form listed in the Welsh Place-Name Society Glamorgan database; source locator: TNA SC6/1305/9. Underlying document not checked for this entry.",
+     "url": "/nomenclature/c/leckwith/",
+     "public": true
+    },
+    {
+     "variant": "Pont Lecwith",
+     "canonical": "Leckwith / Lecwydd",
+     "first_record": "c.1538",
+     "source_id": "Welsh Place-Name Society",
+     "status": "secondary index",
+     "one_liner": "Historical form listed in the Welsh Place-Name Society Glamorgan database; source locator: Leland, p.19. Underlying document not checked for this entry.",
+     "url": "/nomenclature/c/leckwith/",
+     "public": true
+    },
+    {
+     "variant": "Leckwith",
+     "canonical": "Leckwith / Lecwydd",
+     "first_record": "1700",
+     "source_id": "Welsh Place-Name Society",
+     "status": "secondary index",
+     "one_liner": "Historical form listed by the Welsh Place-Name Society (IndVill, p.223); underlying record not yet inspected.",
+     "url": "/nomenclature/c/leckwith/",
+     "public": true
+    },
+    {
+     "variant": "Llanvihangel Legwydd",
+     "canonical": "Leckwith / Lecwydd",
+     "first_record": "1789",
+     "source_id": "Welsh Place-Name Society",
+     "status": "secondary index",
+     "one_liner": "Historical form listed in the Welsh Place-Name Society Glamorgan database; source locator: MA2, p.748b. Underlying document not checked for this entry.",
+     "url": "/nomenclature/c/leckwith/",
+     "public": true
+    },
+    {
+     "variant": "Lleccwydd",
+     "canonical": "Leckwith / Lecwydd",
+     "first_record": "c.1795",
+     "source_id": "Welsh Place-Name Society",
+     "status": "secondary index",
+     "one_liner": "Historical form listed in the Welsh Place-Name Society Glamorgan database; source locator: NLW MSLLANOV C7, p.195; C30, p.65. Underlying document not checked for this entry.",
+     "url": "/nomenclature/c/leckwith/",
+     "public": true
+    },
+    {
+     "variant": "Llechwydd",
+     "canonical": "Leckwith / Lecwydd",
+     "first_record": "c.1795",
+     "source_id": "Welsh Place-Name Society",
+     "status": "secondary index",
+     "one_liner": "Historical form listed in the Welsh Place-Name Society Glamorgan database; source locator: NLW MSLLANOV C7, p.195; C30, p.65. Underlying document not checked for this entry.",
+     "url": "/nomenclature/c/leckwith/",
+     "public": true
+    }
+   ]
+  }
+ ]
+}

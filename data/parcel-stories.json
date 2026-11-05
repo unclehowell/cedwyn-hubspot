@@ -1,0 +1,1124 @@
+{
+  "schema": "cedwyn_parcel_stories/v1",
+  "updated_at": "2026-10-30",
+  "description": "Parent-source data for public parcel-story slots and the provisional A1/A2/B/C working parcel model. The chronology records the conflict between Alfred Thomas’s death in December 1927 and Mary Williams’s recollection of a rent payment to him in 1928, alongside the unverified Cardiff Corporation bequest report and probate lead. Keep the death, missing receipt, estate report and parcel-title inference as separate evidence strands.",
+  "map_reference": {
+    "image_path": "/parcels/poster.jpg",
+    "image_role": "Photograph of a tithe schedule page, not a geographic map or selected parcel polygon",
+    "overlay_status": "No historic polygon is highlighted until the exact row and boundary are verified",
+    "explainer_path": "/parcels/",
+    "hyperframes_repository": "unclehowell/cedwyn-movie",
+    "hyperframes_frame_map": "frames.json"
+  },
+  "parcel_model": [
+    {
+      "model_id": "A",
+      "parent_id": null,
+      "label": "Parcel A — north woods plus house and garden",
+      "status": "working_interpretation",
+      "description": "Current working model: Parcel A comprises A1 (the north woods) and A2 (the house, buildings and garden). The green south of the house is outside Parcel A. The 1928 family understanding of freehold is a testimony-based interpretation to test against the 1877 arrangement and Thomas estate/probate records.",
+      "limits": "Analytical reconstruction, not yet a surveyed boundary. The 1877 instrument and plan remain essential to confirming extent and title."
+    },
+    {
+      "model_id": "A1",
+      "parent_id": "A",
+      "label": "A1 — north woods",
+      "status": "working_interpretation",
+      "description": "The current model places the woods north of Mary Williams’s house within Parcel A as A1. The family/working account associates this ground with a 1955 taking, but the original order, writ, execution return and 1961 woodland deed must be compared before fixing the legal or physical extent.",
+      "limits": "Do not assume that the wording “whole farm” proves that the order included A1; distinguish the order’s target from what was physically taken."
+    },
+    {
+      "model_id": "A2",
+      "parent_id": "A",
+      "label": "A2 — house, buildings and garden",
+      "status": "working_interpretation",
+      "description": "The farmhouse, buildings and garden are analysed as A2, the house part of Parcel A. The family’s reported 1928 freehold understanding and the later separate registration of the farmhouse are central to the current theory.",
+      "limits": "The exact instrument, boundary, legal effect of the 1928 event and the relevant 1982–83 registration file remain to be verified. Alfred Thomas’s death is dated 14 December 1927 by the Dictionary of Welsh Biography, which creates a date/payee discrepancy with Mary Williams’s recollection of a 1928 payment “to Alfred Thomas”. Payment to an executor, estate or agent, a receipt still naming Alfred, or a remembered date/payee error are possibilities, not findings. The reported Cardiff Corporation bequest remains a secondary, unofficial press transcription; the will and grant have not been inspected, and no Llandough land transfer to the Corporation is established."
+    },
+    {
+      "model_id": "B",
+      "parent_id": null,
+      "label": "Parcel B — eastern/right-hand fields",
+      "status": "working_interpretation",
+      "description": "The current interpretation treats Parcel B as the eastern/right-hand agricultural fields covered by the 1939 WGR–John Williams tenancy plan and as the intended subject of the 1955 Order 14 action.",
+      "limits": "The later phrase “whole farm” is ambiguous in this reconstruction. The original order and execution return are needed to establish its extent and what was taken. The allegation that the 1939 agreement was fraudulent remains unproven."
+    },
+    {
+      "model_id": "C",
+      "parent_id": null,
+      "label": "Parcel C — green south of the house",
+      "status": "working_interpretation",
+      "description": "The green south of Mary Williams’s house is treated as a separate parcel, Parcel C, outside Parcel A. The possibility that Williams held title or a possessory interest in C is an open question, not an established fact.",
+      "limits": "Check the village-green VG41 application and map, the 1955 writ/return and relevant conveyances. Do not fold C back into Parcel A."
+    }
+  ],
+  "model_events": [
+    {
+      "model_id": "A1",
+      "seq": 1,
+      "date_text": "4 July 1955 (scope disputed)",
+      "title": "North woods and the 1955 taking",
+      "details": "The current working account places the north woods in A1 and associates them with a 1955 taking. At the same time, the working interpretation treats Order 14 as directed at Parcel B. The original order, writ, execution return and 1961 woodland deed must resolve how the wording, intended parcel and physical taking relate.",
+      "event_type": "possession / parcel-scope question",
+      "status": "Working account; primary execution record required",
+      "source_evs": [
+        "EV-0032",
+        "EV-0034"
+      ],
+      "source_path": "/research/missing-records/mr-0008/"
+    },
+    {
+      "model_id": "A2",
+      "seq": 1,
+      "date_text": "14 December 1927; report dated 27 December 1927",
+      "title": "Alfred Thomas dies; Corporation bequest report and 1928 payment require reconciliation",
+      "details": "The Dictionary of Welsh Biography dates Alfred Thomas, 1st Baron Pontypridd’s death to 14 December 1927; it identifies him as Daniel Thomas’s son and says he died unmarried. A secondary transcription of a 27 December 1927 newspaper report describes the “unofficial report” that the “bulk of his property” was left unconditionally to Cardiff Corporation and citizens. The original newspaper, will and grant have not been inspected. A separate research note cites a reported grant date of 8 March 1928 and London Gazette notice of 30 March 1928, p.2387; these details remain leads until the grant and Gazette entry are checked. The report does not identify the assets, and nothing currently establishes that Alfred’s estate included the Llandough house parcel. Equally, the absence of a located Llandough transfer does not prove that nothing passed to Cardiff Corporation. The 23 February 1905 Bute conveyance to Cardiff Corporation, separately listed in the WA231076 file, is a competing title-chain lead that must be inspected alongside any Thomas estate transfer.",
+      "event_type": "probate / title-chain research lead",
+      "status": "Death date and identity supported by the Dictionary of Welsh Biography; 1927 Cardiff Corporation bequest is an unofficial secondary report; grant reference is unverified; any Llandough land effect unknown.",
+      "source_evs": [
+        "EV-0284"
+      ],
+      "source_path": "/research/evidence/ev-0284-alfred-thomas-lord-pontypridd-son-of-daniel-thomas-of-the-llandough-lime-works-die/"
+    },
+    {
+      "model_id": "A2",
+      "seq": 2,
+      "date_text": "1928 (family account)",
+      "title": "Mary recalls a 1928 final rent payment attributed to Alfred Thomas",
+      "details": "Mary (Nancy) Williams’s c.1974 statement says that when quarry machinery was removed in 1928, the last rent payment was made “to Alfred Thomas the son of Daniel Thomas”; she says her father made it, the rent was about £4 per annum, and she saw the receipt. Alfred had died on 14 December 1927, so the statement does not establish a personal payment to him while alive in 1928. Possible explanations include payment to his estate, executor or authorised agent, a receipt continuing to use Alfred’s name, or a remembered date/payee error; none is proved. The receipt is not located. The 10 November 1925 sale catalogue for Llandough Quarry plant and tramlines (Glamorgan Archives DSA/12/4888) and the 1927 obituary wording that the limeworks were carried on by Alfred and then given up are separate chronology leads; a sale listing does not prove the machinery-removal date. The Court of Appeal’s later recital of rent arrears and a 1953 payment must be mapped to the relevant tenancy/parcel before treating it as inconsistent with Mary’s house-parcel recollection. The 1877 instrument, receipt, estate/rent accounts, and exact parcel extent remain unverified.",
+      "event_type": "tenure / family testimony",
+      "status": "Family testimony; underlying receipt not located; remembered date/payee conflicts with Alfred Thomas’s independently recorded death on 14 December 1927; actual payee and parcel remain unresolved.",
+      "source_evs": [
+        "EV-0016",
+        "EV-0006"
+      ],
+      "source_path": "/research/missing-records/mr-0004/"
+    },
+    {
+      "model_id": "A2",
+      "seq": 3,
+      "date_text": "Early 1950s (exact death date unknown)",
+      "title": "John Williams’s death date must be established before linking it to the 1949–52 sequence",
+      "details": "The current John Williams research page records that he was still alive and very ill in the early 1950s, but his date of death has not been established and a death certificate has not yet been obtained. Mary’s later account places her continued occupation after his death. The possibility that the timing of his death relates to the 1949 surrender/regrant, missing papers around 1950–52, or later possession steps is a research hypothesis until the death record and underlying documents are checked.",
+      "event_type": "family chronology / unresolved date",
+      "status": "Death date unknown; do not infer a connection from proximity alone",
+      "source_evs": [],
+      "source_path": "/research/john-williams/"
+    },
+    {
+      "model_id": "B",
+      "seq": 1,
+      "date_text": "May 1939",
+      "title": "WGR–John Williams tenancy plan depicts the fields",
+      "details": "The extant research catalogue describes the 1939 plan as depicting the eastern fields (working Parcel B) and not the house parcel. The user’s hypothesis is that the agreement may have been used to recast occupation as permissive and could have been fraudulent; that allegation must be tested against the original agreement, plan and surrounding correspondence.",
+      "event_type": "agreement / plan",
+      "status": "Plan described in the catalogue; authenticity and legal effect remain to be tested",
+      "source_evs": [
+        "EV-0023",
+        "EV-0025"
+      ],
+      "source_path": "/research/missing-records/mr-0005/"
+    },
+    {
+      "model_id": "B",
+      "seq": 2,
+      "date_text": "2 February 1949",
+      "title": "Surrender and re-grant of the agricultural tenancy",
+      "details": "The later Court of Appeal account describes John Williams’s agricultural tenancy as surrendered and a new yearly tenancy for Frederick beginning on 2 February 1949. Read against the 1939 plan, the current working interpretation places this transaction on Parcel B. Whether this was part of a coordinated strategy affecting the separate house parcel is not established by the date or transaction alone.",
+      "event_type": "tenancy / parcel-scope question",
+      "status": "Court-history lead; original instrument and exact extent remain to be checked",
+      "source_evs": [
+        "EV-0023"
+      ],
+      "source_path": "/research/frederick-buckler/"
+    },
+    {
+      "model_id": "B",
+      "seq": 3,
+      "date_text": "June 1950–c.1952 (reported)",
+      "title": "Missing title papers and the later letting decision",
+      "details": "Mary’s account reports that title or farm papers went missing from a blanket box around this period; a lodger was said to have taken them at Mr Knapp’s request, which is uncorroborated testimony. The later court history records agents deciding not to proceed with Frederick’s letting in 1952. The underlying papers and any written termination notice have not been inspected, so the exact sequence and causal relationship remain open.",
+      "event_type": "missing document / tenancy administration",
+      "status": "Family account and later court history; primary papers required",
+      "source_evs": [],
+      "source_path": "/research/frederick-buckler/"
+    },
+    {
+      "model_id": "B",
+      "seq": 4,
+      "date_text": "May 1951 (12 years after May 1939; arithmetic only)",
+      "title": "Test the proposed 12-year trigger against the actual tenancy documents",
+      "details": "The calendar interval from the May 1939 agreement reaches twelve years in May 1951. The hypothesis is that WGR used this point to end or decline to renew an arrangement and then pursue possession. No termination document establishing that trigger has been inspected here; the later 1952 letting decision is near enough to investigate but does not prove the theory.",
+      "event_type": "limitation-period research hypothesis",
+      "status": "Date arithmetic only; no demonstrated causal link",
+      "source_evs": [
+        "EV-0023"
+      ],
+      "source_path": "/research/frederick-buckler/"
+    },
+    {
+      "model_id": "B",
+      "seq": 5,
+      "date_text": "4 July 1955 (scope disputed)",
+      "title": "Order 14 and the phrase “whole farm”",
+      "details": "The current working interpretation is that the order was directed at Parcel B, the eastern/right-hand fields. Its later-described “whole farm” wording must not be treated as proof that Parcel A was included. The original order and execution return are needed to establish both its legal scope and the ground physically taken; the separate reasons given for leaving the house and garden undisturbed must not replace Mary’s asserted ownership.",
+      "event_type": "court / parcel-scope question",
+      "status": "Interpretation under test; original order and execution return required",
+      "source_evs": [
+        "EV-0032",
+        "EV-0034",
+        "EV-0080"
+      ],
+      "source_path": "/research/missing-records/mr-0008/"
+    },
+    {
+      "model_id": "C",
+      "seq": 1,
+      "date_text": "16 June 1970",
+      "title": "Green south of the house registered as VG41",
+      "details": "The green is treated in the current parcel model as separate Parcel C, not part of Parcel A. Whether Williams held title or a possessory interest in C remains open. The VG41 application, map, notice and objection file is needed to determine what was registered and on what basis.",
+      "event_type": "registration / open ownership question",
+      "status": "Registration date recited; underlying application file not yet inspected",
+      "source_evs": [],
+      "source_path": "/research/missing-records/mr-0017/"
+    }
+  ],
+  "parcels": [
+    {
+      "parcel_id": "WEB-P01",
+      "area_id": "wiki",
+      "slot": 1,
+      "title": "Provisional parcel-story slot 01 · Legal Wiki & Evidence",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P02",
+      "area_id": "docs",
+      "slot": 2,
+      "title": "Provisional parcel-story slot 02 · Docs · Evidence Catalogue",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P03",
+      "area_id": "wayback",
+      "slot": 3,
+      "title": "Provisional parcel-story slot 03 · Wayback Vault",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P04",
+      "area_id": "maps",
+      "slot": 4,
+      "title": "Provisional parcel-story slot 04 · Map Room",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P05",
+      "area_id": "infographic",
+      "slot": 5,
+      "title": "Provisional parcel-story slot 05 · The Land Changing Hands",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P06",
+      "area_id": "ebooks",
+      "slot": 6,
+      "title": "Provisional parcel-story slot 06 · E-book Shelf",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P07",
+      "area_id": "story",
+      "slot": 7,
+      "title": "Provisional parcel-story slot 07 · The Story & Documentary",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P08",
+      "area_id": "thousand-cuts",
+      "slot": 8,
+      "title": "Provisional parcel-story slot 08 · 1000 Cuts",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P09",
+      "area_id": "fb",
+      "slot": 9,
+      "title": "Provisional parcel-story slot 09 · Farm Album",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P10",
+      "area_id": "arcade",
+      "slot": 10,
+      "title": "Provisional parcel-story slot 10 · Arcade",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P11",
+      "area_id": "chess",
+      "slot": 11,
+      "title": "Provisional parcel-story slot 11 · Chessboard",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P12",
+      "area_id": "csscpsg",
+      "slot": 12,
+      "title": "Provisional parcel-story slot 12 · Grammar House",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P13",
+      "area_id": "courtdrills",
+      "slot": 13,
+      "title": "Provisional parcel-story slot 13 · Court Drills",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P14",
+      "area_id": "fcg",
+      "slot": 14,
+      "title": "Provisional parcel-story slot 14 · FCG · Security Clearance",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P15",
+      "area_id": "oldbill",
+      "slot": 15,
+      "title": "Provisional parcel-story slot 15 · Old Bill · Who Gained, Who Lost",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P16",
+      "area_id": "accounts",
+      "slot": 16,
+      "title": "Provisional parcel-story slot 16 · Counting House",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P17",
+      "area_id": "authorities",
+      "slot": 17,
+      "title": "Provisional parcel-story slot 17 · Public Authorities & Council Chamber",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P18",
+      "area_id": "wdtk",
+      "slot": 18,
+      "title": "Provisional parcel-story slot 18 · FOI Requests",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P19",
+      "area_id": "review",
+      "slot": 19,
+      "title": "Provisional parcel-story slot 19 · Independent Review",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P20",
+      "area_id": "research",
+      "slot": 20,
+      "title": "Provisional parcel-story slot 20 · Research Library",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P21",
+      "area_id": "qa",
+      "slot": 21,
+      "title": "Provisional parcel-story slot 21 · Q&A Hall",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P22",
+      "area_id": "projects",
+      "slot": 22,
+      "title": "Provisional parcel-story slot 22 · Project Office",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P23",
+      "area_id": "app",
+      "slot": 23,
+      "title": "Provisional parcel-story slot 23 · Case Office",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P24",
+      "area_id": "chat",
+      "slot": 24,
+      "title": "Provisional parcel-story slot 24 · Ask the Archive",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P25",
+      "area_id": "watchtower",
+      "slot": 25,
+      "title": "Provisional parcel-story slot 25 · Watchtower",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P26",
+      "area_id": "email",
+      "slot": 26,
+      "title": "Provisional parcel-story slot 26 · Post Office & Calendar",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P27",
+      "area_id": "dartboard",
+      "slot": 27,
+      "title": "Provisional parcel-story slot 27 · Disclosure Dartboard",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P28",
+      "area_id": "estate",
+      "slot": 28,
+      "title": "Provisional parcel-story slot 28 · Cedwyn Estate",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P29",
+      "area_id": "directory",
+      "slot": 29,
+      "title": "Provisional parcel-story slot 29 · Cedwyn Directory",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P30",
+      "area_id": "patagonia",
+      "slot": 30,
+      "title": "Provisional parcel-story slot 30 · Great House Farm II · Patagonia",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P31",
+      "area_id": "wales",
+      "slot": 31,
+      "title": "Provisional parcel-story slot 31 · Virtual Tour · Wales",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P32",
+      "area_id": "shop",
+      "slot": 32,
+      "title": "Provisional parcel-story slot 32 · Gift Shop & Marketplace",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P33",
+      "area_id": "familytree",
+      "slot": 33,
+      "title": "Provisional parcel-story slot 33 · Family Tree",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P34",
+      "area_id": "kissed-frogs",
+      "slot": 34,
+      "title": "Provisional parcel-story slot 34 · Kissed Frogs",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P35",
+      "area_id": "whattheydontsay",
+      "slot": 35,
+      "title": "Provisional parcel-story slot 35 · What They Don't Say",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    },
+    {
+      "parcel_id": "WEB-P36",
+      "area_id": "blog",
+      "slot": 36,
+      "title": "Provisional parcel-story slot 36 · Blog",
+      "historic_plot_number": null,
+      "model_parcel_id": null,
+      "mapping_status": "historic_plot_number_pending_verification",
+      "map_asset": "/parcels/poster.jpg",
+      "map_status": "schedule_image_only_geographic_outline_pending",
+      "summary": "This is a provisional research slot assigned to a public webapp. It is not a verified 1841 tithe plot number or mapped polygon. No parcel-specific chain of title is inferred from the slot. The slot can be linked to a historic plot once the original schedule and map have been checked together.",
+      "updated_at": "2026-10-29",
+      "events": [
+        {
+          "seq": 1,
+          "date_text": "c.1841",
+          "title": "John Williams is listed as occupier of 36 tithe plots",
+          "details": "The tithe schedule gives estate-level context for the Williams holding. This webapp slot has not yet been matched row-by-row to a specific plot number and map polygon, so this is not a plot-specific ownership finding.",
+          "event_type": "estate-wide context",
+          "scope": "estate-wide; exact slot-to-plot match pending",
+          "status": "Source record identified; plot mapping pending verification",
+          "source_ev": "EV-0215",
+          "source_path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+        }
+      ]
+    }
+  ]
+}

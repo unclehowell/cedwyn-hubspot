@@ -1,0 +1,54 @@
+{
+ "rule": "Client-side routers of crawled single-page themes (25 Oct 2026): a crawled TanStack Start app was built to live at a site root, so under /<theme>/ (and /wales/<theme>/, /argentina/<theme>/) its router read the path as an unknown page and showed \"Not Found\". Each entry tells that theme's router its base path at run time (runtime.js sets window.__cedwynSec before the bundle runs). Same schema as ingredients.json; file may be a glob so a re-hashed crawl still matches; a find that is not present is reported, never fatal. — Sion's Tab agent",
+ "version": "1.3.0",
+ "rewords": [
+  {
+   "theme": "dartboard",
+   "file": "assets/index-*.js",
+   "find": "basepath:``,serializationAdapters",
+   "replace": "basepath:(window.__cedwynSec?\"/\"+window.__cedwynSec:\"\")+\"/dartboard\",serializationAdapters"
+  },
+  {
+    "theme": "dartboard",
+    "file": "assets/routes-*.js",
+    "find": "https://cedwyn.bucklerfamily.estate/wayback/go/?u=https%3A%2F%2Fgithub.com%2Funclehowell%2Fcedwyn-movie%2Freleases%2Fdownload%2Fdartboard-hoops-2026-10-26%2Fdartboard-hoops.webm",
+    "replace": "https://github.com/unclehowell/cedwyn-movie/releases/download/dartboard-hoops-2026-10-26/dartboard-hoops.webm",
+    "why": "30 Oct 2026: the floating film must load from its own release file; /wayback/go/ answers an HTML page a <video> cannot play. Covers a build that keeps the previous crawl (tools/selfcontain.py own_media covers a fresh crawl). — Sion's Tab agent"
+  },
+  {
+    "theme": "dartboard",
+    "file": "assets/routes-*.js",
+    "find": "https://cedwyn.bucklerfamily.estate/wayback/go/?u=https%3A%2F%2Fgithub.com%2Funclehowell%2Fcedwyn-movie%2Freleases%2Fdownload%2Fdartboard-hoops-2026-10-26%2Fdartboard-hoops-contact.png",
+    "replace": "https://github.com/unclehowell/cedwyn-movie/releases/download/dartboard-hoops-2026-10-26/dartboard-hoops-contact.png",
+    "why": "30 Oct 2026: the floating film must load from its own release file; /wayback/go/ answers an HTML page a <video> cannot play. Covers a build that keeps the previous crawl (tools/selfcontain.py own_media covers a fresh crawl). — Sion's Tab agent"
+  },
+  {
+    "theme": "dartboard",
+    "file": "index.html",
+    "find": "/wayback/go/?u=https%3A%2F%2Fgithub.com%2Funclehowell%2Fcedwyn-movie%2Freleases%2Fdownload%2Fdartboard-hoops-2026-10-26%2Fdartboard-hoops.webm",
+    "replace": "https://github.com/unclehowell/cedwyn-movie/releases/download/dartboard-hoops-2026-10-26/dartboard-hoops.webm",
+    "why": "30 Oct 2026: the floating film must load from its own release file; /wayback/go/ answers an HTML page a <video> cannot play. Covers a build that keeps the previous crawl (tools/selfcontain.py own_media covers a fresh crawl). — Sion's Tab agent"
+  },
+  {
+    "theme": "dartboard",
+    "file": "index.html",
+    "find": "/wayback/go/?u=https%3A%2F%2Fgithub.com%2Funclehowell%2Fcedwyn-movie%2Freleases%2Fdownload%2Fdartboard-hoops-2026-10-26%2Fdartboard-hoops-contact.png",
+    "replace": "https://github.com/unclehowell/cedwyn-movie/releases/download/dartboard-hoops-2026-10-26/dartboard-hoops-contact.png",
+    "why": "30 Oct 2026: the floating film must load from its own release file; /wayback/go/ answers an HTML page a <video> cannot play. Covers a build that keeps the previous crawl (tools/selfcontain.py own_media covers a fresh crawl). — Sion's Tab agent"
+  },
+  {
+    "theme": "dartboard",
+    "file": "index.html",
+    "find": "</head>",
+    "replace": "<style data-cw-dock=\"1\">[data-video-dock=open]{width:176px!important}[data-video-dock=open]>div{padding-left:0!important;padding-right:0!important}[data-video-dock=open]>div>button{width:44px!important;height:44px!important;flex:0 0 44px}[data-video-dock=open] video{cursor:pointer}[data-video-dock=open][data-cw-paused=\"1\"]::after{content:\"\";position:absolute;left:0;top:0;width:100%;aspect-ratio:16/9;pointer-events:none;background:rgba(0,0,0,.35) url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='22' fill='rgba(0,0,0,.55)'/%3E%3Cpath d='M19 14v20l16-10z' fill='%23fff'/%3E%3C/svg%3E\") center/40px no-repeat}[data-video-dock] video:fullscreen{width:100vw!important;height:100vh!important;max-width:100vw!important;max-height:100vh!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;margin:auto!important;background:#000!important;cursor:default}[data-video-dock] video:-webkit-full-screen{width:100vw!important;height:100vh!important;max-width:100vw!important;max-height:100vh!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;margin:auto!important;background:#000!important}[data-video-dock]:fullscreen{display:flex!important;align-items:center;justify-content:center;width:100vw!important;height:100vh!important;max-width:100vw!important;max-height:100vh!important;overflow:hidden!important;background:#000}[data-video-dock]:fullscreen video{width:100%!important;height:100%!important;max-width:100vw!important;max-height:100vh!important;object-fit:contain!important}html:has(:fullscreen),html:has(:fullscreen) body{overflow:hidden!important}</style><script data-cw-dock=\"1\">/* 30 Oct 2026 dock: play/pause button, tap the film to play/pause, full screen fits the screen - Sion's Tab agent */(function(){if(window.__cwDock)return;window.__cwDock=1;var PL='<path d=\"M4 2.5v11l9-5.5z\" fill=\"currentColor\"/>',PA='<path d=\"M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z\" fill=\"currentColor\"/>';function dock(){return document.querySelector('[data-video-dock=\"open\"]')}function sync(){var d=dock(),v=d&&d.querySelector('video'),b=d&&d.querySelector('[data-dock-play]');if(!v)return;var p=v.paused;d.setAttribute('data-cw-paused',p?'1':'0');if(!b||b.getAttribute('data-dock-play')!=='cw')return;var k=p?'p':'q';if(b.__k===k)return;b.__k=k;b.innerHTML='<svg width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" aria-hidden=\"true\">'+(p?PL:PA)+'</svg>';b.setAttribute('aria-label',p?'Play video':'Pause video');b.setAttribute('title',p?'Play':'Pause')}function tog(v){if(v.paused){v.__cwUser=0;var r=v.play();r&&r.catch&&r.catch(function(){})}else{v.__cwUser=1;v.pause()}}function wire(){var d=dock(),v=d&&d.querySelector('video'),bar=v&&v.nextElementSibling;if(!v||!bar)return;var nb=bar.querySelector('[data-dock-play]');if(nb&&nb.getAttribute('data-dock-play')!=='cw')return;if(!v.__cw){v.__cw=1;v.addEventListener('click',function(e){if(e.detail>1)return;tog(v)});['play','pause','playing','ended'].forEach(function(t){v.addEventListener(t,sync)})}if(!bar.querySelector('[data-dock-play]')){var b=document.createElement('button');b.type='button';b.setAttribute('data-dock-play','cw');b.className='flex items-center justify-center text-white/90';b.addEventListener('click',function(e){e.stopPropagation();var w=dock(),x=w&&w.querySelector('video');x&&tog(x)});bar.insertBefore(b,bar.firstChild)}sync()}function go(){wire();new MutationObserver(function(){wire()}).observe(document.body,{childList:true,subtree:true})}if(document.readyState==='complete')setTimeout(go,1200);else window.addEventListener('load',function(){setTimeout(go,1200)})})();</script></head>",
+    "why": "30 Oct 2026: the floating film needs a play/pause control (button + tap the film) with 44 px targets, and full screen must fit 100vw x 100vh (object-fit contain, no scroll). Inline because the crawled dock lives in the compiled bundle; the script skips itself if the source dock (datro@dartboard video-dock.tsx) already renders a [data-dock-play] button. Guarded by window.__cwDock so a second application is harmless. — Sion's Tab agent"
+  },
+  {
+    "theme": "dartboard",
+    "file": "index.html",
+    "find": "</head>",
+    "replace": "<script data-cw-mp4=\"1\">/* 30 Oct 2026 (P-102): a browser that cannot play VP9 WebM (iPhones on iOS 16 or older) gets the H.264 MP4 of the same film - Sion's Tab agent */(function(){if(window.__cwMp4)return;window.__cwMp4=1;var t=document.createElement('video');if(!t.canPlayType||t.canPlayType('video/webm; codecs=\"vp9\"'))return;var W='dartboard-hoops.webm',M='https:'+'//'+['raw','githubusercontent','com'].join('.')+'/unclehowell/cedwyn-movie/main/media/dartboard-hoops-h264-480p.mp4';function fix(){var v=document.querySelectorAll('video');for(var i=0;i<v.length;i++){var s=v[i].getAttribute('src')||'';if(s.indexOf(W)>-1){v[i].setAttribute('src',M);try{v[i].load()}catch(e){}}}}function go(){fix();new MutationObserver(fix).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['src']})}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go()})();</script></head>",
+    "why": "30 Oct 2026 (P-102): the floating film is VP9 WebM only, which iPhones on iOS 16 or older cannot play, so they showed no film. A browser whose canPlayType says no to VP9 WebM gets the same film as H.264 MP4 (854x480, 10 fps, silent; the page plays it muted) from cedwyn-movie media/; every other browser is untouched. Placed after the dock entry so its </head> is matched once. Guarded by window.__cwMp4. — Sion's Tab agent"
+  }
+ ]
+}

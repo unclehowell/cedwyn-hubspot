@@ -1,0 +1,146 @@
+{
+ "app": "kissed-frogs",
+ "version": "2.0.0",
+ "enabled": true,
+ "schema": "cedwyn-view/0.1.0",
+ "note": "Kissed Frogs: what looked like the property but is not. Derived by tools/views.py from data/core at every build; never edit the output by hand.",
+ "collections": {
+  "frogs": {
+   "select": {
+    "kind": [
+     "screening_lead"
+    ],
+    "where": [
+     {
+      "field": "scope.disposition",
+      "op": "in",
+      "value": [
+       "not_this_property",
+       "separate_property",
+       "out_of_scope",
+       "name_correction",
+       "dating_correction",
+       "assertion_only",
+       "context_only",
+       "catalogue_only",
+       "lead_only",
+       "hypothesis",
+       "on_hold",
+       "outside_title_question",
+       "precedent",
+       "secondary_copy",
+       "unexplained"
+      ]
+     }
+    ]
+   },
+   "order_by": "id",
+   "project": [
+    "id",
+    "slug",
+    "title",
+    "date",
+    "place_text",
+    "provenance",
+    "scope",
+    "detail",
+    "sources",
+    "related",
+    "origin",
+    "places",
+    "updated",
+    "notes"
+   ]
+  },
+  "retained": {
+   "select": {
+    "kind": [
+     "screening_lead"
+    ],
+    "where": [
+     {
+      "field": "scope.disposition",
+      "op": "eq",
+      "value": "in_scope"
+     }
+    ]
+   },
+   "order_by": "id",
+   "project": [
+    "id",
+    "title",
+    "scope",
+    "evidence"
+   ]
+  },
+  "places": {
+   "select": {
+    "kind": [
+     "place"
+    ]
+   },
+   "order_by": "id",
+   "project": [
+    "id",
+    "title",
+    "description",
+    "scope",
+    "page"
+   ]
+  }
+ },
+ "evidence_links": "/wiki/evidence/",
+ "copy": {
+  "title": "Kissed Frogs · the screening register · Cedwyn",
+  "description": "Records that looked like Great House Farm / Tŷ Mawr (Cydfin Farm) but turned out to be another place or outside the question, each with its source and the reason.",
+  "image_alt": "Illustration: a frog wearing red lipstick",
+  "lede": "Records that looked like Great House Farm / Tŷ Mawr (Cydfin Farm) but turned out to be another farm, another place or outside the question. Each card gives the source and the reason.",
+  "count": "{n} entries",
+  "scope_test_label": "Scope test",
+  "scope_test": "Every item is assessed against three distinct questions: (1) title and parcel identity; (2) an evidenced act of deception, concealment or knowing misrepresentation; and (3) a documented public-authority decision, handling step or involvement. A source may be irrelevant to title but useful to the government-involvement chronology. A source-code assertion, a repeated Wiki paragraph or an archive search result is not independent proof of the assertion it repeats.",
+  "retained_heading": "Leads retained as in scope or potentially in scope — not “kissed frogs”",
+  "scope_note": "This screening has excluded specific records as matches for the Tŷ Mawr lease; it has not disproved a separate Llandough agreement. Exclusion means “not this property” or “not in scope”, not that the source is false, and not evidence of wrongdoing by itself. A lead is reopened only when a new reference, full image, plan or independently documented fact changes the test.",
+  "register_links": [
+   {
+    "text": "Kissed Frogs register (wiki)",
+    "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+   },
+   {
+    "text": "Excluded: not our farm",
+    "href": "/wiki/evidence/excluded-not-our-farm/"
+   }
+  ],
+  "why_label": "Why not ours",
+  "search_label": "Search",
+  "search_placeholder": "name, place, year, reference",
+  "status_label": "Status",
+  "origin_label": "From",
+  "all": "All",
+  "origins": {
+   "wiki-register": "Wiki register",
+   "wiki-excluded": "Wiki: photographed, not our farm",
+   "added-2026-10-25": "Added 25 Oct 2026",
+   "added-2026-10-27": "Added 27 Oct 2026",
+   "added-2026-10-30": "Added 30 Oct 2026"
+  },
+  "origin_notes": {
+   "wiki-register": "From the wiki’s Kissed Frogs register, kept whole apart from a few words reworded under the editorial rules.",
+   "wiki-excluded": "From the wiki’s list of photographed archive items that are not this farm.",
+   "added-2026-10-25": "Added on 25 October 2026 from that day’s searches. Newspaper and census references are given as citations; the papers themselves are held by the libraries named.",
+   "added-2026-10-27": "Added on 27 October 2026.",
+   "added-2026-10-30": "Added on 30 October 2026."
+  },
+  "meta": "Kissed Frogs register, version {version}, generated {date} from the Cedwyn catalogue."
+ },
+ "pages": [
+  {
+   "template": "_ui/index.a2ui.json",
+   "out": "index.html"
+  },
+  {
+   "template": "_ui/entry.a2ui.json",
+   "out": "{slug}/index.html",
+   "each": "frogs"
+  }
+ ]
+}

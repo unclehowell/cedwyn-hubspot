@@ -1,0 +1,28 @@
+{
+ "files": 24756,
+ "changed": 3224,
+ "sub": 0,
+ "ext": 0,
+ "cdn": 0,
+ "boot_added": 0,
+ "boot_moved": 3224,
+ "tags_dropped": 0,
+ "inline_boot_removed": 0,
+ "tour_removed": 0,
+ "geo_fixed": 0,
+ "redirects_to_themes": 0,
+ "filled_missing": {
+  "wanted": 0,
+  "copied": 0,
+  "not_found": [],
+  "rounds": 0,
+  "not_found_n": 0
+ },
+ "vendored": 0,
+ "vendor_failed": [],
+ "vendor_failed_n": 0,
+ "allowed_tile_templates": [
+  "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+  "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+ ]
+}

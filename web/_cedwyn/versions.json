@@ -1,0 +1,19 @@
+{
+ "name": "Cedwyn site-wide version scheme",
+ "version": "1.1.0",
+ "set": "2026-10-30",
+ "rule": "The newest version of any product (each e-book, each documentary scene) is v0.0.2 and costs £4.99. The version before it is v0.0.1 and is free. Older versions count backwards by creation date starting at -v0.0.2: -v0.0.2, -v0.0.3, -v0.0.4 … (most recent older = -v0.0.2; there is no -v0.0.1), all free. Each version is its own version; no ranges. In a hashtag the minus becomes an underscore and nothing goes before it: #v0.0.2, #v0.0.1, #_v0.0.2, #_v0.0.3. A reserved, not yet made version is #next. Prices are unchanged; the bundle stays as listed.",
+ "scheme": {
+  "latest": "0.0.2",
+  "latest_price_gbp": 4.99,
+  "previous": "0.0.1",
+  "older": "-v0.0.N (N = 2 for the most recent older; the minus series starts at -v0.0.2, rule of 30 Oct 2026 21:50)",
+  "older_start": 2,
+  "hashtag_older": "#_v0.0.N (N from 2)",
+  "next": "next"
+ },
+ "readers": [
+  "/documentary/ (documentary.js 1.6.2 reads this file; built-in defaults match)",
+  "/ebooks/ (edition labels and the About versions text follow this rule)"
+ ]
+}

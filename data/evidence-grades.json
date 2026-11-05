@@ -1,0 +1,783 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-30",
+  "status": "Grades assigned from each evidence page's own label fields; to be confirmed by a reviewer before they are shown on pages.",
+  "scale": {
+    "1": "Contemporaneous primary record read in full (deed and plan, court order, register edition, application, official minute, original letter)",
+    "2": "Contemporaneous primary record partly read, or recited in a later record (a judgment reciting an order; a register reciting a deed not itself inspected)",
+    "3": "Later official record (Historic Environment Record, archive catalogue, information-request reply, modern Land Registry schedule)",
+    "4": "Contemporaneous press (evidence of what was reported; OCR text flagged)",
+    "5": "Named witness or family testimony",
+    "6": "Research inference (a hypothesis; never relabelled as a record without the missing step)"
+  },
+  "rule_verified": "\"Record\" or a grade answers what exactly was read: a register entry reciting a 1961 deed is grade 2 for the recital, not for the deed's terms, plan or effect.",
+  "independent_origin_id": {
+    "rule": "Copies of one underlying record share one independent_origin_id: the WordPress page, the datro branch, the old subdomain, the Cedwyn theme and any GHF-E catalogue number are aliases of the EV, never extra corroboration. Items known only through a recital in another record take that record's origin.",
+    "counting": "A statement's support counts distinct independent_origin_id values, not pages or EV ids.",
+    "key_finding": "EV-0014, EV-0025, EV-0032, EV-0034, EV-0041, EV-0049, EV-0050, EV-0052 and EV-0074 are known only through the 1987 Court of Appeal judgment (EV-0080): ten EV ids, one independent origin, ORIG-EWCA-1987-CIV-2."
+  },
+  "evidence": [
+    {
+      "ev": "EV-0006",
+      "evidence_grade": 5,
+      "independent_origin_id": "ORIG-EV-0006",
+      "aliases": [
+        "GHF-E115"
+      ],
+      "grade_note": "known from family account; original not located",
+      "path": "/research/evidence/ev-0006-bute-thomas-agreement-1877/"
+    },
+    {
+      "ev": "EV-0009",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0009",
+      "aliases": [
+        "GHF-E151"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0009-family-tree-planting-parcel-a/"
+    },
+    {
+      "ev": "EV-0011",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0011",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "OCR text",
+      "path": "/research/evidence/ev-0011-marconi-lavernock-wireless-cutting-1897/"
+    },
+    {
+      "ev": "EV-0014",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EWCA-1987-CIV-2",
+      "aliases": [
+        "GHF-E118"
+      ],
+      "grade_note": "known through the 1987 judgment recital; not independent of EV-0080",
+      "path": "/research/evidence/ev-0014-bute-tenancy-john-williams-1916/"
+    },
+    {
+      "ev": "EV-0016",
+      "evidence_grade": 5,
+      "independent_origin_id": "ORIG-EV-0016",
+      "aliases": [
+        "GHF-E120"
+      ],
+      "grade_note": "known from family account; original not located",
+      "path": "/research/evidence/ev-0016-1928-last-rent-receipt-quarrying/"
+    },
+    {
+      "ev": "EV-0019",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0019",
+      "aliases": [
+        "GHF-E121"
+      ],
+      "grade_note": "Vale of Glamorgan FOI 00211027 supplied the 1965 contract; p. 3 recites a conveyance on sale dated 25 December 1938 as root of title. The 1938 deed and plan have not been examined: the Vale has disclosed 2 of at least 10 documents in deed wallet 1756, no copy is catalogued in the Bute papers at Glamorgan Archives, and HM Land Registry titles WA3996 and WA7355 have not been copied.",
+      "path": "/research/evidence/ev-0019-bute-wgr-conveyance-plan-1938/"
+    },
+    {
+      "ev": "EV-0022",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0022",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0022-press-1938-bute-wgr-sale-completion/"
+    },
+    {
+      "ev": "EV-0023",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0023",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0023-1939-wgr-john-williams-tenancy-plan/"
+    },
+    {
+      "ev": "EV-0025",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EWCA-1987-CIV-2",
+      "aliases": [
+        "GHF-E122"
+      ],
+      "grade_note": "known only as recited in the 1987 judgment; not independent of EV-0080",
+      "path": "/research/evidence/ev-0025-frederick-buckler-unwritten-tenancy-1949/"
+    },
+    {
+      "ev": "EV-0026",
+      "evidence_grade": 5,
+      "independent_origin_id": "ORIG-EV-0026",
+      "aliases": [
+        "GHF-E123"
+      ],
+      "grade_note": "family account; no court record mentions the papers",
+      "path": "/research/evidence/ev-0026-family-title-papers-removed-blanket-box/"
+    },
+    {
+      "ev": "EV-0030",
+      "evidence_grade": 3,
+      "independent_origin_id": "ORIG-EV-0030",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0030-cardiff-county-court-registers-aca/"
+    },
+    {
+      "ev": "EV-0031",
+      "evidence_grade": 6,
+      "independent_origin_id": "ORIG-EV-0031",
+      "aliases": [
+        "GHF-E182"
+      ],
+      "grade_note": "source pending",
+      "path": "/research/evidence/ev-0031-1954-buckler-tenancy-attempt/"
+    },
+    {
+      "ev": "EV-0032",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EWCA-1987-CIV-2",
+      "aliases": [
+        "GHF-E125"
+      ],
+      "grade_note": "known only as recited in the 1987 judgment; not independent of EV-0080",
+      "path": "/research/evidence/ev-0032-1955-order-14-possession-order/"
+    },
+    {
+      "ev": "EV-0034",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EWCA-1987-CIV-2",
+      "aliases": [
+        "GHF-E126"
+      ],
+      "grade_note": "the 4 Jul 1955 execution is known from the 1987 judgment recital; the return itself is not held",
+      "path": "/research/evidence/ev-0034-writ-possession-execution-return-1955/"
+    },
+    {
+      "ev": "EV-0035",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0035",
+      "aliases": [],
+      "grade_note": "OCR text",
+      "path": "/research/evidence/ev-0035-western-mail-1958-leckwith-common-hearing/"
+    },
+    {
+      "ev": "EV-0036",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0036",
+      "aliases": [],
+      "grade_note": "OCR text",
+      "path": "/research/evidence/ev-0036-western-mail-1958-gcc-acquisition-notice/"
+    },
+    {
+      "ev": "EV-0037",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0037",
+      "aliases": [],
+      "grade_note": "OCR text",
+      "path": "/research/evidence/ev-0037-western-mail-1958-crichel-down/"
+    },
+    {
+      "ev": "EV-0038",
+      "evidence_grade": 3,
+      "independent_origin_id": "ORIG-EV-0038",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0038-hansard-1958-leckwith-common-no-petition/"
+    },
+    {
+      "ev": "EV-0039",
+      "evidence_grade": 5,
+      "independent_origin_id": "ORIG-EV-0039",
+      "aliases": [
+        "GHF-E128"
+      ],
+      "grade_note": "known from family account; original not located",
+      "path": "/research/evidence/ev-0039-wgr-tenancy-offers-1959-1965/"
+    },
+    {
+      "ev": "EV-0040",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0040",
+      "aliases": [
+        "GHF-E129"
+      ],
+      "grade_note": "recited in a register or schedule; instrument not read",
+      "path": "/research/evidence/ev-0040-1961-wgr-brick-tile-deed/"
+    },
+    {
+      "ev": "EV-0041",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EWCA-1987-CIV-2",
+      "aliases": [
+        "GHF-E130"
+      ],
+      "grade_note": "known only as recited in the 1987 judgment; not independent of EV-0080",
+      "path": "/research/evidence/ev-0041-cardiff-county-court-possession-order-1962/"
+    },
+    {
+      "ev": "EV-0043",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0043",
+      "aliases": [
+        "GHF-E131"
+      ],
+      "grade_note": "recited in a register or schedule; instrument not read",
+      "path": "/research/evidence/ev-0043-wgr-bp-pension-trust-conveyance/"
+    },
+    {
+      "ev": "EV-0044",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0044",
+      "aliases": [
+        "GHF-E133"
+      ],
+      "grade_note": "recited in a register or schedule; instrument not read",
+      "path": "/research/evidence/ev-0044-vg41-village-green-registration-1970/"
+    },
+    {
+      "ev": "EV-0045",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0045",
+      "aliases": [
+        "GHF-E132"
+      ],
+      "grade_note": "recited in a register or schedule; instrument not read",
+      "path": "/research/evidence/ev-0045-1971-abstract-title-bp-pension/"
+    },
+    {
+      "ev": "EV-0046",
+      "evidence_grade": 5,
+      "independent_origin_id": "ORIG-EV-0046",
+      "aliases": [
+        "GHF-E134"
+      ],
+      "grade_note": "known from family account; original not located",
+      "path": "/research/evidence/ev-0046-1972-outline-planning-permission-ownership-certificate/"
+    },
+    {
+      "ev": "EV-0048",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0048",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0048-telegraph-open-day-ancient-house/"
+    },
+    {
+      "ev": "EV-0049",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EWCA-1987-CIV-2",
+      "aliases": [
+        "GHF-E135"
+      ],
+      "grade_note": "1974 county-court file not read; \"never finally heard\" is the 1987 judgment recital",
+      "path": "/research/evidence/ev-0049-mary-williams-plea-ownership-pleadings/"
+    },
+    {
+      "ev": "EV-0050",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EWCA-1987-CIV-2",
+      "aliases": [
+        "GHF-E136"
+      ],
+      "grade_note": "known through the 1987 judgment recital; not independent of EV-0080",
+      "path": "/research/evidence/ev-0050-1974-bp-licence-letters/"
+    },
+    {
+      "ev": "EV-0052",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EWCA-1987-CIV-2",
+      "aliases": [
+        "GHF-E138"
+      ],
+      "grade_note": "known through the 1987 judgment recital; not independent of EV-0080",
+      "path": "/research/evidence/ev-0052-bp-pension-trust-bp-properties-conveyance/"
+    },
+    {
+      "ev": "EV-0059",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0059",
+      "aliases": [],
+      "grade_note": "recited in a register or schedule; instrument not read",
+      "path": "/research/evidence/ev-0059-wa231076-form-a13-first-registration/"
+    },
+    {
+      "ev": "EV-0063",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0063",
+      "aliases": [],
+      "grade_note": "recited in a register or schedule; instrument not read",
+      "path": "/research/evidence/ev-0063-hmlr-wa240304-item-11-form-1c/"
+    },
+    {
+      "ev": "EV-0065",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0065",
+      "aliases": [],
+      "grade_note": "recited in a register or schedule; instrument not read",
+      "path": "/research/evidence/ev-0065-wa240304-farmhouse-first-registration-file/"
+    },
+    {
+      "ev": "EV-0066",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0066",
+      "aliases": [],
+      "grade_note": "recited in a register or schedule; instrument not read",
+      "path": "/research/evidence/ev-0066-hmlr-wa240304-item-10-register-1983/"
+    },
+    {
+      "ev": "EV-0067",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0067",
+      "aliases": [
+        "GHF-E108"
+      ],
+      "grade_note": "recited in a register or schedule; instrument not read",
+      "path": "/research/evidence/ev-0067-mary-doreen-williams-death-index/"
+    },
+    {
+      "ev": "EV-0069",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0069",
+      "aliases": [],
+      "grade_note": "recited in a register or schedule; instrument not read",
+      "path": "/research/evidence/ev-0069-hmlr-wa240304-item-7-d23-1983/"
+    },
+    {
+      "ev": "EV-0070",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0070",
+      "aliases": [],
+      "grade_note": "recited in a register or schedule; instrument not read",
+      "path": "/research/evidence/ev-0070-hmlr-wa240304-item-4-correspondence-1983/"
+    },
+    {
+      "ev": "EV-0071",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0071",
+      "aliases": [],
+      "grade_note": "recited in a register or schedule; instrument not read",
+      "path": "/research/evidence/ev-0071-wa231076-1983-84-registration-activity/"
+    },
+    {
+      "ev": "EV-0073",
+      "evidence_grade": 5,
+      "independent_origin_id": "ORIG-EV-0073",
+      "aliases": [],
+      "grade_note": "known from family account; original not located",
+      "path": "/research/evidence/ev-0073-family-solicitors-litigation-file-1984-87/"
+    },
+    {
+      "ev": "EV-0074",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EWCA-1987-CIV-2",
+      "aliases": [
+        "GHF-E140"
+      ],
+      "grade_note": "known through the 1987 judgment recital; not independent of EV-0080",
+      "path": "/research/evidence/ev-0074-high-court-trial-judgment-1986/"
+    },
+    {
+      "ev": "EV-0075",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0075",
+      "aliases": [],
+      "grade_note": "OCR text",
+      "path": "/research/evidence/ev-0075-south-wales-echo-1986-high-court-judgment/"
+    },
+    {
+      "ev": "EV-0076",
+      "evidence_grade": 5,
+      "independent_origin_id": "ORIG-EV-0076",
+      "aliases": [
+        "GHF-E142"
+      ],
+      "grade_note": "known from family account; original not located",
+      "path": "/research/evidence/ev-0076-house-of-lords-petition-leave-papers/"
+    },
+    {
+      "ev": "EV-0078",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0078",
+      "aliases": [],
+      "grade_note": "recited in a register or schedule; instrument not read",
+      "path": "/research/evidence/ev-0078-1987-title-amalgamation-application-plan/"
+    },
+    {
+      "ev": "EV-0080",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EWCA-1987-CIV-2",
+      "aliases": [
+        "GHF-E141"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    },
+    {
+      "ev": "EV-0088",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0088",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0088-south-wales-echo-buckler-dispute-1988/"
+    },
+    {
+      "ev": "EV-0089",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0089",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0089-chainsaw-farmer-vows-fight-on/"
+    },
+    {
+      "ev": "EV-0090",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0090",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0090-south-wales-echo-bailiffs-medical-attention/"
+    },
+    {
+      "ev": "EV-0092",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0092",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0092-echo-alun-michael-lord-chancellor/"
+    },
+    {
+      "ev": "EV-0093",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0093",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0093-estates-gazette-1988-bp-welsh-sales/"
+    },
+    {
+      "ev": "EV-0094",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0094",
+      "aliases": [
+        "GHF-E106"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0094-cadw-barn-survey-photo-1988/"
+    },
+    {
+      "ev": "EV-0095",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0095",
+      "aliases": [
+        "GHF-E106"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0095-cadw-farmhouse-survey-photo-1988/"
+    },
+    {
+      "ev": "EV-0096",
+      "evidence_grade": 3,
+      "independent_origin_id": "ORIG-EV-0096",
+      "aliases": [
+        "GHF-E144"
+      ],
+      "grade_note": "modern official disclosure",
+      "path": "/research/evidence/ev-0096-cadw-1988-inspection-photographs-listing/"
+    },
+    {
+      "ev": "EV-0098",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0098",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0098-south-wales-echo-forced-entry-1988/"
+    },
+    {
+      "ev": "EV-0099",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0099",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0099-south-wales-echo-bp-summons-1988/"
+    },
+    {
+      "ev": "EV-0101",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0101",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0101-echo-extract-hospital-assault-charges/"
+    },
+    {
+      "ev": "EV-0102",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0102",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0102-billys-unhappy-family-echo-1988/"
+    },
+    {
+      "ev": "EV-0103",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0103",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0103-echo-history-fight-save-farm/"
+    },
+    {
+      "ev": "EV-0104",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0104",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0104-south-wales-echo-extract-1988/"
+    },
+    {
+      "ev": "EV-0105",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0105",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0105-western-mail-final-eviction-hearing-1988/"
+    },
+    {
+      "ev": "EV-0106",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0106",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0106-tears-flow-farmhouse-razed-1988/"
+    },
+    {
+      "ev": "EV-0107",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0107",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0107-south-wales-echo-1988-councillor-protest/"
+    },
+    {
+      "ev": "EV-0108",
+      "evidence_grade": 3,
+      "independent_origin_id": "ORIG-EV-0108",
+      "aliases": [
+        "GHF-E090"
+      ],
+      "grade_note": "Sites and Monuments Record entry (official later record)",
+      "path": "/research/evidence/ev-0108-south-wales-echo-bp-demolition-anger/"
+    },
+    {
+      "ev": "EV-0122",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0122",
+      "aliases": [
+        "GHF-E145"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0122-echr-application-14464-88-inadmissibility/"
+    },
+    {
+      "ev": "EV-0124",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0124",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0124-outline-planning-permission-89-01396-out-residenti/"
+    },
+    {
+      "ev": "EV-0127",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0127",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0127-planning-application-form-d-for-approval-of-reserv/"
+    },
+    {
+      "ev": "EV-0128",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0128",
+      "aliases": [
+        "GHF-E147"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0128-ggat-letter-reserved-matters-approval/"
+    },
+    {
+      "ev": "EV-0136",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0136",
+      "aliases": [
+        "GHF-E149"
+      ],
+      "grade_note": "recited in a register or schedule; instrument not read",
+      "path": "/research/evidence/ev-0136-forest-of-cardiff-woodland-transfer-1994/"
+    },
+    {
+      "ev": "EV-0139",
+      "evidence_grade": 2,
+      "independent_origin_id": "ORIG-EV-0139",
+      "aliases": [
+        "GHF-E150"
+      ],
+      "grade_note": "recited in a register or schedule; instrument not read",
+      "path": "/research/evidence/ev-0139-forest-cardiff-goldsworthy-transfer-excision/"
+    },
+    {
+      "ev": "EV-0169",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0169",
+      "aliases": [
+        "GHF-E163"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0169-wa735527-title-register-september-2026/"
+    },
+    {
+      "ev": "EV-0170",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0170",
+      "aliases": [
+        "GHF-E161"
+      ],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0170-wa231076-title-register-september-2026/"
+    },
+    {
+      "ev": "EV-0199",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0199",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0199-photograph-tree-planting-at-great-house-farm-date/"
+    },
+    {
+      "ev": "EV-0201",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0201",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0201-planning-officer-s-report-on-outline-application-f/"
+    },
+    {
+      "ev": "EV-0215",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0215",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+    },
+    {
+      "ev": "EV-0216",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0216",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0216-1965-contract-condition-f-conveyance-25-december-1938/"
+    },
+    {
+      "ev": "EV-0217",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0217",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0217-forest-of-cardiff-accounts-2006-sale-of-land-leckwith-road/"
+    },
+    {
+      "ev": "EV-0220",
+      "evidence_grade": 3,
+      "independent_origin_id": "ORIG-EV-0220",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0220-leckwith-woods-wgr-gift-1940-1942/"
+    },
+    {
+      "ev": "EV-0227",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0227",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0227-cardiff-times-1904-john-williams-tenancy-since-1855/"
+    },
+    {
+      "ev": "EV-0232",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0232",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0232-commons-registration-glamorgan-act-1983/"
+    },
+    {
+      "ev": "EV-0248",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0248",
+      "aliases": [],
+      "grade_note": "OCR text",
+      "path": "/research/evidence/ev-0248-marconi-in-wales-may-1897-contemporary-press/"
+    },
+    {
+      "ev": "EV-0256",
+      "evidence_grade": 4,
+      "independent_origin_id": "ORIG-EV-0256",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0256-kemp-diary-lavernock-1897-bodleian-ms-marconi-89/"
+    },
+    {
+      "ev": "EV-0263",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0263",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0263-commons-registration-1965-publicity-glamorgan-notices-vg41/"
+    },
+    {
+      "ev": "EV-0265",
+      "evidence_grade": 1,
+      "independent_origin_id": "ORIG-EV-0265",
+      "aliases": [],
+      "grade_note": "",
+      "path": "/research/evidence/ev-0265-hmlr-registration-background-compulsory-1975-r29-certificate/"
+    },
+    {
+      "ev": "EV-0901",
+      "evidence_grade": null,
+      "independent_origin_id": "ORIG-EV-0901",
+      "aliases": [],
+      "grade_note": "Catalogue index only. The underlying attachments have not yet been imported or read; no grade is assigned.",
+      "path": "/research/evidence/ev-0901-foi-response-attachment-catalogue/"
+    },
+    {
+      "ev": "EV-0902",
+      "evidence_grade": 5,
+      "independent_origin_id": "ORIG-EV-0902",
+      "aliases": [],
+      "grade_note": "family-supplied photograph of an inscription; authorship, date and object identity unverified",
+      "path": "/research/evidence/ev-0902-john-williams-inscription-1886-comparator/"
+    }
+  ]
+}

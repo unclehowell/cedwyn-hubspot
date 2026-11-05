@@ -1,0 +1,230 @@
+{
+ "name": "Cedwyn version manifest",
+ "standard": "1.0.0",
+ "version": "1.1.0",
+ "set": "2026-11-01",
+ "about": "Read by /_cedwyn/version-gate.js; spec docs/VERSION-STANDARD.md; schema /_cedwyn/version-manifest.schema.json; checked by tools/version_audit.py. Prices are computed, never typed per version: the latest version costs the item's current price, each earlier one £4.99 less per step back (never below £0), v0.0.1 always free. Page counts, dates and changes come from data/ebooks.json and the e-book archive.",
+ "price_step_gbp": 4.99,
+ "images": [
+  "/nft-art/art/nfa-0014-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0016-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0019-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0020-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0021-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0023-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0026-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0029-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0032-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0035-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0038-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0043-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0044-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0048-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0050-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0051-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0052-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0055-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0057-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0058-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0059-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0060-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0067-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0069-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0070-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0071-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0072-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0076-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0077-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0078-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0079-v0.0.2-t.webp",
+  "/nft-art/art/nfa-0080-v0.0.2-t.webp"
+ ],
+ "purchase_path": "/ebooks/",
+ "ebooks": {
+  "wiki": {
+   "card": "great-house-farm-wiki",
+   "price": "£4.99",
+   "unit": "pages",
+   "versions": [
+    {
+     "v": "0.0.1",
+     "date": "2026-10-19",
+     "pages": 2033,
+     "kind": "earlier",
+     "change": "The first edition of the Legal Wiki as a book (19 October 2026), released free as an archive edition. Two personal documents, two personal email catalogues and a private family photograph and recollection are left out for privacy."
+    },
+    {
+     "v": "0.0.2",
+     "date": "2026-10-25",
+     "pages": 1987,
+     "change": "The Legal Wiki as a book, focused on evidence, history and heritage, with the 25 Oct 2026 supplement “The title chain and the twelve-year pairs”."
+    }
+   ]
+  },
+  "fcg": {
+   "price": "£4.99",
+   "unit": "pages",
+   "versions": [
+    {
+     "v": "0.0.1",
+     "date": "2026-10-20",
+     "pages": 20,
+     "kind": "preview",
+     "change": "Free preview: the opening 18 pages (Part I (Reading this book) and chapter 2 (The land and the proceedings))."
+    },
+    {
+     "v": "0.0.2",
+     "date": "2026-10-25",
+     "pages": 221,
+     "change": "The complete book, with the 25 Oct 2026 supplement “The title chain and the twelve-year pairs”."
+    }
+   ]
+  },
+  "projects": {
+   "card": "project-management",
+   "price": "£4.99",
+   "unit": "pages",
+   "versions": [
+    {
+     "v": "0.0.1",
+     "date": "2026-10-20",
+     "pages": 13,
+     "kind": "preview",
+     "change": "Free preview: the opening 11 pages (Part I (Orientation: how to read the dossier and the dossier at a glance))."
+    },
+    {
+     "v": "0.0.2",
+     "date": "2026-10-25",
+     "pages": 187,
+     "change": "The complete dossier, with the 25 Oct 2026 supplement “The title chain and the twelve-year pairs”."
+    }
+   ]
+  },
+  "dartboard": {
+   "card": "dartboard-disclosure",
+   "price": "£4.99",
+   "unit": "pages",
+   "versions": [
+    {
+     "v": "0.0.1",
+     "date": "2026-10-20",
+     "pages": 24,
+     "kind": "preview",
+     "change": "Free preview: the opening 22 pages (Part I (The Dartboard: the chart, the numbers and how the ladders are built))."
+    },
+    {
+     "v": "0.0.2",
+     "date": "2026-10-25",
+     "pages": 404,
+     "change": "The complete book, with the 25 Oct 2026 supplement “The title chain and the twelve-year pairs”."
+    }
+   ]
+  },
+  "tymawr-deaths": {
+   "card": "tymawr-deaths",
+   "price": "£4.99",
+   "unit": "pages",
+   "versions": [
+    {
+     "v": "0.0.1",
+     "date": "2026-10-20",
+     "pages": 14,
+     "kind": "preview",
+     "change": "Free preview: the opening 12 pages (Part I (The Scene: the brief, the method, the cast and the estate))."
+    },
+    {
+     "v": "0.0.2",
+     "date": "2026-10-25",
+     "pages": 69,
+     "change": "The complete book, with the 25 Oct 2026 supplement “The title chain and the twelve-year pairs”."
+    }
+   ]
+  },
+  "recorded-incidents": {
+   "card": "recorded-incidents",
+   "price": "£4.99",
+   "unit": "pages",
+   "versions": [
+    {
+     "v": "0.0.1",
+     "date": "2026-10-20",
+     "pages": 30,
+     "kind": "earlier",
+     "change": "First edition. 28 dated record cards, 1891–1989, with exact quotes and sources; farm-album photographs."
+    },
+    {
+     "v": "0.0.2",
+     "date": "2026-10-25",
+     "pages": 44,
+     "change": "The second edition, with the 25 Oct 2026 supplement “The title chain and the twelve-year pairs”."
+    }
+   ]
+  },
+  "tymawr-heritage": {
+   "card": "tymawr-heritage",
+   "price": "£4.99",
+   "unit": "pages",
+   "versions": [
+    {
+     "v": "0.0.1",
+     "date": "2026-10-20",
+     "pages": 24,
+     "kind": "earlier",
+     "change": "First edition. Names on the land, the Bute estate years, the house and its fabric, below the ground, the 1988 listing survey."
+    },
+    {
+     "v": "0.0.2",
+     "date": "2026-10-25",
+     "pages": 43,
+     "change": "The second edition, with the 25 Oct 2026 supplement “The title chain and the twelve-year pairs”."
+    }
+   ]
+  },
+  "williams-buckler-family": {
+   "card": "williams-buckler-family",
+   "price": "£4.99",
+   "unit": "pages",
+   "versions": [
+    {
+     "v": "0.0.1",
+     "date": "2026-10-20",
+     "pages": 25,
+     "kind": "earlier",
+     "change": "First edition. The family tree and the people of Tŷ Mawr, each with the record that places them."
+    },
+    {
+     "v": "0.0.2",
+     "date": "2026-10-25",
+     "pages": 34,
+     "change": "The second edition, with the 25 Oct 2026 supplement “The title chain and the twelve-year pairs”."
+    }
+   ]
+  },
+  "cedwyn": {
+   "card": "cedwyn",
+   "unit": "pages",
+   "versions": [
+    {
+     "v": "0.0.1",
+     "date": "2026-10-20",
+     "pages": 32,
+     "change": "Names, places, legend and title of Tŷ Mawr, with the 25 Oct 2026 supplement “The title chain and the twelve-year pairs”."
+    }
+   ]
+  }
+ },
+ "movie": {
+  "paths": [
+   "/movie/",
+   "/documentary/"
+  ],
+  "file": "\\/([A-Za-z0-9_-]+)\\/\\1\\.([a-z]{2})\\.v(\\d+\\.\\d+\\.\\d+)\\.webm",
+  "purchase_path": "/documentary/",
+  "price": "£4.99"
+ },
+ "no_gate": {
+  "nft": "/nft-art/: every piece is v0.0.1 (free), no paid version yet",
+  "academy": "/learn/: courses open by membership, no per-course versions yet",
+  "merch": "/shop/: goods with no free version"
+ }
+}

@@ -1,0 +1,1343 @@
+{
+"repo": "unclehowell/cedwyn",
+"commit_url": "github.com/unclehowell/cedwyn/commit/<sha>",
+"rule": "Versions are derived from main's commit history (the repo has no release tags on main): the first commit is 1.0.0; each later commit bumps the minor number (1.N.0), except a fix (first word fix/typo/repair/correct/restore, or \"typo\" anywhere in the first line) and the automated build-log commits, which bump the patch number (1.N.P).",
+"source": "snapshot",
+"version": "1.95.2",
+"count": 148,
+"show": 20,
+"rows": [
+{
+"v": "1.95.2",
+"sha": "adf006607a265ea72f88c85f3a6e50cd18e4a567",
+"date": "26/10/2026 03:59 GMT",
+"iso": "2026-10-26T03:59Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.95.1",
+"sha": "e30b6142785b7b934c42a3fb879ad7de1f394988",
+"date": "26/10/2026 03:28 GMT",
+"iso": "2026-10-26T03:28Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.95.0",
+"sha": "0a406c707924ea336cb33b07ceb24e3c9962c336",
+"date": "26/10/2026 03:15 GMT",
+"iso": "2026-10-26T03:15Z",
+"note": "Wales tour: a warm guided tour; all legal material moves to one new stop, \"Court and lawfare\"",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.94.1",
+"sha": "5b339ea4c9e5a71d8ee683e9dc6ea4aa11b94e0e",
+"date": "26/10/2026 02:51 GMT",
+"iso": "2026-10-26T02:51Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.94.0",
+"sha": "6b9966bfce9f6be1bb074ddd0e8c02a7ada5b2ba",
+"date": "26/10/2026 02:25 GMT",
+"iso": "2026-10-26T02:25Z",
+"note": "Great House II builder: send the pre-order request through Mailchimp's own page in a new tab (the in-page request now meets a 'confirm you are human' check)",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.93.1",
+"sha": "a1bfa9de8500c8887b869260c0e9c506c1969151",
+"date": "26/10/2026 02:17 GMT",
+"iso": "2026-10-26T02:17Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.93.0",
+"sha": "ef474de96ea84e2b4e2169d8dc471da1ab5411d4",
+"date": "26/10/2026 01:49 GMT",
+"iso": "2026-10-26T01:49Z",
+"note": "Landing: Welsh flag (Y Ddraig Goch) on the Wales tile and Sion's intro line in en/cy/es",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.92.0",
+"sha": "63966361ad49cf9ddbd86686386663f71e88103f",
+"date": "26/10/2026 01:43 GMT",
+"iso": "2026-10-26T01:43Z",
+"note": "Great House II builder: send pre-order requests to Mailchimp's /subscribe/post JSONP endpoint (post-json now answers 404)",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.91.2",
+"sha": "3670004f4871a4da2749df678ad2bf0049065e5b",
+"date": "26/10/2026 01:38 GMT",
+"iso": "2026-10-26T01:38Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.91.1",
+"sha": "c34148aec6d9e6703ff82ed645d5433e29709deb",
+"date": "26/10/2026 01:08 GMT",
+"iso": "2026-10-26T01:08Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.91.0",
+"sha": "728202b0b222d380576d5a694d24aa2a8fdf7056",
+"date": "26/10/2026 00:48 GMT",
+"iso": "2026-10-26T00:48Z",
+"note": "site.py: run tools/halves.py after sections.run (replaces the landing, /wales/ and /argentina/ pages only)",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.90.0",
+"sha": "d35a3cfd60d1d62062870af697f4de8544f3bef1",
+"date": "26/10/2026 00:48 GMT",
+"iso": "2026-10-26T00:48Z",
+"note": "Two halves compartment: tools/halves.py + data/halves.json (landing tiles, Wales AR guided tour, Patagonia retreat and package builder)",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.89.0",
+"sha": "bc7598c0eb42bba4aee1e2990e258a0e941558d6",
+"date": "26/10/2026 00:47 GMT",
+"iso": "2026-10-26T00:47Z",
+"note": "Two halves: images for the landing tiles, the Wales AR tour stops and Great House II (web/_cedwyn/halves/img, webp, all under 300 KB)",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.88.1",
+"sha": "7b650f7f77693979c8564778e327e2b4feade237",
+"date": "26/10/2026 00:28 GMT",
+"iso": "2026-10-26T00:28Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.88.0",
+"sha": "6d83598d2dcb2403f90570b1749475cdde75fe4b",
+"date": "26/10/2026 00:16 GMT",
+"iso": "2026-10-26T00:16Z",
+"note": "Register the \"kissed-frogs\" theme (Kissed Frogs, the screening register): one themes.json entry appended at the end, group \"research\", built from branch kissed-frogs/public. No other file touched (repair freeze)",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.87.0",
+"sha": "9c903f2cac0bf8e6e8654a75b79783e98d59350b",
+"date": "26/10/2026 00:16 GMT",
+"iso": "2026-10-26T00:16Z",
+"note": "Register the \"movie\" theme (Cedwyn · the film): one themes.json entry, group \"story\", built from branch cedwyn-movie/public. No other file touched (repair freeze)",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.86.0",
+"sha": "be43d744fb5bf202bc8acb1d305a3352167f0595",
+"date": "26/10/2026 00:03 GMT",
+"iso": "2026-10-26T00:03Z",
+"note": "Argentina: the family's case / El caso de la familia at /argentina/caso/ (advocacy page, es + en, 53 numbered cuts with evidence links)",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.85.1",
+"sha": "2d43e705dd18c3f296821495c8274d78c183522e",
+"date": "25/10/2026 23:42 GMT",
+"iso": "2026-10-25T23:42Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.85.0",
+"sha": "cab3c43f62b7ead9526d0388fa4708c103fa1156",
+"date": "25/10/2026 23:13 GMT",
+"iso": "2026-10-25T23:13Z",
+"note": "Research: 22 new catalogue entries (EV-0607–EV-0628) with charts, the title-chain layer for the catalogue database, and the e-book supplement (every e-book +1 minor version; editions and prices unchanged)",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.84.2",
+"sha": "0be4d29777afb12dd919c9ca5b6aa2423c233a9e",
+"date": "25/10/2026 22:41 GMT",
+"iso": "2026-10-25T22:41Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.84.1",
+"sha": "e1e179514a5e60f44286a65cbe985933ebdbb830",
+"date": "25/10/2026 22:05 GMT",
+"iso": "2026-10-25T22:05Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.84.0",
+"sha": "cce726448105539b0c3bf2ee3c405fb00ddbe148",
+"date": "25/10/2026 21:58 GMT",
+"iso": "2026-10-25T21:58Z",
+"note": "Redirect legacy mail API bookmarks to the supported static archive",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.83.0",
+"sha": "8bb17429970ab81f529a589af37616377e55c069",
+"date": "25/10/2026 21:58 GMT",
+"iso": "2026-10-25T21:58Z",
+"note": "Document supported static correspondence access and clarify retired dynamic API endpoints",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.82.0",
+"sha": "5ddce68ef2f57c4156ff1971f927bfa9398764eb",
+"date": "25/10/2026 21:58 GMT",
+"iso": "2026-10-25T21:58Z",
+"note": "Replace nonfunctional legacy mail front end with a working Post Office landing page",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.81.0",
+"sha": "9dd837fc8ac05da44d1e8c95dbf54f303ae00110",
+"date": "25/10/2026 21:53 GMT",
+"iso": "2026-10-25T21:53Z",
+"note": "Audit same-page fragment links instead of skipping them",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.80.0",
+"sha": "6c0a6685da12a8725989e424d6c211d386a526dd",
+"date": "25/10/2026 21:52 GMT",
+"iso": "2026-10-25T21:52Z",
+"note": "Keep root-page previous/next navigation anchored to Cedwyn Estate",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.79.0",
+"sha": "6a8ad287321569f61a0a3ec1bc5869ae1bbb11c5",
+"date": "25/10/2026 21:51 GMT",
+"iso": "2026-10-25T21:51Z",
+"note": "Align Cedwyn theme directory and header order with canonical 38-stop chain",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.78.0",
+"sha": "76fca1ddc96d8801a75984a9481fa808f6bff5ba",
+"date": "25/10/2026 21:48 GMT",
+"iso": "2026-10-25T21:48Z",
+"note": "Improve Cedwyn 404 recovery paths and make missing links easier to recover from",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.77.2",
+"sha": "6eba6ceb3dc9dd97a8cf4a2184f321eb8c8cbfee",
+"date": "25/10/2026 21:47 GMT",
+"iso": "2026-10-25T21:47Z",
+"note": "Repair shared navigation chain: restore Research and add 1000 Cuts",
+"who": "unclehowell",
+"kind": "fix"
+},
+{
+"v": "1.77.1",
+"sha": "daa454cb6ffa5c890273aa0a82002e2fc1301673",
+"date": "25/10/2026 21:47 GMT",
+"iso": "2026-10-25T21:47Z",
+"note": "Restore Court Drills theme mapping and align Cedwyn registry with navigation",
+"who": "unclehowell",
+"kind": "fix"
+},
+{
+"v": "1.77.0",
+"sha": "7d43ea4276f737571106bc77fb3a04655bb05910",
+"date": "25/10/2026 21:45 GMT",
+"iso": "2026-10-25T21:45Z",
+"note": "Keep internal-link audit report-only even if its own scan errors",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.76.0",
+"sha": "d522802d440d20aff1f9dd015d6ee1f509b74ad7",
+"date": "25/10/2026 21:43 GMT",
+"iso": "2026-10-25T21:43Z",
+"note": "Preserve the original Post Office homepage via keep_previous instead of replacing it with a fallback",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.75.0",
+"sha": "23ba0dea75648d3953c4f351a27442ce9768f3e6",
+"date": "25/10/2026 21:40 GMT",
+"iso": "2026-10-25T21:40Z",
+"note": "Build: keep_previous also fills a kept theme's home page from an earlier build when the previous build had lost it too — the Post Office (email/) has had no home page since the 14:36 refused crawl (only the new viewer under /email/view/ etc.), so /email/ answered 404 on the deployment. Previous build first, then the newest build with <theme>/index.html; missing files only, never over a fresh file",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.74.0",
+"sha": "1c6dfb771a47156c5776f1afda718fb23c096205",
+"date": "25/10/2026 21:40 GMT",
+"iso": "2026-10-25T21:40Z",
+"note": "Route Post Office thread and reference URLs to the static viewer shell",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.73.0",
+"sha": "eb2ca30c0c449e7444bfee889db7c1a261f11761",
+"date": "25/10/2026 21:39 GMT",
+"iso": "2026-10-25T21:39Z",
+"note": "Audit internal links and broken page anchors on every build",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.72.0",
+"sha": "08cfabb830b0f0033953dec89fc9976e40a13ba2",
+"date": "25/10/2026 21:39 GMT",
+"iso": "2026-10-25T21:39Z",
+"note": "Add Post Office landing page for the shared theme navigation",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.71.0",
+"sha": "c6f6659cf6636079b29dd500aa285e3aa4d0cedc",
+"date": "25/10/2026 21:39 GMT",
+"iso": "2026-10-25T21:39Z",
+"note": "Add report-only internal link and fragment audit",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.70.1",
+"sha": "a94f29fbe677f253676febf39ec7094da0881a54",
+"date": "25/10/2026 21:32 GMT",
+"iso": "2026-10-25T21:32Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.70.0",
+"sha": "1fc4c5f0e1858b0b230a13884d7603da70b4a6a7",
+"date": "25/10/2026 21:13 GMT",
+"iso": "2026-10-25T21:13Z",
+"note": "Build: keep the original order (ingredients, then keep_previous) and let keep_previous apply this build's ingredients rewords and link repoints to the themes it kept, skipping any entry whose replacement is already in the file — so the app demo's '</body>' insertion can never be applied twice to a kept copy (follow-up to 672279f)",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.69.0",
+"sha": "672279fcf342e99cf2198ffcf083f6c95e43a51c",
+"date": "25/10/2026 21:10 GMT",
+"iso": "2026-10-25T21:10Z",
+"note": "Build: a crawled theme dropped by an earlier refused build comes back — keep_previous now looks back through the last 100 site commits for the newest build that still has the theme's home page (fcg, research and terrain were lost by the 7d0a5ef build at 14:36 UTC, when their Worker hosts answered the crawl 429/522 after the account's daily Workers limit; the guard landed after it, so every later build found 0 previous files). One batched blob fetch per theme; missing files only, never over a fresh one. keep_previous now runs before the ingredients pass so rewords and link repoints reach kept copies.",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.68.1",
+"sha": "1ac2beb1d019cdb35aa7ece68061eb12e3a4c3a4",
+"date": "25/10/2026 21:10 GMT",
+"iso": "2026-10-25T21:10Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.68.0",
+"sha": "796e1a4275379475945adf41c7516a2241b2af15",
+"date": "25/10/2026 21:00 GMT",
+"iso": "2026-10-25T21:00Z",
+"note": "Not-here links: 42 Research Library links to articles missing from its copy now open the same article in the wiki theme (ingredients.json link repoints, research theme only)",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.67.0",
+"sha": "11208e89ff0c1e23d0fbbe06ce0cf2dfcf6d94be",
+"date": "25/10/2026 20:53 GMT",
+"iso": "2026-10-25T20:53Z",
+"note": "Post Office parallel: 'view email' links (/email/thread/…, /email/reference/…) open on Cedwyn — static viewer in the email compartment (web/email/view/: catalogue copied from datro@wayback wayback/api/index.json, message texts from /wayback/mail/), one page per thread (511) and message/thread reference (1126), and an all-mail list at /email/view/; same origin, no API needed",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.66.0",
+"sha": "c3e36a021adbba36c8285e89e4733caf49905b32",
+"date": "25/10/2026 20:50 GMT",
+"iso": "2026-10-25T20:50Z",
+"note": "Broken album images: 19 Wayback images used by the Farm Album and farmbook 2 were HTML pages saved under .jpg/.png names; add the real files (17 from the archive media store, 2 best surviving copies) and fb2's missing cover image as static assets in their compartments",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.65.2",
+"sha": "18336acea530e8b59dda294a9ba537354485a8dc",
+"date": "25/10/2026 20:41 GMT",
+"iso": "2026-10-25T20:41Z",
+"note": "Fix theme prev/next loop at theme 32: root-section chain sends Virtual Tour · Wales to /wales/tour/ (its home since the Wales hub took /wales/), match current theme by id; ghf-boot 2.1.10",
+"who": "Tab",
+"kind": "fix"
+},
+{
+"v": "1.65.1",
+"sha": "ac22b5381d323ba17f53f8cacc8ae008b9de7d5f",
+"date": "25/10/2026 19:05 GMT",
+"iso": "2026-10-25T19:05Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.65.0",
+"sha": "630a83c8e9465af4e4928575b446118970824572",
+"date": "25/10/2026 18:33 GMT",
+"iso": "2026-10-25T18:33Z",
+"note": "Wayback Vault: one menu entry for Public faces (ingredients.json 1.2.1)",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.64.0",
+"sha": "563735de5eeb6d56a1895e27829c8e2aeb7fbcf0",
+"date": "25/10/2026 18:32 GMT",
+"iso": "2026-10-25T18:32Z",
+"note": "Add the editor relay workflow (.github/workflows/cms-relay.yml) — the only change to main for the private editor at /admin/: every 5 min it commits the editor's queued publishes from branch cms with the repo's own Actions token and starts build-cedwyn. No theme or shared file touched; does not trigger a site build.",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.63.0",
+"sha": "b86d53a49e6627b74a52f9d5d2724eb253890aa8",
+"date": "25/10/2026 18:32 GMT",
+"iso": "2026-10-25T18:32Z",
+"note": "Wayback Vault: new \"Public faces\" collection (additive files only)",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.62.1",
+"sha": "852b55adde4e45842894ca22c9acda76952f0d57",
+"date": "25/10/2026 18:07 GMT",
+"iso": "2026-10-25T18:07Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.62.0",
+"sha": "b1423c75289f02027cd562da6d20324ae821bca2",
+"date": "25/10/2026 17:46 GMT",
+"iso": "2026-10-25T17:46Z",
+"note": "1000 Cuts: restore layer.json (40 cuts, epilogue, theories, records, changes) truncated by a923f6a; keep a923f6a's P2 Marconi 1897 'Press record' correction and v2.2.1",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.61.1",
+"sha": "e5163a7462c49e34a8f7e00069680226ccf5db4a",
+"date": "25/10/2026 17:43 GMT",
+"iso": "2026-10-25T17:43Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.61.0",
+"sha": "a923f6a162f4dda1fc044d02833e868245d1a120",
+"date": "25/10/2026 17:11 GMT",
+"iso": "2026-10-25T17:11Z",
+"note": "P2 Marconi 1897: correct from 'Not yet confirmed / none name Great House Farm' to Press record citing 1995 Barrett (Great House Farm + Farmer Williams) + 1897 Mr Williams pole. Evidence now supports the connection.",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.60.2",
+"sha": "0c25ea698f88d13dcc0c6fc9dd0f309eee03fd68",
+"date": "25/10/2026 15:55 GMT",
+"iso": "2026-10-25T15:55Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.60.1",
+"sha": "0f333a65bb261805a5bed921e4055e97bf1d7b50",
+"date": "25/10/2026 15:24 GMT",
+"iso": "2026-10-25T15:24Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.60.0",
+"sha": "31b32d5ad9c991d30966b7457472aee4e8320b15",
+"date": "25/10/2026 15:22 GMT",
+"iso": "2026-10-25T15:22Z",
+"note": "Build: the keep-previous guard also catches a partly refused crawl — a crawled theme with no home page OR under 80% of its previous build's files (the old Worker origins answer 429 Error 1027 / 522 this afternoon) keeps the previous build's files for the gaps; missing files only, report in _cedwyn/reports/keep_previous.json",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.59.0",
+"sha": "18f68fa9bbe396461f4f311fb73f92d8c1eab8bb",
+"date": "25/10/2026 15:19 GMT",
+"iso": "2026-10-25T15:19Z",
+"note": "Shared header (thin layer): the empty strip at the very top of the header is gone on every page (Sion 14:32); the language selector and the menu button move up with the rest of the header and still work; header scripts ?v=2.1.4e",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.58.1",
+"sha": "261deebde4aa9f22aeade427db74f43d7ab36e7a",
+"date": "25/10/2026 15:11 GMT",
+"iso": "2026-10-25T15:11Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.58.0",
+"sha": "3eb1b7fddc8021da8bedfe27712dbaa2738c7731",
+"date": "25/10/2026 14:43 GMT",
+"iso": "2026-10-25T14:43Z",
+"note": "Build: a crawled theme can no longer vanish — the dartboard's server answered the 7d0a5ef build's crawl with 429 Too Many Requests, so /dartboard/ lost its home page and bundle and answered 404. The crawl now retries 429/503 with a wait, and any crawled theme still missing its home page keeps its previous build's files (tools/keep_previous.py, missing files only, report in _cedwyn/reports)",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.57.0",
+"sha": "94848cdb5d87abfcc8021dc26d084349cc63c8e8",
+"date": "25/10/2026 14:40 GMT",
+"iso": "2026-10-25T14:40Z",
+"note": "Shared header (thin layer): the language menu in the top-right opens fully below its button — the header row no longer cuts it to one line, and on the landing page and hubs it no longer opens upward off-screen; header scripts ?v=2.1.4d so phones fetch the fix",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.56.1",
+"sha": "c08ad9025e050351dd2eb534c753c82a09f3a426",
+"date": "25/10/2026 14:36 GMT",
+"iso": "2026-10-25T14:36Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.56.0",
+"sha": "ecdfd79e74fd74d3acd881acdac57b3caa4beb22",
+"date": "25/10/2026 14:32 GMT",
+"iso": "2026-10-25T14:32Z",
+"note": "Sections: one language selector only — the landing page and the Wales and Argentina hubs drop their own CY/EN/ES row; the header's top-right selector (cy/en/es, remembered, Wales cy / Argentina es defaults) is the one left; day/night toggle kept",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.55.0",
+"sha": "7d0a5ef70ba4ff388c42baff01064479ce259578",
+"date": "25/10/2026 14:14 GMT",
+"iso": "2026-10-25T14:14Z",
+"note": "Dartboard compartment: the board shows again under /dartboard/, /wales/dartboard/ and /argentina/dartboard/ — the crawled app's router is told its base path at build time (spa-basepath.json, applied by tools/ingredients.py like the app fact-check), instead of reading the path as an unknown page and showing \"Not Found\"",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.54.2",
+"sha": "1766eab5a9563c9b6666aecf0a2ef39bd370cf61",
+"date": "25/10/2026 13:34 GMT",
+"iso": "2026-10-25T13:34Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.54.1",
+"sha": "0f27d82e94cd94a374ec04cb7d0b2ee53125b649",
+"date": "25/10/2026 13:11 GMT",
+"iso": "2026-10-25T13:11Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.54.0",
+"sha": "779bc38fece1100bbb7b10c364510f25a49403f6",
+"date": "25/10/2026 13:11 GMT",
+"iso": "2026-10-25T13:11Z",
+"note": "Checkout pass-through (sales fix): buy buttons and the free-book form reach Stripe, Gumroad and Mailchimp (https allow-list in runtime.js and /wayback/go/); every other outside address unchanged; runtime v=8, service worker 2026-10-25h",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.53.0",
+"sha": "6b5e2fa1649fb70a5d41b0ed5e8818ae02899075",
+"date": "25/10/2026 13:00 GMT",
+"iso": "2026-10-25T13:00Z",
+"note": "Shared (minimal): evidence_grade 1–6 and independent_origin_id for the 81 cited EVs, as a catalogue table only (not shown on pages until reviewed)",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.52.0",
+"sha": "f42bff58fb0182f4a2315f003abe1bf20b1503e4",
+"date": "25/10/2026 13:00 GMT",
+"iso": "2026-10-25T13:00Z",
+"note": "1000 Cuts compartment v2.2.0: forensic-audit intake — 18 wording edits (provisional Parcel A, grade scale, 6–7 Dec 1988), theories 3 and 4 swapped, new sections H1–H4 + insufficient evidence and Records that would settle it",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.51.0",
+"sha": "e6940ac209e906c6a273baf2a84e2a1c78e2057d",
+"date": "25/10/2026 12:59 GMT",
+"iso": "2026-10-25T12:59Z",
+"note": "Wiki compartment: forensic-audit intake — the same 40 map rewords for the /wiki/ copy, 2 page-title rewords, provisional-parcels notice (notices/wiki.json)",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.50.0",
+"sha": "94855e40f1d625ea1bbeeb5ebb92f7f32638cc62",
+"date": "25/10/2026 12:59 GMT",
+"iso": "2026-10-25T12:59Z",
+"note": "Research compartment: forensic-audit intake — 40 title-chain map rewords, 2 page-title rewords, provisional-parcels notice on 7 pages and above the map (notices/research.json; per-theme notice step)",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.49.0",
+"sha": "df933e60a0bd0b8bfe3daf68cd85e11648d95f72",
+"date": "25/10/2026 12:51 GMT",
+"iso": "2026-10-25T12:51Z",
+"note": "E-book compartment: editions table fits a phone (book · edition + version · price)",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.48.0",
+"sha": "d3778576bce9f7ec22d81ef92786588893c7f8d5",
+"date": "25/10/2026 12:47 GMT",
+"iso": "2026-10-25T12:47Z",
+"note": "Sections shell: the Wales hub's e-book card shows the editions and prices from data/ebooks.json",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.47.0",
+"sha": "e189760fe6b8d07214968c0bd68e60c215e7b82a",
+"date": "25/10/2026 12:47 GMT",
+"iso": "2026-10-25T12:47Z",
+"note": "E-book compartment: Editions and prices table + version/price on each card at /ebooks/ (data/ebooks.json from the 25 Oct e-book patch); /ebooks/api/* free-edition gate sent to the shop (302)",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.46.0",
+"sha": "bdca979140d7fdb4849052829891bea358ddfaff",
+"date": "25/10/2026 12:42 GMT",
+"iso": "2026-10-25T12:42Z",
+"note": "Header: the location strip's Patagonia opens /argentina/ and lights the current section; the menu names every theme in Welsh/Spanish from themes.json",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.45.0",
+"sha": "185b436ce4af169b537010725dc25bbe381f8ef9",
+"date": "25/10/2026 12:39 GMT",
+"iso": "2026-10-25T12:39Z",
+"note": "Shared layer for the sections: runtime reads the section prefix and loads section.js; header menu keeps links in the section, adds Wales/Argentina/oak-board links; ghf-lang honours the section's default language; service worker serves sectioned paths from the database; header v2.1.9, runtime v=7",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.44.0",
+"sha": "22392827f88a963618a6f240e19262dadbe2e39b",
+"date": "25/10/2026 12:38 GMT",
+"iso": "2026-10-25T12:38Z",
+"note": "Sections shell: landing tiles (/), Wales hub (/wales/), Argentina hub (/argentina/), oak board at /explore/, /wales|argentina/<theme>/ rewrites to the same theme files; copy in sections.json (en/cy/es)",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.43.1",
+"sha": "af9d30a69d36b12f50a539662c3dc008e42a25ee",
+"date": "25/10/2026 11:59 GMT",
+"iso": "2026-10-25T11:59Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.43.0",
+"sha": "33b2358effc665f72c10467882a874d0969bc070",
+"date": "25/10/2026 11:24 GMT",
+"iso": "2026-10-25T11:24Z",
+"note": "App theme demo: fact-check of every demo record against the research catalogue (app-demo-factcheck.json, 248 entries: corrections with EV citations, unsupported items marked, conclusions reworded; [EV-xxxx] linked to /research/evidence/); ingredients.py applies it and accepts glob file names",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.42.2",
+"sha": "db028f18d0c8fd822790319f2e12b05de2c29a95",
+"date": "25/10/2026 11:18 GMT",
+"iso": "2026-10-25T11:18Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.42.1",
+"sha": "e0424b21fede903abc5846c637f0641c4d2085b0",
+"date": "25/10/2026 10:56 GMT",
+"iso": "2026-10-25T10:56Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.42.0",
+"sha": "f3f3a6b3741eda9389069edf0e3c09c03b2b97ec",
+"date": "25/10/2026 10:54 GMT",
+"iso": "2026-10-25T10:54Z",
+"note": "Projects theme: THE TRIGGER EVENT section (#trigger-event) + agent footer on theme homes (tools/agent_footer.py, called by site.py); every other page gets the same footer at the edge",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.41.1",
+"sha": "4e17c3a431c72d6e2c8e0519b8aa137c3e3ce8e2",
+"date": "25/10/2026 10:41 GMT",
+"iso": "2026-10-25T10:41Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.41.0",
+"sha": "c36629309df7ce59a13c12a47e5e65a79dcbcf81",
+"date": "25/10/2026 10:33 GMT",
+"iso": "2026-10-25T10:33Z",
+"note": "Projects theme: THE TRIGGER EVENT section (#trigger-event) + agent footer on theme homes (tools/agent_footer.py, called by site.py); every other page gets the same footer at the edge",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.40.0",
+"sha": "f2c727c70f0efbcae01ed2380c8ae43d8ad45c49",
+"date": "25/10/2026 10:33 GMT",
+"iso": "2026-10-25T10:33Z",
+"note": "Side menu: Home (oak board) and Values, one collapsible dropdown per theme group, then a separate dropdown of all 37 themes in canonical order — both from themes.json (site.py fills CEDWYN_GROUPS + each theme's group); current theme highlighted, its group open; header v2.1.8, sw bump",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.39.2",
+"sha": "273b50bb7c85e8de2085cf56a8b4f345a656861f",
+"date": "25/10/2026 10:18 GMT",
+"iso": "2026-10-25T10:18Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.39.1",
+"sha": "22498acf7016625e3ebe14052395325cc4ea1195",
+"date": "25/10/2026 09:42 GMT",
+"iso": "2026-10-25T09:42Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.39.0",
+"sha": "98b887bc013f74f073adfc0bbb6b3b9aea6211d3",
+"date": "25/10/2026 09:37 GMT",
+"iso": "2026-10-25T09:37Z",
+"note": "Editorial rule 'ingredients, not conclusions' + Values and Standards page",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.38.1",
+"sha": "ef0815a2780a5957d2bb9152194bbf3c6ec82f8d",
+"date": "25/10/2026 09:26 GMT",
+"iso": "2026-10-25T09:26Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.38.0",
+"sha": "6d5834667a9e160c1ddfd43f6434487c2349f53c",
+"date": "25/10/2026 09:05 GMT",
+"iso": "2026-10-25T09:05Z",
+"note": "Dartboard theme named as the dartboard app (not 'Home') in themes.json and in the header/menu names; the oak board is the home",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.37.0",
+"sha": "4e86e9028433c043a4a227b85bed2690a7506779",
+"date": "25/10/2026 09:04 GMT",
+"iso": "2026-10-25T09:04Z",
+"note": "Home: the oak board - three ways in (Wales, Argentina, Cyberspace), each opening the same submenu of all 37 themes in four groups",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.36.1",
+"sha": "3b59e4682855dbd02fe8433539faf2acd02bb3c2",
+"date": "25/10/2026 08:53 GMT",
+"iso": "2026-10-25T08:53Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.36.0",
+"sha": "50f42cb3de06cf6e81ca8141b7bcfb5ec78d75ca",
+"date": "25/10/2026 08:53 GMT",
+"iso": "2026-10-25T08:53Z",
+"note": "Cache: ghf-boot/basecamp v2.1.6 and runtime v=5, so browsers and the edge fetch the 37-theme ‹ › loop (1000 Cuts) instead of a cached 36-theme copy",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.35.0",
+"sha": "8cbf518980be0f85e3224bda79da9d73a02b75cf",
+"date": "25/10/2026 08:49 GMT",
+"iso": "2026-10-25T08:49Z",
+"note": "1000 Cuts: the 37th theme, a layer over the same evidence",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.34.1",
+"sha": "fb18f90951132787c88fcad3d939acf61b3c71ad",
+"date": "25/10/2026 08:22 GMT",
+"iso": "2026-10-25T08:22Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.34.0",
+"sha": "70f944c9108f286d486d1e904f402f2a5227a00b",
+"date": "25/10/2026 08:04 GMT",
+"iso": "2026-10-25T08:04Z",
+"note": "Archive page: Google's translated view of a theme (*.translate.goog) opens the theme itself [skip ci]",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.33.1",
+"sha": "1576c62d95d4fe64b9e956a16c846ffc9ab5be91",
+"date": "25/10/2026 07:47 GMT",
+"iso": "2026-10-25T07:47Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.33.0",
+"sha": "476c32090b33f5a148dbed24c2bd0063a16c261f",
+"date": "25/10/2026 07:47 GMT",
+"iso": "2026-10-25T07:47Z",
+"note": "Archive interstitial: Great House Farm addresses never land on \"Leaving the archive?\"",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.32.0",
+"sha": "db7982e7690f1d11b6d141018dd25bf70a5ef00c",
+"date": "25/10/2026 07:41 GMT",
+"iso": "2026-10-25T07:41Z",
+"note": "Header nav: one 36-theme loop both ways; theme links never sent to the archive interstitial",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.31.0",
+"sha": "5f98c94e6f6bfc04aeba1248bdf94b6f322e834c",
+"date": "25/10/2026 06:16 GMT",
+"iso": "2026-10-25T06:16Z",
+"note": "README: stage 4 (the whole Legal Wiki, 976 pages, no failed loads; parity 30/5/1)",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.30.1",
+"sha": "79f5af3e7037132ae5029ca749fc2b2e734b53a6",
+"date": "25/10/2026 06:00 GMT",
+"iso": "2026-10-25T06:00Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.30.0",
+"sha": "384f7d5fdd1e7ea884d9df94ee870fd6bc77c6fb",
+"date": "25/10/2026 05:26 GMT",
+"iso": "2026-10-25T05:26Z",
+"note": "wiki.py: last outside-dependent pieces off /wiki/ (16 failed loads on build 10 -> expected 0)",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.29.2",
+"sha": "1f48de5e0c00331a157e56d0000ef15d3ae40e4b",
+"date": "25/10/2026 05:14 GMT",
+"iso": "2026-10-25T05:14Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.29.1",
+"sha": "83110f5e96976adddafc3fa4833c975c0c381aed",
+"date": "25/10/2026 04:41 GMT",
+"iso": "2026-10-25T04:41Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.29.0",
+"sha": "a3cb5ff374f4a0cbc648337a0165d3608fe0e79a",
+"date": "25/10/2026 04:41 GMT",
+"iso": "2026-10-25T04:41Z",
+"note": "research: the Wales at Six video thumbnail is copied into the archive (its video was checked: Wales Broadcast Archive, not the excluded channel), so /research/ shows no broken image",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.28.0",
+"sha": "664ef5a80772bd303c9b3d56037d8dd885cea04d",
+"date": "25/10/2026 04:40 GMT",
+"iso": "2026-10-25T04:40Z",
+"note": "wiki.py: theme fonts and icons named on the wp.com CDN are read from the wiki's own host first (the CDN answers 403 for some fonts, e.g. Overused Grotesk), the CDN second",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.27.0",
+"sha": "d8d551c3e2cd785736fdcecf8af7caa2e7ace26b",
+"date": "25/10/2026 04:38 GMT",
+"iso": "2026-10-25T04:38Z",
+"note": "Stage 4: the Legal Wiki copied whole (976 sitemap pages) with its theme files; no outside requests left on /wiki/",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.26.0",
+"sha": "bb749a87ff2f39e158f56cd2c895a3eab6df8171",
+"date": "25/10/2026 04:25 GMT",
+"iso": "2026-10-25T04:25Z",
+"note": "README: stage 3 build 9 numbers (256 KB chunks, wiki crawl)",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.25.1",
+"sha": "6e618422824579babd38897d5e5406a6a1331b22",
+"date": "25/10/2026 04:16 GMT",
+"iso": "2026-10-25T04:16Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.25.0",
+"sha": "ff40c74aa9df397623b902c0860d2b411c080c35",
+"date": "25/10/2026 04:09 GMT",
+"iso": "2026-10-25T04:09Z",
+"note": "README: stage 3, themes read from the one database (build 7 numbers, image storage choice)",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.24.1",
+"sha": "daf3c28366de7ebe7d90233b733b3bb5f4132789",
+"date": "25/10/2026 03:34 GMT",
+"iso": "2026-10-25T03:34Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.24.0",
+"sha": "972f0d7abe43c69fdcb7a67cf225068d789f031f",
+"date": "25/10/2026 03:34 GMT",
+"iso": "2026-10-25T03:34Z",
+"note": "Smaller database chunks (256 KB) and map GeoJSON in the database",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.23.1",
+"sha": "be7cd8d2af0c65adc4b92e41b4def750d942c474",
+"date": "25/10/2026 03:28 GMT",
+"iso": "2026-10-25T03:28Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.23.0",
+"sha": "2fbbdfc749e343f925885451afaa7d75cb1fdd14",
+"date": "25/10/2026 03:18 GMT",
+"iso": "2026-10-25T03:18Z",
+"note": "Wiki theme rebuilt from a read-only crawl of the live WordPress wiki",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.22.0",
+"sha": "8158082b03f21c0bd40c9ff6f995f402fe8245d6",
+"date": "25/10/2026 02:58 GMT",
+"iso": "2026-10-25T02:58Z",
+"note": "Stage 3: themes read their data and evidence from the one catalogue database",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.21.0",
+"sha": "43d78e2f4fe707fb1c0f4ef396d4b736e5cfa7b0",
+"date": "25/10/2026 02:42 GMT",
+"iso": "2026-10-25T02:42Z",
+"note": "README: stage 2 (shared header, self-contained test and live crawl, per-theme parity table, single-DB state, what remains)",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.20.2",
+"sha": "50ec3e6beed015814ac64666056589e759087f20",
+"date": "25/10/2026 02:34 GMT",
+"iso": "2026-10-25T02:34Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.20.1",
+"sha": "5cd6aa82f7e53e2c54142ae8c0cdb1ee103a35cf",
+"date": "25/10/2026 02:01 GMT",
+"iso": "2026-10-25T02:01Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.20.0",
+"sha": "5828a2e5179645ff906007e215bedee37f36c472",
+"date": "25/10/2026 02:01 GMT",
+"iso": "2026-10-25T02:01Z",
+"note": "Standing rule in the build: no links to the excluded YouTube channel or its videos",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.19.1",
+"sha": "577dce9575ccfe54e6aebfb3fd20949fd7c90a20",
+"date": "25/10/2026 01:55 GMT",
+"iso": "2026-10-25T01:55Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.19.0",
+"sha": "d3539cdbf04ece52da12d1b307aa28fe1b465f99",
+"date": "25/10/2026 01:53 GMT",
+"iso": "2026-10-25T01:53Z",
+"note": "Parity: pages the themes link to that no build produces (story's full script page, the estate campus and web-app pages)",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.18.0",
+"sha": "36f592fa66f1fbae0950c51d192fbac126ba887a",
+"date": "25/10/2026 01:52 GMT",
+"iso": "2026-10-25T01:52Z",
+"note": "Parity pass 3: records redirect to /research/, vault images, three.js controls, root-named fonts and chooser image",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.17.2",
+"sha": "af3d22122d8648bf449d8009ab5a8edd20752f47",
+"date": "25/10/2026 01:40 GMT",
+"iso": "2026-10-25T01:40Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.17.1",
+"sha": "3dc1b838d30568e2355ab6e38ca6c85b3b2038d5",
+"date": "25/10/2026 01:12 GMT",
+"iso": "2026-10-25T01:12Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.17.0",
+"sha": "aeaf7a640e48871b426e0286aedb4bda7bcb9956",
+"date": "25/10/2026 01:11 GMT",
+"iso": "2026-10-25T01:11Z",
+"note": "Parity: apex themes' doubled paths, records redirect like its live address, chooser image and locations.js served from cedwyn",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.16.1",
+"sha": "dc7300b220d3ef9e6cd647cdb28fd15babb7b5f3",
+"date": "25/10/2026 00:57 GMT",
+"iso": "2026-10-25T00:57Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.16.0",
+"sha": "bf4dade7f7496752b970fd327b1928cdbf32381e",
+"date": "25/10/2026 00:50 GMT",
+"iso": "2026-10-25T00:50Z",
+"note": "Parity fixes: qa serves the page its live site serves, email gets the shared header, dartboard and wayback get their missing files",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.15.1",
+"sha": "4b9e20b62503d6be8832b8725d95027945fe96d5",
+"date": "25/10/2026 00:25 GMT",
+"iso": "2026-10-25T00:25Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.15.0",
+"sha": "a30abca4f7cc96f0991228b803f926005b6020e3",
+"date": "25/10/2026 00:25 GMT",
+"iso": "2026-10-25T00:25Z",
+"note": "Remove the \"Estate website tour\" bar everywhere (Sion, 25 Oct 00:59); last full self-contained pass before the test",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.14.1",
+"sha": "abfccdc175205db128936494898e0baeea299053",
+"date": "25/10/2026 00:10 GMT",
+"iso": "2026-10-25T00:10Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.14.0",
+"sha": "d30509de20bf6d95b2905570f460a14181f1cfbf",
+"date": "25/10/2026 00:05 GMT",
+"iso": "2026-10-25T00:05Z",
+"note": "Landing page: shared header as the Cedwyn Estate stop without the first-visit chooser over the theme list; chooser icon served from cedwyn",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.13.0",
+"sha": "c274d79f0c7b13859dd3199e83960f2ca37060c6",
+"date": "25/10/2026 00:02 GMT",
+"iso": "2026-10-25T00:02Z",
+"note": "Headers: no-transform on every response, so the zone's analytics snippet is not injected into cedwyn pages (no request to another host)",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.12.0",
+"sha": "5743e5a029069ec4f850dbad1cbb013d23e5352c",
+"date": "25/10/2026 00:01 GMT",
+"iso": "2026-10-25T00:01Z",
+"note": "Catalogue: store every theme's own data files (JSON, CSV, XML) as blobs in the one database",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.11.0",
+"sha": "cf37870e5b56a6e2beffd90ec141e2beebe82f5b",
+"date": "25/10/2026 00:00 GMT",
+"iso": "2026-10-25T00:00Z",
+"note": "Apex themes from source, missing files copied, research as the 36th theme",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.10.1",
+"sha": "51a307547bbedb9ce7d1ab6275652f95682f62f7",
+"date": "24/10/2026 23:49 GMT",
+"iso": "2026-10-24T23:49Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.10.0",
+"sha": "f2f48a88f20190b83ba77ea1aa29eac4ab53ea0c",
+"date": "24/10/2026 23:49 GMT",
+"iso": "2026-10-24T23:49Z",
+"note": "Shared 3-row header served from cedwyn itself; strict self-contained test; theme-to-theme links fixed",
+"who": "unclehowell",
+"kind": "change"
+},
+{
+"v": "1.9.0",
+"sha": "7213b7f4f406a5de6e3c689999f8e93950c0742c",
+"date": "24/10/2026 23:26 GMT",
+"iso": "2026-10-24T23:26Z",
+"note": "Build: copy cross-site shared assets (header scripts), keep any file a script names anywhere",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.8.0",
+"sha": "ae4f2e808adfb937953affb31435f5991d271802",
+"date": "24/10/2026 23:25 GMT",
+"iso": "2026-10-24T23:25Z",
+"note": "Catalogue: versioned worker URL",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.7.0",
+"sha": "a77919ea6cba86482aef6f5e4892f066f0e77018",
+"date": "24/10/2026 23:22 GMT",
+"iso": "2026-10-24T23:22Z",
+"note": "Catalogue: one chunk file per request, GraphQL loaded once; README with first build numbers",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.6.0",
+"sha": "59971ef4b64a38e5382361a2b02b6e6a6a34225b",
+"date": "24/10/2026 23:10 GMT",
+"iso": "2026-10-24T23:10Z",
+"note": "Catalogue DB: 512 KB chunk files; rechunk workflow",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.5.1",
+"sha": "63b3ff6ea72877fd238c78627bd3b90d7eb78525",
+"date": "24/10/2026 23:06 GMT",
+"iso": "2026-10-24T23:06Z",
+"note": "Build reports",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.5.0",
+"sha": "9f7bbcab6acde69a9dea8812cbf901e545da7a81",
+"date": "24/10/2026 22:48 GMT",
+"iso": "2026-10-24T22:48Z",
+"note": "Build: parallel rewrite, quote-aware tag parsing, outbound guard pass before the strict test, reports always",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.4.0",
+"sha": "97712c794fc340cbf5e514ce2bfe636038bbbec5",
+"date": "24/10/2026 22:18 GMT",
+"iso": "2026-10-24T22:18Z",
+"note": "Assemble: themes in parallel, shorter bounded crawls",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.3.1",
+"sha": "731c17b20aa53c194957a5909aca10d8b66b59bd",
+"date": "24/10/2026 22:14 GMT",
+"iso": "2026-10-24T22:14Z",
+"note": "Mirror tags report",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.3.0",
+"sha": "9b523583ffb31cd17ea3fbefa6c535289d4bf01b",
+"date": "24/10/2026 22:05 GMT",
+"iso": "2026-10-24T22:05Z",
+"note": "Mirror datro tags in batches",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.2.0",
+"sha": "ddc346bc11fd7adc40e066283a53ff9f06407041",
+"date": "24/10/2026 22:04 GMT",
+"iso": "2026-10-24T22:04Z",
+"note": "Cedwyn build: themes registry, assemble/rewrite/site/catalogue DB tools, runtime, GraphQL + catalogue pages, build workflow",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.1.1",
+"sha": "4e647de4b9ba7251f238158a9dd28278cb2178e3",
+"date": "24/10/2026 22:03 GMT",
+"iso": "2026-10-24T22:03Z",
+"note": "Mirror report",
+"who": "Tab",
+"kind": "build"
+},
+{
+"v": "1.1.0",
+"sha": "e5df454f7e3d98e868f8ad2e38d757ab8d89b136",
+"date": "24/10/2026 21:50 GMT",
+"iso": "2026-10-24T21:50Z",
+"note": "Add datro mirror workflow",
+"who": "Tab",
+"kind": "change"
+},
+{
+"v": "1.0.0",
+"sha": "76294780564f5407248818599deae783bb1a1476",
+"date": "24/10/2026 21:49 GMT",
+"iso": "2026-10-24T21:49Z",
+"note": "Initial commit",
+"who": "unclehowell",
+"kind": "change"
+}
+]
+}

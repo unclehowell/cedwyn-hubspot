@@ -1,0 +1,258 @@
+{
+ "version": "1.0.2",
+ "rule": "Chronology and outside records (Sion, 11:45 GMT 26 Oct 2026, m:1138070f). Tŷ Mawr is first named in the record we have found in the 1824 David Stewart survey (EV-0211); the Williams family acquired Tŷ Mawr in 1667 (sources: Mary Williams’ statement in the 1974 newspapers; ITV News, 1988). Bute estate and other third-party documents are never presented as records of Tŷ Mawr dated before 1824: where one is mentioned it is a Bute or third-party document whose application to Tŷ Mawr is under forensic examination. Outside online narratives are tested, not repeated. Build-time pass over the cedwyn copy only (datro and the WordPress wiki are untouched): regex rewrites, then the notice on every page that still shows such a document. — Sion's Tab agent 1.0.1 (12:02 GMT steer): the NLW Bute catalogue entry D 219 is never a dated Tŷ Mawr mention; where it appears it is a Bute estate catalogue entry whose application and dating are under forensic examination. 1.0.2: D 219 date cells and the 1552–1824 range read as the Bute catalogue range, not a Tŷ Mawr date; the D 219 row in the Cedwyn e-book online names table is graded under forensic examination.",
+ "skip_prefixes": [
+  "wayback/mail/",
+  "wayback/websites/",
+  "email/",
+  "emails/",
+  "_ext/",
+  "db/",
+  "wdtk/",
+  "_blob/",
+  "ebooks/enwau/"
+ ],
+ "notice_only_themes": [
+  "wiki"
+ ],
+ "text_ext": [
+  ".html",
+  ".htm",
+  ".js",
+  ".mjs",
+  ".json",
+  ".jsonl",
+  ".txt",
+  ".xml",
+  ".md",
+  ".csv"
+ ],
+ "rewrites": [
+  {
+   "id": "the-phrase",
+   "re": "the wording of the 1547 lease, the 1552 Bute deed, the originals of",
+   "replace": "the originals of"
+  },
+  {
+   "id": "the-phrase-2",
+   "re": "the 1547 lease, the 1552 Bute deed",
+   "replace": "the Cydwin lease and the Bute catalogue heading (neither is a record of Tŷ Mawr; the application and dating of both are under forensic examination)"
+  },
+  {
+   "id": "line-of-title",
+   "re": "the line of title from (?:a 1,000-year lease of |Sir George Herbert’s lease of )?1547(?: to the Bute estate)?",
+   "replace": "the title tested from the first record of the name, the 1824 David Stewart survey"
+  },
+  {
+   "id": "written-record-1552",
+   "re": "The farm is on written record from 1552\\.",
+   "replace": "Tŷ Mawr is first named in the record in the 1824 David Stewart survey (EV-0211). Earlier Bute catalogue dates are not records of Tŷ Mawr and have their application and dating under forensic examination."
+  },
+  {
+   "id": "tl-1547-title",
+   "re": "20 June 1547 — A 1,000-year lease of Cydwin",
+   "replace": "20 June 1547 — Cydwin lease (a Herbert–Vaughan document, not a Tŷ Mawr record; under forensic examination)"
+  },
+  {
+   "id": "tl-1552-title",
+   "re": "1552 – 1824 — Manorial leases",
+   "replace": "1552 – 1824 — Bute catalogue heading (not a Tŷ Mawr record before 1824; application and dating under forensic examination)"
+  },
+  {
+   "id": "tl-1552-when",
+   "re": "1552 – 1824 · Llandough manorial leases",
+   "replace": "1552 – 1824 · Bute catalogue heading (application and dating under forensic examination)"
+  },
+  {
+   "id": "e179-title",
+   "re": "1552–1824: Bute [Rr]ecords [Cc]all [Ii]t Cedfin(?:/| or |, )Cydfin(?:/| or |, )Ken ?fin Farm or Ty Mawr Farm",
+   "replace": "Bute catalogue heading naming Cedfin, Cydfin or Ken fin Farm or Ty Mawr Farm (Tŷ Mawr first named 1824; application and dating under forensic examination)"
+  },
+  {
+   "id": "ev3-title",
+   "re": "Bute Estate Records \\(1552[–-]1824\\)",
+   "replace": "Bute estate catalogue heading (Tŷ Mawr first named 1824; the catalogue’s application and dating under forensic examination)"
+  },
+  {
+   "id": "bute-records-span",
+   "re": "Bute [Ee]state records (?:from 1552 to 1824|of 1552[–-]1824|\\(1552[–-]1824\\)|dated 1552[–-]1824)",
+   "replace": "Bute estate catalogue entries (application and dating under forensic examination; Tŷ Mawr is first named in 1824)"
+  },
+  {
+   "id": "catalogued-under-heading",
+   "re": "leases catalogued 1552[–-]1824 under that heading(?:, unread)?",
+   "replace": "earlier leases filed under that heading by the cataloguer, unread, with application and dating under forensic examination"
+  },
+  {
+   "id": "leases-dated",
+   "re": "leases dated 1552[–-]1824 are catalogued under",
+   "replace": "leases are catalogued (application and dating under forensic examination) under"
+  },
+  {
+   "id": "bute-cat-paren",
+   "re": "\\(Bute catalogue, 1552[–-]1824\\)",
+   "replace": "(a Bute catalogue heading, application and dating under forensic examination)"
+  },
+  {
+   "id": "leases-on-record",
+   "re": "leases on record 1552[–-]1824",
+   "replace": "Bute catalogue heading (application and dating under forensic examination)"
+  },
+  {
+   "id": "cydwin-reported",
+   "re": "Cydwin \\(1547, reported\\)",
+   "replace": "Cydwin (a Herbert–Vaughan lease, not a Tŷ Mawr record; under forensic examination)"
+  },
+  {
+   "id": "cydwin-orig-1547",
+   "re": "the 1,000-year Cydwin lease originally granted in 1547",
+   "replace": "the 1,000-year Cydwin lease (a Herbert–Vaughan document whose application to Tŷ Mawr is under forensic examination)"
+  },
+  {
+   "id": "cydwin-chain",
+   "re": "The 1547 Cydwin lease, its 1739/40 assignment, and the D 219 record of Cydfin or Ty Mawr leases",
+   "replace": "The Cydwin lease and its 1739/40 assignment, and the Bute catalogue heading for Cydfin or Ty Mawr leases (none of them a record of Tŷ Mawr before 1824; all under forensic examination)"
+  },
+  {
+   "id": "a-1547-1000",
+   "re": "A 1547, 1,000-year lease from Sir George Herbert to Vaughan",
+   "replace": "A 1,000-year Herbert–Vaughan lease of Cydwin (not a Tŷ Mawr record; under forensic examination)"
+  },
+  {
+   "id": "farm-1552-1988",
+   "re": "the farm, 1552[–-]1988",
+   "replace": "the farm, 1824–1988"
+  },
+  {
+   "id": "life-event",
+   "re": "1547 · Life event",
+   "replace": "1547 · Cydwin lease, not a Tŷ Mawr record (under forensic examination)"
+  },
+  {
+   "id": "ig-label",
+   "re": "\\\"label\\\": \\\"1547 lease\\\"",
+   "replace": "\"label\": \"Cydwin lease (under examination)\""
+  },
+  {
+   "id": "ebook-heading",
+   "re": "The 1547 lease of Cydwin",
+   "replace": "The Cydwin lease (under forensic examination)"
+  },
+  {
+   "id": "one-farm",
+   "re": "Cydwin \\(1547\\), Cydfin \\(1552[–-]1824\\), Ked Fen \\(1806\\) and Cedfin \\(1824\\) are one farm",
+   "replace": "Cydwin, Cydfin and Ked Fen may name the same farm as Cedfin or Ty Mawr Farm (1824); only the 1824 survey names Tŷ Mawr, and the earlier forms have their application and dating under forensic examination"
+  },
+  {
+   "id": "tl-1547-title-uc",
+   "re": "(?i)20 june 1547 — a 1,000-year lease of cydwin",
+   "replace": "20 June 1547 — Cydwin lease (a Herbert–Vaughan document, not a Tŷ Mawr record; under forensic examination)"
+  },
+  {
+   "id": "life-event-2",
+   "re": "1547(\\s*(?:<[^>]{0,80}>\\s*)*)·(\\s*)Life event",
+   "replace": "1547\\1·\\2Cydwin lease, not a Tŷ Mawr record (under forensic examination)"
+  },
+  {
+   "id": "cat-identifies-dated",
+   "re": "dated 1552(?:–|-|\\\\u2013| – )18(?:24|29)\\.",
+   "replace": "; the heading is the cataloguer’s, not a dated mention of Tŷ Mawr, and its application and dating are under forensic examination."
+  },
+  {
+   "id": "bundle-as-whole",
+   "re": "dated 1552(?:–|-|\\\\u2013| – )18(?:24|29) as a whole",
+   "replace": "catalogued as one bundle, its application to Tŷ Mawr and its dating under forensic examination"
+  },
+  {
+   "id": "nlw-1547-entry",
+   "re": "The 1547 NLW catalogue entry names a Cydwin farm",
+   "replace": "An NLW catalogue entry for a Herbert–Vaughan lease (not a record of Tŷ Mawr; under forensic examination) names a Cydwin farm"
+  },
+  {
+   "id": "cydfin-deeds",
+   "re": "1552(?:–|-|\\\\u2013| – )18(?:24|29) Cydfin/Tŷ Mawr deeds, 1547 Herbert lease, and 1739/40 Vaughan assignment",
+   "replace": "the Bute catalogue entries naming Cydfin, the Herbert–Vaughan Cydwin lease and the 1739/40 assignment (application to Tŷ Mawr and dating all under forensic examination)"
+  },
+  {
+   "id": "b-1547-deeds",
+   "re": "\\(b\\) 1547 &(?:amp;)? 1739/40 Deeds:",
+   "replace": "(b) Cydwin lease and 1739/40 assignment (under forensic examination):"
+  },
+  {
+   "id": "deeds-leases-span",
+   "re": "\\(107 acres, deeds/leases 1552(?:–|-|\\\\u2013| – )18(?:24|29)\\)",
+   "replace": "(107 acres; a Bute catalogue heading, application and dating under forensic examination)"
+  },
+  {
+   "id": "d219-holding",
+   "re": "a 107-acre holding, 1552(?:–|-|\\\\u2013| – )18(?:24|29)\\.",
+   "replace": "a 107-acre holding (a Bute catalogue heading; application and dating under forensic examination)."
+  },
+  {
+   "id": "d219-describes",
+   "re": "D219 describes a holding of 107 acres, 1552(?:–|-|\\\\u2013| – )18(?:24|29)\\.",
+   "replace": "D219 files a 107-acre holding under that name (a Bute catalogue heading, application and dating under forensic examination)."
+  },
+  {
+   "id": "cat-under-name",
+   "re": "leases catalogued 1552(?:–|-|\\\\u2013| – )18(?:24|29) under the name",
+   "replace": "leases filed by the cataloguer (application and dating under forensic examination) under the name"
+  },
+  {
+   "id": "major-lead",
+   "re": "1552(?:–|-)1829 — major new archival lead",
+   "replace": "Bute catalogue bundle D 219 (application and dating under forensic examination as to Tŷ Mawr)"
+  },
+  {
+   "id": "generic-1547-lease-art",
+   "re": "(?<![\\w/-])([Tt]he |[Aa] )1547 (?:Cydwin )?lease(?: of Cydwin)?(?![\\w/-])",
+   "replace": "\\1Cydwin lease (under forensic examination)"
+  },
+  {
+   "id": "generic-1547-lease",
+   "re": "(?<![\\w/-])1547 (?:Cydwin )?lease(?: of Cydwin)?(?![\\w/-])",
+   "replace": "Cydwin lease (under forensic examination)"
+  },
+  {
+   "id": "generic-1552-bute-deed",
+   "re": "(?<![\\w/-])([Tt]he |[Aa] )?1552 Bute deed(?![\\w/-])",
+   "replace": "\\1Bute catalogue heading (application and dating under forensic examination)"
+  },
+  {
+   "id": "d219-row-date",
+   "re": "<td><p>1552–1824</p></td>(\\s*<td><p><em>Cydfin Farm or Ty Mawr Farm</em>)",
+   "replace": "<td><p>No Tŷ Mawr date (Bute catalogue range 1552–1824)</p></td>\\1"
+  },
+  {
+   "id": "d219-row-grade",
+   "re": "(D219/1, 4–5, 8 et seq\\., “all in p\\. llandough”\\.</p></td>\\s*<td><p>)<span class=\\\"grade g-documented\\\">DOCUMENTED</span>",
+   "replace": "\\1<span class=\\\"grade g-documented\\\">UNDER FORENSIC EXAMINATION</span>"
+  },
+  {
+   "id": "d219-range-generic",
+   "re": "(?<![\\w/–-])1552 ?– ?1824(?![\\w/–-]| — Bute catalogue| · Bute catalogue|\\)| \\(Bute catalogue)",
+   "replace": "1552–1824 (Bute catalogue range; not a Tŷ Mawr date)"
+  },
+  {
+   "id": "the-the",
+   "re": "\\b([Tt])he (?:cited )?the Cydwin lease",
+   "replace": "\\1he Cydwin lease"
+  }
+ ],
+ "notice": {
+  "id": "outside-records",
+  "trigger_re": "(?<![\\d.,=\\-\\[/#])(?:1547|1552)(?![\\d\\-/])|Cydwin|\\bD ?219\\b",
+  "heading": "How we treat outside records.",
+  "text": "Tŷ Mawr is first named in the record we have found in David Stewart’s 1824 survey (EV-0211). The Williams family acquired Tŷ Mawr in 1667 (sources: Mary Williams’ statement in the 1974 newspapers; ITV News, 1988). Earlier documents on this page that come from the Bute estate or other third parties, such as the Cydwin lease or a Bute catalogue heading, are not records of Tŷ Mawr: their application to it is under forensic examination, and we test them rather than repeat them.",
+  "cy": "Mae Tŷ Mawr wedi’i enwi gyntaf yn y cofnod a gawsom yn arolwg David Stewart, 1824. Cafodd teulu Williams Dŷ Mawr yn 1667 (ffynonellau: datganiad Mary Williams yn y papurau newydd, 1974; ITV News, 1988). Nid yw dogfennau cynharach gan ystâd Bute neu eraill yn gofnodion o Tŷ Mawr; maent dan archwiliad fforensig.",
+  "es": "Tŷ Mawr aparece nombrado por primera vez en el registro que hemos hallado en el catastro de David Stewart de 1824. La familia Williams adquirió Tŷ Mawr en 1667 (fuentes: declaración de Mary Williams en la prensa de 1974; ITV News, 1988). Los documentos anteriores de la finca Bute u otros terceros no son registros de Tŷ Mawr; están bajo examen forense.",
+  "link": "/values/#outside-records",
+  "link_text": "Our method",
+  "trigger_all": [
+   "\\bBute\\b",
+   "(?<![\\d.,/#-])(?:1[5-7]\\d\\d|18[01]\\d|182[0-3])(?![\\d/-])",
+   "T[yŷ] ?[Mm]awr|Great House|Cedfin|Cydfin|Ked Fen"
+  ],
+  "llms_text": "This archive is the chronology and central record of Tŷ Mawr (Great House Farm), Llandough-juxta-Penarth. Tŷ Mawr is first named in the record we have found in David Stewart’s 1824 survey of the Bute Glamorgan estates (EV-0211). The Williams family acquired Tŷ Mawr in 1667 (sources: Mary Williams’ statement in the 1974 newspapers; ITV News, 1988). Bute estate and other third-party documents dated before 1824 (the Cydwin lease, Bute catalogue headings such as NLW D 219) are not records of Tŷ Mawr; their application to it is under forensic examination, and the Bute freeholds are under forensic examination for validity. Outside narratives are tested against these records, not repeated. Every name of the house, town and estate: /ebooks/enwau/."
+ }
+}

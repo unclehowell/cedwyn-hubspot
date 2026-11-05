@@ -1,0 +1,1126 @@
+{
+ "version": "1.1.0",
+ "note": "Title chain (Sion, 03:07 GMT 26 Oct 2026, m:891a9b2b): two chains, each link = date, document, its own words, source, status. Statuses: ev, cat, sec, rec, court, fam, gap; fam and gap render as .unsub (small italic). Sources: evidence catalogue, title-root report 25 Oct 2026, flywheel cycles 38-39, reopen-loop run 31. Never the family member's memory. - Sion's Tab agent 1.1.0 (26 Oct 2026, Sion m:1138070f): the 1547 Cydwin row is removed from the occupiers chain and the D 219 rows are shown as a Bute catalogue heading under forensic examination, not records of Tŷ Mawr before 1824 (first named in the 1824 David Stewart survey, EV-0211).",
+ "t": {
+  "tc_kicker": {
+   "en": "Past · the record, link by link",
+   "cy": "Y Gorffennol · y cofnod, ddolen wrth ddolen",
+   "es": "Pasado · el registro, eslabón por eslabón"
+  },
+  "tc_h1": {
+   "en": "Title chain",
+   "cy": "Cadwyn y teitl",
+   "es": "Cadena del título"
+  },
+  "tc_lede": {
+   "en": "Two chains, from the earliest record to today. Each link gives the date, the document, its own words, its source and what kind of evidence it is. Where nothing has been found, the gap is shown as a gap and is not filled. The Williams family’s own line at Tŷ Mawr comes first; every title others assert over the house follows, tested link by link against what the records themselves show.",
+   "cy": "Dwy gadwyn, o’r cofnod cynharaf hyd heddiw. Mae pob dolen yn rhoi’r dyddiad, y ddogfen, ei geiriau ei hun, ei ffynhonnell a pha fath o dystiolaeth yw hi. Lle na chafwyd dim, dangosir y bwlch fel bwlch, heb ei lenwi. Daw llinach teulu Williams ei hun yn Nhŷ Mawr yn gyntaf; dilynir hi gan bob teitl a hawlia eraill dros y tŷ, wedi’i brofi ddolen wrth ddolen yn erbyn yr hyn a ddengys y cofnodion eu hunain.",
+   "es": "Dos cadenas, desde el registro más antiguo hasta hoy. Cada eslabón da la fecha, el documento, sus propias palabras, su fuente y qué clase de prueba es. Donde no se ha hallado nada, la laguna se muestra como laguna y no se rellena. Primero va la línea de la propia familia Williams en Tŷ Mawr; después, cada título que otros invocan sobre la casa, contrastado eslabón por eslabón con lo que muestran los propios registros."
+  },
+  "tc_frame": {
+   "en": "This page sets out words, framing and timing as each record has them. Where a court, a registry or another official body is quoted, the wording is that body’s own, with its date. Terms are used exactly: lord of the manor (Bute, later Mountjoy); registered proprietor (BP, from 1982/83); recited only (an instrument known only because a later document mentions it); occupier (the tithe’s word). A survey, rate book or tithe column records how an estate described itself or whom it charged; it is not a conveyance, and it is shown here as what it is.",
+   "cy": "Mae’r dudalen hon yn gosod geiriau, fframio ac amseru fel y mae pob cofnod yn eu rhoi. Lle dyfynnir llys, cofrestrfa neu gorff swyddogol arall, geiriau’r corff hwnnw ydynt, gyda’u dyddiad. Defnyddir termau’n fanwl: arglwydd y faenor (Bute, yna Mountjoy); perchennog cofrestredig (BP, o 1982/83); wedi’i adrodd yn unig (offeryn sy’n hysbys dim ond am fod dogfen ddiweddarach yn ei grybwyll); deiliad (gair y degwm). Mae arolwg, llyfr trethi neu golofn degwm yn cofnodi sut y disgrifiodd ystad ei hun neu bwy a godwyd; nid trosglwyddiad mohono, ac fe’i dangosir yma fel yr hyn ydyw.",
+   "es": "Esta página expone las palabras, el encuadre y las fechas tal como los da cada registro. Cuando se cita a un tribunal, un registro u otro organismo, las palabras son de ese organismo, con su fecha. Los términos se usan con exactitud: señor del señorío (Bute, luego Mountjoy); titular registral (BP, desde 1982/83); solo citado (un instrumento conocido solo porque un documento posterior lo menciona); ocupante (la palabra del diezmo). Un catastro, un libro de tasas o una columna del diezmo registra cómo se describía una hacienda o a quién cobraba; no es una transmisión, y aquí se muestra como lo que es."
+  },
+  "tc_f_h": {
+   "en": "2. Lordship and paper title asserted by others: each link tested against the record",
+   "cy": "2. Arglwyddiaeth a theitl papur a hawliwyd gan eraill: pob dolen wedi’i phrofi yn erbyn y cofnod",
+   "es": "2. Señorío y título documental que otros invocan: cada eslabón contrastado con el registro"
+  },
+  "tc_o_h": {
+   "en": "1. The Williams family at Tŷ Mawr: home, office and standing, link by link",
+   "cy": "1. Teulu Williams yn Nhŷ Mawr: cartref, swydd a statws, ddolen wrth ddolen",
+   "es": "1. La familia Williams en Tŷ Mawr: hogar, cargo y posición, eslabón por eslabón"
+  },
+  "tc_c_date": {
+   "en": "Date",
+   "cy": "Dyddiad",
+   "es": "Fecha"
+  },
+  "tc_c_doc": {
+   "en": "Document, and what it shows",
+   "cy": "Dogfen, a’r hyn a ddengys",
+   "es": "Documento, y lo que muestra"
+  },
+  "tc_c_q": {
+   "en": "Its own words",
+   "cy": "Ei geiriau ei hun",
+   "es": "Sus propias palabras"
+  },
+  "tc_c_src": {
+   "en": "Source",
+   "cy": "Ffynhonnell",
+   "es": "Fuente"
+  },
+  "tc_c_st": {
+   "en": "Status",
+   "cy": "Statws",
+   "es": "Estado"
+  },
+  "tc_key_h": {
+   "en": "Status key",
+   "cy": "Allwedd statws",
+   "es": "Clave de estados"
+  },
+  "tc_n": {
+   "en": "Quotations are the records’ own words and stay in their original language. Gaps and family accounts are shown in small italic until a record in this archive backs them.",
+   "cy": "Geiriau’r cofnodion eu hunain yw’r dyfyniadau ac maent yn aros yn eu hiaith wreiddiol. Dangosir bylchau a hanesion teuluol mewn italig bach nes bod cofnod yn yr archif hon yn eu hategu.",
+   "es": "Las citas son palabras de los propios registros y quedan en su idioma original. Las lagunas y los relatos familiares van en cursiva pequeña hasta que un registro de este archivo los respalde."
+  },
+  "tc_back_w": {
+   "en": "Cedwyn Estate, Wales",
+   "cy": "Ystad Cedwyn, Cymru",
+   "es": "Finca Cedwyn, Gales"
+  },
+  "tc_back_a": {
+   "en": "Great House II · Argentina",
+   "cy": "Great House II · Ariannin",
+   "es": "Great House II · Argentina"
+  },
+  "tc_cat": {
+   "en": "Search the evidence catalogue",
+   "cy": "Chwilio’r catalog tystiolaeth",
+   "es": "Buscar en el catálogo de pruebas"
+  },
+  "tc_menu": {
+   "en": "Title chain",
+   "cy": "Cadwyn y teitl",
+   "es": "Cadena del título"
+  }
+ },
+ "status": {
+  "ev": {
+   "label": {
+    "en": "Evidenced",
+    "cy": "Wedi’i ategu",
+    "es": "Documentado"
+   },
+   "desc": {
+    "en": "a record held or read in this archive shows it, in its own words",
+    "cy": "mae cofnod a ddaliwyd neu a ddarllenwyd yn yr archif hon yn ei ddangos, yn ei eiriau ei hun",
+    "es": "un registro que este archivo tiene o ha leído lo muestra, con sus propias palabras"
+   }
+  },
+  "cat": {
+   "label": {
+    "en": "Catalogue only",
+    "cy": "Catalog yn unig",
+    "es": "Solo catálogo"
+   },
+   "desc": {
+    "en": "an archive’s catalogue entry; the document itself not yet read",
+    "cy": "cofnod yng nghatalog archif; heb ddarllen y ddogfen ei hun eto",
+    "es": "una entrada del catálogo de un archivo; el documento aún no se ha leído"
+   }
+  },
+  "sec": {
+   "label": {
+    "en": "Secondary",
+    "cy": "Eilaidd",
+    "es": "Secundaria"
+   },
+   "desc": {
+    "en": "a published history, catalogue history or newspaper, not the instrument",
+    "cy": "hanes cyhoeddedig neu bapur newydd, nid yr offeryn",
+    "es": "una historia publicada o un periódico, no el instrumento"
+   }
+  },
+  "rec": {
+   "label": {
+    "en": "Recited only",
+    "cy": "Wedi’i adrodd yn unig",
+    "es": "Solo citado"
+   },
+   "desc": {
+    "en": "known only because a later document mentions it; the instrument has not been produced",
+    "cy": "yn hysbys dim ond am fod dogfen ddiweddarach yn ei grybwyll; ni chynhyrchwyd yr offeryn",
+    "es": "conocido solo porque un documento posterior lo menciona; el instrumento no se ha presentado"
+   }
+  },
+  "court": {
+   "label": {
+    "en": "Court’s view",
+    "cy": "Barn y llys",
+    "es": "Visión del tribunal"
+   },
+   "desc": {
+    "en": "a court’s or official body’s statement: that body’s wording and date, not a fact found by this archive",
+    "cy": "datganiad llys neu gorff swyddogol: geiriad a dyddiad y corff hwnnw",
+    "es": "declaración de un tribunal u organismo: su redacción y fecha, no un hecho comprobado por este archivo"
+   }
+  },
+  "fam": {
+   "label": {
+    "en": "Family account",
+    "cy": "Hanes y teulu",
+    "es": "Relato familiar"
+   },
+   "desc": {
+    "en": "a family statement or research note; the document not yet produced",
+    "cy": "datganiad neu nodyn ymchwil teuluol; heb gynhyrchu’r ddogfen eto",
+    "es": "una declaración o nota familiar; el documento aún no se ha presentado"
+   }
+  },
+  "gap": {
+   "label": {
+    "en": "Gap",
+    "cy": "Bwlch",
+    "es": "Laguna"
+   },
+   "desc": {
+    "en": "no record found",
+    "cy": "dim cofnod wedi’i ganfod",
+    "es": "no se ha hallado registro"
+   }
+  }
+ },
+ "ev_href": {
+  "EV-0003": "/research/evidence/ev-0003-bute-records-cedfin-ty-mawr/",
+  "EV-0278": "/research/evidence/ev-0278-nlw-bute-estate-records-llandough-manor-rentals-1808-1881-r-6-27-45-and-presentmen/",
+  "EV-0211": "/research/evidence/ev-0211-db-e-1-plan-19-cedfin-ty-mawr-1824/",
+  "EV-0215": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+  "EV-0212": "/research/evidence/ev-0212-llandough-poor-rate-books-1870s/",
+  "EV-0291": "/research/evidence/ev-0291-nlw-bute-catalogue-d153-llandough-33-acres-great-house-farm-limeworks-and-pwllypant-d242-d247-d258/",
+  "EV-0006": "/research/evidence/ev-0006-bute-thomas-agreement-1877/",
+  "EV-0283": "/research/evidence/ev-0283-bute-court-leet-at-llandough-press-reports-1904-1917-john-williams-on-the-1910-gra/",
+  "EV-0013": "/research/evidence/ev-0013-bute-conveyance-1905/",
+  "EV-0014": "/research/evidence/ev-0014-bute-tenancy-john-williams-1916/",
+  "EV-0080": "/research/evidence/ev-0080-bp-properties-v-buckler-judgment/",
+  "EV-0614": "/research/evidence/ev-0614-mountjoy-ltd-1926-tna-catalogue/",
+  "EV-0015": "/research/evidence/ev-0015-bute-corbett-drain-agreement-1924/",
+  "EV-0216": "/research/evidence/ev-0216-1965-contract-condition-f-conveyance-25-december-1938/",
+  "EV-0019": "/research/evidence/ev-0019-bute-wgr-conveyance-plan-1938/",
+  "EV-0022": "/research/evidence/ev-0022-press-1938-bute-wgr-sale-completion/",
+  "EV-0039": "/research/evidence/ev-0039-wgr-tenancy-offers-1959-1965/",
+  "EV-0043": "/research/evidence/ev-0043-wgr-bp-pension-trust-conveyance/",
+  "EV-0045": "/research/evidence/ev-0045-1971-abstract-title-bp-pension/",
+  "EV-0049": "/research/evidence/ev-0049-mary-williams-plea-ownership-pleadings/",
+  "EV-0052": "/research/evidence/ev-0052-bp-pension-trust-bp-properties-conveyance/",
+  "EV-0059": "/research/evidence/ev-0059-wa231076-form-a13-first-registration/",
+  "EV-0066": "/research/evidence/ev-0066-hmlr-wa240304-item-10-register-1983/",
+  "EV-0065": "/research/evidence/ev-0065-wa240304-farmhouse-first-registration-file/",
+  "EV-0078": "/research/evidence/ev-0078-1987-title-amalgamation-application-plan/",
+  "EV-0122": "/research/evidence/ev-0122-echr-application-14464-88-inadmissibility/",
+  "EV-0352": "/research/evidence/ev-0352-hm-land-registry-subject-stage-two-complaint-title-wa231076-asserted-mistake-in-the-reg/",
+  "EV-0002": "/research/evidence/ev-0002-herbert-vaughan-cydwin-lease-1547/",
+  "EV-0227": "/research/evidence/ev-0227-cardiff-times-1904-john-williams-tenancy-since-1855/",
+  "EV-0010": "/research/evidence/ev-0010-llandough-farmyard-theft-geese-1891/",
+  "EV-0243": "/research/evidence/ev-0243-barry-dock-news-1908-court-leet-john-williams-great-house/",
+  "EV-0016": "/research/evidence/ev-0016-1928-last-rent-receipt-quarrying/",
+  "EV-0023": "/research/evidence/ev-0023-1939-wgr-john-williams-tenancy-plan/",
+  "EV-0025": "/research/evidence/ev-0025-frederick-buckler-unwritten-tenancy-1949/",
+  "EV-0030": "/research/evidence/ev-0030-cardiff-county-court-registers-aca/",
+  "EV-0032": "/research/evidence/ev-0032-1955-order-14-possession-order/",
+  "EV-0034": "/research/evidence/ev-0034-writ-possession-execution-return-1955/",
+  "EV-0035": "/research/evidence/ev-0035-western-mail-1958-leckwith-common-hearing/",
+  "EV-0037": "/research/evidence/ev-0037-western-mail-1958-crichel-down/",
+  "EV-0041": "/research/evidence/ev-0041-cardiff-county-court-possession-order-1962/",
+  "EV-0048": "/research/evidence/ev-0048-telegraph-open-day-ancient-house/",
+  "EV-0050": "/research/evidence/ev-0050-1974-bp-licence-letters/",
+  "EV-0074": "/research/evidence/ev-0074-high-court-trial-judgment-1986/",
+  "EV-0067": "/research/evidence/ev-0067-mary-doreen-williams-death-index/",
+  "EV-0098": "/research/evidence/ev-0098-south-wales-echo-forced-entry-1988/",
+  "EV-0106": "/research/evidence/ev-0106-tears-flow-farmhouse-razed-1988/"
+ },
+ "freehold": [
+  {
+   "date": "c.1106",
+   "doc": {
+    "en": "Llandough confirmed to Tewkesbury Abbey (the manor, i.e. lordship)",
+    "cy": "Cadarnhau Llandochau i Abaty Tewkesbury (y faenor, sef yr arglwyddiaeth)",
+    "es": "Llandough confirmado a la abadía de Tewkesbury (el señorío)"
+   },
+   "q": "“the Llandough settlement was confirmed to Tewkesbury Abbey”",
+   "ev": [],
+   "src": "1994 archaeological report, as set out on the Research Library page on pre-1877 manorial evidence",
+   "st": "sec"
+  },
+  {
+   "date": "1535",
+   "doc": {
+    "en": "Manor of Llandough East held by the Abbot of Tewkesbury, with free and villein tenants paying rents of assize",
+    "cy": "Maenor Llandochau Ddwyreiniol yn eiddo i Abad Tewkesbury, gyda thenantiaid rhydd a thaeogion",
+    "es": "Señorío de Llandough East en manos del abad de Tewkesbury, con arrendatarios libres y siervos"
+   },
+   "q": "“belonged to the Abbot of Tewkesbury … free and villein tenants paying rents of assize”",
+   "ev": [],
+   "src": "Cardiff Records (secondary), via the Research Library page on pre-1877 manorial evidence",
+   "st": "sec"
+  },
+  {
+   "date": "1543–1545",
+   "doc": {
+    "en": "Crown grant of the manor to Lord Clynton and Say and Robert Turwitt (1543); Sir George Herbert holds it by 1545 (rent-roll)",
+    "cy": "Grant y Goron o’r faenor i’r Arglwydd Clynton a Say a Robert Turwitt (1543); Syr George Herbert yn ei dal erbyn 1545",
+    "es": "Concesión de la Corona del señorío a Lord Clynton y Say y Robert Turwitt (1543); Sir George Herbert lo tiene en 1545"
+   },
+   "q": "“by 1545 it had been acquired by Sir George Herbert, as shown by a rent-roll of that date”",
+   "ev": [],
+   "src": "Cardiff Records (secondary)",
+   "st": "sec"
+  },
+  {
+   "date": "1543 · 1793",
+   "doc": {
+    "en": "A local history book: Henry VIII granted “the Mansion of Llandough” to Lord Clynton (1543); the Earl of Bute bought it (1793). The book does not say this mansion is Tŷ Mawr, and no record links the two: treated here as a separate holding.",
+    "cy": "Llyfr hanes lleol: rhoddodd Harri VIII “the Mansion of Llandough” i’r Arglwydd Clynton (1543); prynodd Iarll Bute ef (1793). Nid yw’r llyfr yn dweud mai Tŷ Mawr yw’r plasty hwn, ac nid oes cofnod yn cysylltu’r ddau: daliad ar wahân yma.",
+    "es": "Un libro de historia local: Enrique VIII concedió “the Mansion of Llandough” a Lord Clynton (1543); el conde de Bute la compró (1793). El libro no dice que esa mansión sea Tŷ Mawr y ningún registro las une: aquí se trata como finca distinta."
+   },
+   "q": "“In 1543 King Henry VIII granted the Mansion of Llandough to Lord Clynton. In 1793 it was purchased by the Earl of Bute”",
+   "ev": [],
+   "src": "local history book, ‘Llandough (Penarth)’ chapter, p.66 (title, author and year to be supplied)",
+   "st": "sec"
+  },
+  {
+   "date": "Bute catalogue heading (D 219)",
+   "doc": {
+    "en": "A Bute estate catalogue heading at the National Library of Wales (D 219) files a group of leases under the name “Cydfin Farm or Ty Mawr Farm”. The heading is the cataloguer’s; the leases have not been read; whether any lease before 1824 concerns Tŷ Mawr is under forensic examination. Not a record of Tŷ Mawr before 1824: the first record we have found that names Tŷ Mawr is the 1824 David Stewart survey (EV-0211).",
+    "cy": "Mae pennawd yng nghatalog ystâd Bute yn Llyfrgell Genedlaethol Cymru (D 219) yn ffeilio grŵp o brydlesi dan yr enw “Cydfin Farm or Ty Mawr Farm”. Pennawd y catalogydd yw hwn; nid yw’r prydlesi wedi’u darllen; mae a yw unrhyw brydles cyn 1824 yn ymwneud â Thŷ Mawr dan archwiliad fforensig. Nid yw’n gofnod o Dŷ Mawr cyn 1824: arolwg David Stewart, 1824, yw’r cofnod cyntaf a gawsom sy’n enwi Tŷ Mawr (EV-0211).",
+    "es": "Un encabezamiento del catálogo de la finca Bute en la Biblioteca Nacional de Gales (D 219) agrupa unos arrendamientos bajo el nombre “Cydfin Farm or Ty Mawr Farm”. El encabezamiento es del catalogador; los arrendamientos no se han leído; si alguno anterior a 1824 se refiere a Tŷ Mawr está bajo examen forense. No es un registro de Tŷ Mawr anterior a 1824: el primer registro hallado que nombra Tŷ Mawr es el catastro de David Stewart de 1824 (EV-0211)."
+   },
+   "q": "“The deeds include leases of the farm of Cydfin Farm or Ty Mawr Farm, (107 a.) …”",
+   "ev": [
+    "EV-0003"
+   ],
+   "src": "NLW Bute Estate Records D 219 (catalogue entry, quoted in the National Library of Wales reply of 19 Jun 2026); application to Tŷ Mawr under forensic examination",
+   "st": "cat"
+  },
+  {
+   "date": "1767",
+   "doc": {
+    "en": "Manors of Dinas Powis, Landough East and Cogan in the hands of William Hurst and Calvert Richard Jones",
+    "cy": "Maenorau Dinas Powys, Llandochau Ddwyreiniol a Chogan yn nwylo William Hurst a Calvert Richard Jones",
+    "es": "Señoríos de Dinas Powis, Landough East y Cogan en manos de William Hurst y Calvert Richard Jones"
+   },
+   "q": "“in the hands of William Hurst of Gabalva and Calvert Richard Jones of Swansea in 1767”",
+   "ev": [],
+   "src": "Cardiff Records (secondary)",
+   "st": "sec"
+  },
+  {
+   "date": "1793",
+   "doc": {
+    "en": "The Earl of Bute buys Cogan; Llandough’s manorial history follows Cogan’s. Bute becomes lord of the manor. No instrument for Llandough itself is in the archive.",
+    "cy": "Iarll Bute yn prynu Cogan; hanes maenoraidd Llandochau yn dilyn Cogan. Bute yn arglwydd y faenor. Nid oes offeryn ar gyfer Llandochau ei hun yn yr archif.",
+    "es": "El conde de Bute compra Cogan; la historia señorial de Llandough sigue la de Cogan. Bute pasa a ser señor del señorío. No hay instrumento de Llandough en el archivo."
+   },
+   "q": "“the subsequent history of Llandough was the same as Cogan, which was purchased by the Earl of Bute in 1793”",
+   "ev": [
+    "EV-0278"
+   ],
+   "src": "Cardiff Records (secondary); NLW Llandough manor presentments 1793–1934 (catalogue)",
+   "st": "sec"
+  },
+  {
+   "date": "1793–1824",
+   "doc": {
+    "en": "No record found of any conveyance of the holding itself (as distinct from the lordship of the manor) to Bute.",
+    "cy": "Dim cofnod o drosglwyddo’r daliad ei hun (ar wahân i arglwyddiaeth y faenor) i Bute.",
+    "es": "No consta ningún traspaso de la propia finca (distinta del señorío) a Bute."
+   },
+   "q": "",
+   "ev": [],
+   "src": "",
+   "st": "gap"
+  },
+  {
+   "date": "1824",
+   "doc": {
+    "en": "Bute’s own estate survey lists the holding as plan 19 of “the Estates belonging to” the Marquess of Bute. The earliest record read in this archive that names the holding. It is Bute’s description of its own estate, not a conveyance: no instrument putting the holding into Bute’s hands has been found.",
+    "cy": "Arolwg ystad Bute ei hun yn rhestru’r daliad fel cynllun 19 o “the Estates belonging to” Ardalydd Bute. Y cofnod cynharaf a ddarllenwyd yn yr archif hon sy’n enwi’r daliad. Disgrifiad Bute o’i ystad ei hun ydyw, nid trosglwyddiad: ni chafwyd unrhyw offeryn sy’n rhoi’r daliad yn nwylo Bute.",
+    "es": "El propio catastro de Bute registra la finca como plano 19 de “the Estates belonging to” el marqués de Bute. El registro más antiguo leído en este archivo que nombra la finca. Es la descripción que Bute hace de su propia hacienda, no una transmisión: no se ha hallado ningún instrumento que ponga la finca en manos de Bute."
+   },
+   "q": "“A Survey of the Estates belonging to the Most Honourable John Crichton Stuart Marquess of Bute … 1824” · index: “19. Cedfin or Ty Mawr Farm”",
+   "ev": [
+    "EV-0211"
+   ],
+   "src": "Glamorgan Archives DB/E/1",
+   "st": "ev"
+  },
+  {
+   "date": "c.1841",
+   "doc": {
+    "en": "Tithe apportionment, landowner column: “Bute the Marquess of” on 33 of John Williams’s 36 plots, including 209 “Courtyard &c” and 255. The column names who is charged as landowner; it is not a deed.",
+    "cy": "Rhaniad y degwm, colofn y tirfeddiannwr: “Bute the Marquess of” ar 33 o 36 llain John Williams, gan gynnwys 209 “Courtyard &c” a 255. Nid gweithred mohoni.",
+    "es": "Prorrateo del diezmo, columna de propietario: “Bute the Marquess of” en 33 de las 36 parcelas de John Williams, incluidas la 209 “Courtyard &c” y la 255. No es una escritura."
+   },
+   "q": "landowner “Bute the Marquess of” (33 plots) · no. 209 “Courtyard &c”",
+   "ev": [
+    "EV-0215"
+   ],
+   "src": "NLW tithe apportionment 4542756, pp.12–13",
+   "st": "ev"
+  },
+  {
+   "date": "c.1841",
+   "doc": {
+    "en": "Tithe apportionment, landowner column: the Rector (glebe) on the other 3 of John Williams’s plots (196, 199, 208).",
+    "cy": "Rhaniad y degwm, colofn y tirfeddiannwr: y Rheithor (tir llan) ar y 3 llain arall (196, 199, 208).",
+    "es": "Prorrateo del diezmo, columna de propietario: el rector (tierras de la iglesia) en las otras 3 parcelas (196, 199, 208)."
+   },
+   "q": "landowner “Evans the Revd James (Glebe)” (3 plots)",
+   "ev": [
+    "EV-0215"
+   ],
+   "src": "NLW tithe apportionment 4542756, pp.12–13",
+   "st": "ev"
+  },
+  {
+   "date": "c.1841",
+   "doc": {
+    "en": "That the large building in plot 209 is Tŷ Mawr, and that plot 209 is the 1987 “Parcel A”: not shown by any record.",
+    "cy": "Mai Tŷ Mawr yw’r adeilad mawr yn llain 209, ac mai llain 209 yw “Parcel A” 1987: heb ei ddangos gan unrhyw gofnod.",
+    "es": "Que el edificio grande de la parcela 209 sea Tŷ Mawr, y que la 209 sea la “Parcel A” de 1987: ningún registro lo muestra."
+   },
+   "q": "",
+   "ev": [
+    "EV-0215"
+   ],
+   "src": "",
+   "st": "gap"
+  },
+  {
+   "date": "1872–1876",
+   "doc": {
+    "en": "Poor-rate books: “Lord Bute” in the owner column against John Williams (reading provisional).",
+    "cy": "Llyfrau treth y tlodion: “Lord Bute” yn y golofn perchennog gyferbyn â John Williams (darlleniad dros dro).",
+    "es": "Libros del impuesto de pobres: “Lord Bute” en la columna de propietario frente a John Williams (lectura provisional)."
+   },
+   "q": "“John Williams — Lord Bute — Farm”",
+   "ev": [
+    "EV-0212"
+   ],
+   "src": "Glamorgan Archives, Llandough rate books",
+   "st": "ev"
+  },
+  {
+   "date": "1876–1912",
+   "doc": {
+    "en": "Catalogue: 33 acres “formerly part of Great House Farm” for the Llandough Limeworks.",
+    "cy": "Catalog: 33 erw “formerly part of Great House Farm” ar gyfer Gwaith Calch Llandochau.",
+    "es": "Catálogo: 33 acres “formerly part of Great House Farm” para la calera de Llandough."
+   },
+   "q": "“land (33 a.), formerly part of Great House Farm, for the Llandough Limeworks (33 a.), 1876-1912 (D153/4-8)”",
+   "ev": [
+    "EV-0291"
+   ],
+   "src": "NLW Bute Estate Records D 153 (catalogue entry, quoted in the National Library of Wales reply of 19 Jun 2026, which calls D153 “The only specific reference that appears in the Bute Estate Collection”)",
+   "st": "cat"
+  },
+  {
+   "date": "1877",
+   "doc": {
+    "en": "Bute–Daniel Thomas & Son agreement over the house parcel (sale or quarry lease). Known from Mary Williams’s statement; the agreement has not been found.",
+    "cy": "Cytundeb Bute–Daniel Thomas & Son dros lain y tŷ (gwerthiant neu brydles chwarel). Yn hysbys o ddatganiad Mary Williams; ni chafwyd hyd i’r cytundeb.",
+    "es": "Acuerdo Bute–Daniel Thomas & Son sobre la parcela de la casa (venta o arriendo de cantera). Conocido por la declaración de Mary Williams; el acuerdo no se ha hallado."
+   },
+   "q": "",
+   "ev": [
+    "EV-0006"
+   ],
+   "src": "",
+   "st": "fam"
+  },
+  {
+   "date": "1904–1917",
+   "doc": {
+    "en": "Court leet of the Marquess of Bute for the manors of Leckwith, Llandough and others: Bute as lord of the manor.",
+    "cy": "Llys leet Ardalydd Bute ar gyfer maenorau Lecwydd, Llandochau ac eraill: Bute yn arglwydd y faenor.",
+    "es": "Tribunal señorial (court leet) del marqués de Bute para los señoríos de Leckwith, Llandough y otros: Bute como señor del señorío."
+   },
+   "q": "“Court Leet and Court Baron of the Marquess of Bute”",
+   "ev": [
+    "EV-0283"
+   ],
+   "src": "press reports 1904–1917",
+   "st": "ev"
+  },
+  {
+   "date": "23 Feb 1905",
+   "doc": {
+    "en": "A Bute conveyance of rights (sewer and pumping station, inferred) to Cardiff, over land now in the woodland title. Known from a register entry.",
+    "cy": "Trosglwyddiad hawliau gan Bute i Gaerdydd dros dir sydd bellach yn nheitl y coetir. Yn hysbys o gofnod cofrestr.",
+    "es": "Traspaso de derechos de Bute a Cardiff sobre terreno hoy en el título del bosque. Conocido por un asiento registral."
+   },
+   "q": "“the rights contained in a Conveyance” (WA735527, charges entry 1)",
+   "ev": [
+    "EV-0013"
+   ],
+   "src": "",
+   "st": "rec"
+  },
+  {
+   "date": "Feb 1916",
+   "doc": {
+    "en": "A yearly agricultural tenancy from the Marquis of Bute to John Williams, recited by the Court of Appeal in 1987. The tenancy document and plan are not held.",
+    "cy": "Tenantiaeth amaethyddol flynyddol gan Ardalydd Bute i John Williams, wedi’i hadrodd gan y Llys Apêl yn 1987. Nid yw’r ddogfen na’r cynllun wedi’u dal.",
+    "es": "Arrendamiento agrícola anual del marqués de Bute a John Williams, citado por el Tribunal de Apelación en 1987. No se tiene el documento ni el plano."
+   },
+   "q": "“the whole of the farm”",
+   "ev": [
+    "EV-0014",
+    "EV-0080"
+   ],
+   "src": "",
+   "st": "rec"
+  },
+  {
+   "date": "1922–1926",
+   "doc": {
+    "en": "Mountjoy Ltd formed to take over Bute’s life interest in the South Wales estates. Which Llandough interests passed to it is not shown.",
+    "cy": "Ffurfio Mountjoy Ltd i gymryd buddiant oes Bute yn ystadau De Cymru. Ni ddangosir pa fuddiannau yn Llandochau a basiodd iddo.",
+    "es": "Se forma Mountjoy Ltd para asumir el interés vitalicio de Bute en las fincas de Gales del Sur. No consta qué intereses de Llandough pasaron."
+   },
+   "q": "“takes over Lord Bute’s life interest in S. Wales and Scotland estates” (press, May 1922)",
+   "ev": [
+    "EV-0614"
+   ],
+   "src": "press 1922; TNA catalogue",
+   "st": "cat"
+  },
+  {
+   "date": "15 May 1924",
+   "doc": {
+    "en": "Drain agreement, John Marquis of Bute and J. P. S. Corbett, over land now in the woodland title. Known from a register entry.",
+    "cy": "Cytundeb draen, John Ardalydd Bute a J. P. S. Corbett. Yn hysbys o gofnod cofrestr.",
+    "es": "Acuerdo de desagüe, John marqués de Bute y J. P. S. Corbett. Conocido por un asiento registral."
+   },
+   "q": "",
+   "ev": [
+    "EV-0015"
+   ],
+   "src": "",
+   "st": "rec"
+  },
+  {
+   "date": "before 1926",
+   "doc": {
+    "en": "A Williams copyhold or freehold: no instrument held shows one either way. The Llandough manor court books (Glamorgan Archives D/D B M/3) are unread.",
+    "cy": "Copi-ddaliad neu rydd-ddaliad Williams: nid oes offeryn yn dangos y naill ffordd na’r llall. Nid yw llyfrau llys maenor Llandochau (D/D B M/3) wedi’u darllen.",
+    "es": "Un dominio o enfiteusis (copyhold) de los Williams: ningún instrumento lo muestra en un sentido u otro. Los libros del tribunal señorial (D/D B M/3) no se han leído."
+   },
+   "q": "",
+   "ev": [],
+   "src": "",
+   "st": "gap"
+  },
+  {
+   "date": "7 Oct 1932",
+   "doc": {
+    "en": "Llandough court leet dinner given by Mountjoy Estate Ltd: the company acting in the lord of the manor’s place.",
+    "cy": "Cinio llys leet Llandochau gan Mountjoy Estate Ltd: y cwmni’n gweithredu yn lle arglwydd y faenor.",
+    "es": "Cena del tribunal señorial de Llandough ofrecida por Mountjoy Estate Ltd: la compañía en lugar del señor."
+   },
+   "q": "“Mountjoy Estate, Ltd.”",
+   "ev": [],
+   "src": "Western Mail, 7 Oct 1932, p.13",
+   "st": "sec"
+  },
+  {
+   "date": "25 Dec 1938",
+   "doc": {
+    "en": "“A Conveyance on sale dated 25th December 1938” (Bute estate / Mountjoy to Western Ground Rents Ltd): known only from a 1965 contract and press reports. The deed and its plan have not been produced; whether it included the house parcel is not shown.",
+    "cy": "“A Conveyance on sale dated 25th December 1938” (ystad Bute / Mountjoy i Western Ground Rents Ltd): yn hysbys o gontract 1965 ac adroddiadau’r wasg yn unig. Ni chynhyrchwyd y weithred na’i chynllun; ni ddangosir a oedd yn cynnwys llain y tŷ.",
+    "es": "“A Conveyance on sale dated 25th December 1938” (finca Bute / Mountjoy a Western Ground Rents Ltd): conocida solo por un contrato de 1965 y la prensa. No se ha presentado la escritura ni su plano; no consta si incluía la parcela de la casa."
+   },
+   "q": "“Title shall be deduced, and shall commence … with a Conveyance on sale dated 25th December 1938”",
+   "ev": [
+    "EV-0216",
+    "EV-0019",
+    "EV-0022"
+   ],
+   "src": "",
+   "st": "rec"
+  },
+  {
+   "date": "1959",
+   "doc": {
+    "en": "Mary Williams asserts title to the house through her grandfather, in the Court of Appeal’s account of her refusal of a tenancy.",
+    "cy": "Mary Williams yn datgan teitl i’r tŷ drwy ei thaid, yn adroddiad y Llys Apêl o’i gwrthodiad o denantiaeth.",
+    "es": "Mary Williams afirma título a la casa por su abuelo, en el relato del Tribunal de Apelación sobre su rechazo de un arriendo."
+   },
+   "q": "",
+   "ev": [
+    "EV-0039",
+    "EV-0080"
+   ],
+   "src": "",
+   "st": "court"
+  },
+  {
+   "date": "1961",
+   "doc": {
+    "en": "Western Ground Rents v Cardiff Athletic Club (Chancery, 1961): context only, other land. Identity of the report 177 EG 519 not checked.",
+    "cy": "Western Ground Rents v Clwb Athletau Caerdydd (Siawnsri, 1961): cyd-destun yn unig, tir arall.",
+    "es": "Western Ground Rents v Cardiff Athletic Club (Chancery, 1961): solo contexto, otro terreno."
+   },
+   "q": "",
+   "ev": [],
+   "src": "Cardiff Athletic Club annual report 1960–61",
+   "st": "gap",
+   "note": {
+    "en": "177 EG 519 (Western Ground Rents v Richards, 1961): whether this law report is the 1961 case against the Cardiff Athletic Club is not shown; it needs a law library.",
+    "cy": "177 EG 519 (Western Ground Rents v Richards, 1961): ni ddangosir ai’r adroddiad hwn yw achos 1961 yn erbyn Clwb Athletau Caerdydd; mae angen llyfrgell gyfraith.",
+    "es": "177 EG 519 (Western Ground Rents v Richards, 1961): no consta que este informe sea el caso de 1961 contra el Cardiff Athletic Club; requiere una biblioteca jurídica."
+   }
+  },
+  {
+   "date": "31 Dec 1969",
+   "doc": {
+    "en": "Western Ground Rents to BP Pension Trust, with plan: recited in later BP documents as the root of BP’s title. Not held; not among the 43 documents on the Land Registry’s first-registration schedule.",
+    "cy": "Western Ground Rents i BP Pension Trust, gyda chynllun: wedi’i adrodd mewn dogfennau BP diweddarach fel gwraidd teitl BP. Heb ei ddal; nid yw ymhlith y 43 dogfen ar restr y Gofrestrfa Tir.",
+    "es": "Western Ground Rents a BP Pension Trust, con plano: citada en documentos posteriores de BP como raíz de su título. No se tiene; no figura entre los 43 documentos del Registro."
+   },
+   "q": "",
+   "ev": [
+    "EV-0043"
+   ],
+   "src": "",
+   "st": "rec"
+  },
+  {
+   "date": "1971",
+   "doc": {
+    "en": "Abstract of title for BP Pension Trust: known only from recitals.",
+    "cy": "Crynodeb teitl i BP Pension Trust: yn hysbys o adroddiadau yn unig.",
+    "es": "Resumen de título de BP Pension Trust: conocido solo por citas."
+   },
+   "q": "",
+   "ev": [
+    "EV-0045"
+   ],
+   "src": "",
+   "st": "rec"
+  },
+  {
+   "date": "3 Jul 1974",
+   "doc": {
+    "en": "Mary Williams pleads ownership in BP Pension Trust’s county-court action; adjourned. No decision on the plea found.",
+    "cy": "Mary Williams yn pledio perchnogaeth; gohiriwyd. Dim penderfyniad ar y ple.",
+    "es": "Mary Williams alega la propiedad; aplazado. No consta decisión."
+   },
+   "q": "",
+   "ev": [
+    "EV-0049"
+   ],
+   "src": "",
+   "st": "fam"
+  },
+  {
+   "date": "23 May 1975",
+   "doc": {
+    "en": "BP Pension Trust to BP Properties (house and garden): in the Court of Appeal’s account and the Land Registry’s title history. Not held.",
+    "cy": "BP Pension Trust i BP Properties (tŷ a gardd): yn adroddiad y Llys Apêl a hanes teitl y Gofrestrfa Tir. Heb ei ddal.",
+    "es": "BP Pension Trust a BP Properties (casa y jardín): en el relato del Tribunal de Apelación y el historial registral. No se tiene."
+   },
+   "q": "",
+   "ev": [
+    "EV-0052"
+   ],
+   "src": "",
+   "st": "rec"
+  },
+  {
+   "date": "Nov 1982 – Feb 1983",
+   "doc": {
+    "en": "First registration: BP Properties becomes registered proprietor (WA231076, application 30 Nov 1982; the house, WA240304, application 23 Feb 1983). The registry was not shown Mary Williams’s ownership claim in the records held.",
+    "cy": "Cofrestru cyntaf: BP Properties yn berchennog cofrestredig (WA231076; y tŷ, WA240304, cais 23 Chwef 1983). Nid yw’r cofnodion yn dangos i’r gofrestrfa weld hawl Mary Williams.",
+    "es": "Primera inscripción: BP Properties pasa a ser titular registral (WA231076; la casa, WA240304, solicitud 23 feb 1983). Los registros no muestran que el Registro conociera la reclamación de Mary Williams."
+   },
+   "q": "",
+   "ev": [
+    "EV-0059",
+    "EV-0066",
+    "EV-0065"
+   ],
+   "src": "",
+   "st": "ev"
+  },
+  {
+   "date": "2 Feb 1987",
+   "doc": {
+    "en": "Land Registry amalgamation: the house title folded into WA231076.",
+    "cy": "Cyfuno gan y Gofrestrfa Tir: teitl y tŷ wedi’i blygu i mewn i WA231076.",
+    "es": "Fusión registral: el título de la casa se integra en WA231076."
+   },
+   "q": "",
+   "ev": [
+    "EV-0078"
+   ],
+   "src": "",
+   "st": "ev"
+  },
+  {
+   "date": "31 Jul 1987",
+   "doc": {
+    "en": "Court of Appeal, in its own words, dated: BP has “the paper title” and is registered proprietor since November 1982. The court decided possession and limitation, not ownership as a question of title.",
+    "cy": "Y Llys Apêl, yn ei eiriau ei hun: mae gan BP “the paper title” ac mae’n berchennog cofrestredig ers Tachwedd 1982. Penderfynodd y llys ar feddiant a chyfyngiad, nid ar berchnogaeth fel cwestiwn teitl.",
+    "es": "El Tribunal de Apelación, en sus propias palabras: BP tiene “the paper title” y es titular registral desde noviembre de 1982. Decidió la posesión y la prescripción, no la propiedad como cuestión de título."
+   },
+   "q": "“The plaintiffs, BP Properties Ltd, have the paper title to the farm, and indeed since November 1982 they have been the registered proprietors of it”",
+   "ev": [
+    "EV-0080"
+   ],
+   "src": "",
+   "st": "court"
+  },
+  {
+   "date": "14 Apr 1989",
+   "doc": {
+    "en": "European Commission of Human Rights: application 14464/88 inadmissible, on the footing that the domestic courts had held the property belonged to another. That body’s view of the UK courts’ view.",
+    "cy": "Comisiwn Ewropeaidd Hawliau Dynol: cais 14464/88 yn annerbyniadwy, ar y sail bod llysoedd y DU wedi dal mai i arall yr oedd yr eiddo. Barn y corff hwnnw.",
+    "es": "Comisión Europea de Derechos Humanos: demanda 14464/88 inadmisible, sobre la base de que los tribunales internos habían considerado que la propiedad era de otro. Visión de ese órgano."
+   },
+   "q": "",
+   "ev": [
+    "EV-0122"
+   ],
+   "src": "",
+   "st": "court"
+  },
+  {
+   "date": "Dec 1993 →",
+   "doc": {
+    "en": "BP to Ideal Homes, then the house titles of Church View Close. The transfer instruments are not in the catalogue.",
+    "cy": "BP i Ideal Homes, yna teitlau tai Church View Close. Nid yw’r offerynnau trosglwyddo yn y catalog.",
+    "es": "BP a Ideal Homes, luego los títulos de las casas de Church View Close. Los instrumentos no están en el catálogo."
+   },
+   "q": "",
+   "ev": [],
+   "src": "",
+   "st": "gap"
+  },
+  {
+   "date": "May 2026",
+   "doc": {
+    "en": "HM Land Registry, stage-two complaint reply, in its own words: the title was “registered correctly”. The registry’s view.",
+    "cy": "Cofrestrfa Tir EF, ateb cwyn cam dau, yn ei geiriau ei hun: “registered correctly”. Barn y gofrestrfa.",
+    "es": "Registro de la Propiedad, respuesta a la queja de segunda fase: “registered correctly”. Visión del Registro."
+   },
+   "q": "“registered correctly”",
+   "ev": [
+    "EV-0352"
+   ],
+   "src": "",
+   "st": "court"
+  }
+ ],
+ "occupiers": [
+  {
+   "date": "Bute catalogue heading (D 219)",
+   "doc": {
+    "en": "A Bute estate catalogue heading at the National Library of Wales (D 219) files a group of leases under the name “Cydfin Farm or Ty Mawr Farm”. The heading is the cataloguer’s; the leases have not been read; whether any lease before 1824 concerns Tŷ Mawr is under forensic examination. Not a record of Tŷ Mawr before 1824: the first record we have found that names Tŷ Mawr is the 1824 David Stewart survey (EV-0211).",
+    "cy": "Mae pennawd yng nghatalog ystâd Bute yn Llyfrgell Genedlaethol Cymru (D 219) yn ffeilio grŵp o brydlesi dan yr enw “Cydfin Farm or Ty Mawr Farm”. Pennawd y catalogydd yw hwn; nid yw’r prydlesi wedi’u darllen; mae a yw unrhyw brydles cyn 1824 yn ymwneud â Thŷ Mawr dan archwiliad fforensig. Nid yw’n gofnod o Dŷ Mawr cyn 1824: arolwg David Stewart, 1824, yw’r cofnod cyntaf a gawsom sy’n enwi Tŷ Mawr (EV-0211).",
+    "es": "Un encabezamiento del catálogo de la finca Bute en la Biblioteca Nacional de Gales (D 219) agrupa unos arrendamientos bajo el nombre “Cydfin Farm or Ty Mawr Farm”. El encabezamiento es del catalogador; los arrendamientos no se han leído; si alguno anterior a 1824 se refiere a Tŷ Mawr está bajo examen forense. No es un registro de Tŷ Mawr anterior a 1824: el primer registro hallado que nombra Tŷ Mawr es el catastro de David Stewart de 1824 (EV-0211)."
+   },
+   "q": "“The deeds include leases of the farm of Cydfin Farm or Ty Mawr Farm, (107 a.) …”",
+   "ev": [
+    "EV-0003"
+   ],
+   "src": "NLW Bute Estate Records D 219 (catalogue entry, quoted in the National Library of Wales reply of 19 Jun 2026); application to Tŷ Mawr under forensic examination",
+   "st": "cat"
+  },
+  {
+   "date": "1824",
+   "doc": {
+    "en": "Bute survey, plan 19 reference table: the holding let to John Gedrick (best reading of a screen photograph), with 10a 3r 39p “late Thos. Williams” added to it.",
+    "cy": "Arolwg Bute, tabl cynllun 19: y daliad ar osod i John Gedrick (darlleniad gorau o lun sgrin), gyda 10e 3r 39p “late Thos. Williams” wedi’u hychwanegu.",
+    "es": "Catastro de Bute, tabla del plano 19: la finca arrendada a John Gedrick (mejor lectura de una foto de pantalla), con 10a 3r 39p del “late Thos. Williams” añadidos."
+   },
+   "q": "“Cedfin or Ty Mawr Farm / John Gedrick Tent.” · “Late Thos. Williams now John Gedrick Tent.”",
+   "ev": [
+    "EV-0211"
+   ],
+   "src": "Glamorgan Archives DB/E/1",
+   "st": "ev"
+  },
+  {
+   "date": "1824–c.1841",
+   "doc": {
+    "en": "No record found naming the occupier between the 1824 survey and the tithe.",
+    "cy": "Dim cofnod yn enwi’r deiliad rhwng arolwg 1824 a’r degwm.",
+    "es": "No consta registro que nombre al ocupante entre el catastro de 1824 y el diezmo."
+   },
+   "q": "",
+   "ev": [],
+   "src": "",
+   "st": "gap"
+  },
+  {
+   "date": "c.1841",
+   "doc": {
+    "en": "Tithe apportionment: John Williams listed as occupier of 36 plots, 119a 2r 30p, including 209 “Courtyard &c” (the Church View Close area) and 255.",
+    "cy": "Rhaniad y degwm: John Williams yn ddeiliad 36 llain, 119e 2r 30p, gan gynnwys 209 “Courtyard &c” (ardal Church View Close) a 255.",
+    "es": "Prorrateo del diezmo: John Williams figura como ocupante de 36 parcelas, 119a 2r 30p, incluidas la 209 “Courtyard &c” (zona de Church View Close) y la 255."
+   },
+   "q": "occupier “Williams John”",
+   "ev": [
+    "EV-0215"
+   ],
+   "src": "NLW tithe apportionment 4542756, pp.12–13",
+   "st": "ev"
+  },
+  {
+   "date": "1855",
+   "doc": {
+    "en": "A 1904 newspaper report: John Williams “succeeded his father in the tenancy of the farm in 1855”. Matching that holding to Tŷ Mawr is an inference.",
+    "cy": "Adroddiad papur newydd 1904: John Williams “succeeded his father in the tenancy of the farm in 1855”. Casgliad yw cysylltu’r daliad hwnnw â Thŷ Mawr.",
+    "es": "Un periódico de 1904: John Williams “succeeded his father in the tenancy of the farm in 1855”. Identificar esa finca con Tŷ Mawr es una inferencia."
+   },
+   "q": "“succeeded his father in the tenancy of the farm in 1855”",
+   "ev": [
+    "EV-0227"
+   ],
+   "src": "Cardiff Times, 16 Jul 1904",
+   "st": "sec"
+  },
+  {
+   "date": "1872–1876",
+   "doc": {
+    "en": "Poor-rate books: John Williams rated for c.76 acres under Lord Bute (reading provisional).",
+    "cy": "Llyfrau treth y tlodion: John Williams wedi’i drethu am c.76 erw dan yr Arglwydd Bute (darlleniad dros dro).",
+    "es": "Libros del impuesto de pobres: John Williams tasado por c.76 acres bajo Lord Bute (lectura provisional)."
+   },
+   "q": "“John Williams — Lord Bute — Farm”",
+   "ev": [
+    "EV-0212"
+   ],
+   "src": "",
+   "st": "ev"
+  },
+  {
+   "date": "1891",
+   "doc": {
+    "en": "Court report: John Williams living at Great House, Llandough.",
+    "cy": "Adroddiad llys: John Williams yn byw yn y Tŷ Mawr, Llandochau.",
+    "es": "Crónica judicial: John Williams vive en Great House, Llandough."
+   },
+   "q": "",
+   "ev": [
+    "EV-0010"
+   ],
+   "src": "press, Nov 1891",
+   "st": "ev"
+  },
+  {
+   "date": "1904–1917",
+   "doc": {
+    "en": "Bute’s court leet: John Williams a juror; in 1908 the court records its sympathy with “the family of the late Mr. John Williams, Great House, Llandough, for many years a juror of the court”.",
+    "cy": "Llys leet Bute: John Williams yn rheithiwr; yn 1908 mae’r llys yn cofnodi ei gydymdeimlad â “the family of the late Mr. John Williams, Great House, Llandough, for many years a juror of the court”.",
+    "es": "Tribunal señorial de Bute: John Williams jurado; en 1908 el tribunal expresa su pésame a “the family of the late Mr. John Williams, Great House, Llandough, for many years a juror of the court”."
+   },
+   "q": "“for many years a juror of the court”",
+   "ev": [
+    "EV-0243",
+    "EV-0283"
+   ],
+   "src": "Barry Dock News, 23 Oct 1908, p.3",
+   "st": "ev"
+  },
+  {
+   "date": "Feb 1916",
+   "doc": {
+    "en": "Yearly agricultural tenancy to John Williams of “the whole of the farm”, as recited by the Court of Appeal in 1987. Which parcels it covered, and whether it included the house parcel, is not shown: the document and plan are not held.",
+    "cy": "Tenantiaeth flynyddol i John Williams o “the whole of the farm”, fel y’i hadroddwyd gan y Llys Apêl yn 1987. Ni ddangosir pa leiniau, nac a oedd llain y tŷ yn gynwysedig: nid yw’r ddogfen na’r cynllun wedi’u dal.",
+    "es": "Arrendamiento anual a John Williams de “the whole of the farm”, según cita el Tribunal de Apelación en 1987. No consta qué parcelas cubría ni si incluía la casa: no se tienen ni el documento ni el plano."
+   },
+   "q": "“the whole of the farm”",
+   "ev": [
+    "EV-0014",
+    "EV-0080"
+   ],
+   "src": "",
+   "st": "rec"
+  },
+  {
+   "date": "1928",
+   "doc": {
+    "en": "Last rent paid for the house parcel, in Mary Williams’s account. The receipt has not been found.",
+    "cy": "Y rhent olaf am lain y tŷ, yn ôl hanes Mary Williams. Ni chafwyd hyd i’r dderbynneb.",
+    "es": "Último alquiler de la parcela de la casa, en el relato de Mary Williams. No se ha hallado el recibo."
+   },
+   "q": "",
+   "ev": [
+    "EV-0016"
+   ],
+   "src": "",
+   "st": "fam"
+  },
+  {
+   "date": "mid-1930s",
+   "doc": {
+    "en": "Arrears of rent, in the Court of Appeal’s account.",
+    "cy": "Ôl-ddyledion rhent, yn adroddiad y Llys Apêl.",
+    "es": "Atrasos de renta, en el relato del Tribunal de Apelación."
+   },
+   "q": "",
+   "ev": [
+    "EV-0080"
+   ],
+   "src": "",
+   "st": "court"
+  },
+  {
+   "date": "18 May 1939",
+   "doc": {
+    "en": "Western Ground Rents lets 5.30 acres to John Williams, monthly, 8s. The archive’s reading: “agricultural land adjacent to Ty-Mawr farmhouse”; it “does not make any mention of the farmhouse”. The plan shows the fields only.",
+    "cy": "Western Ground Rents yn gosod 5.30 erw i John Williams, yn fisol, 8s. Darlleniad yr archif: “agricultural land adjacent to Ty-Mawr farmhouse”; “does not make any mention of the farmhouse”.",
+    "es": "Western Ground Rents arrienda 5,30 acres a John Williams, mensual, 8s. Lectura del archivo: “agricultural land adjacent to Ty-Mawr farmhouse”; “does not make any mention of the farmhouse”."
+   },
+   "q": "“agricultural land adjacent to Ty-Mawr farmhouse”",
+   "ev": [
+    "EV-0023"
+   ],
+   "src": "Glamorgan Archives DBDT/123/7; archive reply 2026/4439",
+   "st": "ev"
+  },
+  {
+   "date": "2 Feb 1949",
+   "doc": {
+    "en": "John Williams’s tenancy surrendered; a new yearly tenancy to Frederick Buckler, never put in writing, in the court’s account.",
+    "cy": "Ildio tenantiaeth John Williams; tenantiaeth flynyddol newydd i Frederick Buckler, heb ei hysgrifennu, yn adroddiad y llys.",
+    "es": "Renuncia del arrendamiento de John Williams; nuevo arrendamiento anual a Frederick Buckler, nunca escrito, en el relato del tribunal."
+   },
+   "q": "",
+   "ev": [
+    "EV-0025",
+    "EV-0080"
+   ],
+   "src": "",
+   "st": "court"
+  },
+  {
+   "date": "1953",
+   "doc": {
+    "en": "Last rent paid, by Frederick Buckler under a county-court judgment for arrears, in the court’s account.",
+    "cy": "Y rhent olaf, gan Frederick Buckler dan ddyfarniad ôl-ddyledion, yn adroddiad y llys.",
+    "es": "Último pago de renta, por Frederick Buckler bajo sentencia de atrasos, en el relato del tribunal."
+   },
+   "q": "",
+   "ev": [
+    "EV-0080",
+    "EV-0030"
+   ],
+   "src": "",
+   "st": "court"
+  },
+  {
+   "date": "2 Feb 1955",
+   "doc": {
+    "en": "Notice to quit expires. The Court of Appeal dates the family’s adverse possession of the house from here. On 4 July 1955 an order is enforced over everything except the house and garden.",
+    "cy": "Rhybudd i ymadael yn dod i ben. Mae’r Llys Apêl yn dyddio meddiant gwrthwynebus y teulu o’r tŷ o’r fan hon. Ar 4 Gorffennaf 1955 gorfodir gorchymyn dros bopeth ond y tŷ a’r ardd.",
+    "es": "Vence el aviso de desalojo. El Tribunal de Apelación fecha desde aquí la posesión adversa de la casa por la familia. El 4 de julio de 1955 se ejecuta una orden sobre todo salvo la casa y el jardín."
+   },
+   "q": "",
+   "ev": [
+    "EV-0032",
+    "EV-0034",
+    "EV-0080"
+   ],
+   "src": "",
+   "st": "court"
+  },
+  {
+   "date": "1958",
+   "doc": {
+    "en": "Mrs M. D. Buckler speaks at the Leckwith Common inquiry and before the county planning committee.",
+    "cy": "Mrs M. D. Buckler yn siarad yn ymchwiliad Comin Lecwydd a gerbron pwyllgor cynllunio’r sir.",
+    "es": "La Sra. M. D. Buckler interviene en la investigación de Leckwith Common y ante el comité de urbanismo del condado."
+   },
+   "q": "“It’s a Crichel Down”",
+   "ev": [
+    "EV-0035",
+    "EV-0037"
+   ],
+   "src": "Western Mail, 7 May and 20 Nov 1958 (headline)",
+   "st": "ev"
+  },
+  {
+   "date": "1959",
+   "doc": {
+    "en": "Western Ground Rents offers Mary a tenancy of the house and garden; she refuses and asserts title through her grandfather (the court’s account).",
+    "cy": "Western Ground Rents yn cynnig tenantiaeth y tŷ a’r ardd i Mary; mae’n gwrthod ac yn datgan teitl drwy ei thaid (adroddiad y llys).",
+    "es": "Western Ground Rents ofrece a Mary el arriendo de la casa y el jardín; ella lo rechaza y afirma título por su abuelo (relato del tribunal)."
+   },
+   "q": "",
+   "ev": [
+    "EV-0039",
+    "EV-0080"
+   ],
+   "src": "",
+   "st": "court"
+  },
+  {
+   "date": "11 Dec 1962",
+   "doc": {
+    "en": "Cardiff County Court possession order (house and garden) against Frederick and Mary Buckler. Not enforced until leave in 1974.",
+    "cy": "Gorchymyn meddiant Llys Sirol Caerdydd (tŷ a gardd). Heb ei orfodi tan ganiatâd yn 1974.",
+    "es": "Orden de posesión del Tribunal del Condado de Cardiff (casa y jardín). No ejecutada hasta la autorización de 1974."
+   },
+   "q": "",
+   "ev": [
+    "EV-0041",
+    "EV-0080"
+   ],
+   "src": "",
+   "st": "court"
+  },
+  {
+   "date": "1965–1967",
+   "doc": {
+    "en": "Frederick Buckler dies; Mary in possession, adverse possession admitted by BP (the court’s account).",
+    "cy": "Frederick Buckler yn marw; Mary mewn meddiant, a BP yn cyfaddef meddiant gwrthwynebus (adroddiad y llys).",
+    "es": "Muere Frederick Buckler; Mary en posesión, posesión adversa admitida por BP (relato del tribunal)."
+   },
+   "q": "",
+   "ev": [
+    "EV-0080"
+   ],
+   "src": "",
+   "st": "court"
+  },
+  {
+   "date": "Mar 1965",
+   "doc": {
+    "en": "A weekly tenancy offered to “Mrs Williams”; refused.",
+    "cy": "Cynnig tenantiaeth wythnosol i “Mrs Williams”; gwrthodwyd.",
+    "es": "Se ofrece un arriendo semanal a la “Mrs Williams”; rechazado."
+   },
+   "q": "",
+   "ev": [
+    "EV-0039",
+    "EV-0080"
+   ],
+   "src": "",
+   "st": "court"
+  },
+  {
+   "date": "1974",
+   "doc": {
+    "en": "A local history book: 1,700 people sign a petition to preserve the house. The author’s statement.",
+    "cy": "Llyfr hanes lleol: 1,700 o bobl yn llofnodi deiseb i warchod y tŷ. Datganiad yr awdur.",
+    "es": "Un libro de historia local: 1.700 personas firman una petición para conservar la casa. Afirmación del autor."
+   },
+   "q": "“In 1974, 1,700 people signed a petition for the preservation of this farm”",
+   "ev": [],
+   "src": "local history book, ‘Llandough (Penarth)’ chapter, pp.64–65 (title, author and year to be supplied)",
+   "st": "sec"
+  },
+  {
+   "date": "16 Apr 1974",
+   "doc": {
+    "en": "National press: an open day to save “an ancient Welsh house”, Tŷ Mawr, Llandough.",
+    "cy": "Y wasg genedlaethol: diwrnod agored i achub “an ancient Welsh house”, Tŷ Mawr, Llandochau.",
+    "es": "Prensa nacional: jornada de puertas abiertas para salvar “an ancient Welsh house”, Tŷ Mawr, Llandough."
+   },
+   "q": "",
+   "ev": [
+    "EV-0048"
+   ],
+   "src": "Daily Telegraph, 16 Apr 1974",
+   "st": "ev"
+  },
+  {
+   "date": "3 Jul 1974",
+   "doc": {
+    "en": "Mary Williams pleads ownership in BP Pension Trust’s county-court action; the hearing is adjourned. No record of a decision on that plea has been found.",
+    "cy": "Mary Williams yn pledio perchnogaeth yng ngweithred BP Pension Trust; gohiriwyd y gwrandawiad. Ni chafwyd cofnod o benderfyniad ar y ple.",
+    "es": "Mary Williams alega la propiedad en la acción de BP Pension Trust; la vista se aplaza. No consta decisión sobre ese alegato."
+   },
+   "q": "",
+   "ev": [
+    "EV-0049"
+   ],
+   "src": "",
+   "st": "fam"
+  },
+  {
+   "date": "31 Oct 1974",
+   "doc": {
+    "en": "Licence letters from BP to Mrs Buckler. The courts later held that these made her a licensee (the courts’ view).",
+    "cy": "Llythyrau trwydded gan BP i Mrs Buckler. Daliodd y llysoedd yn ddiweddarach eu bod yn ei gwneud yn drwyddedai (barn y llysoedd).",
+    "es": "Cartas de licencia de BP a la Sra. Buckler. Los tribunales sostuvieron después que la convertían en licenciataria (visión de los tribunales)."
+   },
+   "q": "",
+   "ev": [
+    "EV-0050",
+    "EV-0074",
+    "EV-0080"
+   ],
+   "src": "",
+   "st": "court"
+  },
+  {
+   "date": "1983–1988",
+   "doc": {
+    "en": "William Buckler in occupation; High Court (1986) and Court of Appeal (1987) decide possession for BP.",
+    "cy": "William Buckler yn y tŷ; yr Uchel Lys (1986) a’r Llys Apêl (1987) yn penderfynu meddiant o blaid BP.",
+    "es": "William Buckler ocupa la casa; el Tribunal Superior (1986) y el de Apelación (1987) deciden la posesión a favor de BP."
+   },
+   "q": "",
+   "ev": [
+    "EV-0074",
+    "EV-0080"
+   ],
+   "src": "",
+   "st": "court"
+  },
+  {
+   "date": "26 Mar 1983",
+   "doc": {
+    "en": "Mary Williams dies, in occupation of the house.",
+    "cy": "Mary Williams yn marw, yn byw yn y tŷ.",
+    "es": "Muere Mary Williams, ocupando la casa."
+   },
+   "q": "",
+   "ev": [
+    "EV-0067"
+   ],
+   "src": "",
+   "st": "ev"
+  },
+  {
+   "date": "29/30 Nov 1988",
+   "doc": {
+    "en": "Forced entry and eviction; the house is demolished on 6/7 December 1988.",
+    "cy": "Mynediad trwy rym a throi allan; dymchwel y tŷ ar 6/7 Rhagfyr 1988.",
+    "es": "Entrada forzada y desalojo; la casa se derriba el 6/7 de diciembre de 1988."
+   },
+   "q": "",
+   "ev": [
+    "EV-0098",
+    "EV-0106"
+   ],
+   "src": "press, Dec 1988",
+   "st": "ev"
+  },
+  {
+   "date": "6 Dec 1988",
+   "doc": {
+    "en": "The same book, in its author’s words: demolition at night, and a dispute dated by the author to 33 years.",
+    "cy": "Yr un llyfr, yng ngeiriau’r awdur: dymchwel yn y nos, ac anghydfod a ddyddir gan yr awdur i 33 mlynedd.",
+    "es": "El mismo libro, en palabras del autor: derribo de noche, y una disputa que el autor fecha en 33 años."
+   },
+   "q": "“demolished during the night of 6th December 1988 by British Petroleum Pension Funds following a 33 year dispute over its ownership”",
+   "ev": [],
+   "src": "local history book, ‘Llandough (Penarth)’ chapter, pp.64–65 (title, author and year to be supplied)",
+   "st": "sec"
+  },
+  {
+   "date": "after 1988",
+   "doc": {
+    "en": "The same book’s author: the house was the Williams family’s home “for generations”. Undated in the book; the records above (c.1841 tithe, 1908 court leet, the courts 1955–1988) show the family there across that span.",
+    "cy": "Awdur yr un llyfr: roedd y tŷ yn gartref i deulu Williams “for generations”. Heb ddyddiad yn y llyfr; mae’r cofnodion uchod (degwm c.1841, llys leet 1908, y llysoedd 1955–1988) yn dangos y teulu yno ar draws y cyfnod hwnnw.",
+    "es": "El autor del mismo libro: la casa fue el hogar de la familia Williams “for generations”. Sin fecha en el libro; los registros anteriores (diezmo c.1841, tribunal señorial 1908, los tribunales 1955–1988) muestran a la familia allí en ese periodo."
+   },
+   "q": "“It was the home of Mr John Williams’ family for generations”",
+   "ev": [
+    "EV-0215",
+    "EV-0243",
+    "EV-0080"
+   ],
+   "src": "local history book, ‘Llandough (Penarth)’ chapter, pp.64–65 (title, author and year to be supplied)",
+   "st": "sec"
+  }
+ ]
+}

@@ -1,0 +1,720 @@
+{
+ "version": "1.0.1",
+ "generated": "2026-10-31",
+ "note": "Plain-English definitions for words a first-time visitor meets on Cedwyn. Each entry: term, one-line definition, the anchor on /glossary/, and deeper pages on Cedwyn (internal links only). Name groups with spelling variants live in data/nomenclature.json and are listed on /glossary/ too. — Sion's Tab agent",
+ "terms": [
+  {
+   "slug": "permissive-occupancy",
+   "term": "Permissive occupancy",
+   "match": [
+    "permissive occupancy",
+    "permissive occupation",
+    "occupancy appear permissive"
+   ],
+   "ci": true,
+   "definition": "Living on or using land with the owner’s permission, for example under a licence or tenancy. Permission stops the clock for adverse possession.",
+   "anchor": "/glossary/#permissive-occupancy",
+   "learn_more": [
+    {
+     "label": "The permissive-occupancy question",
+     "url": "/research/claim-repeated-attempts-to-make-mary-williams-occupancy-of-parcel-a-appear-permissive/"
+    }
+   ]
+  },
+  {
+   "slug": "adverse-possession",
+   "term": "Adverse possession",
+   "match": [
+    "adverse possession"
+   ],
+   "ci": true,
+   "definition": "Gaining title to land by occupying it openly, without the owner’s permission, for a period set by law: 12 years for unregistered land in England and Wales (Limitation Act 1980).",
+   "anchor": "/glossary/#adverse-possession",
+   "learn_more": [
+    {
+     "label": "Adverse possession and licence cases, 1950–2000",
+     "url": "/research/evidence/ev-0500-legal-regulators-historic-adverse-possession-licence-interruption-cases-19502000/"
+    }
+   ]
+  },
+  {
+   "slug": "licence",
+   "term": "Licence (to occupy)",
+   "match": [
+    "licence to occupy",
+    "unilateral licence"
+   ],
+   "ci": true,
+   "definition": "Written or spoken permission to occupy land. A licence is not ownership, and in law it stops time running for adverse possession.",
+   "anchor": "/glossary/#licence",
+   "learn_more": [
+    {
+     "label": "Adverse possession and licence cases, 1950–2000",
+     "url": "/research/evidence/ev-0500-legal-regulators-historic-adverse-possession-licence-interruption-cases-19502000/"
+    }
+   ]
+  },
+  {
+   "slug": "registered-proprietor",
+   "term": "Registered proprietor",
+   "match": [
+    "registered proprietor",
+    "registered as the proprietor",
+    "registered owner"
+   ],
+   "ci": true,
+   "definition": "The person or company named on HM Land Registry’s title register as the owner of a piece of land.",
+   "anchor": "/glossary/#registered-proprietor",
+   "learn_more": [
+    {
+     "label": "Land Registry titles",
+     "url": "/wiki/land-registry-titles/"
+    }
+   ]
+  },
+  {
+   "slug": "title-register",
+   "term": "Title register",
+   "match": [
+    "title register",
+    "title registers",
+    "register of title"
+   ],
+   "ci": true,
+   "definition": "HM Land Registry’s official record of a piece of registered land: who owns it, its title plan, and any charges or rights over it.",
+   "anchor": "/glossary/#title-register",
+   "learn_more": [
+    {
+     "label": "Title register WA231076, Sept 2026",
+     "url": "/research/evidence/ev-0170-wa231076-title-register-september-2026/"
+    },
+    {
+     "label": "Land Registry titles",
+     "url": "/wiki/land-registry-titles/"
+    }
+   ]
+  },
+  {
+   "slug": "first-registration",
+   "term": "First registration",
+   "match": [
+    "first registration"
+   ],
+   "ci": true,
+   "definition": "Registering a piece of land with HM Land Registry for the first time, usually after a sale or transfer. The deeds before it are not copied onto the register.",
+   "anchor": "/glossary/#first-registration",
+   "learn_more": [
+    {
+     "label": "Land Registry titles",
+     "url": "/wiki/land-registry-titles/"
+    }
+   ]
+  },
+  {
+   "slug": "title-number",
+   "term": "Title number",
+   "match": [
+    "title number",
+    "title numbers"
+   ],
+   "ci": true,
+   "definition": "The reference HM Land Registry gives each registered title, such as WA231076.",
+   "anchor": "/glossary/#title-number",
+   "learn_more": [
+    {
+     "label": "Land Registry titles",
+     "url": "/wiki/land-registry-titles/"
+    }
+   ]
+  },
+  {
+   "slug": "freehold",
+   "term": "Freehold",
+   "match": [
+    "freehold",
+    "freeholds"
+   ],
+   "ci": true,
+   "definition": "Outright ownership of land, held for ever, as opposed to a lease for a fixed term.",
+   "anchor": "/glossary/#freehold",
+   "learn_more": []
+  },
+  {
+   "slug": "leasehold",
+   "term": "Leasehold / lease",
+   "match": [
+    "leasehold",
+    "ground lease",
+    "ground rent",
+    "ground rents"
+   ],
+   "ci": true,
+   "definition": "Holding land for a fixed term from the freeholder, usually in return for rent. A ground rent is the rent paid on a long lease.",
+   "anchor": "/glossary/#leasehold",
+   "learn_more": []
+  },
+  {
+   "slug": "manorial-title",
+   "term": "Manorial title / under a lord",
+   "match": [
+    "manorial title",
+    "lordship of the manor",
+    "lord of the manor",
+    "manorial lease",
+    "manorial leases",
+    "manorial rights",
+    "under a lord"
+   ],
+   "ci": true,
+   "definition": "A manorial title is the lordship of a manor and the rights that go with it. Land held “under a lord” was held from the lord of the manor, by lease or custom, rather than owned outright.",
+   "anchor": "/glossary/#manorial-title",
+   "learn_more": [
+    {
+     "label": "Llandough manorial evidence",
+     "url": "/research/anomalies-register/llandough-penarth-cydfin-ty-mawr-manorial-evidence/"
+    },
+    {
+     "label": "Bute manor disposals (DB/M/22)",
+     "url": "/research/evidence/ev-0027-bute-manor-disposals-db-m-22/"
+    }
+   ]
+  },
+  {
+   "slug": "conveyance",
+   "term": "Conveyance",
+   "match": [
+    "conveyance",
+    "conveyances"
+   ],
+   "ci": true,
+   "definition": "The deed that transfers ownership of land from one owner to another.",
+   "anchor": "/glossary/#conveyance",
+   "learn_more": []
+  },
+  {
+   "slug": "possession-action",
+   "term": "Possession action",
+   "match": [
+    "possession action",
+    "possession proceedings",
+    "possession order"
+   ],
+   "ci": true,
+   "definition": "A court case in which an owner asks the court to order someone off land.",
+   "anchor": "/glossary/#possession-action",
+   "learn_more": [
+    {
+     "label": "Court of Appeal judgment, 1987",
+     "url": "/wiki/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  },
+  {
+   "slug": "bp-v-buckler",
+   "term": "BP Properties Ltd v Buckler (1987)",
+   "match": [
+    "BP Properties Ltd v Buckler",
+    "BP Properties v Buckler",
+    "[1987] EWCA Civ 2"
+   ],
+   "ci": false,
+   "definition": "The 1987 Court of Appeal judgment ([1987] EWCA Civ 2) on possession of the farmhouse land at Llandough.",
+   "anchor": "/glossary/#bp-v-buckler",
+   "learn_more": [
+    {
+     "label": "Read the judgment record",
+     "url": "/wiki/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  },
+  {
+   "slug": "court-of-appeal",
+   "term": "Court of Appeal",
+   "match": [
+    "Court of Appeal"
+   ],
+   "ci": false,
+   "definition": "The second-highest court in England and Wales. It hears appeals from the High Court and county courts.",
+   "anchor": "/glossary/#court-of-appeal",
+   "learn_more": [
+    {
+     "label": "BP Properties Ltd v Buckler [1987]",
+     "url": "/wiki/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    }
+   ]
+  },
+  {
+   "slug": "foi",
+   "term": "FOI (Freedom of Information)",
+   "match": [
+    "Freedom of Information Act",
+    "Freedom of Information",
+    "FOI request",
+    "FOI requests",
+    "FOIA",
+    "FOI"
+   ],
+   "ci": false,
+   "definition": "A request under the Freedom of Information Act 2000. Anyone can ask a public body for the information it holds; it must answer within 20 working days.",
+   "anchor": "/glossary/#foi",
+   "learn_more": [
+    {
+     "label": "FOI reply register",
+     "url": "/docs/ghf_wiki/co_foireplyregister/"
+    }
+   ]
+  },
+  {
+   "slug": "eir",
+   "term": "EIR (Environmental Information Regulations)",
+   "match": [
+    "Environmental Information Regulations",
+    "EIR"
+   ],
+   "ci": false,
+   "definition": "The Environmental Information Regulations 2004: the FOI route for information about land, the environment and planning.",
+   "anchor": "/glossary/#eir",
+   "learn_more": []
+  },
+  {
+   "slug": "sar",
+   "term": "SAR (subject access request)",
+   "match": [
+    "subject access request",
+    "subject access requests",
+    "Subject Access Request",
+    "SAR",
+    "SARs"
+   ],
+   "ci": false,
+   "definition": "A request under UK data protection law for a copy of the personal data an organisation holds about you. The answer is due within one calendar month.",
+   "anchor": "/glossary/#sar",
+   "learn_more": [
+    {
+     "label": "HM Land Registry subject access request",
+     "url": "/research/evidence/ev-0367-hm-land-registry-subject-access-request-wa231076-wa240304-great-house-farm-llandough-wi/"
+    }
+   ]
+  },
+  {
+   "slug": "ico",
+   "term": "ICO (Information Commissioner’s Office)",
+   "match": [
+    "Information Commissioner’s Office",
+    "Information Commissioner's Office",
+    "Information Commissioner",
+    "ICO"
+   ],
+   "ci": false,
+   "definition": "The UK regulator for Freedom of Information and data protection. A complaint goes to the ICO after a body’s internal review.",
+   "anchor": "/glossary/#ico",
+   "learn_more": [
+    {
+     "label": "ICO correspondence",
+     "url": "/research/evidence/ico-correspondence/"
+    }
+   ]
+  },
+  {
+   "slug": "internal-review",
+   "term": "Internal review",
+   "match": [
+    "internal review",
+    "internal reviews"
+   ],
+   "ci": true,
+   "definition": "A public body’s second look at its own FOI answer, asked for by the person who made the request. It is the step before a complaint to the ICO.",
+   "anchor": "/glossary/#internal-review",
+   "learn_more": [
+    {
+     "label": "Wales Office internal review acknowledgement",
+     "url": "/research/evidence/ev-0187-wales-office-internal-review-acknowledgement/"
+    }
+   ]
+  },
+  {
+   "slug": "s13-clarification",
+   "term": "s.1(3) clarification",
+   "match": [
+    "s.1(3)",
+    "section 1(3)",
+    "s1(3)"
+   ],
+   "ci": false,
+   "definition": "Under section 1(3) of the FOI Act a body may ask for more detail before answering. The 20-working-day clock starts again when the clarification arrives.",
+   "anchor": "/glossary/#s13-clarification",
+   "learn_more": [
+    {
+     "label": "HM Land Registry clarification request",
+     "url": "/research/evidence/ev-0355-hm-land-registry-request-for-clarification-of-correspondence-title-wa231076/"
+    }
+   ]
+  },
+  {
+   "slug": "section-12",
+   "term": "Section 12 (cost limit)",
+   "match": [
+    "section 12",
+    "s.12"
+   ],
+   "ci": false,
+   "definition": "Section 12 of the FOI Act lets a body refuse a request that would cost more than the set limit to answer.",
+   "anchor": "/glossary/#section-12",
+   "learn_more": [
+    {
+     "label": "Llandough Community Council internal review of a section 12 refusal",
+     "url": "/research/evidence/ev-0391-llandough-community-council-internal-review-of-section-12-refusal-and-sar/"
+    }
+   ]
+  },
+  {
+   "slug": "not-held",
+   "term": "“Not held”",
+   "match": [
+    "not held"
+   ],
+   "ci": true,
+   "definition": "The answer a public body gives when it finds no recorded information matching a request.",
+   "anchor": "/glossary/#not-held",
+   "learn_more": []
+  },
+  {
+   "slug": "her",
+   "term": "HER (Historic Environment Record)",
+   "match": [
+    "Historic Environment Record"
+   ],
+   "ci": false,
+   "definition": "The local database of archaeological sites and historic buildings. Tŷ Mawr is HER GGAT02038s.",
+   "anchor": "/glossary/#her",
+   "learn_more": [
+    {
+     "label": "Heneb (formerly GGAT)",
+     "url": "/nomenclature/c/heneb/"
+    }
+   ]
+  },
+  {
+   "slug": "nprn",
+   "term": "NPRN",
+   "match": [
+    "NPRN"
+   ],
+   "ci": false,
+   "definition": "National Primary Record Number: the reference in the National Monuments Record of Wales (Coflein). Tŷ Mawr is NPRN 20182.",
+   "anchor": "/glossary/#nprn",
+   "learn_more": [
+    {
+     "label": "RCAHMW / Coflein names",
+     "url": "/nomenclature/c/rcahmw/"
+    }
+   ]
+  },
+  {
+   "slug": "village-green",
+   "term": "Village green (VG41)",
+   "match": [
+    "village green",
+    "VG41"
+   ],
+   "ci": false,
+   "definition": "Land registered as a town or village green. VG41 is the green at Church View Close, Llandough.",
+   "anchor": "/glossary/#village-green",
+   "learn_more": [
+    {
+     "label": "The green and Church View Close",
+     "url": "/nomenclature/c/green/"
+    }
+   ]
+  },
+  {
+   "slug": "evidence-id",
+   "term": "Evidence ID (EV- / GHF-E)",
+   "match": [
+    "evidence ID",
+    "evidence IDs",
+    "catalogue ID",
+    "catalogue IDs"
+   ],
+   "ci": true,
+   "definition": "The catalogue number each record has on Cedwyn, such as EV-0080 or GHF-E090. Every fact on the site points to one.",
+   "anchor": "/glossary/#evidence-id",
+   "learn_more": [
+    {
+     "label": "The research catalogue",
+     "url": "/research/"
+    }
+   ]
+  },
+  {
+   "slug": "david-stewart-survey",
+   "term": "David Stewart survey (1824)",
+   "match": [
+    "David Stewart survey",
+    "David Stewart’s survey",
+    "David Stewart's survey",
+    "1824 survey"
+   ],
+   "ci": false,
+   "definition": "David Stewart’s 1824 survey of the Bute Glamorgan estates. Its plan 19 names “Cedfin or Ty Mawr Farm”, the first record mention of Tŷ Mawr.",
+   "anchor": "/glossary/#david-stewart-survey",
+   "learn_more": [
+    {
+     "label": "Plan 19, Cedfin or Ty Mawr, 1824",
+     "url": "/wiki/evidence/ev-0211-db-e-1-plan-19-cedfin-ty-mawr-1824/"
+    }
+   ]
+  },
+  {
+   "slug": "south-wales-police",
+   "term": "South Wales Police",
+   "match": [
+    "South Wales Police"
+   ],
+   "ci": false,
+   "definition": "The police force for South Wales, including the Vale of Glamorgan.",
+   "anchor": "/glossary/#south-wales-police",
+   "learn_more": [
+    {
+     "label": "South Wales Police subject access request",
+     "url": "/research/evidence/ev-0512-south-wales-police-subject-access-request/"
+    }
+   ]
+  },
+  {
+   "slug": "vale-of-glamorgan-council",
+   "term": "Vale of Glamorgan Council",
+   "match": [
+    "Vale of Glamorgan Council",
+    "Vale of Glamorgan"
+   ],
+   "ci": false,
+   "definition": "The local council for Llandough, Penarth and the Vale; the planning authority since 1996.",
+   "anchor": "/glossary/#vale-of-glamorgan-council",
+   "learn_more": [
+    {
+     "label": "Vale of Glamorgan Council records request",
+     "url": "/research/evidence/ev-0475-vale-of-glamorgan-council-formal-concern-preservation-and-subject-access-great-house-fa/"
+    }
+   ]
+  },
+  {
+   "slug": "llandough-community-council",
+   "term": "Llandough Community Council",
+   "match": [
+    "Llandough Community Council"
+   ],
+   "ci": false,
+   "definition": "The community council for Llandough, the lowest tier of local government.",
+   "anchor": "/glossary/#llandough-community-council",
+   "learn_more": [
+    {
+     "label": "Internal review of a section 12 refusal",
+     "url": "/research/evidence/ev-0391-llandough-community-council-internal-review-of-section-12-refusal-and-sar/"
+    }
+   ]
+  },
+  {
+   "slug": "npcc",
+   "term": "NPCC",
+   "match": [
+    "National Police Chiefs’ Council",
+    "National Police Chiefs' Council",
+    "NPCC"
+   ],
+   "ci": false,
+   "definition": "National Police Chiefs’ Council: coordinates police forces in the UK and answers FOI requests about national policing.",
+   "anchor": "/glossary/#npcc",
+   "learn_more": [
+    {
+     "label": "NPCC internal reviews 3157 and 3176",
+     "url": "/research/evidence/ev-0183-npcc-internal-reviews-3157-3176/"
+    }
+   ]
+  },
+  {
+   "slug": "moj",
+   "term": "Ministry of Justice",
+   "match": [
+    "Ministry of Justice",
+    "HMCTS"
+   ],
+   "ci": false,
+   "definition": "The government department for the courts (through HMCTS), prisons and the justice system.",
+   "anchor": "/glossary/#moj",
+   "learn_more": [
+    {
+     "label": "Ministry of Justice subject access request",
+     "url": "/research/evidence/ev-0414-ministry-of-justice-hmcts-subject-access-request-for-personal-data/"
+    }
+   ]
+  },
+  {
+   "slug": "mod",
+   "term": "Ministry of Defence",
+   "match": [
+    "Ministry of Defence",
+    "MOD"
+   ],
+   "ci": false,
+   "definition": "The government department for the armed forces.",
+   "anchor": "/glossary/#mod",
+   "learn_more": [
+    {
+     "label": "MOD FOI internal review 09190",
+     "url": "/research/evidence/ev-0192-mod-foi-internal-review-09190/"
+    }
+   ]
+  },
+  {
+   "slug": "dcms",
+   "term": "DCMS",
+   "match": [
+    "Department for Culture, Media and Sport",
+    "DCMS"
+   ],
+   "ci": false,
+   "definition": "Department for Culture, Media and Sport: the UK department for heritage and listed buildings policy in England.",
+   "anchor": "/glossary/#dcms",
+   "learn_more": [
+    {
+     "label": "DCMS internal review response",
+     "url": "/research/evidence/ev-0164-dcms-internal-review-response-ir2026-06711/"
+    }
+   ]
+  },
+  {
+   "slug": "glamorgan-archives",
+   "term": "Glamorgan Archives",
+   "match": [
+    "Glamorgan Archives",
+    "Glamorgan Record Office"
+   ],
+   "ci": false,
+   "definition": "The county record office for Cardiff and the Vale of Glamorgan, in Cardiff.",
+   "anchor": "/glossary/#glamorgan-archives",
+   "learn_more": [
+    {
+     "label": "Glamorgan Archives D/D XJF 64",
+     "url": "/wiki/evidence/ev-0155-glamorgan-archives-email-june-2026/"
+    }
+   ]
+  },
+  {
+   "slug": "nlw",
+   "term": "National Library of Wales",
+   "match": [
+    "National Library of Wales",
+    "NLW"
+   ],
+   "ci": false,
+   "definition": "The national library in Aberystwyth. It holds the Bute estate records catalogue.",
+   "anchor": "/glossary/#nlw",
+   "learn_more": []
+  },
+  {
+   "slug": "bute-estate",
+   "term": "Bute estate",
+   "match": [
+    "Bute estate",
+    "Bute Estate",
+    "Bute estates",
+    "Marquess of Bute"
+   ],
+   "ci": false,
+   "definition": "The Glamorgan landholdings of the Marquesses of Bute, sold off in the 1930s–1940s.",
+   "anchor": "/glossary/#bute-estate",
+   "learn_more": [
+    {
+     "label": "Bute manor disposals (DB/M/22)",
+     "url": "/research/evidence/ev-0027-bute-manor-disposals-db-m-22/"
+    }
+   ]
+  },
+  {
+   "slug": "etymology",
+   "term": "Etymology",
+   "match": [
+    "etymology",
+    "etymological",
+    "etymologies"
+   ],
+   "definition": "The study of a word or place-name’s history: its earlier forms, linguistic elements and development over time.",
+   "anchor": "/glossary/#etymology",
+   "learn_more": [
+    {
+     "label": "Leckwith (Lecwydd): proposed origin and source notes",
+     "url": "/nomenclature/c/leckwith/"
+    }
+   ]
+  },
+  {
+   "slug": "folk-etymology",
+   "term": "Folk etymology",
+   "match": [
+    "folk etymology",
+    "folk-etymology"
+   ],
+   "definition": "A later explanation of a name or word based on its resemblance to a familiar word, even when that resemblance does not represent the historical linguistic origin.",
+   "anchor": "/glossary/#folk-etymology",
+   "learn_more": [
+    {
+     "label": "The Llechwedd explanation of Leckwith",
+     "url": "/nomenclature/c/leckwith/"
+    }
+   ]
+  },
+  {
+   "slug": "anglicisation",
+   "term": "Anglicisation",
+   "match": [
+    "anglicisation",
+    "anglicization",
+    "anglicised",
+    "anglicized"
+   ],
+   "definition": "The adaptation of a name or word into English spelling or usage. In place-name research, the historic Welsh form and English form should be recorded separately.",
+   "anchor": "/glossary/#anglicisation",
+   "learn_more": [
+    {
+     "label": "Leckwith and Lecwydd: standard forms",
+     "url": "/nomenclature/c/leckwith/"
+    }
+   ]
+  },
+  {
+   "slug": "personal-name",
+   "term": "Personal name",
+   "match": [
+    "personal name",
+    "personal-name"
+   ],
+   "definition": "A name used to identify an individual. A place-name may preserve or derive from a personal name, but that connection needs a source-based linguistic argument.",
+   "anchor": "/glossary/#personal-name",
+   "learn_more": [
+    {
+     "label": "The proposed Helygwydd origin of Lecwydd",
+     "url": "/nomenclature/c/leckwith/"
+    }
+   ]
+  },
+  {
+   "slug": "place-name",
+   "term": "Place-name",
+   "match": [
+    "place-name",
+    "place name",
+    "placename",
+    "place-names"
+   ],
+   "definition": "A name assigned to a geographical feature or human settlement. Historical spellings and their source locators help distinguish documented forms from later interpretations.",
+   "anchor": "/glossary/#place-name",
+   "learn_more": [
+    {
+     "label": "Leckwith historical forms",
+     "url": "/nomenclature/c/leckwith/"
+    }
+   ]
+  }
+ ]
+}

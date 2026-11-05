@@ -1,0 +1,3689 @@
+{
+ "schema": "cedwyn-core/0.1.0",
+ "note": "Screening leads: records checked against the property (Great House Farm / Tŷ Mawr / Cydfin Farm, Llandough-juxta-Penarth). scope.disposition says whether each is the property (in_scope) or something that looked like it but is not. Kissed Frogs reads every record whose disposition is not in_scope. Migrated losslessly from the kissed-frogs register v1.0.1 (27 Oct 2026); KF-35 rewritten 30 Oct 2026 as the Llandough Farm card.",
+ "updated": "2026-10-30",
+ "records": [
+  {
+   "id": "KF-01",
+   "kind": "screening_lead",
+   "slug": "kf-01-ev-0213-6-november-1877-clyde-street",
+   "title": "EV-0213 — 6 November 1877 Clyde Street, Roath counterpart",
+   "date": {
+    "display": "6 Nov 1877",
+    "sort": 1877
+   },
+   "place_text": "Clyde Street, Roath, Cardiff",
+   "provenance": {
+    "reference": "EV-0213 (photographs, Glamorgan Archives)"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "A Roath building plot leased to a builder, not the farm."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "EV-0213 — 6 November 1877 Clyde Street, Roath counterpart",
+     "form": "term",
+     "runs": [
+      {
+       "text": "EV-0213 — 6 November 1877 Clyde Street, Roath counterpart",
+       "href": "/wiki/evidence/ev-0213-clyde-street-roath-lease-6-nov-1877/"
+      }
+     ]
+    },
+    {
+     "heading": "Disposition",
+     "text": "Ruled out as the farm lease. Photographs identify a house plot in Clyde Street, Roath; the lessee is John Williams, builder, of System Street, Roath; term 99 years from 29 September 1877, rent £2 12s 6d.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "Explains why the exact date and 99-year term are a dangerous false friend. It does not identify the lessee as the Great House Farm tenant, prove a Llandough lease, or prove wrongdoing. A 99-year term from 1877 ends around 1976, not 1987.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Keep the photos. Get the archive reference/bundle and Plan No. 15 so the catalogue identity can be authenticated; do not treat it as farm-title evidence.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-29",
+    "KF-03"
+   ],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    },
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "The same caution stands on the wiki’s "
+      },
+      {
+       "text": "1877 Agreement",
+       "href": "/wiki/1877-agreement/"
+      },
+      {
+       "text": " page: do not use a Cardiff deed to fill the gap left by the unlocated Llandough instruments."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-02",
+   "kind": "screening_lead",
+   "slug": "kf-02-dbdt-79-1-2-may-1877-pembroke",
+   "title": "DBDT/79/1 — 2 May 1877 Pembroke Terrace, Cardiff",
+   "date": {
+    "display": "2 May 1877",
+    "sort": 1877
+   },
+   "place_text": "Pembroke Terrace, Cardiff",
+   "provenance": {
+    "reference": "Glamorgan Archives DBDT/79/1"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "A Cardiff lease with no mention of Llandough."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "DBDT/79/1 — 2 May 1877 Pembroke Terrace, Cardiff",
+     "form": "term"
+    },
+    {
+     "heading": "Disposition",
+     "text": "Ruled out as a Llandough match. Physically examined; described in the archive correspondence as a Cardiff/Pembroke Terrace lease with no mention of Llandough, Great House Farm or Tŷ Mawr.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "It is a real Bute–John Williams lease, but it concerns Cardiff property. The record does not show which Williams, if any, was related to the farm family.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Keep as a negative control for name/date confusion. Use the archive’s corrected description, not older catalogue wording.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-32"
+   ],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    },
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "The same caution stands on the wiki’s "
+      },
+      {
+       "text": "1877 Agreement",
+       "href": "/wiki/1877-agreement/"
+      },
+      {
+       "text": " page: do not use a Cardiff deed to fill the gap left by the unlocated Llandough instruments."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-03",
+   "kind": "screening_lead",
+   "slug": "kf-03-dbdt-18-1-catalogue-lead-for-november",
+   "title": "DBDT/18/1 — catalogue lead for November 1877, Clyde Street, Roath",
+   "date": {
+    "display": "Nov 1877",
+    "sort": 1877
+   },
+   "place_text": "Clyde Street, Roath, Cardiff",
+   "provenance": {
+    "reference": "Glamorgan Archives catalogue DBDT/18/1"
+   },
+   "scope": {
+    "disposition": "catalogue_only",
+    "label": "Catalogue only",
+    "reason": "Catalogue line, possibly the same Roath deed; not a second source."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "DBDT/18/1 — catalogue lead for November 1877, Clyde Street, Roath",
+     "form": "term"
+    },
+    {
+     "heading": "Disposition",
+     "text": "Catalogue-only / possible correlate, not a second independent item.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "The photographed Clyde Street document’s reference is not visible in the images available here. The catalogue entry may correspond to EV-0213, but that match is not authenticated from the image alone.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Ask Glamorgan Archives to match the photographed deed to the catalogue number. Do not count the catalogue entry and photograph as two independent sources.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-04",
+   "kind": "screening_lead",
+   "slug": "kf-04-dbdt-1-3-july-1877-adamsdown-square",
+   "title": "DBDT/1/3 — July 1877 Adamsdown Square, Cardiff",
+   "date": {
+    "display": "Jul 1877",
+    "sort": 1877
+   },
+   "place_text": "Adamsdown Square, Cardiff",
+   "provenance": {
+    "reference": "Glamorgan Archives catalogue DBDT/1/3"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "Cardiff premises, not a Llandough tenancy."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "DBDT/1/3 — July 1877 Adamsdown Square, Cardiff",
+     "form": "term"
+    },
+    {
+     "heading": "Disposition",
+     "text": "Separate-city lead; original not verified in this enquiry.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "Its catalogue description names John Williams and Cardiff premises. That is not evidence for a Llandough tenancy or title. It does not prove the person was, or was not, the farm John Williams.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Only inspect further if identity/genealogy is useful; keep separate from the Llandough title chronology.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-05",
+   "kind": "screening_lead",
+   "slug": "kf-05-great-house-farm-llandough-records-for-llandough",
+   "title": "“Great House Farm, Llandough” records for Llandough near Cowbridge — DSA/6/1158 (1938 sale), D/DSA6/701 (1924 estate sale), DCO/WHS/2 (David Thomas memoir)",
+   "date": {
+    "display": "1924–1938",
+    "sort": 1924
+   },
+   "place_text": "Llandough near Cowbridge",
+   "provenance": {
+    "reference": "Glamorgan Archives DSA/6/1158, D/DSA6/701, DCO/WHS/2"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "A different Llandough, near Cowbridge."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "“Great House Farm, Llandough” records for Llandough near Cowbridge — DSA/6/1158 (1938 sale), D/DSA6/701 (1924 estate sale), DCO/WHS/2 (David Thomas memoir)",
+     "form": "term"
+    },
+    {
+     "heading": "Disposition",
+     "text": "Excluded by geography/name trap. The entries identify the Cowbridge-area Llandough / Llanfair / St Hilary context, not Llandough-juxta-Penarth.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "They may be genuine records about another farm of a similar name. They do not establish title, tenancy or official handling at Tŷ Mawr near Penarth.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Retained on Excluded: not our farm ; do not use in Great House Farm’s chain of title.",
+     "form": "term",
+     "runs": [
+      {
+       "text": "Retained on "
+      },
+      {
+       "text": "Excluded: not our farm",
+       "href": "/wiki/evidence/excluded-not-our-farm/"
+      },
+      {
+       "text": " ; do not use in Great House Farm’s chain of title."
+      }
+     ]
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-25",
+    "KF-26",
+    "KF-27",
+    "KF-34"
+   ],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-06",
+   "kind": "screening_lead",
+   "slug": "kf-06-nlw-d-219-llandough-farm-166-acres",
+   "title": "NLW D 219 — Llandough Farm, 166 acres",
+   "date": {
+    "display": "Catalogue (Bute estate leases)",
+    "sort": 1552
+   },
+   "place_text": "Llandough parish",
+   "provenance": {
+    "reference": "National Library of Wales D 219"
+   },
+   "scope": {
+    "disposition": "separate_property",
+    "label": "Separate farm",
+    "reason": "A separate 166-acre farm, not the 107-acre Cydfin / Tŷ Mawr holding."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "NLW D 219 — Llandough Farm, 166 acres",
+     "form": "term"
+    },
+    {
+     "heading": "Disposition",
+     "text": "Not the Cydfin / Tŷ Mawr holding. The catalogue separates it from the 107-acre Cydfin / Tŷ Mawr lease group.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "The separate deed groups are a positive identity correction. The 166-acre figure cannot be transferred to Tŷ Mawr merely because both are in the parish of Llandough.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Use the official NLW D 219 description . Examine individual instruments and plans for exact boundaries.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-35"
+   ],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-07",
+   "kind": "screening_lead",
+   "slug": "kf-07-old-imported-wiki-snapshot-in-bucklerfamily-estate",
+   "title": "Old imported Wiki snapshot in bucklerfamily.estate source (imported 23 September 2026)",
+   "date": {
+    "display": "Imported 23 Sep 2026",
+    "sort": 2026
+   },
+   "place_text": "Family website source",
+   "provenance": {
+    "reference": "bucklerfamily.estate source snapshot"
+   },
+   "scope": {
+    "disposition": "secondary_copy",
+    "label": "Secondary copy",
+    "reason": "A copy of older wording, not an independent source."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "Old imported Wiki snapshot in bucklerfamily.estate source (imported 23 September 2026)",
+     "form": "term"
+    },
+    {
+     "heading": "Disposition",
+     "text": "Secondary copy, not independent corroboration. The snapshot repeats older wording that a 6 November lease was held at Glamorgan Archives and might cover the retained nine acres.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "It documents how an assertion propagated between sites. It is not an archive catalogue, original deed, or independent confirmation that the lease exists.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Retain for provenance/history of the website; defer to the current EV-0008 / EV-0213 evidence status and correct future copies.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": true,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    },
+    {
+     "class": "kf-note",
+     "runs": [
+      {
+       "text": "Wording note: a few words of the wiki text are reworded here to follow Cedwyn’s "
+      },
+      {
+       "text": "editorial rules",
+       "href": "/values/"
+      },
+      {
+       "text": "; nothing of substance is removed."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-08",
+   "kind": "screening_lead",
+   "slug": "kf-08-repository-app-assertions-of-a-1667-99",
+   "title": "Repository/app assertions of a 1667 “99-year” or “999-year” lease and of a 1983 title merger described as “proven” wrongdoing",
+   "date": {
+    "display": "1667 / 1983 (as worded in the app)",
+    "sort": 1667
+   },
+   "place_text": "—",
+   "provenance": {
+    "reference": "Repository and app text"
+   },
+   "scope": {
+    "disposition": "assertion_only",
+    "label": "Assertion only",
+    "reason": "App wording with no instrument behind it."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "Repository/app assertions of a 1667 “99-year” or “999-year” lease and of a 1983 title merger described as “proven” wrongdoing",
+     "form": "term"
+    },
+    {
+     "heading": "Disposition",
+     "text": "Assertion text only; not evidence of its own truth.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "The reviewed code contains incompatible lease terms and categorical legal conclusions without an identified instrument attached to those statements. Neither a 1877 Cardiff 99-year lease nor repeated app wording proves an earlier Tŷ Mawr lease or wrongdoing.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Do not cite app copy as proof. Re-admit an assertion only when tied to an identified instrument, register entry, judgment passage or documented decision trail. Treat any charge of wrongdoing or concealment as untested until evidence establishes the necessary facts and state of knowledge.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": true,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    },
+    {
+     "class": "kf-note",
+     "runs": [
+      {
+       "text": "Wording note: a few words of the wiki text are reworded here to follow Cedwyn’s "
+      },
+      {
+       "text": "editorial rules",
+       "href": "/values/"
+      },
+      {
+       "text": "; nothing of substance is removed."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-09",
+   "kind": "screening_lead",
+   "slug": "kf-09-farm-rents-versus-cottage-reserved-rents-headings",
+   "title": "“Farm rents” versus “cottage / reserved rents” headings in Bute rentals",
+   "date": {
+    "display": "Bute rentals (volume not yet identified)",
+    "sort": 1870
+   },
+   "place_text": "Bute estate",
+   "provenance": {
+    "reference": "Bute rental account headings"
+   },
+   "scope": {
+    "disposition": "lead_only",
+    "label": "Lead only",
+    "reason": "A heading alone does not identify a parcel."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "“Farm rents” versus “cottage / reserved rents” headings in Bute rentals",
+     "form": "term"
+    },
+    {
+     "heading": "Disposition",
+     "text": "Lead only; not a smoking gun by itself.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "Accounting headings alone do not show that the entries refer to Parcel A and Parcel B, do not prove a legal split, and do not establish deliberate concealment.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Identify the original volume, folio, entry, name, amount and rent status, then match the entry to a plan and parcel. Retain in the rental-ledger research track.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-10",
+   "kind": "screening_lead",
+   "slug": "kf-10-marconi-material-archaeology-heritage-photographs-and-general",
+   "title": "Marconi material, archaeology, heritage photographs and general newspaper coverage",
+   "date": {
+    "display": "Various",
+    "sort": 1897
+   },
+   "place_text": "Llandough and Lavernock",
+   "provenance": {
+    "reference": "Marconi material, archaeology, photographs, press"
+   },
+   "scope": {
+    "disposition": "context_only",
+    "label": "Context only",
+    "reason": "Context for the site's history, not title evidence."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "Marconi material, archaeology, heritage photographs and general newspaper coverage",
+     "form": "term"
+    },
+    {
+     "heading": "Disposition",
+     "text": "Context, not root-of-title proof.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "May support site history, occupancy context, heritage significance, or what was publicly reported. They do not independently establish Williams freehold or an actor’s intent to conceal title.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Retain for the appropriate history/heritage or public-response chronology; do not use as a substitute for conveyances, plans or registry files.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-11",
+   "kind": "screening_lead",
+   "slug": "kf-11-ev-0234-15-june-1878-agreement-and",
+   "title": "EV-0234 — 15 June 1878 agreement and July 1878 award, Thomas Williams and the Ynysawdre Coal Co.",
+   "date": {
+    "display": "15 Jun and Jul 1878",
+    "sort": 1878
+   },
+   "place_text": "Ynysawdre, near Bridgend",
+   "provenance": {
+    "reference": "EV-0234 (family photographs, Glamorgan Archives)"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "A Bridgend farm, not ours."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "EV-0234 — 15 June 1878 agreement and July 1878 award, Thomas Williams and the Ynysawdre Coal Co.",
+     "form": "term",
+     "runs": [
+      {
+       "text": "EV-0234 — 15 June 1878 agreement and July 1878 award, Thomas Williams and the Ynysawdre Coal Co.",
+       "href": "/wiki/evidence/ev-0234-ynysawdre-coal-co-thomas-williams-agreement-award-1878/"
+      }
+     ]
+    },
+    {
+     "heading": "Disposition",
+     "text": "Ruled out: not our farm. The document names “Thomas Williams of Ynysawdre Farm near Bridgend”; the company (Ynysawdre Coal Coke & Brick Co.) was at Tondu.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "Probable origin of the line “except once, in 1878” in a family email to Cadw, and of the remembered “Cardiff brick-coke company” (the umpire was of Llandaff) — both inferences. It does not show any payment to the Williams family of Great House Farm.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Keep the photos (family photographs, Leckwith visit 2, #91–95). Get the archive reference. Do not use in the Llandough chronology.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-30"
+   ],
+   "origin": "wiki-register",
+   "reworded": true,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    },
+    {
+     "class": "kf-note",
+     "runs": [
+      {
+       "text": "Wording note: a few words of the wiki text are reworded here to follow Cedwyn’s "
+      },
+      {
+       "text": "editorial rules",
+       "href": "/values/"
+      },
+      {
+       "text": "; nothing of substance is removed."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-12",
+   "kind": "screening_lead",
+   "slug": "kf-12-great-house-and-llandough-farm-near-cowbridge",
+   "title": "“Great House” and “Llandough Farm” near Cowbridge in directories and press: Slater’s 1880 p.390 “Thomas David, Great House” (flagged in EV-0225 ); BNA hits for the 1938 and 1942 “Great House Farm, Llandough” sales; Glamorgan Gazette, 7 May 1915, “Mr. David Thomas, Llandough Farm”",
+   "date": {
+    "display": "1880–1942",
+    "sort": 1880
+   },
+   "place_text": "Llandough near Cowbridge",
+   "provenance": {
+    "reference": "Slater's 1880 p.390; BNA 1938, 1942; Glamorgan Gazette 7 May 1915"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "Directory and press entries for the Cowbridge farm."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "“Great House” and “Llandough Farm” near Cowbridge in directories and press: Slater’s 1880 p.390 “Thomas David, Great House” (flagged in EV-0225 ); BNA hits for the 1938 and 1942 “Great House Farm, Llandough” sales; Glamorgan Gazette, 7 May 1915, “Mr. David Thomas, Llandough Farm”",
+     "form": "term",
+     "runs": [
+      {
+       "text": "“Great House” and “Llandough Farm” near Cowbridge in directories and press: Slater’s 1880 p.390 “Thomas David, Great House” (flagged in "
+      },
+      {
+       "text": "EV-0225",
+       "href": "/wiki/evidence/ev-0225-trade-directories-1868-1901-john-williams-great-house/"
+      },
+      {
+       "text": " ); BNA hits for the 1938 and 1942 “Great House Farm, Llandough” sales; Glamorgan Gazette, 7 May 1915, “Mr. David Thomas, Llandough Farm”"
+      }
+     ]
+    },
+    {
+     "heading": "Disposition",
+     "text": "Excluded by geography/name trap. The 1880 entry sits among the Llanblethian (Cowbridge) entries. The 1915 item may be either Llandough (unconfirmed).",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "Records of a different Great House Farm. They say nothing about Tŷ Mawr near Penarth.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Check the parish heading before citing any “Great House, Llandough” item.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-34",
+    "KF-33"
+   ],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-13",
+   "kind": "screening_lead",
+   "slug": "kf-13-llandough-farm-the-rees-family-farm-ev",
+   "title": "Llandough Farm, the Rees family farm ( EV-0228 ; 1841 tithe, press 1865–1910), the 1940 WGR tenancy to David and Thomas Thomas ( EV-0233 ), and the dictated “R-W-S-S / Reese’s Farm” wording ( EV-0223 )",
+   "date": {
+    "display": "1841–1940",
+    "sort": 1841
+   },
+   "place_text": "Llandough-juxta-Penarth",
+   "provenance": {
+    "reference": "EV-0228, EV-0233, EV-0223, EV-0224"
+   },
+   "scope": {
+    "disposition": "separate_property",
+    "label": "Separate farm",
+    "reason": "A neighbouring farm in the same parish."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "Llandough Farm, the Rees family farm ( EV-0228 ; 1841 tithe, press 1865–1910), the 1940 WGR tenancy to David and Thomas Thomas ( EV-0233 ), and the dictated “R-W-S-S / Reese’s Farm” wording ( EV-0223 )",
+     "form": "term",
+     "runs": [
+      {
+       "text": "Llandough Farm, the Rees family farm ( "
+      },
+      {
+       "text": "EV-0228",
+       "href": "/wiki/evidence/ev-0228-llandough-farm-rees-family-1841-1910/"
+      },
+      {
+       "text": " ; 1841 tithe, press 1865–1910), the 1940 WGR tenancy to David and Thomas Thomas ( "
+      },
+      {
+       "text": "EV-0233",
+       "href": "/wiki/evidence/ev-0233-dbdt129-3-wgr-thomas-llandough-farm-tenancy-1940/"
+      },
+      {
+       "text": " ), and the dictated “R-W-S-S / Reese’s Farm” wording ( "
+      },
+      {
+       "text": "EV-0223",
+       "href": "/wiki/evidence/ev-0223-1881-census-name-variant/"
+      },
+      {
+       "text": " )"
+      }
+     ]
+    },
+    {
+     "heading": "Disposition",
+     "text": "Separate farm. Directories list Thomas Rees at “Llandough” beside John Williams at “Great house” (1868, 1875, 1880). Llandough Farm is also the Roman villa site excavated in 1978–79 (GGAT HER).",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "Useful for telling the two farms apart. “R-W-S-S” is not on the photographed 1881 census page 2 ( EV-0224 ). Some press items call John Williams “of Llandough Farm” (1895, 1904), so the name alone does not settle which farm.",
+     "form": "term",
+     "runs": [
+      {
+       "text": "Useful for telling the two farms apart. “R-W-S-S” is not on the photographed 1881 census page 2 ( "
+      },
+      {
+       "text": "EV-0224",
+       "href": "/wiki/evidence/ev-0224-1881-census-llandough-rg11-5288/"
+      },
+      {
+       "text": " ). Some press items call John Williams “of Llandough Farm” (1895, 1904), so the name alone does not settle which farm."
+      }
+     ]
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Keep separate from the Great House chain unless a document joins them.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-35",
+    "KF-14"
+   ],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-14",
+   "kind": "screening_lead",
+   "slug": "kf-14-william-williams-of-llandough-farm-1903-and",
+   "title": "“William Williams, of Llandough Farm” (1903) and “Jenkin Morgan Williams, Llandough Farm” (1914) ( EV-0238 )",
+   "date": {
+    "display": "1903, 1914",
+    "sort": 1903
+   },
+   "place_text": "Llandough",
+   "provenance": {
+    "reference": "EV-0238"
+   },
+   "scope": {
+    "disposition": "unexplained",
+    "label": "Unexplained",
+    "reason": "No link to Great House Farm shown."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "“William Williams, of Llandough Farm” (1903) and “Jenkin Morgan Williams, Llandough Farm” (1914) ( EV-0238 )",
+     "form": "term",
+     "runs": [
+      {
+       "text": "“William Williams, of Llandough Farm” (1903) and “Jenkin Morgan Williams, Llandough Farm” (1914) ( "
+      },
+      {
+       "text": "EV-0238",
+       "href": "/wiki/evidence/ev-0238-williams-of-llandough-farm-1903-1914-unexplained/"
+      },
+      {
+       "text": " )"
+      }
+     ]
+    },
+    {
+     "heading": "Disposition",
+     "text": "Unexplained; probably a different family.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "The 1903 father’s name does not fit the Great House Williams line. No link to Great House Farm is shown.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Resolve only if a census or directory ties them to a holding.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-39"
+   ],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-15",
+   "kind": "screening_lead",
+   "slug": "kf-15-fluoride-government-overreach-lead-per-a-family",
+   "title": "Fluoride / “government overreach” lead: per a family voice note (19 Oct 2026), Mary (Nancy) Williams worked with “a guy with fluoride” on “political stuff about government overreach” ( EV-0237 )",
+   "date": {
+    "display": "1972–1989 (file); 19 Oct 2026 (voice note)",
+    "sort": 1972
+   },
+   "place_text": "Wales",
+   "provenance": {
+    "reference": "EV-0237"
+   },
+   "scope": {
+    "disposition": "on_hold",
+    "label": "On hold",
+    "reason": "No documented link found."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "Fluoride / “government overreach” lead: per a family voice note (19 Oct 2026), Mary (Nancy) Williams worked with “a guy with fluoride” on “political stuff about government overreach” ( EV-0237 )",
+     "form": "term",
+     "runs": [
+      {
+       "text": "Fluoride / “government overreach” lead: per a family voice note (19 Oct 2026), Mary (Nancy) Williams worked with “a guy with fluoride” on “political stuff about government overreach” ( "
+      },
+      {
+       "text": "EV-0237",
+       "href": "/wiki/evidence/ev-0237-pending-wellcome-pp-pcb-c-1-47-anti-fluoridation-wales/"
+      },
+      {
+       "text": " )"
+      }
+     ]
+    },
+    {
+     "heading": "Disposition",
+     "text": "No documented link found. On hold.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "Nothing on the wiki, the family sites or in correspondence mentions fluoride. Cardiff and the Vale were never fluoridated (Hansard, 23 Mar 1987). The one unopened lead is Wellcome PP/PCB/C/1/47 “Wales” (1972–89).",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Open PP/PCB/C/1/47 only if the family asks; it is on hold.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": true,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    },
+    {
+     "class": "kf-note",
+     "runs": [
+      {
+       "text": "Wording note: a few words of the wiki text are reworded here to follow Cedwyn’s "
+      },
+      {
+       "text": "editorial rules",
+       "href": "/values/"
+      },
+      {
+       "text": "; nothing of substance is removed."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-16",
+   "kind": "screening_lead",
+   "slug": "kf-16-hansard-7-dec-1962-leasehold-bill-cols",
+   "title": "Hansard, 7 Dec 1962, Leasehold Bill, cols 1671–72 ( EV-0235 )",
+   "date": {
+    "display": "7 Dec 1962",
+    "sort": 1962
+   },
+   "place_text": "Llandough Estate, Penarth",
+   "provenance": {
+    "reference": "EV-0235 (Hansard cols 1671–72)"
+   },
+   "scope": {
+    "disposition": "out_of_scope",
+    "label": "Out of scope",
+    "reason": "Leasehold house sales, not the farm."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "Hansard, 7 Dec 1962, Leasehold Bill, cols 1671–72 ( EV-0235 )",
+     "form": "term",
+     "runs": [
+      {
+       "text": "Hansard, 7 Dec 1962, Leasehold Bill, cols 1671–72 ( "
+      },
+      {
+       "text": "EV-0235",
+       "href": "/wiki/evidence/ev-0235-hansard-1962-leasehold-bill-llandough-estate/"
+      },
+      {
+       "text": " )"
+      }
+     ]
+    },
+    {
+     "heading": "Disposition",
+     "text": "Out of scope. It is about leasehold house sales on the Llandough Estate, Penarth.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "The only Commons debate found (1946–92) that names Llandough land. It does not mention water, the farm or the Bucklers, so it does not support “discussed in Parliament” (per Branwen, voice testimony).",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "None. Retained so the search is not repeated.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-17",
+   "kind": "screening_lead",
+   "slug": "kf-17-leckwith-common-order-25-nov-1958-no",
+   "title": "Leckwith Common order, 25 Nov 1958: “no petition presented” ( EV-0038 )",
+   "date": {
+    "display": "25 Nov 1958",
+    "sort": 1958
+   },
+   "place_text": "Leckwith Common",
+   "provenance": {
+    "reference": "EV-0038; EV-0037"
+   },
+   "scope": {
+    "disposition": "hypothesis",
+    "label": "Hypothesis",
+    "reason": "Common land, not the water supply."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "Leckwith Common order, 25 Nov 1958: “no petition presented” ( EV-0038 )",
+     "form": "term",
+     "runs": [
+      {
+       "text": "Leckwith Common order, 25 Nov 1958: “no petition presented” ( "
+      },
+      {
+       "text": "EV-0038",
+       "href": "/wiki/evidence/ev-0038-hansard-1958-leckwith-common-no-petition/"
+      },
+      {
+       "text": " )"
+      }
+     ]
+    },
+    {
+     "heading": "Disposition",
+     "text": "Possible memory blend (hypothesis). A Cardiff Corporation order about land near the farm went before Parliament five days after the 20 Nov 1958 water report ( EV-0037 ).",
+     "form": "term",
+     "runs": [
+      {
+       "text": "Possible memory blend (hypothesis). A Cardiff Corporation order about land near the farm went before Parliament five days after the 20 Nov 1958 water report ( "
+      },
+      {
+       "text": "EV-0037",
+       "href": "/wiki/evidence/ev-0037-western-mail-1958-crichel-down/"
+      },
+      {
+       "text": " )."
+      }
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "May explain a remembered “it went to Parliament, Cardiff council”. It is not about the water supply.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "TNA BD 11/3775 if the blend needs testing.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-18",
+   "kind": "screening_lead",
+   "slug": "kf-18-cardiff-urban-district-council-as-the-water",
+   "title": "“Cardiff Urban District Council” as the water authority (per Branwen, voice testimony)",
+   "date": {
+    "display": "1948–1958",
+    "sort": 1948
+   },
+   "place_text": "Cardiff and Penarth",
+   "provenance": {
+    "reference": "Family voice testimony; SC-22"
+   },
+   "scope": {
+    "disposition": "name_correction",
+    "label": "Name correction",
+    "reason": "No Cardiff Urban District Council existed."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "“Cardiff Urban District Council” as the water authority (per Branwen, voice testimony)",
+     "form": "term"
+    },
+    {
+     "heading": "Disposition",
+     "text": "Name correction. No Cardiff UDC existed: Cardiff was a county borough. Llandough was in Penarth Urban District ( SC-22 ); the public water undertaker was Cardiff Corporation.",
+     "form": "term",
+     "runs": [
+      {
+       "text": "Name correction. No Cardiff UDC existed: Cardiff was a county borough. Llandough was in Penarth Urban District ( "
+      },
+      {
+       "text": "SC-22",
+       "href": "/wiki/records-access-chronology/source-conflicts-register/#sc-22"
+      },
+      {
+       "text": " ); the public water undertaker was Cardiff Corporation."
+      }
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "Either Penarth UDC or Cardiff Corporation could be the council remembered. The 1958 report blames Western Ground Rents, not a council.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Penarth UDC minutes (UDPE) and Cardiff Waterworks Committee minutes, 1948–58.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-19",
+   "kind": "screening_lead",
+   "slug": "kf-19-commons-registration-glamorgan-act-1983-ev-0232",
+   "title": "Commons Registration (Glamorgan) Act 1983 ( EV-0232 )",
+   "date": {
+    "display": "1983",
+    "sort": 1983
+   },
+   "place_text": "Glamorgan",
+   "provenance": {
+    "reference": "EV-0232"
+   },
+   "scope": {
+    "disposition": "out_of_scope",
+    "label": "Out of scope",
+    "reason": "Covers the common-land register only."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "Commons Registration (Glamorgan) Act 1983 ( EV-0232 )",
+     "form": "term",
+     "runs": [
+      {
+       "text": "Commons Registration (Glamorgan) Act 1983 ( "
+      },
+      {
+       "text": "EV-0232",
+       "href": "/wiki/evidence/ev-0232-commons-registration-glamorgan-act-1983/"
+      },
+      {
+       "text": " )"
+      }
+     ]
+    },
+    {
+     "heading": "Disposition",
+     "text": "Out of scope for VG41. It covers the register of common land only.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "It did not validate or redraw village green VG41. VG41’s finality rests on the 1965 Act procedure.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "None.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-20",
+   "kind": "screening_lead",
+   "slug": "kf-20-bute-estate-private-spring-at-llandough-1914",
+   "title": "Bute estate private spring at Llandough, 1914 Water undertakings Return ( EV-0236 )",
+   "date": {
+    "display": "1914",
+    "sort": 1914
+   },
+   "place_text": "Llandough",
+   "provenance": {
+    "reference": "EV-0236"
+   },
+   "scope": {
+    "disposition": "lead_only",
+    "label": "Lead only",
+    "reason": "Not yet shown to have supplied the farm."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "Bute estate private spring at Llandough, 1914 Water undertakings Return ( EV-0236 )",
+     "form": "term",
+     "runs": [
+      {
+       "text": "Bute estate private spring at Llandough, 1914 Water undertakings Return ( "
+      },
+      {
+       "text": "EV-0236",
+       "href": "/wiki/evidence/ev-0236-water-undertakings-return-1914-bute-spring-llandough/"
+      },
+      {
+       "text": " )"
+      }
+     ]
+    },
+    {
+     "heading": "Disposition",
+     "text": "Lead only; unconfirmed as ours.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "Shows a private Bute spring supply at Llandough in 1914. Whether Great House Farm drew on it, which would let a landlord cut the water “by order”, is unconfirmed.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Ask the family where the farm’s water came from (main, spring or estate pipe).",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": true,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    },
+    {
+     "class": "kf-note",
+     "runs": [
+      {
+       "text": "Wording note: a few words of the wiki text are reworded here to follow Cedwyn’s "
+      },
+      {
+       "text": "editorial rules",
+       "href": "/values/"
+      },
+      {
+       "text": "; nothing of substance is removed."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-21",
+   "kind": "screening_lead",
+   "slug": "kf-21-western-ground-rents-v-william-williams-idwyndy",
+   "title": "Western Ground Rents v William Williams, Idwyndy Cottage, The Garth (Pontypridd county court, 1947): Western Mail 4 Feb 1947 p.3 “GARTH PENSIONER’S CHALLENGE — Did Marquis Own The Land?”; Pontypridd Observer 8 Feb 1947 p.2 and 8 Mar 1947 p.5 “Judgment for plaintiffs, Western Ground Rents, Ltd.” (SNIPPET ONLY; found 19 Oct 2026)",
+   "date": {
+    "display": "1947",
+    "sort": 1947
+   },
+   "place_text": "The Garth, near Pontypridd",
+   "provenance": {
+    "reference": "Western Mail 4 Feb 1947 p.3; Pontypridd Observer 8 Feb, 8 Mar 1947"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "A Garth cottage, not our farm."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "Western Ground Rents v William Williams, Idwyndy Cottage, The Garth (Pontypridd county court, 1947): Western Mail 4 Feb 1947 p.3 “GARTH PENSIONER’S CHALLENGE — Did Marquis Own The Land?”; Pontypridd Observer 8 Feb 1947 p.2 and 8 Mar 1947 p.5 “Judgment for plaintiffs, Western Ground Rents, Ltd.” (SNIPPET ONLY; found 19 Oct 2026)",
+     "form": "term"
+    },
+    {
+     "heading": "Disposition",
+     "text": "Not our farm (Garth, near Pontypridd). Context only.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "The cottage was held “under a lease dated 1878, from the trustees of the Marquis”; the Garth Commoners’ Association said the land was originally part of Garth Mountain Common; the judge referred to “a similar case … Western Ground Rents v. E. Rees”. Shows Western Ground Rents litigating Bute-derived title against a long occupier in 1947. It establishes nothing about Great House Farm.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "Only relevant if the “Western Ground Rents v. E. Rees” case turns out to concern Llandough land (SOURCE PENDING).",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": true,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    },
+    {
+     "class": "kf-note",
+     "runs": [
+      {
+       "text": "Wording note: a few words of the wiki text are reworded here to follow Cedwyn’s "
+      },
+      {
+       "text": "editorial rules",
+       "href": "/values/"
+      },
+      {
+       "text": "; nothing of substance is removed."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-22",
+   "kind": "screening_lead",
+   "slug": "kf-22-dmp1-4-l-3-3d-glamorgan-archives",
+   "title": "DMP1/4/L.3.3d (Glamorgan Archives): papers of Allan Rogers, MP and later MEP for South East Wales; a 1980–83 “British Petroleum” file among his European Parliament files (catalogue entry read by research, 20 Oct 2026; CATALOGUE ENTRY ONLY)",
+   "date": {
+    "display": "1980–1983",
+    "sort": 1980
+   },
+   "place_text": "Glamorgan Archives",
+   "provenance": {
+    "reference": "DMP1/4/L.3.3d (catalogue entry)"
+   },
+   "scope": {
+    "disposition": "catalogue_only",
+    "label": "Catalogue only",
+    "reason": "No Llandough link on the catalogue entry."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "DMP1/4/L.3.3d (Glamorgan Archives): papers of Allan Rogers, MP and later MEP for South East Wales; a 1980–83 “British Petroleum” file among his European Parliament files (catalogue entry read by research, 20 Oct 2026; CATALOGUE ENTRY ONLY)",
+     "form": "term"
+    },
+    {
+     "heading": "Disposition",
+     "text": "Kissed frog, unless a reading-room check shows Llandough content.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "The file sits in a politician’s European Parliament files, not in an estate or solicitors’ file. On the catalogue alone it establishes no link to Great House Farm.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "A free reading-room check at Glamorgan Archives would settle whether it holds any Llandough content.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-23",
+   "kind": "screening_lead",
+   "slug": "kf-23-tna-lt-8-415-british-petroleum-pension",
+   "title": "TNA LT 8/415: British Petroleum Pension Trust v Mrs W. Blake, 1981–84 (Lands Tribunal; filed under the Leasehold Reform Act) (CATALOGUE ENTRY ONLY)",
+   "date": {
+    "display": "1981–1984",
+    "sort": 1981
+   },
+   "place_text": "Property not named",
+   "provenance": {
+    "reference": "TNA LT 8/415 (catalogue entry)"
+   },
+   "scope": {
+    "disposition": "catalogue_only",
+    "label": "Catalogue only",
+    "reason": "Property not named; probably not the farm."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "TNA LT 8/415: British Petroleum Pension Trust v Mrs W. Blake, 1981–84 (Lands Tribunal; filed under the Leasehold Reform Act) (CATALOGUE ENTRY ONLY)",
+     "form": "term"
+    },
+    {
+     "heading": "Disposition",
+     "text": "Probably not our farm. Context only.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "The catalogue entry does not name the property, and it is probably not the farm. It establishes nothing about Great House Farm.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "A copy would cost money (PAID; not ordered).",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-24",
+   "kind": "screening_lead",
+   "slug": "kf-24-forestry-commission-sale-list-hansard-written-answer",
+   "title": "Forestry Commission sale list, Hansard written answer of 25 July 1984: Cwrt-yr-alla Woods, 128 ha",
+   "date": {
+    "display": "25 Jul 1984",
+    "sort": 1984
+   },
+   "place_text": "Cwrt-yr-alla Woods",
+   "provenance": {
+    "reference": "Hansard written answer, 25 Jul 1984"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our land",
+    "reason": "Woodland outside Llandough."
+   },
+   "detail": [
+    {
+     "heading": "Record or assertion tested",
+     "text": "Forestry Commission sale list, Hansard written answer of 25 July 1984: Cwrt-yr-alla Woods, 128 ha",
+     "form": "term"
+    },
+    {
+     "heading": "Disposition",
+     "text": "Not our land (outside Llandough). Background only.",
+     "form": "term"
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "Background to the woodland story only; the site lies outside Llandough. It establishes nothing about Parcel A or the Llandough woodland.",
+     "form": "term"
+    },
+    {
+     "heading": "Next step / retained route",
+     "text": "None.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-register",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s Kissed Frogs source-screening and scope register (version 1.0.2), kept whole: "
+      },
+      {
+       "text": "the register on the wiki",
+       "href": "/wiki/anomalies-register/bpvsbuckler-archive-research-leads/#kissed-frogs-register"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-25",
+   "kind": "screening_lead",
+   "slug": "kf-25-great-house-farm-sale-15-nov-1938",
+   "title": "Great House Farm sale, 15 Nov 1938 (DSA/6/1158)",
+   "date": {
+    "display": "15 Nov 1938",
+    "sort": 1938
+   },
+   "place_text": "Llanfair, near Cowbridge",
+   "provenance": {
+    "reference": "Glamorgan Archives DSA/6/1158"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "Sale of the Cowbridge Great House Farm."
+   },
+   "detail": [
+    {
+     "heading": "Item",
+     "text": "Great House Farm sale, 15 Nov 1938",
+     "form": "term"
+    },
+    {
+     "heading": "Reference",
+     "text": "DSA/6/1158",
+     "form": "term"
+    },
+    {
+     "heading": "Why excluded (from the photo)",
+     "text": "“Parish of Llanfair … Great House Farm, Llandough, Cowbridge”; sale at the Bear Hotel, Cowbridge",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-05",
+    "KF-34"
+   ],
+   "origin": "wiki-excluded",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s list of items photographed at Glamorgan Archives that are not this farm, kept whole: "
+      },
+      {
+       "text": "Excluded: not our farm",
+       "href": "/wiki/evidence/excluded-not-our-farm/"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-26",
+   "kind": "screening_lead",
+   "slug": "kf-26-llandough-estate-sale-9-oct-1924-incl",
+   "title": "Llandough Estate sale, 9 Oct 1924 (incl. Lot 3 “Great House”) (D/DSA6/701)",
+   "date": {
+    "display": "9 Oct 1924",
+    "sort": 1924
+   },
+   "place_text": "Llanfair and St Hilary",
+   "provenance": {
+    "reference": "Glamorgan Archives D/DSA6/701"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "The Byass Llandough Estate near Cowbridge."
+   },
+   "detail": [
+    {
+     "heading": "Item",
+     "text": "Llandough Estate sale, 9 Oct 1924 (incl. Lot 3 “Great House”)",
+     "form": "term"
+    },
+    {
+     "heading": "Reference",
+     "text": "D/DSA6/701",
+     "form": "term"
+    },
+    {
+     "heading": "Why excluded (from the photo)",
+     "text": "“Parishes of Llanfair and St. Hilary”; vendor Sidney H. Byass",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-05"
+   ],
+   "origin": "wiki-excluded",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s list of items photographed at Glamorgan Archives that are not this farm, kept whole: "
+      },
+      {
+       "text": "Excluded: not our farm",
+       "href": "/wiki/evidence/excluded-not-our-farm/"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-27",
+   "kind": "screening_lead",
+   "slug": "kf-27-memoir-of-david-thomas",
+   "title": "Memoir of David Thomas (DCO/WHS/2)",
+   "date": {
+    "display": "Undated",
+    "sort": 1900
+   },
+   "place_text": "Llandough near Cowbridge",
+   "provenance": {
+    "reference": "Glamorgan Archives DCO/WHS/2"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "Memoir from the Cowbridge farm."
+   },
+   "detail": [
+    {
+     "heading": "Item",
+     "text": "Memoir of David Thomas",
+     "form": "term"
+    },
+    {
+     "heading": "Reference",
+     "text": "DCO/WHS/2",
+     "form": "term"
+    },
+    {
+     "heading": "Why excluded (from the photo)",
+     "text": "“Great House Farm, Llandough, Nr Cowbridge”",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-05",
+    "KF-34"
+   ],
+   "origin": "wiki-excluded",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s list of items photographed at Glamorgan Archives that are not this farm, kept whole: "
+      },
+      {
+       "text": "Excluded: not our farm",
+       "href": "/wiki/evidence/excluded-not-our-farm/"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-28",
+   "kind": "screening_lead",
+   "slug": "kf-28-proposed-houses-llandough-for-mr-john-williams",
+   "title": "“Proposed Houses – Llandough for Mr John Williams” (none visible)",
+   "date": {
+    "display": "Undated",
+    "sort": 1900
+   },
+   "place_text": "Llandough near Cowbridge (from Llysworney)",
+   "provenance": {
+    "reference": "Glamorgan Archives (no reference visible)"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "Plan sits beside Llysworney, near Cowbridge."
+   },
+   "detail": [
+    {
+     "heading": "Item",
+     "text": "“Proposed Houses – Llandough for Mr John Williams”",
+     "form": "term"
+    },
+    {
+     "heading": "Reference",
+     "text": "none visible",
+     "form": "term"
+    },
+    {
+     "heading": "Why excluded (from the photo)",
+     "text": "Block plan “From Llysworney” (adjoins Llandough near Cowbridge)",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-05"
+   ],
+   "origin": "wiki-excluded",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s list of items photographed at Glamorgan Archives that are not this farm, kept whole: "
+      },
+      {
+       "text": "Excluded: not our farm",
+       "href": "/wiki/evidence/excluded-not-our-farm/"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-29",
+   "kind": "screening_lead",
+   "slug": "kf-29-6-nov-1877-counterpart-lease-to-john",
+   "title": "6 Nov 1877 counterpart lease to John Williams (none visible)",
+   "date": {
+    "display": "6 Nov 1877",
+    "sort": 1877
+   },
+   "place_text": "Clyde Street, Roath, Cardiff",
+   "provenance": {
+    "reference": "EV-0213"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "A Roath building plot."
+   },
+   "detail": [
+    {
+     "heading": "Item",
+     "text": "6 Nov 1877 counterpart lease to John Williams",
+     "form": "term"
+    },
+    {
+     "heading": "Reference",
+     "text": "none visible",
+     "form": "term"
+    },
+    {
+     "heading": "Why excluded (from the photo)",
+     "text": "“Clyde Street Roath”; lessee a builder of System Street, Roath. See EV-0213",
+     "form": "term",
+     "runs": [
+      {
+       "text": "“Clyde Street Roath”; lessee a builder of System Street, Roath. See "
+      },
+      {
+       "text": "EV-0213",
+       "href": "/wiki/evidence/ev-0213-clyde-street-roath-lease-6-nov-1877/"
+      }
+     ]
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-01"
+   ],
+   "origin": "wiki-excluded",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s list of items photographed at Glamorgan Archives that are not this farm, kept whole: "
+      },
+      {
+       "text": "Excluded: not our farm",
+       "href": "/wiki/evidence/excluded-not-our-farm/"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-30",
+   "kind": "screening_lead",
+   "slug": "kf-30-thomas-williams-and-ynysawdre-coal-co-15",
+   "title": "Thomas Williams and Ynysawdre Coal Co., 15 Jun 1878 (not legible)",
+   "date": {
+    "display": "15 Jun 1878",
+    "sort": 1878
+   },
+   "place_text": "Ynysawdre, near Bridgend",
+   "provenance": {
+    "reference": "EV-0234"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "A Bridgend farm."
+   },
+   "detail": [
+    {
+     "heading": "Item",
+     "text": "Thomas Williams and Ynysawdre Coal Co., 15 Jun 1878",
+     "form": "term"
+    },
+    {
+     "heading": "Reference",
+     "text": "not legible",
+     "form": "term"
+    },
+    {
+     "heading": "Why excluded (from the photo)",
+     "text": "“Ynysawdre Farm near Bridgend”; smoke-damage award, July 1878. Probable origin of “once, in 1878” (inference). See EV-0234",
+     "form": "term",
+     "runs": [
+      {
+       "text": "“Ynysawdre Farm near Bridgend”; smoke-damage award, July 1878. Probable origin of “once, in 1878” (inference). See "
+      },
+      {
+       "text": "EV-0234",
+       "href": "/wiki/evidence/ev-0234-ynysawdre-coal-co-thomas-williams-agreement-award-1878/"
+      }
+     ]
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-11"
+   ],
+   "origin": "wiki-excluded",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s list of items photographed at Glamorgan Archives that are not this farm, kept whole: "
+      },
+      {
+       "text": "Excluded: not our farm",
+       "href": "/wiki/evidence/excluded-not-our-farm/"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-31",
+   "kind": "screening_lead",
+   "slug": "kf-31-tithe-map-copies",
+   "title": "Tithe-map copies (D160/1–4)",
+   "date": {
+    "display": "Undated",
+    "sort": 1840
+   },
+   "place_text": "Cadoxton / Llantwit juxta Neath, Glyncorrwg",
+   "provenance": {
+    "reference": "Glamorgan Archives D160/1–4"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our land",
+    "reason": "Tithe maps of other parishes."
+   },
+   "detail": [
+    {
+     "heading": "Item",
+     "text": "Tithe-map copies",
+     "form": "term"
+    },
+    {
+     "heading": "Reference",
+     "text": "D160/1–4",
+     "form": "term"
+    },
+    {
+     "heading": "Why excluded (from the photo)",
+     "text": "Cadoxton/Llantwit juxta Neath, Glyncorrwg",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "wiki-excluded",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s list of items photographed at Glamorgan Archives that are not this farm, kept whole: "
+      },
+      {
+       "text": "Excluded: not our farm",
+       "href": "/wiki/evidence/excluded-not-our-farm/"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-32",
+   "kind": "screening_lead",
+   "slug": "kf-32-2-may-1877-lease-earlier-finding",
+   "title": "2 May 1877 lease (earlier finding) (DBDT/79/1)",
+   "date": {
+    "display": "2 May 1877",
+    "sort": 1877
+   },
+   "place_text": "Pembroke Terrace, Cardiff",
+   "provenance": {
+    "reference": "Glamorgan Archives DBDT/79/1"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "A Cardiff lease."
+   },
+   "detail": [
+    {
+     "heading": "Item",
+     "text": "2 May 1877 lease (earlier finding)",
+     "form": "term"
+    },
+    {
+     "heading": "Reference",
+     "text": "DBDT/79/1",
+     "form": "term"
+    },
+    {
+     "heading": "Why excluded (from the photo)",
+     "text": "Pembroke Terrace, Cardiff",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-02"
+   ],
+   "origin": "wiki-excluded",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s list of items photographed at Glamorgan Archives that are not this farm, kept whole: "
+      },
+      {
+       "text": "Excluded: not our farm",
+       "href": "/wiki/evidence/excluded-not-our-farm/"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-33",
+   "kind": "screening_lead",
+   "slug": "kf-33-press-reports-of-thomases-of-great-house",
+   "title": "Press reports of Thomases “of Great House Farm, Llandough”, 1881–1910 (added 22 Oct 2026) (Welsh Newspapers Online: Cardiff Times, 23 Apr 1881, p.4; Barry Dock News, 5 Dec 1890, p.6 and Cardiff Times, 6 Dec 1890, p.6 (Cowbridge Fat Stock Show); Glamorgan Gazette, 14 Oct 1910, p.8)",
+   "date": {
+    "display": "1881–1910",
+    "sort": 1881
+   },
+   "place_text": "Llandough near Cowbridge",
+   "provenance": {
+    "reference": "Cardiff Times 23 Apr 1881; Barry Dock News 5 Dec 1890; Cardiff Times 6 Dec 1890; Glamorgan Gazette 14 Oct 1910"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "Press items for the Cowbridge Thomases."
+   },
+   "detail": [
+    {
+     "heading": "Item",
+     "text": "Press reports of Thomases “of Great House Farm, Llandough”, 1881–1910 (added 22 Oct 2026)",
+     "form": "term"
+    },
+    {
+     "heading": "Reference",
+     "text": "Welsh Newspapers Online: Cardiff Times, 23 Apr 1881, p.4; Barry Dock News, 5 Dec 1890, p.6 and Cardiff Times, 6 Dec 1890, p.6 (Cowbridge Fat Stock Show); Glamorgan Gazette, 14 Oct 1910, p.8",
+     "form": "term"
+    },
+    {
+     "heading": "Why excluded (from the photo)",
+     "text": "“Mr David Thomas, Great House, Llandough, Cowbridge” (1881); “W. Thomas, Great House, Llandough, Cowbridge” (1890); the 1910 note of David Thomas’s 90th birthday stands under the paper’s Cowbridge heading. This is the Cowbridge farm (see DCO/WHS/2 above), not the Thomases of the Llandough lime works.",
+     "form": "term"
+    }
+   ],
+   "sources": [],
+   "related": [
+    "KF-34",
+    "KF-12"
+   ],
+   "origin": "wiki-excluded",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "From the wiki’s list of items photographed at Glamorgan Archives that are not this farm, kept whole: "
+      },
+      {
+       "text": "Excluded: not our farm",
+       "href": "/wiki/evidence/excluded-not-our-farm/"
+      },
+      {
+       "text": "."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-34",
+   "kind": "screening_lead",
+   "slug": "kf-34-cowbridge-great-house-thomas-1871-1910",
+   "title": "“Mr. David Thomas, of Great House Farm, Llandough” (90th birthday, 1910), the 1907 “STRAYED” advert and the Glamorgan Hunt kennels farm",
+   "date": {
+    "display": "1871–1910",
+    "sort": 1910
+   },
+   "place_text": "Llandough near Cowbridge",
+   "provenance": {
+    "reference": "1871 census RG10/5417; Slater's 1880; Glamorgan Gazette 14 Oct 1910 p.8; Cardiff Times 23 Apr 1910 p.10"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "The census puts David Thomas at the Cowbridge Great House; our farm was the Williamses'."
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "Glamorgan Gazette, 14 Oct 1910, p.8, under the paper's “COWBRIDGE.” heading: “Mr. David Thomas, of Great House Farm, Llandough, has just celebrated his 90th birthday.”",
+      "1871 census, RG10/5417 (Bridgend registration district, enumeration district 6, Llandough juxta Cowbridge), “Great House”: THOMAS David, Head, 50, “Farmer 140a Emp 4 Men&1 Boy”, born St Hilary. That places his birth about 1821, so he turned 90 in 1910 (transcription on FreeCEN).",
+      "Same census, our farm: RG10/5368 (Cardiff registration district, enumeration district 35, Llandough juxta Penarth), “Great House Farm”: WILLIAMS John, Head, 43, “Farmer 110 Acres, Emp 2 Men” (transcription on FreeCEN).",
+      "Slater's Directory 1880, Cowbridge section, Farmers: “IN LLANDOUGH PARISH. Morris Thomas, Llandough / Thomas David, Great House”.",
+      "Cardiff Times, 23 Apr 1910, p.10, Glamorgan puppy show: “luncheon subsequently at Mr Thomas's, Great House Farm, Llandough” (the Glamorgan Hunt kennels farm; Mr Arthur Spencer there in the Glamorgan Gazette, 3 May 1907).",
+      "Glamorgan Gazette, 27 Sep 1907 (also 4 and 11 Oct 1907): “STRAYED, to Great House Farm, Llandough … J. Thomas, Llandough” (read from search snippets only; the date is not yet confirmed from the page)."
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "Two farms called Great House stood in two parishes called Llandough. The deciding record is the 1871 census, which places David Thomas at Llandough juxta Cowbridge and John Williams at Llandough juxta Penarth. The 1910 birthday note, the 1907 advert and the hunt reports belong to the Cowbridge farm. They say nothing about Tŷ Mawr."
+    },
+    {
+     "heading": "Next step",
+     "text": "None for the identity question. A 1911 census copy (RG14, Llandough-juxta-Cowbridge) would add the last household, but it is not needed to decide."
+    }
+   ],
+   "sources": [
+    {
+     "text": "1871 census RG10/5417 and RG10/5368 (FreeCEN transcriptions)",
+     "href": null
+    },
+    {
+     "text": "Slater's Directory 1880, Cowbridge section",
+     "href": null
+    },
+    {
+     "text": "Glamorgan Gazette 14 Oct 1910 p.8; 3 May 1907; 27 Sep, 4 Oct, 11 Oct 1907 (snippets)",
+     "href": null
+    },
+    {
+     "text": "Cardiff Times 23 Apr 1910 p.10",
+     "href": null
+    },
+    {
+     "text": "Excluded: not our farm (wiki)",
+     "href": "/wiki/evidence/excluded-not-our-farm/"
+    }
+   ],
+   "related": [
+    "KF-05",
+    "KF-12",
+    "KF-33",
+    "KF-25",
+    "KF-27"
+   ],
+   "origin": "added-2026-10-25",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 25 October 2026 from that day’s searches. Newspaper and census references are given as citations; the papers themselves are held by the libraries named."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-35",
+   "kind": "screening_lead",
+   "slug": "kf-35-llandough-farm-separate-farmstead",
+   "title": "Llandough Farm — a separate farm, not Great House Farm / Tŷ Mawr / Cydfin Farm",
+   "date": {
+    "display": "1824–1940 (catalogue, survey plan, tithe, press, tenancy)",
+    "sort": 1824
+   },
+   "place_text": "Llandough-juxta-Penarth",
+   "provenance": {
+    "reference": "National Library of Wales D 219/9–13; Glamorgan Archives DB/E/1 plan 19 (EV-0211); EV-0228; EV-0233"
+   },
+   "scope": {
+    "disposition": "separate_property",
+    "label": "Separate farm",
+    "reason": "A separate farmstead with its own deeds: Llandough Farm, 166 acres, NLW D 219/9–13 (1824–1832), against 107 acres for Cydfin Farm or Tŷ Mawr Farm (D 219/1, 4–5, 8 et seq.). The 1824 survey plan labels Llandough Farm apart from Cedfin or Ty Mawr Farm.",
+    "distinct_from": [
+     "PL-TY-MAWR"
+    ]
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "The National Library of Wales catalogue of the Bute estate records (D 219) describes Llandough Farm (166 acres; deeds D 219/9–13, 1824–1832) separately from Cydfin Farm or Tŷ Mawr Farm (107 acres; D 219/1, 4–5, 8 et seq.).",
+      "The 1824 Stewart survey plan 19 (EV-0211) names “Llandough Farm” as its own place on the plan, beside the Village of Llandough, Wellspring and the River Ely, and apart from “Cedfin or Ty Mawr Farm”.",
+      "Llandough Farm was the Rees family farm in the 1841 tithe and in press reports from 1865 to 1910 (EV-0228).",
+      "The 1940 Western Ground Rents tenancy to David and Thomas Thomas concerns Llandough Farm (EV-0233)."
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "A positive identity correction: the two holdings are separate in the catalogue and on the 1824 plan. “Llandough Farm” is not a name of the property, and its 166 acres, its deeds and its tenancies cannot be carried over to Tŷ Mawr because both lie in the same parish."
+    },
+    {
+     "heading": "Next step",
+     "text": "Examine the individual D 219 instruments and plans for exact boundaries."
+    }
+   ],
+   "sources": [
+    {
+     "text": "National Library of Wales D 219 (catalogue)",
+     "href": null
+    },
+    {
+     "text": "EV-0211",
+     "href": "/wiki/evidence/ev-0211-db-e-1-plan-19-cedfin-ty-mawr-1824/"
+    },
+    {
+     "text": "EV-0228",
+     "href": "/wiki/evidence/ev-0228-llandough-farm-rees-family-1841-1910/"
+    },
+    {
+     "text": "EV-0233",
+     "href": "/wiki/evidence/ev-0233-dbdt129-3-wgr-thomas-llandough-farm-tenancy-1940/"
+    }
+   ],
+   "related": [
+    "KF-06",
+    "KF-13",
+    "KF-14",
+    "KF-12",
+    "KF-50"
+   ],
+   "origin": "added-2026-10-25",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-30",
+   "rev": 2,
+   "places": [
+    "PL-LLANDOUGH-FARM"
+   ],
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 25 October 2026 from that day’s searches; rewritten on 30 October 2026 as the Llandough Farm card, bringing together "
+      },
+      {
+       "text": "KF-06",
+       "href": "../kf-06-nlw-d-219-llandough-farm-166-acres/"
+      },
+      {
+       "text": " and "
+      },
+      {
+       "text": "KF-13",
+       "href": "../kf-13-llandough-farm-the-rees-family-farm-ev/"
+      },
+      {
+       "text": " and the 1824 plan. Newspaper and census references are given as citations; the papers themselves are held by the libraries named."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-36",
+   "kind": "screening_lead",
+   "slug": "kf-36-bute-barry-railway-v-seymour-white-1905",
+   "title": "Marquess of Bute v Seymour; Marquess of Bute v White; Barry Railway Co v Seymour; Barry Railway Co v White (Llandough right of way, 1905)",
+   "date": {
+    "display": "20–29 Mar 1905",
+    "sort": 1905
+   },
+   "place_text": "Fields between the Cardiff–Sully road and Eastbrook (Green Seys / Cornerswell side), Llandough",
+   "provenance": {
+    "reference": "Evening Express 20, 28, 29, 31 Mar 1905; Western Mail 21, 23 Mar 1905"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "Bute land on the Cornerswell side of the parish; no Williams and no Great House appears in any report."
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "The court's view: “Mr. Justice Lawrence, sitting in the Nisi Prius Court, Cardiff, formally entered judgment for plaintiffs in the Llandough right of way dispute case, and granted an injunction in the terms asked for—restraining trespassing on the land of the Barry Railway Company and also of the Marquess of Bute, with costs.” (Evening Express, 29 Mar 1905, p.3). The special jury's verdict for the plaintiffs came on 28 Mar 1905 (Glamorgan Assizes, before Lawrence J).",
+      "The action: “they each sued each of the two defendants … for damage for trespass on June 4, 1904. The defence was that the defendants were legitimately using a public path across fields at Llandough, the property of the Marques of Bute, and across the Barry Company's line, and leading from the Cardiff and Sully road to Eastbrook.” (Evening Express, 20 Mar 1905, p.3).",
+      "Counsel for Bute (a submission, not a finding): “Between the years 1848 and 1893 there was no person who could dedicate, because the estate was in strict settlement” (Evening Express, 28 Mar 1905).",
+      "Costs “including the expense of the assize action and the previous proceedings in London” were about £2,000; the defendants' share, about £500, was raised by public subscription (Evening Express, 31 Mar 1905, p.3).",
+      "The land named: the Green Seys (“Greensays”) fields, Cornerswell Farm, Westhouse, the One Acre Field (“Erw Heol Goch”) and a field of Colonel Homfray's."
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "The same parish and the same landlord, Bute, but different land towards Dinas Powis. About twenty reports were read; none names Great House, Tŷ Mawr or the Williamses. Bute acting as owner of Llandough land in 1904–05 fits the Williamses being Bute's tenants."
+    },
+    {
+     "heading": "Next step",
+     "text": "Only if family papers mention a path or trespass case: the Bute estate's own file (solicitor J. S. Corbett) in the Bute papers at Glamorgan Archives."
+    }
+   ],
+   "sources": [
+    {
+     "text": "Evening Express 20 Mar 1905 p.3; 28 Mar 1905; 29 Mar 1905 p.3; 31 Mar 1905 p.3 (Welsh Newspapers Online)",
+     "href": null
+    },
+    {
+     "text": "Cardiff Times 1 Apr 1905 p.10",
+     "href": null
+    },
+    {
+     "text": "Western Mail 21 Mar 1905 p.5; 23 Mar 1905 p.7 (British Newspaper Archive index)",
+     "href": null
+    }
+   ],
+   "related": [],
+   "origin": "added-2026-10-25",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 25 October 2026 from that day’s searches. Newspaper and census references are given as citations; the papers themselves are held by the libraries named."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-37",
+   "kind": "screening_lead",
+   "slug": "kf-37-poaching-great-house-farm-1908",
+   "title": "Poaching on Great House Farm, Llandough, prosecuted for the Bute Estate (Barry police court, Jan 1908)",
+   "date": {
+    "display": "Jan 1908",
+    "sort": 1908
+   },
+   "place_text": "Great House Farm, Llandough-juxta-Penarth",
+   "provenance": {
+    "reference": "Evening Express 11 Jan 1908; Barry Dock News 17 Jan 1908"
+   },
+   "scope": {
+    "disposition": "outside_title_question",
+    "label": "Ours — outside the title question",
+    "reason": "Our farm, but a game prosecution: nothing in it bears on title or tenure."
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "The court's view: a Saltmead man “pleaded guilty … to poaching on Great House Farm, Llandough”; the underkeeper was John David; the sentence was two months (Evening Express, 11 Jan 1908).",
+      "“Mr L. Harris, solicitor, prosecuted on behalf of the Bute Estate” (Barry Dock News, 17 Jan 1908; read from a search snippet)."
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "It places the farm's name in a 1908 court report and shows the Bute Estate prosecuting game offences there. It does not show who held the freehold or on what terms the Williamses farmed."
+    },
+    {
+     "heading": "Next step",
+     "text": "Retained as context."
+    }
+   ],
+   "sources": [
+    {
+     "text": "Evening Express 11 Jan 1908 (Welsh Newspapers Online)",
+     "href": null
+    },
+    {
+     "text": "Barry Dock News 17 Jan 1908 (snippet)",
+     "href": null
+    },
+    {
+     "text": "EV-0014",
+     "href": "/wiki/evidence/ev-0014-bute-tenancy-john-williams-1916/"
+    }
+   ],
+   "related": [],
+   "origin": "added-2026-10-25",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 25 October 2026 from that day’s searches. Newspaper and census references are given as citations; the papers themselves are held by the libraries named."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-38",
+   "kind": "screening_lead",
+   "slug": "kf-38-barry-railway-fare-fine-1903",
+   "title": "“John Williams, Great House Farm, Llandough, was also fined £1” for travelling without a fare (Barry magistrates, Mar 1903)",
+   "date": {
+    "display": "12 Feb / 6 Mar 1903",
+    "sort": 1903
+   },
+   "place_text": "Barry Railway, Grangetown to Cogan",
+   "provenance": {
+    "reference": "Barry Dock News 6 Mar 1903; Barry Herald 6 Mar 1903"
+   },
+   "scope": {
+    "disposition": "outside_title_question",
+    "label": "Ours — outside the title question",
+    "reason": "Our farm's name in a railway-fare case: no bearing on title or tenure."
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "The court's view: “John Williams, Great House Farm, Llandough, was also fined £1 for travelling between Grangetown and Cogan on the Barry Railway on the 12th ultimo, without having previously paid his fare.” (Barry Dock News, 6 Mar 1903). The Barry Herald of the same date gives “John Williams, jun.”"
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "It places a John Williams at Great House Farm in 1903, on the Penarth side (Grangetown to Cogan). That is all."
+    },
+    {
+     "heading": "Next step",
+     "text": "None. Kept as a dated occupancy reference."
+    }
+   ],
+   "sources": [
+    {
+     "text": "Barry Dock News 6 Mar 1903 (Welsh Newspapers Online)",
+     "href": null
+    },
+    {
+     "text": "Barry Herald 6 Mar 1903",
+     "href": null
+    }
+   ],
+   "related": [],
+   "origin": "added-2026-10-25",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 25 October 2026 from that day’s searches. Newspaper and census references are given as citations; the papers themselves are held by the libraries named."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-39",
+   "kind": "screening_lead",
+   "slug": "kf-39-bona-fide-traveller-fine-1904",
+   "title": "“John Williams, farmer, Llandough, was fined 20s.” (Penarth police court, Oct 1904)",
+   "date": {
+    "display": "Oct 1904",
+    "sort": 1904
+   },
+   "place_text": "Penarth",
+   "provenance": {
+    "reference": "Evening Express 12 Oct 1904 p.3 (snippet)"
+   },
+   "scope": {
+    "disposition": "out_of_scope",
+    "label": "Out of scope",
+    "reason": "A licensing fine; which John Williams of Llandough is not settled, and it has no bearing on title."
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "The court's view: “John Williams, farmer, Llandough, was fined 20s. … for falsely representing himself to be a bona-fide traveller” (Evening Express, 12 Oct 1904, p.3; read from a search snippet)."
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "Nothing about the farm. Several Williamses farmed in Llandough parish, so the name alone does not identify the holding."
+    },
+    {
+     "heading": "Next step",
+     "text": "None."
+    }
+   ],
+   "sources": [
+    {
+     "text": "Evening Express 12 Oct 1904 p.3 (snippet)",
+     "href": null
+    }
+   ],
+   "related": [
+    "KF-14",
+    "KF-13"
+   ],
+   "origin": "added-2026-10-25",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 25 October 2026 from that day’s searches. Newspaper and census references are given as citations; the papers themselves are held by the libraries named."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-40",
+   "kind": "screening_lead",
+   "slug": "kf-40-whyte-v-cardiff-corporation-1910-1912",
+   "title": "Whyte & Co. Ltd v Cardiff Corporation (Western Sewer contract arbitration, 1910–1912)",
+   "date": {
+    "display": "1910–1912",
+    "sort": 1910
+   },
+   "place_text": "Western District outfall sewer (Cardiff to Lavernock, through Llandough)",
+   "provenance": {
+    "reference": "Evening Express 11 Jun 1906, 14 Jul 1910; Western Mail 7 Mar, 24 Oct 1912; Dublin Builder 25 May 1912"
+   },
+   "scope": {
+    "disposition": "out_of_scope",
+    "label": "Out of scope",
+    "reason": "A contractor's money dispute with Cardiff Corporation, not a title or tenant case; it names no farm."
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "The arbitrator's view: Mr H. Percy Boulnois, M.Inst.C.E., “has given his award in the case of Whyte & Co., Ltd., v. Cardiff Corporation, in respect of a dispute which arose between the parties after the completion of the western [outfall sewer]” (Dublin Builder, 25 May 1912, p.28; snippet). The hearing ended at the Westminster Palace Hotel, London (Western Mail, 7 Mar 1912, p.5; snippet). The amount of the award has not been read (paywalled); the South Wales Weekly Argus of 11 May 1912 headed it “CARDIFF'S SURPRISE. Summary of the Award”.",
+      "The contract: Whyte & Co. of Belfast took Contract No. 6, Western Sewer, at £70,368 5s 4d (Evening Express, 11 Jun 1906).",
+      "The dispute: a final account of £123,452 3s 10d, “the difference of £53,083 16s. 6d. really represented extras”; the town clerk was asked “to advise the committee upon the legal questions involved” (Evening Express, 14 Jul 1910).",
+      "Afterwards a council row: Western Mail 24 Oct 1912 p.6; Western Mail 15 Jan 1913; South Wales Daily News 19 Feb 1913 p.6, “Cardiff Western Sewer. ‘NOTHING TO HIDE’” (snippets)."
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "The only dispute found that arose from the works the 23 Feb 1905 Bute conveyance to Cardiff served (EV-0013). It is a contract arbitration, not a court judgment, and nothing read shows it went on to the High Court. Whether Contract No. 6 was the Llandough section is not known."
+    },
+    {
+     "heading": "Next step",
+     "text": "A paid reading of the 1912 award reports, or Cardiff borough Public Works Committee minutes 1910–13 at Glamorgan Archives."
+    }
+   ],
+   "sources": [
+    {
+     "text": "Evening Express 11 Jun 1906; 14 Jul 1910 (Welsh Newspapers Online)",
+     "href": null
+    },
+    {
+     "text": "Western Mail 7 Mar 1912 p.5; 24 Oct 1912 p.6; 15 Jan 1913 (snippets)",
+     "href": null
+    },
+    {
+     "text": "Dublin Builder 25 May 1912 p.28 (snippet)",
+     "href": null
+    },
+    {
+     "text": "South Wales Weekly Argus 11 May 1912 p.8 (snippet)",
+     "href": null
+    },
+    {
+     "text": "South Wales Daily News 19 Feb 1913 p.6 (snippet)",
+     "href": null
+    },
+    {
+     "text": "EV-0013",
+     "href": "/wiki/evidence/ev-0013-bute-conveyance-1905/"
+    }
+   ],
+   "related": [
+    "KF-43",
+    "KF-44"
+   ],
+   "origin": "added-2026-10-25",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 25 October 2026 from that day’s searches. Newspaper and census references are given as citations; the papers themselves are held by the libraries named."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-41",
+   "kind": "screening_lead",
+   "slug": "kf-41-cardiff-v-llandaff-dinas-powis-rdc-1904",
+   "title": "Cardiff Corporation's injunction against Llandaff & Dinas Powis Rural District Council over Ely effluent (Local Government Board inquiry, 1904)",
+   "date": {
+    "display": "Jun 1904",
+    "sort": 1904
+   },
+   "place_text": "River Ely and Cardiff's western sewer",
+   "provenance": {
+    "reference": "Evening Express 15 Jun 1904; Weekly Mail 18 Jun 1904"
+   },
+   "scope": {
+    "disposition": "out_of_scope",
+    "label": "Out of scope",
+    "reason": "A dispute between two councils about waste draining into the sewer; it does not concern the farm or the 1905 grant."
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "Cardiff Corporation sought an injunction against Llandaff & Dinas Powis RDC over Ely effluent draining into Cardiff's western sewer; the matter came before a Local Government Board inquiry (Evening Express, 15 Jun 1904; Weekly Mail, 18 Jun 1904). No outcome was read."
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "Background to the western sewer scheme only. Both parties are public bodies."
+    },
+    {
+     "heading": "Next step",
+     "text": "None."
+    }
+   ],
+   "sources": [
+    {
+     "text": "Evening Express 15 Jun 1904 (Welsh Newspapers Online)",
+     "href": null
+    },
+    {
+     "text": "Weekly Mail 18 Jun 1904",
+     "href": null
+    }
+   ],
+   "related": [],
+   "origin": "added-2026-10-25",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 25 October 2026 from that day’s searches. Newspaper and census references are given as citations; the papers themselves are held by the libraries named."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-42",
+   "kind": "screening_lead",
+   "slug": "kf-42-llandough-hospital-legal-proceedings-1934",
+   "title": "“THE LLANDOUGH HOSPITAL. Legal Proceedings Possible” (Western Mail, 4 Oct 1934)",
+   "date": {
+    "display": "4 Oct 1934",
+    "sort": 1934
+   },
+   "place_text": "Llandough Hospital (a Cardiff Corporation project)",
+   "provenance": {
+    "reference": "Western Mail 4 Oct 1934 p.9 (snippet); Western Mail 2 Jul 1928"
+   },
+   "scope": {
+    "disposition": "out_of_scope",
+    "label": "Out of scope",
+    "reason": "A building contractor's final account against Cardiff Corporation at the hospital, not the farm."
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "Western Mail, 4 Oct 1934, p.9: “THE LLANDOUGH HOSPITAL. Legal Proceedings Possible”, about a contractor's final account against Cardiff Corporation (search snippet). Llandough Hospital was a Cardiff Corporation project (Western Mail, 2 Jul 1928)."
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "A Cardiff Corporation dispute at Llandough, separate from the 1905 conveyance and from the farm. No outcome was read."
+    },
+    {
+     "heading": "Next step",
+     "text": "None unless the hospital land is shown to touch the farm."
+    }
+   ],
+   "sources": [
+    {
+     "text": "Western Mail 4 Oct 1934 p.9 (snippet)",
+     "href": null
+    },
+    {
+     "text": "Western Mail 2 Jul 1928",
+     "href": null
+    }
+   ],
+   "related": [],
+   "origin": "added-2026-10-25",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 25 October 2026 from that day’s searches. Newspaper and census references are given as citations; the papers themselves are held by the libraries named."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-43",
+   "kind": "screening_lead",
+   "slug": "kf-43-one-piece-of-land-arbitration-1904",
+   "title": "The 1904 “one piece of land” arbitration flagged before the sewer easements (it apparently never happened)",
+   "date": {
+    "display": "Jun 1904 – May 1907",
+    "sort": 1904
+   },
+   "place_text": "The Bute land on the western sewer line",
+   "provenance": {
+    "reference": "Weekly Mail 11 Jun 1904; Evening Express 9 Jun 1904; Cardiff Times 4 May 1907"
+   },
+   "scope": {
+    "disposition": "out_of_scope",
+    "label": "Out of scope",
+    "reason": "Never held: the corporation settled with the landowners without arbitration."
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "Weekly Mail, 11 Jun 1904: negotiations had been concluded with Sir W. T. Lewis “concerning easements over 2½ miles of land forming part of the Bute Estate … In respect of one piece of land arbitration proceedings will, probably, be unavoidable.” The landowner is not named.",
+      "Cardiff Times, 4 May 1907: Alderman Mildon said the corporation “had taken time to arrange matters with the landowners — a rather difficult matter — and had succeeded in doing that without going to arbitration”."
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "A threatened arbitration that the record shows was avoided. It identifies no farm."
+    },
+    {
+     "heading": "Next step",
+     "text": "None."
+    }
+   ],
+   "sources": [
+    {
+     "text": "Weekly Mail 11 Jun 1904; Evening Express 9 Jun 1904 (Welsh Newspapers Online)",
+     "href": null
+    },
+    {
+     "text": "Cardiff Times 4 May 1907",
+     "href": null
+    },
+    {
+     "text": "EV-0013",
+     "href": "/wiki/evidence/ev-0013-bute-conveyance-1905/"
+    }
+   ],
+   "related": [
+    "KF-40"
+   ],
+   "origin": "added-2026-10-25",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 25 October 2026 from that day’s searches. Newspaper and census references are given as citations; the papers themselves are held by the libraries named."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-44",
+   "kind": "screening_lead",
+   "slug": "kf-44-cardiff-city-corporation-wording-1905",
+   "title": "“Cardiff City Corporation” as grantee of the 23 Feb 1905 Bute conveyance (Land Registry wording)",
+   "date": {
+    "display": "23 Feb 1905",
+    "sort": 1905
+   },
+   "place_text": "Woodland on the north-east side of Leckwith Road, Llandough",
+   "provenance": {
+    "reference": "Title WA735527, charges register entry 1"
+   },
+   "scope": {
+    "disposition": "name_correction",
+    "label": "Name correction",
+    "reason": "A name slip: Cardiff became a city only in Oct 1905, so the grantee was then the County Borough."
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "HM Land Registry, title WA735527, charges register entry 1: the land tinted pink is subject to the rights in “a Conveyance dated 23 February 1905 made between (1) John Marquis of Bute and Earl of Dumfries and (2) Cardiff City Corporation … Copy filed under WA231076.”",
+      "Cardiff received city status in October 1905."
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "The register's wording is the registry's own paraphrase. It is not evidence of anything about the deed, which grants rights over a strip, not a transfer."
+    },
+    {
+     "heading": "Next step",
+     "text": "An official copy of the deed and plan filed under WA231076 would show the strip and its purpose."
+    }
+   ],
+   "sources": [
+    {
+     "text": "HM Land Registry title WA735527",
+     "href": null
+    },
+    {
+     "text": "EV-0013",
+     "href": "/wiki/evidence/ev-0013-bute-conveyance-1905/"
+    }
+   ],
+   "related": [
+    "KF-40",
+    "KF-43"
+   ],
+   "origin": "added-2026-10-25",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 25 October 2026 from that day’s searches. Newspaper and census references are given as citations; the papers themselves are held by the libraries named."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-45",
+   "kind": "screening_lead",
+   "slug": "kf-45-re-nisbet-and-potts-contract-1906",
+   "title": "Re Nisbet and Potts' Contract [1906] 1 Ch 386 (Court of Appeal) — a precedent, not a farm case",
+   "date": {
+    "display": "1906",
+    "sort": 1906
+   },
+   "place_text": "Not Llandough (a reported case)",
+   "provenance": {
+    "reference": "[1906] 1 Ch 386 (CA)"
+   },
+   "scope": {
+    "disposition": "precedent",
+    "label": "Precedent",
+    "reason": "A reported precedent on adverse possession and covenants; it is not about Llandough land."
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "The court's view: acquiring title by adverse possession bars only the paper owner's claim; restrictive covenants that already bound the land still bind it, and the person in possession (Re Nisbet and Potts' Contract [1906] 1 Ch 386, CA). Related: Fairweather v St Marylebone Property Co Ltd [1963] AC 510."
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "A rule of law, listed here because it surfaced in the day's search. Whether any pre-1955 burden on the land (for example the rights in the 1905 conveyance, EV-0013) bears on the 1987 case is a separate legal question, not settled here."
+    },
+    {
+     "heading": "Next step",
+     "text": "List the known burdens in pre-1955 instruments and who could enforce them."
+    }
+   ],
+   "sources": [
+    {
+     "text": "Re Nisbet and Potts' Contract [1906] 1 Ch 386 (CA)",
+     "href": null
+    },
+    {
+     "text": "Fairweather v St Marylebone Property Co Ltd [1963] AC 510",
+     "href": null
+    },
+    {
+     "text": "EV-0013",
+     "href": "/wiki/evidence/ev-0013-bute-conveyance-1905/"
+    }
+   ],
+   "related": [],
+   "origin": "added-2026-10-25",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 25 October 2026 from that day’s searches. Newspaper and census references are given as citations; the papers themselves are held by the libraries named."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-46",
+   "kind": "screening_lead",
+   "slug": "kf-46-great-house-llangadock-1906",
+   "title": "“R. Hopkin, Great House, Llangadock” (prize list, 1906)",
+   "date": {
+    "display": "26 Jun 1906",
+    "sort": 1906
+   },
+   "place_text": "Llangadock, Carmarthenshire",
+   "provenance": {
+    "reference": "Evening Express 26 Jun 1906 p.4"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "A Great House in Carmarthenshire, not Llandough."
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "Evening Express, 26 Jun 1906, p.4 (a published list of names and addresses): “R. Hopkin, Great House. Llangadock.”"
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "Another farm called Great House. It shows how often the name occurs in the press."
+    },
+    {
+     "heading": "Next step",
+     "text": "None."
+    }
+   ],
+   "sources": [
+    {
+     "text": "Evening Express 26 Jun 1906 p.4 (Welsh Newspapers Online)",
+     "href": null
+    }
+   ],
+   "related": [],
+   "origin": "added-2026-10-25",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 25 October 2026 from that day’s searches. Newspaper and census references are given as citations; the papers themselves are held by the libraries named."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-47",
+   "kind": "screening_lead",
+   "slug": "kf-47-great-house-llanmaes-1910",
+   "title": "“A. M. Thomas, Great House, Llanmaes” (show prize list, 1910)",
+   "date": {
+    "display": "12 Aug 1910",
+    "sort": 1910
+   },
+   "place_text": "Llanmaes, near Llantwit Major",
+   "provenance": {
+    "reference": "Glamorgan Gazette 12 Aug 1910 p.5"
+   },
+   "scope": {
+    "disposition": "not_this_property",
+    "label": "Not our farm",
+    "reason": "A Great House at Llanmaes, a third Glamorgan farm of the name."
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "Glamorgan Gazette, 12 Aug 1910, p.5, show prize list: “A. M. Thomas, Great House, Llanmaes.”"
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "A third Glamorgan Great House with a Thomas family. A Thomas “of Great House” in Vale press is not, by name alone, connected with Llandough."
+    },
+    {
+     "heading": "Next step",
+     "text": "Check the parish before citing any “Great House” item."
+    }
+   ],
+   "sources": [
+    {
+     "text": "Glamorgan Gazette 12 Aug 1910 p.5 (Welsh Newspapers Online)",
+     "href": null
+    }
+   ],
+   "related": [],
+   "origin": "added-2026-10-25",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 25 October 2026 from that day’s searches. Newspaper and census references are given as citations; the papers themselves are held by the libraries named."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-48",
+   "kind": "screening_lead",
+   "slug": "kf-48-stewart-survey-1824-not-1924",
+   "title": "The “1924 Stewart survey” line “Late Thos. Williams now John Gedrick Tent.” — it is the 1824 Bute survey",
+   "date": {
+    "display": "1824 (not 1924)",
+    "sort": 1824
+   },
+   "place_text": "Cedfin or Ty Mawr Farm, Llandough-juxta-Penarth",
+   "provenance": {
+    "reference": "EV-0211 (Glamorgan Archives DB/E/1 plan 19)"
+   },
+   "scope": {
+    "disposition": "dating_correction",
+    "label": "Dating correction",
+    "reason": "A dating slip: the record is ours, but it belongs to 1824."
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "The Stewart survey of the Bute estate, DB/E/1 plan 19 and reference table (1824), “Cedfin or Ty Mawr Farm”: “Late Thos. Williams now John Gedrick Tent.” (EV-0211).",
+      "A working note had dated the line 1924. No 1924 survey with this line is on file. The 15 May 1924 Bute–Corbett drain agreement (EV-0015) is a drain agreement and plan with no tenant line."
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "The line is a record of our farm, from 1824, and names a late Thomas Williams in the Cedfin or Ty Mawr entry. The present transcription (139a 3r 8p; the name “John Gedrick”) remains provisional, as the wiki records."
+    },
+    {
+     "heading": "Next step",
+     "text": "Use the 1824 date in every citation."
+    }
+   ],
+   "sources": [
+    {
+     "text": "EV-0211",
+     "href": "/wiki/evidence/ev-0211-db-e-1-plan-19-cedfin-ty-mawr-1824/"
+    },
+    {
+     "text": "EV-0015",
+     "href": "/wiki/evidence/ev-0015-bute-corbett-drain-agreement-1924/"
+    }
+   ],
+   "related": [],
+   "origin": "added-2026-10-25",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 25 October 2026 from that day’s searches. Newspaper and census references are given as citations; the papers themselves are held by the libraries named."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-49",
+   "kind": "screening_lead",
+   "slug": "kf-49-proposed-floor-plan-another-property",
+   "title": "Proposed floor plan of another property, outside the Tŷ Mawr scope; parked for later inspection",
+   "date": {
+    "display": "Undated (modern metric drawing); received 27 October 2026",
+    "sort": 2026
+   },
+   "place_text": "Another property (not identified)",
+   "provenance": {
+    "reference": "Architectural drawing image, received 27 October 2026 (no title block, site, author or date)"
+   },
+   "scope": {
+    "disposition": "out_of_scope",
+    "label": "Out of scope",
+    "reason": "Another property, outside the Tŷ Mawr scope; parked for later inspection."
+   },
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "A modern architectural drawing in millimetres headed “Proposed Ground Floor” and “Proposed First Floor”: on the ground floor a garage, office, kitchen, breakfast and dining rooms, lounge, formal garden, reflection pool, lawn, dorm, changing room, sauna and shower, plant room and studio; on the first floor a guest lounge and kitchen, guest bedrooms, bathroom, further bedrooms and a master bedroom with balcony.",
+      "No title block, site name, author or date appears on the drawing."
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "Nothing about Tŷ Mawr / Great House Farm. The drawing is of another property and is kept here, out of the Wales evidence pages, for later inspection."
+    },
+    {
+     "heading": "Next step",
+     "text": "Identify the property and the drawing’s source when convenient. No request is needed."
+    }
+   ],
+   "sources": [],
+   "related": [],
+   "origin": "added-2026-10-27",
+   "reworded": false,
+   "public": true,
+   "updated": "2026-10-27",
+   "rev": 1,
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Received 27 October 2026. The drawing is not reproduced here."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KF-50",
+   "kind": "screening_lead",
+   "slug": "kf-50-museum-wales-ref-13-2-waterwheel-llandough-farm",
+   "title": "Museum Wales Ref 13.2 — a waterwheel collected from Llandough Farm (opposite the hospital) in 1979",
+   "date": {
+    "display": "Collected 1979; reported 5 and 7 Oct 2026",
+    "sort": 1979
+   },
+   "place_text": "Llandough Farm, Llandough-juxta-Penarth",
+   "provenance": {
+    "reference": "Amgueddfa Cymru – Museum Wales, replies to FOI 2026-036 (5 and 7 Oct 2026); EV-0190"
+   },
+   "scope": {
+    "disposition": "separate_property",
+    "label": "Separate farm",
+    "reason": "The museum catalogues the waterwheel as from Llandough Farm (opposite the hospital), a separate farm from Great House Farm / Tŷ Mawr.",
+    "distinct_from": [
+     "PL-TY-MAWR"
+    ]
+   },
+   "places": [
+    "PL-LLANDOUGH-FARM"
+   ],
+   "detail": [
+    {
+     "heading": "The record",
+     "items": [
+      "In its reply of 5 October 2026 to FOI 2026-036, Amgueddfa Cymru – Museum Wales named two further records: a waterwheel collected from Llandough Farm in 1979 (Ref 13.2) and a page of the 1924 Llandough Estate sale document (MS 3360/3).",
+      "On 7 October 2026 the museum described Ref 13.2 as a waterwheel from “Llandough Farm (opposite hospital)”.",
+      "The same museum reply grouped the names in one phrase: “No further records relating specifically to Great House Farm / Ty Mawr / Llandough Farm, Llandough were identified”. That is the museum’s wording, quoted as written; Llandough Farm is a separate farm (KF-35).",
+      "Follow-up questions sent to the museum in October 2026 ask which site Ref 13.2 relates to."
+     ]
+    },
+    {
+     "heading": "What it does and does not establish",
+     "text": "On the museum’s own catalogue description the waterwheel comes from Llandough Farm, not from Great House Farm / Tŷ Mawr. It does not establish anything about the farmhouse at Tŷ Mawr or its finds."
+    },
+    {
+     "heading": "Next step",
+     "text": "Read the museum’s answer on the site of Ref 13.2 when it arrives; reopen this card only if the answer places it at Tŷ Mawr."
+    }
+   ],
+   "sources": [
+    {
+     "text": "EV-0190 — Museum Wales FOI 2026-036 reply",
+     "href": "/wiki/evidence/ev-0190-museum-wales-foi-2026-036-reply/"
+    }
+   ],
+   "related": [
+    "KF-35"
+   ],
+   "notes": [
+    {
+     "class": "kf-origin",
+     "runs": [
+      {
+       "text": "Added on 30 October 2026 when Llandough Farm records were separated from Great House Farm / Tŷ Mawr."
+      }
+     ]
+    }
+   ],
+   "origin": "added-2026-10-30",
+   "public": true,
+   "updated": "2026-10-30",
+   "rev": 1
+  },
+  {
+   "id": "RET-01",
+   "kind": "screening_lead",
+   "title": "1881 “Llandough Home Farm” (EV-0224)",
+   "scope": {
+    "disposition": "in_scope",
+    "label": "In scope",
+    "reason": "in scope. The census label. Directories put the same John Williams at “Great house” 1868–1901 (EV-0225). No other source uses “Home Farm”, and the census label is not added to the property’s names."
+   },
+   "evidence": [
+    "EV-0224",
+    "EV-0225"
+   ],
+   "public": true,
+   "updated": "2026-10-30",
+   "rev": 1
+  },
+  {
+   "id": "RET-02",
+   "kind": "screening_lead",
+   "title": "1824 DB/E/1 plan 19, “Cedfin or Ty Mawr Farm” (EV-0211)",
+   "scope": {
+    "disposition": "in_scope",
+    "label": "In scope",
+    "reason": "relevant to identity, survey extent and mapping; the present transcription of 139a 3r 8p and the name “John Gedrick” remain provisional. It does not prove a later lease or freehold. The same plan shows Llandough Farm as a separate place (KF-35)."
+   },
+   "evidence": [
+    "EV-0211"
+   ],
+   "public": true,
+   "updated": "2026-10-30",
+   "rev": 1
+  },
+  {
+   "id": "RET-03",
+   "kind": "screening_lead",
+   "title": "1872–1876 Llandough poor-rate books (EV-0212)",
+   "scope": {
+    "disposition": "in_scope",
+    "label": "In scope",
+    "reason": "potentially important because the provisional read shows John Williams rated for a farm under Lord Bute and Daniel Thomas & Son for a lime kiln/quarry. The volume reference, row alignment and link to Tŷ Mawr must be checked."
+   },
+   "evidence": [
+    "EV-0212"
+   ],
+   "public": true,
+   "updated": "2026-10-30",
+   "rev": 1
+  },
+  {
+   "id": "RET-04",
+   "kind": "screening_lead",
+   "title": "Reported Bute–Thomas arrangement and reported John Williams lease (EV-0006; EV-0008)",
+   "scope": {
+    "disposition": "in_scope",
+    "label": "In scope",
+    "reason": "core unresolved leads for the 1877 transaction. The original and matching plan remain unlocated; do not substitute a Cardiff lease."
+   },
+   "evidence": [
+    "EV-0006",
+    "EV-0008"
+   ],
+   "public": true,
+   "updated": "2026-10-30",
+   "rev": 1
+  },
+  {
+   "id": "RET-05",
+   "kind": "screening_lead",
+   "title": "1983 registration files and the 1987 title-file amalgamation",
+   "scope": {
+    "disposition": "in_scope",
+    "label": "In scope",
+    "reason": "core title and public-administration evidence. Obtain the actual applications, supporting instruments, plans, correspondence and scope of the register change before asserting an error, concealment or knowledge."
+   },
+   "evidence": [],
+   "public": true,
+   "updated": "2026-10-30",
+   "rev": 1
+  },
+  {
+   "id": "RET-06",
+   "kind": "screening_lead",
+   "title": "1987 Llandough Community Council minutes (EV-0214)",
+   "scope": {
+    "disposition": "in_scope",
+    "label": "In scope",
+    "reason": "retain under the public-authority track for the recorded right-of-way, VG41 and BP-agent discussion. They do not by themselves prove ownership, the content of legal advice, or a wrongful act."
+   },
+   "evidence": [
+    "EV-0214"
+   ],
+   "public": true,
+   "updated": "2026-10-30",
+   "rev": 1
+  }
+ ]
+}

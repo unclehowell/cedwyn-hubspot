@@ -1,0 +1,1631 @@
+{
+ "version": "1.2.3",
+ "note": "Two halves of Cedwyn (Sion, 23:39 GMT 25 Oct 2026, m:2a7c8c27): landing (two tiles), /wales/ = augmented-reality guided tour of Cedwyn Estate, Wales (former manorial house, never 'farm'; no museum stop), /argentina/ = Cedwyn Estate II / Great House II retreat with package builder. Wales copy follows EDITORIAL.md (ingredients + citations, courts' view first, banned words). AI images carry 'artist's impression'. Bookings are pre-order requests, not confirmed holidays. Welsh and Spanish are first drafts for review. tools/halves.py renders it. - Sion's Tab agent",
+ "img": "/_cedwyn/halves/img/",
+ "img_v": "3",
+ "ev_href": {
+  "EV-0001": "/research/evidence/ev-0001-cwm-cedwyn-llandough-boundary-1392/",
+  "EV-0002": "/research/evidence/ev-0002-herbert-vaughan-cydwin-lease-1547/",
+  "EV-0003": "/research/evidence/ev-0003-bute-records-cedfin-ty-mawr/",
+  "EV-0011": "/research/evidence/ev-0011-marconi-lavernock-wireless-cutting-1897/",
+  "EV-0019": "/research/evidence/ev-0019-bute-wgr-conveyance-plan-1938/",
+  "EV-0032": "/research/evidence/ev-0032-1955-order-14-possession-order/",
+  "EV-0041": "/research/evidence/ev-0041-cardiff-county-court-possession-order-1962/",
+  "EV-0043": "/research/evidence/ev-0043-wgr-bp-pension-trust-conveyance/",
+  "EV-0044": "/research/evidence/ev-0044-vg41-village-green-registration-1970/",
+  "EV-0047": "/research/evidence/ev-0047-thomas-rcahmw-survey-floor-plan/",
+  "EV-0054": "/research/evidence/ev-0054-ggat-wales-west-roman-villa-letters/",
+  "EV-0055": "/research/evidence/ev-0055-neath-guardian-historical-society-1980/",
+  "EV-0056": "/research/evidence/ev-0056-neath-guardian-17-april-1980-roman-villa-remains-a/",
+  "EV-0066": "/research/evidence/ev-0066-hmlr-wa240304-item-10-register-1983/",
+  "EV-0074": "/research/evidence/ev-0074-high-court-trial-judgment-1986/",
+  "EV-0080": "/research/evidence/ev-0080-bp-properties-v-buckler-judgment/",
+  "EV-0107": "/research/evidence/ev-0107-south-wales-echo-1988-councillor-protest/",
+  "EV-0108": "/research/evidence/ev-0108-south-wales-echo-bp-demolition-anger/",
+  "EV-0122": "/research/evidence/ev-0122-echr-application-14464-88-inadmissibility/",
+  "EV-0133": "/research/evidence/ev-0133-planning-drawings-ideal-homes-wales-llandough-farm/",
+  "EV-0184": "/research/evidence/ev-0184-rcahmw-reply-rc26-0375-ty-mawr/",
+  "EV-0206": "/research/evidence/ev-0206-glamorgan-village-book-llandough-archaeology/",
+  "EV-0215": "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+  "EV-0243": "/research/evidence/ev-0243-barry-dock-news-1908-court-leet-john-williams-great-house/",
+  "EV-0248": "/research/evidence/ev-0248-marconi-in-wales-may-1897-contemporary-press/",
+  "EV-0256": "/research/evidence/ev-0256-kemp-diary-lavernock-1897-bodleian-ms-marconi-89/",
+  "EV-0272": "/research/evidence/ev-0272-cadw-1989-llandough-resurvey-list-13430-13431-13432/",
+  "EV-0283": "/research/evidence/ev-0283-bute-court-leet-at-llandough-press-reports-1904-1917-john-williams-on-the-1910-gra/",
+  "EV-0293": "/research/evidence/ev-0293-llandough-1994-cemetery-excavation-her-ggat02272s-museum-wales-95-56h-burial-631/",
+  "EV-0296": "/research/evidence/ev-0296-amgueddfa-cymru-museum-wales-furniture-and-movable-property-from-great-house-farm/",
+  "EV-0367": "/research/evidence/ev-0367-hm-land-registry-subject-access-request-wa231076-wa240304-great-house-farm-llandough-wi/",
+  "EV-0449": "/research/evidence/ev-0449-the-postal-museum-search-for-gpo-and-marconi-records-at-great-house-farm/",
+  "EV-0486": "/research/evidence/ev-0486-welsh-government-cadw-foi-request-on-listing-refusal-and-demolition-records/"
+ },
+ "stops": [
+  {
+   "id": "tymawr",
+   "lat": 51.4426,
+   "lon": -3.1995,
+   "img": "wales-stop-tymawr",
+   "chip": "photo_tag",
+   "name": {
+    "en": "Tŷ Mawr, the Great House",
+    "cy": "Tŷ Mawr",
+    "es": "Tŷ Mawr, la Gran Casa"
+   },
+   "place": {
+    "en": "Church View Close, Llandough",
+    "cy": "Church View Close, Llandochau",
+    "es": "Church View Close, Llandough"
+   },
+   "overlay": {
+    "en": "The former manorial house behind its garden wall, from an old photograph restored as an artist's impression.",
+    "cy": "Yr hen faenordy y tu ôl i wal yr ardd, o hen ffotograff wedi’i adfer fel argraff arlunydd.",
+    "es": "La antigua casa señorial tras el muro del jardín, a partir de una fotografía antigua restaurada como impresión artística."
+   },
+   "story": {
+    "en": "Welcome to Llandough. Stand on the green and look up: this is where Tŷ Mawr, the Great House, stood beside the church. Its name is first read in a record in 1824, when the surveyor drew it as plan 19, “Cedfin or Ty Mawr …”. ⟦Cwm Cedwyn (1392) is a place name from boundary notes still to be found.⟧ Cydwin, the name in a Herbert–Vaughan lease, belongs to another document: it is not a record of Tŷ Mawr, and its application to Tŷ Mawr is under forensic examination. The Williams family acquired Tŷ Mawr in 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988). By 1841 the tithe lists John Williams as occupier of 36 plots here, among them no. 209, “Courtyard &c”, where Church View Close now stands. His family lived and worked here for generations; the manor courts of Llandough and Leckwith met in this house, and in 1908 the manor court remembered him as “for many years a juror of the court”.",
+    "cy": "Croeso i Landochau. Safwch ar y lawnt ac edrych i fyny: yma y safai Tŷ Mawr wrth ymyl yr eglwys. Darllenir ei enw gyntaf mewn cofnod yn 1824, pan luniodd y syrfëwr ef fel cynllun 19, “Cedfin or Ty Mawr …”. ⟦Enw lle o nodiadau ffiniau nad ydynt wedi’u canfod eto yw Cwm Cedwyn (1392).⟧ Mae Cydwin, yr enw mewn prydles Herbert–Vaughan, yn perthyn i ddogfen arall: nid yw’n gofnod o Dŷ Mawr, ac mae a yw’n berthnasol i Dŷ Mawr dan archwiliad fforensig. Cafodd teulu Williams Dŷ Mawr yn 1667 (datganiad Mary Williams, papurau newydd 1974; ITV News, 1988). Erbyn 1841 mae’r degwm yn rhestru John Williams yn ddeiliad 36 llain yma, yn eu plith rhif 209, “Courtyard &c”, lle saif Church View Close heddiw. Bu ei deulu’n byw ac yn gweithio yma am genedlaethau; yn y tŷ hwn y cyfarfu llysoedd maenor Llandochau a Lecwydd, ac yn 1908 cofiodd llys y faenor amdano “for many years a juror of the court”.",
+    "es": "Bienvenidos a Llandough. Quédense en el prado y miren: aquí, junto a la iglesia, estaba Tŷ Mawr, la Casa Grande. Su nombre se lee por primera vez en un registro en 1824, cuando el agrimensor la dibujó como plano 19, “Cedfin or Ty Mawr …”. ⟦Cwm Cedwyn (1392) es un topónimo de notas de lindes aún no halladas.⟧ Cydwin, el nombre de un arrendamiento Herbert–Vaughan, pertenece a otro documento: no es un registro de Tŷ Mawr, y su relación con Tŷ Mawr está bajo examen forense. La familia Williams adquirió Tŷ Mawr en 1667 (declaración de Mary Williams, prensa de 1974; ITV News, 1988). En 1841 el diezmo registra a John Williams como ocupante de 36 parcelas aquí, entre ellas la n.º 209, “Courtyard &c”, donde hoy está Church View Close. Su familia vivió y trabajó aquí durante generaciones; en esta casa se reunían los tribunales señoriales de Llandough y Leckwith, y en 1908 el tribunal señorial lo recordó como “for many years a juror of the court”."
+   },
+   "now": {
+    "en": "The houses of Church View Close, built in the 1990s, stand where the house and its yard once were.",
+    "cy": "Mae tai Church View Close, a godwyd yn y 1990au, yn sefyll lle bu’r tŷ a’i fuarth.",
+    "es": "Las casas de Church View Close, construidas en los años noventa, ocupan el lugar de la casa y su patio."
+   },
+   "recs": [],
+   "real": {
+    "en": "Church View Close, the green and the church beside it",
+    "cy": "Church View Close, y lawnt a’r eglwys gerllaw",
+    "es": "Church View Close, el prado y la iglesia de al lado"
+   },
+   "ar": {
+    "en": "Tŷ Mawr, the former manorial house, and its outbuildings, from the 1974 survey",
+    "cy": "Tŷ Mawr, y cyn-dŷ maenor, a’i adeiladau allan, o arolwg 1974",
+    "es": "Tŷ Mawr, la antigua casa señorial, y sus dependencias, según el levantamiento de 1974"
+   },
+   "holo": "holo-rec-0001-ty-mawr",
+   "holo_overlay": {
+    "en": "Wireframe reconstruction of the farmhouse as recorded in 1988 — a 2D illustration; dashed lines mark features hidden in the source photograph.",
+    "cy": "Ail-greu fframgwifren o'r tŷ fferm fel y'i cofnodwyd ym 1988 — darlun 2D; llinellau toredig ar gyfer nodweddion a guddiwyd yn y ffotograff ffynhonnell.",
+    "es": "Reconstrucción alámbrica de la casa de labranza tal como se registró en 1988 — ilustración 2D; las líneas discontinuas marcan elementos ocultos en la fotografía original."
+   }
+  },
+  {
+   "id": "church",
+   "lat": 51.4436,
+   "lon": -3.201,
+   "img": "wales-stop-churchyard",
+   "chip": "photo_tag",
+   "name": {
+    "en": "St Dochdwy’s and the early medieval cemetery",
+    "cy": "Sant Dochdwy a’r fynwent ganoloesol gynnar",
+    "es": "San Dochdwy y el cementerio altomedieval"
+   },
+   "place": {
+    "en": "Llandough churchyard",
+    "cy": "Mynwent Llandochau",
+    "es": "Cementerio parroquial de Llandough"
+   },
+   "overlay": {
+    "en": "The meadow by the churchyard, from an old photograph restored as an artist's impression.",
+    "cy": "Y ddôl wrth y fynwent, o hen ffotograff wedi’i adfer fel argraff arlunydd.",
+    "es": "El prado junto al cementerio, a partir de una fotografía antigua restaurada como impresión artística."
+   },
+   "story": {
+    "en": "A few steps away lies some of the oldest sacred ground in Wales. Monks were here by the seventh century, and for hundreds of years the people of the valley were laid to rest in this cemetery. The church you see was rebuilt in 1866, right beside the Great House: on Sundays the whole parish passed its door.",
+    "cy": "Ychydig gamau i ffwrdd mae peth o’r tir cysegredig hynaf yng Nghymru. Roedd mynaich yma erbyn y seithfed ganrif, ac am gannoedd o flynyddoedd claddwyd pobl y fro yn y fynwent hon. Ailgodwyd yr eglwys a welwch yn 1866, yn union wrth ymyl Tŷ Mawr: ar y Sul âi’r plwyf cyfan heibio i’w ddrws.",
+    "es": "A pocos pasos está uno de los suelos sagrados más antiguos de Gales. Había monjes aquí ya en el siglo VII, y durante cientos de años la gente del valle fue enterrada en este cementerio. La iglesia que ve se reconstruyó en 1866, justo al lado de la Casa Grande: los domingos toda la parroquia pasaba por su puerta."
+   },
+   "now": {
+    "en": "St Dochdwy’s church of 1866 and the Irbic Cross, carved in the 10th or 11th century.",
+    "cy": "Eglwys Sant Dochdwy (1866) a Chroes Irbic, a gerfiwyd yn y 10fed neu’r 11eg ganrif.",
+    "es": "La iglesia de San Dochdwy, de 1866, y la Cruz de Irbic, tallada en los siglos X u XI."
+   },
+   "recs": [],
+   "real": {
+    "en": "St Dochdwy’s church (1866) and the Irbic Cross, both standing today",
+    "cy": "Eglwys St Dochdwy (1866) a Chroes Irbic, y ddwy’n sefyll heddiw",
+    "es": "La iglesia de St Dochdwy (1866) y la Cruz de Irbic, ambas en pie hoy"
+   },
+   "ar": {
+    "en": "the former manorial house beside the churchyard",
+    "cy": "y cyn-dŷ maenor ger y fynwent",
+    "es": "la antigua casa señorial junto al cementerio"
+   }
+  },
+  {
+   "id": "villa",
+   "lat": 51.442,
+   "lon": -3.202,
+   "img": "wales-stop-villa",
+   "name": {
+    "en": "The Llandough Roman villa",
+    "cy": "Fila Rufeinig Llandochau",
+    "es": "La villa romana de Llandough"
+   },
+   "place": {
+    "en": "South of the church, Llandough",
+    "cy": "I’r de o’r eglwys, Llandochau",
+    "es": "Al sur de la iglesia, Llandough"
+   },
+   "overlay": {
+    "en": "A Roman villa stands at full scale on the ground of today’s estate, where its remains were found: a colonnaded portico under a tiled roof, the houses seen through it.",
+    "cy": "Mae fila Rufeinig yn sefyll ar ei maint llawn ar dir yr ystâd heddiw, lle cafwyd hyd i’w holion: portico â cholofnau dan do teils, a’r tai i’w gweld drwyddi.",
+    "es": "Una villa romana se alza a escala real sobre el terreno de la urbanización actual, donde se hallaron sus restos: un pórtico con columnas bajo un tejado de tejas, con las casas visibles a través."
+   },
+   "story": {
+    "en": "Go back further still. Long before the manor and the monks, Romans worked this sunny slope and built a fine villa with its own baths. Its remains came to light when the ground was opened for new housing, and were excavated in 1977–79.",
+    "cy": "Ewch yn ôl ymhellach eto. Ymhell cyn y faenor a’r mynaich, bu’r Rhufeiniaid yn trin y llethr heulog hwn ac yn codi fila gain â’i baddonau ei hun. Daeth ei holion i’r golwg pan agorwyd y tir ar gyfer tai newydd, a chawsant eu cloddio yn 1977–79.",
+    "es": "Retroceda aún más. Mucho antes del señorío y de los monjes, los romanos trabajaron esta ladera soleada y construyeron una espléndida villa con termas propias. Sus restos salieron a la luz cuando se abrió el terreno para nuevas viviendas, y se excavaron en 1977–79."
+   },
+   "now": {
+    "en": "Houses and gardens; nothing of the villa shows above ground.",
+    "cy": "Tai a gerddi; does dim o’r fila i’w weld uwchben y ddaear.",
+    "es": "Casas y jardines; nada de la villa se ve en la superficie."
+   },
+   "recs": [],
+   "real": {
+    "en": "the slope and today’s houses",
+    "cy": "y llethr a’r tai heddiw",
+    "es": "la ladera y las casas de hoy"
+   },
+   "ar": {
+    "en": "the Roman villa and its baths; nothing shows above ground",
+    "cy": "y fila Rufeinig a’i baddondai; does dim i’w weld uwchben y ddaear",
+    "es": "la villa romana y sus termas; nada asoma sobre el suelo"
+   }
+  },
+  {
+   "id": "brynwell",
+   "lat": 51.4623,
+   "lon": -3.2292,
+   "img": "wales-stop-brynwell",
+   "name": {
+    "en": "Brynwell, the sister house",
+    "cy": "Brynwell, y chwaer-dŷ",
+    "es": "Brynwell, la casa hermana"
+   },
+   "place": {
+    "en": "Leckwith",
+    "cy": "Lecwydd",
+    "es": "Leckwith"
+   },
+   "overlay": {
+    "en": "Brynwell’s medieval bones show through its walls: oak roof trusses, a small cusped window and the cross-passage plan it shares with Tŷ Mawr.",
+    "cy": "Mae esgyrn canoloesol Brynwell i’w gweld drwy’r muriau: cyplau to derw, ffenestr fach bigfain a chynllun y llwybr croes sy’n gyffredin iddo a Thŷ Mawr.",
+    "es": "Los huesos medievales de Brynwell asoman entre sus muros: cerchas de roble, una pequeña ventana lobulada y la planta de pasillo transversal que comparte con Tŷ Mawr."
+   },
+   "story": {
+    "en": "Over the hill in Leckwith stands Brynwell, Tŷ Mawr’s sister house. Built to the same plan in the same age, it shows what the Great House was like inside: a passage straight through the middle, the hall on one side and a great chimney at the end. Brynwell survived. Walk round it and you are looking at Tŷ Mawr’s twin.",
+    "cy": "Dros y bryn yn Lecwydd saif Brynwell, chwaer-dŷ Tŷ Mawr. Fe’i codwyd ar yr un cynllun yn yr un oes, ac mae’n dangos sut le oedd Tŷ Mawr y tu mewn: llwybr yn syth drwy’r canol, y neuadd ar un ochr a simnai fawr yn y pen. Goroesodd Brynwell. Cerddwch o’i amgylch ac rydych yn edrych ar efaill Tŷ Mawr.",
+    "es": "Al otro lado de la colina, en Leckwith, está Brynwell, la casa hermana de Tŷ Mawr. Construida con la misma planta y en la misma época, muestra cómo era la Casa Grande por dentro: un pasillo que la cruza por el medio, la sala a un lado y una gran chimenea al fondo. Brynwell sobrevivió. Rodéela y estará viendo a la gemela de Tŷ Mawr."
+   },
+   "now": {
+    "en": "Brynwell still stands, a protected historic building in private hands: please enjoy it from the lane.",
+    "cy": "Mae Brynwell yn dal i sefyll, adeilad hanesyddol gwarchodedig mewn dwylo preifat: mwynhewch ef o’r lôn.",
+    "es": "Brynwell sigue en pie, un edificio histórico protegido de propiedad privada: disfrútelo desde el camino."
+   },
+   "recs": [],
+   "real": {
+    "en": "Brynwell, still standing; seen from the lane",
+    "cy": "Brynwell, sy’n dal i sefyll; o’r lôn",
+    "es": "Brynwell, todavía en pie; desde el camino"
+   },
+   "ar": {
+    "en": "its medieval roof and plan, shown through the walls",
+    "cy": "ei do a’i gynllun canoloesol, i’w gweld drwy’r waliau",
+    "es": "su techumbre y planta medievales, vistas a través de los muros"
+   }
+  },
+  {
+   "id": "driscoll",
+   "lat": 51.4757,
+   "lon": -3.1718,
+   "img": "wales-stop-peerless-jim",
+   "name": {
+    "en": "“Peerless” Jim Driscoll",
+    "cy": "“Peerless” Jim Driscoll",
+    "es": "“Peerless” Jim Driscoll"
+   },
+   "place": {
+    "en": "Bute Street and Custom House Street, Cardiff",
+    "cy": "Stryd Bute a Stryd y Tollty, Caerdydd",
+    "es": "Bute Street y Custom House Street, Cardiff"
+   },
+   "overlay": {
+    "en": "Beside the bronze statue a ghostly ring appears under old barn beams, and a young boxer squares up for his very first fight.",
+    "cy": "Wrth ymyl y cerflun efydd ymddengys cylch rhithiol dan hen drawstiau ysgubor, a bocsiwr ifanc yn codi’i ddyrnau am ei ornest gyntaf un.",
+    "es": "Junto a la estatua de bronce aparece un ring fantasmal bajo viejas vigas de granero, y un joven boxeador se pone en guardia para su primera pelea."
+   },
+   "story": {
+    "en": "In the heart of Cardiff’s old docklands stands “Peerless” Jim Driscoll, featherweight champion and hero of the city. ⟦Boxing histories tell how the young Jim had his first fight in a barn at the Great House in Llandough.⟧ Philip Blacker’s statue went up in 1997, and Cardiff still stops to look.",
+    "cy": "Yng nghanol hen ddociau Caerdydd saif “Peerless” Jim Driscoll, pencampwr pwysau plu ac arwr y ddinas. ⟦Mae hanesion bocsio’n adrodd i Jim ifanc ymladd ei ornest gyntaf mewn ysgubor yn Nhŷ Mawr, Llandochau.⟧ Codwyd cerflun Philip Blacker yn 1997, ac mae Caerdydd yn dal i oedi i edrych.",
+    "es": "En el corazón de los antiguos muelles de Cardiff se alza “Peerless” Jim Driscoll, campeón del peso pluma y héroe de la ciudad. ⟦Las historias del boxeo cuentan que el joven Jim libró su primera pelea en un granero de la Casa Grande de Llandough.⟧ La estatua de Philip Blacker se inauguró en 1997, y Cardiff aún se detiene a mirarla."
+   },
+   "now": {
+    "en": "The statue, on the corner of Bute Street and Custom House Street.",
+    "cy": "Y cerflun, ar gornel Stryd Bute a Stryd Custom House.",
+    "es": "La estatua, en la esquina de Bute Street y Custom House Street."
+   },
+   "recs": [],
+   "real": {
+    "en": "the bronze statue",
+    "cy": "y cerflun efydd",
+    "es": "la estatua de bronce"
+   },
+   "ar": {
+    "en": "the barn ring and the young boxer",
+    "cy": "cylch y sgubor a’r bocsiwr ifanc",
+    "es": "el ring del granero y el joven boxeador"
+   }
+  },
+  {
+   "id": "bay",
+   "lat": 51.464,
+   "lon": -3.1636,
+   "img": "wales-stop-cardiff-bay",
+   "name": {
+    "en": "Cardiff Bay: Marconi’s wireless",
+    "cy": "Bae Caerdydd: diwifr Marconi",
+    "es": "La bahía de Cardiff: la telegrafía sin hilos de Marconi"
+   },
+   "place": {
+    "en": "Cardiff Bay waterfront",
+    "cy": "Glannau Bae Caerdydd",
+    "es": "Paseo marítimo de la bahía de Cardiff"
+   },
+   "overlay": {
+    "en": "Over the water, Marconi’s 1897 apparatus floats life-size, and its signals ripple out towards the Channel.",
+    "cy": "Dros y dŵr, mae offer Marconi o 1897 yn arnofio’n llawn maint, a’i signalau’n crychdonni tua’r Sianel.",
+    "es": "Sobre el agua flota a tamaño real el aparato de Marconi de 1897, y sus señales se propagan hacia el canal."
+   },
+   "story": {
+    "en": "In the spring of 1897 a young Italian, Guglielmo Marconi, came to the Bristol Channel to send wireless messages over open sea. The Welsh papers followed every step, and a Cardiff engineer, a Mr Williams, worked alongside him. ⟦A local history book records that Marconi “slept here in a four poster bed” while the trials ran.⟧",
+    "cy": "Yng ngwanwyn 1897 daeth Eidalwr ifanc, Guglielmo Marconi, i Fôr Hafren i anfon negeseuon diwifr dros fôr agored. Dilynodd papurau Cymru bob cam, a bu peiriannydd o Gaerdydd, rhyw Mr Williams, yn gweithio wrth ei ochr. ⟦Mae llyfr hanes lleol yn cofnodi i Marconi gysgu yno “in a four poster bed” tra parhâi’r arbrofion.⟧",
+    "es": "En la primavera de 1897 un joven italiano, Guglielmo Marconi, llegó al canal de Bristol para enviar mensajes inalámbricos sobre mar abierto. La prensa galesa siguió cada paso, y un ingeniero de Cardiff, un tal Mr Williams, trabajó a su lado. ⟦Un libro de historia local recoge que Marconi “slept here in a four poster bed” mientras duraron las pruebas.⟧"
+   },
+   "now": {
+    "en": "The waterfront of the old docks, today Cardiff Bay.",
+    "cy": "Glannau’r hen ddociau, Bae Caerdydd heddiw.",
+    "es": "La ribera de los antiguos muelles, hoy la bahía de Cardiff."
+   },
+   "recs": [],
+   "real": {
+    "en": "the waterfront of the old docks",
+    "cy": "glan dŵr yr hen ddociau",
+    "es": "el frente marítimo de los antiguos muelles"
+   },
+   "ar": {
+    "en": "Marconi’s 1897 apparatus and its signals",
+    "cy": "offer Marconi 1897 a’i signalau",
+    "es": "el aparato de Marconi de 1897 y sus señales"
+   }
+  },
+  {
+   "id": "lavernock",
+   "lat": 51.4058,
+   "lon": -3.169,
+   "img": "wales-stop-lavernock",
+   "name": {
+    "en": "Lavernock Point, 1897",
+    "cy": "Trwyn Larnog, 1897",
+    "es": "Lavernock Point, 1897"
+   },
+   "place": {
+    "en": "Lavernock, near Penarth",
+    "cy": "Larnog, ger Penarth",
+    "es": "Lavernock, cerca de Penarth"
+   },
+   "overlay": {
+    "en": "The 1897 mast rises from the clifftop and the signals arc across the water to Flat Holm.",
+    "cy": "Mae mast 1897 yn codi o ben y clogwyn a’r signalau’n bwa dros y dŵr i Ynys Echni.",
+    "es": "El mástil de 1897 se alza sobre el acantilado y las señales cruzan el agua en arco hasta Flat Holm."
+   },
+   "story": {
+    "en": "On 13 May 1897, from this clifftop, the first wireless messages crossed open sea: to Flat Holm, and on 18 May to Brean Down. Look out to the island and picture the tall wooden mast, the little hut and the crowd waiting for the click of the receiver.",
+    "cy": "Ar 13 Mai 1897, o ben y clogwyn hwn, croesodd y negeseuon diwifr cyntaf fôr agored: i Ynys Echni, ac ar 18 Mai i Brean Down. Edrychwch allan at yr ynys a dychmygwch y mast pren tal, y cwt bach a’r dorf yn disgwyl clic y derbynnydd.",
+    "es": "El 13 de mayo de 1897, desde este acantilado, los primeros mensajes inalámbricos cruzaron el mar abierto: hasta Flat Holm y, el 18 de mayo, hasta Brean Down. Mire hacia la isla e imagine el alto mástil de madera, la pequeña caseta y la gente esperando el chasquido del receptor."
+   },
+   "now": {
+    "en": "The clifftop, St Lawrence’s church and its plaque, Flat Holm on the horizon.",
+    "cy": "Pen y clogwyn, eglwys Sant Lawrens a’i phlac, Ynys Echni ar y gorwel.",
+    "es": "El acantilado, la iglesia de San Lorenzo y su placa, Flat Holm en el horizonte."
+   },
+   "recs": [],
+   "real": {
+    "en": "the clifftop, St Lawrence’s church and its plaque, Flat Holm",
+    "cy": "pen y clogwyn, eglwys St Lawrence a’i phlac, Ynys Echni",
+    "es": "el acantilado, la iglesia de St Lawrence y su placa, Flat Holm"
+   },
+   "ar": {
+    "en": "the 1897 mast and the signals to Flat Holm",
+    "cy": "mast 1897 a’r signalau i Ynys Echni",
+    "es": "el mástil de 1897 y las señales hacia Flat Holm"
+   }
+  },
+  {
+   "id": "court",
+   "lat": 51.4432,
+   "lon": -3.2003,
+   "img": "wales-stop-court",
+   "name": {
+    "en": "The green, and a long dispute in brief",
+    "cy": "Y lawnt, ac anghydfod hir yn fyr",
+    "es": "El prado, y una larga disputa en breve"
+   },
+   "place": {
+    "en": "The village green, Llandough",
+    "cy": "Lawnt y pentref, Llandochau",
+    "es": "El prado del pueblo, Llandough"
+   },
+   "overlay": {
+    "en": "Above the green a wood-panelled courtroom appears in light.",
+    "cy": "Uwchben y lawnt ymddengys llys â phaneli pren mewn goleuni.",
+    "es": "Sobre el prado aparece en luz una sala de tribunal revestida de madera."
+   },
+   "story": {
+    "en": "From 1955 to 1988 the house was the subject of a long run of court cases, and the family has kept asking for the records since. The research section sets out what each court decided and the papers behind it.",
+    "cy": "O 1955 i 1988 bu’r tŷ yn destun cyfres hir o achosion llys, ac mae’r teulu wedi dal i ofyn am y cofnodion ers hynny. Mae’r adran ymchwil yn nodi beth a benderfynodd pob llys a’r papurau y tu ôl iddo.",
+    "es": "De 1955 a 1988 la casa fue objeto de una larga serie de pleitos, y desde entonces la familia sigue pidiendo los documentos. La sección de investigación expone lo que decidió cada tribunal y los papeles que lo respaldan."
+   },
+   "links": [
+    [
+     "th_thousand-cuts",
+     "/wales/thousand-cuts/"
+    ],
+    [
+     "th_research",
+     "/wales/research/"
+    ],
+    [
+     "tc_link",
+     "/wales/title-chain/"
+    ]
+   ],
+   "now": {
+    "en": "The green beside Church View Close.",
+    "cy": "Y lawnt wrth ymyl Church View Close.",
+    "es": "El prado junto a Church View Close."
+   },
+   "real": {
+    "en": "the village green",
+    "cy": "lawnt y pentref",
+    "es": "el prado del pueblo"
+   },
+   "ar": {
+    "en": "the courtroom and its papers",
+    "cy": "y llys a’i bapurau",
+    "es": "la sala del tribunal y sus papeles"
+   }
+  },
+  {
+   "id": "retrace",
+   "lat": 51.443,
+   "lon": -3.199,
+   "img": "wales-ar-forest",
+   "name": {
+    "en": "Retracing the steps",
+    "cy": "Ail-olrhain y camau",
+    "es": "Volver sobre los pasos"
+   },
+   "place": {
+    "en": "Back to Church View Close",
+    "cy": "Yn ôl i Church View Close",
+    "es": "De vuelta a Church View Close"
+   },
+   "overlay": {
+    "en": "Plan view: the 1974 measured survey placed on the Ordnance Survey 25-inch map of about 1900, with today's buildings drawn over it. The house's long side ran almost exactly east–west (089° true), facing the church.",
+    "cy": "Golwg cynllun: arolwg mesuredig 1974 wedi’i osod ar fap 25 modfedd yr Arolwg Ordnans o tua 1900, gydag adeiladau heddiw drosto. Rhedai ochr hir y tŷ bron yn union o’r dwyrain i’r gorllewin (089° gwir), yn wynebu’r eglwys.",
+    "es": "Vista en planta: el levantamiento medido de 1974 situado sobre el mapa de 25 pulgadas del Ordnance Survey de hacia 1900, con los edificios actuales encima. El lado largo de la casa corría casi exactamente de este a oeste (089° verdadero), frente a la iglesia."
+   },
+   "story": {
+    "en": "Back where we began. As the old field boundaries light up over the houses, walk six centuries in a minute with the guide. The house stood through it all, until December 1988; the story did not end there. Far away in Patagonia, Great House II is rising as a replica, to carry the house’s name and memory into a new century.",
+    "cy": "Yn ôl lle dechreuon ni. Wrth i hen ffiniau’r caeau oleuo dros y tai, cerddwch chwe chanrif mewn munud gyda’r tywysydd. Safodd y tŷ drwy’r cyfan, tan Ragfyr 1988; ond ni ddaeth y stori i ben yno. Ymhell ym Mhatagonia mae Great House II yn codi fel copi, i gario enw a chof y tŷ i ganrif newydd.",
+    "es": "De vuelta al punto de partida. Mientras los antiguos lindes de los campos se iluminan sobre las casas, recorra seis siglos en un minuto con el guía. La casa resistió hasta diciembre de 1988, pero la historia no terminó ahí. Lejos, en la Patagonia, Great House II se levanta como réplica para llevar el nombre y la memoria de la casa a un nuevo siglo."
+   },
+   "timeline": [
+    [
+     "1392",
+     {
+      "en": "⟦Cwm Cedwyn appears in the Llandough boundary records.⟧",
+      "cy": "⟦Cwm Cedwyn yng nghofnodion ffiniau Llandochau.⟧",
+      "es": "⟦Cwm Cedwyn aparece en los registros de lindes de Llandough.⟧"
+     }
+    ],
+    [
+     "1824",
+     {
+      "en": "The first record read that names the house: the surveyor’s plan 19.",
+      "cy": "Y cofnod cyntaf a ddarllenwyd sy’n enwi’r tŷ: cynllun 19 y syrfëwr.",
+      "es": "El primer registro leído que nombra la casa: el plano 19 del agrimensor."
+     }
+    ],
+    [
+     "1841",
+     {
+      "en": "The tithe lists John Williams as occupier.",
+      "cy": "Y degwm yn rhestru John Williams yn ddeiliad.",
+      "es": "El diezmo registra a John Williams como ocupante."
+     }
+    ],
+    [
+     "1866",
+     {
+      "en": "St Dochdwy’s is rebuilt beside the house.",
+      "cy": "Ailgodi Sant Dochdwy wrth ymyl y tŷ.",
+      "es": "Se reconstruye San Dochdwy junto a la casa."
+     }
+    ],
+    [
+     "1897",
+     {
+      "en": "Marconi’s wireless crosses the Channel from Lavernock.",
+      "cy": "Diwifr Marconi’n croesi Môr Hafren o Larnog.",
+      "es": "La radio de Marconi cruza el canal desde Lavernock."
+     }
+    ],
+    [
+     "1974",
+     {
+      "en": "The house is surveyed and drawn: the plan behind today’s AR model.",
+      "cy": "Arolygu a llunio’r tŷ: y cynllun y tu ôl i’r model AR heddiw.",
+      "es": "Se mide y dibuja la casa: el plano en que se basa el modelo AR de hoy."
+     }
+    ],
+    [
+     "1988",
+     {
+      "en": "December: the house comes down.",
+      "cy": "Rhagfyr: y tŷ’n cael ei ddymchwel.",
+      "es": "Diciembre: la casa es derribada."
+     }
+    ],
+    [
+     "1990s",
+     {
+      "en": "Church View Close is built.",
+      "cy": "Codi Church View Close.",
+      "es": "Se construye Church View Close."
+     }
+    ],
+    [
+     "2026",
+     {
+      "en": "Great House II, Patagonia: the story continues.",
+      "cy": "Great House II, Patagonia: y stori’n parhau.",
+      "es": "Great House II, Patagonia: la historia continúa."
+     }
+    ]
+   ],
+   "now": {
+    "en": "Church View Close, the green and the woodland.",
+    "cy": "Church View Close, y lawnt a’r coetir.",
+    "es": "Church View Close, el prado comunal y el bosque."
+   },
+   "recs": [],
+   "real": {
+    "en": "Church View Close, the green and the woodland",
+    "cy": "Church View Close, y lawnt a’r coetir",
+    "es": "Church View Close, el prado y el bosque"
+   },
+   "ar": {
+    "en": "the old field boundaries and the 1974 house plan",
+    "cy": "hen ffiniau’r caeau a chynllun tŷ 1974",
+    "es": "los antiguos lindes de los campos y la planta de la casa de 1974"
+   }
+  }
+ ],
+ "t": {
+  "land_title": {
+   "en": "Cedwyn",
+   "cy": "Cedwyn",
+   "es": "Cedwyn"
+  },
+  "land_pick": {
+   "en": "Choose a way in",
+   "cy": "Dewiswch eich ffordd i mewn",
+   "es": "Elija por dónde entrar"
+  },
+  "tw_name": {
+   "en": "Cedwyn Estate, Wales",
+   "cy": "Ystâd Cedwyn, Cymru",
+   "es": "Cedwyn Estate, Gales"
+  },
+  "tw_sub": {
+   "en": "Augmented-reality guided tour · Llandough",
+   "cy": "Taith dywys realiti estynedig · Llandochau",
+   "es": "Visita guiada en realidad aumentada · Llandough"
+  },
+  "tw_cta": {
+   "en": "Enter Wales · Cymraeg",
+   "cy": "Mynd i Gymru · Cymraeg",
+   "es": "Entrar en Gales · Cymraeg"
+  },
+  "ta_name": {
+   "en": "Cedwyn Estate II, Patagonia",
+   "cy": "Ystâd Cedwyn II, Patagonia",
+   "es": "Cedwyn Estate II, Patagonia"
+  },
+  "ta_sub": {
+   "en": "Great House II retreat · Puerto Madryn",
+   "cy": "Encil Great House II · Puerto Madryn",
+   "es": "Retiro Great House II · Puerto Madryn"
+  },
+  "ta_cta": {
+   "en": "Enter Patagonia · Español",
+   "cy": "Mynd i Batagonia · Español",
+   "es": "Entrar en Patagonia · Español"
+  },
+  "ai_tag": {
+   "en": "Artist's impression",
+   "cy": "Argraff arlunydd",
+   "es": "Impresión artística"
+  },
+  "ar_tag": {
+   "en": "AR view · artist's impression",
+   "cy": "Golwg RE · argraff arlunydd",
+   "es": "Vista RA · impresión artística"
+  },
+  "photo_tag": {
+   "en": "From an old photograph · restored",
+   "cy": "O hen ffotograff · wedi’i adfer",
+   "es": "De una fotografía antigua · restaurada"
+  },
+  "land_more": {
+   "en": "All layers",
+   "cy": "Pob haen",
+   "es": "Todas las capas"
+  },
+  "w_kick": {
+   "en": "Llandough · Leckwith · Cardiff · Lavernock",
+   "cy": "Llandochau · Lecwydd · Caerdydd · Larnog",
+   "es": "Llandough · Leckwith · Cardiff · Lavernock"
+  },
+  "w_h1": {
+   "en": "Cedwyn Estate, Wales",
+   "cy": "Ystâd Cedwyn, Cymru",
+   "es": "Cedwyn Estate, Gales"
+  },
+  "w_h2": {
+   "en": "The augmented-reality guided tour",
+   "cy": "Y daith dywys realiti estynedig",
+   "es": "La visita guiada en realidad aumentada"
+  },
+  "w_lede": {
+   "en": "Nine stops, from the site of Tŷ Mawr, the former manorial house at Llandough, out to Lavernock Point and back: six centuries of a Welsh family, its church, its neighbours and the wireless that first crossed the sea. What still stands you see for real: St Dochdwy’s church, the Irbic Cross, Brynwell, the Lavernock clifftop. What was lost, the Great House above all, rises around it in augmented reality, and the guide tells the next chapter at each stop.",
+   "cy": "Naw arhosfan, o safle Tŷ Mawr, y cyn-dŷ maenor yn Llandochau, allan i Drwyn Larnog ac yn ôl: chwe chanrif o deulu Cymreig, ei eglwys, ei gymdogion a’r diwifr a groesodd y môr gyntaf. Yr hyn sy’n dal i sefyll, fe’i gwelwch go iawn: eglwys St Dochdwy, Croes Irbic, Brynwell, clogwyn Larnog. Mae’r hyn a gollwyd, Tŷ Mawr yn anad dim, yn codi o’i gwmpas mewn realiti estynedig, ac mae’r tywysydd yn adrodd y bennod nesaf ym mhob arhosfan.",
+   "es": "Nueve paradas, desde el solar de Tŷ Mawr, la antigua casa señorial de Llandough, hasta Lavernock Point y de vuelta: seis siglos de una familia galesa, su iglesia, sus vecinos y la radio que cruzó el mar por primera vez. Lo que sigue en pie lo ves de verdad: la iglesia de St Dochdwy, la Cruz de Irbic, Brynwell, el acantilado de Lavernock. Lo que se perdió, sobre todo la Casa Grande, se alza a su alrededor en realidad aumentada, y el guía cuenta el siguiente capítulo en cada parada."
+  },
+  "w_start": {
+   "en": "Start the tour",
+   "cy": "Dechrau’r daith",
+   "es": "Empezar la visita"
+  },
+  "w_tickets": {
+   "en": "Tickets: pre-order a gift voucher",
+   "cy": "Tocynnau: archebu taleb rodd ymlaen llaw",
+   "es": "Entradas: reserve un vale regalo"
+  },
+  "w_menu": {
+   "en": "Menu",
+   "cy": "Dewislen",
+   "es": "Menú"
+  },
+  "w_holo_alt": {
+   "en": "Aerial view over the Ordnance Survey 25-inch map of about 1900: today's houses in grey, St Dochdwy's Church, and a glowing wireframe of the former manorial house and its outbuildings where they stood.",
+   "cy": "Golwg o’r awyr dros fap 25 modfedd yr Arolwg Ordnans o tua 1900: tai heddiw mewn llwyd, Eglwys Sant Dochdwy, a ffrâm wifren ddisglair o’r hen faenordy a’i dai allan lle safent.",
+   "es": "Vista aérea sobre el mapa de 25 pulgadas del Ordnance Survey de hacia 1900: las casas actuales en gris, la iglesia de St Dochdwy y una estructura alámbrica luminosa de la antigua casa señorial y sus dependencias donde se alzaban."
+  },
+  "w_holo_cap": {
+   "en": "Approximate position of the former manorial house, from the 1974 measured survey, overlaid on today's street. Method: the 1974 RCAHMW measured plan (1:100) was fitted to the house drawn on the Ordnance Survey 25-inch map of about 1900, then checked against St Dochdwy's Church in OpenStreetMap, which lines up within about 1 metre. Estimated error about 3 metres; long side 089° true. Wall and roof heights are estimates. Sources: RCAHMW / National Monuments Record of Wales; OS 25-inch map, National Library of Scotland (CC-BY); © OpenStreetMap contributors (ODbL); terrain from EU-DEM (Copernicus).",
+   "cy": "Safle bras yr hen faenordy, o arolwg mesuredig 1974, wedi’i osod dros y stryd heddiw. Dull: gosodwyd cynllun mesuredig CBHC 1974 (1:100) ar y tŷ a ddangosir ar fap 25 modfedd yr Arolwg Ordnans o tua 1900, a’i wirio yn erbyn Eglwys Sant Dochdwy yn OpenStreetMap, sy’n cyfateb o fewn tua metr. Gwall amcangyfrifedig tua 3 metr; ochr hir 089° gwir. Amcangyfrif yw uchder y waliau a’r to. Ffynonellau: CBHC / Cofnod Henebion Cenedlaethol Cymru; map 25 modfedd yr AO, Llyfrgell Genedlaethol yr Alban (CC-BY); © cyfranwyr OpenStreetMap (ODbL); tirwedd o EU-DEM (Copernicus).",
+   "es": "Posición aproximada de la antigua casa señorial, según el levantamiento medido de 1974, superpuesta a la calle actual. Método: la planta medida de la RCAHMW de 1974 (1:100) se ajustó a la casa dibujada en el mapa de 25 pulgadas del Ordnance Survey de hacia 1900 y se comprobó con la iglesia de St Dochdwy en OpenStreetMap, que coincide con un margen de alrededor de 1 metro. Error estimado de unos 3 metros; lado largo a 089° verdadero. La altura de muros y tejado es una estimación. Fuentes: RCAHMW / National Monuments Record of Wales; mapa de 25 pulgadas del OS, Biblioteca Nacional de Escocia (CC-BY); © colaboradores de OpenStreetMap (ODbL); terreno de EU-DEM (Copernicus)."
+  },
+  "w_map_h": {
+   "en": "The route",
+   "cy": "Y llwybr",
+   "es": "El recorrido"
+  },
+  "w_map_p": {
+   "en": "Schematic route, not to scale. Tap a stop to open it.",
+   "cy": "Llwybr sgematig, nid wrth raddfa. Tapiwch arhosfan i’w agor.",
+   "es": "Recorrido esquemático, sin escala. Toque una parada para abrirla."
+  },
+  "w_stop": {
+   "en": "Stop",
+   "cy": "Arhosfan",
+   "es": "Parada"
+  },
+  "w_of": {
+   "en": "of",
+   "cy": "o",
+   "es": "de"
+  },
+  "w_prev": {
+   "en": "Previous",
+   "cy": "Blaenorol",
+   "es": "Anterior"
+  },
+  "w_next": {
+   "en": "Next stop",
+   "cy": "Arhosfan nesaf",
+   "es": "Siguiente parada"
+  },
+  "w_listen": {
+   "en": "Listen",
+   "cy": "Gwrando",
+   "es": "Escuchar"
+  },
+  "w_stoplisten": {
+   "en": "Stop",
+   "cy": "Stopio",
+   "es": "Parar"
+  },
+  "w_records": {
+   "en": "On the record",
+   "cy": "Ar gofnod",
+   "es": "En el registro"
+  },
+  "w_overlay": {
+   "en": "In the headset",
+   "cy": "Yn y penset",
+   "es": "En las gafas"
+  },
+  "w_now": {
+   "en": "There today",
+   "cy": "Yno heddiw",
+   "es": "Hoy allí"
+  },
+  "w_open": {
+   "en": "Still open",
+   "cy": "Ar agor o hyd",
+   "es": "Aún abierto"
+  },
+  "w_nomuseum_h": {
+   "en": "Why there is no museum stop",
+   "cy": "Pam nad oes arhosfan amgueddfa",
+   "es": "Por qué no hay parada en un museo"
+  },
+  "w_nomuseum_p": {
+   "en": "The tour does not visit a museum. The house’s furniture and treasures are still being traced, and the family hopes to see them shown one day at the museum of Great House II in Patagonia.",
+   "cy": "Nid yw’r daith yn ymweld ag amgueddfa. Mae dodrefn a thrysorau’r tŷ yn dal i gael eu holrhain, ac mae’r teulu’n gobeithio eu gweld ryw ddydd yn amgueddfa Great House II ym Mhatagonia.",
+   "es": "El recorrido no visita ningún museo. Los muebles y tesoros de la casa todavía se están rastreando, y la familia espera verlos algún día en el museo de Great House II en la Patagonia."
+  },
+  "w_shop_h": {
+   "en": "Tickets: not on sale yet",
+   "cy": "Tocynnau: dim ar werth eto",
+   "es": "Entradas: aún no a la venta"
+  },
+  "w_shop_p": {
+   "en": "Tour tickets are not on sale yet. You can pre-order the tour now as a gift voucher, exchanged for tickets when tours open. Valid 24 months; full refund on request if tours have not opened within 12 months.",
+   "cy": "Nid yw tocynnau’r daith ar werth eto. Gallwch archebu’r daith ymlaen llaw nawr fel taleb rodd, i’w chyfnewid am docynnau pan fydd teithiau’n agor. Dilys am 24 mis; ad-daliad llawn ar gais os na fydd teithiau wedi agor o fewn 12 mis.",
+   "es": "Las entradas aún no están a la venta. Puede reservar ya la visita como vale regalo, que se canjea por entradas cuando abran las visitas. Válido 24 meses; reembolso íntegro si las visitas no han abierto en 12 meses."
+  },
+  "w_shop_cta": {
+   "en": "Pre-order a gift voucher",
+   "cy": "Archebu taleb rodd ymlaen llaw",
+   "es": "Reservar un vale regalo"
+  },
+  "w_ebooks": {
+   "en": "E-books · first editions free",
+   "cy": "E-lyfrau · argraffiadau cyntaf am ddim",
+   "es": "Libros electrónicos · primeras ediciones gratis"
+  },
+  "w_cross_h": {
+   "en": "Across the sea: Cedwyn Estate II",
+   "cy": "Dros y môr: Ystâd Cedwyn II",
+   "es": "Al otro lado del mar: Cedwyn Estate II"
+  },
+  "w_cross_p": {
+   "en": "Great House II in Patagonia: the house rebuilt, a retreat, and the museum.",
+   "cy": "Great House II ym Mhatagonia: y tŷ wedi’i ailadeiladu, encil, a’r amgueddfa.",
+   "es": "Great House II en la Patagonia: la casa reconstruida, un retiro y el museo."
+  },
+  "menu_h": {
+   "en": "Every layer of the record",
+   "cy": "Pob haen o’r cofnod",
+   "es": "Todas las capas del registro"
+  },
+  "menu_p": {
+   "en": "The same database, shown {n} ways, grouped as past and present.",
+   "cy": "Yr un gronfa ddata, wedi’i dangos mewn {n} ffordd, wedi’u grwpio’n orffennol a phresennol.",
+   "es": "La misma base de datos, mostrada de {n} maneras, agrupadas en pasado y presente."
+  },
+  "g_past": {
+   "en": "Past",
+   "cy": "Y Gorffennol",
+   "es": "Pasado"
+  },
+  "g_present": {
+   "en": "Present",
+   "cy": "Y Presennol",
+   "es": "Presente"
+  },
+  "g_past_p": {
+   "en": "History and evidence",
+   "cy": "Hanes a thystiolaeth",
+   "es": "Historia y pruebas"
+  },
+  "g_present_p": {
+   "en": "Research, requests, tools and shop today",
+   "cy": "Ymchwil, ceisiadau, offer a siop heddiw",
+   "es": "Investigación, solicitudes, herramientas y tienda hoy"
+  },
+  "a_kick": {
+   "en": "Puerto Madryn · Chubut · Patagonia",
+   "cy": "Puerto Madryn · Chubut · Patagonia",
+   "es": "Puerto Madryn · Chubut · Patagonia"
+  },
+  "a_h1": {
+   "en": "Cedwyn Estate II, Patagonia",
+   "cy": "Ystâd Cedwyn II, Patagonia",
+   "es": "Cedwyn Estate II, Patagonia"
+  },
+  "a_h2": {
+   "en": "Great House II · the retreat",
+   "cy": "Great House II · yr encil",
+   "es": "Great House II · el retiro"
+  },
+  "a_lede": {
+   "en": "The Great House of Llandough, rebuilt in Patagonia where the Welsh landed in 1865: a ten-bedroom house, stables, a barn, a B&B cottage and a museum. Stay in a room, take the cottage, hire the whole house, or marry here.",
+   "cy": "Tŷ Mawr Llandochau, wedi’i ailadeiladu ym Mhatagonia lle glaniodd y Cymry yn 1865: tŷ deg ystafell wely, stablau, ysgubor, bwthyn gwely a brecwast ac amgueddfa. Arhoswch mewn ystafell, cymerwch y bwthyn, llogwch y tŷ cyfan, neu priodwch yma.",
+   "es": "La Gran Casa de Llandough, reconstruida en la Patagonia donde desembarcaron los galeses en 1865: una casa de diez dormitorios, caballerizas, un granero, una cabaña con desayuno y un museo. Alójese en una habitación, alquile la cabaña o la casa entera, o cásese aquí."
+  },
+  "a_soon": {
+   "en": "Opening plans · pre-orders open",
+   "cy": "Cynlluniau agor · rhag-archebion ar agor",
+   "es": "Planes de apertura · reservas anticipadas abiertas"
+  },
+  "a_build": {
+   "en": "Build your trip",
+   "cy": "Adeiladu’ch taith",
+   "es": "Arme su viaje"
+  },
+  "a_caso": {
+   "en": "The family’s case",
+   "cy": "Achos y teulu",
+   "es": "El caso de la familia"
+  },
+  "a_menu": {
+   "en": "Menu",
+   "cy": "Dewislen",
+   "es": "Menú"
+  },
+  "a_house_h": {
+   "en": "The house",
+   "cy": "Y tŷ",
+   "es": "La casa"
+  },
+  "a_house_p": {
+   "en": "A faithful replica of Tŷ Mawr, the Great House of Llandough, demolished in 1988, built new from the 1974 survey and the family album. Ten bedrooms, a drawing room and a museum hall, furnished with pieces from Cardiff Castle being sourced from Welsh antique dealers.",
+   "cy": "Atgynhyrchiad ffyddlon o Dŷ Mawr, Llandochau, a ddymchwelwyd yn 1988, wedi’i godi o’r newydd o arolwg 1974 ac albwm y teulu. Deg ystafell wely, ystafell groeso a neuadd amgueddfa, wedi’u dodrefnu â darnau o Gastell Caerdydd sy’n cael eu casglu gan werthwyr hen bethau yng Nghymru.",
+   "es": "Una réplica fiel de Tŷ Mawr, la Gran Casa de Llandough, derribada en 1988, construida de nuevo a partir del estudio de 1974 y del álbum familiar. Diez dormitorios, un salón y una sala de museo, amueblados con piezas del Castillo de Cardiff que se están buscando en anticuarios galeses."
+  },
+  "a_feat1": {
+   "en": "10 bedrooms",
+   "cy": "10 ystafell wely",
+   "es": "10 dormitorios"
+  },
+  "a_feat2": {
+   "en": "Stables and riding",
+   "cy": "Stablau a marchogaeth",
+   "es": "Caballerizas y paseos a caballo"
+  },
+  "a_feat3": {
+   "en": "The barn: hall and cinema",
+   "cy": "Yr ysgubor: neuadd a sinema",
+   "es": "El granero: salón y cine"
+  },
+  "a_feat4": {
+   "en": "B&B cottage",
+   "cy": "Bwthyn gwely a brecwast",
+   "es": "Cabaña con desayuno"
+  },
+  "a_feat5": {
+   "en": "Weddings and gatherings",
+   "cy": "Priodasau a chynulliadau",
+   "es": "Bodas y celebraciones"
+  },
+  "a_feat6": {
+   "en": "The museum",
+   "cy": "Yr amgueddfa",
+   "es": "El museo"
+  },
+  "cap_ext": {
+   "en": "Great House II, the replica house",
+   "cy": "Great House II, y tŷ atgynhyrchiad",
+   "es": "Great House II, la casa réplica"
+  },
+  "cap_bed": {
+   "en": "A bedroom, with Cardiff Castle furniture",
+   "cy": "Ystafell wely, gyda dodrefn Castell Caerdydd",
+   "es": "Un dormitorio, con muebles del Castillo de Cardiff"
+  },
+  "cap_draw": {
+   "en": "The drawing room",
+   "cy": "Yr ystafell groeso",
+   "es": "El salón"
+  },
+  "cap_stab": {
+   "en": "The stables",
+   "cy": "Y stablau",
+   "es": "Las caballerizas"
+  },
+  "cap_barn": {
+   "en": "The barn hall and cinema",
+   "cy": "Neuadd a sinema’r ysgubor",
+   "es": "El salón y cine del granero"
+  },
+  "cap_cot": {
+   "en": "The B&B cottage",
+   "cy": "Y bwthyn gwely a brecwast",
+   "es": "La cabaña con desayuno"
+  },
+  "cap_wed": {
+   "en": "A wedding on the lawn",
+   "cy": "Priodas ar y lawnt",
+   "es": "Una boda en el jardín"
+  },
+  "cap_villa": {
+   "en": "The whole estate, from the air",
+   "cy": "Yr ystâd gyfan, o’r awyr",
+   "es": "Toda la finca, desde el aire"
+  },
+  "cap_mus": {
+   "en": "The museum hall: wax figures of Marconi and “Peerless” Jim Driscoll",
+   "cy": "Neuadd yr amgueddfa: ffigurau cwyr Marconi a Jim Driscoll “Peerless”",
+   "es": "La sala del museo: figuras de cera de Marconi y Jim “Peerless” Driscoll"
+  },
+  "mu_h": {
+   "en": "The museum",
+   "cy": "Yr amgueddfa",
+   "es": "El museo"
+  },
+  "mu_p": {
+   "en": "The house’s story from the 1392 boundary records to 1988: the Williams family, the manor courts that met in the house, life-size wax figures of Guglielmo Marconi and “Peerless” Jim Driscoll, films in the barn cinema, and space kept for the house’s own furniture and treasures, which the family hopes to bring home.",
+   "cy": "Stori’r tŷ o gofnodion ffiniau 1392 hyd 1988: teulu Williams, y llysoedd maenor a gyfarfu yn y tŷ, ffigurau cwyr maint llawn o Guglielmo Marconi a “Peerless” Jim Driscoll, ffilmiau yn sinema’r sgubor, a lle wedi’i gadw i ddodrefn a thrysorau’r tŷ ei hun, y mae’r teulu’n gobeithio eu dwyn adref.",
+   "es": "La historia de la casa desde los registros de lindes de 1392 hasta 1988: la familia Williams, los tribunales señoriales que se reunían en la casa, figuras de cera a tamaño real de Guglielmo Marconi y “Peerless” Jim Driscoll, películas en el cine del granero y un espacio reservado para los muebles y tesoros de la propia casa, que la familia espera traer de vuelta."
+  },
+  "b_h": {
+   "en": "Package builder",
+   "cy": "Adeiladwr pecyn",
+   "es": "Configurador de paquete"
+  },
+  "b_p": {
+   "en": "Put your trip together: a place to stay, flights to Trelew, a hire car. Prices are indicative. Nothing is charged: you send a pre-order request and we reply when bookings open.",
+   "cy": "Rhowch eich taith at ei gilydd: lle i aros, hediadau i Trelew, car llog. Mae’r prisiau’n fras. Ni chodir dim: rydych yn anfon cais rhag-archeb ac rydym yn ateb pan fydd archebion yn agor.",
+   "es": "Arme su viaje: alojamiento, vuelos a Trelew y coche de alquiler. Los precios son orientativos. No se cobra nada: envía una solicitud de reserva anticipada y le respondemos cuando abran las reservas."
+  },
+  "b_s1": {
+   "en": "Stay",
+   "cy": "Aros",
+   "es": "Alojamiento"
+  },
+  "b_s2": {
+   "en": "Flights",
+   "cy": "Hediadau",
+   "es": "Vuelos"
+  },
+  "b_s3": {
+   "en": "Car",
+   "cy": "Car",
+   "es": "Coche"
+  },
+  "b_s4": {
+   "en": "Summary",
+   "cy": "Crynodeb",
+   "es": "Resumen"
+  },
+  "b_venue": {
+   "en": "Choose where to stay",
+   "cy": "Dewiswch ble i aros",
+   "es": "Elija dónde alojarse"
+  },
+  "v_room": {
+   "en": "B&B room in the house",
+   "cy": "Ystafell wely a brecwast yn y tŷ",
+   "es": "Habitación con desayuno en la casa"
+  },
+  "v_room_d": {
+   "en": "Per room per night, breakfast included, up to 2 guests a room",
+   "cy": "Fesul ystafell y noson, brecwast yn gynwysedig, hyd at 2 westai",
+   "es": "Por habitación y noche, desayuno incluido, hasta 2 personas"
+  },
+  "v_cottage": {
+   "en": "The B&B cottage",
+   "cy": "Y bwthyn gwely a brecwast",
+   "es": "La cabaña con desayuno"
+  },
+  "v_cottage_d": {
+   "en": "Whole cottage per night, sleeps 4",
+   "cy": "Y bwthyn cyfan y noson, i 4",
+   "es": "Cabaña entera por noche, 4 plazas"
+  },
+  "v_villa": {
+   "en": "The whole house (villa)",
+   "cy": "Y tŷ cyfan (fila)",
+   "es": "La casa entera (villa)"
+  },
+  "v_villa_d": {
+   "en": "All 10 bedrooms per night, sleeps 20",
+   "cy": "Pob un o’r 10 ystafell y noson, i 20",
+   "es": "Los 10 dormitorios por noche, 20 plazas"
+  },
+  "v_wed": {
+   "en": "Wedding venue",
+   "cy": "Lleoliad priodas",
+   "es": "Lugar para bodas"
+  },
+  "v_wed_d": {
+   "en": "Barn, lawn and house for the day, up to 120 guests",
+   "cy": "Ysgubor, lawnt a thŷ am y diwrnod, hyd at 120 o westeion",
+   "es": "Granero, jardín y casa por un día, hasta 120 invitados"
+  },
+  "b_in": {
+   "en": "Arrive",
+   "cy": "Cyrraedd",
+   "es": "Llegada"
+  },
+  "b_out": {
+   "en": "Leave",
+   "cy": "Gadael",
+   "es": "Salida"
+  },
+  "b_guests": {
+   "en": "Guests",
+   "cy": "Gwesteion",
+   "es": "Personas"
+  },
+  "b_rooms": {
+   "en": "Rooms",
+   "cy": "Ystafelloedd",
+   "es": "Habitaciones"
+  },
+  "b_nights": {
+   "en": "nights",
+   "cy": "noson",
+   "es": "noches"
+  },
+  "b_from": {
+   "en": "Flying from",
+   "cy": "Hedfan o",
+   "es": "Salida desde"
+  },
+  "b_nofly": {
+   "en": "No flights, thanks",
+   "cy": "Dim hediadau, diolch",
+   "es": "Sin vuelos, gracias"
+  },
+  "b_fly_d": {
+   "en": "Return, economy, per person, to Trelew (REL) for Puerto Madryn",
+   "cy": "Dychwel, economi, y pen, i Trelew (REL) ar gyfer Puerto Madryn",
+   "es": "Ida y vuelta, turista, por persona, a Trelew (REL) para Puerto Madryn"
+  },
+  "b_flyers": {
+   "en": "Travellers flying",
+   "cy": "Teithwyr yn hedfan",
+   "es": "Viajeros en avión"
+  },
+  "b_car": {
+   "en": "Hire car",
+   "cy": "Car llog",
+   "es": "Coche de alquiler"
+  },
+  "b_nocar": {
+   "en": "No car",
+   "cy": "Dim car",
+   "es": "Sin coche"
+  },
+  "c_compact": {
+   "en": "Compact",
+   "cy": "Bach",
+   "es": "Compacto"
+  },
+  "c_4x4": {
+   "en": "4x4 SUV",
+   "cy": "SUV 4x4",
+   "es": "SUV 4x4"
+  },
+  "c_van": {
+   "en": "9-seat minibus",
+   "cy": "Bws mini 9 sedd",
+   "es": "Minibús de 9 plazas"
+  },
+  "b_pick": {
+   "en": "Collect at",
+   "cy": "Casglu yn",
+   "es": "Recogida en"
+  },
+  "p_rel": {
+   "en": "Trelew airport (REL)",
+   "cy": "Maes awyr Trelew (REL)",
+   "es": "Aeropuerto de Trelew (REL)"
+  },
+  "p_pmy": {
+   "en": "Puerto Madryn",
+   "cy": "Puerto Madryn",
+   "es": "Puerto Madryn"
+  },
+  "b_perday": {
+   "en": "per day",
+   "cy": "y dydd",
+   "es": "por día"
+  },
+  "b_total": {
+   "en": "Indicative total",
+   "cy": "Cyfanswm bras",
+   "es": "Total orientativo"
+  },
+  "b_ind": {
+   "en": "Indicative prices in pounds sterling. Final prices, dates and availability are confirmed only when bookings open.",
+   "cy": "Prisiau bras mewn punnoedd sterling. Caiff prisiau, dyddiadau ac argaeledd terfynol eu cadarnhau dim ond pan fydd archebion yn agor.",
+   "es": "Precios orientativos en libras esterlinas. Los precios, fechas y disponibilidad finales se confirman solo cuando abran las reservas."
+  },
+  "b_back": {
+   "en": "Back",
+   "cy": "Yn ôl",
+   "es": "Atrás"
+  },
+  "b_cont": {
+   "en": "Continue",
+   "cy": "Ymlaen",
+   "es": "Continuar"
+  },
+  "b_name": {
+   "en": "Your name",
+   "cy": "Eich enw",
+   "es": "Su nombre"
+  },
+  "b_email": {
+   "en": "Email",
+   "cy": "E-bost",
+   "es": "Correo electrónico"
+  },
+  "b_note": {
+   "en": "Anything else (optional)",
+   "cy": "Unrhyw beth arall (dewisol)",
+   "es": "Algo más (opcional)"
+  },
+  "b_ok": {
+   "en": "Email me about this pre-order and when Great House II opens for bookings. Nothing is charged.",
+   "cy": "E-bostiwch fi am y rhag-archeb hon a phan fydd Great House II yn agor i archebion. Ni chodir dim.",
+   "es": "Escríbanme sobre esta reserva anticipada y cuando Great House II abra las reservas. No se cobra nada."
+  },
+  "b_send": {
+   "en": "Send pre-order request",
+   "cy": "Anfon cais rhag-archeb",
+   "es": "Enviar solicitud de reserva"
+  },
+  "b_sending": {
+   "en": "Sending…",
+   "cy": "Yn anfon…",
+   "es": "Enviando…"
+  },
+  "b_done": {
+   "en": "Your pre-order request reference:",
+   "cy": "Cyfeirnod eich cais rhag-archeb:",
+   "es": "Referencia de su solicitud de reserva:"
+  },
+  "b_done2": {
+   "en": "This is a request, not a confirmed booking. We will email you when bookings open.",
+   "cy": "Cais yw hwn, nid archeb wedi’i chadarnhau. Byddwn yn e-bostio pan fydd archebion yn agor.",
+   "es": "Esto es una solicitud, no una reserva confirmada. Le escribiremos cuando abran las reservas."
+  },
+  "b_err": {
+   "en": "Please check the dates, your email and the tick box.",
+   "cy": "Gwiriwch y dyddiadau, eich e-bost a’r blwch ticio.",
+   "es": "Revise las fechas, su correo y la casilla."
+  },
+  "b_err_send": {
+   "en": "That did not send. Please try again.",
+   "cy": "Ni anfonwyd hynny. Rhowch gynnig arall arni.",
+   "es": "No se ha podido enviar. Inténtelo de nuevo."
+  },
+  "b_quote": {
+   "en": "price on request",
+   "cy": "pris ar gais",
+   "es": "precio a consultar"
+  },
+  "a_retell_h": {
+   "en": "The story, retold",
+   "cy": "Y stori, wedi’i hailadrodd",
+   "es": "La historia, contada de nuevo"
+  },
+  "a_retell_p": {
+   "en": "The house’s story from 1392 to today, in the family’s voice, with every record behind it.",
+   "cy": "Stori’r tŷ o 1392 hyd heddiw, yn llais y teulu, gyda phob cofnod y tu ôl iddi.",
+   "es": "La historia de la casa desde 1392 hasta hoy, con la voz de la familia y cada registro detrás."
+  },
+  "a_cross_h": {
+   "en": "Where the story comes from: Wales",
+   "cy": "O ble daw’r stori: Cymru",
+   "es": "De dónde viene la historia: Gales"
+  },
+  "a_cross_p": {
+   "en": "The augmented-reality guided tour of Cedwyn Estate, Llandough.",
+   "cy": "Taith dywys realiti estynedig Ystâd Cedwyn, Llandochau.",
+   "es": "La visita guiada en realidad aumentada de Cedwyn Estate, Llandough."
+  },
+  "tl_link": {
+   "en": "Timeline",
+   "cy": "Llinell amser",
+   "es": "Cronología"
+  },
+  "land_intro": {
+   "en": "In Wales research is ongoing, disclosure is demanded and the heritage, here still. In Patagonia the estate is reconstructed, the history celebrated, the story continues.",
+   "cy": "Yng Nghymru mae’r ymchwil yn parhau, mynnir datgelu, a’r dreftadaeth yma o hyd. Ym Mhatagonia mae’r ystâd yn cael ei hailadeiladu, dethlir yr hanes, ac mae’r stori’n parhau.",
+   "es": "En Gales la investigación continúa, se exige la divulgación y el patrimonio sigue aquí. En la Patagonia la finca se reconstruye, se celebra la historia y el relato continúa."
+  },
+  "flag_wales": {
+   "en": "Flag of Wales, Y Ddraig Goch",
+   "cy": "Baner Cymru, Y Ddraig Goch",
+   "es": "Bandera de Gales, Y Ddraig Goch"
+  },
+  "b_mc": {
+   "en": "Nearly there: we have emailed you a confirm link. Tap it and the request is sent.",
+   "cy": "Bron yno: rydym wedi anfon dolen gadarnhau atoch drwy e-bost. Tapiwch hi ac mae’r cais yn cael ei anfon.",
+   "es": "Casi listo: le hemos enviado un enlace de confirmación por correo. Púlselo y la solicitud queda enviada."
+  },
+  "w_more": {
+   "en": "Read more",
+   "cy": "Darllen mwy",
+   "es": "Leer más"
+  },
+  "tc_link": {
+   "en": "Title chain, link by link →",
+   "cy": "Cadwyn y teitl, ddolen wrth ddolen →",
+   "es": "Cadena del título, eslabón por eslabón →"
+  },
+  "land_dart": {
+   "en": "Disclosure Dartboard",
+   "cy": "Bwrdd Dartiau Datgelu",
+   "es": "Diana de la Divulgación"
+  },
+  "land_mail": {
+   "en": "Email archive",
+   "cy": "Archif e-bost",
+   "es": "Archivo de correo"
+  },
+  "ra_real": {
+   "en": "Real",
+   "cy": "Go iawn",
+   "es": "Real"
+  },
+  "ra_ar": {
+   "en": "Augmented (AR)",
+   "cy": "Estynedig (RE)",
+   "es": "Aumentada (RA)"
+  },
+  "w_holo_real": {
+   "en": "St Dochdwy’s Church and today’s houses",
+   "cy": "Eglwys St Dochdwy a’r tai heddiw",
+   "es": "La iglesia de St Dochdwy y las casas de hoy"
+  },
+  "w_holo_ar": {
+   "en": "the former manorial house and its outbuildings",
+   "cy": "y cyn-dŷ maenor a’i adeiladau allan",
+   "es": "la antigua casa señorial y sus dependencias"
+  },
+  "a_feat7": {
+   "en": "Church and Celtic cross",
+   "cy": "Eglwys a chroes Geltaidd",
+   "es": "Iglesia y cruz celta"
+  },
+  "holo_tag": {
+   "en": "Wireframe · artist's impression",
+   "cy": "Fframgwifren · argraff arlunydd",
+   "es": "Alámbrico · impresión artística"
+  }
+ },
+ "venues": [
+  {
+   "id": "room",
+   "price": 95,
+   "unit": "room_night",
+   "cap": 2,
+   "max": 10
+  },
+  {
+   "id": "cottage",
+   "price": 180,
+   "unit": "night",
+   "cap": 4
+  },
+  {
+   "id": "villa",
+   "price": 1450,
+   "unit": "night",
+   "cap": 20
+  },
+  {
+   "id": "wed",
+   "price": 6500,
+   "unit": "day",
+   "cap": 120
+  }
+ ],
+ "airports": [
+  [
+   "LHR",
+   "London Heathrow",
+   1150
+  ],
+  [
+   "CWL",
+   "Cardiff",
+   1250
+  ],
+  [
+   "BRS",
+   "Bristol",
+   1220
+  ],
+  [
+   "MAN",
+   "Manchester",
+   1180
+  ],
+  [
+   "DUB",
+   "Dublin",
+   1200
+  ],
+  [
+   "MAD",
+   "Madrid",
+   950
+  ],
+  [
+   "JFK",
+   "New York JFK",
+   1050
+  ],
+  [
+   "EZE",
+   "Buenos Aires",
+   220
+  ],
+  [
+   "OTHER",
+   "Other",
+   null
+  ]
+ ],
+ "cars": [
+  [
+   "compact",
+   45
+  ],
+  [
+   "4x4",
+   85
+  ],
+  [
+   "van",
+   140
+  ]
+ ],
+ "groups": {
+  "past": [
+   "records",
+   "docs",
+   "wayback",
+   "nomenclature",
+   "maps",
+   "infographic",
+   "wiki",
+   "story",
+   "thousand-cuts",
+   "fb",
+   "oldbill",
+   "courtdrills",
+   "accounts",
+   "terrain",
+   "patagonia",
+   "estate"
+  ],
+  "present": [
+   "research",
+   "wdtk",
+   "authorities",
+   "review",
+   "meeting",
+   "projects",
+   "watchtower",
+   "fcg",
+   "app",
+   "chat",
+   "qa",
+   "email",
+   "emails",
+   "fb2",
+   "dartboard",
+   "directory",
+   "cyberspace",
+   "chess",
+   "csscpsg",
+   "ebooks",
+   "shop",
+   "wales",
+   "movie",
+   "kissed-frogs"
+  ],
+  "default": "present",
+  "wales_exclude": [
+   "story",
+   "patagonia"
+  ],
+  "argentina_exclude": [
+   "wales",
+   "whattheydontsay",
+   "blog",
+   "familytree"
+  ],
+  "past_pages": [
+   {
+    "id": "title-chain",
+    "title": {
+     "en": "Title chain",
+     "cy": "Cadwyn y teitl",
+     "es": "Cadena del título"
+    }
+   }
+  ]
+ },
+ "wales_title_map": {
+  "The Farm Album": "The House Album",
+  "farmbook 2 · Today": "The House Book · Today",
+  "Great House Farm II · Patagonia Museum": "Great House II · Patagonia",
+  "Albwm y Fferm": "Albwm y Tŷ",
+  "El Álbum de la Granja": "El Álbum de la Casa",
+  "Virtual Tour · Wales": "Tour tickets and vouchers"
+ },
+ "headlines": {
+  "t": {
+   "hl_h": {
+    "en": "The story in headlines",
+    "cy": "Y stori mewn penawdau",
+    "es": "La historia en titulares"
+   },
+   "hl_more": {
+    "en": "Read more",
+    "cy": "Darllen mwy",
+    "es": "Leer más"
+   },
+   "hl_rec": {
+    "en": "Record",
+    "cy": "Cofnod",
+    "es": "Registro"
+   }
+  },
+  "wales": [
+   {
+    "h": {
+     "en": "The chief freehold house of the parish",
+     "cy": "Prif dŷ rhydd-ddaliad y plwyf",
+     "es": "La principal casa de dominio pleno de la parroquia"
+    },
+    "d": {
+     "en": "Heneb’s historic environment record, quoted to this archive by the Royal Commission, ranks the Great House beside St Dochdwy’s church as the parish’s chief freehold holding, and found inside it details that pointed to the seventeenth century.",
+     "cy": "Mae cofnod amgylchedd hanesyddol Heneb, a ddyfynnwyd i’r archif hon gan y Comisiwn Brenhinol, yn rhestru Tŷ Mawr wrth eglwys Sant Dochdwy fel prif ddaliad rhydd-ddaliad y plwyf, a chafwyd ynddo fanylion a awgrymai’r ail ganrif ar bymtheg.",
+     "es": "El registro de patrimonio de Heneb, citado a este archivo por la Comisión Real, sitúa la Casa Grande, junto a la iglesia de San Dochdwy, como la principal propiedad de dominio pleno de la parroquia, y halló en su interior detalles que apuntaban al siglo XVII."
+    },
+    "href": [
+     "/research/evidence/rcahmw-correspondence/"
+    ]
+   },
+   {
+    "h": {
+     "en": "The manor courts met in the Williams family’s house",
+     "cy": "Yng nghartref teulu Williams y cyfarfu llysoedd y faenor",
+     "es": "Los tribunales señoriales se reunían en la casa de los Williams"
+    },
+    "d": {
+     "en": "The same record places the manorial courts of Llandough and Leckwith at the Great House. In 1908 the manor court remembered John Williams of the Great House as “for many years a juror of the court”.",
+     "cy": "Mae’r un cofnod yn gosod llysoedd maenor Llandochau a Lecwydd yn Nhŷ Mawr. Yn 1908 cofiodd llys y faenor am John Williams, Tŷ Mawr, fel “for many years a juror of the court”.",
+     "es": "El mismo registro sitúa los tribunales señoriales de Llandough y Leckwith en la Casa Grande. En 1908 el tribunal señorial recordó a John Williams, de la Casa Grande, como “for many years a juror of the court”."
+    },
+    "href": [
+     "/research/evidence/rcahmw-correspondence/",
+     "/research/evidence/ev-0243-barry-dock-news-1908-court-leet-john-williams-great-house/"
+    ]
+   },
+   {
+    "h": {
+     "en": "Generations on the record",
+     "cy": "Cenedlaethau ar gofnod",
+     "es": "Generaciones en el registro"
+    },
+    "d": {
+     "en": "About 1841 the tithe enters John Williams on 36 plots, the whole Great House holding. ⟦In 1855 a John Williams succeeded his father there.⟧ His granddaughter Mary (Nancy) Williams lived in the house until her death in 1983.",
+     "cy": "Tua 1841 mae’r degwm yn rhoi John Williams ar 36 llain, holl ddaliad Tŷ Mawr. ⟦Yn 1855 olynodd John Williams ei dad yno.⟧ Bu ei wyres Mary (Nancy) Williams yn byw yn y tŷ hyd ei marw yn 1983.",
+     "es": "Hacia 1841 el diezmo inscribe a John Williams en 36 parcelas, toda la finca de la Casa Grande. ⟦En 1855 un John Williams sucedió allí a su padre.⟧ Su nieta Mary (Nancy) Williams vivió en la casa hasta su muerte en 1983."
+    },
+    "href": [
+     "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+     "/research/evidence/ev-0227-cardiff-times-1904-john-williams-tenancy-since-1855/"
+    ]
+   },
+   {
+    "h": {
+     "en": "1667: the Williams family acquires Tŷ Mawr",
+     "cy": "1667: teulu Williams yn caffael Tŷ Mawr",
+     "es": "1667: la familia Williams adquiere Tŷ Mawr"
+    },
+    "d": {
+     "en": "The Williams family acquired Tŷ Mawr in 1667 (Mary Williams’ statement, 1974 newspapers; ITV News, 1988). The first record found that names the house is the Bute estate’s own survey of 1824: a description an estate wrote of itself, not a deed. Records dated before 1824 are not records of Tŷ Mawr.",
+     "cy": "Cafodd teulu Williams Dŷ Mawr yn 1667 (datganiad Mary Williams, papurau newydd 1974; ITV News, 1988). Y cofnod cyntaf a gafwyd sy’n enwi’r tŷ yw arolwg ystad Bute ei hun yn 1824: disgrifiad a ysgrifennodd ystad ohoni ei hun, nid gweithred. Nid cofnodion o Dŷ Mawr yw cofnodion a ddyddiwyd cyn 1824.",
+     "es": "La familia Williams adquirió Tŷ Mawr en 1667 (declaración de Mary Williams, prensa de 1974; ITV News, 1988). El primer registro hallado que nombra la casa es el propio catastro de la hacienda Bute de 1824: una descripción que una hacienda hizo de sí misma, no una escritura. Los registros fechados antes de 1824 no son registros de Tŷ Mawr."
+    },
+    "href": [
+     "/research/evidence/ev-0211-db-e-1-plan-19-cedfin-ty-mawr-1824/"
+    ]
+   },
+   {
+    "h": {
+     "en": "An ancient Welsh house, and 1,700 names to save it",
+     "cy": "Hen dŷ Cymreig, a 1,700 o enwau i’w achub",
+     "es": "Una antigua casa galesa y 1.700 firmas para salvarla"
+    },
+    "d": {
+     "en": "In April 1974 the national press reported an open day to save “an ancient Welsh house”, Tŷ Mawr, Llandough. A local history records that 1,700 people signed a petition for its preservation that year.",
+     "cy": "Ym mis Ebrill 1974 adroddodd y wasg genedlaethol am ddiwrnod agored i achub “an ancient Welsh house”, Tŷ Mawr, Llandochau. Mae hanes lleol yn cofnodi i 1,700 o bobl lofnodi deiseb i’w gadw y flwyddyn honno.",
+     "es": "En abril de 1974 la prensa nacional informó de una jornada de puertas abiertas para salvar “an ancient Welsh house”, Tŷ Mawr, Llandough. Una historia local recoge que ese año 1.700 personas firmaron una petición para conservarla."
+    },
+    "href": [
+     "/research/evidence/ev-0048-telegraph-open-day-ancient-house/"
+    ]
+   },
+   {
+    "h": {
+     "en": "Pulled down in 1988",
+     "cy": "Ei chwalu yn 1988",
+     "es": "Derribada en 1988"
+    },
+    "d": {
+     "en": "The house came down in 1988. Church View Close now stands on its courtyard, plot 209 of the tithe.",
+     "cy": "Chwalwyd y tŷ yn 1988. Saif Church View Close heddiw ar ei glos, llain 209 y degwm.",
+     "es": "La casa fue derribada en 1988. Church View Close ocupa hoy su patio, la parcela 209 del diezmo."
+    },
+    "href": [
+     "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+    ]
+   }
+  ],
+  "argentina": [
+   {
+    "h": {
+     "en": "The Great House, rebuilt on the steppe",
+     "cy": "Tŷ Mawr, wedi’i ailgodi ar y paith",
+     "es": "La Casa Grande, levantada de nuevo en la estepa"
+    },
+    "d": {
+     "en": "A replica of Tŷ Mawr, the Great House of Llandough, is rising on the arid Patagonian steppe near Puerto Madryn. The house, the stables and the barn are real buildings: sleep, ride and gather in them.",
+     "cy": "Mae replica o Dŷ Mawr, Tŷ Mawr Llandochau, yn codi ar baith sych Patagonia ger Porth Madryn. Mae’r tŷ, y stablau a’r sgubor yn adeiladau go iawn: cysgu, marchogaeth a chyfarfod ynddynt.",
+     "es": "Una réplica de Tŷ Mawr, la Casa Grande de Llandough, se levanta en la árida estepa patagónica cerca de Puerto Madryn. La casa, las caballerizas y el granero son edificios reales: para dormir, cabalgar y reunirse."
+    },
+    "href": []
+   },
+   {
+    "h": {
+     "en": "Where the Welsh landed in 1865",
+     "cy": "Lle glaniodd y Cymry ym 1865",
+     "es": "Donde desembarcaron los galeses en 1865"
+    },
+    "d": {
+     "en": "In July 1865 the Mimosa brought about 150 Welsh settlers ashore at Puerto Madryn, the start of Y Wladfa, the Welsh colony in Patagonia. Great House II joins that story: a Welsh house carried across the sea.",
+     "cy": "Ym mis Gorffennaf 1865 daeth y Mimosa â thua 150 o ymfudwyr Cymreig i’r lan ym Mhorth Madryn, dechrau’r Wladfa ym Mhatagonia. Mae Tŷ Mawr II yn ymuno â’r stori honno: tŷ Cymreig wedi’i gludo dros y môr.",
+     "es": "En julio de 1865 el Mimosa desembarcó a unos 150 colonos galeses en Puerto Madryn: el comienzo de Y Wladfa, la colonia galesa de la Patagonia. Great House II se suma a esa historia: una casa galesa llevada al otro lado del mar."
+    },
+    "href": []
+   },
+   {
+    "h": {
+     "en": "The chief freehold house of the parish",
+     "cy": "Prif dŷ rhydd-ddaliad y plwyf",
+     "es": "La principal casa de dominio pleno de la parroquia"
+    },
+    "d": {
+     "en": "Heneb’s historic environment record, quoted by the Royal Commission, calls the Great House “the chief freehold farm of the parish”, and places the manor courts of Llandough and Leckwith inside it.",
+     "cy": "Mae cofnod amgylchedd hanesyddol Heneb, a ddyfynnwyd gan y Comisiwn Brenhinol, yn galw Tŷ Mawr yn “the chief freehold farm of the parish”, ac yn gosod llysoedd maenor Llandochau a Lecwydd ynddo.",
+     "es": "El registro de patrimonio de Heneb, citado por la Comisión Real, llama a la Casa Grande “the chief freehold farm of the parish” y sitúa en ella los tribunales señoriales de Llandough y Leckwith."
+    },
+    "href": [
+     "/research/evidence/rcahmw-correspondence/"
+    ]
+   },
+   {
+    "h": {
+     "en": "A juror of the manor court, not a footnote",
+     "cy": "Rheithiwr llys y faenor, nid troednodyn",
+     "es": "Jurado del tribunal señorial, no una nota al pie"
+    },
+    "d": {
+     "en": "In 1908 the manor court recorded its sympathy with the family of John Williams of the Great House, “for many years a juror of the court”. About 1841 the tithe had entered a John Williams on 36 plots, the whole holding.",
+     "cy": "Yn 1908 cofnododd llys y faenor ei gydymdeimlad â theulu John Williams, Tŷ Mawr, “for many years a juror of the court”. Tua 1841 roedd y degwm wedi rhoi John Williams ar 36 llain, yr holl ddaliad.",
+     "es": "En 1908 el tribunal señorial dejó constancia de su pésame a la familia de John Williams, de la Casa Grande, “for many years a juror of the court”. Hacia 1841 el diezmo había inscrito a un John Williams en 36 parcelas, toda la finca."
+    },
+    "href": [
+     "/research/evidence/ev-0243-barry-dock-news-1908-court-leet-john-williams-great-house/",
+     "/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/"
+    ]
+   },
+   {
+    "h": {
+     "en": "St Dochdwy’s church and the Celtic cross, in augmented reality",
+     "cy": "Eglwys St Dochdwy a’r groes Geltaidd, mewn realiti estynedig",
+     "es": "La iglesia de St Dochdwy y la cruz celta, en realidad aumentada"
+    },
+    "d": {
+     "en": "The church and the Irbic Cross stand in Llandough, Wales. At Great House II they appear beside the house in augmented reality: lift a phone or headset to see them as they stand in Llandough.",
+     "cy": "Mae’r eglwys a Chroes Irbic yn sefyll yn Llandochau, Cymru. Yn Nhŷ Mawr II maent yn ymddangos wrth ymyl y tŷ mewn realiti estynedig: codwch ffôn neu glustffonau i’w gweld fel y maent yn Llandochau.",
+     "es": "La iglesia y la Cruz de Irbic están en Llandough, Gales. En Great House II aparecen junto a la casa en realidad aumentada: levanta el teléfono o las gafas para verlas tal como están en Llandough."
+    },
+    "href": []
+   },
+   {
+    "h": {
+     "en": "An ancient Welsh house, and 1,700 names to save it",
+     "cy": "Hen dŷ Cymreig, a 1,700 o enwau i’w achub",
+     "es": "Una antigua casa galesa y 1.700 firmas para salvarla"
+    },
+    "d": {
+     "en": "In April 1974 the national press reported an open day to save “an ancient Welsh house”, Tŷ Mawr, Llandough. A local history records that 1,700 people signed a petition for its preservation that year.",
+     "cy": "Ym mis Ebrill 1974 adroddodd y wasg genedlaethol am ddiwrnod agored i achub “an ancient Welsh house”, Tŷ Mawr, Llandochau. Mae hanes lleol yn cofnodi i 1,700 o bobl lofnodi deiseb i’w gadw y flwyddyn honno.",
+     "es": "En abril de 1974 la prensa nacional informó de una jornada de puertas abiertas para salvar “an ancient Welsh house”, Tŷ Mawr, Llandough. Una historia local recoge que ese año 1.700 personas firmaron una petición para conservarla."
+    },
+    "href": [
+     "/research/evidence/ev-0048-telegraph-open-day-ancient-house/"
+    ]
+   },
+   {
+    "h": {
+     "en": "The long dispute, in brief",
+     "cy": "Yr anghydfod hir, yn fyr",
+     "es": "La larga disputa, en breve"
+    },
+    "d": {
+     "en": "From 1955 to 1988 the house was the subject of court cases; the family left in 1988. The family’s case page sets out the records.",
+     "cy": "O 1955 i 1988 bu’r tŷ yn destun achosion llys; gadawodd y teulu ym 1988. Mae tudalen achos y teulu yn nodi’r cofnodion.",
+     "es": "De 1955 a 1988 la casa fue objeto de pleitos; la familia se fue en 1988. La página del caso de la familia expone los documentos."
+    },
+    "href": [
+     "/argentina/caso/"
+    ]
+   }
+  ]
+ },
+ "changelog": [
+  {
+   "version": "1.2.1",
+   "date": "2026-10-30",
+   "pages": [
+    "/wales/"
+   ],
+   "change": "Wales tour: 3D model renders removed (hero, stop 1, stop 2 and the aerial model figure); restored photographs of the house and the churchyard meadow in their place. The Roman villa hologram at stop 3 now stands on the ground of the estate where its remains were found, not above the rooftops. - Tab agent"
+  },
+  {
+   "version": "1.2.0",
+   "date": "2026-10-27",
+   "pages": [
+    "/wales/",
+    "/argentina/"
+   ],
+   "change": "Destination copy rebalanced (WhatsApp request, 12:11 GMT 27 Oct 2026): history, heritage, family and the visit lead; the dispute is one short point linking to the research and case pages. Real / Augmented (AR) badge on every Wales tour stop and on the Patagonia features: in Wales St Dochdwy’s church and the Irbic Cross are real, the lost house is AR; in Patagonia the house, stables and barn are real, the church and cross are AR. - Tab agent"
+  },
+  {
+   "version": "1.2.2",
+   "date": "2026-10-31",
+   "pages": [
+    "/wales/"
+   ],
+   "change": "Wales tour: stop 1 (Tŷ Mawr) gains a wireframe reconstruction view (AR-REC-0001, a 2D line illustration) beside the restored photograph; dashed lines mark features hidden in the 1988 source photograph. Reconstructions are artist's impressions, not evidence. - Instinct (scene-reconstruction task; HubSpot 536842623165)"
+  },
+  {
+   "version": "1.2.3",
+   "date": "2026-10-31",
+   "pages": [
+    "/wales/"
+   ],
+   "change": "Wales tour: the stop 1 wireframe frame now carries the page anchor #recreations so the Wayback Vault recreation entries link straight to it. - Instinct (scene-reconstruction task; HubSpot 536842623165)"
+  }
+ ]
+}

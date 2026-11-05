@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en" data-cw-noclip="1" data-cw-nolevels="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#17251f">
+<title>HubSpot · Task Control | Cedwyn</title>
+<meta name="description" content="Read-only task-status dashboard for Cedwyn. Full HubSpot native census and latest published task-index mirror.">
+<link rel="canonical" href="https://cedwyn.bucklerfamily.estate/hubspot/">
+<meta property="og:title" content="HubSpot · Task Control | Cedwyn">
+<meta property="og:description" content="A clear view of native task statuses and the latest published Cedwyn task index.">
+<style>
+:root{color-scheme:light dark;--bg:#f5f7f5;--panel:#fff;--ink:#18231d;--muted:#637168;--line:#d9e1db;--accent:#235a43;--accent2:#8ab49b;--soft:#edf4ef;--warn:#805b18;--warnbg:#fff7e6;--shadow:0 12px 35px rgba(20,40,28,.07)}
+*{box-sizing:border-box}
+html[data-ghf-mode="night"]{color-scheme:dark;--bg:#101512;--panel:#19221c;--ink:#edf4ef;--muted:#a6b4aa;--line:#35433a;--accent:#9bd0ad;--accent2:#557a63;--soft:#202e25;--warn:#f1c978;--warnbg:#342b19;--shadow:0 12px 35px rgba(0,0,0,.22)}
+html[data-ghf-mode="day"]{color-scheme:light}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:var(--accent);text-underline-offset:3px}
+main{max-width:1050px;margin:0 auto;padding:28px 18px 64px}
+.topline{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:24px}
+.brand{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:.9rem}
+.nav a{text-decoration:none}
+.hero{padding:26px 0 18px;border-bottom:1px solid var(--line)}
+.eyebrow{font-size:.75rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:700}
+h1{font-size:clamp(2rem,5vw,3.6rem);line-height:1.04;letter-spacing:-.045em;margin:.32em 0 .22em}
+.lede{max-width:730px;margin:0;color:var(--muted);font-size:1.05rem}
+.parcel{display:inline-flex;align-items:center;gap:8px;margin-top:18px;border:1px solid var(--line);padding:6px 11px;border-radius:999px;font-size:.83rem;background:var(--panel)}
+.dot{height:8px;width:8px;border-radius:50%;background:var(--accent)}
+.loading{margin:24px 0 8px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:15px 17px;box-shadow:var(--shadow)}
+.loadhead{display:flex;justify-content:space-between;gap:12px;font-size:.9rem;font-weight:650}
+.track{height:8px;margin:10px 0 7px;background:var(--soft);border-radius:20px;overflow:hidden}
+.track span{display:block;height:100%;width:4%;background:var(--accent);border-radius:20px;transition:width .2s ease}
+.loadnote,.muted{color:var(--muted);font-size:.86rem;margin:0}
+section{margin:28px 0}
+.sectionhead{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:12px}
+h2{font-size:1.35rem;letter-spacing:-.02em;margin:0}
+h3{font-size:1.05rem;margin:0}
+.sectionintro{margin:4px 0 0;color:var(--muted);font-size:.9rem}
+.stamp{font-size:.78rem;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:14px 0}
+.metric{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:17px 18px;box-shadow:var(--shadow)}
+.metric .label{font-size:.8rem;color:var(--muted)}
+.metric .value{font-size:clamp(1.8rem,4vw,2.55rem);font-weight:760;letter-spacing:-.045em;line-height:1.15;margin-top:5px;font-variant-numeric:tabular-nums}
+.metric .foot{font-size:.78rem;color:var(--muted);margin-top:5px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:15px;overflow:hidden;box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;font-size:.94rem}
+th,td{padding:12px 16px;text-align:left;border-bottom:1px solid var(--line)}
+th{font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);background:var(--soft)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tbody tr:last-child td{border-bottom:0}
+tbody tr.total{font-weight:750;background:var(--soft)}
+.status{font-weight:700;letter-spacing:.01em}
+.share{height:7px;min-width:55px;background:var(--soft);border-radius:20px;overflow:hidden}
+.share span{display:block;height:100%;background:var(--accent2);border-radius:20px}
+.mirrorgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:12px 0}
+.mini{padding:14px;background:var(--soft);border-radius:12px}
+.mini .label{font-size:.75rem;color:var(--muted)}
+.mini .value{font-size:1.55rem;font-weight:750;font-variant-numeric:tabular-nums}
+.actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+button{font:inherit;font-size:.86rem;font-weight:700;border:1px solid var(--accent);background:var(--accent);color:white;padding:8px 14px;border-radius:999px;cursor:pointer}
+html[data-ghf-mode="night"] button{color:#102015}
+button:disabled{opacity:.5;cursor:wait}
+.notice{border-left:4px solid var(--warn);background:var(--warnbg);padding:13px 15px;border-radius:8px;color:var(--ink);font-size:.9rem}
+.notice p{margin:0}
+.footnotes{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+.note{border-top:1px solid var(--line);padding-top:12px;font-size:.86rem;color:var(--muted)}
+.note strong{color:var(--ink)}
+.error{color:#a04436;font-weight:650}
+footer{border-top:1px solid var(--line);margin-top:40px;padding-top:16px;color:var(--muted);font-size:.83rem}
+@media(max-width:700px){main{padding:18px 14px 48px}.grid{grid-template-columns:1fr}.mirrorgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.footnotes{grid-template-columns:1fr}th,td{padding:10px 11px}.share{display:none}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+<script src="/_cedwyn/ghf/ghf-lang.js?v=2.1.4c" defer></script>
+<script src="/_cedwyn/ghf/ghf-boot.js?v=2.1.8"></script>
+</head>
+<body>
+<main>
+  <div class="topline">
+    <div class="brand">Cedwyn Estate · Operations</div>
+    <nav class="nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/projects/">Projects</a>
+      <a href="/hive/">Hive</a>
+      <a href="/academy/FLYWHEELS/snowball.md">Snowball protocol</a>
+    </nav>
+  </div>
+
+  <header class="hero">
+    <div class="eyebrow">Task register · read-only dashboard</div>
+    <h1>HubSpot task status</h1>
+    <p class="lede">A single view of the native task statuses, with a separate refresh of the latest published Cedwyn task index. Counts are shown as counts—not as a claim that a draft, review or handoff is complete.</p>
+    <div class="parcel"><span class="dot"></span><strong>Site-area slot 37</strong><span>·</span><span>Historic tithe plot not assigned</span></div>
+  </header>
+
+  <div class="loading" id="loading" aria-live="polite">
+    <div class="loadhead"><span id="loadtitle">Refreshing the Cedwyn task index through Cloudflare</span><span id="loadpct">0%</span></div>
+    <div class="track" role="progressbar" aria-label="Task-index refresh progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress"><span id="loadbar"></span></div>
+    <p class="loadnote" id="loadnote">Loading the latest published pages of sanitised task metadata. The full-portal census below is available immediately.</p>
+  </div>
+
+  <section aria-labelledby="portal-heading">
+    <div class="sectionhead">
+      <div>
+        <h2 id="portal-heading">Full HubSpot portal · native TASK census</h2>
+        <p class="sectionintro">Complete paginated native-object search. Last full census: 1 November 2026.</p>
+      </div>
+      <span class="stamp">3,049 records · 16 search pages</span>
+    </div>
+    <div class="grid">
+      <div class="metric"><div class="label">All task records</div><div class="value">3,049</div><div class="foot">All native task statuses</div></div>
+      <div class="metric"><div class="label">Open tasks</div><div class="value">918</div><div class="foot">807 not started · 63 in progress · 48 waiting</div></div>
+      <div class="metric"><div class="label">Completed</div><div class="value">2,131</div><div class="foot">Native status COMPLETED</div></div>
+    </div>
+    <div class="panel">
+      <table aria-label="Full HubSpot portal native task status counts">
+        <thead><tr><th>Native status</th><th class="num">Records</th><th class="num">Share</th><th aria-label="Relative share"></th></tr></thead>
+        <tbody>
+          <tr><td class="status">NOT_STARTED</td><td class="num">807</td><td class="num">26.5%</td><td><div class="share"><span style="width:26.5%"></span></div></td></tr>
+          <tr><td class="status">IN_PROGRESS</td><td class="num">63</td><td class="num">2.1%</td><td><div class="share"><span style="width:2.1%"></span></div></td></tr>
+          <tr><td class="status">WAITING</td><td class="num">48</td><td class="num">1.6%</td><td><div class="share"><span style="width:1.6%"></span></div></td></tr>
+          <tr><td class="status">COMPLETED</td><td class="num">2,131</td><td class="num">69.9%</td><td><div class="share"><span style="width:69.9%"></span></div></td></tr>
+          <tr class="total"><td>Total</td><td class="num">3,049</td><td class="num">100%</td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="muted" style="margin-top:9px">Source: authenticated HubSpot native TASK search, paginated to the reported total of 3,049. This is a dated snapshot, not a live API result; its counts are not silently replaced by the smaller Cedwyn-only mirror below.</p>
+  </section>
+
+  <section aria-labelledby="mirror-heading">
+    <div class="sectionhead">
+      <div>
+        <h2 id="mirror-heading">Cedwyn task index · refreshed on page load</h2>
+        <p class="sectionintro">Latest published metadata read from the existing Cloudflare Agent Bridge. The source is a Cedwyn project mirror, not every task in the HubSpot portal.</p>
+      </div>
+      <div class="actions"><span class="stamp" id="mirror-time">Waiting for first refresh</span><button id="refresh" type="button">Refresh index</button></div>
+    </div>
+    <div class="panel" style="padding:16px">
+      <div class="mirrorgrid">
+        <div class="mini"><div class="label">Mirrored tasks</div><div class="value" id="m-total">—</div></div>
+        <div class="mini"><div class="label">Not started</div><div class="value" id="m-notstarted">—</div></div>
+        <div class="mini"><div class="label">In progress</div><div class="value" id="m-inprogress">—</div></div>
+        <div class="mini"><div class="label">Waiting</div><div class="value" id="m-waiting">—</div></div>
+      </div>
+      <div class="mirrorgrid">
+        <div class="mini"><div class="label">Completed</div><div class="value" id="m-completed">—</div></div>
+        <div class="mini"><div class="label">Other / unclassified</div><div class="value" id="m-other">—</div></div>
+        <div class="mini"><div class="label">Mirror generated</div><div class="value" id="m-generated" style="font-size:1rem">—</div></div>
+        <div class="mini"><div class="label">Coverage</div><div class="value" id="m-coverage" style="font-size:1rem">Project</div></div>
+      </div>
+      <p class="muted" id="mirror-detail">The task mirror is being read. Only aggregate counts are displayed; individual task titles, IDs and contact details are not rendered.</p>
+    </div>
+  </section>
+
+  <div class="notice">
+    <p><strong>Important source distinction.</strong> The existing Cloudflare Agent Bridge has no HubSpot API credential. It fetches the latest published, sanitised Cedwyn task-index file (with a short edge cache), not the live HubSpot CRM directly. The panel above therefore refreshes the latest published project mirror on page load; the full-portal figures remain the dated native search snapshot until a dedicated HubSpot private-app credential is authorised for a server-side Worker.</p>
+  </div>
+
+  <div class="footnotes">
+    <div class="note"><strong>Parcel reference.</strong> Slot 37 is a digital Cedwyn site-area index. It is not a historic tithe-apportionment plot number and does not assert land ownership, boundaries or legal equivalence. The historic plot remains unassigned pending verification against EV-0215.</div>
+    <div class="note"><strong>Data handling.</strong> This page is read-only. The browser requests paginated metadata through the existing Agent Bridge and calculates counts locally. It does not request task bodies, create tasks, edit statuses or expose credentials.</div>
+  </div>
+
+  <footer>
+    <a href="/projects/#cedwyn-snowball">Cedwyn Snowball</a> ·
+    <a href="/hive/">Hive</a> ·
+    <a href="/x78s8jej33i8f8rrj4is88/manifest.json">Agent Bridge manifest</a> ·
+  </footer>
+</main>
+<script>
+(function(){
+  "use strict";
+  var endpoint="/x78s8jej33i8f8rrj4is88/tasks.json";
+  var limit=50;
+  var labels=["NOT_STARTED","IN_PROGRESS","WAITING","COMPLETED"];
+  var el=function(id){return document.getElementById(id);};
+  var fmt=function(n){return Number(n||0).toLocaleString("en-GB");};
+  var pageDate=function(v){
+    if(!v)return "Not stated";
+    var d=new Date(v);
+    if(Number.isNaN(d.getTime()))return String(v);
+    return d.toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short",timeZone:"UTC"})+" UTC";
+  };
+  var setProgress=function(p,note){
+    p=Math.max(0,Math.min(100,Math.round(p)));
+    el("loadpct").textContent=p+"%";
+    el("loadbar").style.width=p+"%";
+    el("progress").setAttribute("aria-valuenow",String(p));
+    if(note)el("loadnote").textContent=note;
+  };
+  var extractRows=function(d){
+    if(Array.isArray(d))return d;
+    var candidates=[d.tasks,d.items,d.records,d.results,d.data&&d.data.tasks,d.data&&d.data.items,d.data&&d.data.records];
+    for(var i=0;i<candidates.length;i++)if(Array.isArray(candidates[i]))return candidates[i];
+    return [];
+  };
+  var readTotal=function(d){
+    var v=d.total;
+    if(v==null&&d.coverage)v=d.coverage.unique_records;
+    if(v==null&&d.pagination)v=d.pagination.total;
+    if(v==null&&d.meta)v=d.meta.total;
+    if(v==null&&d.data&&d.data.total)v=d.data.total;
+    var n=Number(v);
+    return Number.isFinite(n)&&n>0?n:null;
+  };
+  var readNext=function(d,offset,count){
+    var v;
+    if(d.pagination&&Object.prototype.hasOwnProperty.call(d.pagination,"next_offset"))v=d.pagination.next_offset;
+    else if(Object.prototype.hasOwnProperty.call(d,"next_offset"))v=d.next_offset;
+    else if(d.page&&Object.prototype.hasOwnProperty.call(d.page,"next_offset"))v=d.page.next_offset;
+    else if(d.data&&d.data.pagination&&Object.prototype.hasOwnProperty.call(d.data.pagination,"next_offset"))v=d.data.pagination.next_offset;
+    if(v===null||v===false||v==="")return null;
+    if(v!==undefined){var n=Number(v);return Number.isFinite(n)?n:null;}
+    return count===limit?offset+count:null;
+  };
+  var taskId=function(r){return String(r.id||r.task_id||r.hs_object_id||r.object_id||"");};
+  var taskStatus=function(r){
+    var v=r.hubspot_status||r.status||r.native_status||r.hs_task_status||(r.properties&&r.properties.hs_task_status);
+    if(!v&&r.task)v=r.task.status;
+    return String(v||"OTHER").toUpperCase();
+  };
+  var run=function(){
+    var btn=el("refresh");
+    btn.disabled=true;
+    el("mirror-time").textContent="Refreshing…";
+    el("mirror-detail").textContent="Reading the sanitised task index from the existing Cloudflare Agent Bridge.";
+    setProgress(2,"Connecting to the Agent Bridge…");
+    var seen=new Map(),offset=0,totalHint=null,generated=null,version=null,guard=0,rowSequence=0;
+    function finish(){
+      var counts={NOT_STARTED:0,IN_PROGRESS:0,WAITING:0,COMPLETED:0,OTHER:0};
+      seen.forEach(function(row){
+        var s=taskStatus(row);
+        if(Object.prototype.hasOwnProperty.call(counts,s))counts[s]++;
+        else counts.OTHER++;
+      });
+      var total=seen.size;
+      el("m-total").textContent=fmt(total);
+      el("m-notstarted").textContent=fmt(counts.NOT_STARTED);
+      el("m-inprogress").textContent=fmt(counts.IN_PROGRESS);
+      el("m-waiting").textContent=fmt(counts.WAITING);
+      el("m-completed").textContent=fmt(counts.COMPLETED);
+      el("m-other").textContent=fmt(counts.OTHER);
+      el("m-generated").textContent=pageDate(generated);
+      el("m-coverage").textContent="Cedwyn mirror";
+      el("mirror-time").textContent="Loaded "+pageDate(new Date().toISOString());
+      el("mirror-detail").textContent=fmt(total)+" unique mirrored task records read across the published pages"+(version?" · index "+version:"")+". These are project-index counts, not full portal totals.";
+      setProgress(100,"Task index loaded and counted. Refresh again at any time.");
+      btn.disabled=false;
+    }
+    function nextPage(){
+      guard++;
+      if(guard>100){throw new Error("Pagination safety limit reached.");}
+      var url=endpoint+"?offset="+encodeURIComponent(offset)+"&limit="+limit;
+      return fetch(url,{method:"GET",cache:"no-store",headers:{"accept":"application/json"}}).then(function(res){
+        if(!res.ok)throw new Error("Agent Bridge returned HTTP "+res.status+".");
+        return res.json();
+      }).then(function(data){
+        var rows=extractRows(data);
+        if(totalHint===null)totalHint=readTotal(data);
+        if(!generated)generated=data.generated_utc||data.generated_at||data.snapshot_updated||data.updated||data.exported_at||(data.meta&&data.meta.generated_utc)||null;
+        if(!version)version=data.version||data.index_version||(data.meta&&data.meta.version)||null;
+        rows.forEach(function(row){
+          var id=taskId(row);
+          var key=id||("offset-"+offset+"-row-"+(rowSequence++));
+          if(!seen.has(key))seen.set(key,row);
+        });
+        var done=totalHint?Math.min(96,Math.floor(seen.size/totalHint*100)):Math.min(92,guard*5);
+        setProgress(done,"Read "+fmt(seen.size)+(totalHint?" of "+fmt(totalHint):"")+" task records · page "+guard+".");
+        var next=readNext(data,offset,rows.length);
+        if(next===null||!rows.length){finish();return;}
+        offset=next;
+        return nextPage();
+      });
+    }
+    nextPage().catch(function(err){
+      el("mirror-time").textContent="Refresh unavailable";
+      el("mirror-detail").textContent=String(err.message||err)+" The full-portal native snapshot remains visible above.";
+      el("loadnote").textContent="The live project mirror could not be refreshed. The full-portal snapshot remains visible above.";
+      el("loadpct").textContent="—";
+      el("loadbar").style.width="0%";
+      el("progress").setAttribute("aria-valuenow","0");
+      el("mirror-detail").className="muted error";
+      btn.disabled=false;
+    });
+  };
+  el("refresh").addEventListener("click",run);
+  run();
+})();
+</script>
+</body>
+</html>

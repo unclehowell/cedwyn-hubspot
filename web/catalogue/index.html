@@ -1,0 +1,28 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Catalogue · Cedwyn</title><style>*{box-sizing:border-box}body{margin:0;font:16px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#14141c;color:#e8e8f0}
+a{color:#9cf}header.cw{padding:14px 16px;border-bottom:2px solid #fca;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+header.cw a.home{color:#fca;font-weight:700;text-decoration:none;font-size:18px}header.cw nav a{color:#cfcfe0;margin-right:12px;font-size:14px}
+main{max-width:60rem;margin:0 auto;padding:16px}input,textarea,select,button{font:inherit;border-radius:8px;border:1px solid #444;background:#1d1d28;color:#e8e8f0;padding:8px 10px}
+button{background:#fca;color:#14141c;border-color:#fca;font-weight:700;cursor:pointer}pre{white-space:pre-wrap;word-break:break-word;background:#1d1d28;padding:10px;border-radius:8px;font-size:13px}
+.muted{color:#9a9ab0;font-size:14px}.card{background:#1d1d28;border:1px solid #2c2c3a;border-radius:10px;padding:10px 12px;margin:8px 0}
+.card h3{margin:0 0 4px;font-size:16px}.snip{font-size:14px;color:#cfcfe0}img.prev{max-width:100%;max-height:320px;border-radius:6px;display:block;margin:6px 0}</style></head><body><header class="cw"><a class="home" href="/">Cedwyn</a><nav><a href="/">Themes</a><a href="/catalogue/">Catalogue</a><a href="/graphql/">GraphQL</a><a href="/wayback/">Archive</a></nav></header><main><h1>Catalogue</h1><p class="muted">Every page, record, image and document from all themes, held once in one database. Search it, then open the item in any theme that shows it.</p><form id="f"><input id="q" placeholder="Search the catalogue" style="width:70%"> <select id="th"><option value="">All themes</option></select> <button>Search</button></form><div id="res"></div></main><script src="/_cedwyn/cat.js"></script><script>
+var P=new URLSearchParams(location.search),res=document.getElementById('res');
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+Cedwyn.graphql('{themes{id title}}').then(function(r){var s=document.getElementById('th');(r.data.themes||[]).forEach(function(t){var o=document.createElement('option');o.value=t.id;o.textContent=t.title;s.appendChild(o);});if(P.get('theme'))s.value=P.get('theme');});
+function show(id){res.innerHTML='<p class="muted">Loading…</p>';
+Cedwyn.graphql('query($id:Int){artifact(id:$id){id kind mime bytes title yearMin yearMax hasBlob dataUri locations{theme path url} backlinks{rel artifact{id title locations{path}}} edges{rel dst}}}',{id:+id}).then(function(r){var a=r.data&&r.data.artifact;if(!a){res.innerHTML='<p>Not found.</p>';return;}
+var h='<div class="card"><h3>'+esc(a.title)+'</h3><div class="muted">'+esc(a.kind)+' · '+esc(a.mime)+' · '+Math.round(a.bytes/1024)+' KB'+(a.yearMin?' · '+a.yearMin+(a.yearMax!=a.yearMin?'–'+a.yearMax:''):'')+'</div>';
+if(a.dataUri&&/^data:image/.test(a.dataUri))h+='<img class="prev" alt="" src="'+a.dataUri+'">';
+if(a.dataUri&&/^data:application\/pdf/.test(a.dataUri))h+='<p><a download="'+esc(a.title)+'" href="'+a.dataUri+'">Open the document (from the database)</a></p>';
+h+='<p><b>Shown in:</b> '+a.locations.map(function(l){return '<a href="'+esc(l.url)+'">'+esc(l.theme)+'</a>';}).join(' · ')+'</p>';
+var bl=(a.backlinks||[]).filter(function(e){return e.artifact;}).slice(0,30);
+if(bl.length)h+='<p><b>Used by:</b></p><ul>'+bl.map(function(e){return '<li>'+esc(e.rel)+' · <a href="?a='+e.artifact.id+'">'+esc(e.artifact.title)+'</a></li>';}).join('')+'</ul>';
+var yrs=(a.edges||[]).filter(function(e){return /^year:/.test(e.dst);}).map(function(e){return e.dst.slice(5);});
+if(yrs.length)h+='<p class="muted">Years mentioned: '+yrs.join(', ')+'</p>';
+res.innerHTML=h+'</div>';}).catch(function(e){res.textContent=String(e);});}
+function search(q,th){res.innerHTML='<p class="muted">Searching…</p>';
+Cedwyn.graphql('query($q:String!,$t:String){search(q:$q,theme:$t,limit:40){theme path snippet artifact{id kind title}}}',{q:q,t:th||null}).then(function(r){
+if(r.errors){res.innerHTML='<p class="muted">'+esc(r.errors[0].message)+'</p>';return;}
+var hs=r.data.search||[];res.innerHTML='<p class="muted">'+hs.length+' results</p>'+hs.map(function(x){return '<div class="card"><h3><a href="'+esc(x.path)+'">'+esc(x.artifact.title)+'</a></h3><div class="muted">'+esc(x.theme)+' · <a href="?a='+x.artifact.id+'">catalogue entry</a></div><div class="snip">'+esc(x.snippet)+'</div></div>';}).join('');});}
+document.getElementById('f').onsubmit=function(e){e.preventDefault();var q=document.getElementById('q').value.trim(),t=document.getElementById('th').value;history.replaceState(null,'','?q='+encodeURIComponent(q)+(t?'&theme='+t:''));if(q)search(q,t);};
+if(P.get('a'))show(P.get('a'));else if(P.get('q')){document.getElementById('q').value=P.get('q');search(P.get('q'),P.get('theme'));}
+</script></body></html>

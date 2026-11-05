@@ -1,0 +1,22 @@
+{
+ "pages": 107,
+ "missing": [
+  "/wales/ebooks/",
+  "/argentina/ebooks/"
+ ],
+ "sources": {
+  "pages.json": 57,
+  "kissed-frogs": 50,
+  "wayback": 2
+ },
+ "footer_version": "1.0.6",
+ "footer_added": 3227,
+ "footer_upgraded": 0,
+ "footer_stale_kept": [
+  "/app/index.html",
+  "/chat/index.html",
+  "/fcg/index.html"
+ ],
+ "footer_gb_added": 17,
+ "footer_skipped": 21
+}

@@ -1,0 +1,74 @@
+{
+ "checked": {
+  "fcg": {
+   "files_now": 147,
+   "files_previous_build": 155,
+   "home": true
+  },
+  "research": {
+   "files_now": 1581,
+   "files_previous_build": 1610,
+   "home": true
+  },
+  "app": {
+   "files_now": 19,
+   "files_previous_build": 26,
+   "home": true
+  },
+  "chat": {
+   "files_now": 5,
+   "files_previous_build": 6,
+   "home": true
+  },
+  "email": {
+   "files_now": 1651,
+   "files_previous_build": 1673,
+   "home": true
+  },
+  "dartboard": {
+   "files_now": 147,
+   "files_previous_build": 75,
+   "home": true
+  },
+  "estate": {
+   "files_now": 2,
+   "files_previous_build": 3,
+   "home": true
+  },
+  "patagonia": {
+   "files_now": 2,
+   "files_previous_build": 3,
+   "home": true
+  },
+  "terrain": {
+   "files_now": 6,
+   "files_previous_build": 9,
+   "home": true
+  },
+  "cyberspace": {
+   "files_now": 2,
+   "files_previous_build": 3,
+   "home": true
+  }
+ },
+ "restored": {
+  "app": 8,
+  "estate": 1,
+  "patagonia": 1,
+  "terrain": 5,
+  "cyberspace": 1
+ },
+ "refused": [
+  "app",
+  "estate",
+  "patagonia",
+  "terrain",
+  "cyberspace"
+ ],
+ "fresh_versioned_copy_won": [
+  "app/agent/webmcp.js",
+  "terrain/app.js",
+  "terrain/style.css"
+ ],
+ "rewords_on_kept": 0
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Data centre server aisle</title>
+  <desc id="desc">Rows of server cabinets and network equipment, with blue and green status lights receding into a modern data centre.</desc>
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#182b3c"/><stop offset="1" stop-color="#09111a"/></linearGradient>
+    <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#293846"/><stop offset="1" stop-color="#0a1017"/></linearGradient>
+    <linearGradient id="rack" x2="1" y2="0"><stop stop-color="#111a23"/><stop offset=".55" stop-color="#263541"/><stop offset="1" stop-color="#080d13"/></linearGradient>
+    <linearGradient id="ceiling" x2="0" y2="1"><stop stop-color="#263b4c"/><stop offset="1" stop-color="#121f2a"/></linearGradient>
+    <linearGradient id="glow"><stop stop-color="#4be0d0" stop-opacity="0"/><stop offset=".5" stop-color="#4be0d0" stop-opacity=".8"/><stop offset="1" stop-color="#4be0d0" stop-opacity="0"/></linearGradient>
+    <pattern id="vents" width="10" height="14" patternUnits="userSpaceOnUse"><path d="M2 3h6M2 7h6M2 11h6" stroke="#708593" stroke-opacity=".5" stroke-width="1.5"/></pattern>
+    <g id="cabinet">
+      <rect width="155" height="465" rx="5" fill="#050a0f" stroke="#486071" stroke-width="3"/>
+      <rect x="8" y="9" width="139" height="447" rx="3" fill="url(#rack)"/>
+      <path d="M19 16v430M137 16v430" stroke="#536b7b" stroke-width="3"/>
+      <g fill="#0b1219" stroke="#5a7180" stroke-width="2">
+        <rect x="20" y="24" width="115" height="30" rx="3"/><rect x="20" y="61" width="115" height="30" rx="3"/>
+        <rect x="20" y="98" width="115" height="30" rx="3"/><rect x="20" y="135" width="115" height="30" rx="3"/>
+        <rect x="20" y="172" width="115" height="30" rx="3"/><rect x="20" y="209" width="115" height="30" rx="3"/>
+        <rect x="20" y="246" width="115" height="30" rx="3"/><rect x="20" y="283" width="115" height="30" rx="3"/>
+        <rect x="20" y="320" width="115" height="30" rx="3"/><rect x="20" y="357" width="115" height="30" rx="3"/>
+        <rect x="20" y="394" width="115" height="30" rx="3"/>
+      </g>
+      <rect x="23" y="27" width="109" height="24" fill="url(#vents)"/>
+      <rect x="23" y="64" width="109" height="24" fill="url(#vents)"/>
+      <rect x="23" y="101" width="109" height="24" fill="url(#vents)"/>
+      <rect x="23" y="138" width="109" height="24" fill="url(#vents)"/>
+      <rect x="23" y="175" width="109" height="24" fill="url(#vents)"/>
+      <rect x="23" y="212" width="109" height="24" fill="url(#vents)"/>
+      <rect x="23" y="249" width="109" height="24" fill="url(#vents)"/>
+      <rect x="23" y="286" width="109" height="24" fill="url(#vents)"/>
+      <rect x="23" y="323" width="109" height="24" fill="url(#vents)"/>
+      <rect x="23" y="360" width="109" height="24" fill="url(#vents)"/>
+      <rect x="23" y="397" width="109" height="24" fill="url(#vents)"/>
+      <g fill="#5de8d0">
+        <circle cx="31" cy="39" r="2.5"/><circle cx="31" cy="76" r="2.5"/><circle cx="31" cy="113" r="2.5"/>
+        <circle cx="31" cy="150" r="2.5"/><circle cx="31" cy="187" r="2.5"/><circle cx="31" cy="224" r="2.5"/>
+        <circle cx="31" cy="261" r="2.5"/><circle cx="31" cy="298" r="2.5"/><circle cx="31" cy="335" r="2.5"/>
+        <circle cx="31" cy="372" r="2.5"/><circle cx="31" cy="409" r="2.5"/>
+      </g>
+      <g fill="#f4bd63">
+        <circle cx="42" cy="39" r="2"/><circle cx="42" cy="113" r="2"/><circle cx="42" cy="187" r="2"/>
+        <circle cx="42" cy="261" r="2"/><circle cx="42" cy="335" r="2"/><circle cx="42" cy="409" r="2"/>
+      </g>
+    </g>
+  </defs>
+  <rect width="1600" height="900" fill="#08111b"/>
+  <path d="M0 0H1600V540L800 385 0 540Z" fill="url(#ceiling)"/>
+  <path d="M0 0L800 385 0 540Z" fill="#1c2d3b" opacity=".9"/>
+  <path d="M1600 0L800 385 1600 540Z" fill="#101c28" opacity=".9"/>
+  <path d="M0 540L800 385 1600 540V900H0Z" fill="url(#floor)"/>
+  <g stroke="#758b99" stroke-opacity=".26" stroke-width="2">
+    <path d="M800 385L85 900M800 385L260 900M800 385L430 900M800 385L600 900M800 385L1000 900M800 385L1170 900M800 385L1340 900M800 385L1510 900"/>
+    <path d="M0 595H1600M0 670H1600M0 765H1600M0 865H1600"/>
+  </g>
+  <g opacity=".7" stroke="#6e8999" stroke-width="4">
+    <path d="M80 70H1520M35 130H1565M0 200H1600"/>
+    <path d="M180 0L440 310M380 0L575 330M580 0L700 350M1020 0L900 350M1220 0L1030 330M1420 0L1160 310"/>
+  </g>
+  <g opacity=".85">
+    <path d="M260 80H1340L1285 112H315Z" fill="#d8f0f5" opacity=".24"/>
+    <path d="M470 140H1130L1100 158H500Z" fill="#d8f0f5" opacity=".3"/>
+    <path d="M625 195H975L955 210H645Z" fill="#d8f0f5" opacity=".42"/>
+    <path d="M745 245H855L847 254H753Z" fill="#d8f0f5" opacity=".55"/>
+  </g>
+  <g transform="translate(-80 150) skewY(-7) scale(1.05 1.18)"><use href="#cabinet" x="0" y="75"/><use href="#cabinet" x="165" y="36"/><use href="#cabinet" x="330" y="10"/></g>
+  <g transform="translate(1680 150) scale(-1 1) skewY(-7) scale(1.05 1.18)"><use href="#cabinet" x="0" y="75"/><use href="#cabinet" x="165" y="36"/><use href="#cabinet" x="330" y="10"/></g>
+  <g transform="translate(410 290) scale(.62 .72)" opacity=".96"><use href="#cabinet" x="0" y="20"/><use href="#cabinet" x="160" y="0"/></g>
+  <g transform="translate(1190 290) scale(.62 .72)" opacity=".96"><use href="#cabinet" x="0" y="0"/><use href="#cabinet" x="160" y="20"/></g>
+  <path d="M785 390L810 390 900 900H700Z" fill="#5de8d0" opacity=".035"/>
+  <path d="M0 535L420 510 720 900H0Z" fill="#000" opacity=".22"/>
+  <path d="M1600 535L1180 510 880 900H1600Z" fill="#000" opacity=".28"/>
+  <rect width="1600" height="900" fill="url(#glow)" opacity=".13"/>
+  <rect x="0" y="0" width="1600" height="900" fill="none" stroke="#223644" stroke-width="10"/>
+</svg>

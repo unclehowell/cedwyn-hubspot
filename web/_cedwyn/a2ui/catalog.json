@@ -1,0 +1,41 @@
+{
+ "catalogId": "https://cedwyn.bucklerfamily.estate/_cedwyn/a2ui/catalog.json",
+ "version": "0.1.0",
+ "spec": "A2UI v0.9 message model (createSurface, updateComponents, updateDataModel); https://a2ui.org",
+ "description": "The trusted component catalog for Cedwyn webapps. A surface may use only these components; tools/a2ui_render.py renders them at build time with each app's own CSS classes. Strings are always escaped; links must be root-relative or relative.",
+ "binding": "A prop is a literal, {\"path\": \"/absolute/pointer\"} into the surface data model, {\"path\": \"relative\"} into the current template item, or {\"fmt\": \"…{name}…\", \"args\": {name: binding}}. children: [ids] or {\"path\": list, \"componentId\": template}.",
+ "components": {
+  "Page": "document shell: title, description, css[], headScripts[], js[], bodyClass, mainClass, children",
+  "HiddenHeading": "visually hidden h1 (text)",
+  "Heading": "h1–h4 (level, text, className)",
+  "Figure": "image (src, alt, width, height, className)",
+  "Text": "paragraph (text, label, className); empty text renders nothing",
+  "Inline": "paragraph of child runs/links (separator)",
+  "Run": "text run",
+  "Link": "anchor (href, text)",
+  "Details": "disclosure (summary, children)",
+  "Section": "section (heading, list, listClass, children); empty renders nothing",
+  "ListItem": "li (lead, text, href)",
+  "TextList": "ul of strings (items)",
+  "FilterBar": "search + select filters (fields[{kind,id,label,placeholder,options,allLabel}], countId, countText)",
+  "CardList": "card container (domId, children template)",
+  "Card": "card (href, kicker, title, meta[{label,value}], bodyLabel, body, badge, badgeClass, foot, attrs{})",
+  "Badge": "status pill (text, className)",
+  "Row": "inline row of children",
+  "Span": "span (text, className)",
+  "Repeat": "group without element",
+  "DetailSections": "[{heading, text|items|runs, form: section|term}] → h2 sections and dl terms",
+  "RichParas": "[{class, runs[{text, href}]}] → paragraphs"
+ },
+ "apps": {
+  "kissed-frogs": {
+   "view": "data/views/kissed-frogs.view.json",
+   "templates": [
+    "_ui/index.a2ui.json",
+    "_ui/entry.a2ui.json"
+   ],
+   "data": "/kissed-frogs/_db/view.json",
+   "since": "2026-10-30"
+  }
+ }
+}

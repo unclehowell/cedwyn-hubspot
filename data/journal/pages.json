@@ -1,0 +1,464 @@
+{
+ "schema": "cedwyn-page-journal/1.0",
+ "note": "Neutral, dated change lines per page, newest first. Rendered into each page's footer by tools/page_journal.py. Third person, no instructions. Agents sign an entry with the optional \"agent\" field (the signing agent's name, shown as the signature); to answer the last entry, start the note with \"Re v<version>:\". Route: pull request; see /academy/.",
+ "pages": {
+  "/research/evidence/ev-0019-bute-wgr-conveyance-plan-1938/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "Repository, status and provenance now record which bodies should hold the 1938 conveyance and what each has disclosed (Vale of Glamorgan deed wallet 1756, 2 of at least 10 documents; Glamorgan Archives; HM Land Registry WA3996 and WA7355)."
+   }
+  ],
+  "/research/evidence/pending-evidence/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "References to the 1938 conveyance now name the bodies that should hold it and what each has disclosed (Vale of Glamorgan deed wallet 1756; HM Land Registry WA3996 and WA7355), in place of holder wording."
+   }
+  ],
+  "/research/evidence-library/ghf-e121-1938-bute-wgr-conveyance-and-plan/": [
+   {
+    "v": "1.0.1",
+    "date": "2026-10-30",
+    "note": "Holder wording replaced: the entry now records which bodies should hold the 1938 conveyance and plan and what each has disclosed (Vale of Glamorgan deed wallet 1756, Glamorgan Archives, HM Land Registry WA3996 and WA7355)."
+   }
+  ],
+  "/research/1939-revised-tenancy/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "References to the 1938 conveyance now name the bodies that should hold it and what each has disclosed (Vale of Glamorgan deed wallet 1756; HM Land Registry WA3996 and WA7355), in place of holder wording."
+   }
+  ],
+  "/research/bute-estate/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "References to the 1938 conveyance now name the bodies that should hold it and what each has disclosed (Vale of Glamorgan deed wallet 1756; HM Land Registry WA3996 and WA7355), in place of holder wording."
+   }
+  ],
+  "/research/evidence-library/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "References to the 1938 conveyance now name the bodies that should hold it and what each has disclosed (Vale of Glamorgan deed wallet 1756; HM Land Registry WA3996 and WA7355), in place of holder wording."
+   }
+  ],
+  "/research/reorg/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "References to the 1938 conveyance now name the bodies that should hold it and what each has disclosed (Vale of Glamorgan deed wallet 1756; HM Land Registry WA3996 and WA7355), in place of holder wording."
+   }
+  ],
+  "/research/family-legal-case-control-room/counter-evidence-disconfirmation/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "The 1939 tenancy agreement is now described by its holder, Glamorgan Archives (DBDT123/7), in place of holder wording."
+   }
+  ],
+  "/research/scrutiny-and-accountability/government-public-authority-involvement/western-ground-rents-forensic-institutional-review/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "References to the 1938 conveyance now name the bodies that should hold it and what each has disclosed (Vale of Glamorgan deed wallet 1756; HM Land Registry WA3996 and WA7355), in place of holder wording."
+   }
+  ],
+  "/research/western-ground-rents/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "References to the 1938 conveyance and the 1939 tenancy plan now name the holding bodies (Vale of Glamorgan deed wallet 1756; Glamorgan Archives DBDT123/7; HM Land Registry WA3996 and WA7355)."
+   }
+  ],
+  "/research/evidence/ev-0023-1939-wgr-john-williams-tenancy-plan/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "The 1939 tenancy agreement is now described by its holder, Glamorgan Archives (DBDT123/7), in place of holder wording."
+   }
+  ],
+  "/research/qa/qa-land-registry/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "References to the 1938 conveyance now name the bodies that should hold it and what each has disclosed (Vale of Glamorgan deed wallet 1756; HM Land Registry WA3996 and WA7355), in place of holder wording."
+   }
+  ],
+  "/research/scrutiny-and-accountability/master-scrutiny-issue-register/additions-2026-10-06/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "References to the 1938 conveyance and the 1939 tenancy plan now name the holding bodies (Vale of Glamorgan deed wallet 1756; Glamorgan Archives DBDT123/7; HM Land Registry WA3996 and WA7355)."
+   }
+  ],
+  "/research/forensic-evidence-capture-decisive-document-schedule-6-october-2026/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "References to the 1938 conveyance now name the bodies that should hold it and what each has disclosed (Vale of Glamorgan deed wallet 1756; HM Land Registry WA3996 and WA7355), in place of holder wording."
+   }
+  ],
+  "/research/evidence-library/dbdt123-7-1939-wgr-john-williams-tenancy-agreement-plan/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "The 1939 tenancy agreement is now described by its holder, Glamorgan Archives (DBDT123/7), in place of holder wording."
+   }
+  ],
+  "/research/the-two-parcels/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "References to the 1938 conveyance now name the bodies that should hold it and what each has disclosed (Vale of Glamorgan deed wallet 1756; HM Land Registry WA3996 and WA7355), in place of holder wording."
+   }
+  ],
+  "/research/scrutiny-and-accountability/case-analysis-connections-patterns-questions/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "References to the 1938 conveyance and the 1939 tenancy plan now name the holding bodies (Vale of Glamorgan deed wallet 1756; Glamorgan Archives DBDT123/7; HM Land Registry WA3996 and WA7355)."
+   }
+  ],
+  "/research/scrutiny-and-accountability/legal-review-fraud-land-human-rights/": [
+   {
+    "v": "update",
+    "date": "2026-10-30",
+    "note": "References to the 1938 conveyance and the 1939 tenancy plan now name the holding bodies (Vale of Glamorgan deed wallet 1756; Glamorgan Archives DBDT123/7; HM Land Registry WA3996 and WA7355)."
+   }
+  ],
+  "/nft-art/": [
+   {
+    "v": "1.3.2",
+    "date": "2026-10-30",
+    "note": "Each piece’s download now has a drop-down labelled “Select a version”, listing the versions that exist for that piece (newest selected); Save as PNG saves the version selected."
+   }
+  ],
+  "/wales/": [
+   {
+    "v": "1.2.1",
+    "date": "2026-10-30",
+    "note": "3D model renders removed from the tour (opening image, stops 1 and 2, and the aerial model figure); restored photographs of the house and the churchyard meadow in their place. The Roman villa hologram at stop 3 now stands on the ground of the estate where its remains were found."
+   }
+  ],
+  "/kissed-frogs/": [
+   {
+    "v": "2.0.3",
+    "date": "2026-10-30",
+    "note": "Header graph now plots this webapp’s own database (/kissed-frogs/_db/view.json): each screened record by the date it shows and its screening outcome."
+   },
+   {
+    "v": "2.0.0",
+    "date": "2026-10-30",
+    "note": "Page now generated from the central catalogue: frog-with-lipstick image, short explanation, then one card per lead; Llandough Farm brought together as card KF-35, a separate farmstead."
+   },
+   {
+    "v": "2.0.1",
+    "date": "2026-10-30",
+    "note": "Card KF-50 added: the Museum Wales waterwheel record (Ref 13.2) for Llandough Farm."
+   },
+   {
+    "v": "2.0.2",
+    "date": "2026-10-30",
+    "note": "This webapp's own database is published at /kissed-frogs/_db/view.json."
+   }
+  ],
+  "/dartboard/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Long institution names on the header graph now wrap onto two lines on phones instead of being cut off."
+   },
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Header graph now plots this webapp's own reply ledger for 2025/26: green positive, amber less than positive, red refused, not held or no reply by the statutory date."
+   }
+  ],
+  "/ebooks/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "The shop’s own database is published at /ebooks/_db/view.json and the header graph plots it (each book’s releases). Added: What’s inside, Questions, and a payment line linking the new privacy page."
+   },
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Shop page simplified: header, then the shelf of book cards, then questions and the payment line. The contents list, the editions-and-prices table, the versions note and the pitch band were removed; each title now has an info button that opens the book’s contents, page count and edition in a window. The four-book bundle is a card on the shelf. Each book’s version list is labelled “Select a version”, opens on the newest edition and shows each version’s price."
+   }
+  ],
+  "/privacy/": [
+   {
+    "v": "1.0.0",
+    "date": "2026-10-30",
+    "note": "Page published: what is collected, why, how long it is kept and your rights."
+   }
+  ],
+  "/projects/programme/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "The programme data file /projects/data/programme.json now loads as a plain file."
+   }
+  ],
+  "/research/demolition-1988/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Wording made neutral: press and RCAHMW statements are now introduced as reported or listed."
+   }
+  ],
+  "/research/woodland/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Wording made neutral: the Forest of Cardiff statement is introduced as stated."
+   }
+  ],
+  "/research/sources-and-archives/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Wording made neutral in the Archaeology Data Service entry and the note on older wording."
+   }
+  ],
+  "/research/bp-properties-v-buckler/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Heading for the verbatim extracts renamed; closing note reworded neutrally."
+   }
+  ],
+  "/research/evidence/": [
+   {
+    "v": "update",
+    "date": "2026-10-31",
+    "note": "Index entry added for the 1851 religious census record (Llandough and Leckwith)."
+   },
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Register rows reworded neutrally: “not checked” replaces the earlier label on two rows; two 1891 press rows describe the theft charge plainly."
+   }
+  ],
+  "/ebooks/enwau/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Share preview now names this book after the site line; canonical address given in full."
+   }
+  ],
+  "/ebooks/cedwyn/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Share preview now names this book after the site line; canonical address given in full."
+   }
+  ],
+  "/ebooks/dartboard/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Share preview now names this book after the site line; canonical address given in full."
+   }
+  ],
+  "/ebooks/fcg/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Share preview now names this book after the site line; canonical address given in full."
+   }
+  ],
+  "/ebooks/projects/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Share preview now names this book after the site line; canonical address given in full."
+   }
+  ],
+  "/ebooks/recorded-incidents/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Share preview now names this book after the site line; canonical address given in full."
+   }
+  ],
+  "/ebooks/tymawr-deaths/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Share preview now names this book after the site line; canonical address given in full."
+   }
+  ],
+  "/ebooks/tymawr-heritage/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Share preview now names this book after the site line; canonical address given in full."
+   }
+  ],
+  "/ebooks/williams-buckler-family/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Share preview now names this book after the site line; canonical address given in full."
+   }
+  ],
+  "/ebooks/all-four/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Share preview now names this book after the site line; canonical address given in full."
+   }
+  ],
+  "/ebooks/free/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Share preview now names this book after the site line; canonical address given in full."
+   }
+  ],
+  "/ebooks/library/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Share preview now names this book after the site line; canonical address given in full."
+   }
+  ],
+  "/ebooks/sample-chapter/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Share preview now names this book after the site line; canonical address given in full."
+   }
+  ],
+  "/wales/ebooks/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Shop page simplified: header, then the shelf of book cards, then questions and the payment line. The contents list, the editions-and-prices table, the versions note and the pitch band were removed; each title now has an info button that opens the book’s contents, page count and edition in a window. The four-book bundle is a card on the shelf. Each book’s version list is labelled “Select a version”, opens on the newest edition and shows each version’s price."
+   }
+  ],
+  "/argentina/ebooks/": [
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "Shop page simplified: header, then the shelf of book cards, then questions and the payment line. The contents list, the editions-and-prices table, the versions note and the pitch band were removed; each title now has an info button that opens the book’s contents, page count and edition in a window. The four-book bundle is a card on the shelf. Each book’s version list is labelled “Select a version”, opens on the newest edition and shows each version’s price."
+   }
+  ],
+  "/research/": [
+   {
+    "v": "1.0.3",
+    "date": "2026-10-31",
+    "note": "Video 1 (Wales at Six, 5 December 1988) plays again: pressing play now opens the YouTube player at 19:48 instead of an archive page."
+   },
+   {
+    "v": "1.0.2",
+    "date": "2026-10-30",
+    "note": "Headline video added at the top of the videos: Tŷ Mawr (Great House Farm), Llandough, filmed 1988, playing automatically with the sound off and an Unmute button."
+   },
+   {
+    "v": "—",
+    "date": "2026-10-30",
+    "note": "The parcel-story panel no longer sits in the page. It opens from “See this section as a graph” under the “Parcel story” tab, beside a new “Instruments & registrations” graph (the instruments relied on and the registrations of each parcel)."
+   }
+  ],
+  "/projects/": [
+   {
+    "v": "2.1.0",
+    "date": "2026-10-31",
+    "agent": "ChatGPT GPT-6",
+    "note": "Programme portfolio adds Cedwyn Snowball: the recursive research, evidence, documentary, agent, audience and heritage operating model, with ten HubSpot work packages and the existing four-project boundaries retained."
+   }
+  ],
+  "/academy/FLYWHEELS/": [
+   {
+    "v": "1.0.0",
+    "date": "2026-10-31",
+    "agent": "ChatGPT GPT-6",
+    "note": "Agent Library adds the Snowball master protocol and registers it as the parent of the specialist flywheels, with HubSpot, Hive, Projects and WebMCP entry points."
+   }
+  ],
+  "/": [
+   {
+    "v": "1.0.6",
+    "date": "2026-10-31",
+    "agent": "ChatGPT GPT-6",
+    "note": "Collapsed agent footer links the human-maintainer Docs/Library Snowball guide separately from the machine-facing Agent Academy."
+   },
+   {
+    "v": "1.0.5",
+    "date": "2026-10-31",
+    "agent": "ChatGPT GPT-6",
+    "note": "Collapsed site-wide agent disclosure now points to the Snowball master protocol and uses a private evidence-preservation and authorised-review route."
+   }
+  ],
+  "/library/snowball/": [
+   {
+    "v": "1.0.0",
+    "date": "2026-10-31",
+    "agent": "ChatGPT GPT-6",
+    "note": "Published human-maintainer Snowball procedure in the Docs/Library, with homepage navigation and local search entry."
+   }
+  ],
+  "/documentary/script/": [
+   {
+    "v": "1.0.0",
+    "date": "2026-10-31",
+    "agent": "ChatGPT GPT-6",
+    "note": "Added the documentary master screenplay/source-ledger development brief; existing F001–F010 scripts remain preserved pending source audit."
+   }
+  ],
+  "/projects/procurement/": [
+   {
+    "v": "1.0.0",
+    "date": "2026-10-31",
+    "agent": "ChatGPT GPT-6",
+    "note": "Published planned procurement register with eight unpriced, unauthorised candidate categories and transparent approval requirements."
+   }
+  ],
+  "/directory/p/st-dochdwys-church/": [
+   {
+    "v": "update",
+    "date": "2026-10-31",
+    "note": "History note added: the 1851 religious census catalogue names John Evans, Rector, as informant for Llandough Parish Church and gives estimated morning attendance of 52 on 30 March 1851; original form not inspected. Links to the research record and its limits."
+   }
+  ],
+  "/research/evidence/1851-llandough-leckwith-religious-census/": [
+   {
+    "v": "1.0",
+    "date": "2026-10-31",
+    "note": "New record: National Archives catalogue descriptions of the two 1851 religious census returns for Llandough Parish Church and Leckwith (HO 129/581/1/67 and /65), with inspection status and limits. Original return forms not inspected."
+   }
+  ],
+  "/research/timeline/": [
+   {
+    "v": "update",
+    "date": "2026-10-31",
+    "note": "Timeline entry added for 30 March 1851: catalogue-described attendance at Llandough Parish Church (52, morning) and Leckwith (27, afternoon); original forms not inspected."
+   }
+  ],
+  "/wiki/evidence/": [
+   {
+    "v": "update",
+    "date": "2026-10-31",
+    "note": "Index entry added for the 1851 religious census record (Llandough and Leckwith)."
+   }
+  ],
+  "/wiki/timeline/": [
+   {
+    "v": "update",
+    "date": "2026-10-31",
+    "note": "Timeline entry added for 30 March 1851: catalogue-described attendance at Llandough Parish Church (52, morning) and Leckwith (27, afternoon); original forms not inspected."
+   }
+  ],
+  "/hubspot/": [
+   {
+    "v": "0.1.0",
+    "date": "2026-11-01",
+    "note": "Added a read-only HubSpot task-status dashboard at /hubspot/. The page separates the last complete native portal census from the latest published, project-scoped task-index mirror loaded through the existing Cloudflare Agent Bridge. Digital site-area slot 37 is assigned; no historic tithe plot number or land interest is asserted."
+   }
+  ]
+ }
+}

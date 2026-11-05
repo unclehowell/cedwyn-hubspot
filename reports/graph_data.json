@@ -1,0 +1,67 @@
+{
+ "dartboard": {
+  "points": 250,
+  "source": "/dartboard/data/snl-mail.json",
+  "own_db": true
+ },
+ "qa": {
+  "points": 409,
+  "source": "/qa/questions.json",
+  "own_db": true
+ },
+ "email": {
+  "points": 965,
+  "source": "/email/view/index.json",
+  "own_db": true
+ },
+ "research": {
+  "points": 58,
+  "source": "data/evidence-grades.json",
+  "own_db": true
+ },
+ "docs": {
+  "points": 58,
+  "source": "data/evidence-grades.json",
+  "own_db": true
+ },
+ "kissed-frogs": {
+  "points": 49,
+  "source": "/kissed-frogs/_db/view.json",
+  "own_db": true
+ },
+ "ebooks": {
+  "points": 20,
+  "source": "/ebooks/_db/view.json",
+  "own_db": true
+ },
+ "parcels": {
+  "points": 18,
+  "source": "/parcels/_db/view.json",
+  "own_db": true
+ },
+ "wiki": {
+  "points": 983,
+  "source": "/wiki pages",
+  "own_db": true
+ },
+ "wayback": {
+  "points": 30,
+  "source": "/wayback pages",
+  "own_db": false
+ },
+ "wdtk": {
+  "points": 8,
+  "source": "/wdtk pages",
+  "own_db": true
+ },
+ "projects": {
+  "points": 172,
+  "source": "/projects pages",
+  "own_db": true
+ },
+ "directory": {
+  "points": 310,
+  "source": "/directory pages",
+  "own_db": true
+ }
+}

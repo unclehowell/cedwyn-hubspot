@@ -1,0 +1,573 @@
+{
+ "version": "1.0.0",
+ "note": "Copy for the two sections of Cedwyn (Sion 12:06 GMT 25 Oct 2026): the landing tiles, the Wales hub (/wales/), the Argentina hub (/argentina/) and the section ribbon on every theme page. en/cy/es; Welsh and Spanish are first drafts for review. Wales copy follows EDITORIAL.md (ingredients + citations, no conclusions, banned-word list). Argentina copy may say 'suspected fraud' and 'concealment' and casts public bodies as antagonists; named private individuals appear only as the records show them and are never accused. tools/sections.py renders it. - Sion's Tab agent",
+ "sections": {
+  "wales": {
+   "lang": "cy",
+   "accent": [
+    "#00843D",
+    "#C8102E"
+   ],
+   "brand_path": "/wales/"
+  },
+  "argentina": {
+   "lang": "es",
+   "accent": [
+    "#4E8CC8",
+    "#F6B40E"
+   ],
+   "brand_path": "/patagonia/"
+  }
+ },
+ "argentina_title_map": {
+  "Great House Farm II · Patagonia Museum": "Great House II · Patagonia Museum",
+  "The Farm Album": "The Album",
+  "Great House Farm II · Amgueddfa Patagonia": "Great House II · Amgueddfa Patagonia",
+  "Great House Farm II · Museo de la Patagonia": "Great House II · Museo de la Patagonia",
+  "Albwm y Fferm": "Yr Albwm",
+  "El Álbum de la Granja": "El Álbum"
+ },
+ "photo": {
+  "src": "/dartboard/locations-img/album-101.webp",
+  "w": 652,
+  "h": 656,
+  "credit_page": "/wayback/"
+ },
+ "t": {
+  "lang_cy": {
+   "en": "Cymraeg",
+   "cy": "Cymraeg",
+   "es": "Cymraeg"
+  },
+  "lang_en": {
+   "en": "English",
+   "cy": "English",
+   "es": "English"
+  },
+  "lang_es": {
+   "en": "Español",
+   "cy": "Español",
+   "es": "Español"
+  },
+  "lang_label": {
+   "en": "Language",
+   "cy": "Iaith",
+   "es": "Idioma"
+  },
+  "soon": {
+   "en": "Coming soon",
+   "cy": "Yn dod yn fuan",
+   "es": "Próximamente"
+  },
+  "notify": {
+   "en": "Notify me",
+   "cy": "Rhowch wybod i mi",
+   "es": "Avísame"
+  },
+  "email": {
+   "en": "Email",
+   "cy": "E-bost",
+   "es": "Correo electrónico"
+  },
+  "consent_vouchers": {
+   "en": "Email me when gift vouchers go on sale. One email, unsubscribe any time.",
+   "cy": "E-bostiwch fi pan fydd talebau rhodd ar werth. Un e-bost, dad-danysgrifio unrhyw bryd.",
+   "es": "Avísenme por correo cuando salgan los vales regalo. Un solo correo; puede darse de baja cuando quiera."
+  },
+  "consent_merch": {
+   "en": "Email me when estate merchandise goes on sale. One email, unsubscribe any time.",
+   "cy": "E-bostiwch fi pan fydd nwyddau’r ystâd ar werth. Un e-bost, dad-danysgrifio unrhyw bryd.",
+   "es": "Avísenme por correo cuando salgan los productos de la finca. Un solo correo; puede darse de baja cuando quiera."
+  },
+  "consent_arg": {
+   "en": "Email me when Great House II opens for bookings. Unsubscribe any time.",
+   "cy": "E-bostiwch fi pan fydd Great House II yn agor i archebion. Dad-danysgrifio unrhyw bryd.",
+   "es": "Avísenme por correo cuando Great House II abra las reservas. Puede darse de baja cuando quiera."
+  },
+  "privacy": {
+   "en": "Privacy notice",
+   "cy": "Hysbysiad preifatrwydd",
+   "es": "Aviso de privacidad"
+  },
+  "thanks": {
+   "en": "Nearly there: check your email and tap the link to confirm. We will email you when it is ready.",
+   "cy": "Bron yno: edrychwch ar eich e-bost a thapio’r ddolen i gadarnhau. Byddwn yn anfon e-bost atoch pan fydd yn barod.",
+   "es": "Casi listo: revise su correo y pulse el enlace para confirmar. Le escribiremos cuando esté listo."
+  },
+  "err_email": {
+   "en": "Please enter a valid email address.",
+   "cy": "Rhowch gyfeiriad e-bost dilys.",
+   "es": "Escriba una dirección de correo válida."
+  },
+  "err_tick": {
+   "en": "Please tick the box to agree.",
+   "cy": "Ticiwch y blwch i gytuno.",
+   "es": "Marque la casilla para aceptar."
+  },
+  "err_send": {
+   "en": "That did not go through. Please try again later.",
+   "cy": "Ni aeth hynny drwodd. Rhowch gynnig arall arni yn nes ymlaen.",
+   "es": "No se pudo enviar. Inténtelo más tarde."
+  },
+  "explore": {
+   "en": "All {n} layers on the oak board",
+   "cy": "Pob un o’r {n} haen ar y bwrdd derw",
+   "es": "Las {n} capas en el tablero de roble"
+  },
+  "search_ph": {
+   "en": "Search the whole archive",
+   "cy": "Chwilio’r archif gyfan",
+   "es": "Buscar en todo el archivo"
+  },
+  "search": {
+   "en": "Search",
+   "cy": "Chwilio",
+   "es": "Buscar"
+  },
+  "mode": {
+   "en": "Day / Night",
+   "cy": "Dydd / Nos",
+   "es": "Día / Noche"
+  },
+  "home": {
+   "en": "Home",
+   "cy": "Hafan",
+   "es": "Inicio"
+  },
+  "land_eyebrow": {
+   "en": "One archive · two nations",
+   "cy": "Un archif · dwy genedl",
+   "es": "Un archivo · dos naciones"
+  },
+  "land_lede": {
+   "en": "Choose a way in. In Wales the record is sought, disclosed and reconstructed. In Argentina it is retold.",
+   "cy": "Dewiswch eich ffordd i mewn. Yng Nghymru mae’r cofnod yn cael ei geisio, ei ddatgelu a’i ail-greu. Yn yr Ariannin mae’n cael ei ailadrodd.",
+   "es": "Elija una entrada. En Gales el registro se busca, se revela y se reconstruye. En Argentina se vuelve a contar."
+  },
+  "w_name": {
+   "en": "Wales",
+   "cy": "Cymru",
+   "es": "Gales"
+  },
+  "w_tile": {
+   "en": "Llandough augmented-reality tour",
+   "cy": "Taith realiti estynedig Llandochau",
+   "es": "Recorrido de realidad aumentada por Llandough"
+  },
+  "w_cta": {
+   "en": "Enter Wales",
+   "cy": "I mewn i Gymru",
+   "es": "Entrar en Gales"
+  },
+  "a_name": {
+   "en": "Argentina",
+   "cy": "Yr Ariannin",
+   "es": "Argentina"
+  },
+  "a_tile": {
+   "en": "Great House II · Puerto Madryn, Patagonia",
+   "cy": "Great House II · Porth Madryn, Patagonia",
+   "es": "Great House II · Puerto Madryn, Patagonia"
+  },
+  "a_tile2": {
+   "en": "Former courthouse / coach house: B&B, weddings, stables, museum",
+   "cy": "Hen lys / tŷ coetsys: gwely a brecwast, priodasau, stablau, amgueddfa",
+   "es": "Antiguo juzgado / cochera: B&B, bodas, caballerizas, museo"
+  },
+  "a_cta": {
+   "en": "Enter Argentina",
+   "cy": "I mewn i’r Ariannin",
+   "es": "Entrar en Argentina"
+  },
+  "photo_cap": {
+   "en": "Photo: the original house at Llandough, the model for Great House II (family album).",
+   "cy": "Llun: y tŷ gwreiddiol yn Llandochau, y model ar gyfer Great House II (albwm y teulu).",
+   "es": "Foto: la casa original de Llandough, modelo de Great House II (álbum familiar)."
+  },
+  "w_kicker": {
+   "en": "Llandough · Vale of Glamorgan",
+   "cy": "Llandochau · Bro Morgannwg",
+   "es": "Llandough · Valle de Glamorgan"
+  },
+  "w_tour_h": {
+   "en": "The augmented-reality guided tour",
+   "cy": "Y daith dywys realiti estynedig",
+   "es": "La visita guiada de realidad aumentada"
+  },
+  "w_tour_p": {
+   "en": "Scan the code on site, hold up a phone or headset, and the layers of Llandough appear where they stood. Small groups with a guide.",
+   "cy": "Sganiwch y cod ar y safle, codwch ffôn neu glustffonau, ac mae haenau Llandochau yn ymddangos lle roedden nhw’n sefyll. Grwpiau bach gyda thywysydd.",
+   "es": "Escanee el código en el lugar, levante el móvil o las gafas, y las capas de Llandough aparecen donde estaban. Grupos pequeños con guía."
+  },
+  "w_tour_img": {
+   "en": "A guided group in augmented-reality headsets, looking up at a Roman villa shown over today’s houses (artist’s impression).",
+   "cy": "Grŵp gyda thywysydd mewn clustffonau realiti estynedig yn edrych i fyny ar fila Rufeinig dros dai heddiw (argraff arlunydd).",
+   "es": "Un grupo con guía y gafas de realidad aumentada mira una villa romana sobre las casas de hoy (recreación artística)."
+  },
+  "w_stops_h": {
+   "en": "Tour stops",
+   "cy": "Arosfannau’r daith",
+   "es": "Paradas de la visita"
+  },
+  "w_stops_p": {
+   "en": "Each stop links to what the catalogue holds on it.",
+   "cy": "Mae pob arosfa yn cysylltu â’r hyn sydd gan y catalog amdani.",
+   "es": "Cada parada enlaza con lo que el catálogo guarda sobre ella."
+  },
+  "records": {
+   "en": "Records",
+   "cy": "Cofnodion",
+   "es": "Registros"
+  },
+  "s1": {
+   "en": "The Roman villa",
+   "cy": "Y fila Rufeinig",
+   "es": "La villa romana"
+  },
+  "s1n": {
+   "en": "Llandough’s Roman villa, raised again over today’s houses.",
+   "cy": "Fila Rufeinig Llandochau, wedi’i chodi eto dros dai heddiw.",
+   "es": "La villa romana de Llandough, levantada de nuevo sobre las casas de hoy."
+  },
+  "s2": {
+   "en": "The Celtic roundhouse",
+   "cy": "Y tŷ crwn Celtaidd",
+   "es": "La casa redonda celta"
+  },
+  "s2n": {
+   "en": "A roundhouse of some 2,200 years ago.",
+   "cy": "Tŷ crwn o tua 2,200 o flynyddoedd yn ôl.",
+   "es": "Una casa redonda de hace unos 2.200 años."
+  },
+  "s3": {
+   "en": "The monastery",
+   "cy": "Y fynachlog",
+   "es": "El monasterio"
+  },
+  "s3n": {
+   "en": "The early monastery of Llandough.",
+   "cy": "Mynachlog gynnar Llandochau.",
+   "es": "El antiguo monasterio de Llandough."
+  },
+  "s4": {
+   "en": "The courthouse, 800 years",
+   "cy": "Y llys, 800 mlynedd",
+   "es": "El juzgado, 800 años"
+  },
+  "s4n": {
+   "en": "Great House, Tŷ Mawr: the house the family knew as the old courthouse.",
+   "cy": "Tŷ Mawr: y tŷ roedd y teulu’n ei adnabod fel yr hen lys.",
+   "es": "Great House, Tŷ Mawr: la casa que la familia conocía como el antiguo juzgado."
+  },
+  "s5": {
+   "en": "Marconi, May 1897",
+   "cy": "Marconi, Mai 1897",
+   "es": "Marconi, mayo de 1897"
+  },
+  "s5n": {
+   "en": "Wireless signals across open sea, Flat Holm to Lavernock, about 5 km south.",
+   "cy": "Signalau di-wifr dros y môr agored, Ynys Echni i Larnog, tua 5 km i’r de.",
+   "es": "Señales inalámbricas sobre mar abierto, de Flat Holm a Lavernock, unos 5 km al sur."
+  },
+  "tag_family": {
+   "en": "Family testimony",
+   "cy": "Tystiolaeth y teulu",
+   "es": "Testimonio familiar"
+  },
+  "tag_record": {
+   "en": "Record",
+   "cy": "Cofnod",
+   "es": "Registro"
+  },
+  "w_shop_h": {
+   "en": "Take the tour home",
+   "cy": "Ewch â’r daith adref",
+   "es": "Llévese la visita a casa"
+  },
+  "v_h": {
+   "en": "Gift vouchers",
+   "cy": "Talebau rhodd",
+   "es": "Vales regalo"
+  },
+  "v_p": {
+   "en": "Give a place on the tour.",
+   "cy": "Rhowch le ar y daith.",
+   "es": "Regale una plaza en la visita."
+  },
+  "e_h": {
+   "en": "E-books",
+   "cy": "E-lyfrau",
+   "es": "Libros electrónicos"
+  },
+  "e_p": {
+   "en": "The record in date order, every source cited. First chapter free.",
+   "cy": "Y cofnod yn nhrefn dyddiad, pob ffynhonnell wedi’i nodi. Y bennod gyntaf am ddim.",
+   "es": "El registro por orden de fecha, con cada fuente citada. Primer capítulo gratis."
+  },
+  "e_cta": {
+   "en": "Browse the e-books",
+   "cy": "Pori’r e-lyfrau",
+   "es": "Ver los libros"
+  },
+  "m_h": {
+   "en": "Merch",
+   "cy": "Nwyddau",
+   "es": "Productos"
+  },
+  "m_p": {
+   "en": "Prints, maps and keepsakes of the estate.",
+   "cy": "Printiau, mapiau a chofroddion yr ystâd.",
+   "es": "Láminas, mapas y recuerdos de la finca."
+  },
+  "w_story_h": {
+   "en": "Seek · disclose · research · reconstruct",
+   "cy": "Ceisio · datgelu · ymchwilio · ail-greu",
+   "es": "Buscar · revelar · investigar · reconstruir"
+  },
+  "w_story_p": {
+   "en": "In Wales the record is gathered piece by piece: requests for disclosure, the research library, the evidence catalogue and the chronology. Every piece links to its source; the reader draws the picture.",
+   "cy": "Yng Nghymru caiff y cofnod ei gasglu fesul darn: ceisiadau am ddatgelu, y llyfrgell ymchwil, y catalog tystiolaeth a’r gronoleg. Mae pob darn yn cysylltu â’i ffynhonnell; y darllenydd sy’n llunio’r darlun.",
+   "es": "En Gales el registro se reúne pieza a pieza: solicitudes de divulgación, la biblioteca de investigación, el catálogo de pruebas y la cronología. Cada pieza enlaza con su fuente; el lector compone la imagen."
+  },
+  "l_timeline": {
+   "en": "The chronology (master timeline)",
+   "cy": "Y gronoleg (prif linell amser)",
+   "es": "La cronología (línea de tiempo maestra)"
+  },
+  "l_cuts": {
+   "en": "1000 Cuts: dated events and their evidence",
+   "cy": "Mil o Doriadau: digwyddiadau â dyddiad a’u tystiolaeth",
+   "es": "Mil Cortes: hechos fechados y sus pruebas"
+  },
+  "l_research": {
+   "en": "The Research Library",
+   "cy": "Y Llyfrgell Ymchwil",
+   "es": "La Biblioteca de Investigación"
+  },
+  "l_foi": {
+   "en": "Requests for disclosure (FOI)",
+   "cy": "Ceisiadau am ddatgelu (Rhyddid Gwybodaeth)",
+   "es": "Solicitudes de divulgación (acceso a la información)"
+  },
+  "l_docs": {
+   "en": "The Evidence Catalogue",
+   "cy": "Y Catalog Tystiolaeth",
+   "es": "El Catálogo de Pruebas"
+  },
+  "l_story": {
+   "en": "The Story",
+   "cy": "Y Stori",
+   "es": "La Historia"
+  },
+  "l_projects": {
+   "en": "The Project Office",
+   "cy": "Swyddfa’r Prosiect",
+   "es": "La Oficina de Proyectos"
+  },
+  "l_meeting": {
+   "en": "The Council Chamber: 22 October 2026",
+   "cy": "Siambr y Cyngor: 22 Hydref 2026",
+   "es": "La Sala del Consejo: 22 de octubre de 2026"
+  },
+  "l_fcg": {
+   "en": "FCG · the five theories, ranked",
+   "cy": "FCG · y pum damcaniaeth, yn eu trefn",
+   "es": "FCG · las cinco teorías, por orden"
+  },
+  "l_oldbill": {
+   "en": "Old Bill · who gained, who lost",
+   "cy": "Hen Bil · pwy enillodd, pwy gollodd",
+   "es": "Old Bill · quién ganó, quién perdió"
+  },
+  "l_museum": {
+   "en": "The Patagonia museum tour",
+   "cy": "Taith amgueddfa Patagonia",
+   "es": "La visita al museo de la Patagonia"
+  },
+  "w_cross_h": {
+   "en": "Across the sea: Great House II",
+   "cy": "Dros y môr: Great House II",
+   "es": "Al otro lado del mar: Great House II"
+  },
+  "w_cross_p": {
+   "en": "What the Wales research becomes: a house, a museum and the story retold in Puerto Madryn.",
+   "cy": "Beth a ddaw o’r ymchwil yng Nghymru: tŷ, amgueddfa a’r stori wedi’i hailadrodd ym Mhorth Madryn.",
+   "es": "En qué se convierte la investigación de Gales: una casa, un museo y la historia contada de nuevo en Puerto Madryn."
+  },
+  "layers_h": {
+   "en": "All {n} layers",
+   "cy": "Pob un o’r {n} haen",
+   "es": "Las {n} capas"
+  },
+  "layers_p": {
+   "en": "One database, the same layers in both nations.",
+   "cy": "Un gronfa ddata, yr un haenau yn y ddwy genedl.",
+   "es": "Una sola base de datos, las mismas capas en las dos naciones."
+  },
+  "a_kicker": {
+   "en": "Puerto Madryn · Chubut · Patagonia",
+   "cy": "Porth Madryn · Chubut · Patagonia",
+   "es": "Puerto Madryn · Chubut · Patagonia"
+  },
+  "a_sub": {
+   "en": "Former courthouse / coach house",
+   "cy": "Hen lys / tŷ coetsys",
+   "es": "Antiguo juzgado / cochera"
+  },
+  "a_lede": {
+   "en": "A replica of the Llandough house, being built on a Cedwyn II estate in Puerto Madryn, Patagonia.",
+   "cy": "Copi o’r tŷ yn Llandochau, sy’n cael ei adeiladu ar ystâd Cedwyn II ym Mhorth Madryn, Patagonia.",
+   "es": "Una réplica de la casa de Llandough, en construcción en una finca Cedwyn II en Puerto Madryn, Patagonia."
+  },
+  "c1": {
+   "en": "Bed & breakfast",
+   "cy": "Gwely a brecwast",
+   "es": "Alojamiento y desayuno"
+  },
+  "c1n": {
+   "en": "Rooms in the house.",
+   "cy": "Ystafelloedd yn y tŷ.",
+   "es": "Habitaciones en la casa."
+  },
+  "c2": {
+   "en": "Wedding venue",
+   "cy": "Lleoliad priodasau",
+   "es": "Salón de bodas"
+  },
+  "c2n": {
+   "en": "Ceremonies and receptions in the old courthouse.",
+   "cy": "Seremonïau a gwleddoedd yn yr hen lys.",
+   "es": "Ceremonias y celebraciones en el antiguo juzgado."
+  },
+  "c3": {
+   "en": "Stables",
+   "cy": "Stablau",
+   "es": "Caballerizas"
+  },
+  "c3n": {
+   "en": "Horses and rides on the estate.",
+   "cy": "Ceffylau a reidiau ar yr ystâd.",
+   "es": "Caballos y paseos por la finca."
+  },
+  "c4": {
+   "en": "Museum",
+   "cy": "Amgueddfa",
+   "es": "Museo"
+  },
+  "c4n": {
+   "en": "The story in wax, film and light.",
+   "cy": "Y stori mewn cwyr, ffilm a goleuni.",
+   "es": "La historia en cera, cine y luz."
+  },
+  "mu_h": {
+   "en": "The museum: the plans",
+   "cy": "Yr amgueddfa: y cynlluniau",
+   "es": "El museo: el proyecto"
+  },
+  "mu1": {
+   "en": "Wax figures of Guglielmo Marconi; “Peerless” Jim Driscoll, the Cardiff boxer; and William Buckler, the “chainsaw farmer”.",
+   "cy": "Ffigurau cwyr o Guglielmo Marconi; Jim Driscoll “Peerless”, y bocsiwr o Gaerdydd; a William Buckler, y “ffermwr llif gadwyn”.",
+   "es": "Figuras de cera de Guglielmo Marconi; Jim Driscoll, «Peerless», el boxeador de Cardiff; y William Buckler, el «granjero de la motosierra»."
+  },
+  "mu2": {
+   "en": "The battle of ’88, re-enacted on the screen of the barn cinema.",
+   "cy": "Brwydr ’88, wedi’i hail-greu ar sgrin sinema’r ysgubor.",
+   "es": "La batalla del 88, recreada en la pantalla del cine del granero."
+  },
+  "mu3": {
+   "en": "A small statue, perhaps a hologram, of Mary Williams, a Welsh national, in her wheelchair: one leg, and decades standing up to the British state.",
+   "cy": "Cerflun bach, hologram efallai, o Mary Williams, Cymraes, yn ei chadair olwyn: un goes, a degawdau o sefyll yn erbyn y wladwriaeth Brydeinig.",
+   "es": "Una pequeña estatua, quizá un holograma, de Mary Williams, galesa, en su silla de ruedas: una sola pierna y décadas plantando cara al Estado británico."
+  },
+  "re_h": {
+   "en": "The retelling",
+   "cy": "Yr ailadrodd",
+   "es": "El relato"
+  },
+  "re1": {
+   "en": "Wales gathers the records. Here they are told as a story: a family’s house and land at Llandough, a title the family held to be theirs, and a British state whose registry and courts took the other side. The family suspects fraud and concealment in how that title came to be recorded, and is working to have the case reopened.",
+   "cy": "Yng Nghymru caiff y cofnodion eu casglu. Yma cânt eu hadrodd fel stori: tŷ a thir teulu yn Llandochau, teitl yr oedd y teulu’n ei ddal yn eiddo iddynt, a gwladwriaeth Brydeinig y safodd ei chofrestrfa a’i llysoedd ar yr ochr arall. Mae’r teulu’n amau twyll a chuddio yn y ffordd y cofnodwyd y teitl hwnnw, ac yn gweithio i ailagor yr achos.",
+   "es": "En Gales se reúnen los registros. Aquí se cuentan como una historia: la casa y las tierras de una familia en Llandough, un título que la familia tenía por suyo, y un Estado británico cuyo registro y tribunales se pusieron del otro lado. La familia sospecha fraude y ocultación en la forma en que se inscribió ese título, y trabaja para que se reabra el caso."
+  },
+  "re2": {
+   "en": "The peculiarities go on. On 22 October 2026 the community council moved its meeting online, citing the “tone” of the family’s emails, after close to a year without engaging with them; the minutes are awaited. Still unanswered: how the council came to hold the green, and the twenty new tax-paying households of Church View Close.",
+   "cy": "Mae’r rhyfeddodau’n parhau. Ar 22 Hydref 2026 symudodd y cyngor cymuned ei gyfarfod ar-lein, gan gyfeirio at “dôn” e-byst y teulu, ar ôl bron i flwyddyn heb ymgysylltu â nhw; disgwylir y cofnodion. Heb ateb o hyd: sut y daeth y cyngor i ddal y lawnt, a’r ugain aelwyd newydd sy’n talu treth yn Church View Close.",
+   "es": "Las rarezas continúan. El 22 de octubre de 2026 el consejo comunitario pasó su reunión a formato en línea, aduciendo el «tono» de los correos de la familia, tras casi un año sin dialogar con ella; se esperan las actas. Sigue sin respuesta cómo llegó el consejo a quedarse con el prado comunal, y los veinte nuevos hogares contribuyentes de Church View Close."
+  },
+  "re3": {
+   "en": "Public bodies, the council, HM Land Registry and the state, are the antagonists of this telling. Private individuals appear only as the records show them; no one is accused of a crime.",
+   "cy": "Cyrff cyhoeddus, y cyngor, Cofrestrfa Tir EF a’r wladwriaeth, yw gwrthwynebwyr yr adrodd hwn. Dim ond fel y mae’r cofnodion yn eu dangos y mae unigolion preifat yn ymddangos; ni chyhuddir neb o drosedd.",
+   "es": "Los organismos públicos, el consejo, el Registro de la Propiedad del Reino Unido y el Estado, son los antagonistas de este relato. Las personas particulares aparecen solo como las muestran los registros; no se acusa a nadie de ningún delito."
+  },
+  "a_cross_h": {
+   "en": "Where the story comes from: Wales",
+   "cy": "O ble daw’r stori: Cymru",
+   "es": "De dónde viene la historia: Gales"
+  },
+  "a_cross_p": {
+   "en": "The records are sought, disclosed and reconstructed in Wales, with a guided augmented-reality tour of Llandough.",
+   "cy": "Caiff y cofnodion eu ceisio, eu datgelu a’u hail-greu yng Nghymru, gyda thaith dywys realiti estynedig o Landochau.",
+   "es": "Los registros se buscan, se revelan y se reconstruyen en Gales, con una visita guiada de realidad aumentada por Llandough."
+  },
+  "a_notify_h": {
+   "en": "Hear when it opens",
+   "cy": "Clywed pan fydd yn agor",
+   "es": "Entérese cuando abra"
+  },
+  "rib_w": {
+   "en": "Wales · AR tour of Llandough, coming soon",
+   "cy": "Cymru · Taith AR Llandochau, yn dod yn fuan",
+   "es": "Gales · Visita RA de Llandough, próximamente"
+  },
+  "rib_a": {
+   "en": "Argentina · Great House II, Puerto Madryn, coming soon",
+   "cy": "Yr Ariannin · Great House II, Porth Madryn, yn dod yn fuan",
+   "es": "Argentina · Great House II, Puerto Madryn, próximamente"
+  },
+  "rib_v": {
+   "en": "Vouchers",
+   "cy": "Talebau",
+   "es": "Vales"
+  },
+  "rib_e": {
+   "en": "E-books",
+   "cy": "E-lyfrau",
+   "es": "Libros"
+  },
+  "rib_mu": {
+   "en": "Museum",
+   "cy": "Amgueddfa",
+   "es": "Museo"
+  },
+  "rib_re": {
+   "en": "The retelling",
+   "cy": "Yr ailadrodd",
+   "es": "El relato"
+  },
+  "rib_close": {
+   "en": "Hide",
+   "cy": "Cuddio",
+   "es": "Ocultar"
+  },
+  "f_log": {
+   "en": "Page version & change log",
+   "cy": "Fersiwn y dudalen a’r cofnod newidiadau",
+   "es": "Versión de la página y registro de cambios"
+  },
+  "f_cur": {
+   "en": "Current version:",
+   "cy": "Fersiwn gyfredol:",
+   "es": "Versión actual:"
+  },
+  "f_proto": {
+   "en": "Agents and editors: follow the",
+   "cy": "Asiantau a golygyddion: dilynwch y",
+   "es": "Agentes y editores: sigan el"
+  },
+  "e_ed": {
+   "en": "Editions: v0.01 free · v0.02 {p2} · all four {pb}",
+   "cy": "Argraffiadau: v0.01 am ddim · v0.02 {p2} · y pedwar {pb}",
+   "es": "Ediciones: v0.01 gratis · v0.02 {p2} · los cuatro {pb}"
+  }
+ }
+}

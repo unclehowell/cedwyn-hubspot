@@ -1,0 +1,64 @@
+{
+ "schema": "cedwyn-core/0.1.0",
+ "note": "Places. distinct_from keeps similarly named places apart from the property.",
+ "updated": "2026-10-30",
+ "records": [
+  {
+   "id": "PL-TY-MAWR",
+   "kind": "place",
+   "title": "Tŷ Mawr / Great House Farm (Cydfin Farm), Llandough-juxta-Penarth",
+   "aliases": [
+    "Great House Farm",
+    "Great House",
+    "Tŷ Mawr",
+    "Ty Mawr",
+    "Cedfin or Ty Mawr Farm",
+    "Cydfin Farm",
+    "Cedwyn"
+   ],
+   "description": "The property: the former manorial house at Llandough near Penarth, demolished in December 1988. First named in the 1824 David Stewart survey of the Bute estates as “Cedfin or Ty Mawr Farm”.",
+   "scope": {
+    "disposition": "in_scope"
+   },
+   "page": "/nomenclature/c/great-house-farm/",
+   "public": true,
+   "updated": "2026-10-30",
+   "rev": 1
+  },
+  {
+   "id": "PL-LLANDOUGH-FARM",
+   "kind": "place",
+   "title": "Llandough Farm, Llandough-juxta-Penarth",
+   "aliases": [],
+   "description": "A separate farm in the same parish: 166 acres, NLW D 219/9–13 (1824–1832); the Rees family farm 1841–1910; the 1940 Thomas tenancy. Not a name of the property.",
+   "scope": {
+    "disposition": "separate_property",
+    "distinct_from": [
+     "PL-TY-MAWR"
+    ],
+    "reason": "Separate deeds, acreage and occupiers."
+   },
+   "page": "/kissed-frogs/kf-35-llandough-farm-separate-farmstead/",
+   "public": true,
+   "updated": "2026-10-30",
+   "rev": 1
+  },
+  {
+   "id": "PL-GREAT-HOUSE-COWBRIDGE",
+   "kind": "place",
+   "title": "Great House Farm, Llandough near Cowbridge",
+   "aliases": [],
+   "description": "A different Great House Farm in the other Llandough (near Cowbridge, Vale of Glamorgan): sales of 1938 and 1942, the Thomas family 1871–1910.",
+   "scope": {
+    "disposition": "not_this_property",
+    "distinct_from": [
+     "PL-TY-MAWR"
+    ],
+    "reason": "Another parish, another farm with a similar name."
+   },
+   "public": true,
+   "updated": "2026-10-30",
+   "rev": 1
+  }
+ ]
+}

@@ -1,0 +1,592 @@
+{
+ "collection": "public-faces",
+ "title": "Public faces",
+ "version": "1.0.0",
+ "built": "2026-10-25T18:27Z",
+ "rule": "People who spoke or acted on the public record in their public role. Portraits are photographs already on the public record, never generated or altered (resized; one cropped to the subject). Private individuals are not included.",
+ "groups": {
+  "parliament": "Parliament and ministers",
+  "courts": "Courts",
+  "officials": "Officials and council",
+  "press": "Press"
+ },
+ "people": [
+  {
+   "slug": "henry-brooke",
+   "name": "Henry Brooke MP",
+   "role": "Minister of Housing and Local Government and Minister for Welsh Affairs, 1957–1961",
+   "era": "1958",
+   "events": [
+    {
+     "id": "CH-0122",
+     "date": "19 Nov – 11 Dec 1958",
+     "ev": [
+      {
+       "ev": "EV-0240",
+       "path": "/wiki/evidence/ev-0240-tna-bd-28-133-hlg-119-maf-112-glamorgan-development-plan-files/",
+       "label": "EV-0240"
+      }
+     ]
+    }
+   ],
+   "tie": "His ministry held the 1958 public local inquiry into objections to the Glamorgan County Council Development Plan (Area No. 2). In a Commons written answer of 18 Nov 1958 he dealt with a question on that inquiry.",
+   "image": {
+    "file": "img/henry-brooke.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Henry_Brooke_1950.jpg",
+    "source_file": "File:Henry Brooke 1950.jpg",
+    "licence": "Public domain",
+    "credit": "Elliot & Fry",
+    "captured": "June 1950",
+    "retrieved": "2026-10-25T18:27Z",
+    "period": "period-adjacent portrait (June 1950)"
+   },
+   "group": "parliament"
+  },
+  {
+   "slug": "george-thomas",
+   "name": "George Thomas MP",
+   "role": "Member of Parliament for Cardiff West (later Speaker of the House of Commons)",
+   "era": "1958–1963",
+   "events": [
+    {
+     "id": "CH-0136",
+     "date": "29 Jan and 5 Feb 1963",
+     "ev": [
+      {
+       "ev": "EV-0261",
+       "path": "/wiki/evidence/ev-0261-hansard-1963-western-ground-rents-ministers/",
+       "label": "EV-0261"
+      }
+     ]
+    }
+   ],
+   "tie": "Asked about Cardiff planning records in a written question (18 Nov 1958) and took part in the Commons exchanges on Western Ground Rents Ltd in January and February 1963. The 1963 texts do not mention Llandough or the farm.",
+   "image": {
+    "file": "img/george-thomas.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:George_Thomas_(Lord_Tonypandy)_and_his_mother_(1460789).jpg",
+    "source_file": "File:George Thomas (Lord Tonypandy) and his mother (1460789).jpg",
+    "licence": "CC BY-SA 4.0",
+    "credit": "Geoff Charles",
+    "captured": "10 March 1955",
+    "retrieved": "2026-10-25T18:27Z",
+    "period": "period photograph (10 March 1955); cropped to him alone from a photograph with his mother"
+   },
+   "group": "parliament"
+  },
+  {
+   "slug": "keith-joseph",
+   "name": "Sir Keith Joseph MP",
+   "role": "Minister of Housing and Local Government and Minister for Welsh Affairs, 1962–1964",
+   "era": "1962–1963",
+   "events": [
+    {
+     "id": "CH-0136",
+     "date": "3 Dec 1962; 29 Jan and 5 Feb 1963",
+     "ev": [
+      {
+       "ev": "EV-0261",
+       "path": "/wiki/evidence/ev-0261-hansard-1963-western-ground-rents-ministers/",
+       "label": "EV-0261"
+      }
+     ]
+    }
+   ],
+   "tie": "Hansard records that a Western Ground Rents Ltd director sent correspondence to the Minister on 3 Dec 1962, and that the Minister met the company's chairman and general manager. He answered in the Commons in early 1963. The texts do not mention Llandough or the farm.",
+   "image": {
+    "file": "img/keith-joseph.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Sir_Keith_Joseph_visits_Llangefni_and_Caernarfon_(1469270)_Crop.jpg",
+    "source_file": "File:Sir Keith Joseph visits Llangefni and Caernarfon (1469270) Crop.jpg",
+    "licence": "CC BY-SA 4.0",
+    "credit": "Geoff Charles",
+    "captured": "28 November 1963",
+    "retrieved": "2026-10-25T18:27Z",
+    "period": "period photograph (28 November 1963)"
+   },
+   "group": "parliament"
+  },
+  {
+   "slug": "james-callaghan",
+   "name": "James Callaghan MP",
+   "role": "Member of Parliament for Cardiff South East (later Prime Minister)",
+   "era": "1963",
+   "events": [
+    {
+     "id": "CH-0136",
+     "date": "29 Jan and 5 Feb 1963",
+     "ev": [
+      {
+       "ev": "EV-0261",
+       "path": "/wiki/evidence/ev-0261-hansard-1963-western-ground-rents-ministers/",
+       "label": "EV-0261"
+      }
+     ]
+    }
+   ],
+   "tie": "Took part in the 1963 Commons exchanges on Western Ground Rents Ltd and Cardiff leaseholds. The texts do not mention Llandough or the farm.",
+   "image": {
+    "file": "img/james-callaghan.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_James_Callaghan_(cropped_2).jpg",
+    "source_file": "File:Prime Minister James Callaghan (cropped 2).jpg",
+    "licence": "Public domain",
+    "credit": "Marion S. Trikosko",
+    "captured": "10 March 1977",
+    "retrieved": "2026-10-25T18:27Z",
+    "period": "later photograph (10 March 1977), not period"
+   },
+   "group": "parliament"
+  },
+  {
+   "slug": "lord-kilmuir",
+   "name": "Viscount Kilmuir",
+   "role": "Lord Chancellor, 1954–1962",
+   "era": "1961",
+   "events": [
+    {
+     "id": "CH-0136",
+     "date": "11 Jul 1961",
+     "ev": [
+      {
+       "ev": "EV-0261",
+       "path": "/wiki/evidence/ev-0261-hansard-1963-western-ground-rents-ministers/",
+       "label": "EV-0261"
+      }
+     ]
+    }
+   ],
+   "tie": "Hansard (1963) records that a Western Ground Rents Ltd director sent correspondence to the Lord Chancellor on 11 July 1961.",
+   "image": {
+    "file": "img/lord-kilmuir.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:David_Maxwell_Fyfe,_Earl_of_Kilmuir,_in_1951.jpg",
+    "source_file": "File:David Maxwell Fyfe, Earl of Kilmuir, in 1951.jpg",
+    "licence": "Public domain",
+    "credit": "Elliott & Fry",
+    "captured": "1951-11-14",
+    "retrieved": "2026-10-25T18:27Z",
+    "period": "period-adjacent portrait (14 November 1951)"
+   },
+   "group": "parliament"
+  },
+  {
+   "slug": "ted-rowlands",
+   "name": "Ted Rowlands MP",
+   "role": "Member of Parliament for Merthyr Tydfil (later Lord Rowlands)",
+   "era": "1980",
+   "events": [
+    {
+     "id": "CH-0178",
+     "date": "22 May 1980",
+     "ev": [
+      {
+       "ev": "EV-0057",
+       "path": "/wiki/evidence/ev-0057-hansard-rowlands-western-ground-rents-bp/",
+       "label": "EV-0057"
+      }
+     ]
+    }
+   ],
+   "tie": "Spoke in the House of Commons on 22 May 1980 about Western Ground Rents Ltd and the BP pension fund (HC Deb vol. 985).",
+   "image_status": "no openly licensed portrait found (Parliament holds only a placeholder)",
+   "group": "parliament"
+  },
+  {
+   "slug": "anthony-hollis",
+   "name": "Mr Justice Hollis",
+   "role": "Judge of the High Court (Queen's Bench Division)",
+   "era": "1986",
+   "events": [
+    {
+     "id": "CH-0199",
+     "date": "10 and 24 Jul 1986",
+     "ev": [
+      {
+       "ev": "EV-0074",
+       "path": "/research/evidence/ev-0074-high-court-trial-judgment-1986/",
+       "label": "EV-0074"
+      }
+     ]
+    }
+   ],
+   "tie": "Heard BP Properties Ltd v Buckler in the High Court at Cardiff on 10 July 1986 and gave judgment on 24 July 1986, with possession suspended for six months.",
+   "image_status": "no public portrait found",
+   "group": "courts"
+  },
+  {
+   "slug": "brian-dillon",
+   "name": "Lord Justice Dillon",
+   "role": "Lord Justice of Appeal",
+   "era": "1987",
+   "events": [
+    {
+     "id": "CH-0209",
+     "date": "31 Jul 1987",
+     "ev": [
+      {
+       "ev": "EV-0080",
+       "path": "/research/evidence/ev-0080-bp-properties-v-buckler-judgment/",
+       "label": "EV-0080"
+      }
+     ]
+    }
+   ],
+   "tie": "Gave the leading judgment of the Court of Appeal in BP Properties Ltd v Buckler [1987] EWCA Civ 2, 31 July 1987.",
+   "image_status": "no public portrait found",
+   "group": "courts"
+  },
+  {
+   "slug": "michael-mustill",
+   "name": "Lord Justice Mustill",
+   "role": "Lord Justice of Appeal (later Lord Mustill)",
+   "era": "1987",
+   "events": [
+    {
+     "id": "CH-0209",
+     "date": "31 Jul 1987",
+     "ev": [
+      {
+       "ev": "EV-0080",
+       "path": "/research/evidence/ev-0080-bp-properties-v-buckler-judgment/",
+       "label": "EV-0080"
+      }
+     ]
+    }
+   ],
+   "tie": "Sat with Dillon LJ in the Court of Appeal and agreed with his judgment, 31 July 1987.",
+   "image_status": "no openly licensed portrait found (Parliament holds only a placeholder)",
+   "group": "courts"
+  },
+  {
+   "slug": "edward-eveleigh",
+   "name": "Sir Edward Eveleigh",
+   "role": "Former Lord Justice of Appeal, sitting in the Court of Appeal",
+   "era": "1987",
+   "events": [
+    {
+     "id": "CH-0209",
+     "date": "31 Jul 1987",
+     "ev": [
+      {
+       "ev": "EV-0080",
+       "path": "/research/evidence/ev-0080-bp-properties-v-buckler-judgment/",
+       "label": "EV-0080"
+      }
+     ]
+    }
+   ],
+   "tie": "Sat with Dillon LJ in the Court of Appeal and agreed with his judgment, 31 July 1987.",
+   "image_status": "no public portrait found",
+   "group": "courts"
+  },
+  {
+   "slug": "watkin-powell",
+   "name": "His Honour Judge Watkin Powell",
+   "role": "County Court judge, Cardiff",
+   "era": "1974",
+   "events": [
+    {
+     "id": "TC-C19",
+     "date": "17–19 Sep 1974",
+     "ev": [
+      {
+       "ev": "EV-0041",
+       "path": "/research/evidence/ev-0041-cardiff-county-court-possession-order-1962/",
+       "label": "EV-0041"
+      },
+      {
+       "ev": "EV-0080",
+       "path": "/research/evidence/ev-0080-bp-properties-v-buckler-judgment/",
+       "label": "EV-0080"
+      }
+     ]
+    }
+   ],
+   "tie": "Gave BP Pension Trust leave to execute the 1962 possession order, with the warrant enforceable from 31 October 1974.",
+   "image_status": "no public portrait found",
+   "group": "courts"
+  },
+  {
+   "slug": "norman-francis",
+   "name": "His Honour Judge Norman Francis",
+   "role": "Judge, Cardiff",
+   "era": "1988",
+   "events": [
+    {
+     "id": "CH-0254",
+     "date": "5 Dec 1988",
+     "ev": [
+      {
+       "ev": "PRESS",
+       "path": "/wiki/evidence-library/press-archive-transcripts/",
+       "label": "press transcripts, item n10"
+      }
+     ]
+    }
+   ],
+   "tie": "Named by the Western Mail as the judge at the 5 December 1988 hearing, which declined to continue the injunction pending the application to the European Commission of Human Rights.",
+   "image_status": "no public portrait found",
+   "group": "courts"
+  },
+  {
+   "slug": "alun-michael",
+   "name": "Alun Michael MP",
+   "role": "Member of Parliament for Cardiff South and Penarth, 1987–2012",
+   "era": "1988",
+   "events": [
+    {
+     "id": "CH-0235",
+     "date": "12 May 1988",
+     "ev": [
+      {
+       "ev": "PRESS",
+       "path": "/wiki/evidence-library/press-archive-transcripts/",
+       "label": "press transcripts, item n15"
+      }
+     ]
+    }
+   ],
+   "tie": "The South Wales Echo of 12 May 1988 reported that he asked the Lord Chancellor to look at the case.",
+   "image": {
+    "file": "img/alun-michael.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Alun_Michael_PCC_(cropped).jpg",
+    "source_file": "File:Official portrait of Alun Michael PCC (cropped).jpg",
+    "licence": "OGL 3",
+    "credit": "Choose My PCC (Department of Levelling Up, Housing & Communities)",
+    "captured": "2020-04-07",
+    "retrieved": "2026-10-25T18:27Z",
+    "period": "modern portrait (2020), not period"
+   },
+   "group": "parliament"
+  },
+  {
+   "slug": "lord-mackay",
+   "name": "Lord Mackay of Clashfern",
+   "role": "Lord Chancellor, 1987–1997",
+   "era": "1988",
+   "events": [
+    {
+     "id": "CH-0235",
+     "date": "12 May 1988",
+     "ev": [
+      {
+       "ev": "PRESS",
+       "path": "/wiki/evidence-library/press-archive-transcripts/",
+       "label": "press transcripts, item n15"
+      }
+     ]
+    }
+   ],
+   "tie": "Lord Chancellor when the local MP asked him, in May 1988, to look at the case.",
+   "image": {
+    "file": "img/lord-mackay.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Lord_Mackay_of_Clashfern_crop_2.jpg",
+    "source_file": "File:Official portrait of Lord Mackay of Clashfern crop 2.jpg",
+    "licence": "CC BY 3.0",
+    "credit": "Chris McAndrew",
+    "captured": "2018-03",
+    "retrieved": "2026-10-25T18:27Z",
+    "period": "modern portrait (2018), not period"
+   },
+   "group": "parliament"
+  },
+  {
+   "slug": "andrew-penman",
+   "name": "Andrew Penman",
+   "role": "Journalist (byline)",
+   "era": "1988",
+   "events": [
+    {
+     "id": "EV-0089",
+     "date": "c. 30 Apr 1988",
+     "ev": [
+      {
+       "ev": "EV-0089",
+       "path": "/research/evidence/ev-0089-chainsaw-farmer-vows-fight-on/",
+       "label": "EV-0089"
+      }
+     ]
+    }
+   ],
+   "tie": "Byline on the press report \"Chainsaw farmer vows to fight on\", which set out the accounts of both Mr Buckler and a BP spokesman.",
+   "image_status": "only press-owned byline photographs found; not used",
+   "group": "press"
+  },
+  {
+   "slug": "peter-collins",
+   "name": "Peter Collins",
+   "role": "Journalist, South Wales Echo",
+   "era": "1988–1989",
+   "events": [
+    {
+     "id": "EV-0107",
+     "date": "7 Dec 1988",
+     "ev": [
+      {
+       "ev": "EV-0107",
+       "path": "/research/evidence/ev-0107-south-wales-echo-1988-councillor-protest/",
+       "label": "EV-0107"
+      }
+     ]
+    },
+    {
+     "id": "CH-0269",
+     "date": "1989",
+     "ev": [
+      {
+       "ev": "EV-0112",
+       "path": "/wiki/evidence/ev-0112-echo-farm-to-a-bus/",
+       "label": "EV-0112"
+      }
+     ]
+    }
+   ],
+   "tie": "Byline on the South Wales Echo report of 7 December 1988 and on the 1989 feature \"From farm to a bus\".",
+   "image_status": "no public portrait found",
+   "group": "press"
+  },
+  {
+   "slug": "david-hunt",
+   "name": "David Hunt MP",
+   "role": "Secretary of State for Wales, 1990–1993 (later Lord Hunt of Wirral)",
+   "era": "1992",
+   "events": [
+    {
+     "id": "CH-0311",
+     "date": "18 Mar 1992",
+     "ev": [
+      {
+       "ev": "EV-0250",
+       "path": "/wiki/evidence/ev-0250-london-gazette-18-mar-1992-old-barry-road-llandough-stopping-up-order/",
+       "label": "EV-0250"
+      }
+     ]
+    }
+   ],
+   "tie": "The Secretary of State for Wales made the stopping-up order for the Old Barry Road, Llandough, published in the London Gazette of 18 March 1992 (Issue 52866, p. 4842). He held that office at the time.",
+   "image": {
+    "file": "img/david-hunt.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Lord_Hunt_of_Wirral_crop_2,_2023.jpg",
+    "source_file": "File:Official portrait of Lord Hunt of Wirral crop 2, 2023.jpg",
+    "licence": "CC BY 3.0",
+    "credit": "©House of Lords / photography by Roger Harris",
+    "captured": "25 April 2023",
+    "retrieved": "2026-10-25T18:27Z",
+    "period": "modern portrait (2023), not period"
+   },
+   "group": "parliament"
+  },
+  {
+   "slug": "kanishka-narayan",
+   "name": "Kanishka Narayan MP",
+   "role": "Member of Parliament for the Vale of Glamorgan (from 2024)",
+   "era": "2025",
+   "events": [
+    {
+     "id": "CH-0395",
+     "date": "14–17 Nov 2025",
+     "ev": [
+      {
+       "ev": "MPS",
+       "path": "/wiki/evidence/mps-parliament-correspondence/",
+       "label": "MPs and Parliament correspondence, M47–M49"
+      }
+     ]
+    }
+   ],
+   "tie": "The family wrote to him on 14 November 2025; his office replied that the matter falls outside the Vale of Glamorgan constituency and pointed to the Cardiff South and Penarth MP.",
+   "image": {
+    "file": "img/kanishka-narayan.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Kanishka_Narayan_Cabinet_Portrait_July_2026_3_(cropped).jpg",
+    "source_file": "File:Kanishka Narayan Cabinet Portrait July 2026 3 (cropped).jpg",
+    "licence": "OGL 3",
+    "credit": "Alecsandra Dragoi / No 10 Downing Street",
+    "captured": "July 21, 2026",
+    "retrieved": "2026-10-25T18:27Z",
+    "period": "current portrait (July 2026), matches the period"
+   },
+   "group": "parliament"
+  },
+  {
+   "slug": "stephen-doughty",
+   "name": "Stephen Doughty MP",
+   "role": "Member of Parliament for Cardiff South and Penarth (from 2012)",
+   "era": "2026",
+   "events": [
+    {
+     "id": "CH-0489",
+     "date": "18 Sep 2026",
+     "ev": [
+      {
+       "ev": "MPS",
+       "path": "/wiki/evidence/mps-parliament-correspondence/",
+       "label": "MPs and Parliament correspondence, M83–M105"
+      }
+     ]
+    }
+   ],
+   "tie": "His office forwarded HM Land Registry's letter of 18 September 2026 to the family and awaits a Ministry of Justice reply.",
+   "image": {
+    "file": "img/stephen-doughty.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Stephen_Doughty_Portrait_FCDO_(cropped).png",
+    "source_file": "File:Stephen Doughty Portrait FCDO (cropped).png",
+    "licence": "OGL 3",
+    "credit": "Foreign, Commonwealth and Development Office",
+    "captured": "2026-07-20",
+    "retrieved": "2026-10-25T18:27Z",
+    "period": "current portrait (2026), matches the period"
+   },
+   "group": "parliament"
+  },
+  {
+   "slug": "iain-banfield",
+   "name": "Iain Banfield",
+   "role": "Chief Executive and Chief Land Registrar, HM Land Registry",
+   "era": "2026",
+   "events": [
+    {
+     "id": "CH-0489",
+     "date": "18 Sep 2026",
+     "ev": [
+      {
+       "ev": "MPS",
+       "path": "/wiki/evidence/mps-parliament-correspondence/",
+       "label": "MPs and Parliament correspondence, M92–M105"
+      }
+     ]
+    }
+   ],
+   "tie": "Signed HM Land Registry's letter of 18 September 2026, forwarded to the family by the local MP's office.",
+   "image": {
+    "file": "img/iain-banfield.jpg",
+    "source_page": "https://www.gov.uk/government/people/iain-banfield",
+    "source_file": "https://assets.publishing.service.gov.uk/media/5c6ac199ed915d4a3506ad5d/s465_Iain_Banfield_2.jpg",
+    "licence": "Crown copyright, Open Government Licence v3.0",
+    "credit": "GOV.UK",
+    "captured": "published on GOV.UK Feb 2019",
+    "retrieved": "2026-10-25T18:27Z",
+    "period": "official portrait (c. 2019), close to the period"
+   },
+   "group": "officials"
+  },
+  {
+   "slug": "george-carroll",
+   "name": "Cllr George Carroll",
+   "role": "Vale of Glamorgan councillor for Llandough",
+   "era": "2025–2026",
+   "events": [
+    {
+     "id": "CH-0395",
+     "date": "14 Nov 2025",
+     "ev": [
+      {
+       "ev": "MPS",
+       "path": "/wiki/evidence/mps-parliament-correspondence/",
+       "label": "MPs and Parliament correspondence, M47"
+      }
+     ]
+    }
+   ],
+   "tie": "Ward councillor for Llandough; copied on the family's letter of 14 November 2025 to the MP.",
+   "image_status": "official council portrait exists (© Vale of Glamorgan Council, not openly licensed); held back for a decision",
+   "group": "officials"
+  }
+ ]
+}

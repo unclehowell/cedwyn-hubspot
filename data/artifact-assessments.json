@@ -1,0 +1,257 @@
+{
+  "schema": "cedwyn_artifact_assessments/v1",
+  "policy": "Descriptions state what the catalogue record or source contains. Transcription status describes whether source wording has been transcribed and checked. Interpretation is separate and must cite the artifact IDs on which it relies. Empty or unassessed fields mean work remains; they do not mean the source contains nothing.",
+  "defaults": {
+    "description": "",
+    "description_status": "not_assessed",
+    "transcript": "",
+    "transcript_status": "not_assessed",
+    "interpretation": "",
+    "interpretation_status": "not_assessed",
+    "source_verification_status": "not_assessed",
+    "limitations": ""
+  },
+  "items": [
+    {
+      "ev": "EV-0080",
+      "description": "Catalogue entry for the 1987 Court of Appeal judgment in BP Properties Ltd v Buckler. This judgment is a source for the court's own reasoning and for the earlier records it recounts; the completeness of the text presented in the catalogue has not yet been audited field by field.",
+      "description_status": "needs_review",
+      "transcript": "",
+      "transcript_status": "completeness_not_verified",
+      "interpretation": "Use this judgment as direct evidence of what the Court of Appeal decided and said. Where it recounts an earlier deed, order, or proceeding, distinguish the judgment's recital from independent inspection of that underlying record.",
+      "interpretation_status": "working",
+      "source_verification_status": "judgment identified; page/transcript completeness review pending",
+      "limitations": "A recital in this judgment is not an independently inspected copy of the earlier instrument it describes.",
+      "csscpsg": {
+        "schema": "csscpsg/1",
+        "method": "CSSCPSG structural reading (Grammar House): each sentence's actor, act, object and scope, marked against rules S1-S6 (scope, party, agency, term shift, text gap, inconsistency).",
+        "source": "cedwyn repo branch csscpsg, public/data/model.json v1.0.0 (20 Oct 2026), doc K2",
+        "scores": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 1,
+          "S5": 0,
+          "S6": 1
+        },
+        "why": {
+          "S1": "Appeal limited to the farmhouse and garden, stated plainly.",
+          "S2": "Parties named.",
+          "S3": "None.",
+          "S4": "Uses “paper title” and “registered proprietors” for BP.",
+          "S5": "Full text held.",
+          "S6": "November 1982 registration date for the whole farm (see C)."
+        },
+        "timing": [],
+        "S": 2,
+        "T": 0,
+        "D": 2,
+        "caveat": "A mark is an observation about the record, not a finding of wrongdoing. Scores: 0 = not present on the record; 1 = present but contested or SOURCE PENDING; 2 = present on the face of a held record. T counts dated events within 45 days of a decisive moment (record-explained events score 0); D = S x (1+T).",
+        "port": "verbatim"
+      }
+    },
+    {
+      "ev": "EV-0032",
+      "description": "Catalogue entry concerning the 1955 possession order. The current catalogue grade records that the order is known through the 1987 Court of Appeal judgment's account; a separate copy of the order has not been inspected here.",
+      "description_status": "provisional_from_catalogue_metadata",
+      "transcript": "",
+      "transcript_status": "underlying_document_not_held_or_not_verified",
+      "interpretation": "At present this entry supports what the 1987 judgment recites about the 1955 order. It should not be treated as a separately inspected order or counted as an independent source alongside the judgment.",
+      "interpretation_status": "limited_working_interpretation",
+      "source_verification_status": "known through judgment recital; underlying order not inspected",
+      "limitations": "The order itself and its complete terms remain to be checked against the original court file.",
+      "csscpsg": {
+        "schema": "csscpsg/1",
+        "method": "CSSCPSG structural reading (Grammar House): each sentence's actor, act, object and scope, marked against rules S1-S6 (scope, party, agency, term shift, text gap, inconsistency).",
+        "source": "cedwyn repo branch csscpsg, public/data/model.json v1.0.0 (20 Oct 2026), doc A",
+        "scores": {
+          "S1": 1,
+          "S2": 2,
+          "S3": 0,
+          "S4": 1,
+          "S5": 2,
+          "S6": 0
+        },
+        "why": {
+          "S1": "Recited as covering “the whole of the farm”. The 1987 judgment records the 1916 tenancy as “of the whole of the farm” too; the wiki's case that Parcel A had left the holding by 1928 is SOURCE PENDING. Scored 1, not 2.",
+          "S2": "Frederick Buckler alone was sued. Mary, living in the house, was not a party; the 1987 judgment records the order was not enforced against the house because of her.",
+          "S3": "A court order against the tenant who was sued. Nothing unusual in the act itself.",
+          "S4": "“Possession” of a farm under a tenancy is later read beside an ownership question it did not decide.",
+          "S5": "Known only from the 1987 recital.",
+          "S6": "No conflicting record identified yet."
+        },
+        "timing": [
+          {
+            "event": "Notice to quit expired 2 Feb 1955",
+            "score": 0,
+            "why": "The yearly tenancy began on 2 February 1949, and a notice to quit a yearly tenancy has to end on the anniversary: explained."
+          },
+          {
+            "event": "Enforcement 4 Jul 1955, soon after Mary's leg amputation",
+            "score": 0,
+            "why": "No exact date for the operation; the record shows the house was spared because of it, which cuts against reading pressure into the timing."
+          }
+        ],
+        "S": 6,
+        "T": 0,
+        "D": 6,
+        "caveat": "A mark is an observation about the record, not a finding of wrongdoing. Scores: 0 = not present on the record; 1 = present but contested or SOURCE PENDING; 2 = present on the face of a held record. T counts dated events within 45 days of a decisive moment (record-explained events score 0); D = S x (1+T).",
+        "port": "verbatim"
+      }
+    },
+    {
+      "ev": "EV-0034",
+      "description": "Catalogue entry concerning the writ/execution in July 1955. The current catalogue note records that the execution is known through the 1987 judgment's recital and that the return itself is not held.",
+      "description_status": "provisional_from_catalogue_metadata",
+      "transcript": "",
+      "transcript_status": "underlying_document_not_held_or_not_verified",
+      "interpretation": "This entry records the account of the 1955 execution preserved in the 1987 judgment. It does not establish the exact content of an uninspected execution return.",
+      "interpretation_status": "limited_working_interpretation",
+      "source_verification_status": "known through judgment recital; return not held",
+      "limitations": "Do not treat the catalogue page as a substitute for the original writ or execution return.",
+      "csscpsg": {
+        "schema": "csscpsg/1",
+        "method": "CSSCPSG structural reading (Grammar House): each sentence's actor, act, object and scope, marked against rules S1-S6 (scope, party, agency, term shift, text gap, inconsistency).",
+        "source": "cedwyn repo branch csscpsg, public/data/record.json v2.0.0 (21 Oct 2026), passage '2 February 1955 to 4 July 1955' (S1 mark citing EV-0034); timing analysis from model.json v1.0.0 doc A",
+        "scores": {
+          "S1": 1,
+          "S5": 2
+        },
+        "why": {
+          "S1": "The enforced area is described by exclusion only. No plan defines the parts taken on 4 July 1955. Scored 1: the underlying writ and return are not held.",
+          "S5": "The catalogue note records the execution is known through the 1987 judgment's recital; the operative text is not held."
+        },
+        "timing": [
+          {
+            "event": "Enforcement 4 Jul 1955, soon after Mary's leg amputation",
+            "score": 0,
+            "why": "No exact date for the operation; the record shows the house was spared because of it, which cuts against reading pressure into the timing."
+          }
+        ],
+        "unassessed_rules": [
+          "S2",
+          "S3",
+          "S4",
+          "S6"
+        ],
+        "caveat": "A mark is an observation about the record, not a finding of wrongdoing. Scores: 0 = not present on the record; 1 = present but contested or SOURCE PENDING; 2 = present on the face of a held record. T counts dated events within 45 days of a decisive moment (record-explained events score 0); D = S x (1+T).",
+        "port": "partial",
+        "derived": {
+          "by": "Instinct, 30 Oct 2026",
+          "fields": [
+            "scores.S5",
+            "why.S5"
+          ],
+          "basis": "S5 grounded in this entry's own catalogue note: the execution is known through the 1987 judgment's recital and the return itself is not held."
+        },
+        "score_completeness": "partial - S1 and S5 assessed only; S2, S3, S4, S6 not yet assessed. No aggregate S/T/D is given: a sum over two assessed rules is not comparable with full six-rule scores in this register.",
+        "timing_note": "The timing event below is ported verbatim from model.json v1.0.0 doc A, which analyses the 1955 order and its enforcement together; it is not an independent timing assessment of the execution return, which is not held."
+      }
+    },
+    {
+      "ev": "EV-0041",
+      "description": "Catalogue entry concerning the 1962 Cardiff County Court possession order. The current catalogue note records the order is known through the 1987 Court of Appeal judgment's recital rather than an independently inspected copy.",
+      "description_status": "provisional_from_catalogue_metadata",
+      "transcript": "",
+      "transcript_status": "underlying_document_not_held_or_not_verified",
+      "interpretation": "This entry can support an account of what the 1987 judgment said about the 1962 order. The order's terms, scope and effect should not be inferred beyond that recital until the original is examined.",
+      "interpretation_status": "limited_working_interpretation",
+      "source_verification_status": "known through judgment recital; underlying order not inspected",
+      "limitations": "The original order and its plan or schedule, if any, need separate examination.",
+      "csscpsg": {
+        "schema": "csscpsg/1",
+        "method": "CSSCPSG structural reading (Grammar House): each sentence's actor, act, object and scope, marked against rules S1-S6 (scope, party, agency, term shift, text gap, inconsistency).",
+        "source": "cedwyn repo branch csscpsg, public/data/model.json v1.0.0 (20 Oct 2026), doc K1",
+        "scores": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 1,
+          "S5": 2,
+          "S6": 0
+        },
+        "why": {
+          "S1": "Farmhouse and garden only.",
+          "S2": "Both occupiers were parties.",
+          "S3": "None.",
+          "S4": "A possession order later used to start a limitation clock.",
+          "S5": "Order not held; known from the 1987 recital.",
+          "S6": "None found."
+        },
+        "timing": [],
+        "S": 3,
+        "T": 0,
+        "D": 3,
+        "caveat": "A mark is an observation about the record, not a finding of wrongdoing. Scores: 0 = not present on the record; 1 = present but contested or SOURCE PENDING; 2 = present on the face of a held record. T counts dated events within 45 days of a decisive moment (record-explained events score 0); D = S x (1+T).",
+        "port": "verbatim"
+      }
+    },
+    {
+      "ev": "EV-0617",
+      "description": "Catalogue page about the twelve-year limitation rule, identifying the Real Property Limitation Act 1874 and the Limitation Act 1939. This is a legal-research entry, not by itself a transcript of either statute.",
+      "description_status": "provisional_page_description",
+      "transcript": "",
+      "transcript_status": "summary_not_statutory_transcript",
+      "interpretation": "This entry supplies a legal reference point for testing the chronology. Each proposed twelve-year period still requires its own dates, land parcel, relevant statutory regime, and account of what legally interrupted or completed the period.",
+      "interpretation_status": "working",
+      "source_verification_status": "catalogue page identified; statutory text and legal application require separate checking",
+      "limitations": "A repeated twelve-year interval is a research pattern, not proof that every interval had the same legal effect."
+    },
+    {
+      "ev": "EV-0211",
+      "description": "Catalogue reference to plan 19 of the 1824 David Stewart survey, described in the name index as “Cedfin or Ty Mawr Farm”. The underlying map/plan and its full context should be checked directly before this description is treated as complete.",
+      "description_status": "provisional_from_cross_reference",
+      "transcript": "",
+      "transcript_status": "quoted_name_only_full_transcription_not_verified",
+      "interpretation": "The quoted form is evidence of a name recorded in the 1824 survey. It does not, by itself, establish when the name first came into use or prove that every similarly named farm in Glamorgan is the same place.",
+      "interpretation_status": "working",
+      "source_verification_status": "cross-reference in nomenclature data; original plan review pending",
+      "limitations": "Preserve the source's spelling and distinguish the surveyed feature from other farms with similar names.",
+      "csscpsg": {
+        "schema": "csscpsg/1",
+        "method": "CSSCPSG structural reading (Grammar House): each sentence's actor, act, object and scope, marked against rules S1-S6 (scope, party, agency, term shift, text gap, inconsistency).",
+        "source": "cedwyn repo branch csscpsg, public/data/chronology.json csscpsg-chronology/1 (built 21 Oct 2026), item C0001: compliant true, no breaches recorded",
+        "caveat": "A mark is an observation about the record, not a finding of wrongdoing. Scores: 0 = not present on the record; 1 = present but contested or SOURCE PENDING; 2 = present on the face of a held record. T counts dated events within 45 days of a decisive moment (record-explained events score 0); D = S x (1+T).",
+        "port": "verbatim",
+        "result": {
+          "compliant": true,
+          "reason": "",
+          "breaches": []
+        }
+      }
+    },
+    {
+      "ev": "EV-0284",
+      "description": "A catalogue entry combining two distinct sources: (1) the Dictionary of Welsh Biography entry for Alfred Thomas, 1st Baron Pontypridd, which identifies him as Daniel Thomas's son and dates his death, unmarried, to 14 December 1927; and (2) a secondary online transcription of a newspaper report dated 27 December 1927, which describes an “unofficial report” that the bulk of his property was left to Cardiff Corporation and citizens. These sources have different verification status and must not be collapsed into one verified claim.",
+      "description_status": "partly_verified",
+      "transcript": "The Dictionary of Welsh Biography wording quoted in the catalogue is: “Born 16 September 1840, at Llwyn-y-grant, Pen-y-lan, Cardiff, son of Daniel Thomas, contractor … He died, unmarried, 14 December 1927.” The secondary transcription reports: “The unofficial report is that the bulk of his property, has been, left unconditionally to the corporation, and citizens” of Cardiff. The original newspaper and its full bibliographic identity have not been established from the transcription.",
+      "transcript_status": "partial_transcription; original newspaper not inspected",
+      "interpretation": "The death date and father-son identification are supported by the Dictionary of Welsh Biography. This creates a real chronological discrepancy with Mary (Nancy) Williams's c.1974 statement that the last rent payment was made “to Alfred Thomas the son of Daniel Thomas” in 1928. The statement does not prove Alfred personally received money after his death; the estate, an executor or agent, a receipt continuing to use Alfred's name, or an error in the remembered date/payee remain possibilities. The Corporation bequest is a secondary report explicitly described as unofficial. “The bulk of his property” does not establish that Great House Farm, a freehold interest at Llandough, or any specific land parcel formed part of the estate. Nor does the absence of a located Llandough transfer prove that nothing passed to the Corporation. The will, grant, original newspaper, Thomas estate accounts, Cardiff Corporation deeds/property registers and relevant minutes must be checked before making a land-title inference.",
+      "interpretation_status": "working interpretation; source distinction and limits stated",
+      "source_verification_status": "Death and identity supported by Dictionary of Welsh Biography; secondary estate report unverified; will/grant and original newspaper not inspected",
+      "limitations": "Do not state that the Corporation inherited Great House Farm or that it inherited nothing. The press transcription says “bulk of his property” and calls the report unofficial; it does not identify the assets. A research note cites a reported grant date of 8 March 1928 and London Gazette notice of 30 March 1928, p.2387, but the primary grant and will have not been inspected. The separate 23 February 1905 Bute-to-Cardiff Corporation conveyance is a competing title-chain lead and must not be conflated with Alfred's estate."
+    },
+    {
+      "ev": "EV-0016",
+      "description": "A pending evidence item for the receipt Mary (Nancy) Williams says she saw for the last rent payment, recalled as made by her father in 1928, of about £4 per annum, to “Alfred Thomas the son of Daniel Thomas”, when quarry machinery was removed. The receipt itself has not been located; the available source is Mary's later witness statement.",
+      "description_status": "testimony about a missing document",
+      "transcript": "Mary (Nancy) Williams's c.1974 statement: “The quarry had practically ceased to operate when I was born but I remember that there was still machinery at the quarry until 1928 when the machinery was removed and the last payment of rent was made to Alfred Thomas the son of Daniel Thomas. I remember that this payment was made by my father and that the rent was then about £4 per annum. I saw the receipt for this last payment of rent. After this my father regarded the farm as his own …”",
+      "transcript_status": "transcribed from the later witness statement; original 1928 receipt not held",
+      "interpretation": "This is evidence of what Mary later recalled and of her statement that she had seen a receipt, not direct inspection of the receipt. Alfred Thomas's independently recorded death on 14 December 1927 means the remembered 1928 date and named recipient need reconciliation. The actual payee, payment date, collecting person, land description, whether the payment covered rent or quarry-related rights, and legal effect are unresolved. The 10 November 1925 sale catalogue for quarry plant and tramlines (Glamorgan Archives DSA/12/4888) is a separate lead; it does not prove the machinery was removed in 1925. The Court of Appeal's references to rent arrears and a 1953 payment must be mapped to the relevant tenancy and parcel before treating them as a contradiction.",
+      "interpretation_status": "working interpretation; underlying receipt pending",
+      "source_verification_status": "Mary's statement located/transcribed; receipt not located; payment details not independently verified",
+      "limitations": "Do not describe the receipt as held, authenticated, or inspected. Preserve Mary's exact wording. The possibilities of payment to an estate/executor/agent, a receipt using Alfred's name, or a remembered date/payee error are alternatives only; none is established. The parcel extent and relationship to the 1877 instrument remain unverified."
+    },
+    {
+      "ev": "EV-0902",
+      "description": "Catalogue entry for a family-supplied photograph of an inscription reading “John Williams” with “1886” beneath, catalogued as a visual comparator for the tenant signature on the 1939 Western Ground Rents tenancy agreement (EV-0023). Only the comparator crop is included; the object identity and location are not disclosed.",
+      "description_status": "working",
+      "transcript": "The crop shows the words “John Williams” with “1886” beneath.",
+      "transcript_status": "transcribed from the comparator crop",
+      "interpretation": "Visible form only: the inscription has an ornate capital J, wide letter spacing and an extended stroke over the final letters; the 1939 signature on EV-0023 is more compact with tighter letter spacing. These are surface observations of a photograph, not an authentication: a visible difference between an inscription and a signature does not establish different writers, and the comparison cannot establish who signed the 1939 agreement. Authorship, date and object identity are unverified.",
+      "interpretation_status": "working",
+      "source_verification_status": "photograph read; original object not inspected; authorship and date unverified",
+      "limitations": "Family-stated provenance only. A photograph of an inscription is not a signature exemplar; no handwriting conclusion is drawn. The original photograph has not been independently inspected."
+    }
+  ]
+}

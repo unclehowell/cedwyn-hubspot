@@ -1,0 +1,69 @@
+{
+ "app": "wayback",
+ "version": "0.1.0",
+ "enabled": true,
+ "schema": "cedwyn-view/0.1.0",
+ "note": "Wayback Vault recreations: modern interpretive scene reconstructions derived by tools/views.py from data/core at every build; never edit the output by hand. - Instinct (scene-reconstruction task; HubSpot 536842623165)",
+ "collections": {
+  "recreations": {
+   "select": {
+    "kind": [
+     "artifact"
+    ],
+    "where": [
+     {
+      "field": "scope.tags",
+      "op": "has",
+      "value": "reconstruction"
+     }
+    ]
+   },
+   "order_by": "id",
+   "project": [
+    "id",
+    "slug",
+    "title",
+    "event",
+    "date",
+    "version",
+    "media",
+    "made",
+    "description_cited",
+    "interpretation_cited",
+    "excluded",
+    "sources",
+    "scope",
+    "updated",
+    "changes",
+    "rev"
+   ]
+  }
+ },
+ "copy": {
+  "title": "Recreations · Wayback Vault · Cedwyn",
+  "description": "Modern interpretive reconstructions of documented scenes at Great House Farm (Tŷ Mawr), Llandough. Each is an artist's impression made from quoted records - held as a reconstruction, never as evidence.",
+  "vault": "Wayback Vault",
+  "lede": "Modern interpretive reconstructions of documented scenes: one place, one date, one event each. Every image is an artist's impression made from quoted records, kept separate from the record it draws on.",
+  "order": "Each entry keeps the record-grounded description separate from the openly qualified interpretation, and lists what the scene does not show.",
+  "back": "All recreations",
+  "interp_h": "Interpretation - openly qualified",
+  "desc_h": "Description from the cited records",
+  "desc_note": "The visible building features follow the cited photograph and records; surface textures, vegetation and any hidden detail are derived finishes, not record.",
+  "src_h": "Sources",
+  "excl_h": "What this scene does not show",
+  "holo_h": "Wireframe hologram version",
+  "holo_note": "A 2D line illustration for the AR tour, not a 3D model. Also on the",
+  "made_h": "How this image was made"
+ },
+ "pages": [
+  {
+   "template": "_ui/recreations.a2ui.json",
+   "out": "recreations/index.html"
+  },
+  {
+   "template": "_ui/recreation.a2ui.json",
+   "out": "{slug}/index.html",
+   "each": "recreations"
+  }
+ ]
+}

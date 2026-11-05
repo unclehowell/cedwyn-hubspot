@@ -1,0 +1,3047 @@
+{
+ "rule": "Cedwyn app theme demo fact-check (25 Oct 2026): exact find -> replace on the crawled app bundle and demo page, checked against the research catalogue (/research/evidence/). Classes: WRONG (corrected, EV cited), UNSUPPORTED (replaced with a sourced fact or marked sample / not yet confirmed), CONCLUSION (reworded as ingredients), OK (citation added). Same schema as ingredients.json; file may be a glob. A find that is not present is reported, never fatal. — Sion's Tab agent",
+ "version": "1.0.0",
+ "rewords": [
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "parcel:\"Parcel A\",location:\"South/East agricultural land + cottage (south-east of St Dochdwy's Church)\",tenure:\"LEASEHOLD / TENANT\"",
+   "replace": "parcel:\"Parcel B (fields)\",location:\"The agricultural land to the east, let with the whole farm under the 1916 yearly tenancy [EV-0014] and the 1949 re-grant [EV-0025]\",tenure:\"Registered to BP Properties, WA231076: conveyance 19 Nov 1982, application 30 Nov 1982 [EV-0059]\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0014",
+    "EV-0025",
+    "EV-0059"
+   ],
+   "why": "Parcel letters were inverted against the research layer (A = farmhouse, B = fields); tenure stated from the register record.",
+   "where": "bucklerWilliamsFamilyDossier.ts (THREE_PLOT_PARCELS)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "parcel:\"Parcel B\",location:\"The Great House (Ty Mawr), its garden, and all land NORTH of the church\",tenure:\"FREEHOLD / OWNED\"",
+   "replace": "parcel:\"Parcel A (farmhouse)\",location:\"The farmhouse (Ty Mawr), garden, barns, courtyard and woodland immediately north, occupied by Mary (Nancy) Williams until her death on 26 Mar 1983 [EV-0067]\",tenure:\"Applied for by BP Properties 23 Feb 1983 on Form 1C, WA240304, relying on the 23 May 1975 conveyance [EV-0066] [EV-0052]; merged into WA231076 on 2 Feb 1987 [EV-0078]. Family case: freehold, pleaded in 1974 and never finally heard [EV-0049]\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0066",
+    "EV-0052",
+    "EV-0078",
+    "EV-0049",
+    "EV-0067"
+   ],
+   "why": "\"FREEHOLD / OWNED\" stated the family case as fact; replaced with the registration record and the plea as an open item.",
+   "where": "bucklerWilliamsFamilyDossier.ts (THREE_PLOT_PARCELS)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "parcel:\"Parcel C\",location:\"33 acres severed for Llandough Limeworks\",tenure:\"SEVERED (1876)\"",
+   "replace": "parcel:\"Limeworks land\",location:\"Land (33 a.), formerly part of Great House Farm, for the Llandough Limeworks, 1876\\u20131912 (NLW Bute catalogue D153) [EV-0291]\",tenure:\"Bute estate letting to the limeworks, 1876\\u20131912 [EV-0291] [EV-0280]\"",
+   "class": "OK",
+   "ev": [
+    "EV-0291",
+    "EV-0280"
+   ],
+   "why": "33 acres confirmed by the NLW catalogue; wording made neutral and cited.",
+   "where": "bucklerWilliamsFamilyDossier.ts (THREE_PLOT_PARCELS)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "details:\"Grant of 99-year renewable customary manorial lease to the Williams family covering Ty Mawr (Great House Farm). Customary renewal covenants established continuous ancestral occupancy across eight consecutive generations.\"",
+   "replace": "details:\"Family testimony: a 1667 lease or purchase is the family's starting point for the holding. No 1667 deed is in the research catalogue; a search of The National Archives for pre-1667 manorial records was redirected [EV-0443].\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0443"
+   ],
+   "why": "No 1667 lease located; 99-year/eight-generation detail unsupported.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "legalSignificance:\"Root of customary copyhold/freehold tenure\"",
+   "replace": "legalSignificance:\"Open question: what the 1667 grant was, if found\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Removed stated finding.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "archivalSource:\"Glamorgan Archives D/D Bu Manorial Leases\"",
+   "replace": "archivalSource:\"Not yet confirmed: no copy in the research catalogue\"",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Reference not found in the catalogue.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "legalSignificance:\"Chief rent status proves customary freehold tenure\"",
+   "replace": "legalSignificance:\"Open question: what the 1818 chief-rent entry shows about tenure\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "\"proves\" is a conclusion.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "archivalSource:\"Bute Manorial Rental Ledger 1818, Cardiff Central Library MS 4.896\"",
+   "replace": "archivalSource:\"Not yet confirmed: no copy in the research catalogue\"",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "MS 4.896 not in the catalogue.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "legalSignificance:\"Spatial delineation of residential parcel from agricultural fields\"",
+   "replace": "legalSignificance:\"The c.1841 tithe apportionment lists John Williams's holding as 36 parcels [EV-0215]\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0215"
+   ],
+   "why": "Tithe apportionment is c.1841, listing 36 parcels.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "archivalSource:\"National Library of Wales, Llandough Tithe Apportionment 1840\"",
+   "replace": "archivalSource:\"National Library of Wales, tithe apportionment and map, Landough, Cogan and Leckwith, c.1841 [EV-0215]\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0215"
+   ],
+   "why": "Date and title of the tithe record.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "legalSignificance:\"Continuous open assertion of adverse freehold title against the estate\"",
+   "replace": "legalSignificance:\"Open question: what the Bute rentals show for the house, if located\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Conclusion removed.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "archivalSource:\"Glamorgan Archives D/D Bute Estate Rentals 1845–1893 (Boxes 42–78)\"",
+   "replace": "archivalSource:\"Not yet confirmed: no copy in the research catalogue; poor-rate books 1872\\u20131876 show John Williams, farm under Lord Bute [EV-0212]\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0212"
+   ],
+   "why": "Box references not located; nearest record cited.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "legalSignificance:\"Three-Plot spatial split legally established\"",
+   "replace": "legalSignificance:\"Land (33 a.) for the Llandough Limeworks, 1876\\u20131912 [EV-0291]\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0291"
+   ],
+   "why": "\"legally established\" is a conclusion.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "archivalSource:\"Bute Mineral Leases 1876, Glamorgan Record Office\"",
+   "replace": "archivalSource:\"NLW Bute Estate Records catalogue, D153 (Llandough) [EV-0291]\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0291"
+   ],
+   "why": "Record is held at NLW per the catalogue.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "legalSignificance:\"Defective root of paper title; nemo dat quod non habet principle\"",
+   "replace": "legalSignificance:\"Open question: what the 1877 Bute\\u2013Daniel Thomas agreement conveyed (deed not located) [EV-0006]\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0006"
+   ],
+   "why": "Legal conclusion recast as open question.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "archivalSource:\"Abstract of Title of Daniel Thomas 1905; Glamorgan Deeds Registry\"",
+   "replace": "archivalSource:\"Bute\\u2013Daniel Thomas agreement 1877 (not located) [EV-0006]; Bute conveyance of 23 Feb 1905 referred to on the WA231076 file [EV-0013]\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0006",
+    "EV-0013"
+   ],
+   "why": "\"Glamorgan Deeds Registry\" abstract not in catalogue.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "legalSignificance:\"Statutory government tax survey corroborating separate domestic unit\"",
+   "replace": "legalSignificance:\"Open question: the 1910 Valuation Office record has not been located [EV-0446]\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0446"
+   ],
+   "why": "Field book not located; FOI open.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "archivalSource:\"The National Archives (Kew), IR 58/76251 (Glamorgan Domesday Book)\"",
+   "replace": "archivalSource:\"Not yet located: TNA asked where the 1910 survey for the farm is held [EV-0446]\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0446"
+   ],
+   "why": "IR 58/76251 is not a reference in the catalogue.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "legalSignificance:\"Formal judicial recognition of unsevered domestic possession\"",
+   "replace": "legalSignificance:\"The farmhouse and garden were not taken in 1955 [EV-0080]\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0080"
+   ],
+   "why": "No judicial recognition on record.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "legalSignificance:\"Overriding interest binding corporate purchaser\"",
+   "replace": "legalSignificance:\"The Court of Appeal: had she acquired title by adverse possession before Nov 1982 registration, it would have been an overriding interest [EV-0080]\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0080"
+   ],
+   "why": "Restated as the court's conditional.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "legalSignificance:\"Unilateral licence device to interrupt 12-year statutory adverse possession\"",
+   "replace": "legalSignificance:\"Court of Appeal: after the letters her possession was not adverse [EV-0080]\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0080"
+   ],
+   "why": "Motive wording removed; holding cited.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "legalSignificance:\"Root-of-title left unadjudicated; decision vulnerable to Section 32 fraud reopenings\"",
+   "replace": "legalSignificance:\"Open question: her 1974 ownership plea \\u201chas never been finally heard\\u201d [EV-0049]\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0049"
+   ],
+   "why": "Verdict and banned word removed.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "legalSignificance:\"Tortious conversion, unlawful dispossession, destruction of heritage asset\"",
+   "replace": "legalSignificance:\"Eviction and demolition after the possession order and the failed final hearing [EV-0104] [EV-0106]\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0104",
+    "EV-0106"
+   ],
+   "why": "Legal verdict words removed.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "legalSignificance:\"Statutory financial indemnity & High Court tort claim for reparations\"",
+   "replace": "legalSignificance:\"Not yet confirmed: no claim has been filed\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Claim stated as fact.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "details:\"Transfer of the Llandough chief rents to the Marquess of Bute. Chief rents under English property law were statutory annual quit-rents payable exclusively by freeholders and copyholders within the manor, confirming the Williams domestic holding was not a rack-rent tenancy.\"",
+   "replace": "details:\"Not yet confirmed: transfer of the Llandough chief rents to the Marquess of Bute in 1818. No ledger entry is in the research catalogue; Bute held courts leet and baron for the manor of Llandough in 1904\\u20131917 [EV-0283].\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0283"
+   ],
+   "why": "1818 entry not located; legal reading of chief rents removed.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "details:\"Llandough Tithe Commutation Map and Apportionment. Identifies Great House Farm dwelling, garden, and outbuildings as distinct domestic parcel with separate tithe valuation distinct from surrounding agricultural acreage.\"",
+   "replace": "details:\"The c.1841 tithe apportionment for Landough, Cogan and Leckwith records John Williams's holding as 36 parcels [EV-0215].\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0215"
+   ],
+   "why": "Year and content from the tithe record.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "details:\"Dual Bute Estate Account Books: Estate managers maintained two separate ledgers for 48 years. Farm rents (Parcel A) were paid, while Cottage/Dwelling rents (Parcel B) were entered in perpetual non-payment arrears because the Williams family refused to pay rent, asserting unencumbered freehold ownership of the house.\"",
+   "replace": "details:\"Not yet confirmed: separate farm and cottage rent entries, in the family’s evidence, in the Bute estate accounts. No such ledger is in the research catalogue; the poor-rate books of 1872\\u20131876 list John Williams, farm under Lord Bute [EV-0212].\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0212"
+   ],
+   "why": "Dual-ledger and refusal-to-pay detail not in any catalogued record.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "details:\"Severance of the mineral/limeworks parcel. Daniel Thomas was granted a lease over limestone quarries and surrounding lime kilns, creating a commercial industrial tenancy that operated adjacent to but legally detached from the Williams domestic residence.\"",
+   "replace": "details:\"The NLW Bute catalogue lists land (33 a.), formerly part of Great House Farm, for the Llandough Limeworks, 1876\\u20131912 [EV-0291]; the limeworks ran 1876\\u20131947 (D. Thomas & Son) [EV-0280].\"",
+   "class": "OK",
+   "ev": [
+    "EV-0291",
+    "EV-0280"
+   ],
+   "why": "Kept the 1876 date and the limeworks; removed the legal characterisation.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "details:\"Conveyance from Bute Trustees to Daniel Thomas. The deed purported to convey the entire manorial acreage including Ty Mawr, but the Williams family were never parties, received no notice, paid no rent to Thomas, and remained in uninterrupted physical possession.\"",
+   "replace": "details:\"Family testimony: Bute sold the house parcel to Daniel Thomas & Son under an 1877 agreement (deed not located) [EV-0006]. A Bute conveyance of 23 Feb 1905 is referred to on the WA231076 file [EV-0013]. Open question: what each instrument covered.\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0006",
+    "EV-0013"
+   ],
+   "why": "\"purported to convey the entire manorial acreage\" and the notice detail are not in any held record.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "details:\"Inland Revenue 1910 Finance Act (Lloyd George Domesday Survey) Field Books. Records Ty Mawr house, outbuildings, and garden as a separate hereditament assessment with distinct site value and unencumbered customary occupation notes.\"",
+   "replace": "details:\"Not yet located: the 1910 Valuation Office (Finance Act) record for the farm; The National Archives has been asked where it is held [EV-0446].\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0446"
+   ],
+   "why": "Field book content asserted without a located copy.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "details:\"Unextinguished Statutory Restitution Claim: Under Section 32 of the Limitation Act 1980 (Fraud & Concealment) and Schedule 8 of the Land Registration Act 2002 (Statutory Indemnity for Registry Error), claimants assert financial compensation, indexing, and exemplary damages for unlawful conversion.\"",
+   "replace": "details:\"Working hypothesis, not a claim filed: section 32 of the Limitation Act 1980 postpones limitation where a relevant fact was deliberately concealed; Schedule 8 of the Land Registration Act 2002 provides indemnity for a register mistake. What would confirm or refute it: the WA240304 file items [EV-0066] [EV-0069] and the 1969 root deed [EV-0043].\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0066",
+    "EV-0069",
+    "EV-0043"
+   ],
+   "why": "Assertion of claim and banned word removed.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "owner:\"Thomas Estate / Agricultural Successors\"",
+   "replace": "owner:\"Western Ground Rents Ltd (reversion bought from Bute, Dec 1938)\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0022",
+    "EV-0019"
+   ],
+   "why": "Owner in 1955 was WGR.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "owner:\"Successor Commercial Freeholders / HM Land Registry Registered Titles\"",
+   "replace": "owner:\"Registered proprietors of WA231076 (now Persimmon Homes (Wales) Ltd for the main site)\"",
+   "class": "OK",
+   "ev": [
+    "EV-0078"
+   ],
+   "why": "Neutral.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "occupant:\"Buckler & Williams Heirs-at-Law (Claimants for Statutory Indemnity & Reparations)\"",
+   "replace": "occupant:\"Williams\\u2013Buckler heirs (no claim filed)\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Claim status.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "occupant:\"William Beverly Buckler, Pregnant Wife & Infant Children (Forcibly Evicted)\"",
+   "replace": "occupant:\"William Buckler and household (evicted, Nov\\u2013Dec 1988) [EV-0098] [EV-0101]\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0098",
+    "EV-0101"
+   ],
+   "why": "Household detail not in the press record held.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "owner:\"BP Properties Ltd (Executors of Possession Order)\"",
+   "replace": "owner:\"BP Properties Ltd (enforcing the possession order)\"",
+   "class": "OK",
+   "ev": [
+    "EV-0080"
+   ],
+   "why": "Wording.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "occupant:\"Mary Doreen Buckler (Unilateral Permission Letter Issued)\"",
+   "replace": "occupant:\"Mary Doreen Buckler (letters of 31 Oct 1974 sent to her solicitor) [EV-0050]\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0050"
+   ],
+   "why": "Two letters via her solicitor.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "owner:\"BP Properties Ltd (Corporate Claimant)\"",
+   "replace": "owner:\"BP Pension Trust Ltd and BP Properties Ltd (letter writers)\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0050"
+   ],
+   "why": "Both companies wrote.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "owner:\"BP Pension Trust Ltd (Purchaser of Surrounding Lands)\"",
+   "replace": "owner:\"Western Ground Rents Ltd (order of 11 Dec 1962); BP Pension Trust Ltd from Dec 1969\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0041",
+    "EV-0043"
+   ],
+   "why": "BP bought the whole farm incl. farmhouse in Dec 1969.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "owner:\"Daniel Thomas Estate (Recorded on Valuation Roll)\"",
+   "replace": "owner:\"Not yet located (1910 record)\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0446"
+   ],
+   "why": "Valuation roll not located.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "owner:\"Daniel Thomas (Purported Purchaser from Bute Trustees)\"",
+   "replace": "owner:\"Daniel Thomas & Son (family testimony: 1877 agreement) [EV-0006]\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0006"
+   ],
+   "why": "Deed not located.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "details:\"High Court Bailiff Action on 4 July 1955: Bailiffs attended to repossess farmland following non-payment of agricultural rents. Upon meeting Mary Doreen Buckler at the gatehouse asserting hereditary customary title to Ty Mawr, the High Court bailiffs formally stood down and refused to execute eviction against the house and curtilage.\"",
+   "replace": "details:\"A High Court summary possession order (Order 14) against Frederick Buckler was enforced on or about 4 July 1955; all the farm was taken except the farmhouse and garden [EV-0032] [EV-0034] [EV-0080]. Why the farmhouse was left is not stated in the record held; the officer's return would answer it [EV-0034].\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0032",
+    "EV-0034",
+    "EV-0080"
+   ],
+   "why": "No record that bailiffs stood down or refused.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "archivalSource:\"High Court Sheriff Execution Log & Glamorgan Police Records July 1955\"",
+   "replace": "archivalSource:\"Writ/warrant of possession and officer's return, c. 4 July 1955 (not yet located) [EV-0034]\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0034"
+   ],
+   "why": "Sheriff log and police records not located.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "details:\"BP Pension Trust acquired the Thomas estate holdings for commercial industrial expansion. Purchase was expressly taken subject to all existing tenancies, customary occupancies, and rights of persons in actual occupation under Section 70(1)(g) Land Registration Act 1925.\"",
+   "replace": "details:\"11 Dec 1962: Cardiff County Court possession order for the farmhouse and garden in Western Ground Rents' favour [EV-0041]. Western Ground Rents sold the whole farm, including the farmhouse, to BP Pension Trust in December 1969 [EV-0043] [EV-0080].\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0041",
+    "EV-0043",
+    "EV-0080"
+   ],
+   "why": "BP bought in Dec 1969, not 1962; s.70(1)(g) wording unsupported.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "archivalSource:\"BP Pension Trust Acquisition Deeds 1962, Land Registry Title WA45910\"",
+   "replace": "archivalSource:\"County court registers 1962 [EV-0030]; conveyance of 31 Dec 1969 (not held) [EV-0043]\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0030",
+    "EV-0043"
+   ],
+   "why": "Title \"WA45910\" not in the record.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "details:\"BP Properties Ltd corporate solicitors drafted an unsolicited unilateral letter stating Mrs. Buckler could occupy the house rent-free for life. Over 1,700 Vale of Glamorgan residents signed a petition in Mary's defense. She refused to sign, acknowledge, or accept the licence.\"",
+   "replace": "details:\"Two letters dated 31 October 1974, from BP Pension Trust and BP Properties, sent to her solicitor, said she could stay rent-free for her lifetime and that \\u201cno proceedings will be commenced until you personally no longer live there\\u201d [EV-0050] [EV-0080]. Her 1974 ownership plea was adjourned part-heard on 3 July 1974 and never finally heard [EV-0049].\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0050",
+    "EV-0080",
+    "EV-0049"
+   ],
+   "why": "One letter of 28 Oct replaced by two letters of 31 Oct; petition count not in the catalogue.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "archivalSource:\"Letter of BP Properties Ltd dated 28 October 1974; 1,700-signature public petition\"",
+   "replace": "archivalSource:\"Letters of 31 Oct 1974 [EV-0050]; Court of Appeal judgment [EV-0080]\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0050",
+    "EV-0080"
+   ],
+   "why": "Date; petition unsupported.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "details:\"Court of Appeal Decision in BP Properties Ltd v Buckler [1987] EWCA Civ 2: Lord Justice Dillon held that an occupier who remains after receiving a unilateral licence does not hold adversely. Critically, Lord Justice Dillon explicitly declined to adjudicate the underlying root-of-title or 1895 conveyance legitimacy.\"",
+   "replace": "details:\"Court of Appeal, 31 July 1987 (Dillon LJ, Mustill LJ, Sir Edward Eveleigh): after the 31 October 1974 letters her possession was not adverse, so no possessory title was made out; appeal dismissed [EV-0080]. Open question: her 1974 ownership plea \\u201chas never been finally heard\\u201d [EV-0049].\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0080",
+    "EV-0049"
+   ],
+   "why": "\"explicitly declined\" not in the judgment; replaced by the holding and the open plea.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "archivalSource:\"[1987] EWCA Civ 2; (1987) 55 P&CR 337; [1987] 2 EGLR 168\"",
+   "replace": "archivalSource:\"[1987] EWCA Civ 2; (1988) 55 P&CR 337; [1987] 2 EGLR 168 [EV-0080]\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0080"
+   ],
+   "why": "P&CR year.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "details:\"Dawn Eviction & Demolition (30 November 1988, 5:00 AM): Private security and bailiffs forcibly expelled the Buckler family in the early morning. Within days, bulldozers flattened the 800-year-old Grade II listed stone manor house to destroy physical evidence before title challenges could be raised.\"",
+   "replace": "details:\"Forced entry on 30 November 1988 and the outbuilding roof removed [EV-0098]; the residents evicted by 3 December [EV-0101]; the final eviction hearing failed in the Cardiff High Court on 6 December [EV-0104] [EV-0105]; the farmhouse demolished, reported 7 December 1988 [EV-0106]. Cadw's listing decision came in December 1988 [EV-0096]; the house was not on a statutory list (Llandough resurvey list issued 6 April 1989) [EV-0272].\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0098",
+    "EV-0101",
+    "EV-0104",
+    "EV-0105",
+    "EV-0106",
+    "EV-0096",
+    "EV-0272"
+   ],
+   "why": "Not Grade II listed; dates from the press record; motive removed.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "archivalSource:\"South Wales Echo contemporary news reports, Glamorgan Police Incident Logs 1988\"",
+   "replace": "archivalSource:\"South Wales Echo 30 Nov, 3 Dec and 6 Dec 1988; Western Mail 6 Dec 1988; press cutting c. 7 Dec 1988 [EV-0098] [EV-0101] [EV-0104] [EV-0105] [EV-0106]\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0098",
+    "EV-0106"
+   ],
+   "why": "Police logs not in the catalogue.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "parcelContext:\"Parcel B (Ty Mawr House)\"",
+   "replace": "parcelContext:\"Parcel A (farmhouse and garden)\"",
+   "class": "WRONG",
+   "ev": [],
+   "why": "Parcel letters per research layer (A = farmhouse).",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "occupant:\"Williams Family (Customary Hereditary Tenants)\"",
+   "replace": "occupant:\"Williams family (tenure not yet confirmed)\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Status asserted.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "occupant:\"Williams Family (Customary Chief Quit-Rent Freeholders)\"",
+   "replace": "occupant:\"Williams family (tenure not yet confirmed)\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Status asserted.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "occupant:\"Williams Family (Continuous Undisturbed Domestic Possession)\"",
+   "replace": "occupant:\"Williams family (in occupation)\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Characterisation removed.",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\" [1987] EWCA Civ 2 only dealt with whether a 1974 unilateral letter stopped adverse possession. \",r.jsx(\"strong\",{children:\"It never adjudicated root of title\"}),\" to the ancient domestic holding of Great House Farm (\",r.jsx(\"i\",{children:\"Ty Mawr\"}),\"), Llandough.\"",
+   "replace": "\" [1987] EWCA Civ 2 (31 July 1987) held that after the two letters of 31 October 1974 her occupation of the farmhouse was no longer adverse, so no title by adverse possession was made out [EV-0080]. \",r.jsx(\"strong\",{children:\"Open question:\"}),\" her 1974 plea of ownership of Great House Farm (\",r.jsx(\"i\",{children:\"Ty Mawr\"}),\"), Llandough, was adjourned part-heard and \\u201chas never been finally heard\\u201d [EV-0049].\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0080",
+    "EV-0049"
+   ],
+   "why": "\"only dealt with\" / \"never adjudicated\" handed the reader a conclusion; one letter became two; now the holding and the open plea, cited.",
+   "where": "BPvsBucklerWikiPage.tsx (#wiki summary)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"Section 32 Limitation Act 1980 (Fraud & Concealment)\"",
+   "replace": "\"Working hypothesis: section 32, Limitation Act 1980 (concealment)\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Banned word; labelled as hypothesis.",
+   "where": "BPvsBucklerWikiPage.tsx (#wiki summary)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"Statutory limitation does not run where title conflation was concealed. This claim seeks financial restitution, register error indemnity, and damages rather than physical return of redeveloped land.\"",
+   "replace": "\"Section 32 postpones limitation where a fact relevant to a claim was deliberately concealed. Whether anything was concealed here is not decided. What would confirm or refute it: the WA240304 file, applied for 23 Feb 1983 on Form 1C relying on the 23 May 1975 conveyance [EV-0066] [EV-0052], and the Registry correspondence of 8 Apr, 12 Apr and 12 May 1983, contents not yet read [EV-0069] [EV-0070] [EV-0071]. No claim has been filed.\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0066",
+    "EV-0052",
+    "EV-0069",
+    "EV-0070",
+    "EV-0071"
+   ],
+   "why": "Stated concealment and a claim as fact; now hypothesis + the records that would settle it.",
+   "where": "BPvsBucklerWikiPage.tsx (#wiki summary)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"Summary: Unadjudicated Freehold & Statutory Reparations\"",
+   "replace": "\"Summary: what was decided, and what was never heard\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Heading stated a conclusion.",
+   "where": "BPvsBucklerWikiPage.tsx (#wiki summary)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"Great House Farm comprised 3 distinct parcels with separate tenurial trails:\"",
+   "replace": "\"Working labels from the research layer (Parcel A = farmhouse, Parcel B = fields). The court and registry record treats the farm as one \\u201cwhole farm\\u201d from 1916 to 1983 [EV-0014] [EV-0080]:\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0014",
+    "EV-0080"
+   ],
+   "why": "Three-parcel split is the family case; labels aligned with research.",
+   "where": "BPvsBucklerWikiPage.tsx (#wiki summary)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "5/6 Dec: Bulldozers demolish Great House overnight.",
+   "replace": "6 Dec: final eviction hearing fails in the Cardiff High Court [EV-0104] · 7 Dec: demolition reported [EV-0106].",
+   "class": "WRONG",
+   "ev": [
+    "EV-0104",
+    "EV-0106"
+   ],
+   "why": "Dates from the press record.",
+   "where": "CadwForensicWikiView.tsx (#cadw-wiki)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Building demolished overnight by BP Properties with bulldozers and security squads.",
+   "replace": "Farmhouse demolished; reported 7 December 1988 (\\u201cTears flow as 800 year-old farm house is razed at last\\u201d) [EV-0106].",
+   "class": "WRONG",
+   "ev": [
+    "EV-0106"
+   ],
+   "why": "\"overnight\" and \"security squads\" not in held record.",
+   "where": "CadwForensicWikiView.tsx (#cadw-wiki)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "(5/6 Dec 1988)",
+   "replace": "(reported 7 Dec 1988)",
+   "class": "WRONG",
+   "ev": [
+    "EV-0106"
+   ],
+   "why": "Demolition date.",
+   "where": "CadwForensicWikiView.tsx (#cadw-wiki)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Subsidiary judicial review / spoliation action under preparation. Chancery title claim remains active for main case.",
+   "replace": "Not yet confirmed: no judicial review or title claim has been filed.",
+   "class": "WRONG",
+   "ev": [],
+   "why": "No proceedings on record.",
+   "where": "CadwForensicWikiView.tsx (#cadw-wiki)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Saturday 3 Dec 1988: Cadw confirms it is",
+   "replace": "Saturday 3 Dec 1988 [EV-0103]: Cadw confirms it is",
+   "class": "OK",
+   "ev": [
+    "EV-0103"
+   ],
+   "why": "Citation added.",
+   "where": "CadwForensicWikiView.tsx (#cadw-wiki)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Monday 5 Dec 1988: Refusal issued",
+   "replace": "Monday 5 Dec 1988: listing decision [EV-0096]",
+   "class": "OK",
+   "ev": [
+    "EV-0096"
+   ],
+   "why": "Citation added; neutral.",
+   "where": "CadwForensicWikiView.tsx (#cadw-wiki)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "demolished overnight on 5/6 December 1988, within hours of the refusal and the simultaneous dismissal of a High Court injunction.",
+   "replace": "demolished after the listing decision of December 1988 [EV-0096] and the failed final eviction hearing in the Cardiff High Court on 6 December [EV-0104]; the press reported the demolition on 7 December 1988 [EV-0106] [EV-0107]. The exact day is not settled in the records held.",
+   "class": "WRONG",
+   "ev": [
+    "EV-0096",
+    "EV-0104",
+    "EV-0106",
+    "EV-0107"
+   ],
+   "why": "\"overnight 5/6 Dec\" and \"injunction\" not in held records; mismatch flagged, not guessed.",
+   "where": "CadwForensicWikiView.tsx (#cadw-wiki)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"26 April 1974: \"",
+   "replace": "\"1974: \"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0047"
+   ],
+   "why": "Survey day not confirmed; EV-0047 dates it 1974.",
+   "where": "CadwForensicWikiView.tsx (#cadw-wiki)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "RCAHMW architectural survey by H.J. Thomas (ST 16817331)",
+   "replace": "RCAHMW architectural survey and floor plan by H. J. Thomas [EV-0047] (ST 16817331)",
+   "class": "OK",
+   "ev": [
+    "EV-0047"
+   ],
+   "why": "Citation added.",
+   "where": "CadwForensicWikiView.tsx (#cadw-wiki)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "conducted a professional survey on 26 April 1974",
+   "replace": "conducted a survey in 1974 [EV-0047]",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0047"
+   ],
+   "why": "Day not confirmed.",
+   "where": "CadwForensicWikiView.tsx (#cadw-wiki)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "to:\"Sion Buckler\"",
+   "replace": "to:\"Requester (family)\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "from:\"Sion Buckler\"",
+   "replace": "from:\"Requester (family)\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "from:\"Sion Buckler <[redacted]>\"",
+   "replace": "from:\"Requester (family)\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "name:\"Sion Buckler (Demo)\"",
+   "replace": "name:\"Demo user\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "p=\"Sion Buckler (Hywel ap Buckler)\"",
+   "replace": "p=\"Demo claimant\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "details:\"Sion Buckler • Great House Farm (96.8% Restitution Rating)\"",
+   "replace": "details:\"Demo claimant • Great House Farm (sample certificate, illustrative only)\"",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Names the owner; \"96.8% Restitution Rating\" has no source (sample).",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "G(\"Sion Buckler\")",
+   "replace": "G(\"Demo claimant\")",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "placeholder:\"e.g. Sion Buckler or your full legal name\"",
+   "replace": "placeholder:\"e.g. your full legal name\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "placeholder:\"e.g. Sion Buckler\"",
+   "replace": "placeholder:\"e.g. your full name\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "defaultClaimantName:u=\"Sion Buckler\"",
+   "replace": "defaultClaimantName:u=\"Demo claimant\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "userName:N=\"Sion Buckler\"",
+   "replace": "userName:N=\"Demo user\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "claimantName:\"Sion Buckler\"",
+   "replace": "claimantName:\"Demo claimant\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Sion Buckler & heirs claim standing",
+   "replace": "The heirs of Mary Williams claim standing",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"Sion Buckler & Representatives\"",
+   "replace": "\"Heirs of Mary Williams & representatives\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Per Sion Buckler, this is",
+   "replace": "Per family testimony, this is",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "per Sion Buckler the year was",
+   "replace": "per family testimony the year was",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Per Sion Buckler this is",
+   "replace": "Per family testimony this is",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Per Sion Buckler the year was",
+   "replace": "Per family testimony the year was",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "The Claimants include Sion Buckler, the son of William Buckler, who was the son of Mary Williams.",
+   "replace": "The Claimants include a grandson of Mary Williams, through her son William Buckler.",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Public text never names the family member who runs the project.",
+   "where": "name privacy (all views)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Detailing November 1982 first registration mistake, omitted 1975 conveyance plan, and lack of root title identity for the House Plot...",
+   "replace": "Detailing the registration record: fields WA231076 applied 30 Nov 1982 [EV-0059]; farmhouse WA240304 applied 23 Feb 1983 on Form 1C relying on the 23 May 1975 conveyance [EV-0066] [EV-0052]; merged 2 Feb 1987 [EV-0078]...",
+   "class": "WRONG",
+   "ev": [
+    "EV-0059",
+    "EV-0066",
+    "EV-0052",
+    "EV-0078"
+   ],
+   "why": "The farmhouse was not in the Nov 1982 registration; the 1975 plan is on the WA240304 file.",
+   "where": "CourtApplicationView.tsx (#court-app)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Binding Statement of Truth under CPR Part 22 for Claimants. Pleading complete and ready for High Court filing...",
+   "replace": "Statement of Truth placeholder. Illustrative draft only: not settled by counsel and not filed...",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "\"complete and ready for High Court filing\" is not true of a demo draft.",
+   "where": "CourtApplicationView.tsx (#court-app)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Conveyance to BP Pension Trust Ltd and BP Properties Ltd with express green-edged exclusion of the House Plot.",
+   "replace": "Conveyances of 31 Dec 1969 (WGR to BP Pension Trust, the farm including the farmhouse) [EV-0043] [EV-0080] and 23 May 1975 (BP Pension Trust to BP Properties, the farmhouse plot and other land) [EV-0052].",
+   "class": "WRONG",
+   "ev": [
+    "EV-0043",
+    "EV-0080",
+    "EV-0052"
+   ],
+   "why": "No \"green-edged exclusion\" on record; the 1975 conveyance is the one WA240304 relied on.",
+   "where": "CourtApplicationView.tsx (#court-app)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "The 1975 conveyance is relied upon in particular because the Claimants' present evidence indicates that the farmhouse, garden and curtilage were expressly excluded from the land conveyed.",
+   "replace": "Open question for the Claimants: the 1975 conveyance (BP Pension Trust to BP Properties, 23 May 1975) is the instrument BP Properties relied on for the farmhouse plot [EV-0052] [EV-0066]; its plan, and the root it recites, are what the Claimants would test.",
+   "class": "WRONG",
+   "ev": [
+    "EV-0052",
+    "EV-0066"
+   ],
+   "why": "Research layer: the 1975 conveyance included the farmhouse plot.",
+   "where": "CourtApplicationView.tsx (#court-app)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "November 1982 first registration mistake under Schedule 4 Land Registration Act 2002.",
+   "replace": "Question under Schedule 4 Land Registration Act 2002: the farmhouse was applied for separately (WA240304, 23 Feb 1983) [EV-0066] and merged into WA231076 on 2 Feb 1987 [EV-0078].",
+   "class": "WRONG",
+   "ev": [
+    "EV-0066",
+    "EV-0078"
+   ],
+   "why": "Farmhouse not in the Nov 1982 first registration (F016).",
+   "where": "CourtApplicationView.tsx (#court-app)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"WGR subsequently conveyed its interest to BP Pension Trust Ltd.\"",
+   "replace": "\"WGR conveyed the farm, including the farmhouse, to BP Pension Trust Ltd on 31 December 1969 [EV-0043] [EV-0080].\"",
+   "class": "OK",
+   "ev": [
+    "EV-0043",
+    "EV-0080"
+   ],
+   "why": "Date and citation added.",
+   "where": "CourtApplicationView.tsx (#court-app)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "WGR subsequently conveyed its interest to BP Pension Trust Ltd. BP Pension Trust Ltd subsequently conveyed its interest to BP Properties Ltd in 1975.",
+   "replace": "WGR conveyed the farm, including the farmhouse, to BP Pension Trust Ltd on 31 December 1969 [EV-0043] [EV-0080]. BP Pension Trust Ltd conveyed the farmhouse plot and other land to BP Properties Ltd on 23 May 1975 [EV-0052].",
+   "class": "OK",
+   "ev": [
+    "EV-0043",
+    "EV-0080",
+    "EV-0052"
+   ],
+   "why": "Dates and citations added.",
+   "where": "CourtApplicationView.tsx (#court-app)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"BP Pension Trust Ltd subsequently conveyed its interest to BP Properties Ltd in 1975.\"",
+   "replace": "\"BP Pension Trust Ltd conveyed the farmhouse plot and other land to BP Properties Ltd on 23 May 1975 [EV-0052].\"",
+   "class": "OK",
+   "ev": [
+    "EV-0052"
+   ],
+   "why": "Date and citation added.",
+   "where": "CourtApplicationView.tsx (#court-app)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "BP Properties Ltd became registered proprietor of WA231076 in 1982.",
+   "replace": "BP Properties Ltd applied for first registration of the fields as WA231076 on 30 November 1982 [EV-0059]; the farmhouse followed as WA240304 on 23 February 1983 [EV-0066] and was merged into WA231076 on 2 February 1987 [EV-0078].",
+   "class": "WRONG",
+   "ev": [
+    "EV-0059",
+    "EV-0066",
+    "EV-0078"
+   ],
+   "why": "Registration sequence per research layer.",
+   "where": "CourtApplicationView.tsx (#court-app)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Conveyance (BP Pension Trust → BP Properties Ltd) pleaded as excluding farmhouse, garden, curtilage",
+   "replace": "Conveyance of 23 May 1975 (BP Pension Trust \\u2192 BP Properties Ltd): the farmhouse plot and other land, relied on for WA240304 [EV-0052] [EV-0066]",
+   "class": "WRONG",
+   "ev": [
+    "EV-0052",
+    "EV-0066"
+   ],
+   "why": "Research layer: the 1975 conveyance included the farmhouse plot.",
+   "where": "CedfinHistoricalDossierView.tsx (#wiki Cedfin dossier)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "The BP Pension Trust → BP Properties Ltd conveyance is pleaded as expressly excluding the farmhouse, garden, and curtilage.",
+   "replace": "The 23 May 1975 conveyance (BP Pension Trust \\u2192 BP Properties Ltd) covered the farmhouse plot and other land, reserving 80-year road and sewer rights \\u201cto serve any development\\u201d [EV-0052]; BP Properties relied on it for the farmhouse application of 23 Feb 1983 [EV-0066].",
+   "class": "WRONG",
+   "ev": [
+    "EV-0052",
+    "EV-0066"
+   ],
+   "why": "Exclusion not supported; the record shows inclusion.",
+   "where": "CedfinHistoricalDossierView.tsx (#wiki Cedfin dossier)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Demolished 6 Dec 1988 following 33-year dispute; Cadw photo survey conducted 29 July 1988.",
+   "replace": "Demolition reported 7 Dec 1988 [EV-0106] (another account gives 6 Dec; not yet reconciled); Cadw inspection photographs 29 July 1988 [EV-0096].",
+   "class": "WRONG",
+   "ev": [
+    "EV-0106",
+    "EV-0096"
+   ],
+   "why": "EV-0106 dates the demolition report 7 Dec; mismatch flagged.",
+   "where": "CedfinHistoricalDossierView.tsx (#wiki Cedfin dossier)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "• Williams domestic curtilage persisted separately (1916 2-parcel split & 1975 exclusion)",
+   "replace": "• Open question: how the farmhouse and garden were held after 1928 (family case) [EV-0016]",
+   "class": "WRONG",
+   "ev": [
+    "EV-0016"
+   ],
+   "why": "\"1975 exclusion\" contradicts the record; 2-parcel split is the family case.",
+   "where": "CedfinHistoricalDossierView.tsx (#wiki Cedfin dossier)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Inspect actual 1975 BP Pension Trust conveyance to confirm express exclusion of house-plot, plus 1916/1939 schedules.",
+   "replace": "Inspect the 23 May 1975 conveyance and its plan (WA240304 items 1, 12, 13; form OC2) [EV-0052], plus the 1916 and 1939 tenancy plans [EV-0014].",
+   "class": "WRONG",
+   "ev": [
+    "EV-0052",
+    "EV-0014"
+   ],
+   "why": "Neutral action; no presumed exclusion.",
+   "where": "CedfinHistoricalDossierView.tsx (#wiki Cedfin dossier)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Atlas Map No. 10; confirms Williams tenure predating 1916 tenancy grant.",
+   "replace": "Atlas Map No. 10; shows Williams occupation before the 1916 tenancy (c.1841 tithe: John Williams, 36 parcels) [EV-0215].",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0215"
+   ],
+   "why": "\"confirms\" replaced with the cited record.",
+   "where": "CedfinHistoricalDossierView.tsx (#wiki Cedfin dossier)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "1916 Bute tenancy covered two distinct parcels (house-plot vs agricultural parcel).",
+   "replace": "The 1916 Bute tenancy was of \\u201cthe whole of the farm\\u201d, with plan [EV-0014] [EV-0080]; the family's two-parcel reading is its case, not yet tested.",
+   "class": "WRONG",
+   "ev": [
+    "EV-0014",
+    "EV-0080"
+   ],
+   "why": "Court of Appeal: tenancy of the whole farm.",
+   "where": "CedfinHistoricalDossierView.tsx (#wiki Cedfin dossier)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "1994 excavations (GGAT) recovered 1,026 Early Christian burials and Roman villa complex.",
+   "replace": "1993\\u201394 excavations by Cotswold Archaeological Trust on the development site recorded an early medieval cemetery [EV-0132] [EV-0134]; the burial count and the villa link are not yet confirmed in the catalogue.",
+   "class": "WRONG",
+   "ev": [
+    "EV-0132",
+    "EV-0134"
+   ],
+   "why": "Excavator was Cotswold Archaeological Trust (GGAT advised); figures unconfirmed in catalogue.",
+   "where": "CedfinHistoricalDossierView.tsx (#wiki Cedfin dossier)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Excavated 1994 (GGAT); high-status agrarian activity & settlement footprint in Lower Ely Valley.",
+   "replace": "Not yet confirmed in the research catalogue for the villa itself. The 1993\\u201394 excavation on the development site (Cotswold Archaeological Trust; GGAT advised) recorded the early medieval cemetery [EV-0131] [EV-0134].",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0131",
+    "EV-0134"
+   ],
+   "why": "The 1994 excavation was by Cotswold Archaeological Trust and concerned the cemetery; the villa excavation record is not in the catalogue.",
+   "where": "CedfinHistoricalDossierView.tsx (#wiki Cedfin dossier)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "The 33-year dispute (1955–1988) and subsequent demolition reflect the collision between corporate estate absorption and the unadjudicated residential freehold held by the Williams family.",
+   "replace": "From the 1955 possession order [EV-0032] to the 1988 eviction [EV-0098], the farmhouse was the subject of court proceedings for 33 years; the family's 1974 ownership plea was never finally heard [EV-0049].",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0032",
+    "EV-0098",
+    "EV-0049"
+   ],
+   "why": "Verdict sentence replaced with dated, cited ingredients.",
+   "where": "CedfinHistoricalDossierView.tsx (#wiki Cedfin dossier)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Evidence obtained, viewed, and verified: Full archival dossier including 1947 aerial photography, 1978 architectural field notes, and high-resolution cadastral survey maps released in full.",
+   "replace": "RCAHMW: archive holdings enquiry 26 Nov 2025, substantive disclosure [EV-0429]; details enquiry May\\u2013Jun 2026, partial disclosure [EV-0430]; reproduction order RC26-0375 placed 29 Sep 2026 [EV-0184] [EV-0185]. Contents of a full dossier are not yet confirmed.",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0429",
+    "EV-0430",
+    "EV-0184",
+    "EV-0185"
+   ],
+   "why": "\"released in full\" and the item list are not in the catalogue; replaced with the logged outcomes.",
+   "where": "initialData.ts (FOI tree)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Evidence obtained, viewed, and verified: Certified digital transcripts and parchment scans of IR 29/42/189 Tithe Map and Williams-Buckler tenancy agreements successfully inspected and certified.",
+   "replace": "Sample outcome (illustrative only). The tithe apportionment and map read so far is the National Library of Wales online copy, c.1841 [EV-0215]; no certified TNA transcript is in the catalogue.",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0215"
+   ],
+   "why": "IR 29/42/189 transcripts and certified tenancy agreements are not in the catalogue.",
+   "where": "initialData.ts (FOI tree)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "The National Archives – 1840 Tithe Apportionment & Llandough Land Registry Precedents",
+   "replace": "The National Archives – tithe records (c.1841) & Llandough land records",
+   "class": "WRONG",
+   "ev": [
+    "EV-0215",
+    "EV-0253"
+   ],
+   "why": "Tithe apportionment date c.1841.",
+   "where": "initialData.ts (FOI tree)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Response 16 Jul 2026: no records held.",
+   "replace": "Response 16 Jul 2026: no records held [EV-0159].",
+   "class": "OK",
+   "ev": [
+    "EV-0159"
+   ],
+   "why": "Citation added.",
+   "where": "initialData.ts (FOI tree)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "[1987] EWCA Civ 2 is the direct precedent and catalyst for this service. The case rests on decades—almost a century—of systemic theft, land grabbing, corporate fraud, concealment, exploitation, and state-sponsored dispossession of a disabled widowed pensioner, the last matriarch of her line, in order to seize her family home and ancestral land held since at least 1667.",
+   "replace": "[1987] EWCA Civ 2 is the case this service starts from. The record: a High Court possession order of 1955 was enforced on the whole farm except the farmhouse and garden [EV-0032] [EV-0080]; a county court possession order for the farmhouse followed on 11 Dec 1962 [EV-0041]; Mary (Nancy) Williams pleaded ownership in BP Pension Trust\\u2019s 1974 action, a plea never finally heard [EV-0049]; she died on 26 Mar 1983 [EV-0067]. The family traces its occupation to at least 1667 (family testimony).",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0032",
+    "EV-0080",
+    "EV-0041",
+    "EV-0049",
+    "EV-0067"
+   ],
+   "why": "Accusations and verdicts (incl. banned words) replaced with dated, cited ingredients; unsupported household and military details removed.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "The conveniently timed death of the defendant, Mr William Beverly Buckler, occurred between BP’s heavily petitioned housing-development application and the council’s acceptance of it. The council ignored the site’s archaeological and historic significance and failed to issue a demolition stop order. BP bailiffs then demolished Mr Williams’ 800-year-old home while his three infant children and pregnant wife were still inside—only hours before the family’s first departure from the land and home since 1667.",
+   "replace": "The 1988\\u201390 sequence: forced entry on 30 Nov 1988 [EV-0098]; eviction by 3 Dec [EV-0101]; final eviction hearing failed in the Cardiff High Court on 6 Dec [EV-0104]; demolition reported 7 Dec 1988 [EV-0106]. Planning: outline application 89/01396/OUT and the 1990 outline permission [EV-0114]; GGAT archaeological assessment, Aug 1990 [EV-0126]. William Beverley Buckler died on 29 April 1990 (probate calendar, probable match) [EV-0274].",
+   "class": "WRONG",
+   "ev": [
+    "EV-0098",
+    "EV-0101",
+    "EV-0104",
+    "EV-0106",
+    "EV-0114",
+    "EV-0126",
+    "EV-0274"
+   ],
+   "why": "Death (29 Apr 1990, EV-0274) is not shown to fall between application and permission; household-inside and timing claims unsupported; accusation removed.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "This sequence does not alter the fact that neither the late terminally ill Mr Buckler nor his heirs and successors (his five children and widow) have ever surrendered their claim of ownership of the land. The ancestral title has still never been legally adjudicated or legally extinguished by any court.",
+   "replace": "Family testimony: neither Mr Buckler nor his heirs have surrendered the family\\u2019s claim of ownership. Open question: what a court would have decided on the 1974 ownership plea, which \\u201chas never been finally heard\\u201d [EV-0049].",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0049"
+   ],
+   "why": "Accusations and verdicts (incl. banned words) replaced with dated, cited ingredients; unsupported household and military details removed.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "BP and the British state (synonymous at the time of the 1987 ruling) awarded themselves the Buckler/Williams ancestral birthlands—possession—in their own courts. This was achieved through possible fraud, concealment, undercover military personnel disguised as BP bailiffs, court “mistakes,” procedural unfairness, human-rights violations, censorship, fake press, and abuse of power.",
+   "replace": "Questions the family has raised about the courts, the 1988 eviction, the press and the Registry are open questions, not findings. The records that would answer them: the 1988 police and court files [EV-0440] [EV-0104], the WA240304 Registry file and its 1983 correspondence [EV-0066] [EV-0069], and Cadw\\u2019s December 1988 listing papers [EV-0096] [EV-0245].",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0440",
+    "EV-0104",
+    "EV-0066",
+    "EV-0069",
+    "EV-0096",
+    "EV-0245"
+   ],
+   "why": "Accusations and verdicts (incl. banned words) replaced with dated, cited ingredients; unsupported household and military details removed.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "The underlying root of title has never been extinguished, properly investigated, or adjudicated by a court of law.",
+   "replace": "The deed recited as BP\\u2019s root, the 31 Dec 1969 conveyance, is not on the Registry\\u2019s first-registration schedule [EV-0043]; the 1974 plea against it was never finally heard [EV-0049].",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0043",
+    "EV-0049"
+   ],
+   "why": "Accusations and verdicts (incl. banned words) replaced with dated, cited ingredients; unsupported household and military details removed.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "BP obtained only a possessory order via a unilateral licence loophole; they never proved or established a superior absolute root of title.",
+   "replace": "After the two letters of 31 Oct 1974 her possession of the farmhouse was not adverse, so no possessory title arose; BP Properties, holding the paper title, was entitled to possession [EV-0050] [EV-0080].",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0050",
+    "EV-0080"
+   ],
+   "why": "Accusations and verdicts (incl. banned words) replaced with dated, cited ingredients; unsupported household and military details removed.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "r.jsx(\"option\",{value:\"Parcel B (Ty Mawr House)\",children:\"Parcel B: House & Domestic Garden\"}),r.jsx(\"option\",{value:\"Parcel A (Farmland)\",children:\"Parcel A: Farmland / Agricultural Acreage\"}),r.jsx(\"option\",{value:\"Parcel C (Cottages)\",children:\"Parcel C: Limeworks & Cottages\"})",
+   "replace": "r.jsx(\"option\",{value:\"Parcel A (farmhouse and garden)\",children:\"Parcel A: Farmhouse & Garden\"}),r.jsx(\"option\",{value:\"Parcel B (fields)\",children:\"Parcel B: Fields\"}),r.jsx(\"option\",{value:\"Limeworks land\",children:\"Limeworks land (33 a.)\"})",
+   "class": "WRONG",
+   "ev": [],
+   "why": "Filter labels follow the research layer (A = farmhouse, B = fields); values match the corrected rows.",
+   "where": "HistoricalTenureTableView.tsx"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "parcelContext:\"Parcel C (Cottages)\"",
+   "replace": "parcelContext:\"Limeworks land\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0291"
+   ],
+   "why": "Label per NLW catalogue (limeworks land, 33 a.).",
+   "where": "historicalTenureTableData.ts (#wiki tenure table)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Synthesizing Court of Appeal BP Oil Ltd v Buckler (1987) Precedent...",
+   "replace": "Reading BP Properties Ltd v Buckler [1987] EWCA Civ 2 (31 Jul 1987)...",
+   "class": "WRONG",
+   "ev": [
+    "EV-0080"
+   ],
+   "why": "Party is BP Properties Ltd, not BP Oil.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Analyzing s.32 Limitation Act fraud concealment & unextinguished title",
+   "replace": "Checking s.32 Limitation Act 1980 (concealment) as a working hypothesis",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Banned word; hypothesis label.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Validating unencumbered customary freehold boundaries and unsevered possession",
+   "replace": "Comparing the 1916 tenancy plan with the WA231076 title plan",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0014"
+   ],
+   "why": "Presumed finding.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Assembling Final Archival Restitution Dossier & Proof of Entitlement...",
+   "replace": "Assembling the evidence dossier (cited ingredients, no verdict)...",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "\"Proof of Entitlement\" is a conclusion.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "[1987] judgment retrieved. Root-of-title was expressly unresolved by Lord Justice Dillon.",
+   "replace": "[1987] judgment retrieved (31 Jul 1987, Dillon LJ). Open: the 1974 ownership plea was never finally heard [EV-0049].",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0080",
+    "EV-0049"
+   ],
+   "why": "\"expressly unresolved\" is not in the judgment.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Section 32 Limitation Act 1980 analysis: deliberate concealment prevents fraudulent land dispossession from being sanitized by time.",
+   "replace": "Section 32 Limitation Act 1980: working hypothesis only. What would test it: the WA240304 file, 23 Feb 1983 [EV-0066], and the Registry letters of 8 Apr, 12 Apr and 12 May 1983 (contents not yet read) [EV-0069] [EV-0070].",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0066",
+    "EV-0069",
+    "EV-0070"
+   ],
+   "why": "Banned word; verdict.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Three-Plot parcel split (Parcels A, B, and C) proves Ty Mawr was held under customary freehold separate from farmland rentals.",
+   "replace": "Parcel labels (A farmhouse, B fields) are working labels: the family's two-parcel case set beside the record's \\u201cwhole farm\\u201d, 1916\\u20131983 [EV-0014] [EV-0080].",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0014",
+    "EV-0080"
+   ],
+   "why": "\"proves\" is a conclusion; parcel letters aligned.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Corroborating 1876 limeworks severance against Daniel Thomas 1895–1905 title exchange",
+   "replace": "Comparing the 1876 limeworks land (33 a.) [EV-0291] with the family's 1877 Daniel Thomas account [EV-0006]",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0291",
+    "EV-0006"
+   ],
+   "why": "\"1895–1905 title exchange\" not in the catalogue.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Cross-Referencing 1910 Finance Act Inland Revenue Field Books...",
+   "replace": "Looking for the 1910 Valuation Office record (not yet located) [EV-0446]...",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0446"
+   ],
+   "why": "Field books not located.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Triangulating 1840 Tithe Apportionments & Land Registry Root Indexes...",
+   "replace": "Reading the c.1841 tithe apportionment [EV-0215] and the Registry title files [EV-0066]...",
+   "class": "WRONG",
+   "ev": [
+    "EV-0215",
+    "EV-0066"
+   ],
+   "why": "Tithe date c.1841.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "e.g. 1840 Tithe Map, 1987 BP Oil Precedent, WA240304",
+   "replace": "e.g. c.1841 tithe map, [1987] EWCA Civ 2, WA240304",
+   "class": "WRONG",
+   "ev": [
+    "EV-0215",
+    "EV-0080"
+   ],
+   "why": "Date and party name.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Fraud & Concealment precedent triangulation (BP Properties v Buckler [1987])",
+   "replace": "Concealment (s.32) working-hypothesis check (BP Properties v Buckler [1987])",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Banned word.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Chronological forensic comparison of paper ownership against unbroken customary domestic occupancy (1667–Present) for Great House Farm (Ty Mawr), Llandough.",
+   "replace": "Paper ownership and occupation side by side, 1667 to present, for Great House Farm (Ty Mawr), Llandough. Each row cites its record or is marked Family testimony / Not yet confirmed.",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "\"unbroken customary occupancy\" stated the conclusion.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "All entries triangulated against Glamorgan Archives, The National Archives (Kew), and Court of Appeal Law Reports.",
+   "replace": "Citations link to the research catalogue; rows with no catalogued record are marked Not yet confirmed.",
+   "class": "WRONG",
+   "ev": [],
+   "why": "Rows were not all triangulated; now honest.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Bute Estate Rent Books (1845–1893); 1877 / 1928 Daniel Thomas instruments; 1938 WGR & 1975 BP conveyances; Title WA231076 (1982 first registration)",
+   "replace": "c.1841 tithe apportionment [EV-0215]; 1877 and 1928 Daniel Thomas instruments (not located) [EV-0006] [EV-0016]; 1938 WGR and 1975 BP conveyances [EV-0019] [EV-0052]; titles WA231076 (applied 30 Nov 1982) and WA240304 (applied 23 Feb 1983) [EV-0059] [EV-0066]",
+   "class": "WRONG",
+   "ev": [
+    "EV-0215",
+    "EV-0006",
+    "EV-0016",
+    "EV-0019",
+    "EV-0052",
+    "EV-0059",
+    "EV-0066"
+   ],
+   "why": "Rent books not located; farmhouse title WA240304 added.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "1840 Llandough Tithe Apportionment; ",
+   "replace": "",
+   "class": "WRONG",
+   "ev": [
+    "EV-0215"
+   ],
+   "why": "Folded into the corrected list.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Rented from Bute Estate. 1916, 1949, 1953 tenancies applied ONLY here. Rent paid until 1953.",
+   "replace": "The 1916 Bute tenancy [EV-0014] and the 1949 re-grant [EV-0025] were of the whole farm in the record; rent was last paid in 1953 [EV-0080].",
+   "class": "WRONG",
+   "ev": [
+    "EV-0014",
+    "EV-0025",
+    "EV-0080"
+   ],
+   "why": "\"ONLY here\" contradicts the record (whole farm).",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Claimed by Williams family via 1667 lease root & 1895–1905 Daniel Thomas arrangement. No rent ever paid. Subject of 1987 Court of Appeal litigation.",
+   "replace": "Family case: held through a 1667 root and an 1877 Daniel Thomas agreement (neither located) [EV-0006]; the 1987 appeal was limited to the farmhouse and garden [EV-0080].",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0006",
+    "EV-0080"
+   ],
+   "why": "\"No rent ever paid\" contradicts the 1953 rent; documents not located.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "Carved out of estate lands for industrial quarrying. Conveyed to limeworks operators; later subject of 1895–1905 title exchange with Daniel Thomas & Son.",
+   "replace": "Land (33 a.), formerly part of Great House Farm, for the Llandough Limeworks, 1876\\u20131912 [EV-0291]; the works ran to 1947 [EV-0280].",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0291",
+    "EV-0280"
+   ],
+   "why": "\"title exchange\" not in the catalogue.",
+   "where": "MockPortalDashboard.tsx / CaseStudyResultsModal.tsx (results run-log)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{period:\"1916\",claim:\"John Williams Bute tenancy agreement covers two separate parcels\",tier:\"DOCUMENTARY\",notes:\"Corroborates structural distinction between house-plot and agricultural parcel.\"}",
+   "replace": "{period:\"1916\",claim:\"Bute yearly agricultural tenancy to John Williams of \\u201cthe whole of the farm\\u201d, with plan\",tier:\"DOCUMENTARY\",notes:\"[EV-0014] [EV-0080]. The family reads the plan as showing two parcels (family case).\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0014",
+    "EV-0080"
+   ],
+   "why": "Record: the 1916 tenancy was of the whole farm.",
+   "where": "CedfinHistoricalDossierView.tsx (timeline tiers)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "notes:\"Supports persisting separate plot status.\"",
+   "replace": "notes:\"Open question: which land it covered is read from its plan.\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Conclusion removed.",
+   "where": "CedfinHistoricalDossierView.tsx (timeline tiers)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{period:\"1974\",claim:\"Petition gathers 1,700 signatures; H.J.T. structural survey under access constraints\"",
+   "replace": "{period:\"1974\",claim:\"Press campaign (Daily Telegraph, 16 Apr 1974: \\u2018Open day\\u2019 to save ancient Welsh house) [EV-0048]; H. J. Thomas survey [EV-0047]\"",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0048",
+    "EV-0047"
+   ],
+   "why": "1,700-signature petition not in the catalogue.",
+   "where": "CedfinHistoricalDossierView.tsx (timeline tiers)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "notes:\"Strongest non-testimonial documentary evidence of persisting house-plot separate title.\"",
+   "replace": "notes:\"Its plan is filed under closed title WA240304; a copy can be ordered on form OC2.\"",
+   "class": "WRONG",
+   "ev": [
+    "EV-0052"
+   ],
+   "why": "The 1975 conveyance included the farmhouse plot.",
+   "where": "CedfinHistoricalDossierView.tsx (timeline tiers)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{period:\"6 Dec 1988\",claim:\"Demolition of Tŷ Mawr by BP Properties Ltd after 33-year ownership dispute\",tier:\"DOCUMENTARY\",notes:\"Controversial demolition following 1955–1988 battle.\"}",
+   "replace": "{period:\"7 Dec 1988 (reported)\",claim:\"Demolition of Tŷ Mawr by BP Properties Ltd\",tier:\"DOCUMENTARY\",notes:\"Press cutting c. 7 Dec 1988 [EV-0106]; another account gives 6 Dec (not yet reconciled).\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0106"
+   ],
+   "why": "Date per EV-0106; mismatch flagged.",
+   "where": "CedfinHistoricalDossierView.tsx (timeline tiers)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{period:\"1994\",claim:\"Archaeological recovery of 1,026 Early Christian burials and Roman villa complex\",tier:\"DOCUMENTARY\",notes:\"Excavated by Glamorgan-Gwent Archaeological Trust (GGAT / Medieval Archaeology 2005).\"}",
+   "replace": "{period:\"1993\\u201394\",claim:\"Excavation of the early medieval cemetery on the development site\",tier:\"DOCUMENTARY\",notes:\"Cotswold Archaeological Trust (GGAT advised) [EV-0131] [EV-0134]; burial count not yet confirmed in the catalogue.\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0131",
+    "EV-0134"
+   ],
+   "why": "Excavator; unconfirmed figures removed.",
+   "where": "CedfinHistoricalDossierView.tsx (timeline tiers)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "claim:\"Bute Estate allegedly sells freehold of house + ~10 acres to Daniel Thomas\",tier:\"FAMILY_TRADITION\",notes:\"Quarrying clause: freehold to revert/pass to grandfather once quarrying ceased.\"}",
+   "replace": "claim:\"Family testimony: Bute sold the freehold of the house + ~10 acres to Daniel Thomas\",tier:\"FAMILY_TRADITION\",notes:\"Quarrying clause: freehold to pass to her grandfather once quarrying ceased. Agreement not located [EV-0006].\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0006"
+   ],
+   "why": "Banned word; citation.",
+   "where": "CedfinHistoricalDossierView.tsx (timeline tiers)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{period:\"1897\",claim:\"Guglielmo Marconi stays at Great House Farm during wireless experiments\",tier:\"DOCUMENTARY\",notes:\"Historic tests between Lavernock Point and Flat Holm.\"}",
+   "replace": "{period:\"1897\",claim:\"Guglielmo Marconi\\u2019s Lavernock\\u2013Flat Holm wireless trials; a stay at Great House Farm is family testimony\",tier:\"FAMILY_TRADITION\",notes:\"Trials: [EV-0011] [EV-0248] [EV-0256].\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0011",
+    "EV-0248",
+    "EV-0256"
+   ],
+   "why": "Trials are recorded; the stay at the farm is not.",
+   "where": "CedfinHistoricalDossierView.tsx (timeline tiers)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "unverified original deed.",
+   "replace": "original deed not located.",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Banned word.",
+   "where": "CedfinHistoricalDossierView.tsx (timeline tiers)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"Fraud Unravels All Doctrine\"",
+   "replace": "\"Working hypothesis: concealment (s.32)\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Heading stated as a hypothesis label.",
+   "where": "CedfinHistoricalDossierView.tsx (timeline tiers)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"Customary Freehold Split\"",
+   "replace": "\"Parcel labels (working)\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Heading stated the family case as fact.",
+   "where": "CedfinHistoricalDossierView.tsx (timeline tiers)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-5\",text:\"hereditary possession\",side:\"williams\",color:\"green\",size:\"lg\",dateOrEra:\"1667–1988\",parcelOrSubject:\"Ty Mawr Dwelling\",source:\"Parish registers, census records (1841–1911), electoral rolls\",explanation:\"Green (Documented Fact): Unbroken continuous residential possession by the Williams/Buckler family for over three centuries is an indisputable empirical fact corroborated by all census and baptismal rolls.\"}",
+   "replace": "{id:\"w-5\",text:\"hereditary possession\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1667–1988\",parcelOrSubject:\"Ty Mawr Dwelling\",source:\"c.1841 tithe apportionment [EV-0215]; 1872\\u20131876 rate books [EV-0212]; 1916 tenancy [EV-0014]; Court of Appeal [EV-0080]\",explanation:\"Record and family testimony: John Williams's holding appears in the c.1841 tithe [EV-0215]; the 1916 tenancy [EV-0014] and the Court of Appeal [EV-0080] record the family's occupation to 1988. Earlier generations rest on family testimony.\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0215",
+    "EV-0212",
+    "EV-0014",
+    "EV-0080",
+    "EV-0215",
+    "EV-0014",
+    "EV-0080"
+   ],
+   "why": "\"indisputable empirical fact\" overstated; the record runs from c.1841.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-6\",text:\"Great House / Ty Mawr as ancestral home\",side:\"williams\",color:\"green\",size:\"xl\",dateOrEra:\"Historic\",parcelOrSubject:\"Ty Mawr\",source:\"1840 Tithe Apportionment, Grade II Historic Listing, Royal Commission on Ancient Monuments\",explanation:\"Green (Documented Fact): Grade II listed Welsh medieval manor house historically recognized and inhabited as the Williams family seat.\"}",
+   "replace": "{id:\"w-6\",text:\"Great House / Ty Mawr as ancestral home\",side:\"williams\",color:\"green\",size:\"xl\",dateOrEra:\"Historic\",parcelOrSubject:\"Ty Mawr\",source:\"RCAHMW 1974 survey [EV-0047]; Cadw 1988 inspection [EV-0096]; listing records [EV-0272]\",explanation:\"Record: surveyed by the Royal Commission in 1974 [EV-0047]; inspected by Cadw on 29 July 1988, listing decision December 1988 [EV-0096]; not on a statutory list when demolished (Llandough resurvey list issued 6 April 1989) [EV-0272].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0047",
+    "EV-0096",
+    "EV-0272",
+    "EV-0047",
+    "EV-0096",
+    "EV-0272"
+   ],
+   "why": "The house was never statutorily listed (EV-0272).",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-7\",text:\"Mary born at Great House Farm in 1913\",side:\"williams\",color:\"green\",size:\"md\",dateOrEra:\"1913\",parcelOrSubject:\"Mary Doreen Buckler (née Williams)\",source:\"General Register Office Birth Certificate, Glamorgan 1913\",explanation:\"Green (Documented Fact): Direct statutory record proving Mary Doreen Williams was born inside Great House Farm on 12 December 1913.\"}",
+   "replace": "{id:\"w-7\",text:\"Mary born at Great House Farm in 1913\",side:\"williams\",color:\"orange\",size:\"md\",dateOrEra:\"1913\",parcelOrSubject:\"Mary Doreen Buckler (née Williams)\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Family testimony: born at Great House Farm in 1913. Record: in 1936 she married as Miss Mary Doreen (Nancy) Williams, of Great House Farm, Llandough [EV-0230].\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0230"
+   ],
+   "why": "No birth record in the catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-8\",text:\"Mary lived there all her life\",side:\"williams\",color:\"green\",size:\"md\",dateOrEra:\"1913–1988\",parcelOrSubject:\"Mary Doreen Buckler\",source:\"Electoral registers, 1939 National Register, High Court evidence affidavits\",explanation:\"Green (Documented Fact): Mary resided continuously at Great House Farm from her birth in 1913 until her death in 1986.\"}",
+   "replace": "{id:\"w-8\",text:\"Mary lived there all her life\",side:\"williams\",color:\"green\",size:\"md\",dateOrEra:\"1913–1983\",parcelOrSubject:\"Mary Doreen Buckler\",source:\"Death index, March 1983 [EV-0067]; Court of Appeal [EV-0080]\",explanation:\"Record: she lived at the farmhouse until her death on 26 March 1983 [EV-0067] [EV-0080].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0067",
+    "EV-0080",
+    "EV-0067",
+    "EV-0080"
+   ],
+   "why": "She died 26 Mar 1983, not 1986.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-1\",text:\"Williams family in occupation since 1667\",side:\"williams\",color:\"orange\",size:\"xl\",dateOrEra:\"1667–Present\",parcelOrSubject:\"Ty Mawr (Great House Farm)\",source:\"Family oral tradition & Glamorgan manorial surrender entries\",explanation:\"Orange (Disputed / Incomplete): While unbroken physical ancestral possession is documented across generations, the specific legal character of early tenancies (customary copyhold vs rack lease) is debated by estate lawyers.\"}",
+   "replace": "{id:\"w-1\",text:\"Williams family in occupation since 1667\",side:\"williams\",color:\"orange\",size:\"xl\",dateOrEra:\"1667–Present\",parcelOrSubject:\"Ty Mawr (Great House Farm)\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Orange (Disputed / Incomplete): While unbroken physical ancestral possession is documented across generations, the specific legal character of early tenancies (customary copyhold vs rack lease) is debated by estate lawyers.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Cited source not in the research catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-3\",text:\"999-year virtual freehold\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"17th Century\",parcelOrSubject:\"Ty Mawr & Curtilage\",source:\"1970s legal correspondence & Vale of Glamorgan petition records\",explanation:\"Orange (Disputed): Long leases of 99 or 999 years with customary rights of renewal were often treated in Welsh manorial practice as virtual freeholds (chief-rent tenures).\"}",
+   "replace": "{id:\"w-3\",text:\"999-year virtual freehold\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"17th Century\",parcelOrSubject:\"Ty Mawr & Curtilage\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Orange (Disputed): Long leases of 99 or 999 years with customary rights of renewal were often treated in Welsh manorial practice as virtual freeholds (chief-rent tenures).\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Cited source not in the research catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-4\",text:\"1,000-year Herbert–Vaughan lease\",side:\"williams\",color:\"orange\",size:\"md\",dateOrEra:\"Medieval / Early Modern\",parcelOrSubject:\"Llandough Manor\",source:\"Historical Welsh tenurial research & family assertions\",explanation:\"Orange (Disputed / Archival ambiguity): Represents ancient customary manorial grants prior to Pembroke and Bute estate consolidation.\"}",
+   "replace": "{id:\"w-4\",text:\"1,000-year Herbert–Vaughan lease\",side:\"williams\",color:\"orange\",size:\"md\",dateOrEra:\"Medieval / Early Modern\",parcelOrSubject:\"Llandough Manor\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Orange (Disputed / Archival ambiguity): Represents ancient customary manorial grants prior to Pembroke and Bute estate consolidation.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Cited source not in the research catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-9\",text:\"1877 Bute notice to quit\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1877\",parcelOrSubject:\"Agricultural Farmland\",source:\"Bute Estate Notice Books, Glamorgan Archives D/D Bu\",explanation:\"Orange (Parcel-dependent): A notice to quit was issued for agricultural land, but the family remained in physical occupation of the house (Parcel B).\"}",
+   "replace": "{id:\"w-9\",text:\"1877 Bute notice to quit\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1877\",parcelOrSubject:\"Agricultural Farmland\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Orange (Family testimony): a notice to quit for agricultural land; the family stayed in the house (Parcel A, the farmhouse). No 1877 notice is in the research catalogue.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Cited source not in the research catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-10\",text:\"1877 termination of old Bute tenancy\",side:\"williams\",color:\"orange\",size:\"md\",dateOrEra:\"1877\",parcelOrSubject:\"Farmland tenancy\",source:\"Bute Estate Rentals 1877–1878\",explanation:\"Orange (Disputed scope): Estate records show a restructuring of tenancy contracts, creating the spatial separation between farm rentals and residential occupation.\"}",
+   "replace": "{id:\"w-10\",text:\"1877 termination of old Bute tenancy\",side:\"williams\",color:\"orange\",size:\"md\",dateOrEra:\"1877\",parcelOrSubject:\"Farmland tenancy\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Orange (Disputed scope): Estate records show a restructuring of tenancy contracts, creating the spatial separation between farm rentals and residential occupation.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Cited source not in the research catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-11\",text:\"farm split between two landlords\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"Late 19th Century\",parcelOrSubject:\"Spatial division\",source:\"Land Tax assessments & Bute rental books\",explanation:\"Orange (Complex title geometry): Highlights the Three-Plot split where mineral rights, agricultural fields, and the house were treated under differing superiority chains.\"}",
+   "replace": "{id:\"w-11\",text:\"farm split between two landlords\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"Late 19th Century\",parcelOrSubject:\"Spatial division\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Orange (Complex title geometry): Highlights the Three-Plot split where mineral rights, agricultural fields, and the house were treated under differing superiority chains.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Cited source not in the research catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-12\",text:\"farmhouse + buildings + ~10 acres\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1876–1905\",parcelOrSubject:\"Core Holding (Parcel B)\",source:\"Inland Revenue 1910 Field Book IR 58/76251\",explanation:\"Orange (Spatial breakdown): The physical curtilage claimed by the Williams family as distinct from the broader surrounding estate acreage.\"}",
+   "replace": "{id:\"w-12\",text:\"farmhouse + buildings + ~10 acres\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1876–1905\",parcelOrSubject:\"Core holding (Parcel A, farmhouse)\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Orange (Spatial breakdown): The physical curtilage claimed by the Williams family as distinct from the broader surrounding estate acreage.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Cited source not in the research catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-13\",text:\"Bute retained ~9 acres on top\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1895\",parcelOrSubject:\"Quarry & hillside\",source:\"Bute Estate Plan of Llandough Manor 1895\",explanation:\"Orange (Disputed boundary): Documentation of acreage retained by Bute Trustees during piecemeal sales to Daniel Thomas.\"}",
+   "replace": "{id:\"w-13\",text:\"Bute retained ~9 acres on top\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1895\",parcelOrSubject:\"Quarry & hillside\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Orange (Disputed boundary): Documentation of acreage retained by Bute Trustees during piecemeal sales to Daniel Thomas.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Cited source not in the research catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-14\",text:\"Bute sold core parcel to Daniel Thomas\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1895–1905\",parcelOrSubject:\"Limeworks / Farmland\",source:\"1895 Bute-Thomas Conveyance Drafts\",explanation:\"Orange (Contested root of title): Bute purported to sell the land, but the conveyance did not extinguish overriding customary rights of occupiers in actual possession.\"}",
+   "replace": "{id:\"w-14\",text:\"Bute sold core parcel to Daniel Thomas\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1895–1905\",parcelOrSubject:\"Limeworks / Farmland\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Family testimony: Bute sold the house parcel to Daniel Thomas (1877 agreement, not located) [EV-0006]. Open question: what it conveyed, and to whom.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0006"
+   ],
+   "why": "Source not located; legal conclusion removed.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-16\",text:\"quarry rent progressively decreased\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1900–1928\",parcelOrSubject:\"Mineral extraction royalties\",source:\"Thomas estate account extracts\",explanation:\"Orange (Tenurial interpretation): Corroborates that payments were diminishing royalties rather than standard residential ground rent.\"}",
+   "replace": "{id:\"w-16\",text:\"quarry rent progressively decreased\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1900–1928\",parcelOrSubject:\"Mineral extraction royalties\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Family testimony: payments fell as quarrying wound down. Not yet confirmed.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "No account extracts in the catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-18\",text:\"last rent paid to Alfred Thomas\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1928\",parcelOrSubject:\"Final quarry ledger payment\",source:\"Thomas family probate & estate records\",explanation:\"Orange (Date significance): 1928 marks the definitive date after which no rent of any kind was paid to Daniel Thomas or his heirs.\"}",
+   "replace": "{id:\"w-18\",text:\"last rent paid to Alfred Thomas\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1928\",parcelOrSubject:\"Final quarry ledger payment\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Orange (Date significance): 1928 marks the definitive date after which no rent of any kind was paid to Daniel Thomas or his heirs.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Cited source not in the research catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-19\",text:\"quarry machinery removed in 1928\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1928\",parcelOrSubject:\"Llandough Limeworks\",source:\"Glamorgan mining inspectorate logs 1928\",explanation:\"Orange (Physical corroboration): Mining equipment was dismantled and carted away, marking the end of the quarrying covenant.\"}",
+   "replace": "{id:\"w-19\",text:\"quarry machinery removed in 1928\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1928\",parcelOrSubject:\"Llandough Limeworks\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Family testimony: the quarry machinery was removed in 1928 [EV-0016]. The limeworks record runs to 1947 [EV-0280].\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0016",
+    "EV-0280"
+   ],
+   "why": "Inspectorate logs not in the catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-24\",text:\"household papers kept in blanket box\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"19th/20th Century\",parcelOrSubject:\"Family deeds archive\",source:\"Mary Buckler sworn deposition 1974\",explanation:\"Orange (Testimony on lost documents): Explains how historical manorial papers, rent receipts, and indentures were preserved inside the farmhouse.\"}",
+   "replace": "{id:\"w-24\",text:\"household papers kept in blanket box\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"19th/20th Century\",parcelOrSubject:\"Family deeds archive\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Orange (Testimony on lost documents): Explains how historical manorial papers, rent receipts, and indentures were preserved inside the farmhouse.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Cited source not in the research catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-25\",text:\"papers disappeared before/around litigation\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1955–1974\",parcelOrSubject:\"Archival loss\",source:\"William Beverly Buckler statements & police reports\",explanation:\"Orange (Unresolved circumstance): Documents the tragic loss of primary documentary evidence prior to formal High Court disclosure.\"}",
+   "replace": "{id:\"w-25\",text:\"papers disappeared before/around litigation\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1955–1974\",parcelOrSubject:\"Archival loss\",source:\"Family testimony; papers removed c.1950\\u201352 [EV-0026]\",explanation:\"Family testimony: the title papers were removed from the farmhouse blanket box c.1950\\u201352 [EV-0026]. Open question: where they went.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0026",
+    "EV-0026"
+   ],
+   "why": "Statements and police reports not in the catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-33\",text:\"Bute transfers may have conveyed only superior estate\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1895–1938\",parcelOrSubject:\"Conveyance Law (Nemo Dat Quod Non Habet)\",source:\"Chancery Conveyancing opinions & Law of Property Act 1925 analysis\",explanation:\"Orange (Doctrinal Property Issue): If Bute held only manorial chief rents or superior lordship, subsequent conveyances could not grant unencumbered freehold vacant possession.\"}",
+   "replace": "{id:\"w-33\",text:\"Bute transfers may have conveyed only superior estate\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1895–1938\",parcelOrSubject:\"Conveyance Law (Nemo Dat Quod Non Habet)\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Orange (Doctrinal Property Issue): If Bute held only manorial chief rents or superior lordship, subsequent conveyances could not grant unencumbered freehold vacant possession.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Cited source not in the research catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-34\",text:\"1820 exchange did not obviously acquire Williams estate\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1820\",parcelOrSubject:\"Bute-Plymouth Deed of Exchange\",source:\"Glamorgan Archives D/D Bu Deeds of Exchange 1820\",explanation:\"Orange (Archival title flaw): The schedule of the 1820 exchange deed does not specifically enumerate the customary residential freehold of Ty Mawr.\"}",
+   "replace": "{id:\"w-34\",text:\"1820 exchange did not obviously acquire Williams estate\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1820\",parcelOrSubject:\"Bute-Plymouth Deed of Exchange\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Orange (Archival title flaw): The schedule of the 1820 exchange deed does not specifically enumerate the customary residential freehold of Ty Mawr.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Cited source not in the research catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-35\",text:\"mineral/manorial rights survived separately\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"19th Century\",parcelOrSubject:\"Severed mineral estate\",source:\"Bute Estate Mineral reservation deeds 1876\",explanation:\"Orange (Title severance): Manorial and mineral rights were frequently severed from surface residential occupancies in Glamorgan property law.\"}",
+   "replace": "{id:\"w-35\",text:\"mineral/manorial rights survived separately\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"19th Century\",parcelOrSubject:\"Severed mineral estate\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Orange (Title severance): Manorial and mineral rights were frequently severed from surface residential occupancies in Glamorgan property law.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Cited source not in the research catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-42\",text:\"Bute was treated as freehold owner\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"19th Century\",parcelOrSubject:\"Estate administration\",source:\"Bute Land Agent Letterbooks 1880–1910\",explanation:\"Orange (Administrative presumption): The Bute estate administered the lands under a working presumption of fee simple ownership, despite unadjudicated customary tenures.\"}",
+   "replace": "{id:\"w-42\",text:\"Bute was treated as freehold owner\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"19th Century\",parcelOrSubject:\"Estate administration\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Orange (Administrative presumption): The Bute estate administered the lands under a working presumption of fee simple ownership, despite unadjudicated customary tenures.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Cited source not in the research catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-43\",text:\"John Williams was treated as tenant\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1870–1920\",parcelOrSubject:\"Tenancy status\",source:\"Bute Rental Rolls\",explanation:\"Orange (Contested classification): John Williams was recorded as a tenant on agricultural rolls while asserting hereditary ownership of the house.\"}",
+   "replace": "{id:\"w-43\",text:\"John Williams was treated as tenant\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1870–1920\",parcelOrSubject:\"Tenancy status\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Orange (Contested classification): John Williams was recorded as a tenant on agricultural rolls while asserting hereditary ownership of the house.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Cited source not in the research catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-2\",text:\"1667 acquisition / purchase\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1667\",parcelOrSubject:\"Ty Mawr\",source:\"Williams family tradition cited in 1987 Court of Appeal litigation\",explanation:\"Orange (Disputed): The family asserted an ancient outright purchase or customary copyhold acquisition, though formal 17th-century deeds were not produced in court.\"}",
+   "replace": "{id:\"w-2\",text:\"1667 acquisition / purchase\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1667\",parcelOrSubject:\"Ty Mawr\",source:\"Family testimony; Court of Appeal records her claim through her grandfather [EV-0080]\",explanation:\"Orange (Disputed): The family asserted an ancient outright purchase or customary copyhold acquisition, though formal 17th-century deeds were not produced in court.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0080"
+   ],
+   "why": "The CA judgment records her belief from 1959 via her grandfather, not a 1667 purchase.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-15\",text:\"Daniel Thomas agreement\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1876–1928\",parcelOrSubject:\"Quarrying royalty pact\",source:\"Witness testimony (per the Buckler case) in the 1987 appeal & Thomas Limeworks ledger notes\",explanation:\"Orange (Oral agreement with documentary corroboration): Williams grandfather permitted quarrying operations in exchange for royalty credits, leading to full release upon cessation.\"}",
+   "replace": "{id:\"w-15\",text:\"Daniel Thomas agreement\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1876–1928\",parcelOrSubject:\"Quarrying royalty pact\",source:\"Family testimony; 1877 agreement and 1928 receipt not located [EV-0006] [EV-0016]\",explanation:\"Family testimony: quarrying was allowed under the Daniel Thomas agreement and the freehold was to pass when it ceased [EV-0006] [EV-0016]. Open question until the documents are found.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0006",
+    "EV-0016",
+    "EV-0006",
+    "EV-0016"
+   ],
+   "why": "Not \"documentary corroboration\": the documents are not located.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-17\",text:\"freehold to Williams grandfather when quarrying ceased\",side:\"williams\",color:\"orange\",size:\"xl\",dateOrEra:\"1928\",parcelOrSubject:\"Ty Mawr Freehold\",source:\"Mary Buckler testimony & family sworn statements\",explanation:\"Orange (Family title root assertion): The core family proposition explaining why all payments ceased in 1928 and the property was held unencumbered.\"}",
+   "replace": "{id:\"w-17\",text:\"freehold to Williams grandfather when quarrying ceased\",side:\"williams\",color:\"orange\",size:\"xl\",dateOrEra:\"1928\",parcelOrSubject:\"Ty Mawr Freehold\",source:\"Family testimony; 1928 receipt not located [EV-0016]\",explanation:\"Orange (Family title root assertion): The core family proposition explaining why all payments ceased in 1928 and the property was held unencumbered.\"}",
+   "class": "OK",
+   "ev": [
+    "EV-0016"
+   ],
+   "why": "Family testimony label kept; source cited.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-20\",text:\"after 1928 father regarded farm as his own\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1928 onwards\",parcelOrSubject:\"Animus possidendi (Intention to own)\",source:\"Affidavit of Mary Doreen Buckler 1974\",explanation:\"Orange (Subjective belief / animus): Establishes subjective and objective intent to hold the freehold adverse to any paper claimant.\"}",
+   "replace": "{id:\"w-20\",text:\"after 1928 father regarded farm as his own\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1928 onwards\",parcelOrSubject:\"Animus possidendi (Intention to own)\",source:\"Family testimony; the 1974 plea [EV-0049]\",explanation:\"Family testimony: after 1928 her father regarded the farm as his own. Her 1974 plea of ownership was never finally heard [EV-0049].\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0049",
+    "EV-0049"
+   ],
+   "why": "\"Establishes intent\" is a legal conclusion; affidavit not located.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-21\",text:\"no rent paid thereafter\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1928–1988\",parcelOrSubject:\"Payment history\",source:\"Cardiff County Court trial transcripts [1986]\",explanation:\"Orange (Accepted fact in litigation): The Court of Appeal accepted that no rent was paid by Mary Buckler or her father from 1928 onwards.\"}",
+   "replace": "{id:\"w-21\",text:\"no rent paid after 1953\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1953–1988\",parcelOrSubject:\"Payment history\",source:\"Court of Appeal judgment [EV-0080]\",explanation:\"Record: \\u201cno rent has been paid since 1953\\u201d [EV-0080]. The family's account dates the end of rent for the house to 1928 [EV-0016].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0080",
+    "EV-0080",
+    "EV-0016"
+   ],
+   "why": "The record shows rent paid until 1953; trial was in the High Court.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-22\",text:\"no landlord acknowledged\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1928–1988\",parcelOrSubject:\"Tenurial attornment\",source:\"Trial judgment of Judge Francis [1986]\",explanation:\"Orange (Legal consequence): Demonstrates complete absence of attornment or contractual tenancy for six decades.\"}",
+   "replace": "{id:\"w-22\",text:\"no landlord acknowledged\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1928–1988\",parcelOrSubject:\"Tenurial attornment\",source:\"High Court (QBD, Cardiff), Hollis J, judgment 24 July 1986 (not yet located) [EV-0074] [EV-0075]\",explanation:\"Open question: the trial judgment is not yet located [EV-0074]; the Court of Appeal summarises it [EV-0080].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0074",
+    "EV-0075",
+    "EV-0074",
+    "EV-0080"
+   ],
+   "why": "Trial judge was Hollis J in the High Court (QBD, Cardiff), 24 July 1986.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-23\",text:\"continuous exclusive occupation\",side:\"williams\",color:\"green\",size:\"lg\",dateOrEra:\"1667–1988\",parcelOrSubject:\"Ty Mawr House & Garden\",source:\"Judicial findings in BP Properties Ltd v Buckler [1987] EWCA Civ 2\",explanation:\"Green (Judicially Established Fact): Both the County Court and Court of Appeal formally found that Mary Buckler maintained continuous exclusive physical occupation.\"}",
+   "replace": "{id:\"w-23\",text:\"continuous exclusive occupation\",side:\"williams\",color:\"green\",size:\"lg\",dateOrEra:\"1953–1987\",parcelOrSubject:\"Ty Mawr House & Garden\",source:\"Court of Appeal judgment [EV-0080]\",explanation:\"Record: the Court of Appeal: Mr Buckler junior \\u201chas exclusive possession of the farmhouse and garden, as his parents did before him, and no rent has been paid since 1953\\u201d [EV-0080].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0080",
+    "EV-0080"
+   ],
+   "why": "No finding of continuous exclusive occupation from 1667; the CA found exclusive possession of the farmhouse and garden.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-26\",text:\"Mary's title claim through grandfather\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"Hereditary descent\",parcelOrSubject:\"Title devolution\",source:\"Defense pleadings in 1974 Chancery action\",explanation:\"Orange (Legal title route): Mary traced her proprietary right through customary descent from her grandfather John Williams.\"}",
+   "replace": "{id:\"w-26\",text:\"Mary's title claim through grandfather\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"Hereditary descent\",parcelOrSubject:\"Title devolution\",source:\"The 1974 county-court action, plea of 3 July 1974 [EV-0049]\",explanation:\"Orange (Legal title route): Mary traced her proprietary right through customary descent from her grandfather John Williams.\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0049"
+   ],
+   "why": "The 1974 action was a county-court action.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-28\",text:\"farmhouse/garden remained occupied after 1955\",side:\"williams\",color:\"green\",size:\"md\",dateOrEra:\"1955–1988\",parcelOrSubject:\"Parcel B\",source:\"High Court Sheriff execution return July 1955; Glamorgan Police records\",explanation:\"Green (Documented Fact): When bailiffs attended in July 1955, they stood down from Ty Mawr domestic curtilage, leaving Mary in undisturbed occupation.\"}",
+   "replace": "{id:\"w-28\",text:\"farmhouse/garden remained occupied after 1955\",side:\"williams\",color:\"green\",size:\"md\",dateOrEra:\"1955–1988\",parcelOrSubject:\"Parcel A (farmhouse)\",source:\"Writ/warrant and officer's return, c. 4 July 1955 (not yet located) [EV-0034]\",explanation:\"Record: the 1955 order was enforced on all the farm except the farmhouse and garden [EV-0080]. Why is not stated in the record held [EV-0034].\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0034",
+    "EV-0080",
+    "EV-0034"
+   ],
+   "why": "Sheriff return and police records not located; \"stood down\" not in a held record.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-29\",text:\"family never voluntarily surrendered house\",side:\"williams\",color:\"green\",size:\"md\",dateOrEra:\"1955–1988\",parcelOrSubject:\"Possession status\",source:\"Contemporary news reports, South Wales Echo, November 1988\",explanation:\"Green (Documented Fact): Possession was only terminated through coercive bailiff execution at dawn in 1988; no voluntary surrender ever occurred.\"}",
+   "replace": "{id:\"w-29\",text:\"family never voluntarily surrendered house\",side:\"williams\",color:\"green\",size:\"md\",dateOrEra:\"1955–1988\",parcelOrSubject:\"Possession status\",source:\"South Wales Echo 30 Nov and 3 Dec 1988 [EV-0098] [EV-0101]\",explanation:\"Record (press): forced entry on 30 November 1988; the residents evicted by 3 December [EV-0098] [EV-0101].\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0098",
+    "EV-0101",
+    "EV-0098",
+    "EV-0101"
+   ],
+   "why": "Sources narrowed to the held press record.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-30\",text:\"house demolished in 1988\",side:\"williams\",color:\"green\",size:\"xl\",dateOrEra:\"30 November 1988\",parcelOrSubject:\"Ty Mawr (Great House Farm)\",source:\"Vale of Glamorgan Borough Council Planning & Demolition Notices 1988\",explanation:\"Green (Documented Historical Fact): The ancient 800-year-old Grade II listed stone manor house was bulldozed to the ground within days of the 1988 eviction.\"}",
+   "replace": "{id:\"w-30\",text:\"house demolished in 1988\",side:\"williams\",color:\"green\",size:\"xl\",dateOrEra:\"7 December 1988\",parcelOrSubject:\"Ty Mawr (Great House Farm)\",source:\"Press cutting c. 7 Dec 1988 [EV-0106]; South Wales Echo 7 Dec 1988 [EV-0107]\",explanation:\"Record (press): \\u201cTears flow as 800 year-old farm house is razed at last\\u201d [EV-0106]. Not on a statutory list when demolished [EV-0272]. (Another account gives 6 Dec; not yet reconciled.)\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0106",
+    "EV-0107",
+    "EV-0106",
+    "EV-0272"
+   ],
+   "why": "Not Grade II listed; demolition reported 7 Dec 1988 (EV-0106); notices not in catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-31\",text:\"eviction/dispossession by force in 1988\",side:\"williams\",color:\"green\",size:\"lg\",dateOrEra:\"30 November 1988\",parcelOrSubject:\"Buckler Family\",source:\"South Wales Police Incident Log & Press Coverage 1988\",explanation:\"Green (Documented Fact): Execution of possession order was carried out by private security and bailiffs at 5:00 AM on 30 November 1988.\"}",
+   "replace": "{id:\"w-31\",text:\"eviction/dispossession by force in 1988\",side:\"williams\",color:\"green\",size:\"lg\",dateOrEra:\"30 Nov – 3 Dec 1988\",parcelOrSubject:\"Buckler Family\",source:\"South Wales Echo 30 Nov and 3 Dec 1988 [EV-0098] [EV-0101]\",explanation:\"Record (press): forced entry and the outbuilding roof removed on 30 November; the evicted farmer taken from a hospital bed to face an assault charge, 3 December [EV-0098] [EV-0101].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0098",
+    "EV-0101",
+    "EV-0098",
+    "EV-0101"
+   ],
+   "why": "\"5:00 AM\" and police logs not in a held record; sequence from the press.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-32\",text:\"possession orders did not determine ancient root title\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1987\",parcelOrSubject:\"Court of Appeal Jurisprudence\",source:\"Judgment of Dillon LJ in BP Properties Ltd v Buckler [1987] EWCA Civ 2\",explanation:\"Orange (Legal Reality): The Court of Appeal confined itself solely to adverse possession under the 1974 unilateral licence, leaving the underlying root-of-title unadjudicated.\"}",
+   "replace": "{id:\"w-32\",text:\"possession orders did not determine ancient root title\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1987\",parcelOrSubject:\"Court of Appeal Jurisprudence\",source:\"Court of Appeal judgment [EV-0080]; 1974 plea [EV-0049]\",explanation:\"Record: the Court of Appeal decided the adverse-possession appeal, limited to the farmhouse and garden [EV-0080]. Open question: the 1974 ownership plea was never finally heard [EV-0049].\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0080",
+    "EV-0049",
+    "EV-0080",
+    "EV-0049"
+   ],
+   "why": "\"Legal Reality\" verdict replaced with the holding and open plea.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-38\",text:\"Bute held the estate\",side:\"williams\",color:\"green\",size:\"lg\",dateOrEra:\"1818–1938\",parcelOrSubject:\"Lordship of the Manor\",source:\"Cardiff Castle Muniments & Bute Estate Acts\",explanation:\"Green (Documented Fact): The Marquess of Bute was undisputed lord of the manor of Llandough following the 1818 consolidation.\"}",
+   "replace": "{id:\"w-38\",text:\"Bute held the estate\",side:\"williams\",color:\"green\",size:\"lg\",dateOrEra:\"1818–1938\",parcelOrSubject:\"Lordship of the Manor\",source:\"Press reports of Bute courts leet, 1904\\u20131917 [EV-0283]; 1938 sale [EV-0022]\",explanation:\"Record: Bute held courts leet and baron for Llandough in 1904\\u20131917 [EV-0283] and sold the reversion to Western Ground Rents in Dec 1938 [EV-0022].\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0283",
+    "EV-0022",
+    "EV-0283",
+    "EV-0022"
+   ],
+   "why": "\"undisputed\" and \"1818 consolidation\" unsupported.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-39\",text:\"chief rents transferred to manorial rental\",side:\"williams\",color:\"green\",size:\"sm\",dateOrEra:\"1818\",parcelOrSubject:\"Manorial Accounts\",source:\"Bute Manorial Rental Ledger 1818 (Cardiff Central Library MS 4.896)\",explanation:\"Green (Documented Fact): Direct ledger entry proving chief rents payable by freeholders/copyholders were consolidated into Bute estate accounts.\"}",
+   "replace": "{id:\"w-39\",text:\"chief rents transferred to manorial rental\",side:\"williams\",color:\"orange\",size:\"sm\",dateOrEra:\"1818\",parcelOrSubject:\"Manorial Accounts\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Not yet confirmed: no 1818 ledger entry is in the research catalogue.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "MS 4.896 not in the catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-40\",text:\"1916 yearly agricultural tenancy\",side:\"williams\",color:\"green\",size:\"lg\",dateOrEra:\"1916\",parcelOrSubject:\"Agricultural Farmland (Parcel A)\",source:\"Written Tenancy Agreement dated 2 February 1916\",explanation:\"Green (Documented Fact): Formal written tenancy agreement executed between Bute Trustees and John Williams for agricultural fields.\"}",
+   "replace": "{id:\"w-40\",text:\"1916 yearly agricultural tenancy\",side:\"williams\",color:\"green\",size:\"lg\",dateOrEra:\"1916\",parcelOrSubject:\"The whole farm\",source:\"Bute yearly agricultural tenancy, Feb 1916, with plan (not located) [EV-0014]\",explanation:\"Record: a yearly agricultural tenancy of \\u201cthe whole of the farm\\u201d to John Williams [EV-0014] [EV-0080].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0014",
+    "EV-0014",
+    "EV-0080"
+   ],
+   "why": "No written agreement dated 2 Feb 1916 is held; the 1916 letting was of the whole farm.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-44\",text:\"Daniel Thomas arrangement proves Williams ownership\",side:\"williams\",color:\"orange\",size:\"xl\",dateOrEra:\"1876–1928\",parcelOrSubject:\"Core Restitution Theory\",source:\"Legal analysis of quarrying cessation & non-payment history\",explanation:\"Orange (Legal Argument / Theory): The central claimant assertion that the 1928 cessation of quarry royalties vested or confirmed customary freehold in the Williams family.\"}",
+   "replace": "{id:\"w-44\",text:\"Daniel Thomas arrangement (family case)\",side:\"williams\",color:\"orange\",size:\"xl\",dateOrEra:\"1876–1928\",parcelOrSubject:\"Core Restitution Theory\",source:\"Family testimony [EV-0006] [EV-0016]\",explanation:\"Orange (Legal Argument / Theory): The central claimant assertion that the 1928 cessation of quarry royalties vested or confirmed customary freehold in the Williams family.\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0006",
+    "EV-0016"
+   ],
+   "why": "\"proves\" removed.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-1\",text:\"1924 Llandough Estate sale\",side:\"estate\",color:\"green\",size:\"md\",dateOrEra:\"1924\",parcelOrSubject:\"Bute Estate Auction\",source:\"Stephenson & Alexander Auction Particulars July 1924\",explanation:\"Green (Documented Fact): The 4th Marquess of Bute auctioned extensive portions of the Llandough estate.\"}",
+   "replace": "{id:\"e-1\",text:\"1924 Llandough Estate sale\",side:\"estate\",color:\"orange\",size:\"md\",dateOrEra:\"1924\",parcelOrSubject:\"Bute Estate Auction\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Not yet confirmed: a 1924 Bute sale of Llandough lots is not in the research catalogue.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "No 1924 sale particulars in the catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-2\",text:\"Mountjoy intermediate titleholder\",side:\"estate\",color:\"green\",size:\"md\",dateOrEra:\"1924–1938\",parcelOrSubject:\"Mountjoy Ltd\",source:\"Companies House Records & Bute Family Settlement Deeds\",explanation:\"Green (Documented Fact): Mountjoy Ltd was a documented Bute family corporate entity used for estate management.\"}",
+   "replace": "{id:\"e-2\",text:\"Mountjoy intermediate titleholder\",side:\"estate\",color:\"green\",size:\"md\",dateOrEra:\"1938\",parcelOrSubject:\"Mountjoy Ltd\",source:\"Press reports of completion, 24 Dec 1938 [EV-0022]\",explanation:\"Record (press): the Bute (Mountjoy) sale of the Cardiff ground rents to Western Ground Rents completed on 23 December 1938 [EV-0022].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0022",
+    "EV-0022"
+   ],
+   "why": "Mountjoy is recorded as the Bute vendor of the 1938 ground rents.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-3\",text:\"1938 reversion conveyed to Western Ground Rents\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"1938\",parcelOrSubject:\"Western Ground Rents Ltd\",source:\"Conveyance dated 28 December 1938; Glamorgan Deeds Registry\",explanation:\"Green (Documented Fact): Documented corporate conveyance transferring Bute ground rents across Cardiff and the Vale to Western Ground Rents Ltd.\"}",
+   "replace": "{id:\"e-3\",text:\"1938 reversion conveyed to Western Ground Rents\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"23–25 Dec 1938\",parcelOrSubject:\"Western Ground Rents Ltd\",source:\"\\u201ca Conveyance on sale dated 25th December 1938\\u201d (1965 contract) [EV-0216]; press reports [EV-0022]; conveyance with plan [EV-0019]\",explanation:\"Record: Bute (Mountjoy) sold the reversion to Western Ground Rents Ltd; the 1938 conveyance later became the root of title [EV-0019] [EV-0022] [EV-0216].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0216",
+    "EV-0022",
+    "EV-0019",
+    "EV-0019",
+    "EV-0022",
+    "EV-0216"
+   ],
+   "why": "Root deed dated 25 Dec 1938 (EV-0216); completion 23 Dec (EV-0022); no Glamorgan Deeds Registry.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-4\",text:\"Great House Farm advertised 'sold' in 1938\",side:\"estate\",color:\"green\",size:\"md\",dateOrEra:\"1938\",parcelOrSubject:\"Western Mail property notices\",source:\"Western Mail, November 1938\",explanation:\"Green (Documented Fact): Contemporary newspaper notices recorded the bulk sale of estate ground rent reversions.\"}",
+   "replace": "{id:\"e-4\",text:\"Great House Farm advertised 'sold' in 1938\",side:\"estate\",color:\"green\",size:\"md\",dateOrEra:\"Dec 1938\",parcelOrSubject:\"Western Mail property notices\",source:\"Western Mail, 24 Dec 1938, p.8 [EV-0022]\",explanation:\"Record (press): completion of the Bute ground-rent sale reported 24 December 1938 [EV-0022].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0022",
+    "EV-0022"
+   ],
+   "why": "Western Mail report is 24 Dec 1938.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-5\",text:\"Williams family remained in physical occupation\",side:\"estate\",color:\"green\",size:\"md\",dateOrEra:\"1938\",parcelOrSubject:\"Continuous possession\",source:\"Electoral register 1938; Western Ground Rents inspection logs\",explanation:\"Green (Documented Fact): Despite corporate conveyances on paper, the Williams family remained in uninterrupted physical occupation of the farm.\"}",
+   "replace": "{id:\"e-5\",text:\"Williams family remained in physical occupation\",side:\"estate\",color:\"green\",size:\"md\",dateOrEra:\"1938\",parcelOrSubject:\"Continuous possession\",source:\"1939 revised tenancy to John Williams [EV-0080]\",explanation:\"Record: the family stayed in occupation after the 1938 sale; John Williams held the tenancy until 1949 [EV-0025] [EV-0080].\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0080",
+    "EV-0025",
+    "EV-0080"
+   ],
+   "why": "Electoral register / WGR logs not in the catalogue.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-6\",text:\"1949 Frederick Buckler tenancy\",side:\"estate\",color:\"orange\",size:\"lg\",dateOrEra:\"1949\",parcelOrSubject:\"Husband of Mary Buckler\",source:\"Western Ground Rents memorandum of tenancy 1949\",explanation:\"Orange (Contested signature / scope): WGR claimed Frederick Buckler signed an agricultural tenancy, though Mary Buckler never consented to alienate her hereditary freehold.\"}",
+   "replace": "{id:\"e-6\",text:\"1949 Frederick Buckler tenancy\",side:\"estate\",color:\"orange\",size:\"lg\",dateOrEra:\"1949\",parcelOrSubject:\"Husband of Mary Buckler\",source:\"Court of Appeal judgment [EV-0080]; [EV-0025]\",explanation:\"Record: John Williams's tenancy was surrendered and a new yearly agricultural tenancy granted to Frederick Buckler from 2 February 1949; it was never put in writing [EV-0025] [EV-0080].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0080",
+    "EV-0025",
+    "EV-0025",
+    "EV-0080"
+   ],
+   "why": "The 1949 tenancy was never put in writing; no \"signature\" dispute on record.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-7\",text:\"1953 last rent payment\",side:\"estate\",color:\"green\",size:\"sm\",dateOrEra:\"1953\",parcelOrSubject:\"Frederick Buckler payments\",source:\"Western Ground Rents rental ledger 1953\",explanation:\"Green (Documented Fact): Last documented agricultural rent receipt issued to Frederick Buckler prior to his illness and non-payment.\"}",
+   "replace": "{id:\"e-7\",text:\"1953 last rent payment\",side:\"estate\",color:\"green\",size:\"sm\",dateOrEra:\"1953\",parcelOrSubject:\"Frederick Buckler payments\",source:\"Court of Appeal [EV-0080]; county court registers 1953 [EV-0030]\",explanation:\"Record: Frederick Buckler's last rent payment, 1953, made under a county-court judgment for arrears [EV-0080] [EV-0030].\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0080",
+    "EV-0030",
+    "EV-0080",
+    "EV-0030"
+   ],
+   "why": "WGR ledger not held; the CA and county court registers carry the fact.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-8\",text:\"1955 possession order for 'the whole farm'\",side:\"estate\",color:\"orange\",size:\"lg\",dateOrEra:\"1955\",parcelOrSubject:\"Cardiff County Court Possession Order\",source:\"Cardiff County Court Order Books, June 1955\",explanation:\"Orange (Unenforced scope): The court order referenced the agricultural tenancy description, but was never physically executed against Ty Mawr domestic curtilage.\"}",
+   "replace": "{id:\"e-8\",text:\"1955 possession order for 'the whole farm'\",side:\"estate\",color:\"orange\",size:\"lg\",dateOrEra:\"1955\",parcelOrSubject:\"Cardiff County Court Possession Order\",source:\"High Court summary possession order (Order 14), 1955 (not located) [EV-0032]\",explanation:\"Record: enforced on or about 4 July 1955 on all the farm except the farmhouse and garden [EV-0034] [EV-0080].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0032",
+    "EV-0034",
+    "EV-0080"
+   ],
+   "why": "The 1955 order was a High Court Order 14 order and it was enforced (except the farmhouse).",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-9\",text:\"1955 order enforced except farmhouse and garden\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"4 July 1955\",parcelOrSubject:\"High Court Sheriff Execution Log\",source:\"Sheriff Officer return of execution July 1955\",explanation:\"Green (Documented Fact): Official bailiff return confirms farmland fields were delivered to WGR, but bailiffs explicitly left Mrs. Buckler in the farmhouse and garden.\"}",
+   "replace": "{id:\"e-9\",text:\"1955 order enforced except farmhouse and garden\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"4 July 1955\",parcelOrSubject:\"High Court Sheriff Execution Log\",source:\"Officer's return, c. 4 July 1955 (not yet located) [EV-0034]\",explanation:\"Record: all the farm was taken except the farmhouse and garden [EV-0080]. The officer's return would show why [EV-0034].\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0034",
+    "EV-0080",
+    "EV-0034"
+   ],
+   "why": "Officer's return not located.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-10\",text:\"humanitarian reason for leaving farmhouse\",side:\"estate\",color:\"orange\",size:\"sm\",dateOrEra:\"1955\",parcelOrSubject:\"WGR rationale\",source:\"WGR internal board minutes 1955\",explanation:\"Orange (Unilateral interpretation): WGR claimed they refrained from evicting Mary out of compassionate indulgence, while Mary asserted her hereditary right.\"}",
+   "replace": "{id:\"e-10\",text:\"humanitarian reason for leaving farmhouse\",side:\"estate\",color:\"orange\",size:\"sm\",dateOrEra:\"1955\",parcelOrSubject:\"WGR rationale\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Not yet confirmed: no Western Ground Rents record of its reasons is in the catalogue.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "No WGR minutes in the catalogue; banned word removed.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-11\",text:\"1959 Mary 'conceived the notion' she owned it\",side:\"estate\",color:\"red\",size:\"xl\",dateOrEra:\"1959\",parcelOrSubject:\"Prejudicial Judicial Rhetoric\",source:\"Language used by Judge Francis [1986] & Dillon LJ [1987] EWCA Civ 2\",explanation:\"Red (Loaded / Prejudicial Rhetoric): Demeaning judicial wording framing an 800-year continuous ancestral customary tenure as a sudden psychological 'notion' or delusion.\"}",
+   "replace": "{id:\"e-11\",text:\"1959 Mary 'conceived the notion' she owned it\",side:\"estate\",color:\"red\",size:\"xl\",dateOrEra:\"1959\",parcelOrSubject:\"Prejudicial Judicial Rhetoric\",source:\"Court of Appeal judgment, Dillon LJ [EV-0080]\",explanation:\"Record: the judgment's words are that by 1959 she \\u201chad conceived the notion that she had a title to the ownership of Great House Farm through her own grandfather\\u201d [EV-0080]. The phrase describes her belief; whether the belief was right was not decided.\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0080",
+    "EV-0080"
+   ],
+   "why": "Source corrected (no Judge Francis); verdict on the court's wording removed.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-12\",text:\"'No documents were ever produced'\",side:\"estate\",color:\"green\",size:\"md\",dateOrEra:\"1986–1987 Trial\",parcelOrSubject:\"Evidentiary status in trial\",source:\"Transcript of Court of Appeal proceedings 1987\",explanation:\"Green (Documented Literal Fact): Accurately describes that primary 17th-century parchment deeds were not produced in court during the 1987 hearing.\"}",
+   "replace": "{id:\"e-12\",text:\"'No documents were ever produced'\",side:\"estate\",color:\"green\",size:\"md\",dateOrEra:\"1986–1987 Trial\",parcelOrSubject:\"Evidentiary status in trial\",source:\"Court of Appeal judgment [EV-0080]\",explanation:\"Record: \\u201cNo such documents were, however, ever produced\\u201d [EV-0080].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0080",
+    "EV-0080"
+   ],
+   "why": "Quote is from the judgment, not a transcript.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-13\",text:\"1962 possession order\",side:\"estate\",color:\"green\",size:\"sm\",dateOrEra:\"1962\",parcelOrSubject:\"WGR renewed order\",source:\"Cardiff County Court records 1962\",explanation:\"Green (Documented Fact): Western Ground Rents obtained a renewed formal possession order which again was never executed against the residence.\"}",
+   "replace": "{id:\"e-13\",text:\"1962 possession order\",side:\"estate\",color:\"green\",size:\"sm\",dateOrEra:\"1962\",parcelOrSubject:\"WGR renewed order\",source:\"Cardiff County Court order, 11 Dec 1962 [EV-0041]; registers [EV-0030]\",explanation:\"Record: possession order for the farmhouse and garden, with mesne profits, 11 December 1962; \\u201cnothing was done before 1974 to enforce\\u201d it [EV-0041] [EV-0080].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0041",
+    "EV-0030",
+    "EV-0041",
+    "EV-0080"
+   ],
+   "why": "The 1962 order was for the farmhouse and garden; it was not enforced before 1974.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-14\",text:\"1962 order proves WGR owned the land\",side:\"estate\",color:\"red\",size:\"lg\",dateOrEra:\"1962\",parcelOrSubject:\"Conflation of possession & title\",source:\"BP legal submissions 1986\",explanation:\"Red (Legally Overreaching / False Equivalence): A summary default possession order against an agricultural tenant does not adjudicate ancient customary root-of-title against third-party freeholders.\"}",
+   "replace": "{id:\"e-14\",text:\"1962 order proves WGR owned the land\",side:\"estate\",color:\"red\",size:\"lg\",dateOrEra:\"1962\",parcelOrSubject:\"Conflation of possession & title\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Open question: a possession order decides possession between the parties; whether it settled ownership is the question the 1974 plea raised [EV-0049].\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0049"
+   ],
+   "why": "Verdict replaced with the open question.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-15\",text:\"1974 proceedings by BP Pension Trust\",side:\"estate\",color:\"green\",size:\"sm\",dateOrEra:\"1974\",parcelOrSubject:\"Chancery Writ 1974\",source:\"High Court of Justice Chancery Division Writ 1974 B. No. 4920\",explanation:\"Green (Documented Fact): BP Pension Trust issued formal High Court proceedings claiming possession against Mary Buckler.\"}",
+   "replace": "{id:\"e-15\",text:\"1974 proceedings by BP Pension Trust\",side:\"estate\",color:\"green\",size:\"sm\",dateOrEra:\"1974\",parcelOrSubject:\"Chancery Writ 1974\",source:\"BP Pension Trust's 1974 county-court action [EV-0049]\",explanation:\"Record: the action was adjourned part-heard on 3 July 1974 and \\u201chas never been finally heard\\u201d [EV-0049] [EV-0080].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0049",
+    "EV-0049",
+    "EV-0080"
+   ],
+   "why": "The 1974 action was in the county court; writ number not in the record.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-16\",text:\"BP Pension Trust and BP Properties were separate companies\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"1974–1987\",parcelOrSubject:\"Corporate Structure\",source:\"Companies House registrations & Court of Appeal judgment\",explanation:\"Green (Documented Corporate Fact): Dillon LJ specifically noted the legal distinction between BP Pension Trust Ltd (the 1962 purchaser) and BP Properties Ltd (the subsequent claimant).\"}",
+   "replace": "{id:\"e-16\",text:\"BP Pension Trust and BP Properties were separate companies\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"1974–1987\",parcelOrSubject:\"Corporate Structure\",source:\"Court of Appeal judgment [EV-0080]; letters [EV-0050]\",explanation:\"Record: the two letters of 31 October 1974 came from BP Pension Trust and from BP Properties [EV-0050] [EV-0080].\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0080",
+    "EV-0050",
+    "EV-0050",
+    "EV-0080"
+   ],
+   "why": "Restated from the record.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-17\",text:\"BP Pension Trust = BP Properties for all purposes\",side:\"estate\",color:\"red\",size:\"lg\",dateOrEra:\"1974\",parcelOrSubject:\"Corporate veil conflation\",source:\"Corporate correspondence 1974\",explanation:\"Red (Internally Inconsistent): Corporate claimants attempted to interchange entities when convenient to circumvent limitation statutes.\"}",
+   "replace": "{id:\"e-17\",text:\"BP Pension Trust = BP Properties for all purposes\",side:\"estate\",color:\"red\",size:\"lg\",dateOrEra:\"1974\",parcelOrSubject:\"Corporate veil conflation\",source:\"Conveyances of 1969 and 1975 [EV-0043] [EV-0052]\",explanation:\"Record: BP Pension Trust held the farm from December 1969 [EV-0043]; BP Properties held the farmhouse plot from 23 May 1975 [EV-0052].\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0043",
+    "EV-0052",
+    "EV-0043",
+    "EV-0052"
+   ],
+   "why": "Accusation replaced with dated ownership.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-18\",text:\"1974 unilateral lifetime licence\",side:\"estate\",color:\"green\",size:\"md\",dateOrEra:\"28 October 1974\",parcelOrSubject:\"Solicitor Letter\",source:\"Letter from Denton Hall & Burgin to Mrs. M. D. Buckler dated 28 October 1974\",explanation:\"Green (Documented Fact): BP corporate solicitors drafted and dispatched an unsolicited letter purporting to grant Mary Buckler a rent-free lifetime licence.\"}",
+   "replace": "{id:\"e-18\",text:\"1974 lifetime licence letters\",side:\"estate\",color:\"green\",size:\"md\",dateOrEra:\"31 October 1974\",parcelOrSubject:\"Solicitor Letter\",source:\"Letters of 31 Oct 1974 to her solicitor [EV-0050]\",explanation:\"Record: \\u201cno proceedings will be commenced until you personally no longer live there\\u201d [EV-0050] [EV-0080].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0050",
+    "EV-0050",
+    "EV-0080"
+   ],
+   "why": "Two letters of 31 Oct 1974 from BP Pension Trust and BP Properties.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-19\",text:\"1974 licence ended adverse possession\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"1974–1987\",parcelOrSubject:\"Ratio Decidendi of Court of Appeal\",source:\"BP Properties Ltd v Buckler [1987] EWCA Civ 2\",explanation:\"Green (Established Common Law Precedent): The formal binding holding of the Court of Appeal was that a unilateral licence prevents continued adverse possession.\"}",
+   "replace": "{id:\"e-19\",text:\"1974 licence ended adverse possession\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"1974–1987\",parcelOrSubject:\"Ratio Decidendi of Court of Appeal\",source:\"BP Properties Ltd v Buckler [1987] EWCA Civ 2\",explanation:\"Record: the Court of Appeal held that after the letters her possession was not adverse, so no possessory title was made out [EV-0080].\"}",
+   "class": "OK",
+   "ev": [
+    "EV-0080"
+   ],
+   "why": "Restated precisely.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-20\",text:\"1982 first registration of BP Properties\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"1982\",parcelOrSubject:\"HM Land Registry Title WA45910\",source:\"HM Land Registry Wales Office Title Register WA45910\",explanation:\"Green (Documented Fact): BP Properties Ltd obtained first statutory registration of title at HM Land Registry in 1982.\"}",
+   "replace": "{id:\"e-20\",text:\"1982 first registration of BP Properties\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"1982–1987\",parcelOrSubject:\"HM Land Registry titles WA231076 / WA240304\",source:\"WA231076, applied 30 Nov 1982 [EV-0059]; WA240304, applied 23 Feb 1983 [EV-0066]; merger 2 Feb 1987 [EV-0078]\",explanation:\"Record: the fields were registered first (WA231076); the farmhouse was applied for on 23 February 1983 on Form 1C (WA240304) and merged into WA231076 on 2 February 1987 [EV-0066] [EV-0078]. The Court of Appeal's \\u201csince November 1982\\u201d does not fit the farmhouse.\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0059",
+    "EV-0066",
+    "EV-0078",
+    "EV-0066",
+    "EV-0078"
+   ],
+   "why": "WA45910 is not a title on record; the farmhouse was not in the 1982 registration (F016).",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-21\",text:\"registered title proves perfect historical root title\",side:\"estate\",color:\"red\",size:\"md\",dateOrEra:\"1982–Present\",parcelOrSubject:\"Land Registration Act 1925/2002\",source:\"Corporate defense arguments\",explanation:\"Red (Legally False): Land registration does not sanitize fraudulent root deeds; registration obtained through mistake or fraud is subject to rectification and statutory indemnity under Schedule 8 LRA 2002.\"}",
+   "replace": "{id:\"e-21\",text:\"registered title proves perfect historical root title\",side:\"estate\",color:\"orange\",size:\"md\",dateOrEra:\"1982–Present\",parcelOrSubject:\"Land Registration Act 1925/2002\",source:\"Land Registration Act 2002, Sch 4\",explanation:\"Open question: Schedule 4 allows the register to be altered for a mistake; whether there was one has not been tested [EV-0066] [EV-0078].\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0066",
+    "EV-0078"
+   ],
+   "why": "Banned word and verdict removed.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-22\",text:\"1987 BP Properties Ltd v Buckler\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"31 July 1987\",parcelOrSubject:\"Appellate Law Report\",source:\"[1987] EWCA Civ 2; (1987) 55 P&CR 337; [1987] 2 EGLR 168\",explanation:\"Green (Documented Court of Appeal Citation): Official law report citation of the Court of Appeal decision.\"}",
+   "replace": "{id:\"e-22\",text:\"1987 BP Properties Ltd v Buckler\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"31 July 1987\",parcelOrSubject:\"Appellate Law Report\",source:\"[1987] EWCA Civ 2; (1988) 55 P&CR 337; [1987] 2 EGLR 168 [EV-0080]\",explanation:\"Green (Documented Court of Appeal Citation): Official law report citation of the Court of Appeal decision.\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0080"
+   ],
+   "why": "P&CR volume year is 1988.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-23\",text:\"William Buckler's appeal dismissed\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"31 July 1987\",parcelOrSubject:\"Court of Appeal Order\",source:\"Court of Appeal Civil Division Order Books July 1987\",explanation:\"Green (Documented Fact): The Court of Appeal formally dismissed William Beverly Buckler’s appeal on adverse possession grounds.\"}",
+   "replace": "{id:\"e-23\",text:\"William Buckler's appeal dismissed\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"31 July 1987\",parcelOrSubject:\"Court of Appeal Order\",source:\"Court of Appeal judgment, 31 Jul 1987 [EV-0080]\",explanation:\"Record: appeal dismissed; possession in six weeks; leave to appeal to the House of Lords refused [EV-0080].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0080",
+    "EV-0080"
+   ],
+   "why": "Order books not held; result per the judgment.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-24\",text:\"1987 case finally decided all Williams title claims\",side:\"estate\",color:\"red\",size:\"xl\",dateOrEra:\"1987\",parcelOrSubject:\"Corporate closure narrative\",source:\"BP successor public statements\",explanation:\"Red (Demonstrably False / Misleading): Lord Justice Dillon explicitly stated the court was not adjudicating the ancient root-of-title, leaving the underlying customary freehold unextinguished.\"}",
+   "replace": "{id:\"e-24\",text:\"1987 case finally decided all Williams title claims\",side:\"estate\",color:\"orange\",size:\"xl\",dateOrEra:\"1987\",parcelOrSubject:\"Corporate closure narrative\",source:\"Court of Appeal [EV-0080]; 1974 plea [EV-0049]\",explanation:\"Open question: the 1987 appeal was limited to the farmhouse and garden [EV-0080]; the 1974 ownership plea \\u201chas never been finally heard\\u201d [EV-0049].\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0080",
+    "EV-0049",
+    "EV-0080",
+    "EV-0049"
+   ],
+   "why": "\"explicitly stated\" not in the judgment.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-25\",text:\"BP had paper title\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"1962–1988\",parcelOrSubject:\"Paper conveyance trail\",source:\"Abstract of Title submitted in Chancery litigation\",explanation:\"Green (Documented Fact): BP possessed formal registered conveyancing deeds tracing back to the 1938 Western Ground Rents deed.\"}",
+   "replace": "{id:\"e-25\",text:\"BP had paper title\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"1962–1988\",parcelOrSubject:\"Paper conveyance trail\",source:\"1965 contract [EV-0216]; 1969 conveyance (not held) [EV-0043]\",explanation:\"Record: the 1965 contract recites \\u201ca Conveyance on sale dated 25th December 1938\\u201d as root [EV-0216]; the 1969 conveyance to BP Pension Trust is not among the documents on the Registry schedule [EV-0043].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0216",
+    "EV-0043",
+    "EV-0216",
+    "EV-0043"
+   ],
+   "why": "The 1969 deed is not on the Registry file.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-26\",text:\"BP's paper title was necessarily better than every unproduced Williams title\",side:\"estate\",color:\"red\",size:\"lg\",dateOrEra:\"1987\",parcelOrSubject:\"Nemo dat quod non habet principle\",source:\"Corporate argument adopted by County Court\",explanation:\"Red (Legally Overreaching): If the root 1895 conveyance was tainted by defective title or fraud, paper title is voidable under Section 32 Limitation Act 1980.\"}",
+   "replace": "{id:\"e-26\",text:\"BP's paper title was necessarily better than every unproduced Williams title\",side:\"estate\",color:\"orange\",size:\"lg\",dateOrEra:\"1987\",parcelOrSubject:\"Nemo dat quod non habet principle\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Open question: what the 1877 Daniel Thomas agreement conveyed, if it is found [EV-0006].\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0006"
+   ],
+   "why": "Banned word and verdict removed.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-27\",text:\"Mary's occupation became adverse only after 1965\",side:\"estate\",color:\"orange\",size:\"sm\",dateOrEra:\"1965\",parcelOrSubject:\"Limitation timeline\",source:\"Dillon LJ analysis in [1987] EWCA Civ 2\",explanation:\"Orange (Judicial construction of adverse possession clock): Dillon LJ calculated limitation only from Frederick Buckler’s death in 1965 rather than the 1928 cessation of rent.\"}",
+   "replace": "{id:\"e-27\",text:\"Mary's occupation became adverse only after 1965\",side:\"estate\",color:\"orange\",size:\"sm\",dateOrEra:\"1965\",parcelOrSubject:\"Limitation timeline\",source:\"Court of Appeal judgment [EV-0080]\",explanation:\"Open question: the period the court treated as relevant is set out in the judgment itself [EV-0080].\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0080",
+    "EV-0080"
+   ],
+   "why": "The judgment does not count from 1928 or 1965 in the terms given.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-28\",text:\"1974 licence offered protection\",side:\"estate\",color:\"orange\",size:\"sm\",dateOrEra:\"1974\",parcelOrSubject:\"Unilateral letter\",source:\"BP legal pleadings 1986\",explanation:\"Orange (Disputed characterization): Framed by BP as benevolent protection, but engineered strategically to halt the 12-year statutory adverse possession clock.\"}",
+   "replace": "{id:\"e-28\",text:\"1974 licence offered protection\",side:\"estate\",color:\"orange\",size:\"sm\",dateOrEra:\"1974\",parcelOrSubject:\"Unilateral letter\",source:\"Court of Appeal judgment [EV-0080]\",explanation:\"Record: the letters followed the September 1974 leave to execute the 1962 order [EV-0041] [EV-0080]. Why they were written is not stated in the record held.\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0080",
+    "EV-0041",
+    "EV-0080"
+   ],
+   "why": "Motive accusation removed.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-29\",text:\"1988 demolition after legal possession process\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"November 1988\",parcelOrSubject:\"Possession execution\",source:\"Sheriff execution returns & planning demolition notifications\",explanation:\"Green (Documented Fact): Demolition was carried out subsequent to the discharge of the stay of execution.\"}",
+   "replace": "{id:\"e-29\",text:\"1988 demolition after legal possession process\",side:\"estate\",color:\"green\",size:\"lg\",dateOrEra:\"6–7 December 1988\",parcelOrSubject:\"Possession execution\",source:\"South Wales Echo 6 Dec 1988 [EV-0104]; press cutting c. 7 Dec 1988 [EV-0106]\",explanation:\"Record (press): the final eviction hearing failed on 6 December 1988 [EV-0104]; the demolition was reported on 7 December [EV-0106].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0104",
+    "EV-0106",
+    "EV-0104",
+    "EV-0106"
+   ],
+   "why": "Sequence from the press record.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-30\",text:\"family were merely squatters\",side:\"estate\",color:\"red\",size:\"lg\",dateOrEra:\"1980s\",parcelOrSubject:\"Derogatory characterization\",source:\"Corporate media briefing statements 1988\",explanation:\"Red (Prejudicial / False): An 8-generation family inhabiting their ancestral home for 300+ years cannot lawfully or historically be characterized as transient squatters.\"}",
+   "replace": "{id:\"e-30\",text:\"family were merely squatters\",side:\"estate\",color:\"red\",size:\"lg\",dateOrEra:\"1980s\",parcelOrSubject:\"Derogatory characterization\",source:\"Press, 1988 [EV-0088]\",explanation:\"A label others applied. Record: the family's occupation is in writing from the 1916 tenancy [EV-0014]; the c.1841 tithe lists John Williams [EV-0215].\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0088",
+    "EV-0014",
+    "EV-0215"
+   ],
+   "why": "The label is others'; verdict replaced with records.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-31\",text:\"family were ordinary tenants for 300+ years\",side:\"estate\",color:\"red\",size:\"lg\",dateOrEra:\"1667–1988\",parcelOrSubject:\"Tenurial characterization\",source:\"Bute estate historical summaries\",explanation:\"Red (Internally Inconsistent): Ignores manorial chief rents (payable only by freeholders/copyholders), dual 1845–1893 Bute non-payment ledgers, and 1955 bailiff stand-down.\"}",
+   "replace": "{id:\"e-31\",text:\"family were ordinary tenants for 300+ years\",side:\"estate\",color:\"orange\",size:\"lg\",dateOrEra:\"1667–1988\",parcelOrSubject:\"Tenurial characterization\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Open question: what the Bute rentals show for the house, if located.\"}",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "\"Disproved\"/\"False\" verdicts and unsourced records replaced with open questions.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-32\",text:\"Bute estate records prove absolute ownership of every parcel\",side:\"estate\",color:\"red\",size:\"lg\",dateOrEra:\"1818–1938\",parcelOrSubject:\"Estate totalizing claim\",source:\"Bute Trustees title abstracts\",explanation:\"Red (Overreaching): Bute estate records are unilateral private ledgers; the dual accounting entries (Farm vs Cottage) directly disprove total unencumbered ownership.\"}",
+   "replace": "{id:\"e-32\",text:\"Bute estate records prove absolute ownership of every parcel\",side:\"estate\",color:\"orange\",size:\"lg\",dateOrEra:\"1818–1938\",parcelOrSubject:\"Estate totalizing claim\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Open question: what the Bute rentals and abstracts show, if located.\"}",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "\"Disproved\"/\"False\" verdicts and unsourced records replaced with open questions.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-33\",text:\"sale by a paper titleholder passes all possible interests\",side:\"estate\",color:\"red\",size:\"sm\",dateOrEra:\"Property Law\",parcelOrSubject:\"Conveyance axiom\",source:\"Corporate argument\",explanation:\"Red (Doctrinally False): Overriding interests of persons in actual occupation under Section 70(1)(g) LRA 1925 take priority over paper purchasers.\"}",
+   "replace": "{id:\"e-33\",text:\"sale by a paper titleholder passes all possible interests\",side:\"estate\",color:\"orange\",size:\"sm\",dateOrEra:\"Property Law\",parcelOrSubject:\"Conveyance axiom\",source:\"Corporate argument\",explanation:\"Open question: what overriding interest, if any, survived the 1982\\u201383 registrations; the Court of Appeal set out the test [EV-0080].\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0080"
+   ],
+   "why": "\"Disproved\"/\"False\" verdicts and unsourced records replaced with open questions.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-34\",text:\"present possessors own whatever BP registered\",side:\"estate\",color:\"orange\",size:\"sm\",dateOrEra:\"1988–Present\",parcelOrSubject:\"Successor commercial title\",source:\"Land Registry current title records\",explanation:\"Orange (Subject to statutory indemnity): Current commercial holders have registered title, but the state remains liable for statutory financial indemnity under Schedule 8 LRA 2002.\"}",
+   "replace": "{id:\"e-34\",text:\"present possessors own whatever BP registered\",side:\"estate\",color:\"orange\",size:\"sm\",dateOrEra:\"1988–Present\",parcelOrSubject:\"Successor commercial title\",source:\"Land Registry current title records\",explanation:\"Record: WA231076 is held by its current registered proprietor [EV-0078]. Indemnity under Schedule 8 arises only if a mistake is shown.\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0078"
+   ],
+   "why": "\"Disproved\"/\"False\" verdicts and unsourced records replaced with open questions.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-35\",text:\"court awarded itself the land\",side:\"estate\",color:\"red\",size:\"sm\",dateOrEra:\"1987\",parcelOrSubject:\"Anti-judicial polemic\",source:\"Lay commentary\",explanation:\"Red (Legally Incorrect): The court did not acquire land; it adjudicated between private litigants on narrow technical adverse possession doctrine.\"}",
+   "replace": "{id:\"e-35\",text:\"court awarded itself the land\",side:\"estate\",color:\"orange\",size:\"sm\",dateOrEra:\"1987\",parcelOrSubject:\"Anti-judicial polemic\",source:\"Lay commentary\",explanation:\"Record: the Court of Appeal decided possession between BP Properties and Mr Buckler [EV-0080].\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0080"
+   ],
+   "why": "\"Disproved\"/\"False\" verdicts and unsourced records replaced with open questions.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-36\",text:\"'whole farm' settles every boundary question\",side:\"estate\",color:\"red\",size:\"sm\",dateOrEra:\"1916/1955\",parcelOrSubject:\"Boundary conflation\",source:\"Western Ground Rents submissions\",explanation:\"Red (Forensically Disproved): The 1840 Tithe Apportionment, 1876 Limeworks severance, and 1910 Inland Revenue survey prove Great House Farm was composed of three distinct tenurial parcels.\"}",
+   "replace": "{id:\"e-36\",text:\"'whole farm' settles every boundary question\",side:\"estate\",color:\"orange\",size:\"sm\",dateOrEra:\"1916/1955\",parcelOrSubject:\"Boundary conflation\",source:\"Western Ground Rents submissions\",explanation:\"Open question: the boundaries; the 1916 tenancy plan [EV-0014] and the 1975 conveyance plan [EV-0052] are the records to compare.\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0014",
+    "EV-0052"
+   ],
+   "why": "\"Disproved\"/\"False\" verdicts and unsourced records replaced with open questions.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-37\",text:\"Bute/Plymouth 1820 exchange acquired the Williams estate\",side:\"estate\",color:\"red\",size:\"sm\",dateOrEra:\"1820\",parcelOrSubject:\"Root conveyance assertion\",source:\"Estate title abstract 1905\",explanation:\"Red (Archivally Disproved): The 1820 Deed of Exchange did not transfer or extinguish the customary Williams domestic holding.\"}",
+   "replace": "{id:\"e-37\",text:\"Bute/Plymouth 1820 exchange acquired the Williams estate\",side:\"estate\",color:\"orange\",size:\"sm\",dateOrEra:\"1820\",parcelOrSubject:\"Root conveyance assertion\",source:\"Not yet confirmed: no copy in the research catalogue\",explanation:\"Not yet confirmed: no 1820 deed of exchange is in the catalogue.\"}",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "\"Disproved\"/\"False\" verdicts and unsourced records replaced with open questions.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"e-38\",text:\"Daniel Thomas arrangement never existed\",side:\"estate\",color:\"red\",size:\"sm\",dateOrEra:\"1876–1928\",parcelOrSubject:\"Quarry pact denial\",source:\"Corporate pleadings 1986\",explanation:\"Red (Disproved by physical & archival evidence): The 1876 Limeworks lease, 1928 machinery removal logs, and 1910 Inland Revenue Field Books corroborate the existence of the Thomas commercial operation.\"}",
+   "replace": "{id:\"e-38\",text:\"Daniel Thomas arrangement never existed\",side:\"estate\",color:\"orange\",size:\"sm\",dateOrEra:\"1876–1928\",parcelOrSubject:\"Quarry pact denial\",source:\"Corporate pleadings 1986\",explanation:\"Open question: the 1877 agreement [EV-0006] and the 1928 receipt [EV-0016] are not yet located; the limeworks ran 1876\\u20131947 [EV-0280].\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0006",
+    "EV-0016",
+    "EV-0280"
+   ],
+   "why": "\"Disproved\"/\"False\" verdicts and unsourced records replaced with open questions.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"The Foundational Case & Catalyst for Autonomous Restitution\"",
+   "replace": "\"The case this service starts from\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Restitution framing.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"The 800-Year-Old Home, Dawn Eviction & Demolition\"",
+   "replace": "\"The 1988 eviction and demolition (dated, cited)\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0106"
+   ],
+   "why": "\"800-year-old\" is a press headline; \"dawn\" not in the held record.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"Possession vs Unextinguished Freehold Title\"",
+   "replace": "\"Open questions and the records that would answer them\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Heading stated a conclusion.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"None of these actions changes the core constitutional and legal facts:\"",
+   "replace": "\"Set side by side:\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Framing as fact.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"Unrelinquished Ownership:\"",
+   "replace": "\"Family testimony:\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Label.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"Never Adjudicated or Extinguished:\"",
+   "replace": "\"Open question:\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Label.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"BP Were Never Triumphant in Ownership:\"",
+   "replace": "\"Court of Appeal (record):\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0080"
+   ],
+   "why": "Label stated a verdict.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"Lawfare, Cover-Up & Systematic Restitution\"",
+   "replace": "\"What went against the family, and what remains open\"",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Accusatory heading.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"The land was seized from a vulnerable disabled widow pensioner, her terminally ill son, his pregnant daughter-in-law, and their three infant grandchildren through lawfare and warfare—arguably a military action disguised as a civil action for illicit corporate gain.\"",
+   "replace": "\"Went against the family (record): the 1955 and 1962 possession orders [EV-0032] [EV-0041]; the High Court judgment of 24 July 1986 [EV-0074]; the Court of Appeal, 31 July 1987 [EV-0080]; the House of Lords petition [EV-0076]; the European Commission application 14464/88, declared inadmissible on 14 April 1989 [EV-0122].\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0032",
+    "EV-0041",
+    "EV-0074",
+    "EV-0080",
+    "EV-0076",
+    "EV-0122"
+   ],
+   "why": "Accusation (military action, corporate gain) replaced with the decisions on record.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"Parliament, Members of the House of Lords, national newspapers, television stations, the local community, and historians all criticised and condemned the actions, yet the seizure still proceeded. Absolutely nothing has been done about the matter to this day except nearly four decades of failed attempts to cover it up.\"",
+   "replace": "\"Public reaction (record, press): the 1974 \\u2018open day\\u2019 to save the house [EV-0048]; a councillor called the demolition decision \\u2018disgusting\\u2019 [EV-0107]; villagers\\u2019 anger at the demolition [EV-0108]. Open: the Registry correspondence of 8 Apr, 12 Apr and 12 May 1983 is not yet read [EV-0069] [EV-0070].\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0048",
+    "EV-0107",
+    "EV-0108",
+    "EV-0069",
+    "EV-0070"
+   ],
+   "why": "Unsupported claims (Parliament, cover-up) replaced with cited press reaction.",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"This pattern appears to have occurred nationwide and possibly globally as state-sanctioned high-level racketeering and ethnic genocidal cleansing. Despite every one of these unholy acts, the land still remains the family’s.\"",
+   "replace": "\"Family testimony: the family regards the land as still theirs. Whether any court would agree is the open question above [EV-0049].\"",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0049"
+   ],
+   "why": "Accusation of racketeering/genocide against unnamed state actors removed (no record).",
+   "where": "CasePrecedentInfoModal.tsx (precedent panel)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"96.8% High Restitution Probability\"",
+   "replace": "\"Sample result (illustrative only, not a score)\"",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Invented probability.",
+   "where": "ClaimAgent results / eligibility"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"ELIGIBILITY VERIFIED & ISSUED\"",
+   "replace": "\"DEMO CODE ISSUED\"",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Nothing is verified in the demo.",
+   "where": "ClaimAgent results / eligibility"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "\"Archival Records & Precedent Found • 96.8% Match\"",
+   "replace": "\"Archival records and precedent found (sample results, illustrative)\"",
+   "class": "UNSUPPORTED",
+   "ev": [],
+   "why": "Invented match score.",
+   "where": "ClaimAgent results / eligibility"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-27\",text:\"refusal to accept tenancy\",side:\"williams\",color:\"green\",size:\"md\",dateOrEra:\"1955 & 1974\",parcelOrSubject:\"Rejection of tenancy contracts\",source:\"Court of Appeal judgment text [1987] EWCA Civ 2 at p. 5\",explanation:'Green (Documented Fact): Dillon LJ noted: \"Mrs. Buckler made it clear that she regarded the house as her own and refused to accept any tenancy or sign any licence.\"'}",
+   "replace": "{id:\"w-27\",text:\"refusal to accept tenancy\",side:\"williams\",color:\"green\",size:\"md\",dateOrEra:\"1959 and Mar 1965\",parcelOrSubject:\"Rejection of tenancy contracts\",source:\"Court of Appeal judgment [EV-0080]; [EV-0039]\",explanation:\"Record: \\u201cShe was offered a tenancy of the farmhouse and garden by Western Ground Rents but refused to accept it. She was also later offered, and refused, alternative accommodation\\u201d [EV-0080] [EV-0039].\"}",
+   "class": "WRONG",
+   "ev": [
+    "EV-0080",
+    "EV-0039"
+   ],
+   "why": "The quoted words are not in the judgment; replaced with the judgment's own words.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-37\",text:\"Great House Farm alias Cedfin in Bute survey\",side:\"williams\",color:\"green\",size:\"lg\",dateOrEra:\"18th/19th Century\",parcelOrSubject:\"Manorial Nomenclature\",source:\"1780 Bute Estate Manorial Survey of Llandough\",explanation:'Green (Documented Fact): Historic estate surveys record Great House Farm under its ancient Welsh alias \"Cedfin\" / \"Ty Mawr\".'}",
+   "replace": "{id:\"w-37\",text:\"Great House Farm alias Cedfin in Bute survey\",side:\"williams\",color:\"green\",size:\"lg\",dateOrEra:\"1824\",parcelOrSubject:\"Manorial Nomenclature\",source:\"Bute estate survey 1824, Glamorgan Archives DB/E/1, plan 19: \\u201cCedfin or Ty Mawr Farm\\u201d [EV-0211]\",explanation:\"Documented: the 1824 Bute estate survey names it plan 19, \\u201cCedfin or Ty Mawr Farm\\u201d [EV-0211], the earliest record read that names the holding. A Bute catalogue heading \\u201cCydfin Farm or Ty Mawr Farm\\u201d (NLW Bute D 219) sits over earlier, unread leases; it is the cataloguer\\u2019s heading, not a record of T\\u0177 Mawr before 1824, and is under forensic examination [EV-0003]. No 1780 survey is in the catalogue.\"}",
+   "class": "UNSUPPORTED",
+   "ev": [
+    "EV-0003",
+    "EV-0211"
+   ],
+   "why": "1780 survey not in the catalogue; corrected 26 Oct 2026: the name is first read in the 1824 survey (EV-0211); 1552–1824 is a catalogue span for unread leases (EV-0003).",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "{id:\"w-41\",text:\"1916 'whole farm'\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1916\",parcelOrSubject:\"Tenancy scope ambiguity\",source:\"1916 Tenancy Agreement Schedule\",explanation:'Orange (Disputed interpretation): While the contract preamble used the phrase \"whole farm\", the plan excluded domestic Parcel B from rack-rent calculation.'}",
+   "replace": "{id:\"w-41\",text:\"1916 'whole farm'\",side:\"williams\",color:\"orange\",size:\"lg\",dateOrEra:\"1916\",parcelOrSubject:\"Tenancy scope\",source:\"1916 tenancy, with plan (not located) [EV-0014]\",explanation:\"Record: the 1916 letting was of \\u201cthe whole of the farm\\u201d [EV-0014] [EV-0080]. Family case: the plan treated the house (Parcel A) differently. Open question until the plan is found.\"}",
+   "class": "CONCLUSION",
+   "ev": [
+    "EV-0014",
+    "EV-0080"
+   ],
+   "why": "Plan not located; family reading labelled; parcel letter per research layer.",
+   "where": "rivalClaimsStatementsData.ts (#claims)"
+  },
+  {
+   "theme": "app",
+   "file": "assets/webapp-*.js",
+   "find": "seek evidence of how the land was lost",
+   "replace": "set out, with sources, how the land changed hands",
+   "class": "CONCLUSION",
+   "ev": [],
+   "why": "Same reword as ingredients.json app/index.html, which never matched because the text lives in the bundle.",
+   "where": "Landing (app hero)"
+  },
+  {
+   "theme": "app",
+   "file": "demo/index.html",
+   "find": "</body>",
+   "replace": "<script id=\"cedwyn-ev-links\">/* Cedwyn app demo: turns [EV-xxxx] citations into links to the research catalogue (internal only). Added by the demo fact-check, 25 Oct 2026. */\n(function(){var M={\"EV-0003\":\"/research/evidence/ev-0003-bute-records-cedfin-ty-mawr/\",\"EV-0006\":\"/research/evidence/ev-0006-bute-thomas-agreement-1877/\",\"EV-0011\":\"/research/evidence/ev-0011-marconi-lavernock-wireless-cutting-1897/\",\"EV-0013\":\"/research/evidence/ev-0013-bute-conveyance-1905/\",\"EV-0014\":\"/research/evidence/ev-0014-bute-tenancy-john-williams-1916/\",\"EV-0016\":\"/research/evidence/ev-0016-1928-last-rent-receipt-quarrying/\",\"EV-0019\":\"/research/evidence/ev-0019-bute-wgr-conveyance-plan-1938/\",\"EV-0022\":\"/research/evidence/ev-0022-press-1938-bute-wgr-sale-completion/\",\"EV-0025\":\"/research/evidence/ev-0025-frederick-buckler-unwritten-tenancy-1949/\",\"EV-0026\":\"/research/evidence/ev-0026-family-title-papers-removed-blanket-box/\",\"EV-0030\":\"/research/evidence/ev-0030-cardiff-county-court-registers-aca/\",\"EV-0032\":\"/research/evidence/ev-0032-1955-order-14-possession-order/\",\"EV-0034\":\"/research/evidence/ev-0034-writ-possession-execution-return-1955/\",\"EV-0039\":\"/research/evidence/ev-0039-wgr-tenancy-offers-1959-1965/\",\"EV-0041\":\"/research/evidence/ev-0041-cardiff-county-court-possession-order-1962/\",\"EV-0043\":\"/research/evidence/ev-0043-wgr-bp-pension-trust-conveyance/\",\"EV-0047\":\"/research/evidence/ev-0047-thomas-rcahmw-survey-floor-plan/\",\"EV-0048\":\"/research/evidence/ev-0048-telegraph-open-day-ancient-house/\",\"EV-0049\":\"/research/evidence/ev-0049-mary-williams-plea-ownership-pleadings/\",\"EV-0050\":\"/research/evidence/ev-0050-1974-bp-licence-letters/\",\"EV-0052\":\"/research/evidence/ev-0052-bp-pension-trust-bp-properties-conveyance/\",\"EV-0059\":\"/research/evidence/ev-0059-wa231076-form-a13-first-registration/\",\"EV-0066\":\"/research/evidence/ev-0066-hmlr-wa240304-item-10-register-1983/\",\"EV-0067\":\"/research/evidence/ev-0067-mary-doreen-williams-death-index/\",\"EV-0069\":\"/research/evidence/ev-0069-hmlr-wa240304-item-7-d23-1983/\",\"EV-0070\":\"/research/evidence/ev-0070-hmlr-wa240304-item-4-correspondence-1983/\",\"EV-0071\":\"/research/evidence/ev-0071-wa231076-1983-84-registration-activity/\",\"EV-0074\":\"/research/evidence/ev-0074-high-court-trial-judgment-1986/\",\"EV-0075\":\"/research/evidence/ev-0075-south-wales-echo-1986-high-court-judgment/\",\"EV-0076\":\"/research/evidence/ev-0076-house-of-lords-petition-leave-papers/\",\"EV-0078\":\"/research/evidence/ev-0078-1987-title-amalgamation-application-plan/\",\"EV-0080\":\"/research/evidence/ev-0080-bp-properties-v-buckler-judgment/\",\"EV-0088\":\"/research/evidence/ev-0088-south-wales-echo-buckler-dispute-1988/\",\"EV-0096\":\"/research/evidence/ev-0096-cadw-1988-inspection-photographs-listing/\",\"EV-0098\":\"/research/evidence/ev-0098-south-wales-echo-forced-entry-1988/\",\"EV-0101\":\"/research/evidence/ev-0101-echo-extract-hospital-assault-charges/\",\"EV-0103\":\"/research/evidence/ev-0103-echo-history-fight-save-farm/\",\"EV-0104\":\"/research/evidence/ev-0104-south-wales-echo-extract-1988/\",\"EV-0105\":\"/research/evidence/ev-0105-western-mail-final-eviction-hearing-1988/\",\"EV-0106\":\"/research/evidence/ev-0106-tears-flow-farmhouse-razed-1988/\",\"EV-0107\":\"/research/evidence/ev-0107-south-wales-echo-1988-councillor-protest/\",\"EV-0108\":\"/research/evidence/ev-0108-south-wales-echo-bp-demolition-anger/\",\"EV-0114\":\"/research/evidence/ev-0114-planning-report-89-01396-out-outline-permission/\",\"EV-0122\":\"/research/evidence/ev-0122-echr-application-14464-88-inadmissibility/\",\"EV-0126\":\"/research/evidence/ev-0126-ggat-archaeological-assessment-great-house-1990/\",\"EV-0131\":\"/research/evidence/ev-0131-glamorgan-gwent-archaeological-trust-letters-on-ar/\",\"EV-0132\":\"/research/evidence/ev-0132-cotswold-archaeology-condition-18-discharge/\",\"EV-0134\":\"/research/evidence/ev-0134-cotswold-archaeological-trust-letter-to-national-m/\",\"EV-0159\":\"/research/evidence/ev-0159-south-wales-police-foi-719-26/\",\"EV-0184\":\"/research/evidence/ev-0184-rcahmw-reply-rc26-0375-ty-mawr/\",\"EV-0185\":\"/research/evidence/ev-0185-rcahmw-order-form-rc26-0375/\",\"EV-0211\":\"/research/evidence/ev-0211-db-e-1-plan-19-cedfin-ty-mawr-1824/\",\"EV-0212\":\"/research/evidence/ev-0212-llandough-poor-rate-books-1870s/\",\"EV-0215\":\"/research/evidence/ev-0215-tithe-apportionment-john-williams-c1841/\",\"EV-0216\":\"/research/evidence/ev-0216-1965-contract-condition-f-conveyance-25-december-1938/\",\"EV-0230\":\"/research/evidence/ev-0230-western-mail-1936-llandough-bride-buckler-williams/\",\"EV-0245\":\"/research/evidence/ev-0245-cadw-atisn-27589-response-s14-2-19-oct-2026/\",\"EV-0248\":\"/research/evidence/ev-0248-marconi-in-wales-may-1897-contemporary-press/\",\"EV-0256\":\"/research/evidence/ev-0256-kemp-diary-lavernock-1897-bodleian-ms-marconi-89/\",\"EV-0272\":\"/research/evidence/ev-0272-cadw-1989-llandough-resurvey-list-13430-13431-13432/\",\"EV-0274\":\"/research/evidence/ev-0274-probate-calendar-1991-william-beverley-buckler/\",\"EV-0280\":\"/research/evidence/ev-0280-llandough-lime-works-and-quarry-1876-1947-daniel-thomas-s-kilns-quarry-workers-kel/\",\"EV-0283\":\"/research/evidence/ev-0283-bute-court-leet-at-llandough-press-reports-1904-1917-john-williams-on-the-1910-gra/\",\"EV-0291\":\"/research/evidence/ev-0291-nlw-bute-catalogue-d153-llandough-33-acres-great-house-farm-limeworks-and-pwllypant-d242-d247-d258/\",\"EV-0429\":\"/research/evidence/ev-0429-rcahmw-royal-commission-great-house-farm-archive-holdings-enquiry/\",\"EV-0430\":\"/research/evidence/ev-0430-rcahmw-royal-commission-great-house-farm-archive-details-enquiry/\",\"EV-0440\":\"/research/evidence/ev-0440-south-wales-police-foi-1264-26-on-1988-operational-records/\",\"EV-0443\":\"/research/evidence/ev-0443-the-national-archives-foi-request-for-pre-1667-great-house-farm-manorial-records/\",\"EV-0446\":\"/research/evidence/ev-0446-the-national-archives-foi-request-for-valuation-office-survey-1910-location/\"};var RE=/\\[(EV-\\d{4})\\]/g;var W=new WeakMap(),SET=new WeakMap();\nfunction skip(n){for(var e=n.parentNode;e;e=e.parentNode){if(e.nodeType!==1)continue;var t=e.tagName;if(t===\"A\"||t===\"SCRIPT\"||t===\"STYLE\"||t===\"TEXTAREA\"||t===\"OPTION\"||t===\"SELECT\"||(e.hasAttribute&&e.hasAttribute(\"data-evl\")))return true;}return false}\nfunction clear(t){var s=W.get(t);if(s&&s.parentNode)s.parentNode.removeChild(s);W.delete(t)}\nfunction proc(t){if(!t.parentNode||skip(t))return;var v=t.nodeValue;if(SET.get(t)===v)return;clear(t);RE.lastIndex=0;var m=RE.exec(v);while(m&&!M[m[1]])m=RE.exec(v);if(!m)return;\nvar head=v.slice(0,m.index),rest=v.slice(m.index);var sp=document.createElement(\"span\");sp.setAttribute(\"data-evl\",\"1\");var last=0;RE.lastIndex=0;var k;\nwhile((k=RE.exec(rest))){if(k.index>last)sp.appendChild(document.createTextNode(rest.slice(last,k.index)));if(M[k[1]]){var a=document.createElement(\"a\");a.href=M[k[1]];a.textContent=k[0];a.style.textDecoration=\"underline\";a.style.color=\"inherit\";sp.appendChild(a)}else sp.appendChild(document.createTextNode(k[0]));last=k.index+k[0].length}\nif(last<rest.length)sp.appendChild(document.createTextNode(rest.slice(last)));SET.set(t,head);t.nodeValue=head;t.parentNode.insertBefore(sp,t.nextSibling);W.set(t,sp)}\nfunction walk(r){if(!r)return;if(r.nodeType===3){proc(r);return}if(r.nodeType!==1||r.hasAttribute(\"data-evl\"))return;var w=document.createTreeWalker(r,4,null),n,a=[];while((n=w.nextNode()))if(n.nodeValue.indexOf(\"[EV-\")>-1)a.push(n);a.forEach(proc)}\nvar mo=new MutationObserver(function(ms){ms.forEach(function(x){if(x.type===\"characterData\"){proc(x.target)}else{x.removedNodes.forEach(function(n){if(n.nodeType===3)clear(n)});x.addedNodes.forEach(walk)}})});\nfunction go(){walk(document.body);mo.observe(document.body,{childList:true,subtree:true,characterData:true})}\nif(document.body)go();else document.addEventListener(\"DOMContentLoaded\",go)})();</script></body>",
+   "class": "OK",
+   "ev": [],
+   "why": "Turns [EV-xxxx] citations in the demo into internal links to /research/evidence/.",
+   "where": "demo page"
+  },
+  {
+   "theme": "app",
+   "file": "**/*.html",
+   "find": "/app/assets/webapp-BrfChvhL.js\"",
+   "replace": "/app/assets/webapp-BrfChvhL.js?v=fc1\"",
+   "class": "OK",
+   "ev": [],
+   "why": "Cache-bust so phones load the corrected bundle.",
+   "where": "app pages"
+  }
+ ]
+}

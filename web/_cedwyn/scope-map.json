@@ -1,0 +1,221 @@
+{
+ "schema": "cedwyn-scope-map/1.0",
+ "note": "Scope tags for Cedwyn's webapps (1 Nov 2026). Read by /_cedwyn/scope.js on every page. 'home' = the scope a whole webapp belongs to (all = every scope; wales = on-the-ground visits in Wales; argentina = the planned replica in Patagonia; online = online-only). 'blocks' tag parts of a page by CSS selector (+ optional 'text' it must contain); 'pages' do the same for a path prefix. Untagged = all, so nothing disappears. Spec: docs/SCOPES.md.",
+ "scopes": {
+  "wales": {
+   "path": "/wales/",
+   "label": {
+    "en": "Wales",
+    "cy": "Cymru",
+    "es": "Gales"
+   }
+  },
+  "argentina": {
+   "path": "/argentina/",
+   "label": {
+    "en": "Argentina",
+    "cy": "Yr Ariannin",
+    "es": "Argentina"
+   }
+  },
+  "online": {
+   "path": "/",
+   "label": {
+    "en": "Online",
+    "cy": "Ar-lein",
+    "es": "En línea"
+   }
+  }
+ },
+ "areas": {
+  "wiki": {
+   "path": "/wiki/",
+   "home": "all",
+   "aliases": [
+    "/nomenclature/",
+    "/records/"
+   ]
+  },
+  "docs": {
+   "path": "/docs/",
+   "home": "all"
+  },
+  "wayback": {
+   "path": "/wayback/",
+   "home": "all"
+  },
+  "maps": {
+   "path": "/maps/",
+   "home": "all"
+  },
+  "infographic": {
+   "path": "/infographic/",
+   "home": "all"
+  },
+  "ebooks": {
+   "path": "/ebooks/",
+   "home": "all"
+  },
+  "story": {
+   "path": "/story/",
+   "home": "all",
+   "aliases": [
+    "/documentary/"
+   ]
+  },
+  "thousand-cuts": {
+   "path": "/thousand-cuts/",
+   "home": "all"
+  },
+  "fb": {
+   "path": "/fb/",
+   "home": "all",
+   "aliases": [
+    "/fb2/"
+   ]
+  },
+  "arcade": {
+   "path": "/arcade/",
+   "home": "online",
+   "aliases": [
+    "/cyberspace/",
+    "/nft-art/",
+    "/terrain/"
+   ]
+  },
+  "chess": {
+   "path": "/chess/",
+   "home": "online"
+  },
+  "csscpsg": {
+   "path": "/csscpsg/",
+   "home": "all"
+  },
+  "courtdrills": {
+   "path": "/courtdrills/",
+   "home": "all"
+  },
+  "fcg": {
+   "path": "/fcg/",
+   "home": "all"
+  },
+  "oldbill": {
+   "path": "/oldbill/",
+   "home": "all"
+  },
+  "accounts": {
+   "path": "/accounts/",
+   "home": "all"
+  },
+  "authorities": {
+   "path": "/authorities/",
+   "home": "all",
+   "aliases": [
+    "/meeting/"
+   ]
+  },
+  "wdtk": {
+   "path": "/wdtk/",
+   "home": "all"
+  },
+  "review": {
+   "path": "/review/",
+   "home": "all"
+  },
+  "research": {
+   "path": "/research/",
+   "home": "all"
+  },
+  "qa": {
+   "path": "/qa/",
+   "home": "all"
+  },
+  "projects": {
+   "path": "/projects/",
+   "home": "all",
+   "blocks": [
+    {
+     "sel": "tr",
+     "text": "Project C — Argentina",
+     "scope": "argentina"
+    },
+    {
+     "sel": "tr",
+     "text": "Project D — Wales",
+     "scope": "wales"
+    },
+    {
+     "sel": "li",
+     "text": "Patagonia Great House Farm II:",
+     "scope": "argentina"
+    }
+   ]
+  },
+  "app": {
+   "path": "/app/",
+   "home": "all"
+  },
+  "chat": {
+   "path": "/chat/",
+   "home": "all"
+  },
+  "watchtower": {
+   "path": "/watchtower/",
+   "home": "all"
+  },
+  "email": {
+   "path": "/email/",
+   "home": "all",
+   "aliases": [
+    "/emails/"
+   ]
+  },
+  "dartboard": {
+   "path": "/dartboard/",
+   "home": "all"
+  },
+  "estate": {
+   "path": "/estate/",
+   "home": "all"
+  },
+  "directory": {
+   "path": "/directory/",
+   "home": "all"
+  },
+  "patagonia": {
+   "path": "/patagonia/",
+   "home": "argentina",
+   "href": "/argentina/patagonia/"
+  },
+  "wales": {
+   "path": "/wales/",
+   "home": "wales"
+  },
+  "shop": {
+   "path": "/shop/",
+   "home": "all"
+  },
+  "familytree": {
+   "path": "/familytree/",
+   "home": "all"
+  },
+  "kissed-frogs": {
+   "path": "/kissed-frogs/",
+   "home": "all"
+  },
+  "whattheydontsay": {
+   "path": "/whattheydontsay/",
+   "home": "all"
+  },
+  "blog": {
+   "path": "/blog/",
+   "home": "all"
+  }
+ },
+ "pages": {
+  "/projects/replica/": {
+   "home": "argentina",
+   "href": "/argentina/projects/replica/"
+  }
+ }
+}
