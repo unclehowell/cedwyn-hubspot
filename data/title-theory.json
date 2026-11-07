@@ -27,7 +27,7 @@
     "If the 1975 conveyance transferred only a defined farmhouse plot and other specified land, while retaining other land, it would explain the importance of comparing its actual plan and parcels with the 1969 root transaction and later registrations rather than assuming that every part of the estate moved together.",
     "If the 1982–83 first-registration applications described BP as in possession or failed to identify Mary’s occupation or competing claim accurately, and if effective notice was not served, that could explain how a registered title was created or completed without a meaningful opportunity for her to object. The actual application forms, requisitions, notices, service records and correspondence must establish whether this happened.",
     "If the later amalgamation and possession proceedings relied on an over-broad parcel description, they could have entrenched a title claim that originated in an earlier boundary or conveyancing error. The 1987 court decision remains legally significant for the matters it decided; it is not a substitute for independently testing every underlying instrument and parcel.",
-    "If the development sequence was connected to the acquisition of control, the 1989 outline application (outline permission 13 March 1990), William Buckler’s death-date discrepancy (family chronology: 29 May 1990; probable probate-calendar match for William Beverley Buckler: 29 April 1990, EV-0274) and the 3 September 1992 reserved-matters approval would be dates to reconcile. Both candidate dates fall between the planning milestones, but neither establishes cause, motive, knowledge or homicide.",
+    "If the development sequence was connected to the acquisition of control, the 1989 outline application (outline permission 13 March 1990), William Buckler’s death on 29 April 1990 (probate calendar, EV-0274) and the 3 September 1992 reserved-matters approval would be dates to reconcile. That date falls between the planning milestones, but it does not establish cause, motive, knowledge or homicide.",
     "If records were deliberately suppressed or destroyed, the reported loss of papers from the farmhouse and the reported Neath fire might form part of a concealment mechanism. At present these are separate leads: no established link proves a common actor, purpose, arson or deliberate destruction.",
     "If the archaeology were being used to conceal an earlier secret, the excavation, treatment of human remains and documentary handling would need to show a deliberate connection to the title dispute. The number of burials, damaged skulls, a cellar or a possible former court does not establish prisoners, executions, a burial secret or a state operation.",
     "If BP’s spokesman in 1988 described Mary’s death as the point when “it became clear her son was not going to leave” [EV-0088], it would explain how BP publicly framed the son’s occupation as a new phase after the personal licence offered to Mary ended. That statement is relevant to the chronology and corporate narrative; it does not show that BP caused her death, knew of her illness, or arranged anything."
@@ -139,7 +139,7 @@
       "stage": "Family chronology, records and alleged loss",
       "proposition": "Build a person-by-person chronology for John Williams, Frederick Buckler, Mary Williams and William ‘Billy’ Buckler. Use original civil registration, probate, inquest, medical, police and contemporaneous correspondence where lawfully available.",
       "if_true": "A proven pattern of threats, suspicious interventions or deliberate document removal could support a separate suppression hypothesis.",
-      "against_or_alternative": "Deaths near legal or planning events do not establish homicide. John Williams’s death date remains unestablished (the family research records him alive and very ill in the early 1950s); Frederick Buckler’s date also remains unverified. For William Buckler / William Beverley Buckler, the family chronology says 29 May 1990, while a 1991 probate-calendar entry is a probable match dated 29 April 1990 (EV-0274); identity and date must be reconciled against civil and probate records before drawing a timeline inference. Mary’s death index and the 1988 BP spokesman’s reported wording are relevant context, not evidence of a caused death.",
+      "against_or_alternative": "Deaths near legal or planning events do not establish homicide. John Williams’s death date remains unestablished (the family research records him alive and very ill in the early 1950s); Frederick Buckler’s date also remains unverified. William (Billy) Buckler died on 29 April 1990: the 1991 probate calendar records William Beverley Buckler, died 29 April 1990, administration granted at Llandaff on 11 July 1991 (EV-0274). Earlier pages that gave 29 May 1990, 1991 or 15 May 1992 have been corrected. Mary’s death index and the 1988 BP spokesman’s reported wording are relevant context, not evidence of a caused death.",
       "source_evs": [
         "EV-0049",
         "EV-0065",
@@ -430,7 +430,7 @@
       },
       {
         "id": "N14",
-        "label": "William Buckler / William Beverley Buckler death-date discrepancy: 29 Apr 1990 probate-calendar probable match versus 29 May 1990 family chronology",
+        "label": "William (Billy) Buckler died 29 Apr 1990 (probate calendar, EV-0274); the 29 May 1990 date used earlier is corrected",
         "type": "date_conflict_not_cause_of_death"
       }
     ],
@@ -852,8 +852,8 @@
     {
       "ev": "EV-0274",
       "path": "/research/evidence/ev-0274-probate-calendar-1991-william-beverley-buckler/",
-      "role": "Probate-calendar candidate for William Beverley Buckler",
-      "note": "Probable identity match dated 29 April 1990; reconcile with family chronology dated 29 May 1990."
+      "role": "Probate calendar entry for William Beverley (Billy) Buckler",
+      "note": "Died 29 April 1990; administration granted at Llandaff on 11 July 1991."
     },
     {
       "ev": "EV-0025",
@@ -939,11 +939,11 @@
   "date_conflicts": [
     {
       "person": "William Buckler / William Beverley Buckler",
-      "family_chronology_date": "29 May 1990",
-      "repository_probate_candidate": "29 April 1990",
+      "family_chronology_date": "29 April 1990 (corrected from 29 May 1990)",
+      "repository_probate_candidate": "29 April 1990 (probate calendar)",
       "source_ev": "EV-0274",
       "source_path": "/research/evidence/ev-0274-probate-calendar-1991-william-beverley-buckler/",
-      "status": "Unresolved; probable name match, not yet authenticated as the same person. Both dates fall after outline permission on 13 March 1990 and before reserved-matters approval on 3 September 1992. Do not infer causation from this chronology."
+      "status": "Resolved: 29 April 1990, from the probate calendar (EV-0274), confirmed by the family. The date falls after outline permission on 13 March 1990 and before reserved-matters approval on 3 September 1992. Do not infer causation from this chronology."
     },
     {
       "person": "John Williams",

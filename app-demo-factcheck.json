@@ -1365,7 +1365,7 @@
    "theme": "app",
    "file": "assets/webapp-*.js",
    "find": "The conveniently timed death of the defendant, Mr William Beverly Buckler, occurred between BP’s heavily petitioned housing-development application and the council’s acceptance of it. The council ignored the site’s archaeological and historic significance and failed to issue a demolition stop order. BP bailiffs then demolished Mr Williams’ 800-year-old home while his three infant children and pregnant wife were still inside—only hours before the family’s first departure from the land and home since 1667.",
-   "replace": "The 1988\\u201390 sequence: forced entry on 30 Nov 1988 [EV-0098]; eviction by 3 Dec [EV-0101]; final eviction hearing failed in the Cardiff High Court on 6 Dec [EV-0104]; demolition reported 7 Dec 1988 [EV-0106]. Planning: outline application 89/01396/OUT and the 1990 outline permission [EV-0114]; GGAT archaeological assessment, Aug 1990 [EV-0126]. William Beverley Buckler died on 29 April 1990 (probate calendar, probable match) [EV-0274].",
+   "replace": "The 1988\\u201390 sequence: forced entry on 30 Nov 1988 [EV-0098]; eviction by 3 Dec [EV-0101]; final eviction hearing failed in the Cardiff High Court on 6 Dec [EV-0104]; demolition reported 7 Dec 1988 [EV-0106]. Planning: outline application 89/01396/OUT and the 1990 outline permission [EV-0114]; GGAT archaeological assessment, Aug 1990 [EV-0126]. William Beverley (Billy) Buckler died on 29 April 1990 (probate calendar) [EV-0274].",
    "class": "WRONG",
    "ev": [
     "EV-0098",
