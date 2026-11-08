@@ -1,0 +1,29 @@
+name: sync-central
+# This webapp's own data store. web/hubspot/data/central.json holds only the central-catalogue fields the page shows (id, kind,
+# title, date, status, page) for the record IDs cited in the HubSpot Task Control page (web/hubspot/*.html), pulled read-only from the central catalogue by
+# tools/sync_central.py. It is derived: never edited by hand. Every 6 hours and on demand; never force-pushes.
+# - Sion's Tab agent
+on:
+  schedule:
+    - cron: '25 4-23/6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sync-central
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main, fetch-depth: 1 }
+      - name: Pull the fields this webapp needs from the central catalogue
+        run: python3 tools/sync_central.py
+      - name: Commit when something changed
+        run: |
+          git add web/hubspot/data/central.json
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git -c user.name="cedwyn-central-sync" -c user.email="actions@users.noreply.github.com" commit -q -m "web/hubspot/data/central.json: sync from the central catalogue"
+          git push origin HEAD:main
