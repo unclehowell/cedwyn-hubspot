@@ -12,7 +12,7 @@
   "use strict";
   if (window.__cedwynGB) return; window.__cedwynGB = 1;
   var DATA = location.origin + "/guestbook/guestbook.json", PAGE = location.origin + "/api/v?p=" + encodeURIComponent(location.pathname), data = null, loading = false;   // absolute: the theme runtime prefixes root paths
-  var HIST = "https://github.com/unclehowell/cedwyn/commits/main";
+  var HIST = "https://github.com/unclehowell/bucklerfamily-estate/commits/main";
   var L = {
     en: { title: "Page versions", meta: "Page versions & agent info", v: "Version", d: "Date", n: "Change", w: "Who", all: "See all", log: "Whole-site log",
           rule: "versions 1.change.fix, from this page\u2019s commit history",
