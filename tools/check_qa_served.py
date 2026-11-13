@@ -37,7 +37,7 @@ from qa_questions import build   # the same derivation the renderer uses
 
 ALIASES = ('/qa/', '/wales/qa/', '/argentina/qa/')
 RAW_BASE = os.environ.get('CHECK_QA_RAW_BASE',
-                          'https://raw.githubusercontent.com/unclehowell/cedwyn/%s/data/qa/questions-base.json')
+                          'https://raw.githubusercontent.com/unclehowell/bucklerfamily-estate/%s/data/qa/questions-base.json')
 STAMP = '/_cedwyn/reports/build.json'
 
 def get(url):
