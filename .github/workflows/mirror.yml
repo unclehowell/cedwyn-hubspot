@@ -14,7 +14,7 @@ jobs:
       - name: Mode check
         id: mode
         run: |
-          MODE=$(curl -fsSL "https://raw.githubusercontent.com/unclehowell/cedwyn/main/split-repos.json?cb=$(date +%s)" 2>/dev/null \
+          MODE=$(curl -fsSL "https://raw.githubusercontent.com/unclehowell/bucklerfamily-estate/main/split-repos.json?cb=$(date +%s)" 2>/dev/null \
             | python3 -c "import json,sys,os; d=json.load(sys.stdin); print(next((a.get('mode','mirror') for a in d.get('apps',[]) if a.get('repo','').endswith('/'+os.environ['NAME'])),'mirror'))" 2>/dev/null || echo mirror)
           echo "mode=$MODE" >> "$GITHUB_OUTPUT"; echo "mode: $MODE"
       - uses: actions/checkout@v4
@@ -23,12 +23,12 @@ jobs:
       - name: Copy the old branch
         if: steps.mode.outputs.mode == 'mirror'
         run: |
-          git clone -q --depth 1 --single-branch --branch "$SRC_BRANCH" --filter=blob:none https://github.com/unclehowell/cedwyn.git /tmp/src
+          git clone -q --depth 1 --single-branch --branch "$SRC_BRANCH" --filter=blob:none https://github.com/unclehowell/bucklerfamily-estate.git /tmp/src
           SRC_SHA=$(git -C /tmp/src rev-parse HEAD)
           [ -f /tmp/src/README.md ] && cp /tmp/src/README.md APP-README.md || true
           rsync -a --delete --exclude .git --exclude .github --exclude README.md --exclude APP-README.md --exclude SPLIT.json /tmp/src/ ./
-          printf '{"source":"unclehowell/cedwyn","branch":"%s","sha":"%s","copied_utc":"%s"}\n' "$SRC_BRANCH" "$SRC_SHA" "$(date -u +%FT%TZ)" > SPLIT.json
+          printf '{"source":"unclehowell/bucklerfamily-estate","branch":"%s","sha":"%s","copied_utc":"%s"}\n' "$SRC_BRANCH" "$SRC_SHA" "$(date -u +%FT%TZ)" > SPLIT.json
           git add -A
           if git diff --cached --quiet -- . ':!SPLIT.json'; then echo "no change since $SRC_SHA"; exit 0; fi
-          git -c user.name="cedwyn-mirror" -c user.email="actions@users.noreply.github.com" commit -q -m "Mirror $SRC_BRANCH@${SRC_SHA:0:7} from unclehowell/cedwyn"
+          git -c user.name="cedwyn-mirror" -c user.email="actions@users.noreply.github.com" commit -q -m "Mirror $SRC_BRANCH@${SRC_SHA:0:7} from unclehowell/bucklerfamily-estate"
           git push origin HEAD:main
