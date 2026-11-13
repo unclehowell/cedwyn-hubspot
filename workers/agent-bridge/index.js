@@ -3,7 +3,7 @@
 // No HubSpot or X credentials are embedded here. D1 binding DB points to the existing cedwyn-apps database.
 
 const BASE = "/x78s8jej33i8f8rrj4is88";
-const TASK_INDEX_URL = "https://raw.githubusercontent.com/unclehowell/cedwyn/projects/projects/public/data/agent-tasks.json";
+const TASK_INDEX_URL = "https://raw.githubusercontent.com/unclehowell/cedwyn-projects/main/projects/public/data/agent-tasks.json";
 const X_PROFILE = "https://x.com/BuckerCarlson";
 const HEADERS = {
   "access-control-allow-origin": "*",
@@ -100,7 +100,7 @@ async function submit(request, env) {
 }
 
 const FLOW_AUDIENCE = "cedwyn-flow-watch";
-const FLOW_REPO = "unclehowell/cedwyn";
+const FLOW_REPO = "unclehowell/bucklerfamily-estate";
 const FLOW_API = "https://api.github.com/repos/" + FLOW_REPO;
 const FLOW_SITE = "https://cedwyn.bucklerfamily.estate";
 const BUILD_WARN_MINUTES = 75;
@@ -465,7 +465,7 @@ export default {
           pagination: { total, offset, limit, next_offset: offset + limit < total ? offset + limit : null, has_more: offset + limit < total }
         }, 200, { "cache-control": "public, max-age=60" });
       } catch {
-        return response({ error: "task_index_unavailable", fallback: "https://github.com/unclehowell/cedwyn/blob/projects/projects/public/data/agent-tasks.json" }, 502);
+        return response({ error: "task_index_unavailable", fallback: "https://github.com/unclehowell/cedwyn-projects/blob/main/projects/public/data/agent-tasks.json" }, 502);
       }
     }
     if (path === "/x.json") return response({
