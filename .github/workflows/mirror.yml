@@ -1,34 +1,25 @@
-name: mirror-from-cedwyn
-on:
-  schedule: [{cron: '*/30 * * * *'}]
-  push: {branches: [main], paths: ['.github/workflows/mirror.yml']}
+name: split-repo-source-guard
+'on':
+  push:
+    branches: [main]
+    paths: ['.github/workflows/mirror.yml']
   workflow_dispatch:
-permissions: {contents: write}
-concurrency: {group: mirror, cancel-in-progress: false}
+permissions:
+  contents: read
 jobs:
-  mirror:
+  verify-source:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-    env: {NAME: cedwyn-hubspot, SRC_BRANCH: webapp/hubspot-20261101}
+    timeout-minutes: 5
     steps:
-      - name: Mode check
-        id: mode
+      - name: Verify authoritative split manifest
+        shell: bash
+        env:
+          EXPECTED_REPO: unclehowell/cedwyn-hubspot
         run: |
-          MODE=$(curl -fsSL "https://raw.githubusercontent.com/unclehowell/bucklerfamily-estate/main/split-repos.json?cb=$(date +%s)" 2>/dev/null \
-            | python3 -c "import json,sys,os; d=json.load(sys.stdin); print(next((a.get('mode','mirror') for a in d.get('apps',[]) if a.get('repo','').endswith('/'+os.environ['NAME'])),'mirror'))" 2>/dev/null || echo mirror)
-          echo "mode=$MODE" >> "$GITHUB_OUTPUT"; echo "mode: $MODE"
-      - uses: actions/checkout@v4
-        if: steps.mode.outputs.mode == 'mirror'
-        with: {ref: main, fetch-depth: 1}
-      - name: Copy the old branch
-        if: steps.mode.outputs.mode == 'mirror'
-        run: |
-          git clone -q --depth 1 --single-branch --branch "$SRC_BRANCH" --filter=blob:none https://github.com/unclehowell/bucklerfamily-estate.git /tmp/src
-          SRC_SHA=$(git -C /tmp/src rev-parse HEAD)
-          [ -f /tmp/src/README.md ] && cp /tmp/src/README.md APP-README.md || true
-          rsync -a --delete --exclude .git --exclude .github --exclude README.md --exclude APP-README.md --exclude SPLIT.json /tmp/src/ ./
-          printf '{"source":"unclehowell/bucklerfamily-estate","branch":"%s","sha":"%s","copied_utc":"%s"}\n' "$SRC_BRANCH" "$SRC_SHA" "$(date -u +%FT%TZ)" > SPLIT.json
-          git add -A
-          if git diff --cached --quiet -- . ':!SPLIT.json'; then echo "no change since $SRC_SHA"; exit 0; fi
-          git -c user.name="cedwyn-mirror" -c user.email="actions@users.noreply.github.com" commit -q -m "Mirror $SRC_BRANCH@${SRC_SHA:0:7} from unclehowell/bucklerfamily-estate"
-          git push origin HEAD:main
+          set -euo pipefail
+          curl --fail --silent --show-error \
+            "https://raw.githubusercontent.com/unclehowell/cedwyn/main/split-repos.json" \
+            -o /tmp/split-repos.json
+          python3 -c 'import json,os; d=json.load(open("/tmp/split-repos.json")); xs=[x for x in d.get("apps",[]) if x.get("repo")==os.environ["EXPECTED_REPO"]]; assert len(xs)==1, "manifest entry missing or duplicated"; a=xs[0]; assert a.get("mode")=="split-repo" and a.get("deploy")=="repo", "manifest does not confirm dedicated-repo deployment"; print("Authoritative manifest confirms the dedicated repository as source of truth.")'
+      - name: Confirm no legacy mirror is needed
+        run: 'echo "No mirror: this app is deployed from its dedicated repository."'
