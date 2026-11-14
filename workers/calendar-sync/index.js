@@ -163,6 +163,7 @@ async function startGoogleOAuth(request, env) {
   const stateHash = base64Url(await sha256(state));
   const now = Date.now();
 
+  await env.DB.prepare("DELETE FROM cal_oauth_states WHERE expires_at < ?").bind(now).run();
   await env.DB.prepare(
     "INSERT INTO cal_oauth_states (state_hash, code_verifier, created_at, expires_at) VALUES (?, ?, ?, ?)"
   ).bind(stateHash, verifier, now, now + 10 * 60 * 1000).run();
@@ -296,7 +297,7 @@ async function googleRequest(accessToken, path, method = "GET", body = null) {
     },
     body: body ? JSON.stringify(body) : undefined
   });
-  if (response.status === 404) return null;
+  if (response.status === 404 && (method === "GET" || method === "DELETE")) return null;
   if (response.status === 204) return null;
   const data = await response.json().catch(() => ({}));
   if (!response.ok) {
@@ -405,7 +406,9 @@ async function upsertCalendarEvent(env, accessToken, event) {
     if (marker.app !== APP || marker.sourceType !== event.sourceType || marker.sourceKey !== event.sourceKey) {
       throw new Error("A Google event ID collision was detected; refusing to overwrite an unrelated event.");
     }
-    await googleRequest(accessToken, "events/" + eventId, "PATCH", resource);
+    const patchResource = { ...resource };
+    delete patchResource.id;
+    await googleRequest(accessToken, "events/" + eventId, "PATCH", patchResource);
   } else {
     await googleRequest(accessToken, "events", "POST", resource);
   }
