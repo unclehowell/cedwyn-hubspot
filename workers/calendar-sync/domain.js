@@ -122,7 +122,8 @@ export function buildHubSpotPlan(rawTasks, nowMillis, portalId) {
         start: { dateTime: start, timeZone: TIME_ZONE },
         end: { dateTime: end, timeZone: TIME_ZONE },
         visibility: "private",
-        transparency: "transparent"
+        transparency: "transparent",
+        reminders: { useDefault: true }
       }
     });
   }
@@ -130,7 +131,10 @@ export function buildHubSpotPlan(rawTasks, nowMillis, portalId) {
   if (overdue.length) {
     overdue.sort((a, b) => priorityOrder(a) - priorityOrder(b) ||
       (a.due ?? 0) - (b.due ?? 0) || a.title.localeCompare(b.title));
-    const dateKey = localDateKey(nowMillis);
+    const today = localDateKey(nowMillis);
+    const hourParts = new Intl.DateTimeFormat("en-GB", { timeZone: TIME_ZONE, hour: "2-digit", hourCycle: "h23" }).formatToParts(new Date(nowMillis));
+    const localHour = Number(hourParts.find((part) => part.type === "hour")?.value || "0");
+    const dateKey = localHour < 9 ? today : nextDateKey(today);
     const range = makeLocalTimedRange(dateKey, 9, 0, 20);
     events.push({
       sourceType: "hubspot_overdue_review",
@@ -148,7 +152,8 @@ export function buildHubSpotPlan(rawTasks, nowMillis, portalId) {
         ].join("\n"),
         ...range,
         visibility: "private",
-        transparency: "transparent"
+        transparency: "transparent",
+        reminders: { useDefault: true }
       }
     });
   }
