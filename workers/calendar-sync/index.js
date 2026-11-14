@@ -331,7 +331,8 @@ async function fetchAllHubSpotTasks(env) {
       limit: PAGE_SIZE,
       ...(after ? { after } : {})
     };
-    const response = await fetch("https://api.hubapi.com/crm/v3/objects/tasks/search", {
+    const searchUrl = env.HUBSPOT_TASKS_SEARCH_URL || "https://api.hubapi.com/crm/objects/2026-09/tasks/search";
+    const response = await fetch(searchUrl, {
       method: "POST",
       headers: {
         authorization: "Bearer " + env.HUBSPOT_SERVICE_KEY,
@@ -353,8 +354,8 @@ async function fetchAllHubSpotTasks(env) {
 
 async function fetchEstateRoadmap(nowMillis) {
   const response = await fetch(ROADMAP_URL, {
-    headers: { accept: "application/json" },
-    cf: { cacheTtl: 0, cacheEverything: false }
+    headers: { accept: "application/json", "cache-control": "no-cache" },
+    cache: "no-store"
   });
   if (!response.ok) return { fresh: false, reason: "http_" + response.status, events: [] };
   const roadmap = await response.json().catch(() => null);
@@ -553,7 +554,7 @@ async function runSync(env, limit = NORMAL_RUN_LIMIT) {
             counts.deleted++;
           }
         } else if (row.source_type === "estate_roadmap_day" && plan.roadmapPlan.fresh &&
-            !desiredRoadmapDates.has(row.source_key)) {
+            row.source_key >= localDateKey(now) && !desiredRoadmapDates.has(row.source_key)) {
           await deleteCalendarEvent(env, accessToken, row);
           counts.deleted++;
         }
@@ -641,11 +642,14 @@ async function getHealth(env) {
 }
 
 async function initialize(request, env) {
-  const missing = requiredConfiguration(env);
-  if (missing.length) return json({ ok: false, missingConfiguration: missing }, 503);
+  const mode = new URL(request.url).searchParams.get("mode") || "dry-run";
+  const minimum = [];
+  if (!env.DB) minimum.push("DB");
+  if (!env.HUBSPOT_SERVICE_KEY) minimum.push("HUBSPOT_SERVICE_KEY");
+  if (!env.SYNC_ADMIN_PASSWORD) minimum.push("SYNC_ADMIN_PASSWORD");
+  if (minimum.length) return json({ ok: false, missingConfiguration: minimum }, 503);
   if (!isAdmin(request, env)) return authRequired();
 
-  const mode = new URL(request.url).searchParams.get("mode") || "dry-run";
   if (mode === "dry-run") {
     try {
       return json(await previewSync(env));
@@ -654,6 +658,8 @@ async function initialize(request, env) {
     }
   }
   if (mode === "apply") {
+    const missing = requiredConfiguration(env);
+    if (missing.length) return json({ ok: false, missingConfiguration: missing }, 503);
     const token = await env.DB.prepare("SELECT id FROM cal_sync_tokens WHERE id='google'").first();
     if (!token) return json({ ok: false, error: "Connect Google Calendar first at /admin/google/start." }, 409);
     await putMeta(env.DB, "initial_sync_approved", "true");
