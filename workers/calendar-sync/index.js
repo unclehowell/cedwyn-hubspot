@@ -354,13 +354,18 @@ async function fetchAllHubSpotTasks(env) {
 }
 
 async function fetchEstateRoadmap(nowMillis) {
-  const response = await fetch(ROADMAP_URL, {
-    headers: { accept: "application/json", "cache-control": "no-cache" },
-    cache: "no-store"
-  });
-  if (!response.ok) return { fresh: false, reason: "http_" + response.status, events: [] };
-  const roadmap = await response.json().catch(() => null);
-  return buildEstateRoadmapPlan(roadmap, nowMillis, 36);
+  try {
+    const response = await fetch(ROADMAP_URL, {
+      headers: { accept: "application/json", "cache-control": "no-cache" },
+      cache: "no-store"
+    });
+    if (!response.ok) return { fresh: false, reason: "http_" + response.status, events: [] };
+    const roadmap = await response.json().catch(() => null);
+    return buildEstateRoadmapPlan(roadmap, nowMillis, 36);
+  } catch (error) {
+    console.warn("Estate roadmap feed unavailable; continuing with HubSpot only.", error.message);
+    return { fresh: false, reason: "fetch_failed", events: [] };
+  }
 }
 
 async function makeEventId(sourceType, sourceKey) {
@@ -398,14 +403,13 @@ async function upsertCalendarEvent(env, accessToken, event) {
     "SELECT event_id, content_hash FROM cal_sync_events WHERE source_type=? AND source_key=?"
   ).bind(event.sourceType, event.sourceKey).first();
 
-  if (mapping && mapping.content_hash === hash) return "unchanged";
-
   let remote = await googleRequest(accessToken, "events/" + eventId);
   if (remote) {
     const marker = remote.extendedProperties?.private || {};
     if (marker.app !== APP || marker.sourceType !== event.sourceType || marker.sourceKey !== event.sourceKey) {
       throw new Error("A Google event ID collision was detected; refusing to overwrite an unrelated event.");
     }
+    if (mapping && mapping.content_hash === hash) return "unchanged";
     const patchResource = { ...resource };
     delete patchResource.id;
     await googleRequest(accessToken, "events/" + eventId, "PATCH", patchResource);
