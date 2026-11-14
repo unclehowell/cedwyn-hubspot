@@ -233,6 +233,12 @@ async function metaPut(env, key, value) {
 function eventStateKey(sourceType, sourceKey) {
   return "events/" + sourceType + "/" + encodeURIComponent(String(sourceKey));
 }
+function localHourAt(nowMillis) {
+  const parts = new Intl.DateTimeFormat("en-GB", {
+    timeZone: TIME_ZONE, hour: "2-digit", hourCycle: "h23"
+  }).formatToParts(new Date(nowMillis));
+  return Number(parts.find((part) => part.type === "hour")?.value || "0");
+}
 
 async function startGoogleOAuth(request, env) {
   if (!env.GOOGLE_CLIENT_ID || !env.GOOGLE_CLIENT_SECRET || !env.GOOGLE_REDIRECT_URI ||
@@ -561,6 +567,12 @@ async function previewSync(env) {
   }
 
   const desired = new Set(plan.events.map((event) => eventStateKey(event.sourceType, event.sourceKey)));
+  const desiredOverdueDate = plan.hubspotPlan.events.find(
+    (event) => event.sourceType === "hubspot_overdue_review"
+  )?.sourceKey ?? null;
+  const previewNow = Date.now();
+  const today = localDateKey(previewNow);
+  const reviewHour = localHourAt(previewNow);
   const deletions = [];
   for (const [key, mapping] of current.entries()) {
     const split = key.split("/");
@@ -568,11 +580,14 @@ async function previewSync(env) {
     const sourceKey = decodeURIComponent(split.slice(2).join("/"));
     if (sourceType === "hubspot_due_bundle") {
       const dueMillis = Number(sourceKey);
-      if (Number.isFinite(dueMillis) && dueMillis > Date.now() && !desired.has(key)) {
+      if (Number.isFinite(dueMillis) && dueMillis > previewNow && !desired.has(key)) {
         deletions.push({ sourceType, sourceKey });
       }
+    } else if (sourceType === "hubspot_overdue_review") {
+      const futureReminder = sourceKey > today || (sourceKey === today && reviewHour < 9);
+      if (futureReminder && sourceKey !== desiredOverdueDate) deletions.push({ sourceType, sourceKey });
     } else if (sourceType === "estate_roadmap_day" && plan.roadmapPlan.fresh &&
-               sourceKey >= localDateKey(Date.now()) && !desired.has(key)) {
+               sourceKey >= today && !desired.has(key)) {
       deletions.push({ sourceType, sourceKey });
     }
   }
@@ -631,8 +646,13 @@ async function runSync(env, limit = NORMAL_RUN_LIMIT) {
     if (complete) {
       const desiredFutureBundles = new Set(plan.hubspotPlan.events
         .filter((event) => event.sourceType === "hubspot_due_bundle").map((event) => String(event.sourceKey)));
+      const desiredOverdueDate = plan.hubspotPlan.events.find(
+        (event) => event.sourceType === "hubspot_overdue_review"
+      )?.sourceKey ?? null;
       const desiredRoadmapDates = new Set(plan.roadmapPlan.fresh
         ? plan.roadmapPlan.events.map((event) => String(event.sourceKey)) : []);
+      const today = localDateKey(now);
+      const reviewHour = localHourAt(now);
       const eventKeys = await listAll(env, "events/");
       for (const item of eventKeys) {
         const mapping = await stateGet(env, item.name);
@@ -646,8 +666,14 @@ async function runSync(env, limit = NORMAL_RUN_LIMIT) {
             await deleteCalendarEvent(env, accessToken, calendarId, sourceType, sourceKey, mapping.eventId);
             counts.deleted++;
           }
+        } else if (sourceType === "hubspot_overdue_review") {
+          const futureReminder = sourceKey > today || (sourceKey === today && reviewHour < 9);
+          if (futureReminder && sourceKey !== desiredOverdueDate) {
+            await deleteCalendarEvent(env, accessToken, calendarId, sourceType, sourceKey, mapping.eventId);
+            counts.deleted++;
+          }
         } else if (sourceType === "estate_roadmap_day" && plan.roadmapPlan.fresh &&
-            sourceKey >= localDateKey(now) && !desiredRoadmapDates.has(sourceKey)) {
+            sourceKey >= today && !desiredRoadmapDates.has(sourceKey)) {
           await deleteCalendarEvent(env, accessToken, calendarId, sourceType, sourceKey, mapping.eventId);
           counts.deleted++;
         }
