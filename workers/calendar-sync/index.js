@@ -142,6 +142,62 @@ function randomSecret(bytes = 32) {
   return base64Url(crypto.getRandomValues(new Uint8Array(bytes)));
 }
 
+function decodeJwtPart(value) {
+  return JSON.parse(new TextDecoder().decode(decodeBase64Url(value)));
+}
+
+async function verifyGitHubOidc(token) {
+  const parts = String(token || "").split(".");
+  if (parts.length !== 3) return { ok: false, reason: "malformed_token" };
+  let header;
+  let claims;
+  try {
+    header = decodeJwtPart(parts[0]);
+    claims = decodeJwtPart(parts[1]);
+  } catch {
+    return { ok: false, reason: "malformed_token" };
+  }
+
+  if (header.alg !== "RS256" || !header.kid) return { ok: false, reason: "unsupported_signature" };
+  if (claims.iss !== "https://token.actions.githubusercontent.com") return { ok: false, reason: "wrong_issuer" };
+  const audience = claims.aud;
+  if (!(audience === "cedwyn-hubspot-calendar-sync" ||
+      (Array.isArray(audience) && audience.includes("cedwyn-hubspot-calendar-sync")))) {
+    return { ok: false, reason: "wrong_audience" };
+  }
+  if (claims.repository !== "unclehowell/cedwyn-hubspot" ||
+      claims.ref !== "refs/heads/main" ||
+      !String(claims.workflow_ref || "").startsWith(
+        "unclehowell/cedwyn-hubspot/.github/workflows/calendar-sync-scheduler.yml@refs/heads/main"
+      ) ||
+      !["schedule", "workflow_dispatch"].includes(claims.event_name)) {
+    return { ok: false, reason: "workflow_not_authorized" };
+  }
+
+  const now = Math.floor(Date.now() / 1000);
+  if (!Number.isFinite(Number(claims.exp)) || Number(claims.exp) <= now ||
+      (claims.nbf != null && Number(claims.nbf) > now + 30) ||
+      (claims.iat != null && Number(claims.iat) > now + 30)) {
+    return { ok: false, reason: "expired_or_not_yet_valid" };
+  }
+
+  const jwksResponse = await fetch("https://token.actions.githubusercontent.com/.well-known/jwks", {
+    cf: { cacheTtl: 3600, cacheEverything: true }
+  });
+  if (!jwksResponse.ok) return { ok: false, reason: "jwks_unavailable" };
+  const jwks = await jwksResponse.json();
+  const jwk = (jwks.keys || []).find((key) => key.kid === header.kid && key.kty === "RSA");
+  if (!jwk) return { ok: false, reason: "signing_key_not_found" };
+
+  const publicKey = await crypto.subtle.importKey(
+    "jwk", jwk, { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" }, false, ["verify"]
+  );
+  const signingInput = new TextEncoder().encode(parts[0] + "." + parts[1]);
+  const signature = decodeBase64Url(parts[2]);
+  const valid = await crypto.subtle.verify("RSASSA-PKCS1-v1_5", publicKey, signature, signingInput);
+  return valid ? { ok: true, claims } : { ok: false, reason: "invalid_signature" };
+}
+
 async function stateGet(env, key) {
   return env.STATE.get(key, "json");
 }
@@ -715,6 +771,18 @@ export default {
     }
     if (url.pathname === "/admin/sync" && request.method === "POST") {
       return initialize(request, env);
+    }
+    if (url.pathname === "/internal/scheduled" && request.method === "POST") {
+      const authorization = request.headers.get("authorization") || "";
+      const match = /^Bearer\\s+(.+)$/.exec(authorization);
+      if (!match) return json({ ok: false, error: "GitHub OIDC token required." }, 401);
+      const verified = await verifyGitHubOidc(match[1]);
+      if (!verified.ok) return json({ ok: false, error: "Scheduler identity rejected.", reason: verified.reason }, 403);
+      if (await metaGet(env, "initial_sync_approved") !== "true") {
+        return json({ ok: true, skipped: true, reason: "first_sync_not_approved" });
+      }
+      const result = await runSync(env, NORMAL_RUN_LIMIT);
+      return json(result, result.ok ? 200 : 502);
     }
     return json({ ok: false, error: "Not found" }, 404);
   },
