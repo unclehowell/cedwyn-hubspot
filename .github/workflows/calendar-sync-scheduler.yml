@@ -1,0 +1,38 @@
+name: calendar-sync-scheduler
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: calendar-sync-scheduler
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Request GitHub OIDC token and trigger the private sync Worker
+        shell: bash
+        env:
+          WORKER_URL: https://cedwyn-hubspot-calendar-sync.righteous.workers.dev
+        run: |
+          set -euo pipefail
+          oidc_url="${ACTIONS_ID_TOKEN_REQUEST_URL}&audience=cedwyn-hubspot-calendar-sync"
+          oidc_json="$(curl --fail --silent --show-error \
+            -H "Authorization: bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN}" \
+            "${oidc_url}")"
+          oidc_token="$(jq -r '.value // empty' <<< "${oidc_json}")"
+          test -n "${oidc_token}"
+          response="$(curl --fail --silent --show-error \
+            -X POST \
+            -H "Authorization: Bearer ${oidc_token}" \
+            -H "Accept: application/json" \
+            "${WORKER_URL}/internal/scheduled")"
+          jq . <<< "${response}"
