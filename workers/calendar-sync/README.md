@@ -30,7 +30,7 @@ Other website pages and arbitrary GitHub issue prose are not scanned for dates. 
 
 ## Event policy
 
-- Runs every 15 minutes after first-run approval. Cloudflare Cron Triggers run in UTC.
+- Runs every 15 minutes after first-run approval. GitHub Actions requests a short-lived OIDC token and invokes the Worker; no long-lived scheduler secret is stored in GitHub.
 - Future HubSpot tasks with the same exact due timestamp are grouped into one event, preserving the original instant and displaying it in `Europe/Amsterdam`.
 - Future DEFERRED tasks are included because they have an explicit future schedule. Past-due DEFERRED tasks are excluded from the overdue roll-up.
 - Open, past-due NOT_STARTED / IN_PROGRESS / WAITING tasks are summarised in one daily 09:00 Amsterdam triage event, rather than hundreds of backdated appointments. If it is already 09:00 or later, the next morning is used.
@@ -76,7 +76,7 @@ Enable Google Calendar API in Google Cloud. Create a Web application OAuth clien
 4. Configure the HubSpot Service Key and confirm `/health` reports both sources connected.
 5. POST `/admin/sync?mode=dry-run` with HTTP Basic authentication. Review counts, source freshness and sample events. No Google writes occur during dry run.
 6. Only after the dry-run result is acceptable, POST `/admin/sync?mode=apply`. This is the explicit first-write approval and is capped at 25 calendar events.
-7. The `*/15 * * * *` Cron Trigger then runs automatically. Later runs reconcile changed / completed tasks, update existing events and add new ones.
+7. Merge the scheduler workflow to `main`. GitHub Actions then invokes the Worker every 15 minutes with a short-lived OIDC token. The Worker validates the token signature, audience, repository, workflow path, main-branch ref and event type before it will run. Later runs reconcile changed / completed tasks, update existing events and add new ones.
 
 The Worker stays fail-closed if the first sync has not been approved. Merely adding credentials will not create calendar events.
 
@@ -88,7 +88,7 @@ The Worker stays fail-closed if the first sync has not been approved. Merely add
 - `POST /admin/sync?mode=dry-run`: read sources and report a proposed sync without Google writes.
 - `POST /admin/sync?mode=apply`: first owner-approved write (25-event cap).
 - `POST /admin/sync?mode=continue`: authenticated continuation after first approval.
-- Cron: automatic reconciliation every 15 minutes after approval.
+- Automatic scheduler: `.github/workflows/calendar-sync-scheduler.yml` on `main`, every 15 minutes; GitHub OIDC is verified by the Worker at `/internal/scheduled`.
 
 ## Tests
 
