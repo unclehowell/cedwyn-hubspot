@@ -1,0 +1,20 @@
+{
+  "name": "cedwyn-hubspot-calendar-sync",
+  "main": "workers/calendar-sync/index.js",
+  "compatibility_date": "2026-11-14",
+  "workers_dev": true,
+  "observability": {
+    "enabled": true
+  },
+  "kv_namespaces": [
+    {
+      "binding": "STATE",
+      "id": "3692642c84404821957f0e4cc5996f79"
+    }
+  ],
+  "triggers": {
+    "crons": [
+      "*/15 * * * *"
+    ]
+  }
+}
