@@ -69,6 +69,8 @@ test("overdue roll-up excludes deliberately deferred tasks", () => {
 
   const rollup = plan.events.find((item) => item.sourceType === "hubspot_overdue_review");
   assert.equal(plan.overdueTaskCount, 2);
+  assert.equal(rollup.sourceKey, "2026-11-15");
+  assert.equal(rollup.resource.start.dateTime, "2026-11-15T09:00:00");
   assert.ok(rollup);
   assert.match(rollup.resource.summary, /2 active tasks/);
   assert.ok(!rollup.resource.description.includes("Deferred research"));
@@ -101,5 +103,5 @@ test("fresh roadmap matters are grouped by date and use all-day events", () => {
   assert.equal(result.events[0].sourceKey, "2026-11-16");
   assert.equal(result.events[0].resource.start.date, "2026-11-16");
   assert.equal(result.events[0].resource.end.date, "2026-11-17");
-  assert.match(result.events[0].resource.summary, /2 diarised items/);
+  assert.match(result.events[0].resource.summary, /2 diarised item/);
 });
